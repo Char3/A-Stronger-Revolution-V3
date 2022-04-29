@@ -1,0 +1,1171 @@
+﻿l_korean:
+ # [LocEditor:UntranslatedKey] `ANY_TRIGGER_FILTER_TEXT`
+ TRIGGER_PASSED:0 "@green_checkmark! $TEXT$"
+ TRIGGER_FAILED:0 "@red_cross! $TEXT$"
+ TRIGGER_RESULT_UNDEFINED:0 "  • $TEXT$"
+ TRIGGER_NAND:0 "어느 하나 해당:"
+ TRIGGER_OR_NOT:0 "모두 해당 없음:"
+ TRIGGER_ALWAYS:0 "항상"
+ TRIGGER_HAS_STATE_TRAIT:0 "[STATE_TRAIT.GetName] 특성을 보유함"
+ TRIGGER_HAS_STATE_TRAIT_NOT:0 "[STATE_TRAIT.GetName] 특성을 보유하지 않음"
+ TRIGGER_IS_HOMELAND:0 "[STATE_REGION.GetName](은)는 [TARGET_CULTURE.GetName] 문화의 본토임"
+ TRIGGER_IS_HOMELAND_NOT:0 "[STATE_REGION.GetName](은)는 [TARGET_CULTURE.GetName] 문화의 본토가 아님"
+ TRIGGER_HAS_HOMELAND:0 "[CULTURE.GetName]문화가 [TARGET_STATE_REGION.GetName](을)를 본토로 여김"
+ TRIGGER_HAS_HOMELAND_NOT:0 "[CULTURE.GetName]문화가 [TARGET_STATE_REGION.GetName](을)를 본토로 여기지 않음"
+ TRIGGER_IS_PLAYER:0 "플레이어가 제어하고 있음"
+ TRIGGER_IS_PLAYER_NOT:0 "플레이어가 제어하지 않음"
+ TRIGGER_IS_LOCAL_PLAYER:0 "로컬 플레이어가 제어하고 있음"
+ TRIGGER_IS_LOCAL_PLAYER_NOT:0 "로컬 플레이어가 제어하지 않음"
+ TRIGGER_IS_AI:0 "AI가 제어하고 있음"
+ TRIGGER_IS_AI_NOT:0 "AI가 제어하지 않음"
+ TRIGGER_IS_INTEREST_GROUP_TYPE:0 "#variable $TARGET_TYPE$#! 유형에 속함"
+ TRIGGER_IS_INTEREST_GROUP_TYPE_NOT:0 "#variable $TARGET_TYPE$#! 유형에 속하지 않음"
+ TRIGGER_IS_SAME_INTEREST_GROUP_TYPE:0 "[TARGET_INTEREST_GROUP.GetName](와)과 동일 유형에 속함"
+ TRIGGER_IS_SAME_INTEREST_GROUP_TYPE_NOT:0 "[TARGET_INTEREST_GROUP.GetName](와)과 동일 유형에 속하지 않음"
+ TRIGGER_IS_STATE_RELIGION:0 "[TARGET_COUNTRY.GetName]의 [concept_state_religion]임"
+ TRIGGER_IS_STATE_RELIGION_NOT:0 "[TARGET_COUNTRY.GetName]의 [concept_state_religion]가 아님"
+ TRIGGER_HAS_COAST:0 "해안 지방임"
+ TRIGGER_HAS_COAST_NOT:0 "해안 지방이 아님"
+ TRIGGER_IS_STATE_REGION_LAND:0 "[STATE_REGION.GetName](은)는 육지임"
+ TRIGGER_IS_STATE_REGION_LAND_NOT:0 "[STATE_REGION.GetName](은)는 육지가 아님"
+ TRIGGER_IS_PROVINCE_LAND:0 "[PROVINCE.GetState.GetName]의 지방이 육지임"
+ TRIGGER_IS_PROVINCE_LAND_NOT:0 "[PROVINCE.GetState.GetName]의 지방이 육지가 아님"
+ TRIGGER_HAS_BUILDING:0 "[BuildingType.GetName](을)를 건설함"
+ TRIGGER_HAS_BUILDING_NOT:0 "[BuildingType.GetName] 없음"
+ TRIGGER_HAS_ACTIVE_BUILDING:0 "가동 중인 [BuildingType.GetName] 건물이 있음"
+ TRIGGER_HAS_ACTIVE_BUILDING_NOT:0 "가동 중인 [BuildingType.GetName] 건물이 없음"
+ EVENT_TARGET_NO_CUSTOM_NAME:0 "$SPECIFIC|v$"
+ EVENT_TARGET_CUSTOM_NAME:0 "$GENERAL|v$ ($SPECIFIC|V$)"
+ EVENT_TARGET_NOT_COMPARISON_TRIGGER:0 "$LEFT|v$(은)는 $RIGHT|v$(이)가 아님"
+ EVENT_TARGET_COMPARISON_TRIGGER:0 "$LEFT|v$(은)는 $RIGHT|v$임"
+ TRIGGER_HAS_DECREE:0 "[DECREE_TYPE.GetName] [concept_decree]을 선포함"
+ TRIGGER_HAS_DECREE_NOT:0 "[DECREE_TYPE.GetName] [concept_decree]을 선포하지 않음"
+ TRIGGER_HAS_INTEREST_MARKER_IN_REGION:0 "[TARGET_STRATEGIC_REGION.GetName]에 [concept_interest]가 존재함"
+ TRIGGER_HAS_INTEREST_MARKER_IN_REGION_NOT:0 "[TARGET_STRATEGIC_REGION.GetName]에 [concept_interest]가 존재하지 않음"
+ TRIGGER_HAS_TECHNOLOGY_RESEARCHED:0 "[TECHNOLOGY.GetName] 기술을 연구함"
+ TRIGGER_HAS_TECHNOLOGY_RESEARCHED_NOT:0 "[TECHNOLOGY.GetName] 기술을 연구하지 않음"
+ TRIGGER_CAN_RESEARCH:0 "[TECHNOLOGY.GetName] 기술을 연구할 수 있음"
+ TRIGGER_CAN_RESEARCH_NOT:0 "[TECHNOLOGY.GetName] 기술을 연구할 수 없음"
+ TRIGGER_IS_WAR_PARTICIPANT:0 "[TARGET_COUNTRY.GetName](이)가 참전 중임"
+ TRIGGER_IS_WAR_PARTICIPANT_NOT:0 "[TARGET_COUNTRY.GetName](이)가 참전 중이지 않음"
+ TRIGGER_CAN_FORM_NATION:0 "[COUNTRY_FORMATION.GetName](을)를 형성할 수 있음" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_CAN_FORM_NATION_NOT:0 "[COUNTRY_FORMATION.GetName](을)를 형성할 수 없음" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_UNIFICATION_CANDIDATE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_UNIFICATION_CANDIDATE_NOT`
+ TRIGGER_HAS_JOURNAL_ENTRY:0 "활성화된 [JOURNAL_ENTRY_TYPE.GetName] [concept_journal_entry]을 보유하고 있음"
+ TRIGGER_HAS_JOURNAL_ENTRY_NOT:0 "활성화된 [JOURNAL_ENTRY_TYPE.GetName] [concept_journal_entry]을 보유하고 있지 않음"
+ TRIGGER_HAS_VARIABLE:0 "#variable The Country#! has #variable the variable in question#! #todo (remember to make a custom desc for this)#!"
+ TRIGGER_HAS_VARIABLE_NOT:0 "#variable The Country#! does NOT have #variable the variable in question#! #todo (remember to make a custom desc for this)#!"
+ TRIGGER_TAKING_LOANS:0 "대출을 받고 있음"
+ TRIGGER_TAKING_LOANS_NOT:0 "대출을 받지 않음"
+ TRIGGER_COUNTRY_THIS_EQUAL:0 "국가가 [OBJECT_SCOPE.GetCountry.GetName]임"
+ TRIGGER_COUNTRY_THIS_EQUAL_NOT:0 "국가가 [OBJECT_SCOPE.GetCountry.GetName](이)가 아님"
+ TRIGGER_INITIATOR_IS:0 "[TARGET_COUNTRY.GetName](이)가 개시자임"
+ TRIGGER_INITIATOR_IS_NOT:0 "[TARGET_COUNTRY.GetName](이)가 개시자가 아님"
+ TRIGGER_TARGET_IS:0 "[TARGET_COUNTRY.GetName](이)가 대상임"
+ TRIGGER_TARGET_IS_NOT:0 "[TARGET_COUNTRY.GetName](이)가 대상이 아님"
+ TRIGGER_IS_DIPLOMATIC_PLAY_COMMITTED_PARTICIPANT:0 "임의의 [concept_diplomatic_play]에서 결심 참여자임"
+ TRIGGER_IS_DIPLOMATIC_PLAY_COMMITTED_PARTICIPANT_NOT:0 "임의의 [concept_diplomatic_play]에서 결심 참여자가 아님"
+ TRIGGER_IS_DIPLOMATIC_PLAY_UNDECIDED_PARTICIPANT:0 "임의의 [concept_diplomatic_play]에서 미정 참여자임"
+ TRIGGER_IS_DIPLOMATIC_PLAY_UNDECIDED_PARTICIPANT_NOT:0 "임의의 [concept_diplomatic_play]에서 미정 참여자가 아님"
+ TRIGGER_IS_DIPLOMATIC_PLAY_TARGET:0 "외교전의 대상임"
+ TRIGGER_IS_DIPLOMATIC_PLAY_TARGET_NOT:0 "외교전의 대상이 아님"
+ TRIGGER_IS_DIPLOMATIC_PLAY_TYPE:0 "외교전의 종류가 [DIPLOMATIC_PLAY_TYPE.GetName]임"
+ TRIGGER_IS_DIPLOMATIC_PLAY_TYPE_NOT:0 "외교전의 종류가 [DIPLOMATIC_PLAY_TYPE.GetName](이)가 아님"
+ TRIGGER_HAS_PLAY_GOAL:0 "전쟁 목표 [WAR_GOAL_TYPE.GetName](이)가 포함됨"
+ TRIGGER_HAS_PLAY_GOAL_NOT:0 "전쟁 목표 [WAR_GOAL_TYPE.GetName](이)가 포함되지 않음"
+ TRIGGER_HAS_WAR_GOAL:0 "전쟁 목표 [WAR_GOAL_TYPE.GetName](이)가 포함됨"
+ TRIGGER_HAS_WAR_GOAL_NOT:0 "전쟁 목표 [WAR_GOAL_TYPE.GetName](이)가 포함되지 않음"
+ TRIGGER_IS_SUBJECT:0 "타국의 종속국임"
+ TRIGGER_IS_SUBJECT_NOT:0 "타국의 종속국이 아님"
+ TRIGGER_AGGRESSIVE_DIPLOMATIC_PLAYS_PERMITTED:0 "종속 협정이 해당 국가의 자체적인 외교전을 허용함 (혹은 해당 국가가 종속국이 아님)"
+ TRIGGER_AGGRESSIVE_DIPLOMATIC_PLAYS_PERMITTED_NOT:0 "종속 협정이 해당 국가의 자체적인 외교전을 허용하지 않음"
+ TRIGGER_AVERAGE_COUNTRY_INFRASTRUCTURE:0 "국가가 보유한 모든 주의 평균 [concept_infrastructure]이 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_AVERAGE_COUNTRY_INFRASTRUCTURE_NOT:0 "국가가 보유한 모든 주의 평균 [concept_infrastructure]이 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_AVERAGE_INCORPORATED_COUNTRY_INFRASTRUCTURE:0 "국가가 보유한 [Concept('concept_incorporated_state', '$concept_incorporated_states$')]의 평균 [concept_infrastructure]이 #variable $NUM$#! $COMPARATOR$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_AVERAGE_INCORPORATED_COUNTRY_INFRASTRUCTURE_NOT:0 "국가가 보유한 [Concept('concept_incorporated_state', '$concept_incorporated_states$')]의 평균 [concept_infrastructure]이 #variable $NUM$#! $COMPARATOR$(이)가 아님" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_WAR:0 "전쟁으로 확대됨"
+ TRIGGER_IS_WAR_NOT:0 "전쟁으로 확대되지 않음"
+ TRIGGER_IS_COUNTRY_TYPE:0 "#variable $COUNTRY_TYPE$#!임"
+ TRIGGER_IS_COUNTRY_TYPE_NOT:0 "#variable $COUNTRY_TYPE$#!(이)가 아님"
+ TRIGGER_IS_SUBJECT_TYPE:0 "$SUBJECT_TYPE|v$ 유형 [concept_subject]에 속함"
+ TRIGGER_IS_SUBJECT_TYPE_NOT:0 "$SUBJECT_TYPE|v$ 유형 [concept_subject]에 속하지 않음"
+ TRIGGER_CONTEXT_MARKET:0 "$NAME|v$"
+ TRIGGER_CONTEXT_STATE:0 "$NAME|v$"
+ TRIGGER_CONTEXT_COUNTRY:0 "$NAME|v$"
+ TRIGGER_CONTEXT_DEFAULT:0 "$NAME|v$"
+ TRIGGER_HAS_CULTURE:0 "문화가 [CULTURE.GetName] 문화임"
+ TRIGGER_HAS_CULTURE_NOT:0 "문화가 [CULTURE.GetName] 문화가 아님"
+ TRIGGER_HAS_RELIGION:0 "[TARGET_RELIGION.GetName](을)를 믿음"
+ TRIGGER_HAS_RELIGION_NOT:0 "[TARGET_RELIGION.GetName](을)를 믿지 않음"
+ TRIGGER_IS_EMPLOYED:0 "고용됨"
+ TRIGGER_IS_EMPLOYED_NOT:0 "고용되지 않음"
+ TRIGGER_IS_POP_TYPE:0 "해당 인구층은 [POP_TYPE.GetName]임"
+ TRIGGER_IS_POP_TYPE_NOT:0 "해당 인구층은 [POP_TYPE.GetName](이)가 아님"
+ TRIGGER_HAS_TRAIT:0 "[CHARACTER_TRAIT.GetName] 특성을 보유함"
+ TRIGGER_HAS_TRAIT_NOT:0 "[CHARACTER_TRAIT.GetName] 특성을 보유하지 않음"
+ TRIGGER_IS_FEMALE:0 "여성임"
+ TRIGGER_IS_FEMALE_NOT:0 "여성이 아님"
+ TRIGGER_IS_CHARACTER_ALIVE:0 "[CHARACTER.GetFullName](이)가 생존함"
+ TRIGGER_IS_CHARACTER_ALIVE_NOT:0 "[CHARACTER.GetFullName](이)가 사망함"
+ TRIGGER_IS_BUSY:0 "바쁨"
+ TRIGGER_IS_BUSY_NOT:0 "바쁘지 않음"
+ TRIGGER_IS_IN_VOID:0 "사라졌음"
+ TRIGGER_IS_IN_VOID_NOT:0 "사라지지 않음"
+ TRIGGER_IS_BUILDING_TYPE:0 "건물이 [BUILDING_TYPE.GetName]임"
+ TRIGGER_IS_BUILDING_TYPE_NOT:0 "건물이 [BUILDING_TYPE.GetName](이)가 아님"
+ TRIGGER_EXPECTED_QUALITY_OF_LIFE:0 "예상 생활 수준이 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_EXPECTED_QUALITY_OF_LIFE_NOT:0 "예상 생활 수준이 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_HAS_MODIFIER:0 "#variable $MODIFIER$#! 변화 요인을 보유하고 있음"
+ TRIGGER_HAS_MODIFIER_NOT:0 "#variable $MODIFIER$#! 변화 요인을 보유하고 있지 않음"
+ TRIGGER_HAS_EMPLOYEE_SLOTS_FILLED:0 "근로자 슬롯이 가득 찼음"
+ TRIGGER_HAS_EMPLOYEE_SLOTS_FILLED_NOT:0 "근로자 슬롯이 가득 차지 않음"
+ TRIGGER_IS_DIPLOMATIC_PLAY_INITIATOR:0 "임의의 외교전의 개시자임"
+ TRIGGER_IS_DIPLOMATIC_PLAY_INITIATOR_NOT:0 "그 어떤 외교전의 개시자도 아님"
+ TRIGGER_IN_DEFAULT:0 "채무불이행 상태임"
+ TRIGGER_IN_DEFAULT_NOT:0 "채무불이행 상태가 아님"
+ TRIGGER_IN_ELECTION_CAMPAIGN:0 "선거 운동 기간임"
+ TRIGGER_IN_ELECTION_CAMPAIGN_NOT:0 "선거 운동 기간이 아님"
+ TRIGGER_HAS_WAR_WITH:0 "[TARGET_COUNTRY.GetName](와)과 전쟁 중임"
+ TRIGGER_HAS_WAR_WITH_NOT:0 "[TARGET_COUNTRY.GetName](와)과 전쟁 중이 아님"
+ TRIGGER_HAS_DIPLOMATS_EXPELLED:0 "최근 [TARGET_COUNTRY.GetName]의 외교관을 추방함"
+ TRIGGER_HAS_DIPLOMATS_EXPELLED_NOT:0 "최근 [TARGET_COUNTRY.GetName]의 외교관을 추방하지 않음"
+ TRIGGER_HAS_STRATEGIC_ADJACENCY:0 "$TARGET$(와)과 전략적 인접지를 보유하고 있음"
+ TRIGGER_HAS_STRATEGIC_ADJACENCY_NOT:0 "$TARGET$(와)과 전략적 인접지를 보유하고 있지 않음"
+ TRIGGER_HAS_OVERLAPPING_INTERESTS:0 "[TARGET_COUNTRY.GetName](와)과 겹치는 [concept_interest] 관계를 보유하고 있음"
+ TRIGGER_HAS_OVERLAPPING_INTERESTS_NOT:0 "[TARGET_COUNTRY.GetName](와)과 겹치는 [concept_interest] 관계를 보유하고 있지 않음"
+ TRIGGER_HAS_DIPLOMATIC_RELEVANCE:0 "[TARGET_COUNTRY.GetName](와)과 외교적 관련성을 보유하고 있음"
+ TRIGGER_HAS_DIPLOMATIC_RELEVANCE_NOT:0 "[TARGET_COUNTRY.GetName](와)과 외교적 관련성을 보유하고 있지 않음"
+ TRIGGER_HAS_CLAIM:0 "[TARGET_STATE_REGION.GetName]에 [concept_claim]을 보유하고 있음"
+ TRIGGER_HAS_CLAIM_NOT:0 "[TARGET_STATE_REGION.GetName]에 [concept_claim]을 보유하고 있지 않음"
+ TRIGGER_HAS_CLAIM_BY:0 "[Country.GetName]의 [Concept('concept_claim', '$concept_claimed$')]에 속함" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_CLAIM_BY_NOT:0 "[Country.GetName]의 [Concept('concept_claim', '$concept_claimed$')]에 속하지 않음" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_IN_WAR_TOGETHER:0 "[TARGET_COUNTRY.GetName]의 전쟁 동맹임"
+ TRIGGER_IS_IN_WAR_TOGETHER_NOT:0 "[TARGET_COUNTRY.GetName]의 전쟁 동맹이 아님"
+ TRIGGER_IS_WARLEADER:0 "[TARGET_COUNTRY.GetName|v](이)가 전쟁 주도국임"
+ TRIGGER_IS_WARLEADER_NOT:0 "[TARGET_COUNTRY.GetName|v](이)가 전쟁 주도국이 아님"
+ TRIGGER_IS_UNDER_CONSTRUCTION:0 "건설 중임"
+ TRIGGER_IS_UNDER_CONSTRUCTION_NOT:0 "건설 중이지 않음"
+ # [LocEditor:UntranslatedKey] `TRIGGER_OWES_OBLIGATION_TO`
+ # [LocEditor:UntranslatedKey] `TRIGGER_OWES_OBLIGATION_TO_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_OWED_OBLIGATION_BY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_OWED_OBLIGATION_BY_NOT`
+ TRIGGER_HAS_SUBJECT_RELATION_WITH:0 "[TARGET_COUNTRY.GetName](와)과 종속국 관계임"
+ TRIGGER_HAS_SUBJECT_RELATION_WITH_NOT:0 "[TARGET_COUNTRY.GetName](와)과 종속국 관계가 아님"
+ TRIGGER_IS_SUBJECT_OF:0 "[TARGET_COUNTRY.GetName]의 종속국임"
+ TRIGGER_IS_SUBJECT_OF_NOT:0 "[TARGET_COUNTRY.GetName]의 종속국이 아님"
+ TRIGGER_HAS_DIPLOMATIC_PACT:0 "[TARGET_COUNTRY.GetName](와)과 [DIPLOMATIC_ACTION_TYPE.GetName] 관계임"
+ TRIGGER_HAS_DIPLOMATIC_PACT_NOT:0 "[TARGET_COUNTRY.GetName](와)과 [DIPLOMATIC_ACTION_TYPE.GetName] 관계가 아님"
+ TRIGGER_CAN_HAVE_AS_SUBJECT:0 "[COUNTRY.GetName](은)는 [TARGET_COUNTRY.GetName](을)를 $SUBJECT_TYPE|v$ 유형 [concept_subject]으로 보유할 수 있음"
+ TRIGGER_CAN_HAVE_AS_SUBJECT_NOT:0 "[COUNTRY.GetName](은)는 [TARGET_COUNTRY.GetName](을)를 $SUBJECT_TYPE|v$ 유형 [concept_subject]으로 보유할 수 없음"
+ TRIGGER_HAS_STRATEGY:0 "#variable [AIStrategy.GetName]#! 전략을 보유 중임"
+ TRIGGER_HAS_STRATEGY_NOT:0 "#variable [AIStrategy.GetName]#! 전략을 보유 중이지 않음"
+ TRIGGER_HAS_ATTITUDE:0 "[TARGET_COUNTRY.GetName]에 #variable $ATTITUDE$#! 태도를 고수 중임"
+ TRIGGER_HAS_ATTITUDE_NOT:0 "[TARGET_COUNTRY.GetName]에 #variable $ATTITUDE$#! 태도를 고수 중이지 않음"
+ TRIGGER_HAS_SECRET_GOAL:0 "[TARGET_COUNTRY.GetName]에 대해 #variable $SECRET_GOAL$#!이란 비밀 목표를 보유하고 있음"
+ TRIGGER_HAS_SECRET_GOAL_NOT:0 "[TARGET_COUNTRY.GetName]에 대해 #variable $SECRET_GOAL$#!이란 비밀 목표를 보유하고 있지 않음"
+ TRIGGER_MODIFIER_EQUAL:0 "#variable $MODIFIER_NAME$#! 변화 요인의 값이 #variable $VALUE$#!(와)과 동일함"
+ TRIGGER_CAN_TAKE_ON_SCALED_DEBT:0 "@money!#variable $VALUE|K0$#!에 해당하는 [TARGET_COUNTRY.GetAdjective|v]의 부채를 인수할 수 있음" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_CAN_TAKE_ON_SCALED_DEBT_NOT:0 "@money!#variable $VALUE|K0$#!에 해당하는 [TARGET_COUNTRY.GetAdjective|v]의 부채를 인수할 수 없음" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_CAN_HAVE_SUBJECTS:0 "[COUNTRY.GetName](은)는 종속국을 보유할 수 있음"
+ TRIGGER_CAN_HAVE_SUBJECTS_NOT:0 "[COUNTRY.GetName](은)는 종속국을 보유할 수 없음"
+ TRIGGER_IS_IN_CUSTOMS_UNION:0 "[Country.GetName](은)는 관세 동맹에 속함"
+ TRIGGER_IS_IN_CUSTOMS_UNION_NOT:0 "[Country.GetName](은)는 관세 동맹에 속하지 않음"
+ TRIGGER_LEADS_CUSTOMS_UNION:0 "[Country.GetName](이)가 관세 동맹의 수장임"
+ TRIGGER_LEADS_CUSTOMS_UNION_NOT:0 "[Country.GetName](이)가 관세 동맹의 수장이 아님"
+ TRIGGER_LITERACY_RATE:0 "$SUBJECT$의 식자율이 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_LITERACY_RATE_NOT:0 "$SUBJECT$의 식자율이 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_HAS_SCALED_DEBT:0 "@money!#variable $VALUE|K0$#! $COMPARATOR$의 부채를 보유함"
+ TRIGGER_HAS_SCALED_DEBT_NOT:0 "@money!#variable $VALUE|K0$#! $COMPARATOR$의 부채를 보유하고 있지 않음"
+ TRIGGER_RELATIONS:0 "#variable $COUNTRY_ADJ$#!(와)과 #variable $TARGET_COUNTRY$#!의 관계가 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_RELATIONS_NOT:0 "#variable $COUNTRY_ADJ$#!(와)과 #variable $TARGET_COUNTRY$#!의 관계가 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_ARABLE_LAND:0 "경작지가 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_ARABLE_LAND_NOT:0 "경작지가 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_FREE_ARABLE_LAND:0 "사용 가능한 경작지가 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_FREE_ARABLE_LAND_NOT:0 "사용 가능한 경작지가 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_TREASURY:0 "국고가 @money!#variable $NUM$#! $COMPARATOR$"
+ TRIGGER_TREASURY_NOT:0 "국고가 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_INTEREST_GROUP_POPULATION:0 "인구가 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_INTEREST_GROUP_POPULATION_NOT:0 "인구가 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_WEEKLY_PROFIT:0 "주간 이윤이 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_WEEKLY_PROFIT_NOT:0 "주간 이윤이 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_OCCUPANCY:0 "[BUILDING.GetName]의 노동 인구 점유율이 #variable $NUM|%0v$#! $COMPARATOR$"
+ TRIGGER_OCCUPANCY_NOT:0 "[BUILDING.GetName]의 노동 인구 점유율이 #variable $NUM|%0v$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_INTEREST_GROUP_POPULATION_PERCENTAGE:0 "국가 인구 비율 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_INTEREST_GROUP_POPULATION_PERCENTAGE_NOT:0 "국가 인구 비율 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_HAS_TECHNOLOGY_PROGRESS:0 "[TECHNOLOGY.GetName]의 기술 진행도가 #variable $NUM|%$#! $COMPARATOR$"
+ TRIGGER_HAS_TECHNOLOGY_PROGRESS_NOT:0 "[TECHNOLOGY.GetName]의 기술 진행도가 #variable $NUM|%$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_ESCALATION:0 "단계적 확대 수준이 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_ESCALATION_NOT:0 "단계적 확대 수준이 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_STRATA:0 "계층이 $STRATA$ $COMPARATOR$"
+ TRIGGER_STRATA_NOT:0 "계층이 $STRATA$ $COMPARATOR$(이)가 아님"
+ TRIGGER_AGE:0 "연령이 $NUM|v$ $COMPARATOR$"
+ TRIGGER_AGE_NOT:0 "연령이 $NUM|v$ $COMPARATOR$(이)가 아님"
+ TRIGGER_COMMANDER_RANK:0 "지휘관 계급이 $NUM|v$ $COMPARATOR$"
+ TRIGGER_COMMANDER_RANK_NOT:0 "지휘관 계급이 $NUM|v$ $COMPARATOR$(이)가 아님"
+ TRIGGER_ARMY_RESERVES:0 "예비군이 $NUM|v$ $COMPARATOR$"
+ TRIGGER_ARMY_RESERVES_NOT:0 "예비군이 $NUM|v$ $COMPARATOR$(이)가 아님"
+ TRIGGER_NAVY_RESERVES:0 "해군 예비군이 $NUM|v$ $COMPARATOR$"
+ TRIGGER_NAVY_RESERVES_NOT:0 "해군 예비군이 $NUM|v$ $COMPARATOR$(이)가 아님"
+ TRIGGER_QUALITY_OF_LIFE:0 "생활 수준이 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_QUALITY_OF_LIFE_NOT:0 "생활 수준이 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_STANDARD_OF_LIVING:0 "생활 수준이 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_STANDARD_OF_LIVING_NOT:0 "생활 수준이 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_FULLFILLMENT:0 "성취감이 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_FULLFILLMENT_NOT:0 "성취감이 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_TURMOIL:0 "갈등이 #variable $NUM|%$#! $COMPARATOR$"
+ TRIGGER_TURMOIL_NOT:0 "갈등이 #variable $NUM|%$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_LOYALTY:0 "충성파가 #variable $NUM|%$#! $COMPARATOR$"
+ TRIGGER_LOYALTY_NOT:0 "충성파가 #variable $NUM|%$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_POLLUTION_GENERATION:0 "총 공해 생성량이 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_POLLUTION_GENERATION_NOT:0 "총 공해 생성량이 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ # [LocEditor:UntranslatedKey] `TRIGGER_INCORPORATION_PROGRESS`
+ # [LocEditor:UntranslatedKey] `TRIGGER_INCORPORATION_PROGRESS_NOT`
+ TRIGGER_IS_IN_REVOLT:0 "충성파가 #variable $NUM|%$#! $COMPARATOR$"
+ TRIGGER_IS_IN_REVOLT_NOT:0 "충성파가 #variable $NUM|%$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_INFRASTRUCTURE:0 "기반 시설이 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_INFRASTRUCTURE_NOT:0 "기반 시설이 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_INFRASTRUCTURE_USAGE:0 "기반 시설 사용률이 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_INFRASTRUCTURE_USAGE_NOT:0 "기반 시설 사용률이 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_DEVASTATION:0 "황폐화 수준이 #variable $NUM|%$#! $COMPARATOR$"
+ TRIGGER_DEVASTATION_NOT:0 "황폐화 수준이 #variable $NUM|%$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_TOTAL_URBANIZATION:0 "총 도시화가 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_TOTAL_URBANIZATION_NOT:0 "총 도시화가 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_TOTAL_POPULATION:0 "총 인구가 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_TOTAL_POPULATION_NOT:0 "총 인구가 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_INVESTMENT_POOL:0 "투자 원천금이 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_INVESTMENT_POOL_NOT:0 "투자 원천금이 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_HIGHEST_SECESSION_PROGRESS:0 "최고 분리 독립 운동 진행도가 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_HIGHEST_SECESSION_PROGRESS_NOT:0 "최고 분리 독립 운동 진행도가 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_REVOLUTION_PROGRESS:0 "혁명 진행도가 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_REVOLUTION_PROGRESS_NOT:0 "혁명 진행도가 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_IS_INTEREST_ACTIVE:0 "[concept_interest] 관계가 [concept_active_interest]임"
+ TRIGGER_IS_INTEREST_ACTIVE_NOT:0 "[concept_interest] 관계가 [concept_active_interest]가 아님"
+ CHECK_AREA_TRIGGER_ADJACENT:0 "$TARGET$(와)과 인접함"
+ CHECK_AREA_TRIGGER_ADJACENT_NOT:0 "$TARGET$(와)과 인접하지 않음"
+ CHECK_AREA_TRIGGER_INTERSECTING:0 "$TARGET$(을)를 교차함"
+ CHECK_AREA_TRIGGER_INTERSECTING_NOT:0 "$TARGET$(을)를 교차하지 않음"
+ CHECK_AREA_TRIGGER_ADJACENT_INTERSECTING:0 "$TARGET$(와)과 인접하거나 교차함"
+ CHECK_AREA_TRIGGER_ADJACENT_INTERSECTING_NOT:0 "$TARGET$(와)과 인접하거나 교차하지 않음"
+ TRIGGER_DIP_POWER:0 "#variable 외교력#!(@inf!)이 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_DIP_POWER_NOT:0 "#variable 외교력#!(@inf!)이 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_COUNTRY_RANK:0 "#variable $NAME_ADJ$#!의 권력 순위가 $RANK|v$위 $COMPARATOR$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_COUNTRY_RANK_NOT:0 "#variable $NAME_ADJ$#!의 권력 순위가 $RANK|v$위 $COMPARATOR$(이)가 아님" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_RANK_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_RANK_THIRD_NOT`
+ TRIGGER_GLOBAL_COUNTRY_RANKING:0 "#variable $NAME_ADJ$#!의 순위가 $NUM|v$위 $COMPARATOR$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_GLOBAL_COUNTRY_RANKING_NOT:0 "#variable $NAME_ADJ$#!의 권력 순위가 $NUM|v$위 $COMPARATOR$(이)가 아님" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_GLOBAL_COUNTRY_RANKING_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_GLOBAL_COUNTRY_RANKING_THIRD_NOT`
+ TRIGGER_GOVERNMENT_LEGITIMACY:0 "#variable $NAME_ADJ$#!의 [concept_legitimacy]이 #variable $NUM$#! $COMPARATOR$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_GOVERNMENT_LEGITIMACY_NOT:0 "#variable $NAME_ADJ$#!의 [concept_legitimacy]이 #variable $NUM$#! $COMPARATOR$(이)가 아님" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_GOVERNMENT_LEGITIMACY_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_GOVERNMENT_LEGITIMACY_THIRD_NOT`
+ TRIGGER_COUNTRY_TIER:0 "[COUNTRY.GetName]의 #variable [concept_country_tier]이 $TIER|v$임"
+ TRIGGER_COUNTRY_TIER_NOT:0 "[COUNTRY.GetName]의 #variable [concept_country_tier]이 $TIER|v$(이)가 아님"
+ CONTEXT_TRIGGER_SCOPE_NAME:0 "$NAME|V$:"
+ CONTEXT_SWITCH_CHARACTER:0 "$NAME|v$"
+ CONTEXT_SWITCH_DIPLOMATIC_PLAY:0 "$NAME|v$"
+ TRIGGER_HAS_DIPLOMATIC_PLAY:0 "[STRATEGIC_REGION.GetName]에서 외교전 진행 중"
+ TRIGGER_HAS_DIPLOMATIC_PLAY_NOT:0 "[STRATEGIC_REGION.GetName]에서 외교전 진행 중이지 않음"
+ ANY_KEY:0 "모든"
+ COLONY_KEY:0 "식민지"
+ TRIGGER_IS_BUILDING_CATEGORY:0 "$CATEGORY$임"
+ TRIGGER_IS_BUILDING_CATEGORY_NOT:0 "$CATEGORY$(이)가 아님"
+ TRIGGER_IS_MARGINAL:0 "이해 집단이 [concept_marginalized] 상태임"
+ TRIGGER_IS_MARGINAL_NOT:0 "이해 집단이 [concept_marginalized] 상태가 아님"
+ TRIGGER_IS_POWERFUL:0 "이해 집단이 [concept_powerful] 상태임"
+ TRIGGER_IS_POWERFUL_NOT:0 "이해 집단이 [concept_powerful] 상태가 아님"
+ TRIGGER_POP_EMPLOYMENT_BUILDING_GROUP:0 "#variable $BUILDING_GROUP$#! 건물에서 일하고 있음"
+ TRIGGER_POP_EMPLOYMENT_BUILDING_GROUP_NOT:0 "#variable $BUILDING_GROUP$#! 건물에서 일하고 있지 않음"
+ TRIGGER_POP_EMPLOYMENT_BUILDING:0 "[BUILDING.GetName]에서 일하고 있음" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_POP_EMPLOYMENT_BUILDING_NOT:0 "[BUILDING.GetName]에서 일하고 있지 않음" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_POP_CULTURE:0 "[CULTURE.GetName] 문화를 보유함"
+ TRIGGER_HAS_POP_CULTURE_NOT:0 "[CULTURE.GetName] 문화를 보유하지 않음"
+ TRIGGER_HAS_POP_RELIGION:0 "[RELIGION.GetName] 종교를 보유함"
+ TRIGGER_HAS_POP_RELIGION_NOT:0 "[RELIGION.GetName] 종교를 보유하지 않음"
+ TRIGGER_STATE_RELIGION:0 "[concept_state_religion]가 [RELIGION.GetName]임"
+ TRIGGER_STATE_RELIGION_NOT:0 "[concept_state_religion]가 [RELIGION.GetName](이)가 아님"
+ TRIGGER_POP_IS_DISCRIMINATED:0 "모국에서 차별당하고 있음"
+ TRIGGER_POP_IS_DISCRIMINATED_NOT:0 "모국에서 차별당하고 있지 않음"
+ TRIGGER_POP_HAS_PRIMARY_CULTURE:0 "모국에서 주류 문화에 속함"
+ TRIGGER_POP_HAS_PRIMARY_CULTURE_NOT:0 "모국에서 주류 문화에 속하지 않음"
+ TRIGGER_CULTURE_ACCEPTED:0 "모국에서 수용되는 문화에 속함"
+ TRIGGER_CULTURE_ACCEPTED_NOT:0 "모국에서 수용되는 문화에 속하지 않음"
+ TRIGGER_RELIGION_ACCEPTED:0 "모국에서 수용되는 종교에 속함"
+ TRIGGER_RELIGION_ACCEPTED_NOT:0 "모국에서 수용되는 종교에 속하지 않음"
+ TRIGGER_WEALTH:0 "#variable $NUM$#! $COMPARATOR$의 재산을 보유함"
+ TRIGGER_WEALTH_NOT:0 "#variable $NUM$#! $COMPARATOR$의 재산을 보유하지 않음"
+ TRIGGER_IS_PRIMARY_CULTURE_OF:0 "[Culture.GetName](을)를 주류 문화로 보유함"
+ TRIGGER_IS_PRIMARY_CULTURE_OF_NOT:0 "[Culture.GetName](을)를 주류 문화로 보유하지 않음"
+ TRIGGER_SHARES_TRAIT_WITH_ANY_PRIMARY_CULTURE:0 "[CULTURE.GetName](이)가 [TARGET_COUNTRY.GetName] 내 임의의 주류 문화와 특성을 공유함"
+ TRIGGER_SHARES_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOT:0 "[CULTURE.GetName](이)가 [TARGET_COUNTRY.GetName] 내 임의의 주류 문화와 특성을 공유하지 않음"
+ TRIGGER_SHARES_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE:0 "[CULTURE.GetName](이)가 [TARGET_COUNTRY.GetName] 내 임의의 주류 문화와 명맥 특성을 공유함"
+ TRIGGER_SHARES_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOT:0 "[CULTURE.GetName](이)가 [TARGET_COUNTRY.GetName] 내 임의의 주류 문화와 명맥 특성을 공유하지 않음"
+ TRIGGER_SHARES_NON_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE:0 "[CULTURE.GetName](이)가 [TARGET_COUNTRY.GetName] 내 임의의 주류 문화와 비명맥 특성을 공유함"
+ TRIGGER_SHARES_NON_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOT:0 "[CULTURE.GetName](이)가 [TARGET_COUNTRY.GetName] 내 임의의 주류 문화와 비명맥 특성을 공유하지 않음"
+ # [LocEditor:UntranslatedKey] `TRIGGER_SHARES_HERITAGE_AND_OTHER_TRAIT_WITH_ANY_PRIMARY_CULTURE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_SHARES_HERITAGE_AND_OTHER_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOT`
+ TRIGGER_SHARES_TRAIT_WITH_STATE_RELIGION:0 "[RELIGION.GetName](이)가 [TARGET_COUNTRY.GetName] 내 [concept_state_religion]와 특성을 공유함"
+ TRIGGER_SHARES_TRAIT_WITH_STATE_RELIGION_NOT:0 "[RELIGION.GetName](이)가 [TARGET_COUNTRY.GetName] 내 [concept_state_religion]와 특성을 공유하지 않음"
+ TRIGGER_SHARES_HERITAGE_TRAIT_WITH_STATE_RELIGION:0 "[RELIGION.GetName](이)가 [TARGET_COUNTRY.GetName] 내 [concept_state_religion]와 특성을 공유함"
+ TRIGGER_SHARES_HERITAGE_TRAIT_WITH_STATE_RELIGION_NOT:0 "[RELIGION.GetName](이)가 [TARGET_COUNTRY.GetName] 내 [concept_state_religion]와 특성을 공유하지 않음"
+ TRIGGER_MOST_POWERFUL_STRATA:0 "#variable $TYPE$#!(이)가 가장 많은 정치적 권력을 보유하고 있음"
+ TRIGGER_MOST_POWERFUL_STRATA_NOT:0 "#variable $TYPE$#!(이)가 가장 많은 정치적 권력을 보유하고 있지 않음"
+ TRIGGER_IS_INCORPORATED:0 "편입된 상태임"
+ TRIGGER_IS_INCORPORATED_NOT:0 "편입된 상태가 아님"
+ TRIGGER_IS_MASS_MIGRATION_TARGET:0 "[concept_state] [STATE.GetName](은)는 [concept_mass_migration_target]임"
+ TRIGGER_IS_MASS_MIGRATION_TARGET_NOT:0 "[concept_state] [STATE.GetName](은)는 [concept_mass_migration_target]이 아님"
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_SPLIT_STATE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_SPLIT_STATE_NOT`
+ TRIGGER_IS_LARGEST_STATE_IN_REGION:0 "[concept_state_region]에서 가장 큰 [concept_state]임"
+ TRIGGER_IS_LARGEST_STATE_IN_REGION_NOT:0 "[concept_state_region]에서 가장 큰 [concept_state]가 아님"
+ TRIGGER_IS_COASTAL:0 "해안에 있음"
+ TRIGGER_IS_COASTAL_NOT:0 "해안에 있지 않음"
+ TRIGGER_HAS_PORT:0 "활성화된 항구를 보유하고 있음"
+ TRIGGER_HAS_PORT_NOT:0 "활성화된 항구를 보유하고 있지 않음"
+ TRIGGER_IS_AT_WAR:0 "전쟁 중임" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_AT_WAR_NOT:0 "전쟁 중이지 않음" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_AT_WAR_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_AT_WAR_THIRD_NOT`
+ TRIGGER_IS_RESEARCHING_TECHNOLOGY:0 "$TECHNOLOGY|v$ 기술을 연구하고 있음"
+ TRIGGER_IS_RESEARCHING_TECHNOLOGY_NOT:0 "$TECHNOLOGY|v$ 기술을 연구하고 있지 않음"
+ TRIGGER_IS_RESEARCHING_TECHNOLOGY_CATEGORY:0 "$TECHNOLOGY_CAT|v$ 기술 범주를 연구하고 있음"
+ TRIGGER_IS_RESEARCHING_TECHNOLOGY_CATEGORY_NOT:0 "$TECHNOLOGY_CAT|v$ 기술 범주를 연구하고 있지 않음"
+ TRIGGER_HAS_RESEARCHABLE_TECHNOLOGY:0 "연구할 기술이 남아 있음"
+ TRIGGER_HAS_RESEARCHABLE_TECHNOLOGY_NOT:0 "연구할 기술이 남아 있지 않음"
+ TRIGGER_SHOULD_SET_WARGOAL:0 "외교전에서 주요 전쟁 목표가 없음"
+ TRIGGER_SHOULD_SET_WARGOAL_NOT:0 "외교전에서 주요 전쟁 목표가 없지 않음"
+ TRIGGER_IS_LOSING_POWER_RANK:0 "현재 권력 순위 하락 중"
+ TRIGGER_IS_LOSING_POWER_RANK_NOT:0 "현재 권력 순위가 하락 중이지 않음"
+ TRIGGER_HAS_DECREASING_INTERESTS:0 "이자가 감소하고 있음"
+ TRIGGER_HAS_DECREASING_INTERESTS_NOT:0 "이자가 감소하고 있지 않음"
+ TRIGGER_IS_IN_GOVERNMENT:0 "정부에 속함"
+ TRIGGER_IS_IN_GOVERNMENT_NOT:0 "정부에 속하지 않음"
+ TRIGGER_IG_APPROVAL:0 "찬성이 #variable $NUM|0+=$#! $COMPARATOR$"
+ TRIGGER_IG_APPROVAL_NOT:0 "찬성이 #variable $NUM|0+=$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_IG_CLOUT:0 "정치력이 #variable $NUM|0%$#! $COMPARATOR$"
+ TRIGGER_IG_CLOUT_NOT:0 "정치력이 #variable $NUM|0%$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_IG_GOVERNMENT_POWER_SHARE:0 "[INTEREST_GROUP.GetCountry.GetName] 내 정치적 힘이 정부의 정치적 힘의 #variable $NUM|0%$#! $COMPARATOR$에 해당함"
+ TRIGGER_IG_GOVERNMENT_POWER_SHARE_NOT:0 "[INTEREST_GROUP.GetCountry.GetName] 내 정치적 힘이 정부의 정치적 힘의 #variable $NUM|0%$#! $COMPARATOR$에 해당하지 않음"
+ TRIGGER_IG_STATE_POL_STRENGTH_SHARE:0 "[TARGET_INTEREST_GROUP.GetName]의 정치적 힘이 $NUM|%$ $COMPARATOR$"
+ TRIGGER_IG_STATE_POL_STRENGTH_SHARE_NOT:0 "[TARGET_INTEREST_GROUP.GetName]의 정치적 힘이 $NUM|%$ $COMPARATOR$(이)가 아님"
+ TRIGGER_HAS_LAW:0 "[TARGET_LAW_TYPE.GetName](을)를 도입함"
+ TRIGGER_HAS_LAW_NOT:0 "[TARGET_LAW_TYPE.GetName](을)를 도입하지 않음"
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_LAW_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_LAW_THIRD_NOT`
+ TRIGGER_HAS_GOVERNMENT_CLOUT:0 "정부가 #variable $NUM|0%$#! $COMPARATOR$의 정치력을 보유함"
+ TRIGGER_HAS_GOVERNMENT_CLOUT_NOT:0 "정부가 #variable $NUM|0%$#! $COMPARATOR$의 정치력을 보유하지 않음"
+ TRIGGER_HAS_RULING_INTEREST_GROUP:0 "정부에 #variable $INTEREST_GROUP_TYPE$#!(이)가 포함됨"
+ TRIGGER_HAS_RULING_INTEREST_GROUP_NOT:0 "정부에 #variable $INTEREST_GROUP_TYPE$#!(이)가 포함되지 않음"
+ TRIGGER_HAS_RULING_INTEREST_GROUP_COUNT:0 "정부가 #variable $NUM|0$#!개 $COMPARATOR$의 이해 집단을 보유함"
+ TRIGGER_HAS_RULING_INTEREST_GROUP_COUNT_NOT:0 "정부가 #variable $NUM|0$#!개 $COMPARATOR$의 이해 집단을 보유하지 않음"
+ TRIGGER_HAS_IDEOLOGY:0 "[IDEOLOGY.GetName] [concept_ideology]을 보유함"
+ TRIGGER_HAS_IDEOLOGY_NOT:0 "[IDEOLOGY.GetName] [concept_ideology]을 보유하지 않음"
+ TRIGGER_LAW_STANCE:0 "[TARGET_LAW_TYPE.GetName]에 대한 관점이 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_LAW_STANCE_NOT:0 "[TARGET_LAW_TYPE.GetName]에 대한 관점이 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_IS_GOAL_COMPLETE:0 "[JOURNAL_ENTRY.GetGoalDesc]"
+ TRIGGER_IS_GOAL_COMPLETE_NOT:0 "[JOURNAL_ENTRY.GetGoalDesc]"
+ TRIGGER_COUNTRY_HAS_PRIMARY_CULTURE:0 "[TARGET_CULTURE.GetName](은)는 국가의 주류임"
+ TRIGGER_COUNTRY_HAS_PRIMARY_CULTURE_NOT:0 "[TARGET_CULTURE.GetName](은)는 국가의 주류가 아님"
+ TRIGGER_COUNTRY_HAS_STATE_RELIGION:0 "[TARGET_RELIGION.GetName] 종교를 [concept_state_religion]로 보유함"
+ TRIGGER_COUNTRY_HAS_STATE_RELIGION_NOT:0 "[TARGET_RELIGION.GetName] 종교를 [concept_state_religion]로 보유하지 않음"
+ TRIGGER_HAS_ROLE:0 "#variable $ROLE$#!의 직무를 보유함"
+ TRIGGER_HAS_ROLE_NOT:0 "#variable $ROLE$#!의 직무를 보유하지 않음"
+ TRIGGER_IS_MONARCH:0 "군주국임"
+ TRIGGER_IS_MONARCH_NOT:0 "군주국이 아님"
+ TRIGGER_IS_RULER:0 "통치자임"
+ TRIGGER_IS_RULER_NOT:0 "통치자가 아님"
+ TRIGGER_IS_MOBILIZED:0 "[Concept('concept_mobilize_general', '$concept_mobilize_general_mobilized$]"
+ TRIGGER_IS_MOBILIZED_NOT:0 "[Concept('concept_mobilize_general', '$concept_mobilize_general_mobilized$] 상태가 아님"
+ TRIGGER_HAS_GOVERNMENT_TYPE:0 "[GOVERNMENT_TYPE.GetName] 정부 유형을 보유함"
+ TRIGGER_HAS_GOVERNMENT_TYPE_NOT:0 "[GOVERNMENT_TYPE.GetName] 정부 유형을 보유하지 않음"
+ TRIGGER_HAS_RADICALIZED_INTEREST_GROUPS:0 "급진화한 이해 집단을 보유함"
+ TRIGGER_HAS_RADICALIZED_INTEREST_GROUPS_NOT:0 "급진화한 이해 집단을 보유하지 않음"
+ TRIGGER_HAS_INSURRECTIONARY_INTEREST_GROUPS:0 "반란가 이해 집단을 보유하고 있음"
+ TRIGGER_HAS_INSURRECTIONARY_INTEREST_GROUPS_NOT:0 "반란가 이해 집단을 보유하고 있지 않음"
+ TRIGGER_HAS_RADICALIZING_INTEREST_GROUPS:0 "급진화한 이해 집단을 보유함"
+ TRIGGER_HAS_RADICALIZING_INTEREST_GROUPS_NOT:0 "급진화한 이해 집단을 보유하고 있지 않음"
+ TRIGGER_HAS_HEALTHY_ECONOMY:0 "건강한 경제를 보유함"
+ TRIGGER_HAS_HEALTHY_ECONOMY_NOT:0 "건강한 경제를 보유하지 않음"
+ TRIGGER_UNUSED_TRADE_ROUTES:0 "미사용 [Concept('concept_trade_route', '$concept_trade_routes$')]를 #variable $NUM|0$#!개 $COMPARATOR$ 보유함"
+ TRIGGER_UNUSED_TRADE_ROUTES_NOT:0 "미사용 [Concept('concept_trade_route', '$concept_trade_routes$')]를 #variable $NUM|0$#!개 $COMPARATOR$ 보유하지 않음"
+ TRIGGER_UNUSED_TRADE_ROUTES_IN_MARKET:0 "[MARKET.GetName] 내 미사용 [Concept('concept_trade_route', '$concept_trade_routes$')]가 $NUM|0$개 $COMPARATOR$"
+ TRIGGER_UNUSED_TRADE_ROUTES_IN_MARKET_NOT:0 "[MARKET.GetName] 내 미사용 [Concept('concept_trade_route', '$concept_trade_routes$')]가 $NUM|0$개 $COMPARATOR$(이)가 아님"
+ TRIGGER_ISOLATED_STATES:0 "#variable $NUM|0$#!개 $COMPARATOR$의 [Concept('concept_isolated_state', '$concept_isolated_states$')]을 보유함" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ISOLATED_STATES_NOT:0 "#variable $NUM|0$#!개 $COMPARATOR$의 [Concept('concept_isolated_state', '$concept_isolated_states$')]을 보유하지 않음" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_ISOLATED_FROM_MARKET:0 "[STATE.GetName](은)는 [concept_isolated_state]임"
+ TRIGGER_IS_ISOLATED_FROM_MARKET_NOT:0 "[STATE.GetName](은)는 [concept_isolated_state]가 아님"
+ TRIGGER_HAS_REVOLUTION:0 "혁명 중임"
+ TRIGGER_HAS_REVOLUTION_NOT:0 "혁명 중이지 않음"
+ TRIGGER_IS_REVOLUTIONARY:0 "혁명가임"
+ TRIGGER_IS_REVOLUTIONARY_NOT:0 "혁명가가 아님"
+ # [LocEditor:UntranslatedKey] `TRIGGER_CIVIL_WAR_PROGRESS_GAIN`
+ # [LocEditor:UntranslatedKey] `TRIGGER_CIVIL_WAR_PROGRESS_GAIN_NOT`
+ TRIGGER_HAS_ANY_SECESSIONISTS_POSSIBLE:0 "분리 독립 운동의 가능성이 있음"
+ TRIGGER_HAS_ANY_SECESSIONISTS_POSSIBLE_NOT:0 "분리 독립 운동의 가능성이 없음"
+ TRIGGER_HAS_ANY_SECESSIONISTS_GROWING:0 "분리 독립 운동이 커지고 있음"
+ TRIGGER_HAS_ANY_SECESSIONISTS_GROWING_NOT:0 "분리 독립 운동이 커지고 있지 않음"
+ TRIGGER_HAS_ANY_SECESSIONISTS_BROKEN_OUT:0 "분리 독립하는 국가가 있음"
+ TRIGGER_HAS_ANY_SECESSIONISTS_BROKEN_OUT_NOT:0 "분리 독립하는 국가가 없음"
+ TRIGGER_ACTIVE_LENS:0 "$LENS$ 활성화"
+ TRIGGER_ACTIVE_LENS_NOT:0 "$LENS$ 비활성화"
+ TRIGGER_IS_PANEL_OPEN:0 "$PANEL$ $TAB_NAME$(이)가 열려 있음"
+ TRIGGER_IS_PANEL_OPEN_NOT:0 "$PANEL$ $TAB_NAME$(이)가 열려 있지 않음"
+ TRIGGER_IS_PRODUCTION_METHOD_ACTIVE:0 "[PRODUCTION_METHOD.GetName] 생산 방식을 사용하는 [BUILDING_TYPE.GetName](을)를 보유하고 있음"
+ TRIGGER_IS_PRODUCTION_METHOD_ACTIVE_NOT:0 "[PRODUCTION_METHOD.GetName] 생산 방식을 사용하는 [BUILDING_TYPE.GetName](을)를 보유하고 있지 않음"
+ TRIGGER_CAN_ACTIVATE_PRODUCTION_METHOD:0 "[PRODUCTION_METHOD.GetName] 생산 방식을 활성화할 수 있는 [BUILDING_TYPE.GetName](을)를 보유하고 있음"
+ TRIGGER_CAN_ACTIVATE_PRODUCTION_METHOD_NOT:0 "[PRODUCTION_METHOD.GetName] 생산 방식을 활성화할 수 있는 [BUILDING_TYPE.GetName](을)를 보유하고 있지 않음"
+ TRIGGER_EXPERIENCE_LEVEL:0 "경험치 단계가 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_EXPERIENCE_LEVEL_NOT:0 "경험치 단계가 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_OWNS_TREATY_PORT_IN:0 "[STATE_REGION.GetName]에 조약항을 보유하고 있음"
+ TRIGGER_OWNS_TREATY_PORT_IN_NOT:0 "[STATE_REGION.GetName]에 조약항을 보유하고 있지 않음"
+ TRIGGER_COUNTRY_DEFINITION_HAS_CULTURE:0 "[TARGET_CULTURE.GetName] 문화를 보유함"
+ TRIGGER_COUNTRY_DEFINITION_HAS_CULTURE_NOT:0 "[TARGET_CULTURE.GetName] 문화를 보유하지 않음"
+ TRIGGER_IS_HOME_COUNTRY_FOR:0 "[TARGET_COUNTRY.GetName]의 모국임"
+ TRIGGER_IS_HOME_COUNTRY_FOR_NOT:0 "[TARGET_COUNTRY.GetName]의 모국이 아님"
+ TRIGGER_ANY_SCOPE_STATE_PERCENT_GREATER_THAN:0 "요구 조건의 일정 비율을 충족함"
+ TRIGGER_IS_LAND_THEATER:0 "육지 전역임"
+ TRIGGER_IS_LAND_THEATER_NOT:0 "육지 전역이 아님"
+ violate_sovereignty_trigger_not:0 "양측 전쟁 주도국과 인접한 육지 전역을 보유해야 함"
+ TRIGGER_IS_SLAVE_STATE:0 "[STATE.GetName](은)는 노예 주임"
+ TRIGGER_IS_SLAVE_STATE_NOT:0 "[STATE.GetName](은)는 노예 주가 아님"
+ TRIGGER_HAS_DLC:0 "#variable $DLC$#! DLC를 보유함"
+ TRIGGER_HAS_DLC_NOT:0 "#variable $DLC$#! DLC를 보유하지 않음"
+ TRIGGER_OWNS_ENTIRE_STATE_REGION:0 "[StateRegion.GetName](을)를 완전히 보유함"
+ TRIGGER_OWNS_ENTIRE_STATE_REGION_NOT:0 "[StateRegion.GetName](을)를 완전히 보유하지 않음"
+ TRIGGER_COUNTRY_OR_SUBJECT_OWNS_ENTIRE_STATE_REGION:0 "[StateRegion.GetName](이)가 국가나 그 종속국 소유임"
+ TRIGGER_COUNTRY_OR_SUBJECT_OWNS_ENTIRE_STATE_REGION_NOT:0 "[StateRegion.GetName](이)가 국가나 그 종속국 소유가 아님"
+ TRIGGER_HAS_STATE_IN_STATE_REGION:0 "[STATE_REGION.GetName]에 주를 보유하고 있음"
+ TRIGGER_HAS_STATE_IN_STATE_REGION_NOT:0 "[STATE_REGION.GetName]에 주를 보유하고 있지 않음"
+ TRIGGER_HAS_ASSIMILATING_POPS:0 "[STATE.GetName](이)가 [Concept('concept_assimilation', '$concept_assimilating$')] 중인 [Concept('concept_pop', '$concept_pops$')]을 보유함" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_ASSIMILATING_POPS_NOT:0 "[STATE.GetName](이)가 [Concept('concept_assimilation', '$concept_assimilating$')] 중인 [Concept('concept_pop', '$concept_pops$')]을 보유하지 않음" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_CONVERTING_POPS:0 "[STATE.GetName](이)가 [Concept('concept_conversion', '$concept_converting$')] 중인 [Concept('concept_pop', '$concept_pops$')]을 보유함" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_CONVERTING_POPS_NOT:0 "[STATE.GetName](이)가 [Concept('concept_conversion', '$concept_converting$')] 중인 [Concept('concept_pop', '$concept_pops$')]을 보유하지 않음" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_APPROACHING_BUREAUCRACY_SHORTAGE:0 "국가가 $BUREAUCRACY$ 적자 상태 돌입을 앞두고 있음"
+ TRIGGER_APPROACHING_BUREAUCRACY_SHORTAGE_NOT:0 "국가가 $BUREAUCRACY$ 적자 상태 돌입을 앞두고 있지 않음"
+ TRIGGER_IS_CONSTRUCTION_PAUSED:0 "건설이 일시 정지됨"
+ TRIGGER_IS_CONSTRUCTION_PAUSED_NOT:0 "건설이 일시 정지되지 않음"
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_WASTED_CONSTRUCTION`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_WASTED_CONSTRUCTION_NOT`
+ TRIGGER_HAS_DISCRIMINATION_TRAIT:0 "$SUBJECT$(이)가 $TRAIT|v$ 특성을 보유함"
+ TRIGGER_HAS_DISCRIMINATION_TRAIT_NOT:0 "$SUBJECT$(이)가 $TRAIT|v$ 특성을 보유하지 않음"
+ TRIGGER_IS_INSURRECTIONARY:0 "[INTEREST_GROUP.GetName](이)가 반란가임" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_INSURRECTIONARY_NOT:0 "[INTEREST_GROUP.GetName](이)가 반란가가 아님" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_INSURRECTIONARY_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_INSURRECTIONARY_THIRD_NOT`
+ TRIGGER_IS_BEING_SUPPRESSED:0 "[INTEREST_GROUP.GetName](이)가 억압 상태임"
+ TRIGGER_IS_BEING_SUPPRESSED_NOT:0 "[INTEREST_GROUP.GetName](이)가 억압 상태가 아님"
+ TRIGGER_IS_BEING_PROMOTED:0 "[INTEREST_GROUP.GetName](이)가 장려 상태임" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_BEING_PROMOTED_NOT:0 "[INTEREST_GROUP.GetName](이)가 장려 상태가 아님" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_BEING_PROMOTED_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_BEING_PROMOTED_THIRD_NOT`
+ TRIGGER_SHARES_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOCONTEXT:0 "임의의 [concept_primary_cultures]와 [concept_cultural_trait]을 공유함 ([GetPlayer.GetName]의 [GetPlayer.GetPrimaryCulturesDesc])" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_SHARES_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOCONTEXT_NOT`
+ TRIGGER_SHARES_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOCONTEXT:0 "임의의 [concept_primary_cultures]와 [concept_cultural_heritage_trait]을 공유함 ([GetPlayer.GetName]의 [GetPlayer.GetPrimaryCulturesDesc])"
+ # [LocEditor:UntranslatedKey] `TRIGGER_SHARES_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOCONTEXT_NOT`
+ TRIGGER_SHARES_NON_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOCONTEXT:0 "임의의 [concept_primary_cultures]와 [concept_cultural_heritage_trait]은 아닌 [concept_cultural_trait]을 공유함 ([GetPlayer.GetName]의 [GetPlayer.GetPrimaryCulturesDesc])"
+ # [LocEditor:UntranslatedKey] `TRIGGER_SHARES_NON_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOCONTEXT_NOT`
+ TRIGGER_SCOPE_COUNTRY_NOCONTEXT:0 "국가"
+ TRIGGER_SHARES_HERITAGE_TRAIT_WITH_STATE_RELIGION_NOCONTEXT:0 "[concept_state_religion]와 특성을 공유함 ([GetPlayer.GetName]의 [GetPlayer.GetStateReligion.GetName])"
+ # [LocEditor:UntranslatedKey] `TRIGGER_SHARES_HERITAGE_TRAIT_WITH_STATE_RELIGION_NOCONTEXT_NOT`
+ TRIGGER_IS_STATE_RELIGION_NOCONTEXT:0 "[concept_state_religion]임" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_STATE_RELIGION_NOCONTEXT_NOT`
+ TRIGGER_IS_PRIMARY_CULTURE_OF_NOCONTEXT:0 "[concept_primary_cultures]임" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PRIMARY_CULTURE_OF_NOCONTEXT_NOT`
+ TRIGGER_IS_COUNTRY_TYPE_NOCONTEXT_NOT:0 "#variable $COUNTRY_TYPE$#!(이)가 아님"
+ TRIGGER_ALWAYS_NOCONTEXT:0 "항상"
+ TRIGGER_POLLUTION_AMOUNT:0 "[STATE_REGION.GetName]의 공해가 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_POLLUTION_AMOUNT_NOT:0 "[STATE_REGION.GetName]의 공해가 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_IS_CAPITAL:0 "[STATE.GetName](이)가 [STATE.GetOwner.GetName]의 수도임"
+ TRIGGER_IS_CAPITAL_NOT:0 "[STATE.GetName](이)가 [STATE.GetOwner.GetName]의 수도가 아님"
+ TRIGGER_CONTAINS_CAPITAL_OF:0 "[STATE_REGION.GetName]에 [TARGET_COUNTRY.GetName]의 수도가 있음"
+ TRIGGER_CONTAINS_CAPITAL_OF_NOT:0 "[STATE_REGION.GetName]에 [TARGET_COUNTRY.GetName]의 수도가 있지 않음"
+ TRIGGER_REMAINING_UNDEPLETED:0 "[STATE_REGION.GetName]의 #variable $BUILDING_GROUP$#!에 #variable $NUM$#! $COMPARATOR$의 자원이 남아 있음"
+ TRIGGER_REMAINING_UNDEPLETED_NOT:0 "[STATE_REGION.GetName]의 #variable $BUILDING_GROUP$#!에 #variable $NUM$#! $COMPARATOR$의 자원이 남아 있지 않음"
+ TRIGGER_IS_MARKET_GOODS_EXPENSIVE:0 "[MARKET.GetName]에서 [GOODS.GetName](이)가 비쌈"
+ TRIGGER_IS_MARKET_GOODS_EXPENSIVE_NOT:0 "[MARKET.GetName]에서 [GOODS.GetName](이)가 비싸지 않음"
+ TRIGGER_IS_MARKET_GOODS_CHEAP:0 "[MARKET.GetName]에서 [GOODS.GetName](이)가 저렴함"
+ TRIGGER_IS_MARKET_GOODS_CHEAP_NOT:0 "[MARKET.GetName]에서 [GOODS.GetName](이)가 저렴하지 않음"
+ TRIGGER_IS_CONSUMED_BY_GOVERNMENT_BUILDINGS:0 "[GOODS.GetName](이)가 [Concept('concept_government_good', '$concept_government_goods$')]임" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_CONSUMED_BY_GOVERNMENT_BUILDINGS_NOT:0 "[GOODS.GetName](이)가 [Concept('concept_government_good', '$concept_government_goods$')]이 아님" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_CONSUMED_BY_MILITARY_BUILDINGS:0 "[GOODS.GetName](이)가 [Concept('concept_military_good', '$concept_military_goods$')]임" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_CONSUMED_BY_MILITARY_BUILDINGS_NOT:0 "[GOODS.GetName](이)가 [Concept('concept_military_good', '$concept_military_goods$')]이 아님" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_MARKET_ACCESS_AMOUNT:0 "[concept_market_access]이 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_MARKET_ACCESS_AMOUNT_NOT:0 "[concept_market_access]이 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_MARKET_GOODS_BUY_ORDERS:0 "[MARKET.GetName] 내 [GOODS.GetName] 구매 주문이 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_MARKET_GOODS_BUY_ORDERS_NOT:0 "[MARKET.GetName] 내 [GOODS.GetName] 구매 주문이 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_MARKET_GOODS_SELL_ORDERS:0 "[MARKET.GetName] 내 [GOODS.GetName] 판매 주문이 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_MARKET_GOODS_SELL_ORDERS_NOT:0 "[MARKET.GetName] 내 [GOODS.GetName] 판매 주문이 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_MARKET_GOODS_CONSUMPTION:0 "[MARKET.GetName] 내 [GOODS.GetName] 소비가 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_MARKET_GOODS_CONSUMPTION_NOT:0 "[MARKET.GetName] 내 [GOODS.GetName] 소비가 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_MARKET_GOODS_PRODUCTION:0 "[MARKET.GetName] 내 [GOODS.GetName] 생산이 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_MARKET_GOODS_PRODUCTION_NOT:0 "[MARKET.GetName] 내 [GOODS.GetName] 생산이 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_LEADING_PRODUCER_OF:0 "[COUNTRY.GetName](이)가 [TARGET_GOODS.GetName]의 최고 생산자임"
+ TRIGGER_LEADING_PRODUCER_OF_NOT:0 "[COUNTRY.GetName](이)가 [TARGET_GOODS.GetName]의 최고 생산자가 아님"
+ TRIGGER_MARKET_GOODS_IMPORTS:0 "[MARKET.GetName] 내 [GOODS.GetName] 수입이 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_MARKET_GOODS_IMPORTS_NOT:0 "[MARKET.GetName] 내 [GOODS.GetName] 수입이 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_MARKET_GOODS_EXPORTS:0 "[MARKET.GetName] 내 [GOODS.GetName] 수출이 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_MARKET_GOODS_EXPORTS_NOT:0 "[MARKET.GetName] 내 [GOODS.GetName] 수출이 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_MARKET_GOODS_DELTA:0 "[MARKET.GetName] 내 [GOODS.GetName] 델타가 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_MARKET_GOODS_DELTA_NOT:0 "[MARKET.GetName] 내 [GOODS.GetName] 델타가 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_WEEKLY_NET_FIXED_INCOME:0 "[COUNTRY.GetName]의 주간 고정 수입이 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_WEEKLY_NET_FIXED_INCOME_NOT:0 "[COUNTRY.GetName]의 주간 고정 수입이 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_IS_EMBARGOING_GOODS:0 "[COUNTRY.GetName](이)가 [TARGET_GOODS.GetName]에 대한 통상 금지를 시행 중"
+ TRIGGER_IS_EMBARGOING_GOODS_NOT:0 "[COUNTRY.GetName](이)가 [TARGET_GOODS.GetName]에 대한 통상 금지를 시행 중이지 않음"
+ TRIGGER_IS_PROMOTING_GOODS:0 "[COUNTRY.GetName](이)가 [GOODS.GetName]에 대한 장려 정책을 시행 중"
+ TRIGGER_IS_PROMOTING_GOODS_NOT:0 "[COUNTRY.GetName](이)가 [GOODS.GetName]에 대한 장려 정책을 시행 중이지 않음"
+ TRIGGER_IS_SUPPRESSING_GOODS:0 "[COUNTRY.GetName](이)가 [GOODS.GetName]에 대한 억압 정책을 시행 중"
+ TRIGGER_IS_SUPPRESSING_GOODS_NOT:0 "[COUNTRY.GetName](이)가 [GOODS.GetName]에 대한 억압 정책을 시행 중이지 않음"
+ TRIGGER_IS_TAXING_GOODS:0 "[COUNTRY.GetName](이)가 [GOODS.GetName]에 세금을 부과함"
+ TRIGGER_IS_TAXING_GOODS_NOT:0 "[COUNTRY.GetName](이)가 [GOODS.GetName]에 세금을 부과하지 않음"
+ TRIGGER_INSTITUTION_INVESTMENT_LEVEL:0 "[INSTITUTION_TYPE.GetName]의 투자 단계가 $NUM$ $COMPARATOR$"
+ TRIGGER_INSTITUTION_INVESTMENT_LEVEL_NOT:0 "[INSTITUTION_TYPE.GetName]의 투자 단계가 $NUM$ $COMPARATOR$(이)가 아님"
+ # [LocEditor:UntranslatedKey] `TRIGGER_INSTITUTION_INVESTMENT_LEVEL_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_INSTITUTION_INVESTMENT_LEVEL_THIRD_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_TAX_LEVEL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_TAX_LEVEL_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_TAX_LEVEL_VALUE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_TAX_LEVEL_VALUE_NOT`
+ TRIGGER_NUM_TAXED_GOODS:0 "세금 부과 상품의 수가 $NUM$개 $COMPARATOR$"
+ TRIGGER_NUM_TAXED_GOODS_NOT:0 "세금 부과 상품의 수가 $NUM$개 $COMPARATOR$(이)가 아님"
+ TRIGGER_IS_GOVERNMENT_FUNDED:0 "[concept_government_building]임"
+ TRIGGER_IS_GOVERNMENT_FUNDED_NOT:0 "[concept_government_building]이 아님"
+ TRIGGER_BUILDING_HAS_GOODS_SHORTAGE:0 "[Concept('concept_input_goods_shortage', '$concept_input_goods_shortages$')] 있음" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_BUILDING_HAS_GOODS_SHORTAGE_NOT:0 "[Concept('concept_input_goods_shortage', '$concept_input_goods_shortages$')] 없음" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_MARKET_HAS_GOODS_SHORTAGE:0 "[Concept('concept_input_goods_shortage', '$concept_input_goods_shortages$')] 있음" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_MARKET_HAS_GOODS_SHORTAGE_NOT:0 "[Concept('concept_input_goods_shortage', '$concept_input_goods_shortages$')] 없음" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_MARKET_GOODS_HAS_GOODS_SHORTAGE:0 "[Concept('concept_input_goods_shortage', '$concept_input_goods_shortages$')] 있음" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_MARKET_GOODS_HAS_GOODS_SHORTAGE_NOT:0 "[Concept('concept_input_goods_shortage', '$concept_input_goods_shortages$')] 없음" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_CONSUMPTION_TAX`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_CONSUMPTION_TAX_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_DESIRED_LAW_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_DESIRED_LAW_EQUAL_NOT`
+ TRIGGER_STATE_REGION_HAS_GOODS_SHORTAGE:0 "[Concept('concept_input_goods_shortage', '$concept_input_goods_shortages$')] 있음" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_STATE_REGION_HAS_GOODS_SHORTAGE_NOT:0 "[Concept('concept_input_goods_shortage', '$concept_input_goods_shortages$')] 없음" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_SUBSISTENCE_BUILDING:0 "[concept_subsistence_building]임"
+ TRIGGER_IS_SUBSISTENCE_BUILDING_NOT:0 "[concept_subsistence_building]이 아님"
+ TRIGGER_EARNINGS:0 "[BUILDING.GetName]의 소득이 $NUM$ $COMPARATOR$"
+ TRIGGER_EARNINGS_NOT:0 "[BUILDING.GetName]의 소득이 $NUM$ $COMPARATOR$(이)가 아님"
+ TRIGGER_IS_PROGRESSING:0 "[JournalEntry.GetName](을)를 진행 중"
+ TRIGGER_IS_PROGRESSING_NOT:0 "[JournalEntry.GetName](을)를 진행 중이지 않음"
+ TRIGGER_HAS_OBJECTIVE:0 "[Country.GetName](이)가 [Objective.GetName] 목표를 보유하고 있음"
+ TRIGGER_HAS_OBJECTIVE_NOT:0 "[Country.GetName](이)가 [Objective.GetName] 목표를 보유하고 있지 않음"
+ TRIGGER_HAS_COMPLETED_SUBGOAL:0 "[Country.GetName](이)가 $SUBGOAL$ 하위 목표를 완료함"
+ TRIGGER_HAS_COMPLETED_SUBGOAL_NOT:0 "[Country.GetName](이)가 $SUBGOAL$ 하위 목표를 완료하지 않음"
+ TRIGGER_IT_IS_WINTER:0 "겨울임"
+ TRIGGER_IT_IS_WINTER_NOT:0 "겨울이 아님"
+ TRIGGER_IT_IS_SPRING:0 "봄임"
+ TRIGGER_IT_IS_SPRING_NOT:0 "봄이 아님"
+ TRIGGER_IT_IS_SUMMER:0 "여름임"
+ TRIGGER_IT_IS_SUMMER_NOT:0 "여름이 아님"
+ TRIGGER_IT_IS_AUTUMN:0 "가을임"
+ TRIGGER_IT_IS_AUTUMN_NOT:0 "가을이 아님"
+ TRIGGER_HAS_CULTURAL_OBSESSION:0 "[CULTURE.GetName](이)가 [GOODS.GetName]에 집착함"
+ TRIGGER_HAS_CULTURAL_OBSESSION_NOT:0 "[CULTURE.GetName](이)가 [GOODS.GetName]에 집착하지 않음"
+ TRIGGER_HAS_RELIGIOUS_TABOO:0 "[RELIGION.GetName]에서 [GOODS.GetName](을)를 금기로 여김"
+ TRIGGER_HAS_RELIGIOUS_TABOO_NOT:0 "[RELIGION.GetName]에서 [GOODS.GetName](을)를 금기로 여기지 않음"
+ TRIGGER_RADICAL_FRACTION:0 "모든 $FILTER$ [Concept('concept_pop', '$concept_pops$')] 내 [Concept('concept_radical', '$concept_radicals$')]의 일부가 $NUM$ $COMPARATOR$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_RADICAL_FRACTION_NOT:0 "모든 $FILTER$ [Concept('concept_pop', '$concept_pops$')] 내 [Concept('concept_radical', '$concept_radicals$')]의 일부가 $NUM$ $COMPARATOR$(이)가 아님" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_LOYALIST_FRACTION:0 "모든 $FILTER$ [Concept('concept_pop', '$concept_pops$')] 내 [Concept('concept_loyalist', '$concept_loyalists$')]의 일부가 $NUM$ $COMPARATOR$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_LOYALIST_FRACTION_NOT:0 "모든 $FILTER$ [Concept('concept_pop', '$concept_pops$')] 내 [Concept('concept_loyalist', '$concept_loyalists$')]의 일부가 $NUM$ $COMPARATOR$(이)가 아님" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_COMMANDER_ORDER:0 "지휘관 명령이 [COMMANDER_ORDER_TYPE.GetName]임"
+ TRIGGER_HAS_COMMANDER_ORDER_NOT:0 "지휘관 명령이 [COMMANDER_ORDER_TYPE.GetName](이)가 아님"
+ TRIGGER_GAME_DATE:0 "현재 게임 날짜가 $DATE$ $COMPARATOR$"
+ TRIGGER_GAME_DATE_NOT:0 "현재 게임 날짜가 $DATE$ $COMPARATOR$(이)가 아님"
+ TRIGGER_ENACTING_ANY_LAW:0 "법을 제정하고 있음"
+ TRIGGER_ENACTING_ANY_LAW_NOT:0 "법을 제정하고 있지 않음"
+ TRIGGER_IS_ENACTING_LAW:0 "[TARGET_LAW_TYPE.GetName](을)를 제정하고 있음"
+ TRIGGER_IS_ENACTING_LAW_NOT:0 "[TARGET_LAW_TYPE.GetName](을)를 제정하고 있지 않음"
+ TRIGGER_IS_EXPANDING_INSTITUTION:0 "기관을 확장하고 있음"
+ TRIGGER_IS_EXPANDING_INSTITUTION_NOT:0 "기관을 확장하고 있지 않음"
+ TRIGGER_EXPANDING_INSTITUTION:0 "[InstitutionType.GetName](을)를 확장하고 있음"
+ TRIGGER_EXPANDING_INSTITUTION_NOT:0 "[InstitutionType.GetName](을)를 확장하고 있지 않음"
+ TRIGGER_CULTURE_IS_DISCRIMINATED_IN:0 "[Country.GetName]에서 차별의 대상이 되고 있음"
+ TRIGGER_CULTURE_IS_DISCRIMINATED_IN_NOT:0 "[Country.GetName]에서 차별의 대상이 되고 있지 않음"
+ TRIGGER_CULTURE_SECESSION_PROGRESS:0 "[TARGET_COUNTRY.GetName] 내 [CULTURE.GetName]: [concept_secession] 진행도($CURRENT_VALUE$)가 $NUM|v$ $COMPARATOR$"
+ TRIGGER_CULTURE_SECESSION_PROGRESS_NOT:0 "[TARGET_COUNTRY.GetName] 내 [CULTURE.GetName]: [concept_secession] 진행도($CURRENT_VALUE$)가 $NUM|v$ $COMPARATOR$"
+ TRIGGER_HAS_ONGOING_CONVERSION:0 "[Pop.GetName](이)가 종교 개종 진행 중"
+ TRIGGER_HAS_ONGOING_CONVERSION_NOT:0 "[Pop.GetName](이)가 종교 개종을 진행 중이지 않음"
+ TRIGGER_HAS_ONGOING_ASSIMILATION:0 "[Pop.GetName](이)가 문화 융화 진행 중"
+ TRIGGER_HAS_ONGOING_ASSIMILATION_NOT:0 "[Pop.GetName](이)가 문화 융화를 진행 중이지 않음"
+ TRIGGER_LAW_APPROVED_BY:0 "[InterestGroup.GetName](은)는 [Law.GetName](을)를 찬성함"
+ TRIGGER_LAW_APPROVED_BY_NOT:0 "[InterestGroup.GetName](은)는 [Law.GetName](을)를 찬성하지 않음"
+ TRIGGER_HAS_WAR_SUPPORT:0 "[Country.GetAdjective]의 [concept_war_support]($CURRENT_VALUE$)이 $NUM|v$ $COMPARATOR$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_WAR_SUPPORT_NOT:0 "[Country.GetAdjective]의 [concept_war_support]가 $NUM|v$ $COMPARATOR$(이)가 아님" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_WAR_EXHAUSTION:0 "[Country.GetAdjective]의 [concept_war_exhaustion]가 $NUM|v$ $COMPARATOR$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_WAR_EXHAUSTION_NOT:0 "[Country.GetAdjective]의 [concept_war_exhaustion]가 $NUM|v$ $COMPARATOR$(이)가 아님" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_TRUCE_WITH:0 "[COUNTRY.GetName](이)가 [TARGET_COUNTRY.GetName](와)과 휴전을 체결함"
+ TRIGGER_HAS_TRUCE_WITH_NOT:0 "[COUNTRY.GetName](이)가 [TARGET_COUNTRY.GetName](와)과 휴전을 체결하지 않음"
+ TRIGGER_IS_BEING_CONVOY_RAIDED:0 "[Country.GetName](이)가 수송대 습격을 당하는 중"
+ TRIGGER_IS_BEING_CONVOY_RAIDED_NOT:0 "[Country.GetName](이)가 수송대 습격을 당하고 있지 않음"
+ TRIGGER_IS_VIOLATING_SOVEREIGNTY_OF:0 "[COUNTRY.GetName](이)가 [TARGET_COUNTRY.GetAdjective]의 [concept_sovereignty]을 침해하는 중" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_VIOLATING_SOVEREIGNTY_OF_NOT:0 "[COUNTRY.GetName](이)가 [TARGET_COUNTRY.GetAdjective]의 [concept_sovereignty]을 침해하는 중이지 않음" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_SUBSIDIZED:0 "[Building.GetName](은)는 [Concept('concept_subsidies', '$concept_subsidized$')] 지원을 받음" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_SUBSIDIZED_NOT:0 "[Building.GetName](은)는 [Concept('concept_subsidies', '$concept_subsidized$')] 지원을 받지 않음" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_REPAIRING:0 "[Character.GetFullName](은)는 해전 패배 후 수리에 전념하고 있음"
+ TRIGGER_IS_REPAIRING_NOT:0 "[Character.GetFullName](은)는 최근에 해전에서 패배하지 않음"
+ TRIGGER_IS_ADVANCING_ON_FRONT:0 "[CHARACTER.GetFullName](은)는 [TARGET_FRONT.GetName](으)로 진군하고 있음"
+ TRIGGER_IS_ADVANCING_ON_FRONT_NOT:0 "[CHARACTER.GetFullName](은)는 [TARGET_FRONT.GetName](으)로 진군하고 있지 않음"
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_HIGH_ATTRITION`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_HIGH_ATTRITION_NOT`
+ TRIGGER_HAS_ACTIVE_PRODUCTION_METHOD:0 "[BUILDING.GetName](이)가 [PRODUCTION_METHOD.GetName](을)를 활성화함"
+ TRIGGER_HAS_ACTIVE_PRODUCTION_METHOD_NOT:0 "[BUILDING.GetName](이)가 [PRODUCTION_METHOD.GetName](을)를 활성화하지 않음"
+ TRIGGER_CASH_RESERVES_AVAILABLE:0 "[BUILDING.GetName]의 [concept_cash_reserves]가 @money!$NUM|vD$ $COMPARATOR$"
+ TRIGGER_CASH_RESERVES_AVAILABLE_NOT:0 "[BUILDING.GetName]의 [concept_cash_reserves]가 @money!$NUM|vD$ $COMPARATOR$(이)가 아님"
+ TRIGGER_CASH_RESERVES_RATIO:0 "[BUILDING.GetName]의 [concept_cash_reserves]가 $NUM|%0v$ $COMPARATOR$"
+ TRIGGER_CASH_RESERVES_RATIO_NOT:0 "[BUILDING.GetName]의 [concept_cash_reserves]가 $NUM|%0v$ $COMPARATOR$(이)가 아님"
+ TRIGGER_IS_TRADE_ROUTE_ACTIVE:0 "[concept_trade_route](이)가 활성화 상태임"
+ TRIGGER_IS_TRADE_ROUTE_ACTIVE_NOT:0 "[concept_trade_route](이)가 비활성화 상태임"
+ TRIGGER_IS_CONSTRUCTION_EXPENSIVE:0 "[State.GetName] 내 [BuildingType.GetName] 건설 비용이 비쌈"
+ TRIGGER_IS_CONSTRUCTION_EXPENSIVE_NOT:0 "[State.GetName] 내 [BuildingType.GetName] 건설 비용이 비싸지 않음"
+ TRIGGER_IS_BUILDABLE:0 "[BuildingType.GetName](은)는 수동으로 건설할 수 있음"
+ TRIGGER_IS_BUILDABLE_NOT:0 "[BuildingType.GetName](은)는 수동으로 건설 불가"
+ TRIGGER_NUM_CASUALTIES:0 "[War.GetName]의 총 사상자 수가 #variable $NUM|0+=$#! $COMPARATOR$"
+ TRIGGER_NUM_CASUALTIES_NOT:0 "[War.GetName]의 총 사상자 수가 #variable $NUM|0+=$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_NUM_WOUNDED:0 "[War.GetName]의 총 부상자 수가 #variable $NUM|0+=$#! $COMPARATOR$"
+ TRIGGER_NUM_WOUNDED_NOT:0 "[War.GetName]의 총 부상자 수가 #variable $NUM|0+=$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_NUM_DEAD:0 "[War.GetName]의 총 사망자 수가 #variable $NUM|0+=$#! $COMPARATOR$"
+ TRIGGER_NUM_DEAD_NOT:0 "[War.GetName]의 총 사망자 수가 #variable $NUM|0+=$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_NUM_COUNTRY_CASUALTIES:0 "[War.GetName]에서 #v [Country.GetAdjective]#!의 총 사상자 수가 #variable $NUM|0+=$#! $COMPARATOR$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_NUM_COUNTRY_CASUALTIES_NOT:0 "[War.GetName]에서 #v [Country.GetAdjective]#!의 총 사상자 수가 #variable $NUM|0+=$#! $COMPARATOR$(이)가 아님" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_NUM_COUNTRY_WOUNDED:0 "[War.GetName]에서 #v [Country.GetAdjective]#!의 총 부상자#! 수가 #variable $NUM|0+=$#! $COMPARATOR$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_NUM_COUNTRY_WOUNDED_NOT:0 "[War.GetName]에서 #v [Country.GetAdjective]#!의 총 부상자#! 수가 #variable $NUM|0+=$#! $COMPARATOR$(이)가 아님" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_NUM_COUNTRY_DEAD:0 "[War.GetName]에서 #v [Country.GetAdjective]#!의 총 사망자#! 수가 #variable $NUM|0+=$#! $COMPARATOR$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_NUM_COUNTRY_DEAD_NOT:0 "[War.GetName]에서 #v [Country.GetAdjective]#!의 총 사망자#! 수가 #variable $NUM|0+=$#! $COMPARATOR$(이)가 아님" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_POLITICAL_MOVEMENT_SUPPORT:0 "지지가 #variable $NUM|0+=$#! $COMPARATOR$"
+ TRIGGER_POLITICAL_MOVEMENT_SUPPORT_NOT:0 "지지가 #variable $NUM|%0$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_POLITICAL_MOVEMENT_RADICALISM:0 "급진주의가 #variable $NUM|0+=$#! $COMPARATOR$"
+ TRIGGER_POLITICAL_MOVEMENT_RADICALISM_NOT:0 "급진주의가 #variable $NUM|%0$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_IS_POLITICAL_MOVEMENT_TYPE:0 "유형이 $MOVEMENT_TYPE|v$임"
+ TRIGGER_IS_POLITICAL_MOVEMENT_TYPE_NOT:0 "유형이 $MOVEMENT_TYPE|v$(이)가 아님"
+ TRIGGER_IS_COUNTRY_ALIVE:0 "[Country.GetName](이)가 생존함"
+ TRIGGER_IS_COUNTRY_ALIVE_NOT:0 "[Country.GetName](이)가 사망함"
+ TRIGGER_CIVIL_WAR_PROGRESS:0 "[concept_civil_war] 진행도가 #variable $NUM|0$#! $COMPARATOR$"
+ TRIGGER_CIVIL_WAR_PROGRESS_NOT:0 "[concept_civil_war] 진행도가 #variable $NUM|0$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_IS_CIVIL_WAR_TYPE:0 "[concept_civil_war]이 #v $CIVIL_WAR_TYPE$#!임"
+ TRIGGER_IS_CIVIL_WAR_TYPE_NOT:0 "[concept_civil_war]이 #v $CIVIL_WAR_TYPE$#!(이)가 아님"
+ TRIGGER_IS_TREATY_PORT:0 "[State.GetName](이)가 [concept_treaty_port]임"
+ TRIGGER_IS_TREATY_PORT_NOT:0 "[State.GetName](이)가 [concept_treaty_port]이 아님"
+ TRIGGER_STATE_UNEMPLOYMENT_RATE:0 "[State.GetName] 내 실업률이 #v $NUM|0%$#! $COMPARATOR$"
+ TRIGGER_STATE_UNEMPLOYMENT_RATE_NOT:0 "[State.GetName] 내 실업률이 #v $NUM|0%$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_STATE_POPULATION:0 "[State.GetName] 내 총 인구가 #v $NUM|K$#! $COMPARATOR$"
+ TRIGGER_STATE_POPULATION_NOT:0 "[State.GetName] 내 총 인구가 #v $NUM|K$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_IS_HEIR:0 "[concept_heir]임"
+ TRIGGER_IS_HEIR_NOT:0 "[concept_heir]가 아님"
+ TRIGGER_HAS_POTENTIAL_RESOURCE:0 "[STATE.GetName]에 #v $BUILDING_GROUP$#! 건설 가능"
+ TRIGGER_HAS_POTENTIAL_RESOURCE_NOT:0 "[STATE.GetName]에 #v $BUILDING_GROUP$#! 건설 불가"
+ TRIGGER_IS_ENCOURAGING_CONSUMPTION:0 "[COUNTRY.GetName](이)가 [TARGET_GOODS.GetName] 소비를 장려하고 있음"
+ TRIGGER_IS_ENCOURAGING_CONSUMPTION_NOT:0 "[COUNTRY.GetName](이)가 [TARGET_GOODS.GetName] 소비를 장려하고 있지 않음"
+ TRIGGER_IS_DISCOURAGING_CONSUMPTION:0 "[COUNTRY.GetName](이)가 [TARGET_GOODS.GetName] 소비를 억제하고 있음"
+ TRIGGER_IS_DISCOURAGING_CONSUMPTION_NOT:0 "[COUNTRY.GetName](이)가 [TARGET_GOODS.GetName] 소비를 억제하고 있지 않음"
+ TRIGGER_AUTHORITY:0 "[concept_authority] @aut!가 #variable $NUM|0$#! $COMPARATOR$"
+ TRIGGER_AUTHORITY_NOT:0 "[concept_authority] @aut!가 #variable $NUM|0$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_BUREAUCRACY:0 "[concept_bureaucracy] @bur!가 #variable $NUM|0$#! $COMPARATOR$"
+ TRIGGER_BUREAUCRACY_NOT:0 "[concept_bureaucracy] @bur!가 #variable $NUM|0$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_INFLUENCE:0 "[concept_influence] @inf!이 #variable $NUM|0$#! $COMPARATOR$"
+ TRIGGER_INFLUENCE_NOT:0 "[concept_influence] @inf!이 #variable $NUM|0$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_ELECTION_MOMENTUM:0 "[concept_momentum]가 $NUM|%v$ $COMPARATOR$ ($CURRENT_VALUE$)"
+ TRIGGER_ELECTION_MOMENTUM_NOT:0 "[concept_momentum]가 $NUM|%v$ $COMPARATOR$(이)가 아님 ($CURRENT_VALUE$)"
+ TRIGGER_IS_HOMELAND_OF_COUNTRY_CULTURES:0 "[TARGET_COUNTRY.GetName](이)가 [STATE.GetName](을)를 본토로 여김"
+ TRIGGER_IS_HOMELAND_OF_COUNTRY_CULTURES_NOT:0 "[TARGET_COUNTRY.GetName](이)가 [STATE.GetName](을)를 본토로 여기지 않음"
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_PARTY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_PARTY_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_MEMBER_OF_PARTY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_MEMBER_OF_PARTY_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PARTY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PARTY_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PARTY_TYPE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PARTY_TYPE_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PARTY_TYPE_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PARTY_TYPE_THIRD_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_SAME_PARTY_TYPE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_SAME_PARTY_TYPE_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_SAME_PARTY_TYPE_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_SAME_PARTY_TYPE_THIRD_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_PARTY_MEMBER`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_PARTY_MEMBER_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_PARTY_MEMBER_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_PARTY_MEMBER_THIRD_NOT`
+ 
+  #For each script list, we need TRIGGER_<key>, TRIGGER_<key>_ALL, TRIGGER_<key>_PERCENT and TRIGGER_<key>_COUNT
+ TRIGGER_ANY_MARKET:0 "임의의 [concept_market]:"
+ TRIGGER_ANY_MARKET_ALL:0 "모든 [Concept('concept_market', '$concept_markets$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_MARKET_PERCENT:0 "[Concept('concept_market', '$concept_markets$')]의 $PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_MARKET_COUNT:0 "$PARAMETERS$ [Concept('concept_market', '$concept_markets$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_THEATER:0 "임의의 [concept_theater]:"
+ TRIGGER_ANY_SCOPE_THEATER_ALL:0 "모든 [Concept('concept_theater', '$concept_theaters$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_THEATER_PERCENT:0 "[Concept('concept_theater', '$concept_theaters$')]의 $PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_THEATER_COUNT:0 "$PARAMETERS$ [Concept('concept_theater', '$concept_theaters$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_POP:0 "임의의 [concept_pop]:"
+ TRIGGER_ANY_SCOPE_POP_ALL:0 "모든 [Concept('concept_pop', '$concept_pops$')]:"
+ TRIGGER_ANY_SCOPE_POP_PERCENT:0 "[Concept('concept_pop', '$concept_pops$')]의 $PARAMETERS$:"
+ TRIGGER_ANY_SCOPE_POP_COUNT:0 "$PARAMETERS$ [Concept('concept_pop', '$concept_pops$')]:"
+ TRIGGER_ANY_SCOPE_BUILDING:0 "임의의 [concept_building]:"
+ TRIGGER_ANY_SCOPE_BUILDING_ALL:0 "모든 [Concept('concept_building', '$concept_buildings$')]:"
+ TRIGGER_ANY_SCOPE_BUILDING_PERCENT:0 "[Concept('concept_building', '$concept_buildings$')]의 $PARAMETERS$:"
+ TRIGGER_ANY_SCOPE_BUILDING_COUNT:0 "$PARAMETERS$ [Concept('concept_building', '$concept_buildings$')]:"
+ TRIGGER_ANY_SCOPE_INTEREST_MARKER:0 "아무 이해 표지:"
+ TRIGGER_ANY_SCOPE_INTEREST_MARKER_ALL:0 "모든 이해 표지:"
+ TRIGGER_ANY_SCOPE_INTEREST_MARKER_PERCENT:0 "이해 표지의 $PARAMETERS$:"
+ TRIGGER_ANY_SCOPE_INTEREST_MARKER_COUNT:0 "$PARAMETERS$ 이해 표지:"
+ 
+ TRIGGER_ANY_INTEREST_GROUP:0 "임의의 [concept_interest_group]:"
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_INTEREST_GROUP_FIRST`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_INTEREST_GROUP_THIRD`
+ TRIGGER_ANY_INTEREST_GROUP_ALL:0 "모든 [Concept('concept_interest_group', '$concept_interest_groups$')]:"
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_INTEREST_GROUP_ALL_THIRD`
+ TRIGGER_ANY_INTEREST_GROUP_PERCENT:0 "[Concept('concept_interest_group', '$concept_interest_groups$')]의 $PARAMETERS$:"
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_INTEREST_GROUP_PERCENT_THIRD`
+ TRIGGER_ANY_INTEREST_GROUP_COUNT:0 "$PARAMETERS$ [Concept('concept_interest_group', '$concept_interest_groups$')]:"
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_INTEREST_GROUP_COUNT_THIRD`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_ALL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_ALL_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_PERCENT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_PERCENT_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_COUNT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_COUNT_THIRD`
+ 
+ TRIGGER_ANY_SUPPORTING_INTEREST_GROUP:0 "임의의 지지 [concept_interest_group]:"
+ TRIGGER_ANY_SUPPORTING_INTEREST_GROUP_ALL:0 "모든 지지 [Concept('concept_interest_group', '$concept_interest_groups$')]:"
+ TRIGGER_ANY_SUPPORTING_INTEREST_GROUP_PERCENT:0 "지지 [Concept('concept_interest_group', '$concept_interest_groups$')]의 $PARAMETERS$:"
+ TRIGGER_ANY_SUPPORTING_INTEREST_GROUP_COUNT:0 "$PARAMETERS$ 지지 [Concept('concept_interest_group', '$concept_interest_groups$')]:"
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_ALL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_ALL_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_PERCENT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_PERCENT_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_COUNT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_COUNT_THIRD`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_ALL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_ALL_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_PERCENT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_PERCENT_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_COUNT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_COUNT_THIRD`
+ 
+ TRIGGER_ANY_POLITICAL_MOVEMENT:0 "임의의 [concept_political_movement]:"
+ TRIGGER_ANY_POLITICAL_MOVEMENT_ALL:0 "모든 [Concept('concept_political_movement', '$concept_political_movements$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_POLITICAL_MOVEMENT_PERCENT:0 "[Concept('concept_political_movement', '$concept_political_movements$')]의 $PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_POLITICAL_MOVEMENT_COUNT:0 "$PARAMETERS$ [Concept('concept_political_movement', '$concept_political_movements$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_DIPLOMATIC_PLAY:0 "임의의 [concept_diplomatic_play]:"
+ TRIGGER_ANY_DIPLOMATIC_PLAY_ALL:0 "모든 [Concept('concept_diplomatic_play', '$concept_diplomatic_plays$')]:"
+ TRIGGER_ANY_DIPLOMATIC_PLAY_PERCENT:0 "[Concept('concept_diplomatic_play', '$concept_diplomatic_plays$')]의 $PARAMETERS$:"
+ TRIGGER_ANY_DIPLOMATIC_PLAY_COUNT:0 "$PARAMETERS$ [Concept('concept_diplomatic_play', '$concept_diplomatic_plays$')]:"
+ TRIGGER_ANY_SCOPE_PLAY_PARTICIPANT:0 "임의의 [concept_diplomatic_play] 참여자:"
+ TRIGGER_ANY_SCOPE_PLAY_PARTICIPANT_ALL:0 "모든 [concept_diplomatic_play] 참여자:"
+ TRIGGER_ANY_SCOPE_PLAY_PARTICIPANT_PERCENT:0 "[concept_diplomatic_play] 참여자의 $PARAMETERS$:"
+ TRIGGER_ANY_SCOPE_PLAY_PARTICIPANT_COUNT:0 "$PARAMETERS$ [concept_diplomatic_play] 참여자:"
+ TRIGGER_ANY_STATE_REGION:0 "임의의 [concept_state_region]:"
+ TRIGGER_ANY_STATE_REGION_ALL:0 "모든 [Concept('concept_state_region', '$concept_state_regions$')]:"
+ TRIGGER_ANY_STATE_REGION_PERCENT:0 "[Concept('concept_state_region', '$concept_state_regions$')]의 $PARAMETERS$:"
+ TRIGGER_ANY_STATE_REGION_COUNT:0 "$PARAMETERS$ [Concept('concept_state_region', '$concept_state_regions$')]:"
+ TRIGGER_ANY_TRADE_ROUTE:0 "임의의 [concept_trade_route]:"
+ TRIGGER_ANY_TRADE_ROUTE_ALL:0 "모든 [Concept('concept_trade_route', '$concept_trade_routes$')]:"
+ TRIGGER_ANY_TRADE_ROUTE_PERCENT:0 "[Concept('concept_trade_route', '$concept_trade_routes$')]의 $PARAMETERS$:"
+ TRIGGER_ANY_TRADE_ROUTE_COUNT:0 "$PARAMETERS$ [Concept('concept_trade_route', '$concept_trade_routes$')]:"
+ TRIGGER_ANY_LAW:0 "임의의 법:"
+ TRIGGER_ANY_LAW_ALL:0 "모든 법:"
+ TRIGGER_ANY_LAW_PERCENT:0 "법의 $PARAMETERS$:"
+ TRIGGER_ANY_LAW_COUNT:0 "$PARAMETERS$ 법:"
+ TRIGGER_ANY_SCOPE_CHARACTER:0 "임의의 [concept_character]:"
+ TRIGGER_ANY_SCOPE_CHARACTER_ALL:0 "모든 [Concept('concept_character', '$concept_characters$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_CHARACTER_PERCENT:0 "[Concept('concept_character', '$concept_characters$')]의 $PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_CHARACTER_COUNT:0 "$PARAMETERS$ [Concept('concept_character', '$concept_characters$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CHARACTER:0 "세계 내 임의의 [concept_character]:"
+ TRIGGER_ANY_CHARACTER_ALL:0 "세계 내 모든 [Concept('concept_character', '$concept_characters$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CHARACTER_PERCENT:0 "세계 내 [Concept('concept_character', '$concept_characters$')]의 $PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CHARACTER_COUNT:0 "세계 내 $PARAMETERS$ [Concept('concept_character', '$concept_characters$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CHARACTER_IN_VOID:0 "공허 내 임의의 [concept_character]:"
+ TRIGGER_ANY_CHARACTER_IN_VOID_ALL:0 "공허 내 모든 [Concept('concept_character', '$concept_characters$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CHARACTER_IN_VOID_PERCENT:0 "공허 내 [Concept('concept_character', '$concept_characters$')]의 $PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CHARACTER_IN_VOID_COUNT:0 "$PARAMETERS$ 공허 내 [Concept('concept_character', '$concept_characters$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_COUNTRY:0 "임의의 [concept_country]:"
+ TRIGGER_ANY_COUNTRY_ALL:0 "모든 [Concept('concept_country', '$concept_countries$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_COUNTRY_PERCENT:0 "[Concept('concept_country', '$concept_countries$')]의 $PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_COUNTRY_COUNT:0 "$PARAMETERS$ [Concept('concept_country', '$concept_countries$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_ALLY:0 "임의의 동맹:"
+ TRIGGER_ANY_SCOPE_ALLY_ALL:0 "모든 동맹:"
+ TRIGGER_ANY_SCOPE_ALLY_PERCENT:0 "동맹의 $PARAMETERS$:"
+ TRIGGER_ANY_SCOPE_ALLY_COUNT:0 "$PARAMETERS$ 동맹:"
+ TRIGGER_ANY_SCOPE_INITIATOR_ALLY:0 "개시자의 임의의 동맹:"
+ TRIGGER_ANY_SCOPE_INITIATOR_ALLY_ALL:0 "개시자의 모든 동맹:"
+ TRIGGER_ANY_SCOPE_INITIATOR_ALLY_PERCENT:0 "개시자의 동맹의 $PARAMETERS$:"
+ TRIGGER_ANY_SCOPE_INITIATOR_ALLY_COUNT:0 "개시자의 $PARAMETERS$ 동맹:"
+ TRIGGER_ANY_SCOPE_TARGET_ALLY:0 "대상의 임의의 동맹:"
+ TRIGGER_ANY_SCOPE_TARGET_ALLY_ALL:0 "대상의 모든 동맹:"
+ TRIGGER_ANY_SCOPE_TARGET_ALLY_PERCENT:0 "대상의 임의의 동맹의 $PARAMETERS$:"
+ TRIGGER_ANY_SCOPE_TARGET_ALLY_COUNT:0 "대상의 $PARAMETERS$ 동맹:"
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_INTERESTED_PARTIES:0 "주권을 침해할 경우 이해 관계가 생성되는 임의의 국가:" #hmmm
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_INTERESTED_PARTIES_ALL:0 "주권을 침해할 경우 이해 관계가 생성되는 모든 국가:"
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_INTERESTED_PARTIES_PERCENT:0 "주권을 침해할 경우 이해 관계가 생성되는 국가의 $PARAMETERS$:"
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_INTERESTED_PARTIES_COUNT:0 "주권을 침해할 경우 이해 관계가 생성되는 $PARAMETERS$ 국가:"
+ TRIGGER_ANY_OVERLORD_OR_ABOVE:0 "지배국 이상의 임의의 국가:"
+ TRIGGER_ANY_OVERLORD_OR_ABOVE_ALL:0 "지배국 이상의 모든 국가:"
+ TRIGGER_ANY_OVERLORD_OR_ABOVE_PERCENT:0 "지배국 이상 국가의 $PARAMETERS$:"
+ TRIGGER_ANY_OVERLORD_OR_ABOVE_COUNT:0 "지배국 이상의 $PARAMETERS$ 국가:"
+ TRIGGER_ANY_SUBJECT_OR_BELOW:0 "종속국 이하의 임의의 국가:"
+ TRIGGER_ANY_SUBJECT_OR_BELOW_ALL:0 "종속국 이하의 모든 국가:"
+ TRIGGER_ANY_SUBJECT_OR_BELOW_PERCENT:0 "종속국 이하 국가의 $PARAMETERS$:"
+ TRIGGER_ANY_SUBJECT_OR_BELOW_COUNT:0 "종속국 이하 $PARAMETERS$ 국가:"
+ TRIGGER_ANY_IN_HIERARCHY:0 "지배국 체계에 속한 임의의 [concept_country]:"
+ TRIGGER_ANY_IN_HIERARCHY_ALL:0 "지배국 체계에 속한 모든 [Concept('concept_country', '$concept_countries$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_IN_HIERARCHY_PERCENT:0 "지배국 체계에 속한 [Concept('concept_country', '$concept_countries$')]의 $PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_IN_HIERARCHY_COUNT:0 "지배국 체계에 속한 $PARAMETERS$ [Concept('concept_country', '$concept_countries$')]:" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_RIVAL_COUNTRY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_RIVAL_COUNTRY_ALL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_RIVAL_COUNTRY_PERCENT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_RIVAL_COUNTRY_COUNT`
+ TRIGGER_ANY_SCOPE_CULTURE:0 "임의의 [concept_culture]:"
+ TRIGGER_ANY_SCOPE_CULTURE_ALL:0 "모든 [Concept('concept_culture', '$concept_cultures$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_CULTURE_PERCENT:0 "[Concept('concept_culture', '$concept_cultures$')]의 $PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_CULTURE_COUNT:0 "$PARAMETERS$ [Concept('concept_culture', '$concept_cultures$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_PRIMARY_CULTURE:0 "임의의 [concept_primary_cultures]:"
+ TRIGGER_ANY_PRIMARY_CULTURE_ALL:0 "모든 [Concept('concept_primary_cultures', '$concept_primary_culture$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_PRIMARY_CULTURE_PERCENT:0 "[Concept('concept_primary_cultures', '$concept_primary_culture$')]의 $PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_PRIMARY_CULTURE_COUNT:0 "$PARAMETERS$ [Concept('concept_primary_cultures', '$concept_primary_culture$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_STATE:0 "세계 내 임의의 [concept_state]:"
+ TRIGGER_ANY_STATE_ALL:0 "세계 내 모든 [Concept('concept_state', '$concept_states$')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_STATE_PERCENT:0 "세계 내 [Concept('concept_state', '$concept_states$')]의 $PARAMETERS$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_STATE_COUNT:0 "세계 내 $PARAMETERS$ [Concept('concept_state', '$concept_states$')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_STATE:0 "임의의 [concept_state]:"
+ TRIGGER_ANY_SCOPE_STATE_ALL:0 "모든 [Concept('concept_state', '$concept_states$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_STATE_PERCENT:0 "[Concept('concept_state', '$concept_states$')]의 $PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_STATE_COUNT:0 "$PARAMETERS$ [Concept('concept_state', '$concept_states$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_NEIGHBOURING_STATE:0 "이웃한 임의의 [concept_state]:"
+ TRIGGER_ANY_NEIGHBOURING_STATE_ALL:0 "이웃한 모든 [Concept('concept_state', '$concept_states$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_NEIGHBOURING_STATE_PERCENT:0 "이웃한 [Concept('concept_state', '$concept_states$')]의 $PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_NEIGHBOURING_STATE_COUNT:0 "이웃한 $PARAMETERS$ [Concept('concept_state', '$concept_states$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_WAR:0 "임의의 [concept_war]:"
+ TRIGGER_ANY_SCOPE_WAR_ALL:0 "모든 [Concept('concept_war', '$concept_wars$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_WAR_PERCENT:0 "[Concept('concept_war', '$concept_wars$')]의 $PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_WAR_COUNT:0 "$PARAMETERS$ [Concept('concept_war', '$concept_wars$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_WARS:0 "주권 침해 시 임의의 전쟁:" #hmmm
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_WARS_ALL:0 "주권 침해 시 모든 전쟁:"
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_WARS_PERCENT:0 "주권 침해 시 전쟁의 $PARAMETERS$:"
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_WARS_COUNT:0 "주권 침해 시 $PARAMETERS$ 전쟁:"
+ TRIGGER_ANY_CIVIL_WAR:0 "임의의 [concept_civil_war]:"
+ TRIGGER_ANY_CIVIL_WAR_ALL:0 "모든 [Concept('concept_civil_war', '$concept_civil_wars$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CIVIL_WAR_PERCENT:0 "[Concept('concept_civil_war', '$concept_civil_wars$')]의 $PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CIVIL_WAR_COUNT:0 "$PARAMETERS$ [Concept('concept_civil_war', '$concept_civil_wars$')]:" # [LocEditor:AwaitingBatchUpdate]
+
+ TRIGGER_BUILDING_LEVEL_GREATER_THAN:0 "[BUILDING.GetName] 단계가 $TARGET_VALUE|0v$ 초과"
+ TRIGGER_BUILDING_LEVEL_GREATER_OR_EQUAL:0 "[BUILDING.GetName] 단계가 $TARGET_VALUE|0v$ 이상"
+ TRIGGER_BUILDING_LEVEL_LESS_THAN:0 "[BUILDING.GetName] 단계가 $TARGET_VALUE|0v$ 미만"
+ TRIGGER_BUILDING_LEVEL_LESS_OR_EQUAL:0 "[BUILDING.GetName] 단계가 $TARGET_VALUE|0v$ 이하"
+ TRIGGER_BUILDING_LEVEL_EQUAL:0 "[BUILDING.GetName] 단계가 $TARGET_VALUE|0v$임"
+ TRIGGER_BUILDING_LEVEL_NOT_EQUAL:0 "[BUILDING.GetName] 단계가 $TARGET_VALUE|0v$(이)가 아님"
+
+ TRIGGER_TRADE_ROUTE_LEVEL_GREATER_THAN:0 "[TRADE_ROUTE.GetName] 단계가 $TARGET_VALUE|0v$ 초과"
+ TRIGGER_TRADE_ROUTE_LEVEL_GREATER_OR_EQUAL:0 "[TRADE_ROUTE.GetName] 단계가 $TARGET_VALUE|0v$ 이상"
+ TRIGGER_TRADE_ROUTE_LEVEL_LESS_THAN:0 "[TRADE_ROUTE.GetName] 단계가 $TARGET_VALUE|0v$ 미만"
+ TRIGGER_TRADE_ROUTE_LEVEL_LESS_OR_EQUAL:0 "[TRADE_ROUTE.GetName] 단계가 $TARGET_VALUE|0v$ 이하"
+ TRIGGER_TRADE_ROUTE_LEVEL_EQUAL:0 "[TRADE_ROUTE.GetName] 단계가 $TARGET_VALUE|0v$임"
+ TRIGGER_TRADE_ROUTE_LEVEL_NOT_EQUAL:0 "[TRADE_ROUTE.GetName] 단계가 $TARGET_VALUE|0v$(이)가 아님"
+
+ TRIGGER_NUM_ALLIANCES_TO_RIVALS_GREATER_THAN:0 "[TARGET_COUNTRY.GetName]의 동맹 중 [COUNTRY.GetName](와)과 경쟁 구도에 있는 국가의 수가 $TARGET_VALUE|0v$개 초과"
+ TRIGGER_NUM_ALLIANCES_TO_RIVALS_GREATER_OR_EQUAL:0 "[TARGET_COUNTRY.GetName]의 동맹 중 [COUNTRY.GetName](와)과 경쟁 구도에 있는 국가의 수가 $TARGET_VALUE|0v$개 이상"
+ TRIGGER_NUM_ALLIANCES_TO_RIVALS_LESS_THAN:0 "[TARGET_COUNTRY.GetName]의 동맹 중 [COUNTRY.GetName](와)과 경쟁 구도에 있는 국가의 수가 $TARGET_VALUE|0v$개 미만"
+ TRIGGER_NUM_ALLIANCES_TO_RIVALS_LESS_OR_EQUAL:0 "[TARGET_COUNTRY.GetName]의 동맹 중 [COUNTRY.GetName](와)과 경쟁 구도에 있는 국가의 수가 $TARGET_VALUE|0v$개 이하"
+ TRIGGER_NUM_ALLIANCES_TO_RIVALS_EQUAL:0 "[TARGET_COUNTRY.GetName]의 동맹 중 [COUNTRY.GetName](와)과 경쟁 구도에 있는 국가의 수가 $TARGET_VALUE|0v$개임"
+ TRIGGER_NUM_ALLIANCES_TO_RIVALS_NOT_EQUAL:0 "[TARGET_COUNTRY.GetName]의 동맹 중 [COUNTRY.GetName](와)과 경쟁 구도에 있는 국가의 수가 $TARGET_VALUE|0v$개가 아님"
+
+ TRIGGER_NUM_ALLIANCES_TO_ALLIES_GREATER_THAN:0 "[TARGET_COUNTRY.GetName]의 동맹 중 [COUNTRY.GetName](와)과 동맹인 국가의 수가 $TARGET_VALUE|0v$개 초과"
+ TRIGGER_NUM_ALLIANCES_TO_ALLIES_GREATER_OR_EQUAL:0 "[TARGET_COUNTRY.GetName]의 동맹 중 [COUNTRY.GetName](와)과 동맹인 국가의 수가 $TARGET_VALUE|0v$개 이상"
+ TRIGGER_NUM_ALLIANCES_TO_ALLIES_LESS_THAN:0 "[TARGET_COUNTRY.GetName]의 동맹 중 [COUNTRY.GetName](와)과 동맹인 국가의 수가 $TARGET_VALUE|0v$개 미만"
+ TRIGGER_NUM_ALLIANCES_TO_ALLIES_LESS_OR_EQUAL:0 "[TARGET_COUNTRY.GetName]의 동맹 중 [COUNTRY.GetName](와)과 동맹인 국가의 수가 $TARGET_VALUE|0v$개 이하"
+ TRIGGER_NUM_ALLIANCES_TO_ALLIES_EQUAL:0 "[TARGET_COUNTRY.GetName]의 동맹 중 [COUNTRY.GetName](와)과 동맹인 국가의 수가 $TARGET_VALUE|0v$개임"
+ TRIGGER_NUM_ALLIANCES_TO_ALLIES_NOT_EQUAL:0 "[TARGET_COUNTRY.GetName]의 동맹 중 [COUNTRY.GetName](와)과 동맹인 국가의 수가 $TARGET_VALUE|0v$개가 아님"
+
+ TRIGGER_RELATIONS_GREATER_THAN:0 "[COUNTRY.GetName](와)과 [TARGET_COUNTRY.GetName] 간의 관계가 $TARGET_VALUE|0v$ 초과"
+ TRIGGER_RELATIONS_GREATER_OR_EQUAL:0 "[COUNTRY.GetName](와)과 [TARGET_COUNTRY.GetName] 간의 관계가 $TARGET_VALUE|0v$ 이상"
+ TRIGGER_RELATIONS_LESS_THAN:0 "[COUNTRY.GetName](와)과 [TARGET_COUNTRY.GetName] 간의 관계가 $TARGET_VALUE|0v$ 미만"
+ TRIGGER_RELATIONS_LESS_OR_EQUAL:0 "[COUNTRY.GetName](와)과 [TARGET_COUNTRY.GetName] 간의 관계가 $TARGET_VALUE|0v$ 이하"
+ TRIGGER_RELATIONS_EQUAL:0 "[COUNTRY.GetName](와)과 [TARGET_COUNTRY.GetName] 간의 관계가 $TARGET_VALUE|0v$임"
+ TRIGGER_RELATIONS_NOT_EQUAL:0 "[COUNTRY.GetName](와)과 [TARGET_COUNTRY.GetName] 간의 관계가 $TARGET_VALUE|0v$(이)가 아님"
+
+ TRIGGER_RELATIONS_THRESHOLD_GREATER_THAN:0 "[COUNTRY.GetName](와)과 [TARGET_COUNTRY.GetName] 간의 관계가 $TARGET_VALUE|0v$ 초과"
+ TRIGGER_RELATIONS_THRESHOLD_GREATER_OR_EQUAL:0 "[COUNTRY.GetName](와)과 [TARGET_COUNTRY.GetName] 간의 관계가 $TARGET_VALUE|0v$ 이상"
+ TRIGGER_RELATIONS_THRESHOLD_LESS_THAN:0 "[COUNTRY.GetName](와)과 [TARGET_COUNTRY.GetName] 간의 관계가 $TARGET_VALUE|0v$ 미만"
+ TRIGGER_RELATIONS_THRESHOLD_LESS_OR_EQUAL:0 "[COUNTRY.GetName](와)과 [TARGET_COUNTRY.GetName] 간의 관계가 $TARGET_VALUE|0v$ 이하"
+ TRIGGER_RELATIONS_THRESHOLD_EQUAL:0 "[COUNTRY.GetName](와)과 [TARGET_COUNTRY.GetName] 간의 관계가 $TARGET_VALUE|0v$임"
+ TRIGGER_RELATIONS_THRESHOLD_NOT_EQUAL:0 "[COUNTRY.GetName](와)과 [TARGET_COUNTRY.GetName] 간의 관계가 $TARGET_VALUE|0v$(이)가 아님"
+
+ TRIGGER_INFAMY_THRESHOLD_GREATER_THAN:0 "[COUNTRY.GetName]의 악명이 $TARGET_VALUE|0v$ 초과"
+ TRIGGER_INFAMY_THRESHOLD_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]의 악명이 $TARGET_VALUE|0v$ 이상"
+ TRIGGER_INFAMY_THRESHOLD_LESS_THAN:0 "[COUNTRY.GetName]의 악명이 $TARGET_VALUE|0v$ 미만"
+ TRIGGER_INFAMY_THRESHOLD_LESS_OR_EQUAL:0 "[COUNTRY.GetName]의 악명이 $TARGET_VALUE|0v$ 이하"
+ TRIGGER_INFAMY_THRESHOLD_EQUAL:0 "[COUNTRY.GetName]의 악명이 $TARGET_VALUE|0v$임"
+ TRIGGER_INFAMY_THRESHOLD_NOT_EQUAL:0 "[COUNTRY.GetName]의 악명이 $TARGET_VALUE|0v$(이)가 아님"
+
+ TRIGGER_TENSION_GREATER_THAN:0 "[COUNTRY.GetName](와)과 [TARGET_COUNTRY.GetName] 간의 긴장이 $TARGET_VALUE|0v$ 초과"
+ TRIGGER_TENSION_GREATER_OR_EQUAL:0 "[COUNTRY.GetName](와)과 [TARGET_COUNTRY.GetName] 간의 긴장이 $TARGET_VALUE|0v$ 이상"
+ TRIGGER_TENSION_LESS_THAN:0 "[COUNTRY.GetName](와)과 [TARGET_COUNTRY.GetName] 간의 긴장이 $TARGET_VALUE|0v$ 미만"
+ TRIGGER_TENSION_LESS_OR_EQUAL:0 "[COUNTRY.GetName](와)과 [TARGET_COUNTRY.GetName] 간의 긴장이 $TARGET_VALUE|0v$ 이하"
+ TRIGGER_TENSION_EQUAL:0 "[COUNTRY.GetName](와)과 [TARGET_COUNTRY.GetName] 간의 긴장이 $TARGET_VALUE|0v$임"
+ TRIGGER_TENSION_NOT_EQUAL:0 "[COUNTRY.GetName](와)과 [TARGET_COUNTRY.GetName] 간의 긴장이 $TARGET_VALUE|0v$(이)가 아님"
+
+ TRIGGER_TENSION_THRESHOLD_GREATER_THAN:0 "[COUNTRY.GetName](와)과 [TARGET_COUNTRY.GetName] 간의 긴장이 $TARGET_VALUE|0v$ 초과"
+ TRIGGER_TENSION_THRESHOLD_GREATER_OR_EQUAL:0 "[COUNTRY.GetName](와)과 [TARGET_COUNTRY.GetName] 간의 긴장이 $TARGET_VALUE|0v$ 이상"
+ TRIGGER_TENSION_THRESHOLD_LESS_THAN:0 "[COUNTRY.GetName](와)과 [TARGET_COUNTRY.GetName] 간의 긴장이 $TARGET_VALUE|0v$ 미만"
+ TRIGGER_TENSION_THRESHOLD_LESS_OR_EQUAL:0 "[COUNTRY.GetName](와)과 [TARGET_COUNTRY.GetName] 간의 긴장이 $TARGET_VALUE|0v$ 이하"
+ TRIGGER_TENSION_THRESHOLD_EQUAL:0 "[COUNTRY.GetName](와)과 [TARGET_COUNTRY.GetName] 간의 긴장이 $TARGET_VALUE|0v$임"
+ TRIGGER_TENSION_THRESHOLD_NOT_EQUAL:0 "[COUNTRY.GetName](와)과 [TARGET_COUNTRY.GetName] 간의 긴장이 $TARGET_VALUE|0v$(이)가 아님"
+
+ TRIGGER_NUM_ENEMY_UNITS_GREATER_THAN:0 "[FRONT.GetName]에 있는 적 부대의 수가 $TARGET_VALUE|0v$개 초과"
+ TRIGGER_NUM_ENEMY_UNITS_GREATER_OR_EQUAL:0 "[FRONT.GetName]에 있는 적 부대의 수가 $TARGET_VALUE|0v$개 이상"
+ TRIGGER_NUM_ENEMY_UNITS_LESS_THAN:0 "[FRONT.GetName]에 있는 적 부대의 수가 $TARGET_VALUE|0v$개 미만"
+ TRIGGER_NUM_ENEMY_UNITS_LESS_OR_EQUAL:0 "[FRONT.GetName]에 있는 적 부대의 수가 $TARGET_VALUE|0v$개 이하"
+ TRIGGER_NUM_ENEMY_UNITS_EQUAL:0 "[FRONT.GetName]에 있는 적 부대의 수가 $TARGET_VALUE|0v$개임"
+ TRIGGER_NUM_ENEMY_UNITS_NOT_EQUAL:0 "[FRONT.GetName]에 있는 적 부대의 수가 $TARGET_VALUE|0v$개가 아님"
+
+ TRIGGER_NUM_ALLIANCES_GREATER_THAN:0 "[COUNTRY.GetName]의 동맹의 수가 $TARGET_VALUE|0v$개 초과"
+ TRIGGER_NUM_ALLIANCES_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]의 동맹의 수가 $TARGET_VALUE|0v$개 이상"
+ TRIGGER_NUM_ALLIANCES_LESS_THAN:0 "[COUNTRY.GetName]의 동맹의 수가 $TARGET_VALUE|0v$개 미만"
+ TRIGGER_NUM_ALLIANCES_LESS_OR_EQUAL:0 "[COUNTRY.GetName]의 동맹의 수가 $TARGET_VALUE|0v$개 이하"
+ TRIGGER_NUM_ALLIANCES_EQUAL:0 "[COUNTRY.GetName]의 동맹의 수가 $TARGET_VALUE|0v$개임"
+ TRIGGER_NUM_ALLIANCES_NOT_EQUAL:0 "[COUNTRY.GetName]의 동맹의 수가 $TARGET_VALUE|0v$개가 아님"
+
+ TRIGGER_INFAMY_GREATER_THAN:0 "[COUNTRY.GetName]의 악명이 $TARGET_VALUE|0v$ 초과"
+ TRIGGER_INFAMY_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]의 악명이 $TARGET_VALUE|0v$ 이상"
+ TRIGGER_INFAMY_LESS_THAN:0 "[COUNTRY.GetName]의 악명이 $TARGET_VALUE|0v$ 미만"
+ TRIGGER_INFAMY_LESS_OR_EQUAL:0 "[COUNTRY.GetName]의 악명이 $TARGET_VALUE|0v$ 이하"
+ TRIGGER_INFAMY_EQUAL:0 "[COUNTRY.GetName]의 악명이 $TARGET_VALUE|0v$임"
+ TRIGGER_INFAMY_NOT_EQUAL:0 "[COUNTRY.GetName]의 악명이 $TARGET_VALUE|0v$(이)가 아님"
+
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_AVERAGE_SOL_GREATER_THAN`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_AVERAGE_SOL_GREATER_OR_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_AVERAGE_SOL_LESS_THAN`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_AVERAGE_SOL_LESS_OR_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_AVERAGE_SOL_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_AVERAGE_SOL_NOT_EQUAL`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_STATE_AVERAGE_SOL_GREATER_THAN`
+ # [LocEditor:UntranslatedKey] `TRIGGER_STATE_AVERAGE_SOL_GREATER_OR_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_STATE_AVERAGE_SOL_LESS_THAN`
+ # [LocEditor:UntranslatedKey] `TRIGGER_STATE_AVERAGE_SOL_LESS_OR_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_STATE_AVERAGE_SOL_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_STATE_AVERAGE_SOL_NOT_EQUAL`
+
+ TRIGGER_INCOME_GREATER_THAN:0 "[COUNTRY.GetName]의 수입이 $TARGET_VALUE|0v$ 초과"
+ TRIGGER_INCOME_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]의 수입이 $TARGET_VALUE|0v$ 이상"
+ TRIGGER_INCOME_LESS_THAN:0 "[COUNTRY.GetName]의 수입이 $TARGET_VALUE|0v$ 미만"
+ TRIGGER_INCOME_LESS_OR_EQUAL:0 "[COUNTRY.GetName]의 수입이 $TARGET_VALUE|0v$ 이하"
+ TRIGGER_INCOME_EQUAL:0 "[COUNTRY.GetName]의 수입이 $TARGET_VALUE|0v$임"
+ TRIGGER_INCOME_NOT_EQUAL:0 "[COUNTRY.GetName]의 수입이 $TARGET_VALUE|0v$(이)가 아님"
+
+ TRIGGER_NUM_TRADE_ROUTES_GREATER_THAN:0 "[COUNTRY.GetName](이)가 보유한 무역로의 수가 $TARGET_VALUE|0v$개 초과"
+ TRIGGER_NUM_TRADE_ROUTES_GREATER_OR_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 무역로의 수가 $TARGET_VALUE|0v$개 이상"
+ TRIGGER_NUM_TRADE_ROUTES_LESS_THAN:0 "[COUNTRY.GetName](이)가 보유한 무역로의 수가 $TARGET_VALUE|0v$개 미만"
+ TRIGGER_NUM_TRADE_ROUTES_LESS_OR_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 무역로의 수가 $TARGET_VALUE|0v$개 이하"
+ TRIGGER_NUM_TRADE_ROUTES_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 무역로의 수가 $TARGET_VALUE|0v$개임"
+ TRIGGER_NUM_TRADE_ROUTES_NOT_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 무역로의 수가 $TARGET_VALUE|0v$개가 아님"
+
+ TRIGGER_NUM_RULING_IGS_GREATER_THAN:0 "[COUNTRY.GetName]내 통치 이해 집단의 수가 $TARGET_VALUE|0v$개 초과"
+ TRIGGER_NUM_RULING_IGS_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]내 통치 이해 집단의 수가 $TARGET_VALUE|0v$개 이상"
+ TRIGGER_NUM_RULING_IGS_LESS_THAN:0 "[COUNTRY.GetName]내 통치 이해 집단의 수가 $TARGET_VALUE|0v$개 미만"
+ TRIGGER_NUM_RULING_IGS_LESS_OR_EQUAL:0 "[COUNTRY.GetName]내 통치 이해 집단의 수가 $TARGET_VALUE|0v$개 이하"
+ TRIGGER_NUM_RULING_IGS_EQUAL:0 "[COUNTRY.GetName]내 통치 이해 집단의 수가 $TARGET_VALUE|0v$개임"
+ TRIGGER_NUM_RULING_IGS_NOT_EQUAL:0 "[COUNTRY.GetName]내 통치 이해 집단의 수가 $TARGET_VALUE|0v$개가 아님"
+
+ TRIGGER_NUM_POSITIVE_RELATIONS_GREATER_THAN:0 "[COUNTRY.GetName](이)가 보유한 긍정적인 관계의 수가 $TARGET_VALUE|0v$개 초과"
+ TRIGGER_NUM_POSITIVE_RELATIONS_GREATER_OR_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 긍정적인 관계의 수가 $TARGET_VALUE|0v$개 이상"
+ TRIGGER_NUM_POSITIVE_RELATIONS_LESS_THAN:0 "[COUNTRY.GetName](이)가 보유한 긍정적인 관계의 수가 $TARGET_VALUE|0v$개 미만"
+ TRIGGER_NUM_POSITIVE_RELATIONS_LESS_OR_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 긍정적인 관계의 수가 $TARGET_VALUE|0v$개 이하"
+ TRIGGER_NUM_POSITIVE_RELATIONS_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 긍정적인 관계의 수가 $TARGET_VALUE|0v$개임"
+ TRIGGER_NUM_POSITIVE_RELATIONS_NOT_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 긍정적인 관계의 수가 $TARGET_VALUE|0v$개가 아님"
+
+ TRIGGER_ARMY_SIZE_GREATER_THAN:0 "[COUNTRY.GetName](이)가 보유한 대대의 수가 $TARGET_VALUE|0v$개 초과"
+ TRIGGER_ARMY_SIZE_GREATER_OR_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 대대의 수가 $TARGET_VALUE|0v$개 이상"
+ TRIGGER_ARMY_SIZE_LESS_THAN:0 "[COUNTRY.GetName](이)가 보유한 대대의 수가 $TARGET_VALUE|0v$개 미만"
+ TRIGGER_ARMY_SIZE_LESS_OR_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 대대의 수가 $TARGET_VALUE|0v$개 이하"
+ TRIGGER_ARMY_SIZE_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 대대의 수가 $TARGET_VALUE|0v$개임"
+ TRIGGER_ARMY_SIZE_NOT_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 대대의 수가 $TARGET_VALUE|0v$개가 아님"
+
+ TRIGGER_NAVY_SIZE_GREATER_THAN:0 "[COUNTRY.GetName](이)가 보유한 전함의 수가 $TARGET_VALUE|0v$대 초과"
+ TRIGGER_NAVY_SIZE_GREATER_OR_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 전함의 수가 $TARGET_VALUE|0v$대 이상"
+ TRIGGER_NAVY_SIZE_LESS_THAN:0 "[COUNTRY.GetName](이)가 보유한 전함의 수가 $TARGET_VALUE|0v$대 미만"
+ TRIGGER_NAVY_SIZE_LESS_OR_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 전함의 수가 $TARGET_VALUE|0v$대 이하"
+ TRIGGER_NAVY_SIZE_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 전함의 수가 $TARGET_VALUE|0v$대임"
+ TRIGGER_NAVY_SIZE_NOT_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 전함의 수가 $TARGET_VALUE|0v$대가 아님"
+
+ TRIGGER_NUM_COMMANDERS_GREATER_THAN:0 "[COUNTRY.GetName](이)가 보유한 지휘관의 수가 $TARGET_VALUE|0v$명 초과"
+ TRIGGER_NUM_COMMANDERS_GREATER_OR_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 지휘관의 수가 $TARGET_VALUE|0v$명 이상"
+ TRIGGER_NUM_COMMANDERS_LESS_THAN:0 "[COUNTRY.GetName](이)가 보유한 지휘관의 수가 $TARGET_VALUE|0v$명 미만"
+ TRIGGER_NUM_COMMANDERS_LESS_OR_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 지휘관의 수가 $TARGET_VALUE|0v$명 이하"
+ TRIGGER_NUM_COMMANDERS_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 지휘관의 수가 $TARGET_VALUE|0v$명임"
+ TRIGGER_NUM_COMMANDERS_NOT_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 지휘관의 수가 $TARGET_VALUE|0v$명이 아님"
+
+ TRIGGER_NUM_ACTIVE_PLAYS_GREATER_THAN:0 "[COUNTRY.GetName](이)가 진행 중인 외교전의 수가 $TARGET_VALUE|0v$개 초과"
+ TRIGGER_NUM_ACTIVE_PLAYS_GREATER_OR_EQUAL:0 "[COUNTRY.GetName](이)가 진행 중인 외교전의 수가 $TARGET_VALUE|0v$개 이상"
+ TRIGGER_NUM_ACTIVE_PLAYS_LESS_THAN:0 "[COUNTRY.GetName](이)가 진행 중인 외교전의 수가 $TARGET_VALUE|0v$개 미만"
+ TRIGGER_NUM_ACTIVE_PLAYS_LESS_OR_EQUAL:0 "[COUNTRY.GetName](이)가 진행 중인 외교전의 수가 $TARGET_VALUE|0v$개 이하"
+ TRIGGER_NUM_ACTIVE_PLAYS_EQUAL:0 "[COUNTRY.GetName](이)가 진행 중인 외교전의 수가 $TARGET_VALUE|0v$개임"
+ TRIGGER_NUM_ACTIVE_PLAYS_NOT_EQUAL:0 "[COUNTRY.GetName](이)가 진행 중인 외교전의 수가 $TARGET_VALUE|0v$개가 아님"
+
+ TRIGGER_NUM_COLONY_PROJECTS_GREATER_THAN:0 "[COUNTRY.GetName](이)가 보유한 식민지 사업의 수가 $TARGET_VALUE|0v$개 초과"
+ TRIGGER_NUM_COLONY_PROJECTS_GREATER_OR_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 식민지 사업의 수가 $TARGET_VALUE|0v$개 이상"
+ TRIGGER_NUM_COLONY_PROJECTS_LESS_THAN:0 "[COUNTRY.GetName](이)가 보유한 식민지 사업의 수가 $TARGET_VALUE|0v$개 미만"
+ TRIGGER_NUM_COLONY_PROJECTS_LESS_OR_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 식민지 사업의 수가 $TARGET_VALUE|0v$개 이하"
+ TRIGGER_NUM_COLONY_PROJECTS_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 식민지 사업의 수가 $TARGET_VALUE|0v$개임"
+ TRIGGER_NUM_COLONY_PROJECTS_NOT_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 식민지 사업의 수가 $TARGET_VALUE|0v$개가 아님"
+
+ TRIGGER_NUM_UNINCORPORATED_STATES_GREATER_THAN:0 "[COUNTRY.GetName](이)가 보유한 비편입 주의 수가 $TARGET_VALUE|0v$개 초과"
+ TRIGGER_NUM_UNINCORPORATED_STATES_GREATER_OR_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 비편입 주의 수가 $TARGET_VALUE|0v$개 이상"
+ TRIGGER_NUM_UNINCORPORATED_STATES_LESS_THAN:0 "[COUNTRY.GetName](이)가 보유한 비편입 주의 수가 $TARGET_VALUE|0v$개 미만"
+ TRIGGER_NUM_UNINCORPORATED_STATES_LESS_OR_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 비편입 주의 수가 $TARGET_VALUE|0v$개 이하"
+ TRIGGER_NUM_UNINCORPORATED_STATES_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 비편입 주의 수가 $TARGET_VALUE|0v$개임"
+ TRIGGER_NUM_UNINCORPORATED_STATES_NOT_EQUAL:0 "[COUNTRY.GetName](이)가 보유한 비편입 주의 수가 $TARGET_VALUE|0v$개가 아님"
+
+ TRIGGER_POPULARITY_GREATER_THAN:0 "[CHARACTER.GetName]의 인기가 $TARGET_VALUE|0v$ 초과"
+ TRIGGER_POPULARITY_GREATER_OR_EQUAL:0 "[CHARACTER.GetName]의 인기가 $TARGET_VALUE|0v$ 이상"
+ TRIGGER_POPULARITY_LESS_THAN:0 "[CHARACTER.GetName]의 인기가 $TARGET_VALUE|0v$ 미만"
+ TRIGGER_POPULARITY_LESS_OR_EQUAL:0 "[CHARACTER.GetName]의 인기가 $TARGET_VALUE|0v$ 이하"
+ TRIGGER_POPULARITY_EQUAL:0 "[CHARACTER.GetName]의 인기가 $TARGET_VALUE|0v$임"
+ TRIGGER_POPULARITY_NOT_EQUAL:0 "[CHARACTER.GetName]의 인기가 $TARGET_VALUE|0v$(이)가 아님"
+
+ TRIGGER_COUNTRY_GDP_GREATER_THAN:0 "[COUNTRY.GetName]의 $GDP_SHORT$가 @money!$TARGET_VALUE|Dv$ 초과"
+ TRIGGER_COUNTRY_GDP_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]의 $GDP_SHORT$가 @money!$TARGET_VALUE|Dv$ 이상"
+ TRIGGER_COUNTRY_GDP_LESS_THAN:0 "[COUNTRY.GetName]의 $GDP_SHORT$가 @money!$TARGET_VALUE|Dv$ 미만"
+ TRIGGER_COUNTRY_GDP_LESS_OR_EQUAL:0 "[COUNTRY.GetName]의 $GDP_SHORT$가 @money!$TARGET_VALUE|Dv$ 이하"
+ TRIGGER_COUNTRY_GDP_EQUAL:0 "[COUNTRY.GetName]의 $GDP_SHORT$가 @money!$TARGET_VALUE|Dv$임"
+ TRIGGER_COUNTRY_GDP_NOT_EQUAL:0 "[COUNTRY.GetName]의 $GDP_SHORT$가 @money!$TARGET_VALUE|Dv$(이)가 아님"
+
+ TRIGGER_PRESTIGE_GREATER_THAN:0 "[COUNTRY.GetName]의 위신이 $TARGET_VALUE|0v$ 초과"
+ TRIGGER_PRESTIGE_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]의 위신이 $TARGET_VALUE|0v$ 이상"
+ TRIGGER_PRESTIGE_LESS_THAN:0 "[COUNTRY.GetName]의 위신이 $TARGET_VALUE|0v$ 미만"
+ TRIGGER_PRESTIGE_LESS_OR_EQUAL:0 "[COUNTRY.GetName]의 위신이 $TARGET_VALUE|0v$ 이하"
+ TRIGGER_PRESTIGE_EQUAL:0 "[COUNTRY.GetName]의 위신이 $TARGET_VALUE|0v$임"
+ TRIGGER_PRESTIGE_NOT_EQUAL:0 "[COUNTRY.GetName]의 위신이 $TARGET_VALUE|0v$(이)가 아님"
+
+ TRIGGER_CREDIT_GREATER_THAN:0 "[COUNTRY.GetName]의 신용이 $TARGET_VALUE|0v$ 초과"
+ TRIGGER_CREDIT_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]의 신용이 $TARGET_VALUE|0v$ 이상"
+ TRIGGER_CREDIT_LESS_THAN:0 "[COUNTRY.GetName]의 신용이 $TARGET_VALUE|0v$ 미만"
+ TRIGGER_CREDIT_LESS_OR_EQUAL:0 "[COUNTRY.GetName]의 신용이 $TARGET_VALUE|0v$ 이하"
+ TRIGGER_CREDIT_EQUAL:0 "[COUNTRY.GetName]의 신용이 $TARGET_VALUE|0v$임"
+ TRIGGER_CREDIT_NOT_EQUAL:0 "[COUNTRY.GetName]의 신용이 $TARGET_VALUE|0v$(이)가 아님"
+
+ TRIGGER_LEGITIMACY_GREATER_THAN:0 "[COUNTRY.GetName] 정부의 정통성이 $TARGET_VALUE|0v$ 초과"
+ TRIGGER_LEGITIMACY_GREATER_OR_EQUAL:0 "[COUNTRY.GetName] 정부의 정통성이 $TARGET_VALUE|0v$ 이상"
+ TRIGGER_LEGITIMACY_LESS_THAN:0 "[COUNTRY.GetName] 정부의 정통성이 $TARGET_VALUE|0v$ 미만"
+ TRIGGER_LEGITIMACY_LESS_OR_EQUAL:0 "[COUNTRY.GetName] 정부의 정통성이 $TARGET_VALUE|0v$ 이하"
+ TRIGGER_LEGITIMACY_EQUAL:0 "[COUNTRY.GetName] 정부의 정통성이 $TARGET_VALUE|0v$임"
+ TRIGGER_LEGITIMACY_NOT_EQUAL:0 "[COUNTRY.GetName] 정부의 정통성이 $TARGET_VALUE|0v$(이)가 아님"
+
+ TRIGGER_TECHS_RESEARCHED_GREATER_THAN:0 "[COUNTRY.GetName]에서 연구한 기술의 수가 $TARGET_VALUE|0v$개 초과"
+ TRIGGER_TECHS_RESEARCHED_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]에서 연구한 기술의 수가 $TARGET_VALUE|0v$개 이상"
+ TRIGGER_TECHS_RESEARCHED_LESS_THAN:0 "[COUNTRY.GetName]에서 연구한 기술의 수가 $TARGET_VALUE|0v$개 미만"
+ TRIGGER_TECHS_RESEARCHED_LESS_OR_EQUAL:0 "[COUNTRY.GetName]에서 연구한 기술의 수가 $TARGET_VALUE|0v$개 이하"
+ TRIGGER_TECHS_RESEARCHED_EQUAL:0 "[COUNTRY.GetName]에서 연구한 기술의 수가 $TARGET_VALUE|0v$개임"
+ TRIGGER_TECHS_RESEARCHED_NOT_EQUAL:0 "[COUNTRY.GetName]에서 연구한 기술의 수가 $TARGET_VALUE|0v$개가 아님"
+
+ TRIGGER_FRONT_LENGTH_GREATER_THAN:0 "[FRONT.GetName]의 전선 길이가 $TARGET_VALUE|0v$ 초과"
+ TRIGGER_FRONT_LENGTH_GREATER_OR_EQUAL:0 "[FRONT.GetName]의 전선 길이가 $TARGET_VALUE|0v$ 이상"
+ TRIGGER_FRONT_LENGTH_LESS_THAN:0 "[FRONT.GetName]의 전선 길이가 $TARGET_VALUE|0v$ 미만"
+ TRIGGER_FRONT_LENGTH_LESS_OR_EQUAL:0 "[FRONT.GetName]의 전선 길이가 $TARGET_VALUE|0v$ 이하"
+ TRIGGER_FRONT_LENGTH_EQUAL:0 "[FRONT.GetName]의 전선 길이가 $TARGET_VALUE|0v$임"
+ TRIGGER_FRONT_LENGTH_NOT_EQUAL:0 "[FRONT.GetName]의 전선 길이가 $TARGET_VALUE|0v$(이)가 아님"
+
+ TRIGGER_NUM_MOBILIZED_BATTALIONS_GREATER_THAN:0 "[CHARACTER.GetName]의 동원된 대대 수가 $TARGET_VALUE|0v$개 초과"
+ TRIGGER_NUM_MOBILIZED_BATTALIONS_GREATER_OR_EQUAL:0 "[CHARACTER.GetName]의 동원된 대대 수가 $TARGET_VALUE|0v$개 이상"
+ TRIGGER_NUM_MOBILIZED_BATTALIONS_LESS_THAN:0 "[CHARACTER.GetName]의 동원된 대대 수가 $TARGET_VALUE|0v$개 미만"
+ TRIGGER_NUM_MOBILIZED_BATTALIONS_LESS_OR_EQUAL:0 "[CHARACTER.GetName]의 동원된 대대 수가 $TARGET_VALUE|0v$개 이하"
+ TRIGGER_NUM_MOBILIZED_BATTALIONS_EQUAL:0 "[CHARACTER.GetName]의 동원된 대대 수가 $TARGET_VALUE|0v$개임"
+ TRIGGER_NUM_MOBILIZED_BATTALIONS_NOT_EQUAL:0 "[CHARACTER.GetName]의 동원된 대대 수가 $TARGET_VALUE|0v$개가 아님"
+
+ TRIGGER_AVERAGE_DEFENSE_GREATER_THAN:0 "[FRONT.GetName]의 평균 방어력이 $TARGET_VALUE|0v$ 초과"
+ TRIGGER_AVERAGE_DEFENSE_GREATER_OR_EQUAL:0 "[FRONT.GetName]의 평균 방어력이 $TARGET_VALUE|0v$ 이상"
+ TRIGGER_AVERAGE_DEFENSE_LESS_THAN:0 "[FRONT.GetName]의 평균 방어력이 $TARGET_VALUE|0v$ 미만"
+ TRIGGER_AVERAGE_DEFENSE_LESS_OR_EQUAL:0 "[FRONT.GetName]의 평균 방어력이 $TARGET_VALUE|0v$ 이하"
+ TRIGGER_AVERAGE_DEFENSE_EQUAL:0 "[FRONT.GetName]의 평균 방어력이 $TARGET_VALUE|0v$임"
+ TRIGGER_AVERAGE_DEFENSE_NOT_EQUAL:0 "[FRONT.GetName]의 평균 방어력이 $TARGET_VALUE|0v$(이)가 아님"
+
+ TRIGGER_AVERAGE_OFFENSE_GREATER_THAN:0 "[FRONT.GetName]의 평균 공격력이 $TARGET_VALUE|0v$ 초과"
+ TRIGGER_AVERAGE_OFFENSE_GREATER_OR_EQUAL:0 "[FRONT.GetName]의 평균 공격력이 $TARGET_VALUE|0v$ 이상"
+ TRIGGER_AVERAGE_OFFENSE_LESS_THAN:0 "[FRONT.GetName]의 평균 공격력이 $TARGET_VALUE|0v$ 미만"
+ TRIGGER_AVERAGE_OFFENSE_LESS_OR_EQUAL:0 "[FRONT.GetName]의 평균 공격력이 $TARGET_VALUE|0v$ 이하"
+ TRIGGER_AVERAGE_OFFENSE_EQUAL:0 "[FRONT.GetName]의 평균 공격력이 $TARGET_VALUE|0v$임"
+ TRIGGER_AVERAGE_OFFENSE_NOT_EQUAL:0 "[FRONT.GetName]의 평균 공격력이 $TARGET_VALUE|0v$(이)가 아님"
+
+ TRIGGER_NUM_TOTAL_BATTALIONS_GREATER_THAN:0 "[FRONT.GetName]에 있는 대대의 수가 $TARGET_VALUE|0v$개 초과"
+ TRIGGER_NUM_TOTAL_BATTALIONS_GREATER_OR_EQUAL:0 "[FRONT.GetName]에 있는 대대의 수가 $TARGET_VALUE|0v$개 이상"
+ TRIGGER_NUM_TOTAL_BATTALIONS_LESS_THAN:0 "[FRONT.GetName]에 있는 대대의 수가 $TARGET_VALUE|0v$개 미만"
+ TRIGGER_NUM_TOTAL_BATTALIONS_LESS_OR_EQUAL:0 "[FRONT.GetName]에 있는 대대의 수가 $TARGET_VALUE|0v$개 이하"
+ TRIGGER_NUM_TOTAL_BATTALIONS_EQUAL:0 "[FRONT.GetName]에 있는 대대의 수가 $TARGET_VALUE|0v$개임"
+ TRIGGER_NUM_TOTAL_BATTALIONS_NOT_EQUAL:0 "[FRONT.GetName]에 있는 대대의 수가 $TARGET_VALUE|0v$개가 아님"
+
+ TRIGGER_NUM_DEFENDING_BATTALIONS_GREATER_THAN:0 "[FRONT.GetName]에 있는 방어 대대의 수가 $TARGET_VALUE|0v$개 초과"
+ TRIGGER_NUM_DEFENDING_BATTALIONS_GREATER_OR_EQUAL:0 "[FRONT.GetName]에 있는 방어 대대의 수가 $TARGET_VALUE|0v$개 이상"
+ TRIGGER_NUM_DEFENDING_BATTALIONS_LESS_THAN:0 "[FRONT.GetName]에 있는 방어 대대의 수가 $TARGET_VALUE|0v$개 미만"
+ TRIGGER_NUM_DEFENDING_BATTALIONS_LESS_OR_EQUAL:0 "[FRONT.GetName]에 있는 방어 대대의 수가 $TARGET_VALUE|0v$개 이하"
+ TRIGGER_NUM_DEFENDING_BATTALIONS_EQUAL:0 "[FRONT.GetName]에 있는 방어 대대의 수가 $TARGET_VALUE|0v$개임"
+ TRIGGER_NUM_DEFENDING_BATTALIONS_NOT_EQUAL:0 "[FRONT.GetName]에 있는 방어 대대의 수가 $TARGET_VALUE|0v$개가 아님"
+
+ # [LocEditor:UntranslatedKey] `TRIGGER_COMMANDER_PM_USAGE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COMMANDER_PM_USAGE_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_DIPLOMATIC_PLAY_PM_USAGE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_DIPLOMATIC_PLAY_PM_USAGE_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_FRONT_SIDE_PM_USAGE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_FRONT_SIDE_PM_USAGE_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_PM_USAGE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_PM_USAGE_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_BATTLE_SIDE_PM_USAGE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_BATTLE_SIDE_PM_USAGE_NOT`
+
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_MAJORITY_COMBAT_UNIT_ETHNICITY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_MAJORITY_COMBAT_UNIT_ETHNICITY_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_POP_TYPE_PERCENT_COUNTRY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_POP_TYPE_PERCENT_COUNTRY_NOT`
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ TRIGGER_AND:0 "모두 해당:"
+ TRIGGER_AND_NOCONTEXT:0 "$TRIGGER_AND$"
+ TRIGGER_OR:0 "하나 이상 해당:"
+ TRIGGER_OWES_FAVOR_TO:0 "[TARGET_COUNTRY.GetName]에게 갚을 호의가 있음"
+ TRIGGER_OWES_FAVOR_TO_NOT:0 "[TARGET_COUNTRY.GetName]에게 갚을 호의가 없음"
+ TRIGGER_IS_OWED_FAVOR_BY:0 "[COUNTRY.GetName](은)는 [TARGET_COUNTRY.GetName]에게 갚을 호의가 있음"
+ TRIGGER_IS_OWED_FAVOR_BY_NOT:0 "[COUNTRY.GetName](은)는 [TARGET_COUNTRY.GetName]에게 갚을 호의가 없음"
+ TRIGGER_PRESTIGE:0 "#variable $NAME_ADJ$#!의 위신이 #variable $NUM$#! $COMPARATOR$"
+ TRIGGER_PRESTIGE_NOT:0 "#variable $NAME_ADJ$#!의 위신이 #variable $NUM$#! $COMPARATOR$(이)가 아님"
+ TRIGGER_OR_NOCONTEXT:0 "또는"
+ TRIGGER_IS_AT_WAR_NOCONTEXT:0 "전쟁 중임"
+ TRIGGER_IS_AT_WAR_NOCONTEXT_NOT:0 "전쟁 중이지 않음"
+ TRIGGER_IS_PRIMARY_CULTURE_NOCONTEXT:0 "[concept_primary_cultures]임"
+ TRIGGER_INCOME_TAX_LEVEL:0 "소득세 단계가 $LEVEL$ $COMPARATOR$"
+ TRIGGER_INCOME_TAX_LEVEL_NOT:0 "소득세 단계가 $LEVEL$ $COMPARATOR$(이)가 아님"
+ TRIGGER_POLL_TAX_LEVEL:0 "주민세 단계가 $LEVEL$ $COMPARATOR$"
+ TRIGGER_POLL_TAX_LEVEL_NOT:0 "주민세 단계가 $LEVEL$ $COMPARATOR$(이)가 아님"
+ TRIGGER_CONSUMPTION_TAX_LEVEL:0 "소비세 단계가 $LEVEL$ $COMPARATOR$"
+ TRIGGER_CONSUMPTION_TAX_LEVEL_NOT:0 "소비세 단계가 $LEVEL$ $COMPARATOR$(이)가 아님"
+ TRIGGER_INCOME_TAX_LEVEL_VALUE:0 "소득세 단계가 $NUM$ $COMPARATOR$"
+ TRIGGER_INCOME_TAX_LEVEL_VALUE_NOT:0 "소득세 단계가 $NUM$ $COMPARATOR$(이)가 아님"
+ TRIGGER_POLL_TAX_LEVEL_VALUE:0 "주민세 단계가 $NUM$ $COMPARATOR$"
+ TRIGGER_POLL_TAX_LEVEL_VALUE_NOT:0 "주민세 단계가 $NUM$ $COMPARATOR$(이)가 아님"
+ TRIGGER_CONSUMPTION_TAX_LEVEL_VALUE:0 "소비세 단계가 $NUM$ $COMPARATOR$"
+ TRIGGER_CONSUMPTION_TAX_LEVEL_VALUE_NOT:0 "소비세 단계가 $NUM$ $COMPARATOR$(이)가 아님"
+ TRIGGER_HAS_HIGH_ATTRITION_RISK:0 "[Character.GetFullName](은)는 높은 [concept_attrition] 위험을 내포하고 있음"
+ TRIGGER_HAS_HIGH_ATTRITION_RISK_NOT:0 "[Character.GetFullName](은)는 높은 [concept_attrition] 위험을 내포하고 있지 않음"
+ TRIGGER_AVERAGE_SOL_GREATER_THAN:0 "[COUNTRY.GetName]의 평균 생활 수준이 $TARGET_VALUE|0v$ 초과"
+ TRIGGER_AVERAGE_SOL_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]의 평균 생활 수준이 $TARGET_VALUE|0v$ 이상"
+ TRIGGER_AVERAGE_SOL_LESS_THAN:0 "[COUNTRY.GetName]의 평균 생활 수준이 $TARGET_VALUE|0v$ 미만"
+ TRIGGER_AVERAGE_SOL_LESS_OR_EQUAL:0 "[COUNTRY.GetName]의 평균 생활 수준이 $TARGET_VALUE|0v$ 이하"
+ TRIGGER_AVERAGE_SOL_EQUAL:0 "[COUNTRY.GetName]의 평균 생활 수준이 $TARGET_VALUE|0v$임"
+ TRIGGER_AVERAGE_SOL_NOT_EQUAL:0 "[COUNTRY.GetName]의 평균 생활 수준이 $TARGET_VALUE|0v$(이)가 아님"
+ TRIGGER_IS_ADVANCING:0 "[CHARACTER.GetName](이)가 진군 중임"
+ TRIGGER_IS_ADVANCING_NOT:0 "[CHARACTER.GetName](이)가 진군 중이지 않음"

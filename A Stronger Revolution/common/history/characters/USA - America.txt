@@ -1,0 +1,188 @@
+﻿CHARACTERS = {
+	c:USA = {
+		create_character = {
+			#role = politician # Remove this line
+			first_name = Andrew
+			last_name = Jackson
+			culture = cu:dixie
+			ruler = yes
+			ig_leader = yes
+			interest_group = ig_rural_folk
+			ideology = ideology_radical
+			age = 69
+			traits = {
+				bigoted
+			}
+			on_created = {
+				set_variable = {
+					name = is_andrew_jackson
+				}				
+			}
+		}
+
+		create_character = {
+			#role = politician # Remove this line
+			first_name = John
+			last_name = Calhoun
+			culture = cu:dixie
+			age = 54
+			ig_leader = yes
+			interest_group = ig_landowners
+			ideology = ideology_slaver
+			traits = {
+				bigoted
+			}
+		}
+
+		create_character = {
+			#role = politician # Remove this line
+			first_name = Henry
+			last_name = Clay
+			culture = cu:dixie
+			age = 59
+			ig_leader = yes
+			interest_group = ig_intelligentsia
+			ideology = ideology_moderate
+			traits = {
+				meticulous
+			}
+		}
+
+		create_character = {
+			#role = politician # Remove this line
+			first_name = Daniel
+			last_name = Webster
+			age = 54
+			ig_leader = yes
+			interest_group = ig_petty_bourgeoisie
+			ideology = ideology_moderate
+			traits = {
+				arrogant
+			}
+		}
+
+		create_character = {
+			#role = politician # Remove this line
+			first_name = Lyman
+			last_name = Beecher
+			age = 61
+			ig_leader = yes
+			interest_group = ig_devout
+			ideology = ideology_abolitionist
+			traits = {
+				cautious
+			}
+		}
+
+		create_character = {
+			#role = politician # Remove this line
+			first_name = Robert
+			last_name = Rantoul
+			age = 31
+			ig_leader = yes
+			interest_group = ig_trade_unions
+			ideology = ideology_moderate
+			traits = {
+				meticulous
+			}
+		}
+
+		create_character = {
+			#role = politician # Remove this line
+			first_name = Winfield
+			last_name = Scott
+			age = 50
+			ig_leader = yes
+			interest_group = ig_armed_forces
+			traits = {
+				cautious
+			}
+		}
+
+		create_character = {
+			#role = politician # Remove this line
+			first_name = Cornelius
+			last_name = Vanderbilt
+			age = 39
+			ig_leader = yes
+			interest_group = ig_industrialists
+			traits = {
+				meticulous
+			}
+		}
+
+		create_character = {
+			is_general = yes
+			first_name = Winfield
+			last_name = Scott
+			age = 50
+			traits = {
+				plains_commander
+			}
+
+		}
+		
+		create_character = {
+			is_general = yes
+			first_name = Zachary
+			last_name = Taylor
+			age = 52
+			traits = {
+				innovative
+			}
+
+		}
+		
+#		create_character = {
+#			is_general = yes
+#			first_name = Edmund_P
+#			last_name = Gaines
+#			age = 59
+#			traits = {
+#		#		soldierly
+#		#		drillmaster
+#			}
+#
+#		}
+#		
+#		create_character = {
+#			is_general = yes
+#			first_name = Alexander
+#			last_name = Macomb
+#			age = 54
+#			traits = {
+#		#		heroic
+#		#		trench_designer
+#			}
+#
+#		}
+		
+		create_character = { # Sea
+			is_admiral = yes
+			first_name = Isaac
+			last_name = Hull
+			age = 63
+			traits = {
+				expert_naval_commander
+			}
+		}
+		
+		# create_character = {
+			# name = "James Biddle"
+			# age = 53
+			# type = sea
+			# 	tactful
+			# 	diplomat
+			# }
+		# }
+		
+		# create_character = { # Sea
+			# name = "Matthew C. Perry"
+			# age = 42
+			# traits = {
+			# 	openminded
+			# 	war_college
+			# }
+		# }
+	}
+}

@@ -1,0 +1,48 @@
+﻿CHARACTERS = {
+	c:DEN = {
+		create_character = {
+			# Frederick VI of Denmark
+			#role = politician # Remove this line
+			first_name = "Frederik"
+			last_name = "von_Oldenburg"
+			ruler = yes
+			age = 68
+			interest_group = ig_landowners
+			traits = {
+				imperious
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}	
+
+		create_character = {
+			# the future Christian VIII of Denmark, half-first-cousin of Frederick VI
+			#role = politician # Remove this line
+			first_name = "Christian"
+			last_name = "von_Oldenburg"
+			heir = yes
+			age = 50
+			interest_group = ig_landowners
+			traits = {
+				cautious
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			is_general = yes
+			first_name = Olaf
+			last_name = Rye
+			age = 45
+			culture = cu:norwegian
+			traits = {
+				mountain_commander
+				brave
+			}
+
+		}
+	}
+}

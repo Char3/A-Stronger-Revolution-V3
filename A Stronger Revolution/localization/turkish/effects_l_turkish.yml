@@ -1,0 +1,255 @@
+﻿l_turkish:
+ OCCUPY_STATE_EFFECT_SUSTAINABLE:0 "sürdürülebilir bir düzey"
+ OCCUPY_STATE_EFFECT_STAGE:0 "$NUMBER$. evre düzeyi"
+ OCCUPY_STATE_EFFECT_DESC:0 "$COUNTRY_NAME$, $STATE_NAME$ vilayetini $STAGE_DESC$de işgal eder"
+ SPAWN_ISSUE_EFFECT_DESC:0 "#variable $ISSUE_NAME$#! sorununu $STATE_NAME$ vilayetinde çıkart"
+ SET_CHARACTER_EFFECT:0 "#V $CHARACTER|v$#!, #V $COMMAND$#! komutasının karakteri olur"
+ SET_CHARACTER_NONE_EFFECT:0 "#V $COMMAND$#! karakteri atanmamış"
+
+ ADD_TREASURY_EFFECT_POSITIVE:0 "[COUNTRY.GetName] $VALUE|+=$@money! kazanır"
+ ADD_TREASURY_EFFECT_NEGATIVE:0 "[COUNTRY.GetName] $VALUE|+=$@money! kaybeder"
+ SET_COUNTRY_ARMY_SP_TARGET:0 "#variable [COUNTRY.GetAdjective]#! ordusunun Güç Puanı (@army_SP!) hedefi #variable $VALUE$#! olarak ayarlanır" # [LocEditor:AwaitingBatchUpdate]
+ SET_COUNTRY_NAVY_SP_TARGET:0 "#variable [COUNTRY.GetAdjective]#! donanmasının Güç Puanı (@navy_SP!) hedefi #variable $VALUE$#! olarak ayarlanır" # [LocEditor:AwaitingBatchUpdate]
+ SET_INFAMY:0 "[concept_infamy] $VALUE|v$ olarak ayarlanır"
+ SET_RELATIONS:0 "#variable [COUNTRY.GetAdjective]#! ve #variable [TARGET_COUNTRY.GetName]#! ilişkileri #variable $VALUE|0$#! olarak ayarlanır" # [LocEditor:AwaitingBatchUpdate]
+ SET_TENSION:0 "[COUNTRY.GetName] ve [TARGET_COUNTRY.GetName] arasındaki [Concept('concept_tension', '$concept_tensions$')] #variable $VALUE|0$#! olarak ayarlanır" # [LocEditor:AwaitingBatchUpdate]
+ SET_STRATEGY:0 "[COUNTRY.GetName] #variable [AIStrategy.GetName]#! stratejisini benimser"
+ SET_DIPLOMATS_EXPELLED:0 "[COUNTRY.GetName], [TARGET_COUNTRY.GetName] ülkesinin diplomatlarını kovarak #b 5 yıl#! boyunca ilişkilerin geliştirilmesini engeller"
+ SET_SECRET_GOAL:0 "[COUNTRY.GetName], [TARGET_COUNTRY.GetName] üzerinde #variable $SECRET_GOAL$#! gizli hedefini benimser"
+ SET_MUTUAL_SECRET_GOAL:0 "[COUNTRY.GetName] ve [TARGET_COUNTRY.GetName] birbirlerine karşı #variable $SECRET_GOAL$#! gizli hedeflerini benimser"
+ # [LocEditor:UntranslatedKey] `SET_TAX_LEVEL`
+ SET_GOVERNMENT_WAGE_LEVEL:0 "[COUNTRY.GetName] [concept_government_wage] seviyesi #v $WAGE_LEVEL$#! olarak ayarlanır"
+ SET_MILITARY_WAGE_LEVEL:0 "[COUNTRY.GetName] [concept_military_wage] seviyesi #v $WAGE_LEVEL$#! olarak ayarlanır"
+ ADD_CHANGE_RELATIONS_PROGRESS:0 "#variable [COUNTRY.GetAdjective]#!, [TARGET_COUNTRY.GetName] ile #variable $VALUE$#! ilişki değiştirme ilerlemesi kazanır" # [LocEditor:AwaitingBatchUpdate]
+ ADD_TECHNOLOGY_PROGRESS:0 "[COUNTRY.GetName], [TECHNOLOGY.GetName] teknolojisinde $VALUE|+D$ ilerleme kateder"
+ ADD_TECHNOLOGY_PROGRESS_NEG:0 "[COUNTRY.GetName], [TECHNOLOGY.GetName] teknolojisinde $VALUE|+$ ilerleme kaybeder"
+ SET_ARMY_STOCKPILE:0 "#variable [COUNTRY.GetAdjective]#! ordu birikimi $VALUE|+$ paket olarak ayarlanır" # [LocEditor:AwaitingBatchUpdate]
+ SET_NAVY_STOCKPILE:0 "#variable [COUNTRY.GetAdjective]#! donanma birikimi $VALUE|+$ paket olarak ayarlanır" # [LocEditor:AwaitingBatchUpdate]
+ SET_STOCKPILE:0 "$SET_ARMY_STOCKPILE$"
+ ACTIVATE_LAW:0 "[COUNTRY.GetName] [Law.GetFullNameWithStatus] kanunu etkinleştirir"
+ SET_INSTITUTION_INVESTMENT_LEVEL:0 "[COUNTRY.GetName], [INSTITUTION.GetName] kurumunun yatırım seviyesini $LEVEL|v$ olarak değiştirir"
+ CHANGE_INSTITUTION_INVESTMENT_LEVEL:0 "[Country.GetName], [Institution.GetName] kurumunun yatırım seviyesini $INVESTMENT|v$ olarak değiştirir"
+ ACTIVATE_LAW_WITH_INVESTMENT_LEVEL:0 "[COUNTRY.GetName], $LEVEL|v$ yatırım seviyesiyle [Law.GetFullNameWithStatus] kanunu etkinleştirir"
+ DEACTIVATE_LAW:0 "[COUNTRY.GetName] [Law.GetFullNameWithStatus] kanunu devre dışı bırakır"
+ CALL_ELECTION:0 "[COUNTRY.GetName] #variable $MONTHS$ ay içinde seçime#! gidecek"
+ SET_INTEREST_GROUP_NAME:0 "[IG.GetName] ismi #variable $IG_NAME$#! olarak değiştirilir"
+ SET_AS_INTEREST_GROUP_LEADER:0 "[Character.GetFullName|v], [Character.GetInterestGroup.GetName|v] grubunun lideri olur"
+ # [LocEditor:UntranslatedKey] `REMOVE_AS_INTEREST_GROUP_LEADER`
+ DO_REVOLUTION_CLEANUP:0 "İç Savaş biter"
+ ADD_IDEOLOGY:0 "[InterestGroup.GetName], [Ideology.GetName] ideolojisini benimser"
+ REMOVE_IDEOLOGY:0 "[InterestGroup.GetName], [Ideology.GetName] ideolojisinden vazgeçer"
+ SET_IDEOLOGY:0 "[Character.GetFullName|v], [Ideology.GetName] ideolojisine geçecek"
+ CHANGE_RELATIONS:0 "#variable [COUNTRY.GetAdjective]#!, #variable [TARGET_COUNTRY.GetName]#! ile [Concept('concept_relation', 'İlişkilerini')] $VALUE|0+$ geliştirir" # [LocEditor:AwaitingBatchUpdate]
+ CHANGE_RELATIONS_NEG:0 "#variable [COUNTRY.GetAdjective]#!, #variable [TARGET_COUNTRY.GetName]#! ile [Concept('concept_relation', 'İlişkilerine')] $VALUE|0-$ zarar verir" # [LocEditor:AwaitingBatchUpdate]
+ CHANGE_TENSION:0 "[COUNTRY.GetName] ve [TARGET_COUNTRY.GetName] arasındaki [Concept('concept_tension', '$concept_tensions$')] #N $VALUE|0$#! arttı" # [LocEditor:AwaitingBatchUpdate]
+ CHANGE_TENSION_NEG:0 "[COUNTRY.GetName] ve [TARGET_COUNTRY.GetName] arasındaki [Concept('concept_tension', '$concept_tensions$')] #P $VALUE|0$#! azaldı" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `SET_OWES_OBLIGATION_TO`
+ # [LocEditor:UntranslatedKey] `SET_OWES_OBLIGATION_TO_NEG`
+ RECALCULATE_LAWS:0 "[COUNTRY.GetName], [Concept('concept_law', 'Kanunlarını')] yeniden hesaplayacak"
+ RECALCULATE_LAWS_NEG:0 "[COUNTRY.GetName], [Concept('concept_law', 'Kanunlarını')] yeniden hesaplamayacak"
+ VALIDATE_SUBSIDIES:0 "[COUNTRY.GetName] tüm sanayi sübvansiyonlarının geçerli olduğunu temin edecek"
+ VALIDATE_SUBSIDIES_NEG:0 "[COUNTRY.GetName] tüm sanayi sübvansiyonlarının geçerli olduğunu temin etmeyecek"
+ RECALCULATE_POP_IG_SUPPORT:0 "[COUNTRY.GetName] ülkesindeki [Concept('concept_pop', '$concept_pops$')], [concept_interest_group] desteklerini yeniden hesaplayacak"
+ RECALCULATE_POP_IG_SUPPORT_NEG:0 "[COUNTRY.GetName] ülkesindeki [Concept('concept_pop', '$concept_pops$')], [concept_interest_group] desteklerini yeniden hesaplamayacak"
+ SET_COUNTRY_TYPE:0 "[COUNTRY.GetName], #variable $COUNTRY_TYPE$#! olur"
+ SET_CAPITAL:0 "#variable [COUNTRY.GetAdjective]#! [Concept('concept_capital_state', 'Baş Vilayeti')] #variable $STATE_REGION_NAME$#! vilayetine taşınır" # [LocEditor:AwaitingBatchUpdate]
+ SET_MARKET_CAPITAL:0 "#variable [COUNTRY.GetAdjective]#! [Concept('concept_capital_state', 'Pazar Merkezi')] #variable $STATE_REGION_NAME$#! vilayetine taşınır" # [LocEditor:AwaitingBatchUpdate]
+ CLEAR_DEBT:0 "#variable [COUNTRY.GetAdjective]#! finansal borçları silinir" # [LocEditor:AwaitingBatchUpdate]
+ CLEAR_DEBT_NEG:0 "#variable [COUNTRY.GetAdjective]#! finansal borçları silinmez" # [LocEditor:AwaitingBatchUpdate]
+ CLEAR_SCALED_DEBT:0 "#variable [COUNTRY.GetAdjective]#! finansal borçları GSYİH'nin #variable $VALUE$#! katı oranında silinir" # [LocEditor:AwaitingBatchUpdate]
+ TAKE_ON_SCALED_DEBT:0 "[COUNTRY.GetName] [TARGET_COUNTRY.GetName] ülkesinden @money!#variable $VALUE|D$#! borç üstlenir"
+ CREATE_TRADE_ROUTE:0 "[COUNTRY.GetName], [TARGET_MARKET.GetName]'nda [GOODS.GetTextIcon] [GOODS.GetName] için $LEVEL|v0$. seviye $TRADE_DIR$ Rotası kurar"
+ LOCK_TRADE_ROUTE:0 "[TradeRoute.GetName] $DURATION$ boyunca kilitlenir"
+ ADD_PRIMARY_CULTURE:0 "[TARGET_CULTURE.GetName], [COUNTRY.GetName] ülkesinin [Concept('concept_primary_cultures', 'Ana Kültürü')] olur"
+ REMOVE_PRIMARY_CULTURE:0 "[TARGET_CULTURE.GetName], artık [COUNTRY.GetName] ülkesinin [Concept('concept_primary_cultures', 'Ana Kültürü')] olmaz"
+ # [LocEditor:UntranslatedKey] `SET_STATE_RELIGION`
+ ADD_CULTURAL_OBSESSION:0 "[CULTURE.GetName] kültürü [GOODS.GetName] ile takıntılı olur"
+ REMOVE_CULTURAL_OBSESSION:0 "[CULTURE.GetName] kültürü [GOODS.GetName] takıntısını bırakır"
+ CREATE_RANDOM_CHARACTER_NAME:0 "Bir Karakter"
+ CREATE_CHARACTER:0 "$CHARACTER_NAME$ [COUNTRY.GetName] ülkesinde çıkar"
+ # [LocEditor:UntranslatedKey] `ADD_INNOVATION`
+ # [LocEditor:UntranslatedKey] `ADD_INNOVATION_NEG`
+ ADD_INVESTMENT_POOL:0 "#variable [COUNTRY.GetAdjective]#! [concept_investment_pool] @money!$VALUE|D+$ değerinde büyüdü" # [LocEditor:AwaitingBatchUpdate]
+ ADD_TECHNOLOGY_RESEARCHED:0 "#variable [COUNTRY.GetName]#! #variable [TECHNOLOGY.GetName]#! teknolojisini elde eder"
+ ADD_ERA_RESEARCHED:0 "#variable [COUNTRY.GetName]#! #variable [ERA.GetName]#! döneminden tüm teknolojileri elde eder"
+ CREATE_DIPLOMATIC_PACT:0 "#variable [COUNTRY.GetName]#!, #variable [TARGET_COUNTRY.GetName]#! ile [DIPLOMATIC_ACTION_TYPE.GetName] başlatır"
+ CHANGE_INFAMY:0 "[concept_infamy] #variable $VALUE$#! arttırılır"
+ CHANGE_INFAMY_NEG:0 "[concept_infamy] #variable $VALUE$#! azaltılır"
+ CREATE_INCIDENT:0 "$DESC$"
+ PLAY_AS:0 "Oyuncu kontrolünde olan [COUNTRY.GetName], [TARGET_COUNTRY.GetName] ile değiştirilir"
+
+ REMOVE_INITIATOR_BACKERS:0 "[COUNTRY.GetName], [TARGET_DIPLOMATIC_PLAY.GetName] diplomatik hamlesini terk eder"
+ REMOVE_TARGET_BACKERS:0 "[COUNTRY.GetName], [TARGET_DIPLOMATIC_PLAY.GetName] diplomatik hamlesini terk eder"
+ ADD_INITIATOR_BACKERS:0 "[COUNTRY.GetName] [TARGET_DIPLOMATIC_PLAY.GetName] diplomatik hamlesinde başlatıcının tarafına katılır"
+ ADD_TARGET_BACKERS:0 "[COUNTRY.GetName] [TARGET_DIPLOMATIC_PLAY.GetName] diplomatik hamlesinde hedefin tarafına katılır"
+ ADD_ESCALATION:0 "[DIPLOMATIC_PLAY.GetName] tırmanışı $VALUE|-$ artar"
+ ADD_ESCALATION_NEG:0 "[DIPLOMATIC_PLAY.GetName] tırmanışı $VALUE|-$ azalır"
+ END_PLAY:0 "[DIPLOMATIC_PLAY.GetName] biter"
+ END_PLAY_NEG:0 "[DIPLOMATIC_PLAY.GetName] devam eder"
+ SET_KEY:0 "[DIPLOMATIC_PLAY.GetName] ismi #variable $KEY$#! olarak değiştirilir"
+ ADD_DIPLOMATIC_PLAY_WAR_SUPPORT:0 "[TARGET_DIPLOMATIC_PLAY.GetName] diplomatik hamlesinde [Country.GetAdjective] [concept_war_support] $VALUE|+$ artar" # [LocEditor:AwaitingBatchUpdate]
+ ADD_DIPLOMATIC_PLAY_WAR_SUPPORT_NEG:0 "[TARGET_DIPLOMATIC_PLAY.GetName] diplomatik hamlesinde [Country.GetAdjective] [concept_war_support] $VALUE|+$ azalır" # [LocEditor:AwaitingBatchUpdate]
+ ADD_WAR_WAR_SUPPORT:0 "[War.GetName] savaşında [Country.GetAdjective] [concept_war_support] $VALUE|+$ artar" # [LocEditor:AwaitingBatchUpdate]
+ ADD_WAR_WAR_SUPPORT_NEG:0 "[War.GetName] savaşında [Country.GetAdjective] [concept_war_support] $VALUE|+$ azalır" # [LocEditor:AwaitingBatchUpdate]
+ ADD_WAR_EXHAUSTION:0 "[TARGET_WAR.GetName] savaşındaki [Country.GetAdjective] [concept_war_exhaustion] artışı $VALUE|+$ artar" # [LocEditor:AwaitingBatchUpdate]
+ ADD_WAR_EXHAUSTION_NEG:0 "[TARGET_WAR.GetName] savaşındaki [Country.GetAdjective] [concept_war_exhaustion] artışı $VALUE|+$ azalır" # [LocEditor:AwaitingBatchUpdate]
+ ADD_WAR_GOAL:0 "[COUNTRY.GetName], [DIPLOMATIC_PLAY.GetName] diplomatik hamlesinde [TARGET_COUNTRY.GetName] üzerinde [WAR_GOAL.GetName] savaş hedefi ekler"
+ REMOVE_WAR_GOAL:0 "[COUNTRY.GetName], [DIPLOMATIC_PLAY.GetName] diplomatik hamlesinde [TARGET_COUNTRY.GetName] üzerindeki [WAR_GOAL.GetName] savaş hedefini kaldırır" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `REMOVE_WAR_GOAL_NONE`
+ CREATE_DIPLOMATIC_PLAY:0 "[COUNTRY.GetName], [TARGET_COUNTRY.GetName] ülkesine karşı #variable [DIPLOMATIC_PLAY_TYPE.GetName]#! [Concept('concept_diplomatic_play', 'Diplomatik Hamlesi')] başlatır"
+ SET_WAR:0 "[DIPLOMATIC_PLAY.GetName] diplomatik hamlesi sonucunda savaş çıkar!"
+ SET_WAR_NEG:0 "[DIPLOMATIC_PLAY.GetName] diplomatik hamlesi sonucunda savaş ÇIKMAZ"
+ CREATE_TRUCE:0 "[COUNTRY.GetName] ve [TARGET_COUNTRY.GetName] arasında #variable $MONTHS$ ay#! ateşkes kararı verilir"
+ VIOLATE_SOVEREIGNTY_JOIN:0 "[COUNTRY.GetName], [TARGET_COUNTRY.GetName] ülkesinin yardımına gelir"
+
+ SET_INTEREST_MARKER_EFFECT:0 "[COUNTRY.GetName], #variable [STRATEGIC_REGION.GetName]#! bölgesindeki #variable [concept_interest] seviyesi $LEVEL$#! olarak ayarlanır"
+
+ KILL_CHARACTER:0 "[CHARACTER.GetFullName] ölür"
+ KILL_CHARACTER_NEG:0 "[CHARACTER.GetFullName] yaşar"
+ PLACE_CHARACTER_IN_VOID:0 "[CHARACTER.GetFullName] iz bırakmadan kaybolur"
+ FREE_CHARACTER_FROM_VOID:0 "[CHARACTER.GetFullName] canlı bulunur"
+ FREE_CHARACTER_FROM_VOID_NEG:0 "[CHARACTER.GetFullName] kayıplara karışır"
+ ADD_TRAIT:0 "[CHARACTER.GetFullName], [CHARACTER_TRAIT.GetName] özelliği kazanır"
+ REMOVE_TRAIT:0 "[CHARACTER.GetFullName] [CHARACTER_TRAIT.GetName] özelliğini kaybeder"
+ TRANSFER_CHARACTER:0 "[CHARACTER.GetFullName] [TARGET_COUNTRY.GetName] tarafından göreve alınır"
+ SET_CHARACTER_BUSY:0 "[CHARACTER.GetFullName] verilen görevleri bırakır ve meşgul olur"
+ SET_CHARACTER_BUSY_NEG:0 "[CHARACTER.GetFullName] artık meşgul olmaz"
+
+ ADD_ORGANIZATION:0 "[COUNTRY.GetName] ülkesinin #variable [AO.GetName]#! karargâhındaki düzeni $VALUE|+$ artar"
+ ADD_ORGANIZATION_NEG:0 "[COUNTRY.GetName] ülkesinin #variable [AO.GetName]#! karargâhındaki düzeni $VALUE|+$ azalır"
+ ADD_SPIRIT:0 "[COUNTRY.GetName] ülkesinin #variable [AO.GetName]#! karargâhındaki ruhu $VALUE|+$ artar"
+ ADD_SPIRIT_NEG:0 "[COUNTRY.GetName] ülkesinin #variable [AO.GetName]#! karargâhındaki ruhu $VALUE|+$ azalır"
+ SET_ORGANIZATION:0 "[COUNTRY.GetName] ülkesinin #variable [AO.GetName]#! karargâhındaki düzeni $VALUE|+$ olarak ayarlanır"
+ SET_SPIRIT:0 "[COUNTRY.GetName] ülkesinin #variable [AO.GetName]#! karargâhındaki ruhu $VALUE|+$ olarak ayarlanır"
+
+ SET_OWNER_OF_PROVINCES:0 "[COUNTRY.GetName], [TARGET_STATE_REGION.GetName] vilayet bölgesinde $NUM_PROVINCES|v$ idari bölge alır"
+ CREATE_STATE:0 "[COUNTRY.GetName], [TARGET_STATE_REGION.GetName] vilayet bölgesinde bir vilayet alır"
+ SET_STATE_TYPE:0 "[STATE.GetName], $STATE_TYPE|v$ olur"
+ SET_STATE_OWNER:0 "[TARGET_COUNTRY.GetName], [STATE.GetName] vilayetinin sahibi olur"
+ CREATE_BUILDING:0 "[State.GetName] vilayetinde $LEVEL|v$. boyut seviyesinde bir [BuildingType.GetName] oluşturur"
+ ADD_BUILDING_LEVEL:0 "[State.GetName] vilayetindeki [BuildingType.GetName] binasını $LEVEL|v$ seviye değiştir"
+ START_BUILDING_CONSTRUCTION:0 "[State.GetName] vilayetinde [BuildingType.GetName] inşa etmeye başla"
+ CREATE_POP:0 "[STATE.GetName] vilayetine $SIZE|+$ #variable [POP_TYPE.GetName]#! eklenir"
+ ADD_HOMELAND:0 "[STATE_REGION.GetName], #variable [CULTURE.GetName]#! kültürü için [concept_homeland] olur"
+ REMOVE_HOMELAND:0 "[STATE_REGION.GetName], #variable [CULTURE.GetName]#! kültürü için [concept_homeland] olmaktan çıkar"
+ ADD_CLAIM:0 "[TARGET_COUNTRY.GetName], [STATE_REGION.GetName] bölgesinde [concept_claim] kazanır"
+ REMOVE_CLAIM:0 "[TARGET_COUNTRY.GetName], [STATE_REGION.GetName] bölgesindeki [Concept('concept_claim', 'Hak İddiasını')] kaybeder"
+ ACTIVATE_BUILDING:0 "[STATE.GetName] vilayetindeki [BUILDING_TYPE.GetName] etkinleştirilir"
+ DEACTIVATE_BUILDING:0 "[STATE.GetName] vilayetindeki [BUILDING_TYPE.GetName] devre dışı bırakılır"
+ REMOVE_BUILDING:0 "[STATE.GetName] vilayetindeki [BUILDING_TYPE.GetName] imha edilir"
+ CREATE_MARKET_EFFECT:0 "[STATE.GetName] vilayetinde yeni bir pazar kurulur"
+ ADD_ARABLE_LAND_POSITIVE_EFFECT:0 "[STATE_REGION.GetName] bölgesi, $VALUE|+0$ [concept_arable_land] alır"
+ ADD_ARABLE_LAND_NEGATIVE_EFFECT:0 "[STATE_REGION.GetName] bölgesi, $VALUE|-0$ [concept_arable_land] kaybeder"
+ ADD_DEVASTATION_POSITIVE_EFFECT:0 "[STATE_REGION.GetName] bölgesine %$VALUE|-0$ [concept_devastation] eklenir"
+ ADD_DEVASTATION_NEGATIVE_EFFECT:0 "[STATE_REGION.GetName] bölgesinden %$VALUE|+0$ [concept_devastation] çıkarılır"
+ SET_DEVASTATION_POSITIVE_EFFECT:0 "[STATE_REGION.GetName] [Concept('concept_devastation', 'Yıkımı')] %#variable $VALUE|0$#! olur"
+ SET_DEVASTATION_NEGATIVE_EFFECT:0 "[STATE_REGION.GetName] [Concept('concept_devastation', 'Yıkımı')] %#variable $VALUE|0$#! olur"
+ ADD_POLLUTION_EFFECT:0 "[StateRegion.GetName] vilayet bölgesinde kirlilik seviyesini $VALUE|-0$ arttır"
+ REMOVE_POLLUTION_EFFECT:0 "[StateRegion.GetName] vilayet bölgesinde kirlilik seviyesini $VALUE|+0$ azalt"
+  
+ ADD_POP_WEALTH:0 "[POP.GetState.GetName] vilayetindeki [Pop.GetName] $VALUE|+$ varlık kazanır"
+ ADD_POP_WEALTH_NEG:0 "[POP.GetState.GetName] vilayetindeki [Pop.GetName] $VALUE|+$ varlık kaybeder"
+ SET_POP_WEALTH:0 "[POP.GetState.GetName] vilayetindeki [Pop.GetName] varlığı $VALUE|+$ olarak ayarlanır"
+ SET_POP_LITERACY:0 "[POP.GetState.GetName] vilayetindeki [Pop.GetName] okuryazarlığı $VALUE|+0%$ olarak ayarlanır"
+ SET_POP_QUALIFICATIONS:0 "[POP.GetState.GetName] vilayetindeki [Pop.GetName] [POP_TYPE.GetName] [Concept('concept_pop_qualifications', 'Nitelikleri')] $VALUE|+0%$ olarak ayarlanır"
+ SET_POP_HAPPINESS:0 "[POP.GetState.GetName] vilayetindeki [Pop.GetName] mutluluğu $VALUE|+$ olarak ayarlanır"
+ CHANGE_POPTYPE:0 "[Pop.GetState.GetName] vilayetindeki [Pop.GetName], #variable [POP_TYPE.GetName]#! olur"
+ CHANGE_POP_RELIGION:0 "[Pop.GetState.GetName] vilayetindeki [Pop.GetName] toplumu, $VALUE|0v%$ oranında [Religion.GetName] dinine katılır"
+ # [LocEditor:UntranslatedKey] `CONVERT_POPULATION`
+ CHANGE_POP_CULTURE:0 "[Pop.GetState.GetName] vilayetindeki [Pop.GetName] toplumu, $VALUE|0v%$ oranında [Culture.GetName] kültürüne asimile olur"
+ MOVE_POP:0 "[Pop.GetState.GetName] vilayetindeki [Pop.GetName] toplumu, [TARGET_STATE.GetName] vilayetine taşınır"
+
+ EFFECT_CREATE_ASSIGNMENT:0 "[CHARACTER.GetFullName] karakterini [STRATEGIC_REGION.GetName] bölgesine ata"
+ EFFECT_PROJECT_POWER:0 "[CHARACTER.GetFullName], [STRATEGIC_REGION.GetName] bölgesine güç intikal ettirecek"
+  
+ TRIGGER_EVENT:0 "#variable $EVENT_NAME$#! olayını tetikler"
+
+ ANNEX_EFFECT:0 "[COUNTRY.GetName], [TARGET_COUNTRY.GetName] ülkesini ilhak edecek"
+  
+ ADD_JOURNAL_ENTRY:0 "[COUNTRY.GetName|v] Günlüğüne #variable $JOURNAL_ENTRY_NAME$#! ekler"
+ START_TUTORIAL_LESSON:0 "#variable $TUTORIAL_NAME$#! öğreticisini başlatır"
+  
+ ADD_RULING_INTEREST_GROUP:0 "[INTEREST_GROUP.GetName] hükümete katılır"
+ REMOVE_RULING_INTEREST_GROUP:0 "[INTEREST_GROUP.GetName] hükümetten çıkarılır"
+ SET_RULING_INTEREST_GROUPS:0 "Belirlenen Çıkar Grupları hükümete eklenirken diğer herkes çıkartılır"
+ ADD_MODIFIER:0 "$SUBJECT_NAME$, #tooltippable #tooltip:[GetRawTextTooltipTag('$ADD_MODIFIER_BREAKDOWN$')] $MODIFIER_NAME$#!#! $DURATION$ etkisini kazanır\n$TAB$#indent_newline:3 $MODIFIER_DESC$#!"
+ ADD_MODIFIER_BREAKDOWN:0 "#header $MODIFIER_NAME$#!\n$MODIFIER_DESC$"
+ ADD_ENACTMENT_MODIFIER:0 "$ADD_MODIFIER$"
+ REMOVE_MODIFIER:0 "$SUBJECT_NAME$, #tooltippable #tooltip:[GetRawTextTooltipTag('$REMOVE_MODIFIER_BREAKDOWN$')] #variable $MODIFIER_NAME$#!#!#! etkisini kaybeder\n$TAB$#indent_newline:3 $MODIFIER_DESC$#!"
+ REMOVE_MODIFIER_BREAKDOWN:0 "#header $MODIFIER_NAME$#!\n$MODIFIER_DESC$"
+ REMOVE_ENACTMENT_MODIFIER:0 "$REMOVE_MODIFIER$"
+
+ ACTIVATE_PRODUCTION_METHOD:0 "$TARGET|v$ [BUILDING_TYPE.GetName] binalarının hepsinde [PRODUCTION_METHOD.GetName] üretim yöntemini etkinleştir"
+ ADD_COMMANDER_RANK:0 "[CHARACTER.GetFullName] $DESC_STR$ #variable [COMMANDER_RANK.GetName]#!" # [LocEditor:AwaitingBatchUpdate]
+ SET_COMMANDER_RANK:0 "[CHARACTER.GetFullName] $DESC_STR$ #variable [COMMANDER_RANK.GetName]#!" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `ADD_CHARACTER_ROLE`
+ ADD_EXPERIENCE:0 "[CHARACTER.GetFullName], [concept_life_experience] kazanır"
+
+ CREATE_COUNTRY:0 "Yeni bir ülke kuruldu"
+ ADD_CULTURE_WELFARE_MODIFIER:0 "[STATE.GetName] vilayeti $MODIFIER_NAME|v$ $DURATION$ değişken etkisini kazanır\n   #header $MODIFIER_NAME$#!\n   $MODIFIER_DESC$"
+ # [LocEditor:UntranslatedKey] `ADD_RELIGION_WELFARE_MODIFIER`
+ FORCE_RESOURCE_DISCOVERY:0 "[State.GetName] vilayetinin #variable $BUILDING_GROUP$#! bina grubunda kaynak keşfet"
+ FORCE_RESOURCE_DEPLETION:0 "[State.GetName] vilayetinin #variable $BUILDING_GROUP$#! bina grubundaki kaynakları tüket"
+
+ SET_NEXT_ELECTION_DATE:0 "[COUNTRY.GetAdjective|v] seçim tarihi: $DATE|v$" # [LocEditor:AwaitingBatchUpdate]
+
+ JOIN_REVOLUTION:0 "[INTEREST_GROUP.GetName] isyankâr olur"
+ ABANDON_REVOLUTION:0 "[INTEREST_GROUP.GetName] isyankâr olmayı bırakır"
+
+ START_PROMOTE_IG:0 "[INTEREST_GROUP.GetName] grubuna arka çıkmaya başla"
+ STOP_PROMOTE_IG:0 "[INTEREST_GROUP.GetName] grubuna arka çıkmayı bırak"
+ START_SUPPRESS_IG:0 "[INTEREST_GROUP.GetName] grubunu baskılamaya başla"
+ STOP_SUPPRESS_IG:0 "[INTEREST_GROUP.GetName] grubunu baskılamayı bırak"
+  
+ ADD_EMBARGOED_GOODS:0 "[COUNTRY.GetName] [TARGET_GOODS.GetName] için [Concept('concept_embargo', 'Ambargo Uygulamaya')] başlar" # [LocEditor:AwaitingBatchUpdate]
+ REMOVE_EMBARGOED_GOODS:0 "[COUNTRY.GetName] [TARGET_GOODS.GetName] için [Concept('concept_embargo', 'Ambargo Uygulamayı')] bırakır" # [LocEditor:AwaitingBatchUpdate]
+ ADD_ENCOURAGED_GOODS:0 "[COUNTRY.GetName] [TARGET_GOODS.GetName] [Concept('concept_encourage_consumption', 'Tüketimini Teşvik Etmeye')] başlar" # [LocEditor:AwaitingBatchUpdate]
+ REMOVE_ENCOURAGED_GOODS:0 "[COUNTRY.GetName] [TARGET_GOODS.GetName] [Concept('concept_encourage_consumption', 'Tüketimini Teşvik Etmeyi')] bırakır" # [LocEditor:AwaitingBatchUpdate]
+ ADD_DISCOURAGED_GOODS:0 "[COUNTRY.GetName] [TARGET_GOODS.GetName] [Concept('concept_discourage_consumption', 'Tüketiminden Caydırmaya')] başlar" # [LocEditor:AwaitingBatchUpdate]
+ REMOVE_DISCOURAGED_GOODS:0 "[COUNTRY.GetName] [TARGET_GOODS.GetName] [Concept('concept_discourage_consumption', 'Tüketiminden Caydırmayı')] bırakır" # [LocEditor:AwaitingBatchUpdate]
+ ADD_TAXED_GOODS:0 "[COUNTRY.GetName] [TARGET_GOODS.GetName] için [Concept('concept_consumption_tax', 'Tüketim Vergisi')] almaya başlar" # [LocEditor:AwaitingBatchUpdate]
+ REMOVE_TAXED_GOODS:0 "[COUNTRY.GetName] [TARGET_GOODS.GetName] için [Concept('concept_consumption_tax', 'Tüketim Vergisi')] almayı bırakır" # [LocEditor:AwaitingBatchUpdate]
+  
+ ADD_RADICALS:0 "$NUM|%$/$FILTER$ [concept_pop] daha [concept_radical] olur"
+ ADD_LOYALISTS:0 "$NUM|%$/$FILTER$ [concept_pop] daha [concept_loyalist] olur"
+
+ ADD_CIVIL_WAR_PROGRESS:0 "İç savaş ilerlemesini $VALUE|%$ değiştir"
+ ADD_LAW_PROGRESS:0 "[Law.GetName] kanununun çıkma ilerlemesini $VALUE|0%$ değiştir"
+
+ MAKE_INDEPENDENT:0 "[COUNTRY.GetName], [TARGET_COUNTRY.GetName] ülkesinden bağımsızlık kazanır"
+ MAKE_INDEPENDENT_NEG:0 "[COUNTRY.GetName], [TARGET_COUNTRY.GetName] ülkesinden bağımsızlık kazanmaz"
+  
+ OBJECTIVE_SUBGOAL_EFFECT:0 "Amaç alt hedefi etkisi"
+  
+ REMOVE_DIPLOMATIC_PACT:0 "[COUNTRY.GetName], [TARGET_COUNTRY.GetName] üzerindeki [DIPLOMATIC_ACTION_TYPE.GetName] diplomatik hamlesini kaldırır"
+  
+ SET_SUBSIDIZED:0 "[Building.GetName] binasını [Concept('concept_subsidies', 'Sübvanse')] etmeye başla" # [LocEditor:AwaitingBatchUpdate]
+ SET_SUBSIDIZED_NEGATIVE:0 "[Building.GetName] binasını [Concept('concept_subsidies', 'Sübvanse')] etmeyi bırak" # [LocEditor:AwaitingBatchUpdate]
+  
+ ADD_MOMENTUM:0 "[Party.GetName] grubuna #v $MOMENTUM|%+=0$#! [concept_momentum] eklenir"
+ RESOLVE_PLAY_FOR:0 "[Country.GetName], savaş hedeflerini gerçekleştirerek [TARGET_DIPLOMATIC_PLAY.GetName] diplomatik hamlesini terk eder"
+
+ CHANGE_CHARACTER_RELIGION:0 "[Character.GetFullName], [TARGET_RELIGION.GetName] olur"
+ CHANGE_TAG:0 "[COUNTRY.GetName], $NEW_TAG|v$ olur"
+ SET_INTEREST_MARKER_IN_REGION:0 "$REGION_NAME|v$ bölgesine İlgi İşareti ekle"
+ CHANGE_SUBJECT_TYPE:0 "[Country.GetName], [Country.GetOverlord.GetName] ülkesine $SUBJECT_TYPE$ olur"
+
+ PARTIES_EMERGENCE:0 "Bu, partilerin ortaya çıkmasına sebep olacak"
+ PARTIES_DISAPPEARENCE:0 "Bu, partilerin yok olmasına sebep olacak"
+ UPDATE_PARTY_SUPPORT_EFFECT:0 "Çıkar Grupları, parti desteklerini yeniden değerlendirecek"
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ SET_INCOME_TAX_LEVEL:0 "[COUNTRY.GetName] [concept_budget_income_taxes] seviyesi #variable $TAX_LEVEL$#! olarak ayarlanır"
+ SET_POLL_TAX_LEVEL:0 "[COUNTRY.GetName] [concept_budget_poll_taxes] seviyesi #variable $TAX_LEVEL$#! olarak ayarlanır"
+ SET_CONSUMPTION_TAX_LEVEL:0 "[COUNTRY.GetName] [concept_budget_consumption_taxes] seviyesi #variable $TAX_LEVEL$#! olarak ayarlanır"
+ SET_OWES_FAVOR_TO:0 "[COUNTRY.GetName] [TARGET_COUNTRY.GetName] ülkesine [concept_favor] borçlu"
+ SET_OWES_FAVOR_TO_NEG:0 "[COUNTRY.GetName] [TARGET_COUNTRY.GetName] ülkesine artık [concept_favor] borçlu değil"
+ SET_ARMY_BUDGET:0 "#variable [COUNTRY.GetAdjective]#! ordu bütçesi #variable $VALUE$#! olarak ayarlanır"
+ SET_NAVY_BUDGET:0 "#variable [COUNTRY.GetAdjective]#! donanma bütçesi #variable $VALUE$#! olarak ayarlanır"
+ SET_STOCKPILE_BUDGET:0 "#variable [COUNTRY.GetAdjective]#! birikim bütçesi #variable $VALUE$#! olarak ayarlanır"
+ ADD_STOCKPILE:0 "#variable [COUNTRY.GetAdjective]#! birikimleri $VALUE|+$ artar"
+ ADD_STOCKPILE_NEG:0 "#variable [COUNTRY.GetAdjective]#! birikimleri $VALUE|+$ azalır"
+ ADD_INNOVATION_POINTS:0 "#variable [COUNTRY.GetAdjective]#! Buluş Puanı $VALUE|+$ artar"
+ ADD_INNOVATION_POINTS_NEG:0 "#variable [COUNTRY.GetAdjective]#! Buluş Puanı $VALUE|+$ azalır"
+ MULT_DIPLOMATIC_PLAY_WAR_SUPPORT:0 "[TARGET_DIPLOMATIC_PLAY.GetName] diplomatik hamlesinde [Country.GetAdjective] [concept_war_support] $VALUE|+$ kat katlanır"
+ MULT_WAR_WAR_SUPPORT:0 "[War.GetName] savaşında [Country.GetAdjective] [concept_war_support] $VALUE|+$ kat katlanır"

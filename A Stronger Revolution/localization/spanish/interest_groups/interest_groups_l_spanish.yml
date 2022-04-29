@@ -1,0 +1,142 @@
+﻿l_spanish:
+ # [LocEditor:UntranslatedKey] `ig_rural_folk`
+ # [LocEditor:UntranslatedKey] `ig_rural_folk_desc`
+ # [LocEditor:UntranslatedKey] `ig_devout`
+ # [LocEditor:UntranslatedKey] `ig_devout_desc`
+ # [LocEditor:UntranslatedKey] `ig_industrialists`
+ # [LocEditor:UntranslatedKey] `ig_industrialists_desc`
+ # [LocEditor:UntranslatedKey] `ig_landowners`
+ # [LocEditor:UntranslatedKey] `ig_landowners_desc`
+ # [LocEditor:UntranslatedKey] `ig_intelligentsia`
+ # [LocEditor:UntranslatedKey] `ig_intelligentsia_desc`
+ # [LocEditor:UntranslatedKey] `ig_petty_bourgeoisie`
+ # [LocEditor:UntranslatedKey] `ig_petty_bourgeoisie_desc`
+ # [LocEditor:UntranslatedKey] `ig_armed_forces`
+ # [LocEditor:UntranslatedKey] `ig_armed_forces_desc`
+ # [LocEditor:UntranslatedKey] `ig_trade_unions`
+ # [LocEditor:UntranslatedKey] `ig_trade_unions_desc`
+
+  # Religious IGs
+ # [LocEditor:UntranslatedKey] `ig_catholic_church`
+ # [LocEditor:UntranslatedKey] `ig_catholic_church_desc`
+ # [LocEditor:UntranslatedKey] `ig_orthodox_church`
+ # [LocEditor:UntranslatedKey] `ig_orthodox_church_desc`
+ # [LocEditor:UntranslatedKey] `ig_coptic_church`
+ # [LocEditor:UntranslatedKey] `ig_coptic_church_desc`
+ # [LocEditor:UntranslatedKey] `ig_anglican_church`
+ # [LocEditor:UntranslatedKey] `ig_anglican_church_desc`
+ # [LocEditor:UntranslatedKey] `ig_evangelical_church`
+ # [LocEditor:UntranslatedKey] `ig_evangelical_church_desc`
+ # [LocEditor:UntranslatedKey] `ig_rabbinical_council`
+ # [LocEditor:UntranslatedKey] `ig_rabbinical_council_desc`
+ # [LocEditor:UntranslatedKey] `ig_sunni_madrasahs`
+ # [LocEditor:UntranslatedKey] `ig_sunni_madrasahs_desc`
+ # [LocEditor:UntranslatedKey] `ig_shia_madrasahs`
+ # [LocEditor:UntranslatedKey] `ig_shia_madrasahs_desc`
+ # [LocEditor:UntranslatedKey] `ig_hindu_priesthood`
+ # [LocEditor:UntranslatedKey] `ig_hindu_priesthood_desc`
+ # [LocEditor:UntranslatedKey] `ig_sikh_priesthood`
+ # [LocEditor:UntranslatedKey] `ig_sikh_priesthood_desc`
+ # [LocEditor:UntranslatedKey] `ig_vajrayana_monks`
+ # [LocEditor:UntranslatedKey] `ig_vajrayana_monks_desc`
+ # [LocEditor:UntranslatedKey] `ig_mahayana_monks`
+ # [LocEditor:UntranslatedKey] `ig_mahayana_monks_desc`
+ # [LocEditor:UntranslatedKey] `ig_theravada_monks`
+ # [LocEditor:UntranslatedKey] `ig_theravada_monks_desc`
+ # [LocEditor:UntranslatedKey] `ig_shinto_monks`
+ # [LocEditor:UntranslatedKey] `ig_shinto_monks_desc`
+ # [LocEditor:UntranslatedKey] `ig_pagan_shamans`
+ # [LocEditor:UntranslatedKey] `ig_pagan_shamans_desc`
+
+  # British IGs
+ # [LocEditor:UntranslatedKey] `ig_fleet_street`
+ # [LocEditor:UntranslatedKey] `ig_fleet_street_desc`
+ # [LocEditor:UntranslatedKey] `ig_east_india_company`
+ # [LocEditor:UntranslatedKey] `ig_east_india_company_desc`
+ # [LocEditor:UntranslatedKey] `ig_landed_gentry`
+ # [LocEditor:UntranslatedKey] `ig_landed_gentry_desc`
+
+  # Russian IGs
+ # [LocEditor:UntranslatedKey] `ig_westernisers`
+ # [LocEditor:UntranslatedKey] `ig_westernisers_desc`
+ # [LocEditor:UntranslatedKey] `ig_slavophiles`
+ # [LocEditor:UntranslatedKey] `ig_slavophiles_desc`
+ # [LocEditor:UntranslatedKey] `ig_kulaks`
+ # [LocEditor:UntranslatedKey] `ig_kulaks_desc`
+ # [LocEditor:UntranslatedKey] `ig_peasant_communes`
+ # [LocEditor:UntranslatedKey] `ig_peasant_communes_desc`
+
+  # Prussian IGs
+ # [LocEditor:UntranslatedKey] `ig_junkers`
+ # [LocEditor:UntranslatedKey] `ig_junkers_desc`
+ # [LocEditor:UntranslatedKey] `ig_junker_landowners`
+ # [LocEditor:UntranslatedKey] `ig_junker_landowners_desc`
+ # [LocEditor:UntranslatedKey] `ig_junker_industrialists`
+ # [LocEditor:UntranslatedKey] `ig_junker_industrialists_desc`
+  
+  # Spanish IGs
+ # [LocEditor:UntranslatedKey] `ig_carlists`
+ # [LocEditor:UntranslatedKey] `ig_carlists_desc`
+ # [LocEditor:UntranslatedKey] `ig_isabelinos`
+ # [LocEditor:UntranslatedKey] `ig_isabelinos_desc`
+
+  # USA IGs
+ # [LocEditor:UntranslatedKey] `ig_southern_planters`
+ # [LocEditor:UntranslatedKey] `ig_southern_planters_desc`
+ # [LocEditor:UntranslatedKey] `ig_fire_eaters`
+ # [LocEditor:UntranslatedKey] `ig_fire_eaters_desc`
+ # [LocEditor:UntranslatedKey] `ig_prohibitionists`
+ # [LocEditor:UntranslatedKey] `ig_prohibitionists_desc`
+ # [LocEditor:UntranslatedKey] `ig_railway_tycoons`
+ # [LocEditor:UntranslatedKey] `ig_railway_tycoons_desc`
+
+  # Turkey IGs
+ # [LocEditor:UntranslatedKey] `ig_imperial_harem`
+ # [LocEditor:UntranslatedKey] `ig_imperial_harem_desc`
+ # [LocEditor:UntranslatedKey] `ig_local_governors`
+ # [LocEditor:UntranslatedKey] `ig_local_governors_desc`
+
+  # French IGs
+ # [LocEditor:UntranslatedKey] `ig_bonapartists`
+ # [LocEditor:UntranslatedKey] `ig_bonapartists_desc`
+ # [LocEditor:UntranslatedKey] `ig_ultraroyalists`
+ # [LocEditor:UntranslatedKey] `ig_ultraroyalists_desc`
+
+  # Austrian IGs
+ # [LocEditor:UntranslatedKey] `ig_centralisers`
+ # [LocEditor:UntranslatedKey] `ig_centralisers_desc`
+ # [LocEditor:UntranslatedKey] `ig_federalists`
+ # [LocEditor:UntranslatedKey] `ig_federalists_desc`
+
+  # China IGs
+ # [LocEditor:UntranslatedKey] `ig_literati`
+ # [LocEditor:UntranslatedKey] `ig_literati_desc`
+ # [LocEditor:UntranslatedKey] `ig_scholar_officials`
+ # [LocEditor:UntranslatedKey] `ig_scholar_officials_desc`
+ # [LocEditor:UntranslatedKey] `ig_confucian`
+ # [LocEditor:UntranslatedKey] `ig_confucian_desc`
+
+  # misc
+ # [LocEditor:UntranslatedKey] `ig_roman_landowners`
+ # [LocEditor:UntranslatedKey] `ig_roman_landowners_desc`
+ # [LocEditor:UntranslatedKey] `ig_chieftains`
+ # [LocEditor:UntranslatedKey] `ig_chieftains_desc`
+
+  #Japanese IGs
+ # [LocEditor:UntranslatedKey] `ig_daimyo`
+ # [LocEditor:UntranslatedKey] `ig_shogunate`
+ # [LocEditor:UntranslatedKey] `ig_peasants`
+
+  # Hawaiian IGs
+ # [LocEditor:UntranslatedKey] `ig_christian_missionaries`
+ # [LocEditor:UntranslatedKey] `ig_christian_missionaries_desc`
+ # [LocEditor:UntranslatedKey] `ig_alii`
+ # [LocEditor:UntranslatedKey] `ig_alii_desc`
+ # [LocEditor:UntranslatedKey] `ig_maka_ainana`
+ # [LocEditor:UntranslatedKey] `ig_maka_ainana_desc`
+ # [LocEditor:UntranslatedKey] `ig_hawaiian_democrats`
+ # [LocEditor:UntranslatedKey] `ig_hawaiian_democrats_desc`
+
+
+
+ # [LocEditor:UntranslatedKey] `ig_church_of_sweden`

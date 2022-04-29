@@ -1,0 +1,31 @@
+﻿CHARACTERS = {
+	c:PAP = {
+		create_character = {
+			# Gregory XVI
+			#role = politician # Remove this line
+			first_name = "Gregorius"
+			last_name = "Cappellari"
+			ruler = yes
+			age = 71
+			interest_group = ig_devout
+			traits = {
+				imperious
+			}
+		}
+	
+
+	 create_character = {
+	 		is_general = yes
+			first_name = Filippo 
+			last_name = Resta
+			age = 39
+			traits = {
+
+		# 		doughty
+		# 		military_family
+
+			}
+
+		 }
+	}
+}

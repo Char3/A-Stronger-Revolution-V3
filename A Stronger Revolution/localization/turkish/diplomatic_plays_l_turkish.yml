@@ -1,0 +1,347 @@
+﻿l_turkish:
+ ALREADY_STARTED_DIPLO_PLAY:0 "#N Mevcut bir [concept_diplomatic_play] zaten var!#!"
+ WAR_CANNOT_YIELD_IN_DIPLOMATIC_PLAY:0 "#N Bu [concept_diplomatic_play] sonucunda bir savaş çıktı#!"
+ ACTOR_CANNOT_YIELD_IN_DIPLOMATIC_PLAY:0 "#N [COUNTRY.GetName], bu [Concept('concept_diplomatic_play', 'Diplomatik Hamleden')] çekilemez.#!"
+ ACTOR_CANNOT_DECLARE_NEUTRALITY_IN_DIPLOMATIC_PLAY:0 "#N [COUNTRY.GetName] bu [Concept('concept_diplomatic_play', 'Diplomatik Hamlede')] tarafsızlık ilan edemez çünkü taraflardan birini destekliyor.#!"
+ ACTOR_NOT_INVOLVED_IN_DIPLOMATIC_PLAY:0 "#N [COUNTRY.GetName], [Concept('concept_diplomatic_play', 'Diplomatik Hamleye')] müdahil değil#!"
+ ACTOR_ALREADY_HAS_THIS_STANCE_IN_DIPLOMATIC_PLAY:0 "#N [COUNTRY.GetName], zaten bu duruşta#!"
+ ACTOR_CIVIL_WAR_DIPLOMATIC_PLAY:0 "#N İç Savaş Ülkeleri diğer [Concept('concept_diplomatic_play', 'Diplomatik Hamlelere')] katılamazlar.#!"
+ TARGET_CIVIL_WAR_DIPLOMATIC_PLAY:0 "#N İç Savaş Ülkeleri [Concept('concept_diplomatic_play', 'Diplomatik Hamlelere')] hedef olamaz.#!"
+ ACTOR_IS_TARGETED_BY_ENEMY_WARGOAL:0 "#N [COUNTRY.GetName] ülkesinden destek çekilemez çünkü [WAR_GOAL.GetName] [concept_war_goal] bizim ülkemizi hedefliyor.#!"
+ TRUCE_WITH_TARGET:0 "#N [COUNTRY.GetName] ve [TARGET_COUNTRY.GetName] arasında #variable [COUNTRY.GetTruceDate(TARGET_COUNTRY.Self)]#! tarihine kadar Ateşkes var.#!"
+ CORDIAL_RELATIONS_WITH_TARGET:0 "#N [COUNTRY.GetName] ve [TARGET_COUNTRY.GetName] arasındaki [Concept('concept_relation', '$concept_relations$')] Yakın veya daha iyi.#!" # [LocEditor:AwaitingBatchUpdate]
+ ALLIANCE_WITH_TARGET:0 "#N [COUNTRY.GetName] ve [TARGET_COUNTRY.GetName|v] arasında [concept_alliance] var.#!"
+ HUMILIATED_BY_TARGET:0 "#N [COUNTRY.GetName] yakın zamanda [TARGET_COUNTRY.GetName|v] tarafından [Concept('concept_humiliation', 'Aşağılandı')].#!" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `OWES_OBLIGATION_TO_TARGET`
+ RIVALS_WITH_TARGET:0 "#N [COUNTRY.GetName] ve [TARGET_COUNTRY.GetName|v] arasında [concept_rivalry] var.#!"
+ TARGET_IS_OUR_SUBJECT:0 "#N [TARGET_COUNTRY.GetName|v], [COUNTRY.GetName] ülkesinin [Concept('concept_subject', 'Egemenliği Altında')].#!"
+ COUNTRY_IS_TARGETING_YOU:0 "#N [COUNTRY.GetName|v] bir [Concept('concept_diplomatic_play', 'Diplomatik Hamlede')] seni hedef alıyor.#!"
+ DIPLO_PLAY_SWITCH_COUNTRY_NOT_TARGET:0 "#N Sadece [Concept('concept_diplomatic_play', 'Diplomatik Hamlenin')] hedefi ülke değiştirebilir.#!"
+ DIPLO_PLAY_SWITCH_COUNTRY_ESCALATION:0 "#N Tırmanma sadece #variable $VALUE$#! seviyesinden düşükken ülke değiştirilebilir.#!"
+ DIPLO_PLAY_SWITCH_COUNTRY_NOT_AI:0 "#N Sadece yapay zekâ kontrolünde bir ülkeye değiştirilebilir.#!"
+ DIPLO_PLAY_CANNOT_TARGET_SELF:0 "#N Bir [Concept('concept_diplomatic_play', 'Diplomatik Hamlede')] kendini hedef alamazsın.#!"
+ DIPLO_PLAY_ALREADY_AT_WAR:0 "#N Halihazırda savaştayız.#!"
+ DIPLO_PLAY_AT_WAR_WITH:0 "#N [COUNTRY.GetName] ve [TARGET_COUNTRY.GetName|v] savaşta.#!"
+ DIPLO_PLAY_ALLIED_WITH:0 "#N [COUNTRY.GetName] ve [TARGET_COUNTRY.GetName|v] müttefik.#!"
+ DIPLO_PLAY_WAR_ALLIED_WITH:0 "#N [COUNTRY.GetName] ve [TARGET_COUNTRY.GetName|v] savaşta aynı tarafta savaşıyorlar.#!"
+ DIPLO_PLAY_OPPOSING_SIDES:0 "#N [COUNTRY.GetName] ve [TARGET_COUNTRY.GetName] başka bir [Concept('concept_diplomatic_play', 'Diplomatik Hamlede')] karşı taraflarda.#!"
+ DIPLO_PLAY_SAME_SIDES:0 "#N [COUNTRY.GetName] ve [TARGET_COUNTRY.GetName] başka bir [Concept('concept_diplomatic_play', 'Diplomatik Hamlede')] aynı tarafta.#!"
+ ALREADY_IN_DIPLO_PLAY:0 "#N [COUNTRY.GetName] ve [TARGET_COUNTRY.GetName] zaten başka bir [Concept('concept_diplomatic_play', 'Diplomatik Hamlede')] yer alıyor.#!"
+ DIPLO_PLAY_ADD_WARGOAL:0 "[concept_war_goal] Ekle"
+ DIPLO_PLAY_DECLARE_NEUTRALITY:0 "Tarafsızlık İlan Et"
+ DIPLO_PLAY_BACK_DOWN:0 "Geri Çekil"
+ DIPLO_PLAY_GIVE_IN:0 "Pes Et"
+ DIPLO_PLAY_SUPPORT:0 "Destekle"
+ DIPLO_PLAY_OPPOSE:0 "Karşı Çık"
+ DIPLO_PLAY_NOT_NOW:0 "Daha sonra"
+ ADD_WARGOAL_HEADER:0 "#bold [concept_war_goal] Ekle#!"
+ SWAY_COUNTRY:0 "[Concept('concept_sway', 'Cezbet')]"
+ SWAY_COUNTRY_HEADER:0 "#bold [SwayCountryPanel.GetCountry.GetName] Ülkesini [Concept('concept_sway', 'Cezbet')]#!"
+ DIPLO_PLAY_MANEUVERS_INITIATOR_TOOLTIP:0 "#header Başlatıcı [Concept('concept_maneuver', 'Manevraları')]#!\n[DiplomaticPlay.GetInitiator.GetName|v] ülkesinin [DiplomaticPlay.GetNumInitiatorManeuversRemaining|v] [Concept('concept_maneuver', 'Manevrası')] kaldı." # [LocEditor:AwaitingBatchUpdate]
+ DIPLO_PLAY_MANEUVERS_TARGET_TOOLTIP:0 "#header Hedef [Concept('concept_maneuver', 'Manevraları')]#!\n[DiplomaticPlay.GetTarget.GetName|v] ülkesinin [DiplomaticPlay.GetNumInitiatorManeuversRemaining|v] [Concept('concept_maneuver', 'Manevrası')] kaldı." # [LocEditor:AwaitingBatchUpdate]
+ DIPLO_PLAY_JOIN_WRONG_PHASE:0 "#N [Concept('concept_diplomatic_play', 'Diplomatik Hamlenin')] sadece #variable $DIPLO_PLAY_MIDDLE_PHASE$#! evresinde taraf seçilebilir.#!"
+ DIPLO_PLAY_SWAY_WRONG_PHASE:0 "#N Kararsız katılımcılar [Concept('concept_diplomatic_play', 'Diplomatik Hamlenin')] sadece #variable $DIPLO_PLAY_MIDDLE_PHASE$#! evresinde cezbedilebilir.#!"
+ DIPLO_PLAY_OVERLORD_JOIN_WRONG_PHASE:0 "#N [Concept('concept_diplomatic_play', 'Diplomatik Hamlenin')] birincil katılımcılarından birinin hükümdarı, sadece #variable $DIPLO_PLAY_OPENING_PHASE$#! evresinde taraf seçebilir.#!"
+ DIPLO_PLAY_YIELD_WRONG_PHASE:0 "#N [Concept('concept_diplomatic_play', 'Diplomatik Hamlenin')] #variable $DIPLO_PLAY_OPENING_PHASE$#! evresinde geri çekilmek mümkün değildir.#!"
+ DIPLO_PLAY_ADD_WARGOAL_WRONG_PHASE:0 "#N [Concept('concept_diplomatic_play', 'Diplomatik Hamlenin')] #variable $DIPLO_PLAY_CLOSING_PHASE$#! evresinde ilave [concept_war_goal] eklenemez.#!" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `DIPLO_PLAY_BACKER_PROMISED_INITIATOR_OBLIGATION`
+ # [LocEditor:UntranslatedKey] `DIPLO_PLAY_BACKER_PROMISED_TARGET_OBLIGATION`
+ DIPLOMATIC_PLAY_ESCALATION_PAUSE:0 "Tırmanma [DiplomaticPlay.GetEscalationPause|v] günlüğüne durduruldu."
+ DIPLOMATIC_PLAY_ESCALATION_NO_PAUSE:0 "Tırmanma devam ediyor..."
+  
+ DIPLO_PLAY_OPENING_PHASE:0 "Açılış Hamleleri"
+ DIPLO_PLAY_MIDDLE_PHASE:0 "Diplomatik Manevralar"
+ DIPLO_PLAY_CLOSING_PHASE:0 "Savaşa Geri Sayım"
+
+ # [LocEditor:UntranslatedKey] `DIPLO_PLAY_SWAY_OFFER_OBLIGATION_DESC`
+ DIPLO_PLAY_SWAY_OFFER_WAR_GOAL_DESC:0 "[WAR_GOAL.GetSwayDesc][ConcatIfNeitherEmpty( '\n$TOOLTIP_DELIMITER$\n', '$ERRORS$' )]"
+
+ texan_war_of_independence:0 "Teksas Bağımsızlık Savaşı"
+  
+ WARGOAL_NO_TREATY_PORT:0 "#bold #N Hedef vilayetin uygun [concept_treaty_port] idari bölgesi yok.#!#!"
+ WARGOAL_IS_TREATY_PORT:0 "#bold #N Hedef vilayet bir [concept_treaty_port].#!#!"
+ WARGOAL_NOT_SUBJECT_OF:0 "#bold #N [COUNTRY.GetName], [TARGET_COUNTRY.GetName] ülkesinin egemenliği altında değil.#!#!"
+ WARGOAL_IS_SUBJECT_OF:0 "#bold #N [COUNTRY.GetName], [TARGET_COUNTRY.GetName] ülkesinin egemenliği altında.#!#!"
+ WARGOAL_WRONG_COUNTRY_RANK:0 "#bold #N $COUNTRY_NAME|v$ bir $RANK|v$ değil.#!#!"
+ WARGOAL_WRONG_COUNTRY_TYPE:0 "#bold #N $COUNTRY_NAME|v$ bir $TYPE|v$ değil.#!#!"
+ WARGOAL_HOLDER_DOES_NOT_EXIST:0 "#bold #N Bu [Concept('concept_war_goal', 'Savaş Hedefinin')] geçerli bir sahip [Concept('concept_country', 'Ülkesi')] yok.#!#!"
+ WARGOAL_TARGET_DOES_NOT_EXIST:0 "#bold #N Bu [Concept('concept_war_goal', 'Savaş Hedefinin')] geçerli [concept_country] hedefi yok.#!#!"
+ WARGOAL_TARGET_IG_DOES_NOT_EXIST:0 "#bold #N Bu [Concept('concept_war_goal', 'Savaş Hedefinin')] geçerli [concept_interest_group] hedefi yok.#!#!"
+ WARGOAL_IG_NOT_RADICAL:0 "#bold #N [INTEREST_GROUP.GetName], [concept_radicalized] bir [concept_interest_group] değil.#!#!"
+ WARGOAL_IG_TYPE_NOT_IN_GOVERNMENT:0 "#bold #N #v $IG_TYPE$#! [COUNTRY.GetName] hükümetinde değil.#!#!"
+ WARGOAL_TARGET_WILL_NOT_EXIST:0 "#bold #N Eklenen savaş hedefleri sonucunda [COUNTRY.GetName] ilhak edilecek.#!#!"
+ WARGOAL_TARGET_WILL_NOT_EXIST_AFTER_WARGOAL:0 "#bold #N Eklenen savaş hedefleri sonucunda [COUNTRY.GetName] ilhak edilecek ve mevcut olarak eklenen bir savaş hedefi geçersiz olacak.#!#!"
+ WARGOAL_TARGET_NOT_RIVAL:0 "#bold #N [COUNTRY.GetName], [TARGET_COUNTRY.GetName] ülkesinin [Concept('concept_rivalry', 'Rakibi')] değil.#!#!" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `WARGOAL_NOT_UNIFICATION_CANDIDATE`
+ # [LocEditor:UntranslatedKey] `WARGOAL_NOT_SOLE_UNIFICATION_CANDIDATE`
+ WARGOAL_COUNTRY_HAS_SLAVERY:0 "#bold #N [COUNTRY.GetName] ülkesinde bir tür [concept_slavery] var.#!#!"
+ WARGOAL_COUNTRY_NO_SLAVERY:0 "#bold #N [COUNTRY.GetName] ülkesinde [concept_slavery] yok.#!#!"
+ WARGOAL_STAKEHOLDER_DOES_NOT_EXIST:0 "#bold #N Bu [Concept('concept_war_goal', 'Savaş Hedefinin')] geçerli bir menfaat sahibi yok!#!#!"
+ WARGOAL_TARGET_DOES_NOT_OWN_STATE:0 "#bold #N #variable $COUNTRY_NAME$#!, #variable $STATE_NAME$#! vilayetine sahip değil.#!#!"
+ WARGOAL_NO_INTEREST_MARKER_IN_REGION:0 "#bold #N #variable $COUNTRY_NAME$#! ülkesinin #variable $REGION_NAME$#! bölgesinde bir [Concept('concept_interest', 'Çıkarı')] yok.#!#!"
+ OTHER_WARGOAL_ON_SAME_TARGET:0 "#bold #N #variable $COUNTRY_NAME$#! ülkesinin, hedefi #variable $TARGET_NAME$#! olan ve birbirini dışlayan ortak bir [concept_war_goal] var.#!#!"
+ WARGOAL_TOO_LOW_RANK:0 "#bold #N [COUNTRY.GetName], çok düşük ülke derecesine sahip!#!#!"
+ WARGOAL_TOO_HIGH_RANK:0 "#bold #N [COUNTRY.GetName], çok yüksek ülke derecesine sahip!#!#!"
+ WARGOAL_HOLDER_HAS_NO_CLAIM:0 "#bold #N #variable $COUNTRY_NAME$#! ülkesinin #variable $STATE_REGION_NAME$#! bölgesinde [concept_claim] yok.#!#!"
+ WARGOAL_HOLDER_HAS_CLAIM:0 "#bold #N #variable $COUNTRY_NAME$#! ülkesinin #variable $STATE_REGION_NAME$#! bölgesinde [concept_claim] var.#!#!"
+ WARGOAL_HOLDER_HAS_NO_COLONIAL_CONQUEST:0 "#bold #N #variable $COUNTRY_NAME$#!, #variable $STATE_NAME$#! vilayetinde Koloni İstilası yapamaz.#!#!"
+ WARGOAL_HOLDER_HAS_COLONIAL_CONQUEST:0 "#bold #N #variable $COUNTRY_NAME$#!, #variable $STATE_NAME$#! vilayetinde Koloni İstilası yapabilir.#!#!"
+ WARGOAL_COUNTRY_CREATION_INVALID:0 "#bold #N #variable $TARGET_NAME$#!, #variable $COUNTRY_NAME$#! ülkesini özgür bırakması için gerekli Vilayetlere sahip değil.#!#!"
+ WARGOAL_TARGET_HAS_NOTHING_TO_RELEASE:0 "#bold #N #variable $TARGET_NAME$#!, yakın zamanda elde ettiği, özgür bırakabileceği Vilayet veya Egemenlik Altındaki Ülkelere sahip değil.#!#!"
+  
+ YESMEN_ALWAYS_ACCEPT:0 "Yesmen sebebiyle kabul edecek"
+ JOIN_DIPLO_PLAY_DESC:0 "#header [Concept('concept_sway', 'Cezbetmeye')] çalış#!\n$WILL_ACCEPT$\n$TOOLTIP_DELIMITER$\n$DETAILS$"
+ JOIN_DIPLO_PLAY_SCORE_DESC:0 "Kabul Skoru: #bold $VALUE|+$#!"
+ JOIN_DIPLO_PLAY_FACTOR_RELATIONS:0 "[COUNTRY.GetName|v] ile ilişkiler: #bold $VALUE|+=$#!"
+ JOIN_DIPLO_PLAY_FACTOR_TUTORIAL_ASSISTANCE:0 "Öğretici Desteği: #bold $VALUE|+=$#!"
+ JOIN_DIPLO_PLAY_FACTOR_DEFENDER:0 "[COUNTRY.GetName|v] Savunan taraftır: #bold $VALUE|+=$#!"
+ JOIN_DIPLO_PLAY_FACTOR_ALREADY_BACKER:0 "[COUNTRY_THIRD_PARTY.GetName] zaten diğer tarafı destekliyor: #bold $VALUE|+=$#!"
+ JOIN_DIPLO_PLAY_FACTOR_INFAMY:0 "[COUNTRY.GetAdjective] [Concept('concept_infamy', 'Kötü Namı')]: #bold $VALUE|+=$#!" # [LocEditor:AwaitingBatchUpdate]
+ JOIN_DIPLO_PLAY_FACTOR_SUBJECT_RELATIONSHIP:0 "[COUNTRY.GetName|v] ile Egemenlik Altındaki Ülke İlişkisi: #bold $VALUE|+=$#!"
+ JOIN_DIPLO_PLAY_FACTOR_ATTITUDE:0 "[COUNTRY_THIRD_PARTY.GetAttitudeTowards(COUNTRY.Self).GetName] ülkesinin [COUNTRY.GetName|v] ülkesine karşı [Concept('concept_attitude', 'Tavrı')]: #bold $VALUE|+=$#!"
+ JOIN_DIPLO_PLAY_FACTOR_ATTITUDE_BACKER:0 "[COUNTRY_THIRD_PARTY.GetAttitudeTowards(COUNTRY.Self).GetName] ülkesinin destek çıkan [COUNTRY.GetName|v] ülkesine karşı [Concept('concept_attitude', 'Tavrı')]: #bold $VALUE|+=$#!"
+ JOIN_DIPLO_PLAY_FACTOR_OFFERED_WARGOAL:0 "Teklif edilen [concept_war_goal]: #bold $VALUE|+=$#!"
+ # [LocEditor:UntranslatedKey] `JOIN_DIPLO_PLAY_FACTOR_OFFERED_OBLIGATION`
+ JOIN_DIPLO_PLAY_FACTOR_CURRENT_OFFERED_WARGOAL:0 "Karşı tarafın teklif ettiği [concept_war_goal]: #bold $VALUE|+=$#!"
+ # [LocEditor:UntranslatedKey] `JOIN_DIPLO_PLAY_FACTOR_CURRENT_OFFERED_OBLIGATION`
+  
+ WAR_NO_NEGOTIATED_PEACE:0 "$TYPE|v$ [concept_diplomatic_play] için barış uzlaşması mümkün değil."
+ WAR_PEACE_BOTH_SIDES_CLAIM_STATE:0 "İki tarafın da [STATE.GetStateRegion.GetName] bölgesinde [concept_state] talep etmesi sebebiyle Barış Antlaşması geçersiz." # [LocEditor:AwaitingBatchUpdate]
+ WAR_PEACE_INVALID_WARGOAL:0 "[WAR_GOAL.GetName|v] hedefinin geçersiz olması sebebiyle Barış Antlaşması geçersiz."
+ WAR_NAME_FORMAT_DEFAULT:0 "$INITIATOR$-$TARGET$"
+  
+ dp_open_market:0 "$war_goal_open_market_type_name$"
+ dp_open_market_tooltip:0 "Pazarı Açmak için [concept_diplomatic_play] başlat"
+    
+ dp_regime_change:0 "$war_goal_regime_change_type_name$"
+ dp_regime_change_tooltip:0 "Rejim Değiştirmek için [concept_diplomatic_play] başlat"
+ 
+ dp_ban_slavery:0 "$war_goal_ban_slavery_type_name$"
+ dp_ban_slavery_tooltip:0 "Köleliği Yasaklamak için [concept_diplomatic_play] başlat"
+  
+ dp_conquer_state:0 "$war_goal_conquer_state_type_name$"
+ dp_conquer_state_tooltip:0 "Vilayeti İstila Etmek için [concept_diplomatic_play] başlat"
+  
+ dp_return_state:0 "$war_goal_return_state_type_name$"
+ dp_return_state_tooltip:0 "Vilayeti İade Etmek için [concept_diplomatic_play] başlat"
+
+ dp_independence:0 "$war_goal_independence_type_name$"
+ dp_independence_tooltip:0 "Özgürlük için [concept_diplomatic_play] başlat"
+   
+ dp_liberate_subject:0 "$war_goal_liberate_subject_type_name$"
+ dp_liberate_subject_tooltip:0 "Egemenlik Altındaki Ülkeye Bağımsızlık Vermek için [concept_diplomatic_play] başlat"
+   
+ dp_take_treaty_port:0 "$war_goal_take_treaty_port_type_name$"
+ dp_take_treaty_port_tooltip:0 "Serbest Liman için [concept_diplomatic_play] başlat"
+   
+ dp_force_recognition:0 "$war_goal_force_recognition_type_name$"
+ dp_force_recognition_tooltip:0 "Tanınmak için [concept_diplomatic_play] başlat"
+   
+ dp_contain_threat:0 "$war_goal_contain_threat_type_name$"
+ dp_contain_threat_tooltip:0 "Tehdidi Kontrol Altına Almak için [concept_diplomatic_play] başlat"
+  
+ dp_transfer_subject:0 "$war_goal_transfer_subject_type_name$"
+ dp_transfer_subject_tooltip:0 "Egemenlik Altındaki Ülke Hükümdarlığını Aktarmak için [concept_diplomatic_play] başlat"
+  
+ dp_make_puppet:0 "$war_goal_make_puppet_type_name$"
+ dp_make_puppet_tooltip:0 "Kukla Yapmak için [concept_diplomatic_play] başlat"
+   
+ dp_make_dominion:0 "$war_goal_make_dominion_type_name$"
+ dp_make_dominion_tooltip:0 "Dominyon Yapmak için [concept_diplomatic_play] başlat"
+   
+ dp_make_vassal:0 "$war_goal_make_vassal_type_name$"
+ dp_make_vassal_tooltip:0 "Vasal Yapmak için [concept_diplomatic_play] başlat"
+   
+ dp_annex_subject:0 "Egemenlik Altındaki Ülkeyi İlhak Etme"
+ dp_annex_subject_tooltip:0 "Egemenlik Altındaki Ülkeyi İlhak Etmek için [concept_diplomatic_play] başlat"
+   
+ dp_revolution:0 "$war_goal_revolution_type_name$"
+ dp_revolution_tooltip:0 "Devrim için [concept_diplomatic_play] başlat"
+   
+ dp_secession:0 "$war_goal_secession_type_name$"
+ dp_secession_tooltip:0 "Ayrılmak için [concept_diplomatic_play] başlat"
+  
+ dp_unify_germany:0 "Almanya'yı Birleştirme"
+ dp_unify_germany_tooltip:0 "Almanya'yı Birleştirmek için [concept_diplomatic_play] başlat"
+   
+ dp_unify_italy:0 "İtalya'yı Birleştirme"
+ dp_unify_italy_tooltip:0 "İtalya'yı Birleştirmek için [concept_diplomatic_play] başlat"
+ 
+ # [LocEditor:UntranslatedKey] `dp_unify_scandinavia`
+ # [LocEditor:UntranslatedKey] `dp_unify_scandinavia_tooltip`
+   
+ dp_unify_ethiopia:0 "Etiyopya'yı Birleştirme"
+ dp_unify_ethiopia_tooltip:0 "Etiyopya'yı Birleştirmek için [concept_diplomatic_play] başlat"
+
+ dp_unify_china:0 "Çin'i Birleştirme"
+ dp_unify_china_tooltip:0 "Çin'i Birleştirmek için [concept_diplomatic_play] başlat"
+
+ dp_unify_arabia:0 "Arabistan'ı Birleştirme"
+ dp_unify_arabia_tooltip:0 "Arabistan'ı Birleştirmek için [concept_diplomatic_play] başlat"
+
+ # [LocEditor:UntranslatedKey] `dp_unify_india`
+ # [LocEditor:UntranslatedKey] `dp_unify_india_tooltip`
+
+ # [LocEditor:UntranslatedKey] `dp_unify_indonesia`
+ # [LocEditor:UntranslatedKey] `dp_unify_indonesia_tooltip`
+
+ dp_southern_secession:0 "Güney Ayrılması"
+ dp_southern_secession_tooltip:0 "Güney'in Ayrılması için [concept_diplomatic_play] başlat"
+ 
+ # [LocEditor:UntranslatedKey] `dp_humiliation`
+ # [LocEditor:UntranslatedKey] `dp_humiliation_desc`
+
+ # [LocEditor:UntranslatedKey] `dp_leadership_germany`
+ # [LocEditor:UntranslatedKey] `dp_leadership_germany_desc`
+ 
+ # [LocEditor:UntranslatedKey] `dp_leadership_italy`
+ # [LocEditor:UntranslatedKey] `dp_leadership_italy_desc`
+ 
+ # [LocEditor:UntranslatedKey] `dp_leadership_scandinavia`
+ # [LocEditor:UntranslatedKey] `dp_leadership_scandinavia_desc`
+ 
+ war_goal_conquer_state_type_name:0 "Vilayet İstila Et"
+ war_goal_conquer_state_type_desc:0 "Başka bir ülkeden bir vilayeti istila et."
+ war_goal_conquer_state:0 "[WAR_GOAL.GetTargetState.GetName] Vilayetini İstila Et"
+ war_goal_conquer_state_desc:0 "[WAR_GOAL.GetHolder.GetName], [WAR_GOAL.GetTarget.GetName] ülkesinden [WAR_GOAL.GetTargetState.GetName] vilayetini istila eder."
+ war_goal_conquer_state_sway_desc:0 "[WAR_GOAL.GetHolder.GetName] ülkesini, [WAR_GOAL.GetWarGoalStakeholder.GetName] ülkesinin [WAR_GOAL.GetTargetState.GetName] vilayetini onlara vermeye zorlayarak kendi tarafına çekmeye çalış."
+ 
+ war_goal_return_state_type_name:0 "Vilayet İade Ettir"
+ war_goal_return_state_type_desc:0 "Hak iddiamız olan bir vilayeti iade etmeleri için zorla."
+ war_goal_return_state:0 "[WAR_GOAL.GetTargetState.GetName] Vilayetini İade Et"
+ war_goal_return_state_desc:0 "[WAR_GOAL.GetTarget.GetName], [WAR_GOAL.GetTargetState.GetName] vilayetini [WAR_GOAL.GetHolder.GetName] ülkesine iade eder."
+ war_goal_return_state_sway_desc:0 "[WAR_GOAL.GetWarGoalStakeholder.GetName] ülkesini [WAR_GOAL.GetTargetState.GetName] vilayetini iade etmeye zorlayarak [WAR_GOAL.GetHolder.GetName] ülkesini kendi tarafına çekmeye çalış."
+ 
+ war_goal_revoke_claim_type_name:0 "Hak İddiasından Caydır"
+ war_goal_revoke_claim_type_desc:0 "Bir ülkeyi bir vilayet bölgesindeki hak iddiasından caydır."
+ war_goal_revoke_claim:0 "[WAR_GOAL.GetTargetState.GetStateRegion.GetName] üzerindeki Hak İddiasından Caydır"
+ war_goal_revoke_claim_desc:0 "[WAR_GOAL.GetHolder.GetName], [WAR_GOAL.GetTarget.GetName] ülkesini [WAR_GOAL.GetTargetState.GetStateRegion.GetName] üzerindeki hak iddiasından caydırır."
+ war_goal_revoke_claim_sway_desc:0 "[WAR_GOAL.GetWarGoalStakeholder.GetName] ülkesini [WAR_GOAL.GetTargetState.GetStateRegion.GetName] üzerindeki hak iddiasından caymaya zorlayarak [WAR_GOAL.GetHolder.GetName] ülkesini kendi tarafına çekmeye çalış."
+ 
+ war_goal_annex_country_type_name:0 "Ülkeyi İlhak Et"
+ war_goal_annex_country_type_desc:0 "Başka bir ülkeyi tamamen ilhak et."
+ war_goal_annex_country:0 "[WAR_GOAL.GetTarget.GetName] Ülkesini İlhak Et"
+ war_goal_annex_country_desc:0 "[WAR_GOAL.GetHolder.GetName], [WAR_GOAL.GetTarget.GetName] ülkesini ilhak eder."
+ war_goal_annex_country_sway_desc:0 "[WAR_GOAL.GetHolder.GetName] ülkesini, [WAR_GOAL.GetTarget.GetName] ülkesini ilhak etmelerine izin vererek kendi tarafına çekmeye çalış."
+
+ war_goal_annex_native_type_name:0 "Yerlileri İlhak Et"
+ war_goal_annex_native_type_desc:0 "Bir [Concept('concept_decentralized_nation', 'Dağınık Ülkeyi')] tamamen ilhak et."
+ war_goal_annex_native:0 "[WAR_GOAL.GetTarget.GetName] Ülkesini İlhak Et"
+ war_goal_annex_native_desc:0 "[WAR_GOAL.GetHolder.GetName], [WAR_GOAL.GetTarget.GetName] [Concept('concept_decentralized_nation', 'Dağınık Ülkesini')] ilhak eder."
+
+ war_goal_secession_type_name:0 "Ayaklanmayı Bastır"
+ war_goal_secession_type_desc:0 "Ayrılıkçı hareketi ez."
+ war_goal_secession:0 "[WAR_GOAL.GetTarget.GetAdjective] Ayrılıkçılarını Ez" # [LocEditor:AwaitingBatchUpdate]
+ war_goal_secession_desc:0 "#TODO TODO#!"
+ war_goal_secession_sway_desc:0 "[WAR_GOAL.GetHolder.GetName] ülkesini, [WAR_GOAL.GetTarget.GetAdjective] Ayrılıkçılarını ezmesine yardım ederek kendi tarafına çekmeye çalış." # [LocEditor:AwaitingBatchUpdate]
+  
+ war_goal_contain_threat_type_name:0 "İstila Öncesi Haline Gerilet"
+ war_goal_contain_threat_type_desc:0 "Tehditkâr bir ülkeyi yakın zamanda istila ettiği yerleri bırakmaya zorla."
+ war_goal_contain_threat:0 "[WAR_GOAL.GetTarget.GetName] Ülkesini İstila Öncesi Haline Gerilet"
+ war_goal_contain_threat_desc:0 "[WAR_GOAL.GetHolder.GetName], [WAR_GOAL.GetTarget.GetName] ülkesini son #v [GetDefine('NDiplomacy', 'WAR_GOAL_CONTAIN_THREAT_YEARS_SINCE_CONQUEST')]#! yılda aldığı tüm Vilayetleri ve Egemenlik Altındaki Ülkeleri bırakmaya zorlar."
+ war_goal_contain_threat_sway_desc:0 "[WAR_GOAL.GetHolder.GetName] ülkesini, [WAR_GOAL.GetWarGoalStakeholder.GetName] ülkesinin yakın zamanda ele geçirdiği her yeri bırakmaya zorlayarak kendi tarafına çekmeye çalış."
+  
+ war_goal_war_reparations_type_name:0 "Savaş Tazminatı"
+ war_goal_war_reparations_type_desc:0 "Başka bir ülkeyi savaş tazminatı ödemeye zorla."
+ war_goal_war_reparations:0 "[WAR_GOAL.GetTarget.GetAdjective] Savaş Tazminatı" # [LocEditor:AwaitingBatchUpdate]
+ war_goal_war_reparations_desc:0 "[WAR_GOAL.GetHolder.GetName], [WAR_GOAL.GetTarget.GetName] ülkesini 5 yıl boyunca vergi gelirlerinin #variable %10#!'unu savaş tazminatı olarak ödemeye zorlar."
+ war_goal_war_reparations_sway_desc:0 "[WAR_GOAL.GetHolder.GetName] ülkesini, [WAR_GOAL.GetWarGoalStakeholder.GetName] ülkesinin onlara 5 yıl boyunca vergi gelirlerinin #variable %10#!'unu savaş tazminatı olarak ödemeye zorlayarak kendi tarafına çekmeye çalış."
+ 
+ # [LocEditor:UntranslatedKey] `war_goal_unification_leadership_type_name`
+ # [LocEditor:UntranslatedKey] `war_goal_unification_leadership_type_desc`
+ # [LocEditor:UntranslatedKey] `war_goal_unification_leadership`
+ # [LocEditor:UntranslatedKey] `war_goal_unification_leadership_desc`
+ # [LocEditor:UntranslatedKey] `war_goal_unification_leadership_sway_desc`
+ 
+ war_goal_humiliation_type_name:0 "Aşağıla"
+ war_goal_humiliation_type_desc:0 "Başka bir ülkeyi [Concept('concept_humiliation', '$concept_humiliate$')]." # [LocEditor:AwaitingBatchUpdate]
+ war_goal_humiliation:0 "[WAR_GOAL.GetTarget.GetName] Ülkesini Aşağıla"
+ war_goal_humiliation_desc:0 "[WAR_GOAL.GetTarget.GetName] ülkesinin prestijini azaltır ve 5 yıl boyunca [Concept('concept_diplomatic_play', 'Diplomatik Hamlelerde')] [WAR_GOAL.GetHolder.GetName] ülkesine karşı çıkmasını engeller."
+ war_goal_humiliation_sway_desc:0 "[WAR_GOAL.GetHolder.GetName] ülkesini, [WAR_GOAL.GetTarget.GetName] ülkesinin prestijini azaltarak ve 5 yıl boyunca [Concept('concept_diplomatic_play', 'Diplomatik Hamlelerde')] [WAR_GOAL.GetHolder.GetName] ülkesine karşı çıkmasını engelleyerek kendi tarafına çekmeye çalış."
+  
+ war_goal_open_market_type_name:0 "Pazar Aç"
+ war_goal_open_market_type_desc:0 "Başka bir ülkeyi [Concept('concept_open_market', 'Pazar Açmaya')] zorla."
+ war_goal_open_market:0 "[WAR_GOAL.GetTarget.GetAdjective] Pazarını Aç" # [LocEditor:AwaitingBatchUpdate]
+ war_goal_open_market_desc:0 "[WAR_GOAL.GetHolder.GetName], [WAR_GOAL.GetTarget.GetName] ülkesini Serbest Ticaret kanunlarını benimsemeye ve pazarını dış ticarete açmaya zorlar."
+ war_goal_open_market_sway_desc:0 "[WAR_GOAL.GetHolder.GetName] ülkesini, [WAR_GOAL.GetTarget.GetName] ülkesinin Serbest Ticaret kanunlarını benimsemeye ve pazarını dış ticarete açmaya zorlayarak kendi tarafına çekmeye çalış."
+
+ war_goal_regime_change_type_name:0 "Rejim Değişikliği"
+ war_goal_regime_change_type_desc:0 "Belirli bir [Concept('concept_interest_group', 'Çıkar Grubuyla')] uyumlu hükümet ve kanunları benimsemesi için başka bir ülkeyi zorla."
+ war_goal_regime_change:0 "[WAR_GOAL.GetTarget.GetName] ülkesinde [WAR_GOAL.GetTargetIG.GetName] için Rejim Değişikliği"
+ war_goal_regime_change_desc:0 "[WAR_GOAL.GetHolder.GetName], [WAR_GOAL.GetTarget.GetName] ülkesinin hükümet ve kanunlarını [WAR_GOAL.GetTargetIG.GetName] çıkar grubuyla uyumlu olacak şekilde değiştirmeye zorlar."
+ war_goal_regime_change_sway_desc:0 "[WAR_GOAL.GetHolder.GetName] ülkesini, [WAR_GOAL.GetTarget.GetName] ülkesinin hükümet ve kanunlarını [WAR_GOAL.GetTargetIG.GetName] çıkar grubuyla uyumlu olacak şekilde değiştirmeye zorlayarak kendi tarafına çekmeye çalış."
+  
+ war_goal_ban_slavery_type_name:0 "Köleliği Yasakla"
+ war_goal_ban_slavery_type_desc:0 "Başka bir ülkeyi irticai ve insanlık dışı köleliği kaldırmaya zorla."
+ war_goal_ban_slavery:0 "[WAR_GOAL.GetTarget.GetName] Ülkesinde Köleliği Yasakla"
+ war_goal_ban_slavery_desc:0 "[WAR_GOAL.GetHolder.GetName], [WAR_GOAL.GetTarget.GetName] ülkesini köleliği yasaklamaya zorlar."
+ war_goal_ban_slavery_sway_desc:0 "[WAR_GOAL.GetHolder.GetName] ülkesini, [WAR_GOAL.GetTarget.GetName] ülkesindeki köleliği yasaklamaya zorlayarak kendi tarafına çekmeye çalış."
+  
+ war_goal_take_treaty_port_type_name:0 "Serbest Limana El Koy"
+ war_goal_take_treaty_port_type_desc:0 "Başka bir ülkeyi, bir vilayette serbest liman vermeye zorla."
+ war_goal_take_treaty_port:0 "[WAR_GOAL.GetTargetState.GetStateRegion.GetName] Serbest Limanı"
+ war_goal_take_treaty_port_desc:0 "[WAR_GOAL.GetHolder.GetName], [WAR_GOAL.GetTarget.GetName] ülkesini [WAR_GOAL.GetTargetState.GetStateRegion.GetName] bölgesinde serbest liman vermeye zorlar."
+ war_goal_take_treaty_port_sway_desc:0 "[WAR_GOAL.GetHolder.GetName] ülkesini, [WAR_GOAL.GetWarGoalStakeholder.GetName] ülkesini [WAR_GOAL.GetTargetState.GetStateRegion.GetName] bölgesinde serbest liman vermeye zorlayarak kendi tarafına çekmeye çalış."
+  
+ war_goal_independence_type_name:0 "Bağımsızlık"
+ war_goal_independence_type_desc:0 "Hükümdarını ülkene bağımsızlık vermeye zorla."
+ war_goal_independence:0 "Bağımsızlık"
+ war_goal_independence_desc:0 "[WAR_GOAL.GetHolder.GetName], [WAR_GOAL.GetWarGoalStakeholder.GetName] ülkesini [WAR_GOAL.GetHolder.GetName] ülkesine bağımsızlık vermeye zorluyor."
+ war_goal_independence_sway_desc:0 "[WAR_GOAL.GetHolder.GetName] ülkesini, [WAR_GOAL.GetWarGoalStakeholder.GetName] ülkesini onlara bağımsızlık vermeye zorlayarak kendi tarafına çekmeye çalış."
+  
+ war_goal_liberate_subject_type_name:0 "Egemenlik Altındaki Ülkeyi Özgürleştir"
+ war_goal_liberate_subject_type_desc:0 "Bir ülkeyi, kendi egemenliği altında olan ülkelerden birisine bağımsızlık vermeye zorla."
+ war_goal_liberate_subject:0 "[WAR_GOAL.GetTarget.GetName] Ülkesini Özgürleştir"
+ war_goal_liberate_subject_desc:0 "[WAR_GOAL.GetHolder.GetName], [WAR_GOAL.GetWarGoalStakeholder.GetName] ülkesini [WAR_GOAL.GetTarget.GetName] ülkesine bağımsızlık vermeye zorlar."
+ war_goal_liberate_subject_sway_desc:0 "[WAR_GOAL.GetHolder.GetName] ülkesini, [WAR_GOAL.GetWarGoalStakeholder.GetName] ülkesini [WAR_GOAL.GetTarget.GetName] ülkesine bağımsızlık vermeye zorlayarak kendi tarafına çekmeye çalış."
+  
+ war_goal_liberate_country_type_name:0 "Ülkeyi Özgürleştir"
+ war_goal_liberate_country_type_desc:0 "Bir ülkeyi başka bir ülkeye bağımsızlık vermeye zorla."
+ war_goal_liberate_country:0 "[WAR_GOAL.GetCountryCreation.GetName] Ülkesini Özgürleştir"
+ war_goal_liberate_country_desc:0 "[WAR_GOAL.GetHolder.GetName], [WAR_GOAL.GetTarget.GetName] ülkesini [WAR_GOAL.GetCountryCreation.GetName] ülkesini bırakmaya zorluyor."
+ war_goal_liberate_country_sway_desc:0 "[WAR_GOAL.GetHolder.GetName] ülkesini, [WAR_GOAL.GetWarGoalStakeholder.GetName] ülkesini [WAR_GOAL.GetCountryCreation.GetName] ülkesini bırakmaya zorlayarak kendi tarafına çekmeye çalış."
+  
+ war_goal_force_recognition_type_name:0 "Tanımaya Zorla"
+ war_goal_force_recognition_type_desc:0 "Bir Üstün Güç ülkesini, bir ülkenin Tanınmayan statüsünü kaldırmaya zorla."
+ war_goal_force_recognition:0 "[WAR_GOAL.GetHolder.GetName] Ülkesini Tanı"
+ war_goal_force_recognition_desc:0 "[WAR_GOAL.GetHolder.GetName], [WAR_GOAL.GetTarget.GetName] ülkesini [WAR_GOAL.GetHolder.GetName] ülkesinin Tanınmayan statüsünü kaldırmaya zorlar."
+ war_goal_force_recognition_sway_desc:0 "[WAR_GOAL.GetHolder.GetName] ülkesini, [WAR_GOAL.GetWarGoalStakeholder.GetName] ülkesinin Tanınmayan statüsünü kaldırmaya zorlayarak kendi tarafına çekmeye çalış."
+  
+ war_goal_transfer_subject_type_name:0 "Egemenlik Altındaki Ülke Hükümdarlığını Aktar"
+ war_goal_transfer_subject_type_desc:0 "Onların egemenliği altındaki ülkelerden birinin yeni hükümdarı ol."
+ war_goal_transfer_subject:0 "[WAR_GOAL.GetTarget.GetName] Ülkesi Hükümdarlığını Aktar"
+ war_goal_transfer_subject_desc:0 "[WAR_GOAL.GetTarget.GetName] ülkesinin hükümdarlığını [WAR_GOAL.GetHolder.GetName] ülkesine aktar."
+ war_goal_transfer_subject_sway_desc:0 "[WAR_GOAL.GetHolder.GetName] ülkesini, [WAR_GOAL.GetWarGoalStakeholder.GetName] ülkesini [WAR_GOAL.GetTarget.GetName] ülkesinin hükümdarlığını onlara aktarmaya zorlayarak kendi tarafına çekmeye çalış."
+   
+ war_goal_make_puppet_type_name:0 "Kukla Yap"
+ war_goal_make_puppet_type_desc:0 "Başka bir ülkeyi kukla olmaya zorla."
+ war_goal_make_puppet:0 "[WAR_GOAL.GetTarget.GetName] Ülkesini Kukla Yap"
+ war_goal_make_puppet_desc:0 "[WAR_GOAL.GetHolder.GetName], [WAR_GOAL.GetTarget.GetName] ülkesini zorla Kukla yapar."
+ war_goal_make_pupped_sway_desc:0 "[WAR_GOAL.GetHolder.GetName] ülkesini, [WAR_GOAL.GetTarget.GetName] ülkesini onların Kuklası yapmaya zorlayarak kendi tarafına çekmeye çalış."
+ 
+ war_goal_make_dominion_type_name:0 "Dominyon Yap"
+ war_goal_make_dominion_type_desc:0 "Başka bir ülkeyi Dominyon olmaya zorla."
+ war_goal_make_dominion:0 "[WAR_GOAL.GetTarget.GetName] Ülkesini Egemenlik Altına Al"
+ war_goal_make_dominion_desc:0 "[WAR_GOAL.GetHolder.GetName], [WAR_GOAL.GetTarget.GetName] ülkesini zorla Dominyon yapar."
+ war_goal_make_dominion_sway_desc:0 "[WAR_GOAL.GetHolder.GetName] ülkesini, [WAR_GOAL.GetTarget.GetName] ülkesini onların Dominyonu yapmaya zorlayarak kendi tarafına çekmeye çalış."
+  
+ war_goal_make_vassal_type_name:0 "Vasal Yap"
+ war_goal_make_vassal_type_desc:0 "Başka bir ülkeyi Vasal olmaya zorla."
+ war_goal_make_vassal:0 "[WAR_GOAL.GetTarget.GetName] Ülkesini Egemenlik Altına Al"
+ war_goal_make_vassal_desc:0 "[WAR_GOAL.GetHolder.GetName], [WAR_GOAL.GetTarget.GetName] ülkesini zorla Vasal yapar."
+ war_goal_make_vassal_sway_desc:0 "[WAR_GOAL.GetHolder.GetName] ülkesini, [WAR_GOAL.GetTarget.GetName] ülkesini onların Vasalı yapmaya zorlayarak kendi tarafına çekmeye çalış."
+  
+ war_goal_unification_type_name:0 "Birleşme"
+ war_goal_unification_type_desc:0 "Ulusal birleşme için başka bir ülkeyi ilhak et." # [LocEditor:AwaitingBatchUpdate]
+ war_goal_unification:0 "[WAR_GOAL.GetTarget.GetName] Ülkesini İlhak Et" # [LocEditor:AwaitingBatchUpdate]
+ war_goal_unification_desc:0 "[WAR_GOAL.GetHolder.GetName], [WAR_GOAL.GetTarget.GetName] ülkesini, ulusal birleşme için ilhak eder." # [LocEditor:AwaitingBatchUpdate]
+ war_goal_unification_sway_desc:0 "[WAR_GOAL.GetHolder.GetName] ülkesini, [WAR_GOAL.GetTarget.GetName] ülkesini ulusal birleşme için ilhak etmelerine izin vererek kendi tarafına çekmeye çalış." # [LocEditor:AwaitingBatchUpdate]
+  
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ OWES_FAVOR_TO_TARGET:0 "#N [COUNTRY.GetName], [TARGET_COUNTRY.GetName|v] ülkesine bir [concept_favor] borçlu.#!"
+ DIPLO_PLAY_BACKER_PROMISED_INITIATOR_FAVOR:0 "[Country.GetName], [Concept('concept_diplomatic_play', 'Diplomatik Hamlede')] başlatıcının tarafına geçmesi için [concept_favor] sözü aldı."
+ DIPLO_PLAY_BACKER_PROMISED_TARGET_FAVOR:0 "[Country.GetName], [Concept('concept_diplomatic_play', 'Diplomatik Hamlede')] hedefin tarafına geçmesi için [concept_favor] sözü aldı."
+ DIPLO_PLAY_SWAY_OFFER_FAVOR_DESC:0 "[concept_favor].[ConcatIfNeitherEmpty( '\n$TOOLTIP_DELIMITER$\n', '$ERRORS$' )] teklif ederek [COUNTRY.GetName] ülkesini kendi tarafına çekmeye çalış."
+ JOIN_DIPLO_PLAY_FACTOR_OFFERED_FAVOR:0 "Teklif edilen [concept_favor]: #bold $VALUE|+=$#!"
+ JOIN_DIPLO_PLAY_FACTOR_CURRENT_OFFERED_FAVOR:0 "Karşı tarafın teklif ettiği [concept_favor]: #bold $VALUE|+=$#!"

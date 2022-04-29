@@ -1,0 +1,18 @@
+﻿CHARACTERS = {
+	c:NBS = {
+		create_character = {
+			# Sir Archibald Campbell, Lt. Gov. of New Brunswick
+			#role = politician # Remove this line
+			first_name = "Archibald"
+			last_name = "Campbell"
+			ruler = yes
+			ig_leader = yes
+			age = 67
+			interest_group = ig_armed_forces
+			ideology = ideology_moderate
+			traits = {
+				persistent
+			}
+		}	
+	}
+}

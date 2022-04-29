@@ -1,0 +1,865 @@
+﻿l_simp_chinese:
+ # [LocEditor:UntranslatedKey] `government_conflict`
+ # [LocEditor:UntranslatedKey] `disfavored_in_government`
+ # [LocEditor:UntranslatedKey] `rejected_petition`
+ # [LocEditor:UntranslatedKey] `accepted_petition`
+ # [LocEditor:UntranslatedKey] `accepted_petition_LI`
+ # [LocEditor:UntranslatedKey] `accepted_petition_DV`
+ # [LocEditor:UntranslatedKey] `accepted_petition_IT`
+ # [LocEditor:UntranslatedKey] `accepted_petition_RF`
+ # [LocEditor:UntranslatedKey] `accepted_petition_TU`
+ # [LocEditor:UntranslatedKey] `accepted_petition_IN`
+ # [LocEditor:UntranslatedKey] `accepted_petition_AF`
+ # [LocEditor:UntranslatedKey] `accepted_petition_PB`
+ # [LocEditor:UntranslatedKey] `fulfilled_petition`
+ # [LocEditor:UntranslatedKey] `failed_to_deliver`
+ # [LocEditor:UntranslatedKey] `state_gold_rush`
+ # [LocEditor:UntranslatedKey] `state_limited_gold_rush`
+ # [LocEditor:UntranslatedKey] `state_gold_depleted`
+ # [LocEditor:UntranslatedKey] `pb_angry_at_foreign_miners`
+ # [LocEditor:UntranslatedKey] `tu_mining_syndicates_formed`
+ # [LocEditor:UntranslatedKey] `in_mining_conglomerates_formed`
+ # [LocEditor:UntranslatedKey] `in_disrupted_paradigms`
+ # [LocEditor:UntranslatedKey] `tu_miners_exploited`
+ # [LocEditor:UntranslatedKey] `expecting_riches`
+ # [LocEditor:UntranslatedKey] `ig_party_prospers`
+ # [LocEditor:UntranslatedKey] `ig_nation_prospers`
+ # [LocEditor:UntranslatedKey] `ig_fall_from_grace`
+ # [LocEditor:UntranslatedKey] `ig_compromised_government`
+ # [LocEditor:UntranslatedKey] `ig_partisan_dividends`
+ # [LocEditor:UntranslatedKey] `ig_national_dividends`
+ # [LocEditor:UntranslatedKey] `ig_popular_support`
+ # [LocEditor:UntranslatedKey] `ig_diplomatic_tour`
+ # [LocEditor:UntranslatedKey] `ig_scheme_shot_down`
+ # [LocEditor:UntranslatedKey] `ig_minor_setback`
+ # [LocEditor:UntranslatedKey] `faith_above_nation`
+ # [LocEditor:UntranslatedKey] `nation_above_faith`
+ # [LocEditor:UntranslatedKey] `hawkish_neighbor_relations`
+ # [LocEditor:UntranslatedKey] `dovish_neighbor_relations`
+ # [LocEditor:UntranslatedKey] `embraced_proletarian_internationalism`
+ # [LocEditor:UntranslatedKey] `rejected_proletarian_internationalism`
+ # [LocEditor:UntranslatedKey] `protectionistic_investments`
+ # [LocEditor:UntranslatedKey] `permitted_obscene_publication`
+ # [LocEditor:UntranslatedKey] `stopped_obscene_publication`
+ # [LocEditor:UntranslatedKey] `championed_free_speech`
+ # [LocEditor:UntranslatedKey] `curtailed_free_speech`
+ # [LocEditor:UntranslatedKey] `criticized_economic_injustice`
+ # [LocEditor:UntranslatedKey] `blamed_economic_inequality`
+ # [LocEditor:UntranslatedKey] `jealous_of_neighbor`
+ # [LocEditor:UntranslatedKey] `foreign_investment`
+ # [LocEditor:UntranslatedKey] `enforced_domestic_investment`
+ # [LocEditor:UntranslatedKey] `modifier_commander_with_addiction`
+ # [LocEditor:UntranslatedKey] `modifier_commander_bribed`
+ # [LocEditor:UntranslatedKey] `government_conflicts.1.t`
+ # [LocEditor:UntranslatedKey] `government_conflicts.1.d`
+ # [LocEditor:UntranslatedKey] `government_conflicts.1.f`
+ # [LocEditor:UntranslatedKey] `government_conflicts.1.a`
+ # [LocEditor:UntranslatedKey] `government_conflicts.1.b`
+ # [LocEditor:UntranslatedKey] `government_conflicts.1.c`
+ # [LocEditor:UntranslatedKey] `government_conflicts.2.t`
+ # [LocEditor:UntranslatedKey] `government_conflicts.2.d`
+ # [LocEditor:UntranslatedKey] `government_conflicts.2.f`
+ # [LocEditor:UntranslatedKey] `government_conflicts.2.a`
+ # [LocEditor:UntranslatedKey] `government_conflicts.2.b`
+ # [LocEditor:UntranslatedKey] `government_conflicts.2.c`
+ # [LocEditor:UntranslatedKey] `government_conflicts.3.t`
+ # [LocEditor:UntranslatedKey] `government_conflicts.3.d`
+ # [LocEditor:UntranslatedKey] `government_conflicts.3.f`
+ # [LocEditor:UntranslatedKey] `government_conflicts.3.a`
+ # [LocEditor:UntranslatedKey] `government_conflicts.3.b`
+ # [LocEditor:UntranslatedKey] `government_conflicts.3.c`
+ # [LocEditor:UntranslatedKey] `government_conflicts.4.t`
+ # [LocEditor:UntranslatedKey] `government_conflicts.4.d`
+ # [LocEditor:UntranslatedKey] `government_conflicts.4.f`
+ # [LocEditor:UntranslatedKey] `government_conflicts.4.a`
+ # [LocEditor:UntranslatedKey] `government_conflicts.4.b`
+ # [LocEditor:UntranslatedKey] `government_conflicts.4.c`
+ # [LocEditor:UntranslatedKey] `government_conflicts.5.t`
+ # [LocEditor:UntranslatedKey] `government_conflicts.5.d`
+ # [LocEditor:UntranslatedKey] `government_conflicts.5.f`
+ # [LocEditor:UntranslatedKey] `government_conflicts.5.a`
+ # [LocEditor:UntranslatedKey] `government_conflicts.5.b`
+ # [LocEditor:UntranslatedKey] `government_conflicts.5.c`
+ # [LocEditor:UntranslatedKey] `government_conflicts.6.t`
+ # [LocEditor:UntranslatedKey] `government_conflicts.6.d`
+ # [LocEditor:UntranslatedKey] `government_conflicts.6.f`
+ # [LocEditor:UntranslatedKey] `government_conflicts.6.a`
+ # [LocEditor:UntranslatedKey] `government_conflicts.6.b`
+ # [LocEditor:UntranslatedKey] `government_conflicts.6.c`
+ # [LocEditor:UntranslatedKey] `government_conflicts.7.t`
+ # [LocEditor:UntranslatedKey] `government_conflicts.7.d`
+ # [LocEditor:UntranslatedKey] `government_conflicts.7.f`
+ # [LocEditor:UntranslatedKey] `government_conflicts.7.a`
+ # [LocEditor:UntranslatedKey] `government_conflicts.7.b`
+ # [LocEditor:UntranslatedKey] `government_conflicts.7.c`
+ # [LocEditor:UntranslatedKey] `government_conflicts.8.t`
+ # [LocEditor:UntranslatedKey] `government_conflicts.8.d`
+ # [LocEditor:UntranslatedKey] `government_conflicts.8.f`
+ # [LocEditor:UntranslatedKey] `government_conflicts.8.a`
+ # [LocEditor:UntranslatedKey] `government_conflicts.8.b`
+ # [LocEditor:UntranslatedKey] `government_conflicts.8.c`
+ # [LocEditor:UntranslatedKey] `government_conflicts.9.t`
+ # [LocEditor:UntranslatedKey] `government_conflicts.9.d`
+ # [LocEditor:UntranslatedKey] `government_conflicts.9.f`
+ # [LocEditor:UntranslatedKey] `government_conflicts.9.a`
+ # [LocEditor:UntranslatedKey] `government_conflicts.9.b`
+ # [LocEditor:UntranslatedKey] `government_conflicts.9.c`
+ # [LocEditor:UntranslatedKey] `government_conflicts.10.t`
+ # [LocEditor:UntranslatedKey] `government_conflicts.10.d`
+ # [LocEditor:UntranslatedKey] `government_conflicts.10.f`
+ # [LocEditor:UntranslatedKey] `government_conflicts.10.a`
+ # [LocEditor:UntranslatedKey] `government_conflicts.10.b`
+ # [LocEditor:UntranslatedKey] `government_conflicts.10.c`
+ # [LocEditor:UntranslatedKey] `government_conflicts.11.t`
+ # [LocEditor:UntranslatedKey] `government_conflicts.11.d`
+ # [LocEditor:UntranslatedKey] `government_conflicts.11.f`
+ # [LocEditor:UntranslatedKey] `government_conflicts.11.a`
+ # [LocEditor:UntranslatedKey] `government_conflicts.11.b`
+ # [LocEditor:UntranslatedKey] `government_conflicts.11.c`
+ # [LocEditor:UntranslatedKey] `ig_petitions.1.t`
+ # [LocEditor:UntranslatedKey] `ig_petitions.1.d`
+ # [LocEditor:UntranslatedKey] `ig_petitions.1.f`
+ # [LocEditor:UntranslatedKey] `ig_petitions.1.a`
+ # [LocEditor:UntranslatedKey] `ig_petitions.1.b`
+ # [LocEditor:UntranslatedKey] `ig_petitions.2.t`
+ # [LocEditor:UntranslatedKey] `ig_petitions.2.d`
+ # [LocEditor:UntranslatedKey] `ig_petitions.2.f`
+ # [LocEditor:UntranslatedKey] `ig_petitions.2.a`
+ # [LocEditor:UntranslatedKey] `ig_petitions.3.t`
+ # [LocEditor:UntranslatedKey] `ig_petitions.3.d`
+ # [LocEditor:UntranslatedKey] `ig_petitions.3.f`
+ # [LocEditor:UntranslatedKey] `ig_petitions.3.a`
+ # [LocEditor:UntranslatedKey] `ig_petitions.4.t`
+ # [LocEditor:UntranslatedKey] `ig_petitions.4.d`
+ # [LocEditor:UntranslatedKey] `ig_petitions.4.f`
+ # [LocEditor:UntranslatedKey] `ig_petitions.4.a`
+ # [LocEditor:UntranslatedKey] `ig_petitions.4.b`
+ # [LocEditor:UntranslatedKey] `ig_petitions.5.t`
+ # [LocEditor:UntranslatedKey] `ig_petitions.5.d`
+ # [LocEditor:UntranslatedKey] `ig_petitions.5.f`
+ # [LocEditor:UntranslatedKey] `ig_petitions.5.a`
+ # [LocEditor:UntranslatedKey] `ig_petitions.6.t`
+ # [LocEditor:UntranslatedKey] `ig_petitions.6.d`
+ # [LocEditor:UntranslatedKey] `ig_petitions.6.f`
+ # [LocEditor:UntranslatedKey] `ig_petitions.6.a`
+ # [LocEditor:UntranslatedKey] `ig_petitions.7.t`
+ # [LocEditor:UntranslatedKey] `ig_petitions.7.d`
+ # [LocEditor:UntranslatedKey] `ig_petitions.7.f`
+ # [LocEditor:UntranslatedKey] `ig_petitions.7.a`
+ # [LocEditor:UntranslatedKey] `ig_petitions.7.b`
+ # [LocEditor:UntranslatedKey] `ig_petitions.8.t`
+ # [LocEditor:UntranslatedKey] `ig_petitions.8.d`
+ # [LocEditor:UntranslatedKey] `ig_petitions.8.f`
+ # [LocEditor:UntranslatedKey] `ig_petitions.8.a`
+ # [LocEditor:UntranslatedKey] `ig_petitions.9.t`
+ # [LocEditor:UntranslatedKey] `ig_petitions.9.d`
+ # [LocEditor:UntranslatedKey] `ig_petitions.9.f`
+ # [LocEditor:UntranslatedKey] `ig_petitions.9.a`
+ # [LocEditor:UntranslatedKey] `ig_petitions.10.t`
+ # [LocEditor:UntranslatedKey] `ig_petitions.10.d`
+ # [LocEditor:UntranslatedKey] `ig_petitions.10.f`
+ # [LocEditor:UntranslatedKey] `ig_petitions.10.a`
+ # [LocEditor:UntranslatedKey] `ig_petitions.10.b`
+ # [LocEditor:UntranslatedKey] `ig_petitions.11.t`
+ # [LocEditor:UntranslatedKey] `ig_petitions.11.d`
+ # [LocEditor:UntranslatedKey] `ig_petitions.11.f`
+ # [LocEditor:UntranslatedKey] `ig_petitions.11.a`
+ # [LocEditor:UntranslatedKey] `ig_petitions.12.t`
+ # [LocEditor:UntranslatedKey] `ig_petitions.12.d`
+ # [LocEditor:UntranslatedKey] `ig_petitions.12.f`
+ # [LocEditor:UntranslatedKey] `ig_petitions.12.a`
+ # [LocEditor:UntranslatedKey] `ig_petitions.13.t`
+ # [LocEditor:UntranslatedKey] `ig_petitions.13.d`
+ # [LocEditor:UntranslatedKey] `ig_petitions.13.f`
+ # [LocEditor:UntranslatedKey] `ig_petitions.13.a`
+ # [LocEditor:UntranslatedKey] `ig_petitions.13.b`
+ # [LocEditor:UntranslatedKey] `ig_petitions.14.t`
+ # [LocEditor:UntranslatedKey] `ig_petitions.14.d`
+ # [LocEditor:UntranslatedKey] `ig_petitions.14.f`
+ # [LocEditor:UntranslatedKey] `ig_petitions.14.a`
+ # [LocEditor:UntranslatedKey] `ig_petitions.15.t`
+ # [LocEditor:UntranslatedKey] `ig_petitions.15.d`
+ # [LocEditor:UntranslatedKey] `ig_petitions.15.f`
+ # [LocEditor:UntranslatedKey] `ig_petitions.15.a`
+ # [LocEditor:UntranslatedKey] `ig_petitions.16.t`
+ # [LocEditor:UntranslatedKey] `ig_petitions.16.d`
+ # [LocEditor:UntranslatedKey] `ig_petitions.16.f`
+ # [LocEditor:UntranslatedKey] `ig_petitions.16.a`
+ # [LocEditor:UntranslatedKey] `ig_petitions.16.b`
+ # [LocEditor:UntranslatedKey] `ig_petitions.17.t`
+ # [LocEditor:UntranslatedKey] `ig_petitions.17.d`
+ # [LocEditor:UntranslatedKey] `ig_petitions.17.f`
+ # [LocEditor:UntranslatedKey] `ig_petitions.17.a`
+ # [LocEditor:UntranslatedKey] `ig_petitions.18.t`
+ # [LocEditor:UntranslatedKey] `ig_petitions.18.d`
+ # [LocEditor:UntranslatedKey] `ig_petitions.18.f`
+ # [LocEditor:UntranslatedKey] `ig_petitions.18.a`
+ # [LocEditor:UntranslatedKey] `ig_petitions.19.t`
+ # [LocEditor:UntranslatedKey] `ig_petitions.19.d`
+ # [LocEditor:UntranslatedKey] `ig_petitions.19.f`
+ # [LocEditor:UntranslatedKey] `ig_petitions.19.a`
+ # [LocEditor:UntranslatedKey] `ig_petitions.19.b`
+ # [LocEditor:UntranslatedKey] `ig_petitions.20.t`
+ # [LocEditor:UntranslatedKey] `ig_petitions.20.d`
+ # [LocEditor:UntranslatedKey] `ig_petitions.20.f`
+ # [LocEditor:UntranslatedKey] `ig_petitions.20.a`
+ # [LocEditor:UntranslatedKey] `ig_petitions.21.t`
+ # [LocEditor:UntranslatedKey] `ig_petitions.21.d`
+ # [LocEditor:UntranslatedKey] `ig_petitions.21.f`
+ # [LocEditor:UntranslatedKey] `ig_petitions.21.a`
+ # [LocEditor:UntranslatedKey] `ig_petitions.22.t`
+ # [LocEditor:UntranslatedKey] `ig_petitions.22.d`
+ # [LocEditor:UntranslatedKey] `ig_petitions.22.f`
+ # [LocEditor:UntranslatedKey] `ig_petitions.22.a`
+ # [LocEditor:UntranslatedKey] `ig_petitions.22.b`
+ # [LocEditor:UntranslatedKey] `ig_petitions.23.t`
+ # [LocEditor:UntranslatedKey] `ig_petitions.23.d`
+ # [LocEditor:UntranslatedKey] `ig_petitions.23.f`
+ # [LocEditor:UntranslatedKey] `ig_petitions.23.a`
+ # [LocEditor:UntranslatedKey] `ig_petitions.24.t`
+ # [LocEditor:UntranslatedKey] `ig_petitions.24.d`
+ # [LocEditor:UntranslatedKey] `ig_petitions.24.f`
+ # [LocEditor:UntranslatedKey] `ig_petitions.24.a`
+ # [LocEditor:UntranslatedKey] `goldrush.1.t`
+ # [LocEditor:UntranslatedKey] `goldrush.1.d`
+ # [LocEditor:UntranslatedKey] `goldrush.1.f`
+ # [LocEditor:UntranslatedKey] `goldrush.1.a`
+ # [LocEditor:UntranslatedKey] `goldrush.2.t`
+ # [LocEditor:UntranslatedKey] `goldrush.2.d`
+ # [LocEditor:UntranslatedKey] `goldrush.2.f`
+ # [LocEditor:UntranslatedKey] `goldrush.2.a`
+ # [LocEditor:UntranslatedKey] `goldrush.3.t`
+ # [LocEditor:UntranslatedKey] `goldrush.3.d`
+ # [LocEditor:UntranslatedKey] `goldrush.3.f`
+ # [LocEditor:UntranslatedKey] `goldrush.3.a`
+ # [LocEditor:UntranslatedKey] `goldrush.3.b`
+ # [LocEditor:UntranslatedKey] `goldrush.4.t`
+ # [LocEditor:UntranslatedKey] `goldrush.4.d`
+ # [LocEditor:UntranslatedKey] `goldrush.4.f`
+ # [LocEditor:UntranslatedKey] `goldrush.4.a`
+ # [LocEditor:UntranslatedKey] `goldrush.4.b`
+ # [LocEditor:UntranslatedKey] `goldrush.5.t`
+ # [LocEditor:UntranslatedKey] `goldrush.5.d`
+ # [LocEditor:UntranslatedKey] `goldrush.5.f`
+ # [LocEditor:UntranslatedKey] `goldrush.5.a`
+ # [LocEditor:UntranslatedKey] `ig_leaders.1.t`
+ # [LocEditor:UntranslatedKey] `ig_leaders.1.d`
+ # [LocEditor:UntranslatedKey] `ig_leaders.1.f`
+ # [LocEditor:UntranslatedKey] `ig_leaders.1.a`
+ # [LocEditor:UntranslatedKey] `ig_leaders.1.b`
+ # [LocEditor:UntranslatedKey] `ig_leaders.2.t`
+ # [LocEditor:UntranslatedKey] `ig_leaders.2.d`
+ # [LocEditor:UntranslatedKey] `ig_leaders.2.f`
+ # [LocEditor:UntranslatedKey] `ig_leaders.2.a`
+ # [LocEditor:UntranslatedKey] `ig_leaders.2.b`
+ # [LocEditor:UntranslatedKey] `ig_leaders.2.c`
+ # [LocEditor:UntranslatedKey] `ig_leaders.3.t`
+ # [LocEditor:UntranslatedKey] `ig_leaders.3.d`
+ # [LocEditor:UntranslatedKey] `ig_leaders.3.f`
+ # [LocEditor:UntranslatedKey] `ig_leaders.3.a`
+ # [LocEditor:UntranslatedKey] `ig_leaders.3.b`
+ # [LocEditor:UntranslatedKey] `ig_leaders.4.t`
+ # [LocEditor:UntranslatedKey] `ig_leaders.4.d`
+ # [LocEditor:UntranslatedKey] `ig_leaders.4.f`
+ # [LocEditor:UntranslatedKey] `ig_leaders.4.a`
+ # [LocEditor:UntranslatedKey] `ig_leaders.4.b`
+ # [LocEditor:UntranslatedKey] `ig_leaders.5.t`
+ # [LocEditor:UntranslatedKey] `ig_leaders.5.d`
+ # [LocEditor:UntranslatedKey] `ig_leaders.5.f`
+ # [LocEditor:UntranslatedKey] `ig_leaders.5.a`
+ # [LocEditor:UntranslatedKey] `ig_leaders.5.b`
+ # [LocEditor:UntranslatedKey] `ig_leaders.6.t`
+ # [LocEditor:UntranslatedKey] `ig_leaders.6.d`
+ # [LocEditor:UntranslatedKey] `ig_leaders.6.f`
+ # [LocEditor:UntranslatedKey] `ig_leaders.6.a`
+ # [LocEditor:UntranslatedKey] `ig_leaders.6.b`
+ # [LocEditor:UntranslatedKey] `ig_leaders.7.t`
+ # [LocEditor:UntranslatedKey] `ig_leaders.7.d`
+ # [LocEditor:UntranslatedKey] `ig_leaders.7.f`
+ # [LocEditor:UntranslatedKey] `ig_leaders.7.a`
+ # [LocEditor:UntranslatedKey] `ig_leaders.7.b`
+ # [LocEditor:UntranslatedKey] `neighbor_events.1.t`
+ # [LocEditor:UntranslatedKey] `neighbor_events.1.d`
+ # [LocEditor:UntranslatedKey] `neighbor_events.1.f`
+ # [LocEditor:UntranslatedKey] `neighbor_events.1.a`
+ # [LocEditor:UntranslatedKey] `neighbor_events.1.b`
+ # [LocEditor:UntranslatedKey] `notification_neighbor_events_1_tooltip`
+ # [LocEditor:UntranslatedKey] `notification_neighbor_events_1_name`
+ # [LocEditor:UntranslatedKey] `notification_neighbor_events_1_desc`
+ # [LocEditor:UntranslatedKey] `neighbor_events.2.t`
+ # [LocEditor:UntranslatedKey] `neighbor_events.2.d`
+ # [LocEditor:UntranslatedKey] `neighbor_events.2.f`
+ # [LocEditor:UntranslatedKey] `neighbor_events.2.a`
+ # [LocEditor:UntranslatedKey] `neighbor_events.2.b`
+ # [LocEditor:UntranslatedKey] `neighbor_events.3.t`
+ # [LocEditor:UntranslatedKey] `neighbor_events.3.d`
+ # [LocEditor:UntranslatedKey] `neighbor_events.3.f`
+ # [LocEditor:UntranslatedKey] `neighbor_events.3.a`
+ # [LocEditor:UntranslatedKey] `neighbor_events.3.b`
+ # [LocEditor:UntranslatedKey] `neighbor_events.4.t`
+ # [LocEditor:UntranslatedKey] `neighbor_events.4.d`
+ # [LocEditor:UntranslatedKey] `neighbor_events.4.f`
+ # [LocEditor:UntranslatedKey] `neighbor_events.4.a`
+ # [LocEditor:UntranslatedKey] `neighbor_events.4.b`
+ # [LocEditor:UntranslatedKey] `neighbor_events.5.t`
+ # [LocEditor:UntranslatedKey] `neighbor_events.5.d`
+ # [LocEditor:UntranslatedKey] `neighbor_events.5.f`
+ # [LocEditor:UntranslatedKey] `neighbor_events.5.a`
+ # [LocEditor:UntranslatedKey] `neighbor_events.5.b`
+ # [LocEditor:UntranslatedKey] `neighbor_events.6.t`
+ # [LocEditor:UntranslatedKey] `neighbor_events.6.d`
+ # [LocEditor:UntranslatedKey] `neighbor_events.6.f`
+ # [LocEditor:UntranslatedKey] `neighbor_events.6.a`
+ # [LocEditor:UntranslatedKey] `neighbor_events.6.b`
+ # [LocEditor:UntranslatedKey] `neighbor_events.7.t`
+ # [LocEditor:UntranslatedKey] `neighbor_events.7.d`
+ # [LocEditor:UntranslatedKey] `neighbor_events.7.f`
+ # [LocEditor:UntranslatedKey] `neighbor_events.7.a`
+ # [LocEditor:UntranslatedKey] `neighbor_events.7.b`
+ # [LocEditor:UntranslatedKey] `neighbor_events.7.c`
+  
+ # [LocEditor:UntranslatedKey] `commander_events.1.t`
+ # [LocEditor:UntranslatedKey] `commander_events.1.d`
+ # [LocEditor:UntranslatedKey] `commander_events.1.f`
+ # [LocEditor:UntranslatedKey] `commander_events.1.a`
+ # [LocEditor:UntranslatedKey] `commander_events.1.b`
+ # [LocEditor:UntranslatedKey] `commander_events.1.b.tt`
+
+ # [LocEditor:UntranslatedKey] `commander_events.2.t`
+ # [LocEditor:UntranslatedKey] `commander_events.2.d`
+ # [LocEditor:UntranslatedKey] `commander_events.2.f`
+ # [LocEditor:UntranslatedKey] `commander_events.2.a`
+ # [LocEditor:UntranslatedKey] `commander_events.2.b`
+ # [LocEditor:UntranslatedKey] `commander_events.2.a.tt`
+
+ # [LocEditor:UntranslatedKey] `commander_events.3.t`
+ # [LocEditor:UntranslatedKey] `commander_events.3.d`
+ # [LocEditor:UntranslatedKey] `commander_events.3.f`
+ # [LocEditor:UntranslatedKey] `commander_events.3.a`
+ # [LocEditor:UntranslatedKey] `commander_events.3.b`
+
+ # [LocEditor:UntranslatedKey] `commander_events.4.t`
+ # [LocEditor:UntranslatedKey] `commander_events.4.d`
+ # [LocEditor:UntranslatedKey] `commander_events.4.f`
+ # [LocEditor:UntranslatedKey] `commander_events.4.a`
+ # [LocEditor:UntranslatedKey] `commander_events.4.b`
+ # [LocEditor:UntranslatedKey] `commander_events.4.b.tt`
+ # [LocEditor:UntranslatedKey] `commander_fired`
+ # [LocEditor:UntranslatedKey] `commander_kept`
+
+ # [LocEditor:UntranslatedKey] `commander_events.5.t`
+ # [LocEditor:UntranslatedKey] `commander_events.5.d`
+ # [LocEditor:UntranslatedKey] `commander_events.5.f`
+ # [LocEditor:UntranslatedKey] `commander_events.5.a`
+ # [LocEditor:UntranslatedKey] `commander_events.5.b`
+
+ # [LocEditor:UntranslatedKey] `law_events.1.t`
+ # [LocEditor:UntranslatedKey] `law_events.1.d`
+ # [LocEditor:UntranslatedKey] `law_events.1.f`
+ # [LocEditor:UntranslatedKey] `law_events.1.a`
+ # [LocEditor:UntranslatedKey] `law_events.1.b`
+
+ # [LocEditor:UntranslatedKey] `law_events.2.t`
+ # [LocEditor:UntranslatedKey] `law_events.2.d`
+ # [LocEditor:UntranslatedKey] `law_events.2.f`
+ # [LocEditor:UntranslatedKey] `law_events.2.a`
+ # [LocEditor:UntranslatedKey] `law_events.2.b`
+
+ # [LocEditor:UntranslatedKey] `law_events.3.t`
+ # [LocEditor:UntranslatedKey] `law_events.3.d`
+ # [LocEditor:UntranslatedKey] `law_events.3.f`
+ # [LocEditor:UntranslatedKey] `law_events.3.a`
+
+ # [LocEditor:UntranslatedKey] `law_events.4.t`
+ # [LocEditor:UntranslatedKey] `law_events.4.d`
+ # [LocEditor:UntranslatedKey] `law_events.4.f`
+ # [LocEditor:UntranslatedKey] `law_events.4.a`
+ # [LocEditor:UntranslatedKey] `law_events.4.b`
+
+ # [LocEditor:UntranslatedKey] `law_events.5.t`
+ # [LocEditor:UntranslatedKey] `law_events.5.d`
+ # [LocEditor:UntranslatedKey] `law_events.5.f`
+ # [LocEditor:UntranslatedKey] `law_events.5.a`
+ # [LocEditor:UntranslatedKey] `law_events.5.b`
+
+ # [LocEditor:UntranslatedKey] `law_events.6.t`
+ # [LocEditor:UntranslatedKey] `law_events.6.d`
+ # [LocEditor:UntranslatedKey] `law_events.6.f`
+ # [LocEditor:UntranslatedKey] `law_events.6.a`
+
+  #TODO Make these specific to each expedition
+ # [LocEditor:UntranslatedKey] `notification_expedition_progress_average_desc`
+ # [LocEditor:UntranslatedKey] `notification_expedition_progress_average_tooltip`
+ # [LocEditor:UntranslatedKey] `notification_expedition_progress_average_name`
+
+ # [LocEditor:UntranslatedKey] `expedition_event_ongoing_tt`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.1.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.1.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.1.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.1.a`
+ # [LocEditor:UntranslatedKey] `expedition_events.1.b`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.2.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.2.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.2.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.2.a`
+ # [LocEditor:UntranslatedKey] `expedition_events.2.b`
+ # [LocEditor:UntranslatedKey] `expedition_events.2.c`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.3.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.3.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.3.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.3.a`
+ # [LocEditor:UntranslatedKey] `expedition_events.3.b`
+ # [LocEditor:UntranslatedKey] `expedition_events.3.c`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.4.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.4.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.4.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.4.a`
+  
+ # [LocEditor:UntranslatedKey] `expedition_events.20.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.20.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.20.f`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.30.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.30.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.30.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.30.a`
+ # [LocEditor:UntranslatedKey] `expedition_events.30.b`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.31.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.31.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.31.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.31.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.32.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.32.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.32.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.32.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.40.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.40.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.40.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.40.a`
+ # [LocEditor:UntranslatedKey] `expedition_events.40.b`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.41.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.41.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.41.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.41.a`
+ # [LocEditor:UntranslatedKey] `expedition_events.41.b`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.50.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.50.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.50.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.50.a`
+ # [LocEditor:UntranslatedKey] `expedition_events.50.b`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.51.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.51.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.51.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.51.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.52.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.52.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.52.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.52.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.53.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.53.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.53.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.53.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.60.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.60.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.60.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.60.a`
+ # [LocEditor:UntranslatedKey] `expedition_events.60.b`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.70.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.70.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.70.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.70.a`
+ # [LocEditor:UntranslatedKey] `expedition_events.70.b`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.80.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.80.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.80.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.80.a`
+ # [LocEditor:UntranslatedKey] `expedition_events.80.b`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.81.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.81.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.81.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.81.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.82.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.82.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.82.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.82.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.83.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.83.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.83.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.83.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.90.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.90.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.90.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.90.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.100.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.100.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.100.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.100.a`
+ # [LocEditor:UntranslatedKey] `expedition_events.100.b`
+ # [LocEditor:UntranslatedKey] `expedition_leader_kidnap_modifier`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.101.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.101.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.101.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.101.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.102.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.102.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.102.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.102.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.110.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.110.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.110.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.110.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.11.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.11.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.11.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.11.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.12.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.12.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.12.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.12.a`
+
+ # [LocEditor:UntranslatedKey] `law_events.6.b`
+ # [LocEditor:UntranslatedKey] `civil_war_events.1.t`
+ # [LocEditor:UntranslatedKey] `civil_war_events.1.d`
+ # [LocEditor:UntranslatedKey] `civil_war_events.1.f`
+ # [LocEditor:UntranslatedKey] `civil_war_events.1.a`
+ # [LocEditor:UntranslatedKey] `civil_war_events.1.b`
+
+ # [LocEditor:UntranslatedKey] `diplomatic_events.1.t`
+ # [LocEditor:UntranslatedKey] `diplomatic_events.1.d`
+ # [LocEditor:UntranslatedKey] `diplomatic_events.1.f`
+ # [LocEditor:UntranslatedKey] `diplomatic_events.1.a`
+ # [LocEditor:UntranslatedKey] `diplomatic_events.1.b`
+  
+ # [LocEditor:UntranslatedKey] `decision_events.100.t`
+ # [LocEditor:UntranslatedKey] `decision_events.100.d`
+ # [LocEditor:UntranslatedKey] `decision_events.100.f`
+
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.1.t`
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.1.d`
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.1.f`
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.1.a`
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.1.b`
+
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.10.t`
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.10.d`
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.10.f`
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.10.a`
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.10.b`
+
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.20.t`
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.20.d`
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.20.f`
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.20.a`
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.20.b`
+
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.30.t`
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.30.d`
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.30.f`
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.30.a`
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.30.b`
+
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.40.t`
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.40.d`
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.40.f`
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.40.a`
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.40.b`
+
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.50.t`
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.50.d`
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.50.f`
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.50.a`
+ # [LocEditor:UntranslatedKey] `cultural_homeland_events.50.b`
+
+ # [LocEditor:UntranslatedKey] `custom_generic_newspaper`
+
+ # [LocEditor:UntranslatedKey] `custom_newspaper_times`
+ # [LocEditor:UntranslatedKey] `custom_newspaper_gazette`
+ # [LocEditor:UntranslatedKey] `custom_newspaper_herald`
+ # [LocEditor:UntranslatedKey] `custom_newspaper_daily`
+ # [LocEditor:UntranslatedKey] `custom_newspaper_edition`
+ # [LocEditor:UntranslatedKey] `custom_newspaper_chronicle`
+ # [LocEditor:UntranslatedKey] `custom_newspaper_evening_news`
+ # [LocEditor:UntranslatedKey] `custom_newspaper_evening_post`
+ # [LocEditor:UntranslatedKey] `custom_newspaper_guardian`
+ # [LocEditor:UntranslatedKey] `custom_newspaper_observer`
+ # [LocEditor:UntranslatedKey] `custom_newspaper_tribune`
+ # [LocEditor:UntranslatedKey] `custom_newspaper_standard`
+ # [LocEditor:UntranslatedKey] `custom_newspaper_truth`
+ # [LocEditor:UntranslatedKey] `custom_newspaper_pravda`
+ # [LocEditor:UntranslatedKey] `custom_newspaper_journal`
+ # [LocEditor:UntranslatedKey] `custom_newspaper_globe`
+ # [LocEditor:UntranslatedKey] `custom_newspaper_daily_news`
+ # [LocEditor:UntranslatedKey] `custom_newspaper_sentinel`
+ # [LocEditor:UntranslatedKey] `custom_newspaper_informer`
+ # [LocEditor:UntranslatedKey] `custom_newspaper_bulletin`
+
+ # [LocEditor:UntranslatedKey] `notification_west_america_expedition_progress_average_name`
+ # [LocEditor:UntranslatedKey] `notification_west_america_expedition_progress_average_desc`
+ # [LocEditor:UntranslatedKey] `notification_west_america_expedition_progress_average_tooltip`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.200.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.200.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.200.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.200.a`
+ # [LocEditor:UntranslatedKey] `expedition_events.200.b`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.201.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.201.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.201.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.201.a`
+ # [LocEditor:UntranslatedKey] `expedition_events.201.b`
+ # [LocEditor:UntranslatedKey] `expedition_events.201.c`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.202.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.202.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.202.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.202.a`
+ # [LocEditor:UntranslatedKey] `expedition_events.202.b`
+ # [LocEditor:UntranslatedKey] `expedition_events.202.c`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.203.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.203.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.203.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.203.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.205.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.205.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.205.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.205.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.300.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.300.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.300.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.300.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.301.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.301.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.301.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.301.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.302.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.302.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.302.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.302.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.220.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.220.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.220.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.220.a`
+ # [LocEditor:UntranslatedKey] `expedition_events.220.b`
+ # [LocEditor:UntranslatedKey] `expedition_events.220.c`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.221.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.221.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.221.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.221.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.222.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.222.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.222.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.222.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.230.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.230.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.230.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.230.a`
+ # [LocEditor:UntranslatedKey] `expedition_events.230.b`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.231.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.231.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.231.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.231.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.232.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.232.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.232.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.232.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.233.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.233.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.233.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.233.a`
+
+ # [LocEditor:UntranslatedKey] `custom_fast_object_horse`
+ # [LocEditor:UntranslatedKey] `custom_fast_object_train`
+ # [LocEditor:UntranslatedKey] `custom_fast_object_motor_carriage`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.240.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.240.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.240.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.240.a`
+ # [LocEditor:UntranslatedKey] `expedition_events.240.b`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.250.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.250.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.250.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.250.a`
+ # [LocEditor:UntranslatedKey] `expedition_events.250.b`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.251.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.251.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.251.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.251.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.252.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.252.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.252.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.252.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.253.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.253.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.253.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.253.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.260.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.260.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.260.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.260.a`
+ # [LocEditor:UntranslatedKey] `expedition_events.260.b`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.261.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.261.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.261.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.261.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.262.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.262.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.262.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.262.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.263.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.263.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.263.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.263.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.270.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.270.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.270.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.270.a`
+ # [LocEditor:UntranslatedKey] `expedition_events.270.b`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.280.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.280.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.280.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.280.a`
+ # [LocEditor:UntranslatedKey] `expedition_events.280.b`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.281.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.281.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.281.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.281.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.282.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.282.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.282.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.282.a`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.400.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.400.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.400.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.400.a`
+
+ # [LocEditor:UntranslatedKey] `notification_suez_survey_started_desc`
+ # [LocEditor:UntranslatedKey] `notification_suez_survey_started_tooltip`
+ # [LocEditor:UntranslatedKey] `suez_survey_complete_tooltip`
+
+ # [LocEditor:UntranslatedKey] `expedition_events.410.t`
+ # [LocEditor:UntranslatedKey] `expedition_events.410.d`
+ # [LocEditor:UntranslatedKey] `expedition_events.410.f`
+ # [LocEditor:UntranslatedKey] `expedition_events.410.a`
+
+ # [LocEditor:UntranslatedKey] `notification_panama_survey_started_desc`
+ # [LocEditor:UntranslatedKey] `notification_panama_survey_started_tooltip`
+ # [LocEditor:UntranslatedKey] `panama_survey_complete_tooltip`
+
+ # [LocEditor:UntranslatedKey] `ig_revolutions.1.t`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.1.d`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.1.f`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.1.a`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.1.b`
+
+ # [LocEditor:UntranslatedKey] `ig_revolutions.2.t`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.2.d`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.2.f`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.2.a`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.2.b`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.2.c`
+
+ # [LocEditor:UntranslatedKey] `ig_revolutions.3.t`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.3.d`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.3.f`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.3.a`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.3.b`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.3.c`
+    
+ # [LocEditor:UntranslatedKey] `ig_revolutions.4.t`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.4.d`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.4.f`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.4.a`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.4.b`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.4.c`
+    
+ # [LocEditor:UntranslatedKey] `ig_revolutions.5.t`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.5.d`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.5.f`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.5.a`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.5.b`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.5.c`
+    
+ # [LocEditor:UntranslatedKey] `ig_revolutions.6.t`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.6.d`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.6.f`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.6.a`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.6.b`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.6.c`
+    
+ # [LocEditor:UntranslatedKey] `ig_revolutions.7.t`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.7.d`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.7.f`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.7.a`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.7.b`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.7.c`
+    
+ # [LocEditor:UntranslatedKey] `ig_revolutions.8.t`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.8.d`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.8.f`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.8.a`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.8.b`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.8.c`
+    
+ # [LocEditor:UntranslatedKey] `ig_revolutions.9.t`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.9.d`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.9.f`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.9.a`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.9.b`
+ # [LocEditor:UntranslatedKey] `ig_revolutions.9.c`
+
+ # [LocEditor:UntranslatedKey] `ig_powerbrokers`
+ # [LocEditor:UntranslatedKey] `ig_concessions_and_appeasement`
+ # [LocEditor:UntranslatedKey] `ig_unappeased`
+ # [LocEditor:UntranslatedKey] `ig_mass_arrests`

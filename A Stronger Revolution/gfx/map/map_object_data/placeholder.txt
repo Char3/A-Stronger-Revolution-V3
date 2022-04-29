@@ -1,0 +1,9 @@
+﻿object={
+	name="test_objects"
+	clamp_to_water_level=yes
+	render_under_water=yes
+	generated_content=no
+	layer="static"
+	pdxmesh="test_cube_mesh"
+	count=0
+}

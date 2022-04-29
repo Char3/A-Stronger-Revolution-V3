@@ -1,0 +1,34 @@
+﻿l_braz_por:
+  # commander_rank_x = base prefix
+  # _general = suffix for general role type
+  # _admiral = suffix for admiral role type
+  # _ruler = suffix for ruler-generals (special rank)
+  # _fallback = suffix for if no dynamic description trigger matches
+  
+ commander_rank_1:0 "I - General de Brigada / Comodoro"
+ # [LocEditor:UntranslatedKey] `commander_rank_1_general`
+ # [LocEditor:UntranslatedKey] `commander_rank_1_admiral`
+ # [LocEditor:UntranslatedKey] `commander_rank_1_fallback`
+ 
+ commander_rank_2:0 "II - Major-General / Contra-Almirante"
+ # [LocEditor:UntranslatedKey] `commander_rank_2_general`
+ # [LocEditor:UntranslatedKey] `commander_rank_2_admiral`
+ # [LocEditor:UntranslatedKey] `commander_rank_2_fallback`
+ 
+ commander_rank_3:0 "III - Tenente-General / Vice-Almirante"
+ # [LocEditor:UntranslatedKey] `commander_rank_3_general`
+ # [LocEditor:UntranslatedKey] `commander_rank_3_admiral`
+ # [LocEditor:UntranslatedKey] `commander_rank_3_fallback`
+ 
+ commander_rank_4:0 "IV - General / Almirante"
+ # [LocEditor:UntranslatedKey] `commander_rank_4_general`
+ # [LocEditor:UntranslatedKey] `commander_rank_4_admiral`
+ # [LocEditor:UntranslatedKey] `commander_rank_4_fallback`
+ 
+ commander_rank_5:0 "V - Marechal de Campo / Grande Almirante"
+ # [LocEditor:UntranslatedKey] `commander_rank_5_general`
+ # [LocEditor:UntranslatedKey] `commander_rank_5_admiral`
+ # [LocEditor:UntranslatedKey] `commander_rank_5_fallback`
+ 
+ # [LocEditor:UntranslatedKey] `commander_rank_ruler`
+ # [LocEditor:UntranslatedKey] `commander_rank_ruler_fallback`

@@ -1,0 +1,70 @@
+﻿l_german:
+ IG_TRAIT_CONDITIONS_TITLE:0 "#title Bedingungen:#!"
+ IG_TRAIT_APPROVAL_MIN:0 "[concept_ig_approval] der [InterestGroup.GetName] ist mindestens #tooltippable #tooltip:[InterestGroup.GetTooltipTag],IG_APPROVAL_BREAKDOWN #variable $MIN_RATING$#! (#variable $MIN_VALUE|0+=$#!)#!#!"
+ IG_TRAIT_APPROVAL_MAX:0 "[concept_ig_approval] der [InterestGroup.GetName] ist #tooltippable #tooltip:[InterestGroup.GetTooltipTag],IG_APPROVAL_BREAKDOWN #variable $MAX_RATING$#! oder schlechter (#variable $MAX_VALUE|0+=$#!)#!#!"
+ IG_TRAIT_MARGINAL:0 "[InterestGroup.GetName] ist nicht [concept_marginalized|l]"
+
+ IG_TRAIT_APPROVAL_MIN_BASE:0 "[concept_ig_approval] der [concept_interest_group] sollte mindestens #variable $MIN_RATING$#! sein (#variable $MIN_VALUE|0+=$#!)"
+ IG_TRAIT_APPROVAL_MAX_BASE:0 "[concept_ig_approval] der [concept_interest_group] ist mindestens #variable $MAX_RATING$#! oder schlechter (#variable $MAX_VALUE|0+=$#!)"
+ IG_TRAIT_MARGINAL_BASE:0 "Die Interessengruppe darf NICHT [concept_marginalized|l] sein"
+
+ IG_TRAIT_EFFECTS_TITLE:0 ""
+ IG_TRAIT_EFFECTS_NO_EFFECT:0 "#italic Kein Effekt#!"
+
+ ACTIVE_IG_GROUP_TRAITS:0 "#title Aktive Interessengruppen-Eigenschaften#!"
+ # [LocEditor:UntranslatedKey] `ELECTION`
+ # [LocEditor:UntranslatedKey] `CIVIL_WARS`
+ # [LocEditor:UntranslatedKey] `OPPOSITION`
+ # [LocEditor:UntranslatedKey] `RESET`
+ # [LocEditor:UntranslatedKey] `GOVERNMENT_NEW_RULER`
+ IG_CLOUT:0 "#title [concept_clout]#!"
+ IG_POP:0 "#title [concept_population]#!"
+  
+ POLITICAL_MOVEMENT_ENACTING:0 "Erlassen"
+ POLITICAL_MOVEMENT_RESTORING:0 "Wiederherstellen"
+ POLITICAL_MOVEMENT_PRESERVING:0 "Bewahren"
+  
+ POLITICAL_MOVEMENTS:0 "[Concept('concept_political_movement', '$concept_political_movements$')]" # [LocEditor:AwaitingBatchUpdate]
+
+ POLITICAL_MOVEMENT_SUPPORT_WITH_LABEL:0 "[Concept('concept_political_movement_support', '$concept_political_movement_support_short$')]: [PoliticalMovement.GetSupport|%v0]" # [LocEditor:AwaitingBatchUpdate]
+ POLITICAL_MOVEMENT_SUPPORT_TOOLTIP:0 "#header [Concept('concept_political_movement_support', '$concept_political_movement_support_short$')] ([PoliticalMovement.GetName]): [PoliticalMovement.GetSupport|v%0]#!\n$TOOLTIP_DELIMITER$\n[PoliticalMovement.GetSupportDesc]" # [LocEditor:AwaitingBatchUpdate]
+ POLITICAL_MOVEMENT_RADICALISM_WITH_LABEL:0 "[Concept('concept_political_movement_radicalism', '$concept_political_movement_radicalism_short$')]: [PoliticalMovement.GetRadicalism|%v0]" # [LocEditor:AwaitingBatchUpdate]
+ POLITICAL_MOVEMENT_RADICALISM_TOOLTIP:0 "#header [Concept('concept_political_movement_radicalism', '$concept_political_movement_radicalism_short$')] ([PoliticalMovement.GetName]): [PoliticalMovement.GetRadicalism|%v0]#!\n$TOOLTIP_DELIMITER$\n[PoliticalMovement.GetRadicalismDesc]" # [LocEditor:AwaitingBatchUpdate]
+ POLITICAL_MOVEMENT_RADICALISM_AT_ZERO:0 "[PoliticalMovement.GetFullName|U] hat keine [Concept('concept_political_movement_radicalism', '$concept_political_movement_radicalism_short$')], da sie nicht von [Concept('concept_radical', 'Radikalen')] oder einer $ig_approval_angry$en [Concept('concept_interest_group', '$concept_interest_groups$')] unterstützt wird" # [LocEditor:AwaitingBatchUpdate]
+ POLITICAL_MOVEMENT_POP_SUPPORT_TOOLTIP:0 "#header [concept_pop|U]-Unterstützung#!\nUnterstützt von [PoliticalMovement.GetNumSupportingPops|Dv] [Concept('concept_pop', '$concept_pops$')] insgesamt\n$TOOLTIP_DELIMITER$\n[PoliticalMovement.GetNumIGSupporters|Dv] [Concept('concept_pop', '$concept_pops$')] unterstützen diese [concept_political_movement], weil sie zu einer [concept_interest_group] gehören, die einem relevanten Punkt zustimmt ([PoliticalMovement.GetLaw.GetName|U] [PoliticalMovement.GetActionName|l])\n[PoliticalMovement.GetNumNonIGSupporters|Dv] [Concept('concept_pop', '$concept_pops$')] unterstützen diese [concept_political_movement], weil sie glauben, dass eine bestimmte Handlung ([PoliticalMovement.GetLaw.GetName|U] [PoliticalMovement.GetActionName|l]) ihren [concept_status] oder [concept_wealth] verbessern würde\n\nUnter allen Unterstützern sind [PoliticalMovement.GetNumSupportingRadicals|Dv] [Concept('concept_radical', '$concept_radicals$')], die der Bewegung [Concept('concept_political_movement_radicalism', '$concept_political_movement_radicalism_short$')] verleihen." # [LocEditor:AwaitingBatchUpdate]
+   
+ movement_to_enact:0 "Bewegung für die Gesetzeserlassung" # [LocEditor:AwaitingBatchUpdate]
+ movement_to_preserve:0 "Bewegung für die Gesetzesbewahrung" # [LocEditor:AwaitingBatchUpdate]
+ movement_to_restore:0 "Bewegung für die Gesetzeswiederherstellung" # [LocEditor:AwaitingBatchUpdate]
+  
+ POLITICAL_MOVEMENT_FULL_NAME:0 "Bewegung für $MOVEMENT_NAME$" # [LocEditor:AwaitingBatchUpdate]
+ POLITICAL_MOVEMENT_TO_ENACT_NAME:0 "[LawType.GetName] erlassen"
+ POLITICAL_MOVEMENT_TO_PRESERVE_NAME:0 "[LawType.GetName] bewahren"
+ POLITICAL_MOVEMENT_TO_RESTORE_NAME:0 "[LawType.GetName] wiederherstellen"
+  
+ POLITICAL_MOVEMENT_SUPPORT_FROM_IG_CLOUT:0 "Unterstützung ([InterestGroup.GetName]): $VALUE|v%=0$" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `POLITICAL_MOVEMENT_SUPPORT_FROM_IG_CLOUT_BREAKDOWN`
+ # [LocEditor:UntranslatedKey] `POLITICAL_MOVEMENT_SUPPORT_FROM_IG_CLOUT_ENTRY`
+ POLITICAL_MOVEMENT_SUPPORT_FROM_POPS:0 "Unterstützt von $NUM_POPS|Dv$ [Concept('concept_pop', '$concept_pops$')]: [PoliticalMovement.GetPopSupport|v%=0]" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `POLITICAL_MOVEMENT_SUPPORT_FROM_POPS_BREAKDOWN`
+  
+ POLITICAL_MOVEMENT_RADICALISM_FROM_ANGRY_IG_CLOUT:0 "[InterestGroup.GetName] sind $ig_approval_angry$: $VALUE|v=%0$" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `POLITICAL_MOVEMENT_RADICALISM_FROM_ANGRY_IG_CLOUT_BREAKDOWN`
+ # [LocEditor:UntranslatedKey] `POLITICAL_MOVEMENT_RADICALISM_FROM_ANGRY_IG_CLOUT_ENTRY`
+ # [LocEditor:UntranslatedKey] `POLITICAL_MOVEMENT_RADICALISM_FROM_RADICAL_POPS`
+ # [LocEditor:UntranslatedKey] `POLITICAL_MOVEMENT_RADICALISM_FROM_RADICAL_POPS_BREAKDOWN`
+ 
+ # [LocEditor:UntranslatedKey] `POP_SUPPORT_FOR_POLITICAL_MOVEMENTS`
+ # [LocEditor:UntranslatedKey] `POP_SUPPORT_FOR_POLITICAL_MOVEMENTS_ENTRY`
+ # [LocEditor:UntranslatedKey] `INTEREST_GROUP_POLITICAL_MOVEMENT_DESC`
+ 
+ # [LocEditor:UntranslatedKey] `LAW_POLITICAL_MOVEMENT_TO_PRESERVE`
+ # [LocEditor:UntranslatedKey] `LAW_POLITICAL_MOVEMENT_TO_ENACT`
+
+ revolution:0 "Revolution"
+ secession:0 "Sezession"
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ POLITICAL_MOVEMENT_SUPPORT_FROM_TOTAL_CLOUT:0 "Durch [Concept('concept_clout', 'Politischen Druck')] von unterstützenden [Concept('concept_interest_group', '$concept_interest_groups$')]: #tooltippable #tooltip:$BREAKDOWN_TAG$ $VALUE|v%=0$#!#!"
+ POLITICAL_MOVEMENT_RADICALISM_FROM_TOTAL_ANGRY_IG_CLOUT:0 "Durch gesamten [Concept('concept_clout', 'Politischen Druck')] von unterstützenden $ig_approval_angry$en [Concept('concept_interest_group', '$concept_interest_groups$')]: #tooltippable #tooltip:$BREAKDOWN_TAG$ $VALUE|v=%0$#!#!"
+ POLITICAL_MOVEMENT_RADICALISM_FROM_TOTAL_RADICAL_POPS:0 "Unterstützt von $NUM_RADICALS|Dv$ [Concept('concept_radical', 'Radikalen')]: $VALUE|v=%0$"

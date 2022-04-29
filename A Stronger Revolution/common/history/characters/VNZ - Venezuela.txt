@@ -1,0 +1,17 @@
+﻿CHARACTERS = {
+	c:VNZ = {
+		create_character = {
+			# José María Vargas Ponce
+			#role = politician # Remove this line
+			first_name = "Jose_Maria"
+			last_name = "Vargas"
+			ruler = yes
+			age = 50
+			interest_group = ig_intelligentsia
+			ideology = ideology_moderate # 
+			traits = {
+				meticulous
+			}
+		}
+	}
+}

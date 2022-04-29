@@ -1,0 +1,347 @@
+﻿l_spanish:
+ ALREADY_STARTED_DIPLO_PLAY:0 "#N ¡Ya hay una [concept_diplomatic_play|l] activa en curso!#!"
+ WAR_CANNOT_YIELD_IN_DIPLOMATIC_PLAY:0 "#N Esta [concept_diplomatic_play|l] ha degenerado en una guerra.#!"
+ ACTOR_CANNOT_YIELD_IN_DIPLOMATIC_PLAY:0 "#N [COUNTRY.GetName] no puede llevar a cabo esta [concept_diplomatic_play|l].#!"
+ ACTOR_CANNOT_DECLARE_NEUTRALITY_IN_DIPLOMATIC_PLAY:0 "#N [COUNTRY.GetName] no puede declararse neutral en esta [concept_diplomatic_play|l] porque ya apoya uno de los dos bandos.#!"
+ ACTOR_NOT_INVOLVED_IN_DIPLOMATIC_PLAY:0 "#N [COUNTRY.GetName] no participa en la [concept_diplomatic_play|l].#!"
+ ACTOR_ALREADY_HAS_THIS_STANCE_IN_DIPLOMATIC_PLAY:0 "#N [COUNTRY.GetName] ya tiene esta postura.#!"
+ ACTOR_CIVIL_WAR_DIPLOMATIC_PLAY:0 "#N Los países en guerra civil no pueden unirse a otras [Concept('concept_diplomatic_play', 'jugadas diplomáticas')].#!"
+ TARGET_CIVIL_WAR_DIPLOMATIC_PLAY:0 "#N No se pueden marcar como objetivos países en guerra civil para las [Concept('concept_diplomatic_play', 'jugadas diplomáticas')].#!"
+ ACTOR_IS_TARGETED_BY_ENEMY_WARGOAL:0 "#N No se puede dejar de apoyar a [COUNTRY.GetName] porque el [concept_war_goal|l] de [WAR_GOAL.GetName] tiene marcado como objetivo nuestro país.#!"
+ TRUCE_WITH_TARGET:0 "#N [COUNTRY.GetName] tiene una tregua con [TARGET_COUNTRY.GetName] hasta #variable [COUNTRY.GetTruceDate(TARGET_COUNTRY.Self)].#!#!"
+ CORDIAL_RELATIONS_WITH_TARGET:0 "#N [COUNTRY.GetName] tiene [Concept('concept_relation', 'relaciones')] cordiales o mejores con [TARGET_COUNTRY.GetName].#!" # [LocEditor:AwaitingBatchUpdate]
+ ALLIANCE_WITH_TARGET:0 "#N [COUNTRY.GetName] tiene una [concept_alliance|l] con [TARGET_COUNTRY.GetName|v].#!"
+ HUMILIATED_BY_TARGET:0 "#N Hace poco, [TARGET_COUNTRY.GetName|v] ha [Concept('concept_humiliation', 'humillado')] a [COUNTRY.GetName].#!" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `OWES_OBLIGATION_TO_TARGET`
+ RIVALS_WITH_TARGET:0 "#N [COUNTRY.GetName] tiene una [concept_rivalry|l] con [TARGET_COUNTRY.GetName|v].#!"
+ TARGET_IS_OUR_SUBJECT:0 "#N [TARGET_COUNTRY.GetName|v] es [concept_subject|l] de [COUNTRY.GetName].#!"
+ COUNTRY_IS_TARGETING_YOU:0 "#N [COUNTRY.GetName|v] ya te ha marcado como objetivo en una [concept_diplomatic_play|l].#!"
+ DIPLO_PLAY_SWITCH_COUNTRY_NOT_TARGET:0 "#N Solo el objetivo de la [concept_diplomatic_play|l] puede cambiar el país.#!"
+ DIPLO_PLAY_SWITCH_COUNTRY_ESCALATION:0 "#N Solo se puede cambiar el país si la escalada es inferior a #variable $VALUE$.#!#!"
+ DIPLO_PLAY_SWITCH_COUNTRY_NOT_AI:0 "#N Solo se puede cambiar a un país controlado por la IA.#!"
+ DIPLO_PLAY_CANNOT_TARGET_SELF:0 "#N No puedes marcar tu país como objetivo en una [concept_diplomatic_play|l].#!"
+ DIPLO_PLAY_ALREADY_AT_WAR:0 "#N Ya estamos librando una guerra.#!"
+ DIPLO_PLAY_AT_WAR_WITH:0 "#N [COUNTRY.GetName] está en guerra con [TARGET_COUNTRY.GetName|v].#!"
+ DIPLO_PLAY_ALLIED_WITH:0 "#N [COUNTRY.GetName] se ha aliado con [TARGET_COUNTRY.GetName|v].#!"
+ DIPLO_PLAY_WAR_ALLIED_WITH:0 "#N [COUNTRY.GetName] lucha en el mismo bando que [TARGET_COUNTRY.GetName|v]#! en una guerra."
+ DIPLO_PLAY_OPPOSING_SIDES:0 "#N [COUNTRY.GetName] se opone a [TARGET_COUNTRY.GetName] en otra jugada diplomática.#!"
+ DIPLO_PLAY_SAME_SIDES:0 "#N [COUNTRY.GetName] apoya a [TARGET_COUNTRY.GetName] en otra jugada diplomática.#!"
+ ALREADY_IN_DIPLO_PLAY:0 "#N [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] ya forman parte de otra jugada diplomática.#!"
+ DIPLO_PLAY_ADD_WARGOAL:0 "Añadir [concept_war_goal|l]"
+ DIPLO_PLAY_DECLARE_NEUTRALITY:0 "Declarar neutralidad"
+ DIPLO_PLAY_BACK_DOWN:0 "Echarse atrás"
+ DIPLO_PLAY_GIVE_IN:0 "Rendirse"
+ DIPLO_PLAY_SUPPORT:0 "Apoyar"
+ DIPLO_PLAY_OPPOSE:0 "Oponerse"
+ DIPLO_PLAY_NOT_NOW:0 "Ahora no"
+ ADD_WARGOAL_HEADER:0 "#bold Añadir [concept_war_goal|l]#!"
+ SWAY_COUNTRY:0 "[concept_sway|l]"
+ SWAY_COUNTRY_HEADER:0 "#bold [concept_sway] a [SwayCountryPanel.GetCountry.GetName].#!"
+ DIPLO_PLAY_MANEUVERS_INITIATOR_TOOLTIP:0 "#header Iniciador de las [Concept('concept_maneuver', 'maniobras')]#!\nA [DiplomaticPlay.GetInitiator.GetName|v] le quedan [DiplomaticPlay.GetNumInitiatorManeuversRemaining|v] [Concept('concept_maneuver', 'maniobras')]." # [LocEditor:AwaitingBatchUpdate]
+ DIPLO_PLAY_MANEUVERS_TARGET_TOOLTIP:0 "#header Objetivo de las [Concept('concept_maneuver', 'maniobras')]#!\nA [DiplomaticPlay.GetTarget.GetName|v] le quedan [DiplomaticPlay.GetNumInitiatorManeuversRemaining|v] [Concept('concept_maneuver', 'maniobras')]." # [LocEditor:AwaitingBatchUpdate]
+ DIPLO_PLAY_JOIN_WRONG_PHASE:0 "#N En una [concept_diplomatic_play|l], solo puedes elegir tu bando durante la fase #variable $DIPLO_PLAY_MIDDLE_PHASE$#!.#!"
+ DIPLO_PLAY_SWAY_WRONG_PHASE:0 "#N En una [concept_diplomatic_play|l], solo puedes persuadir a los participantes indecisos durante la fase #variable $DIPLO_PLAY_MIDDLE_PHASE$#!.#!"
+ DIPLO_PLAY_OVERLORD_JOIN_WRONG_PHASE:0 "#N El país protector de uno de los participantes principales en una [concept_diplomatic_play|l] solo puede elegir bando durante la fase #variable $DIPLO_PLAY_OPENING_PHASE$#!.#!"
+ DIPLO_PLAY_YIELD_WRONG_PHASE:0 "#N En una [concept_diplomatic_play|l], no puedes echarte atrás durante la fase #variable $DIPLO_PLAY_OPENING_PHASE$#!.#!"
+ DIPLO_PLAY_ADD_WARGOAL_WRONG_PHASE:0 "#N En una [concept_diplomatic_play|l], no puedes añadir [Concept('concept_war_goal', 'objetivos de guerra')] durante la fase #variable $DIPLO_PLAY_CLOSING_PHASE$#!.#!" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `DIPLO_PLAY_BACKER_PROMISED_INITIATOR_OBLIGATION`
+ # [LocEditor:UntranslatedKey] `DIPLO_PLAY_BACKER_PROMISED_TARGET_OBLIGATION`
+ DIPLOMATIC_PLAY_ESCALATION_PAUSE:0 "Escalada en pausa durante [DiplomaticPlay.GetEscalationPause|v] día(s)."
+ DIPLOMATIC_PLAY_ESCALATION_NO_PAUSE:0 "La escalada continúa…"
+  
+ DIPLO_PLAY_OPENING_PHASE:0 "Movimientos de apertura"
+ DIPLO_PLAY_MIDDLE_PHASE:0 "Maniobras diplomáticas"
+ DIPLO_PLAY_CLOSING_PHASE:0 "Cuenta atrás para la guerra"
+
+ # [LocEditor:UntranslatedKey] `DIPLO_PLAY_SWAY_OFFER_OBLIGATION_DESC`
+ DIPLO_PLAY_SWAY_OFFER_WAR_GOAL_DESC:0 "[WAR_GOAL.GetSwayDesc][ConcatIfNeitherEmpty( '\n$TOOLTIP_DELIMITER$\n', '$ERRORS$' )]"
+
+ texan_war_of_independence:0 "Guerra de la Independencia de Texas"
+  
+ WARGOAL_NO_TREATY_PORT:0 "#bold #N El estado objetivo no tiene una provincia con un [concept_treaty_port|l] válido.#!#!"
+ WARGOAL_IS_TREATY_PORT:0 "#bold #N El estado objetivo es un [concept_treaty_port|l].#!#!"
+ WARGOAL_NOT_SUBJECT_OF:0 "#bold #N [COUNTRY.GetName] no es súbdito de [TARGET_COUNTRY.GetName].#!#!"
+ WARGOAL_IS_SUBJECT_OF:0 "#bold #N [COUNTRY.GetName] es súbdito de [TARGET_COUNTRY.GetName].#!#!"
+ WARGOAL_WRONG_COUNTRY_RANK:0 "#bold #N $COUNTRY_NAME|v$ no es: $RANK|v$.#!#!"
+ WARGOAL_WRONG_COUNTRY_TYPE:0 "#bold #N $COUNTRY_NAME|v$ no es: $TYPE|v$.#!#!"
+ WARGOAL_HOLDER_DOES_NOT_EXIST:0 "#bold #N Este [concept_war_goal|l] no tiene un [concept_country|l] propietario válido.#!#!"
+ WARGOAL_TARGET_DOES_NOT_EXIST:0 "#bold #N Este [concept_war_goal|l] no tiene un [concept_country|l] objetivo válido.#!#!"
+ WARGOAL_TARGET_IG_DOES_NOT_EXIST:0 "#bold #N Este [concept_war_goal|l] no tiene un objetivo del [concept_interest_group|l] válido.#!#!"
+ WARGOAL_IG_NOT_RADICAL:0 "#bold #N [INTEREST_GROUP.GetName] no es un [concept_interest_group|l] [concept_radicalized|l].#!#!"
+ WARGOAL_IG_TYPE_NOT_IN_GOVERNMENT:0 "#bold #N #v $IG_TYPE$#! no está bajo el control del gobierno de [COUNTRY.GetName].#!#!"
+ WARGOAL_TARGET_WILL_NOT_EXIST:0 "#bold #N [COUNTRY.GetName] se anexionará como resultado de los objetivos de guerra añadidos.#!#!"
+ WARGOAL_TARGET_WILL_NOT_EXIST_AFTER_WARGOAL:0 "#bold #N [COUNTRY.GetName] se anexionará al agregar este objetivo de guerra, lo que anula los objetivos de guerra ya añadidos.#!#!"
+ WARGOAL_TARGET_NOT_RIVAL:0 "#bold #N [COUNTRY.GetName] no es un país [Concept('concept_rivalry', 'rival')] de [TARGET_COUNTRY.GetName].#!#!" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `WARGOAL_NOT_UNIFICATION_CANDIDATE`
+ # [LocEditor:UntranslatedKey] `WARGOAL_NOT_SOLE_UNIFICATION_CANDIDATE`
+ WARGOAL_COUNTRY_HAS_SLAVERY:0 "#bold #N [COUNTRY.GetName] practica alguna forma de [concept_slavery|l].#!#!"
+ WARGOAL_COUNTRY_NO_SLAVERY:0 "#bold #N [COUNTRY.GetName] no lleva a cabo ninguna forma de [concept_slavery|l].#!#!"
+ WARGOAL_STAKEHOLDER_DOES_NOT_EXIST:0 "#bold #N Este [concept_war_goal|l] no tiene una parte interesada válida.#!#!"
+ WARGOAL_TARGET_DOES_NOT_OWN_STATE:0 "#bold #N #variable $COUNTRY_NAME$#! no posee el estado de #variable $STATE_NAME$#!.#!#!"
+ WARGOAL_NO_INTEREST_MARKER_IN_REGION:0 "#bold #N #variable $COUNTRY_NAME$#! no tiene [concept_interest|l] en #variable $REGION_NAME$#!.#!#!"
+ OTHER_WARGOAL_ON_SAME_TARGET:0 "#bold #N #variable $COUNTRY_NAME$#! tiene un [concept_war_goal|l] excluyente al marcar como objetivo #variable $TARGET_NAME$#!.#!#!"
+ WARGOAL_TOO_LOW_RANK:0 "#bold #N ¡[COUNTRY.GetName] tiene un rango de país demasiado bajo!#!#!"
+ WARGOAL_TOO_HIGH_RANK:0 "#bold #N ¡[COUNTRY.GetName] tiene un rango de país demasiado alto!#!#!"
+ WARGOAL_HOLDER_HAS_NO_CLAIM:0 "#bold #N #variable $COUNTRY_NAME$#! no tiene una [concept_claim|l] sobre #variable $STATE_REGION_NAME$#!.#!#!"
+ WARGOAL_HOLDER_HAS_CLAIM:0 "#bold #N #variable $COUNTRY_NAME$#! tiene una [concept_claim|l] sobre #variable $STATE_REGION_NAME$#!.#!#!"
+ WARGOAL_HOLDER_HAS_NO_COLONIAL_CONQUEST:0 "#bold #N #variable $COUNTRY_NAME$#! no puede llevar a cabo una conquista colonial en #variable $STATE_NAME$#!.#!#!"
+ WARGOAL_HOLDER_HAS_COLONIAL_CONQUEST:0 "#bold #N #variable $COUNTRY_NAME$#! puede llevar a cabo una conquista colonial en #variable $STATE_NAME$#!.#!#!"
+ WARGOAL_COUNTRY_CREATION_INVALID:0 "#bold #N #variable $TARGET_NAME$#! no posee los estados necesarios para liberar #variable $COUNTRY_NAME$#!.#!#!"
+ WARGOAL_TARGET_HAS_NOTHING_TO_RELEASE:0 "#bold #N #variable $TARGET_NAME$#! no se ha hecho con estados ni con súbditos recientemente para liberarlos.#!#!"
+  
+ YESMEN_ALWAYS_ACCEPT:0 "Se aceptará debido al truco "yesmen"."
+ JOIN_DIPLO_PLAY_DESC:0 "#header Intento de [concept_sway|l].#!\n$WILL_ACCEPT$\n$TOOLTIP_DELIMITER$\n$DETAILS$"
+ JOIN_DIPLO_PLAY_SCORE_DESC:0 "Puntuación de aceptación: #bold $VALUE|+$#!"
+ JOIN_DIPLO_PLAY_FACTOR_RELATIONS:0 "Relaciones con [COUNTRY.GetName|v]: #bold $VALUE|+=$#!"
+ JOIN_DIPLO_PLAY_FACTOR_TUTORIAL_ASSISTANCE:0 "Ayuda en el tutorial: #bold $VALUE|+=$#!"
+ JOIN_DIPLO_PLAY_FACTOR_DEFENDER:0 "[COUNTRY.GetName|v] es el defensor: #bold $VALUE|+=$#!"
+ JOIN_DIPLO_PLAY_FACTOR_ALREADY_BACKER:0 "[COUNTRY_THIRD_PARTY.GetName] ya apoya al otro bando: #bold $VALUE|+=$#!"
+ JOIN_DIPLO_PLAY_FACTOR_INFAMY:0 "[concept_infamy] de [COUNTRY.GetNameNoFlag]: #bold $VALUE|+=$#!" # [LocEditor:AwaitingBatchUpdate]
+ JOIN_DIPLO_PLAY_FACTOR_SUBJECT_RELATIONSHIP:0 "Relaciones de los súbditos con #bold [COUNTRY.GetName|v]: $VALUE|+=$#!"
+ JOIN_DIPLO_PLAY_FACTOR_ATTITUDE:0 "[concept_attitude] de [COUNTRY_THIRD_PARTY.GetAttitudeTowards(COUNTRY.Self).GetName] hacia [COUNTRY.GetName|v]: #bold $VALUE|+=$#!"
+ JOIN_DIPLO_PLAY_FACTOR_ATTITUDE_BACKER:0 "[concept_attitude] de [COUNTRY_THIRD_PARTY.GetAttitudeTowards(COUNTRY.Self).GetName] hacia valedor [COUNTRY.GetName|v]: #bold $VALUE|+=$#!"
+ JOIN_DIPLO_PLAY_FACTOR_OFFERED_WARGOAL:0 "[concept_war_goal] ofrecido: #bold $VALUE|+=$#!"
+ # [LocEditor:UntranslatedKey] `JOIN_DIPLO_PLAY_FACTOR_OFFERED_OBLIGATION`
+ JOIN_DIPLO_PLAY_FACTOR_CURRENT_OFFERED_WARGOAL:0 "El otro bando ha ofrecido un [concept_war_goal|l]: #bold $VALUE|+=$#!"
+ # [LocEditor:UntranslatedKey] `JOIN_DIPLO_PLAY_FACTOR_CURRENT_OFFERED_OBLIGATION`
+  
+ WAR_NO_NEGOTIATED_PEACE:0 "No es posible negociar la paz para una [concept_diplomatic_play|l] de tipo $TYPE|v$."
+ WAR_PEACE_BOTH_SIDES_CLAIM_STATE:0 "El acuerdo de paz no es válido porque ambos bandos reivindican [Concept('concept_state', 'estados')] de [STATE.GetStateRegion.GetName]." # [LocEditor:AwaitingBatchUpdate]
+ WAR_PEACE_INVALID_WARGOAL:0 "El acuerdo de paz no es válido porque [WAR_GOAL.GetName|v] no es válido en sí."
+ WAR_NAME_FORMAT_DEFAULT:0 "$INITIATOR$ contra $TARGET$"
+  
+ dp_open_market:0 "$war_goal_open_market_type_name$"
+ dp_open_market_tooltip:0 "Comienza una [concept_diplomatic_play|l]: $dp_open_market$"
+    
+ dp_regime_change:0 "$war_goal_regime_change_type_name$"
+ dp_regime_change_tooltip:0 "Comienza una [concept_diplomatic_play|l]: $dp_regime_change$."
+ 
+ dp_ban_slavery:0 "$war_goal_ban_slavery_type_name$"
+ dp_ban_slavery_tooltip:0 "Comienza una [concept_diplomatic_play|l]: $dp_ban_slavery$"
+  
+ dp_conquer_state:0 "$war_goal_conquer_state_type_name$"
+ dp_conquer_state_tooltip:0 "Comienza una [concept_diplomatic_play|l]: $dp_conquer_state$"
+  
+ dp_return_state:0 "$war_goal_return_state_type_name$"
+ dp_return_state_tooltip:0 "Comienza una [concept_diplomatic_play|l]: $dp_return_state$"
+
+ dp_independence:0 "$war_goal_independence_type_name$"
+ dp_independence_tooltip:0 "Comienza una [concept_diplomatic_play|l]: $dp_independence$"
+   
+ dp_liberate_subject:0 "$war_goal_liberate_subject_type_name$"
+ dp_liberate_subject_tooltip:0 "Comienza una [concept_diplomatic_play|l]: $dp_liberate_subject$"
+   
+ dp_take_treaty_port:0 "$war_goal_take_treaty_port_type_name$"
+ dp_take_treaty_port_tooltip:0 "Comienza una [concept_diplomatic_play|l]: $dp_take_treaty_port$"
+   
+ dp_force_recognition:0 "$war_goal_force_recognition_type_name$"
+ dp_force_recognition_tooltip:0 "Comienza una [concept_diplomatic_play|l]: $dp_force_recognition$"
+   
+ dp_contain_threat:0 "$war_goal_contain_threat_type_name$"
+ dp_contain_threat_tooltip:0 "Comienza una [concept_diplomatic_play|l]: $dp_contain_threat$"
+  
+ dp_transfer_subject:0 "$war_goal_transfer_subject_type_name$"
+ dp_transfer_subject_tooltip:0 "Comienza una [concept_diplomatic_play|l]: $dp_transfer_subject$"
+  
+ dp_make_puppet:0 "$war_goal_make_puppet_type_name$"
+ dp_make_puppet_tooltip:0 "Comienza una [concept_diplomatic_play|l]: $dp_make_puppet$"
+   
+ dp_make_dominion:0 "$war_goal_make_dominion_type_name$"
+ dp_make_dominion_tooltip:0 "Comienza una [concept_diplomatic_play|l]: $dp_make_dominion$"
+   
+ dp_make_vassal:0 "$war_goal_make_vassal_type_name$"
+ dp_make_vassal_tooltip:0 "Comienza una [concept_diplomatic_play|l]: $dp_make_vassal$"
+   
+ dp_annex_subject:0 "Anexionar súbdito"
+ dp_annex_subject_tooltip:0 "Comienza una [concept_diplomatic_play|l]: $dp_annex_subject$"
+   
+ dp_revolution:0 "$war_goal_revolution_type_name$"
+ dp_revolution_tooltip:0 "Comienza una [concept_diplomatic_play|l]: $dp_revolution$"
+   
+ dp_secession:0 "$war_goal_secession_type_name$"
+ dp_secession_tooltip:0 "Comienza una [concept_diplomatic_play|l]: $dp_secession$"
+  
+ dp_unify_germany:0 "Unificar Alemania"
+ dp_unify_germany_tooltip:0 "Comienza una [concept_diplomatic_play|l]: $dp_unify_germany$"
+   
+ dp_unify_italy:0 "Unificar Italia"
+ dp_unify_italy_tooltip:0 "Comienza una [concept_diplomatic_play|l]: $dp_unify_italy$"
+ 
+ # [LocEditor:UntranslatedKey] `dp_unify_scandinavia`
+ # [LocEditor:UntranslatedKey] `dp_unify_scandinavia_tooltip`
+   
+ dp_unify_ethiopia:0 "Unificar Etiopía"
+ dp_unify_ethiopia_tooltip:0 "Comienza una [concept_diplomatic_play|l]: $dp_unify_ethiopia$"
+
+ dp_unify_china:0 "Unificar China"
+ dp_unify_china_tooltip:0 "Comienza una [concept_diplomatic_play|l]: $dp_unify_china$"
+
+ dp_unify_arabia:0 "Unificar Arabia"
+ dp_unify_arabia_tooltip:0 "Comienza una [concept_diplomatic_play|l]: $dp_unify_arabia$"
+
+ # [LocEditor:UntranslatedKey] `dp_unify_india`
+ # [LocEditor:UntranslatedKey] `dp_unify_india_tooltip`
+
+ # [LocEditor:UntranslatedKey] `dp_unify_indonesia`
+ # [LocEditor:UntranslatedKey] `dp_unify_indonesia_tooltip`
+
+ dp_southern_secession:0 "Secesión del sur"
+ dp_southern_secession_tooltip:0 "Comienza una [concept_diplomatic_play|l]: $dp_southern_secession$"
+ 
+ # [LocEditor:UntranslatedKey] `dp_humiliation`
+ # [LocEditor:UntranslatedKey] `dp_humiliation_desc`
+
+ # [LocEditor:UntranslatedKey] `dp_leadership_germany`
+ # [LocEditor:UntranslatedKey] `dp_leadership_germany_desc`
+ 
+ # [LocEditor:UntranslatedKey] `dp_leadership_italy`
+ # [LocEditor:UntranslatedKey] `dp_leadership_italy_desc`
+ 
+ # [LocEditor:UntranslatedKey] `dp_leadership_scandinavia`
+ # [LocEditor:UntranslatedKey] `dp_leadership_scandinavia_desc`
+ 
+ war_goal_conquer_state_type_name:0 "Conquistar estado"
+ war_goal_conquer_state_type_desc:0 "Conquista un estado de otro país."
+ war_goal_conquer_state:0 "Conquistar [WAR_GOAL.GetTargetState.GetName]"
+ war_goal_conquer_state_desc:0 "[WAR_GOAL.GetHolder.GetName] conquista el estado de [WAR_GOAL.GetTargetState.GetName] de [WAR_GOAL.GetTarget.GetName]."
+ war_goal_conquer_state_sway_desc:0 "Intenta convencer a [WAR_GOAL.GetHolder.GetName] para que se una a tu bando obligando a [WAR_GOAL.GetWarGoalStakeholder.GetName] a cederle [WAR_GOAL.GetTargetState.GetName]."
+ 
+ war_goal_return_state_type_name:0 "Devolución de estado"
+ war_goal_return_state_type_desc:0 "Obliga a un país a devolver un estado cuya reivindicación nos pertenece."
+ war_goal_return_state:0 "Devolver [WAR_GOAL.GetTargetState.GetName]"
+ war_goal_return_state_desc:0 "[WAR_GOAL.GetTarget.GetName] devuelve el estado de [WAR_GOAL.GetTargetState.GetName] a [WAR_GOAL.GetHolder.GetName]."
+ war_goal_return_state_sway_desc:0 "Intenta convencer a [WAR_GOAL.GetHolder.GetName] para que se una a tu bando obligando a [WAR_GOAL.GetWarGoalStakeholder.GetName] a devolverle [WAR_GOAL.GetTargetState.GetName]."
+ 
+ war_goal_revoke_claim_type_name:0 "Revocar reivindicación"
+ war_goal_revoke_claim_type_desc:0 "Obliga a un país a revocar una reivindicación sobre una región estatal."
+ war_goal_revoke_claim:0 "Revocar reivindicación de [WAR_GOAL.GetTargetState.GetStateRegion.GetName]"
+ war_goal_revoke_claim_desc:0 "[WAR_GOAL.GetHolder.GetName] obliga a [WAR_GOAL.GetTarget.GetName] a revocar la reivindicación de [WAR_GOAL.GetTargetState.GetStateRegion.GetName]."
+ war_goal_revoke_claim_sway_desc:0 "Intenta convencer a [WAR_GOAL.GetHolder.GetName] para que se una a tu bando obligando a [WAR_GOAL.GetWarGoalStakeholder.GetName] a revocar su reivindicación de [WAR_GOAL.GetTargetState.GetStateRegion.GetName]."
+ 
+ war_goal_annex_country_type_name:0 "Anexionar país"
+ war_goal_annex_country_type_desc:0 "Anexiona un país a otro por completo."
+ war_goal_annex_country:0 "Anexionar [WAR_GOAL.GetTarget.GetName]"
+ war_goal_annex_country_desc:0 "[WAR_GOAL.GetHolder.GetName] se anexiona el país de [WAR_GOAL.GetTarget.GetName]."
+ war_goal_annex_country_sway_desc:0 "Intenta convencer a [WAR_GOAL.GetHolder.GetName] para que se una a tu bando permitiéndole que se anexione [WAR_GOAL.GetTarget.GetName]."
+
+ war_goal_annex_native_type_name:0 "Anexionar nativos"
+ war_goal_annex_native_type_desc:0 "Anexiona una [concept_decentralized_nation|l] por completo."
+ war_goal_annex_native:0 "Anexionar [WAR_GOAL.GetTarget.GetName]"
+ war_goal_annex_native_desc:0 "[WAR_GOAL.GetHolder.GetName] anexiona la [concept_decentralized_nation|l] de [WAR_GOAL.GetTarget.GetName]."
+
+ war_goal_secession_type_name:0 "Reprimir revuelta"
+ war_goal_secession_type_desc:0 "Aplasta el movimiento secesionista."
+ war_goal_secession:0 "Aplastar la secesión de [WAR_GOAL.GetTarget.GetNameNoFlag]" # [LocEditor:AwaitingBatchUpdate]
+ war_goal_secession_desc:0 "#TODO TODO#!"
+ war_goal_secession_sway_desc:0 "Intenta convencer a [WAR_GOAL.GetHolder.GetName] para que se una a tu bando ayudándolo a aplastar el movimiento secesionista de [WAR_GOAL.GetTarget.GetNameNoFlag]." # [LocEditor:AwaitingBatchUpdate]
+  
+ war_goal_contain_threat_type_name:0 "Poner en su sitio"
+ war_goal_contain_threat_type_desc:0 "Obliga a un país amenazador a liberar sus últimas conquistas."
+ war_goal_contain_threat:0 "Reducir territorio de [WAR_GOAL.GetTarget.GetName]"
+ war_goal_contain_threat_desc:0 "[WAR_GOAL.GetHolder.GetName] obliga a [WAR_GOAL.GetTarget.GetName] a liberar todos los estados y súbditos que haya conseguido por conquista en los últimos #v [GetDefine('NDiplomacy', 'WAR_GOAL_CONTAIN_THREAT_YEARS_SINCE_CONQUEST')]#! años."
+ war_goal_contain_threat_sway_desc:0 "Intenta convencer a [WAR_GOAL.GetHolder.GetName] para que se una a tu bando obligando a [WAR_GOAL.GetWarGoalStakeholder.GetName] a liberar sus conquistas más recientes."
+  
+ war_goal_war_reparations_type_name:0 "Reparaciones de guerra"
+ war_goal_war_reparations_type_desc:0 "Obliga a otro país a pagar reparaciones de guerra."
+ war_goal_war_reparations:0 "Pagar reparaciones de guerra de [WAR_GOAL.GetTarget.GetNameNoFlag]" # [LocEditor:AwaitingBatchUpdate]
+ war_goal_war_reparations_desc:0 "[WAR_GOAL.GetHolder.GetName] obliga a [WAR_GOAL.GetTarget.GetName] a pagar un #variable 10 %#! de sus ingresos fiscales para reparaciones de guerra durante 5 años."
+ war_goal_war_reparations_sway_desc:0 "Intenta convencer a [WAR_GOAL.GetHolder.GetName] para que se una a tu bando obligando a [WAR_GOAL.GetWarGoalStakeholder.GetName] a pagarle un #variable 10 %#! de sus ingresos fiscales para reparaciones de guerra durante 5 años."
+ 
+ # [LocEditor:UntranslatedKey] `war_goal_unification_leadership_type_name`
+ # [LocEditor:UntranslatedKey] `war_goal_unification_leadership_type_desc`
+ # [LocEditor:UntranslatedKey] `war_goal_unification_leadership`
+ # [LocEditor:UntranslatedKey] `war_goal_unification_leadership_desc`
+ # [LocEditor:UntranslatedKey] `war_goal_unification_leadership_sway_desc`
+ 
+ war_goal_humiliation_type_name:0 "Humillación"
+ war_goal_humiliation_type_desc:0 "[Concept('concept_humiliation', 'Humilla')] a otro país." # [LocEditor:AwaitingBatchUpdate]
+ war_goal_humiliation:0 "Humillar a [WAR_GOAL.GetTarget.GetName]"
+ war_goal_humiliation_desc:0 "Reduce el prestigio de [WAR_GOAL.GetTarget.GetName] y evita que se oponga a [WAR_GOAL.GetHolder.GetName] en las [Concept('concept_diplomatic_play', 'jugadas diplomáticas')] durante 5 años."
+ war_goal_humiliation_sway_desc:0 "Intenta convencer a [WAR_GOAL.GetHolder.GetName] para que se una a tu bando reduciendo el prestigio de [WAR_GOAL.GetTarget.GetName] y evitando que se oponga a [WAR_GOAL.GetHolder.GetName] en las [Concept('concept_diplomatic_play', 'jugadas diplomáticas')] durante 5 años."
+  
+ war_goal_open_market_type_name:0 "Apertura de mercado"
+ war_goal_open_market_type_desc:0 "Obliga a la [concept_open_market|l] en otro país.."
+ war_goal_open_market:0 "Abrir mercado de [WAR_GOAL.GetTarget.GetNameNoFlag]" # [LocEditor:AwaitingBatchUpdate]
+ war_goal_open_market_desc:0 "[WAR_GOAL.GetHolder.GetName] obliga a [WAR_GOAL.GetTarget.GetName] a adoptar leyes de libre comercio y abrir su mercado al comercio internacional."
+ war_goal_open_market_sway_desc:0 "[WAR_GOAL.GetHolder.GetName] obliga a [WAR_GOAL.GetTarget.GetName] a adoptar leyes de libre comercio y abrir su mercado al comercio internacional."
+
+ war_goal_regime_change_type_name:0 "Cambio de régimen"
+ war_goal_regime_change_type_desc:0 "Obliga a otro país a cambiar su gobierno y sus leyes para que se alineen con el de un [concept_interest_group|l] en concreto."
+ war_goal_regime_change:0 "Cambiar régimen de [WAR_GOAL.GetTargetIG.GetName] en [WAR_GOAL.GetTarget.GetName]"
+ war_goal_regime_change_desc:0 "[WAR_GOAL.GetHolder.GetName] obliga a [WAR_GOAL.GetTarget.GetName] a cambiar su gobierno y sus leyes para que se alineen con el de [WAR_GOAL.GetTargetIG.GetName]."
+ war_goal_regime_change_sway_desc:0 "Intenta convencer a [WAR_GOAL.GetHolder.GetName] para que se una a tu bando obligando a [WAR_GOAL.GetTarget.GetName] a que se alinee con [WAR_GOAL.GetTargetIG.GetName]."
+  
+ war_goal_ban_slavery_type_name:0 "Prohibición de la esclavitud"
+ war_goal_ban_slavery_type_desc:0 "Obliga a otro país a abolir la práctica retrógrada e inhumana de la esclavitud."
+ war_goal_ban_slavery:0 "Prohibir esclavitud en [WAR_GOAL.GetTarget.GetName]"
+ war_goal_ban_slavery_desc:0 "[WAR_GOAL.GetHolder.GetName] obliga a [WAR_GOAL.GetTarget.GetName] a abolir la esclavitud."
+ war_goal_ban_slavery_sway_desc:0 "Intenta convencer a [WAR_GOAL.GetHolder.GetName] para que se una a tu bando obligando a [WAR_GOAL.GetTarget.GetName] a abolir la esclavitud."
+  
+ war_goal_take_treaty_port_type_name:0 "Tomar puerto abierto"
+ war_goal_take_treaty_port_type_desc:0 "Obliga a un país a ceder por tratado el puerto abierto de un estado."
+ war_goal_take_treaty_port:0 "Tomar puerto abierto de [WAR_GOAL.GetTargetState.GetStateRegion.GetName]"
+ war_goal_take_treaty_port_desc:0 "[WAR_GOAL.GetHolder.GetName] obliga a [WAR_GOAL.GetTarget.GetName] a ceder un puerto abierto por tratado en la región de [WAR_GOAL.GetTargetState.GetStateRegion.GetName]."
+ war_goal_take_treaty_port_sway_desc:0 "Intenta convencer a [WAR_GOAL.GetHolder.GetName] para que se una a tu bando obligando a [WAR_GOAL.GetWarGoalStakeholder.GetName] a cederle un puerto abierto por tratado de la región de [WAR_GOAL.GetTargetState.GetStateRegion.GetName]."
+  
+ war_goal_independence_type_name:0 "Independencia"
+ war_goal_independence_type_desc:0 "Obliga a tu país protector a concederle la independencia a tu nación."
+ war_goal_independence:0 "Independencia"
+ war_goal_independence_desc:0 "[WAR_GOAL.GetHolder.GetName] obliga a [WAR_GOAL.GetWarGoalStakeholder.GetName] a concederle la independencia a [WAR_GOAL.GetHolder.GetName]."
+ war_goal_independence_sway_desc:0 "Intenta convencer a [WAR_GOAL.GetHolder.GetName] para que se una a tu bando obligando a [WAR_GOAL.GetWarGoalStakeholder.GetName] a concederle la independencia."
+  
+ war_goal_liberate_subject_type_name:0 "Liberar súbdito"
+ war_goal_liberate_subject_type_desc:0 "Obliga a un país a concederle la independencia a uno de sus súbditos."
+ war_goal_liberate_subject:0 "Liberar [WAR_GOAL.GetTarget.GetName]"
+ war_goal_liberate_subject_desc:0 "[WAR_GOAL.GetHolder.GetName] obliga a [WAR_GOAL.GetWarGoalStakeholder.GetName] a concederle la independencia a [WAR_GOAL.GetTarget.GetName]."
+ war_goal_liberate_subject_sway_desc:0 "Intenta convencer a [WAR_GOAL.GetHolder.GetName] para que se una a tu bando obligando a [WAR_GOAL.GetWarGoalStakeholder.GetName] a concederle la independencia a [WAR_GOAL.GetTarget.GetName]."
+  
+ war_goal_liberate_country_type_name:0 "Liberar país"
+ war_goal_liberate_country_type_desc:0 "Obliga a un país a concederle la independencia a otra nación."
+ war_goal_liberate_country:0 "Liberar a [WAR_GOAL.GetCountryCreation.GetName]"
+ war_goal_liberate_country_desc:0 "[WAR_GOAL.GetHolder.GetName] obliga a [WAR_GOAL.GetTarget.GetName] a liberar al país de [WAR_GOAL.GetCountryCreation.GetName]."
+ war_goal_liberate_country_sway_desc:0 "Intenta convencer a [WAR_GOAL.GetHolder.GetName] para que se una a tu bando obligando a [WAR_GOAL.GetWarGoalStakeholder.GetName] a liberar el país de [WAR_GOAL.GetCountryCreation.GetName]."
+  
+ war_goal_force_recognition_type_name:0 "Forzar reconocimiento"
+ war_goal_force_recognition_type_desc:0 "Obliga a una gran potencia a eliminar el estatus de país no reconocido."
+ war_goal_force_recognition:0 "Reconocer [WAR_GOAL.GetHolder.GetName]"
+ war_goal_force_recognition_desc:0 "[WAR_GOAL.GetHolder.GetName] obliga a [WAR_GOAL.GetTarget.GetName] a eliminar el estatus de país no reconocido a [WAR_GOAL.GetHolder.GetName]."
+ war_goal_force_recognition_sway_desc:0 "Intenta convencer a [WAR_GOAL.GetHolder.GetName] para que se una a tu bando obligando a [WAR_GOAL.GetWarGoalStakeholder.GetName] a eliminar su estatus de no reconocido."
+  
+ war_goal_transfer_subject_type_name:0 "Transferir súbdito"
+ war_goal_transfer_subject_type_desc:0 "Nos convierte en el país protector de uno de sus súbditos."
+ war_goal_transfer_subject:0 "Transferir [WAR_GOAL.GetTarget.GetName]"
+ war_goal_transfer_subject_desc:0 "[WAR_GOAL.GetHolder.GetName] se convierte en el estado protector de [WAR_GOAL.GetTarget.GetName]."
+ war_goal_transfer_subject_sway_desc:0 "Intenta convencer a [WAR_GOAL.GetHolder.GetName] para que se una a tu bando obligando a [WAR_GOAL.GetWarGoalStakeholder.GetName] a ceder su condición de país protector de [WAR_GOAL.GetTarget.GetName]."
+   
+ war_goal_make_puppet_type_name:0 "Transformar en marioneta"
+ war_goal_make_puppet_type_desc:0 "Obliga a otro país a convertirse en una marioneta."
+ war_goal_make_puppet:0 "Convertir a [WAR_GOAL.GetTarget.GetName] en marioneta"
+ war_goal_make_puppet_desc:0 "[WAR_GOAL.GetHolder.GetName] obliga a [WAR_GOAL.GetTarget.GetName] a convertirse en una marioneta."
+ war_goal_make_pupped_sway_desc:0 "Intenta convencer a [WAR_GOAL.GetHolder.GetName] para que se una a tu bando obligando a [WAR_GOAL.GetTarget.GetName] a convertirse en su marioneta."
+ 
+ war_goal_make_dominion_type_name:0 "Transformar en dominio"
+ war_goal_make_dominion_type_desc:0 "Obliga a otro país a convertirse en un dominio."
+ war_goal_make_dominion:0 "Subyugar a [WAR_GOAL.GetTarget.GetName]"
+ war_goal_make_dominion_desc:0 "[WAR_GOAL.GetHolder.GetName] obliga a [WAR_GOAL.GetTarget.GetName] a convertirse en un dominio."
+ war_goal_make_dominion_sway_desc:0 "Intenta convencer a [WAR_GOAL.GetHolder.GetName] para que se una a tu bando obligando a [WAR_GOAL.GetTarget.GetName] a convertirse en su dominio."
+  
+ war_goal_make_vassal_type_name:0 "Convertir en vasallo"
+ war_goal_make_vassal_type_desc:0 "Obliga a otro país a convertirse en vasallo."
+ war_goal_make_vassal:0 "Subyugar a [WAR_GOAL.GetTarget.GetName]"
+ war_goal_make_vassal_desc:0 "[WAR_GOAL.GetHolder.GetName] obliga a [WAR_GOAL.GetTarget.GetName] a convertirse en vasallo."
+ war_goal_make_vassal_sway_desc:0 "Intenta convencer a [WAR_GOAL.GetHolder.GetName] para que se una a tu bando obligando a [WAR_GOAL.GetTarget.GetName] a convertirse en su vasallo."
+  
+ war_goal_unification_type_name:0 "Unificación"
+ war_goal_unification_type_desc:0 "Se anexiona otro país para la unificación nacional." # [LocEditor:AwaitingBatchUpdate]
+ war_goal_unification:0 "Anexionar [WAR_GOAL.GetTarget.GetName]" # [LocEditor:AwaitingBatchUpdate]
+ war_goal_unification_desc:0 "[WAR_GOAL.GetHolder.GetName] se anexiona [WAR_GOAL.GetTarget.GetName] para la unificación nacional." # [LocEditor:AwaitingBatchUpdate]
+ war_goal_unification_sway_desc:0 "Intenta convencer a [WAR_GOAL.GetHolder.GetName] para que se una a tu bando permitiéndole que se anexione [WAR_GOAL.GetTarget.GetName] para la unificación nacional." # [LocEditor:AwaitingBatchUpdate]
+  
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ OWES_FAVOR_TO_TARGET:0 "#N [COUNTRY.GetName] le debe un [concept_favor|l] a [TARGET_COUNTRY.GetName|v].#!"
+ DIPLO_PLAY_BACKER_PROMISED_INITIATOR_FAVOR:0 "A [Country.GetName] se le ha prometido un [concept_favor|l] para que apoye al bando iniciador de esta [concept_diplomatic_play|l]."
+ DIPLO_PLAY_BACKER_PROMISED_TARGET_FAVOR:0 "A [Country.GetName] se le ha prometido un [concept_favor|l] para que apoye al bando objetivo de esta [concept_diplomatic_play|l]."
+ DIPLO_PLAY_SWAY_OFFER_FAVOR_DESC:0 "Intenta convencer a [COUNTRY.GetName] para que se una a tu bando ofreciéndole un [concept_favor|l].[ConcatIfNeitherEmpty( '\n$TOOLTIP_DELIMITER$\n', '$ERRORS$' )]"
+ JOIN_DIPLO_PLAY_FACTOR_OFFERED_FAVOR:0 "[concept_favor] ofrecido: #bold $VALUE|+=$#!"
+ JOIN_DIPLO_PLAY_FACTOR_CURRENT_OFFERED_FAVOR:0 "El otro bando ha ofrecido un [concept_favor|l]: #bold $VALUE|+=$#!"

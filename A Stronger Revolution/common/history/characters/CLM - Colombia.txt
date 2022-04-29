@@ -1,0 +1,18 @@
+﻿CHARACTERS = {
+	c:CLM = {
+		create_character = {
+			# Francisco José de Paula Santander y Omaña
+			#role = politician # Remove this line
+			first_name = "Francisco"
+			last_name = "de_Paula_Santander"
+			ruler = yes
+			ig_leader = yes
+			age = 53
+			interest_group = ig_petty_bourgeoisie
+			ideology = ideology_moderate # TODO: authoritarian?
+			traits = {
+				persistent
+			}
+		}
+	}
+}

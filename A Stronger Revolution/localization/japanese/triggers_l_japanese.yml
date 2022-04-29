@@ -1,0 +1,1171 @@
+﻿l_japanese:
+ # [LocEditor:UntranslatedKey] `ANY_TRIGGER_FILTER_TEXT`
+ TRIGGER_PASSED:0 "@green_checkmark! $TEXT$"
+ TRIGGER_FAILED:0 "@red_cross! $TEXT$"
+ TRIGGER_RESULT_UNDEFINED:0 "  •  $TEXT$"
+ TRIGGER_NAND:0 "以下のいずれか:"
+ TRIGGER_OR_NOT:0 "いずれも非該当:"
+ TRIGGER_ALWAYS:0 "常に"
+ TRIGGER_HAS_STATE_TRAIT:0 "[STATE_TRAIT.GetName]特性を所持しています"
+ TRIGGER_HAS_STATE_TRAIT_NOT:0 "[STATE_TRAIT.GetName]特性を所持していません"
+ TRIGGER_IS_HOMELAND:0 "[STATE_REGION.GetName]は[TARGET_CULTURE.GetName]の本国です"
+ TRIGGER_IS_HOMELAND_NOT:0 "[STATE_REGION.GetName]は[TARGET_CULTURE.GetName]の本国ではありません"
+ TRIGGER_HAS_HOMELAND:0 "[CULTURE.GetName]は[TARGET_STATE_REGION.GetName]を本国だと見なしています"
+ TRIGGER_HAS_HOMELAND_NOT:0 "[CULTURE.GetName]は[TARGET_STATE_REGION.GetName]を本国だと見なしていません"
+ TRIGGER_IS_PLAYER:0 "プレイヤーが操作しています"
+ TRIGGER_IS_PLAYER_NOT:0 "プレイヤーが操作していません"
+ TRIGGER_IS_LOCAL_PLAYER:0 "ローカルプレイヤーが操作しています"
+ TRIGGER_IS_LOCAL_PLAYER_NOT:0 "ローカルプレイヤーが操作していません"
+ TRIGGER_IS_AI:0 "AIが操作しています"
+ TRIGGER_IS_AI_NOT:0 "AIが操作していません"
+ TRIGGER_IS_INTEREST_GROUP_TYPE:0 "#variable $TARGET_TYPE$#!タイプです"
+ TRIGGER_IS_INTEREST_GROUP_TYPE_NOT:0 "#variable $TARGET_TYPE$#!タイプではありません"
+ TRIGGER_IS_SAME_INTEREST_GROUP_TYPE:0 "[TARGET_INTEREST_GROUP.GetName]と同タイプです"
+ TRIGGER_IS_SAME_INTEREST_GROUP_TYPE_NOT:0 "[TARGET_INTEREST_GROUP.GetName]と同タイプではありません"
+ TRIGGER_IS_STATE_RELIGION:0 "[TARGET_COUNTRY.GetName]の[concept_state_religion]です"
+ TRIGGER_IS_STATE_RELIGION_NOT:0 "[TARGET_COUNTRY.GetName]の[concept_state_religion]ではありません"
+ TRIGGER_HAS_COAST:0 "沿岸部を所有しています"
+ TRIGGER_HAS_COAST_NOT:0 "沿岸部を所有していません"
+ TRIGGER_IS_STATE_REGION_LAND:0 "[STATE_REGION.GetName]は陸地です"
+ TRIGGER_IS_STATE_REGION_LAND_NOT:0 "[STATE_REGION.GetName]は陸地ではありません"
+ TRIGGER_IS_PROVINCE_LAND:0 "[PROVINCE.GetState.GetName]の地方は陸地です"
+ TRIGGER_IS_PROVINCE_LAND_NOT:0 "[PROVINCE.GetState.GetName]の地方は陸地ではありません"
+ TRIGGER_HAS_BUILDING:0 "[BuildingType.GetName]を所有しています"
+ TRIGGER_HAS_BUILDING_NOT:0 "[BuildingType.GetName]を所有していません"
+ TRIGGER_HAS_ACTIVE_BUILDING:0 "稼働中の[BuildingType.GetName]施設を所有しています"
+ TRIGGER_HAS_ACTIVE_BUILDING_NOT:0 "稼働中の[BuildingType.GetName]施設を所有していません"
+ EVENT_TARGET_NO_CUSTOM_NAME:0 "$SPECIFIC|v$"
+ EVENT_TARGET_CUSTOM_NAME:0 "$GENERAL|v$ ($SPECIFIC|V$)"
+ EVENT_TARGET_NOT_COMPARISON_TRIGGER:0 "$LEFT|v$は$RIGHT|v$ではありません"
+ EVENT_TARGET_COMPARISON_TRIGGER:0 "$LEFT|v$は$RIGHT|v$です"
+ TRIGGER_HAS_DECREE:0 "[DECREE_TYPE.GetName] [concept_decree]を所有しています"
+ TRIGGER_HAS_DECREE_NOT:0 "[DECREE_TYPE.GetName] [concept_decree]を所有していません"
+ TRIGGER_HAS_INTEREST_MARKER_IN_REGION:0 "[TARGET_STRATEGIC_REGION.GetName]に[concept_interest]を寄せています"
+ TRIGGER_HAS_INTEREST_MARKER_IN_REGION_NOT:0 "[TARGET_STRATEGIC_REGION.GetName]に[concept_interest]を寄せていません"
+ TRIGGER_HAS_TECHNOLOGY_RESEARCHED:0 "[TECHNOLOGY.GetName]技術に到達しました"
+ TRIGGER_HAS_TECHNOLOGY_RESEARCHED_NOT:0 "[TECHNOLOGY.GetName]技術に到達していません"
+ TRIGGER_CAN_RESEARCH:0 "[TECHNOLOGY.GetName]技術を研究できます"
+ TRIGGER_CAN_RESEARCH_NOT:0 "[TECHNOLOGY.GetName]技術を研究できません"
+ TRIGGER_IS_WAR_PARTICIPANT:0 "[TARGET_COUNTRY.GetName]を参加させています"
+ TRIGGER_IS_WAR_PARTICIPANT_NOT:0 "[TARGET_COUNTRY.GetName]を参加させていません"
+ TRIGGER_CAN_FORM_NATION:0 "[COUNTRY_FORMATION.GetName]を建国できます" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_CAN_FORM_NATION_NOT:0 "[COUNTRY_FORMATION.GetName]を建国できません" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_UNIFICATION_CANDIDATE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_UNIFICATION_CANDIDATE_NOT`
+ TRIGGER_HAS_JOURNAL_ENTRY:0 "有効な[JOURNAL_ENTRY_TYPE.GetName] [concept_journal_entry]があります"
+ TRIGGER_HAS_JOURNAL_ENTRY_NOT:0 "有効な[JOURNAL_ENTRY_TYPE.GetName] [concept_journal_entry]がありません"
+ TRIGGER_HAS_VARIABLE:0 "#variable The Country#! has #variable the variable in question#! #todo (remember to make a custom desc for this)#!"
+ TRIGGER_HAS_VARIABLE_NOT:0 "#variable The Country#! does NOT have #variable the variable in question#! #todo (remember to make a custom desc for this)#!"
+ TRIGGER_TAKING_LOANS:0 "債務を借り入れています"
+ TRIGGER_TAKING_LOANS_NOT:0 "債務を借り入れていません"
+ TRIGGER_COUNTRY_THIS_EQUAL:0 "[OBJECT_SCOPE.GetCountry.GetName]の国です"
+ TRIGGER_COUNTRY_THIS_EQUAL_NOT:0 "[OBJECT_SCOPE.GetCountry.GetName]の国ではありません"
+ TRIGGER_INITIATOR_IS:0 "[TARGET_COUNTRY.GetName]は開始者です"
+ TRIGGER_INITIATOR_IS_NOT:0 "[TARGET_COUNTRY.GetName]は開始者ではありません"
+ TRIGGER_TARGET_IS:0 "[TARGET_COUNTRY.GetName]は対象者です"
+ TRIGGER_TARGET_IS_NOT:0 "[TARGET_COUNTRY.GetName]は対象者ではありません"
+ TRIGGER_IS_DIPLOMATIC_PLAY_COMMITTED_PARTICIPANT:0 "あらゆる[concept_diplomatic_play]に積極的な参加者です"
+ TRIGGER_IS_DIPLOMATIC_PLAY_COMMITTED_PARTICIPANT_NOT:0 "いかなる[concept_diplomatic_play]でも積極的な参加者ではありません"
+ TRIGGER_IS_DIPLOMATIC_PLAY_UNDECIDED_PARTICIPANT:0 "あらゆる[concept_diplomatic_play]に優柔不断な参加者です"
+ TRIGGER_IS_DIPLOMATIC_PLAY_UNDECIDED_PARTICIPANT_NOT:0 "いかなる[concept_diplomatic_play]でも優柔不断な参加者ではありません"
+ TRIGGER_IS_DIPLOMATIC_PLAY_TARGET:0 "あらゆる外交プレイの対象です"
+ TRIGGER_IS_DIPLOMATIC_PLAY_TARGET_NOT:0 "いかなる外交プレイでも対象ではありません"
+ TRIGGER_IS_DIPLOMATIC_PLAY_TYPE:0 "外交プレイは[DIPLOMATIC_PLAY_TYPE.GetName]です"
+ TRIGGER_IS_DIPLOMATIC_PLAY_TYPE_NOT:0 "外交プレイは[DIPLOMATIC_PLAY_TYPE.GetName]ではありません"
+ TRIGGER_HAS_PLAY_GOAL:0 "戦争目標[WAR_GOAL_TYPE.GetName]を掲げています"
+ TRIGGER_HAS_PLAY_GOAL_NOT:0 "戦争目標[WAR_GOAL_TYPE.GetName]を掲げていません"
+ TRIGGER_HAS_WAR_GOAL:0 "戦争目標[WAR_GOAL_TYPE.GetName]を掲げています"
+ TRIGGER_HAS_WAR_GOAL_NOT:0 "戦争目標[WAR_GOAL_TYPE.GetName]を掲げていません"
+ TRIGGER_IS_SUBJECT:0 "他国の臣下です"
+ TRIGGER_IS_SUBJECT_NOT:0 "他国の臣下ではありません"
+ TRIGGER_AGGRESSIVE_DIPLOMATIC_PLAYS_PERMITTED:0 "主従同意によって国家が独自の外交プレイを開始することが許可されています (あるいは国が臣下でない場合)"
+ TRIGGER_AGGRESSIVE_DIPLOMATIC_PLAYS_PERMITTED_NOT:0 "主従同意によって国家が独自の外交プレイを開始することが許可されていません"
+ TRIGGER_AVERAGE_COUNTRY_INFRASTRUCTURE:0 "国が所有する州すべての[concept_infrastructure]平均は$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_AVERAGE_COUNTRY_INFRASTRUCTURE_NOT:0 "国が所有する州すべての[concept_infrastructure]平均は$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_AVERAGE_INCORPORATED_COUNTRY_INFRASTRUCTURE:0 "国が所有する[Concept('concept_incorporated_state', '$concept_incorporated_states$')]の[concept_infrastructure]平均は$COMPARATOR$ #variable $NUM$#!です" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_AVERAGE_INCORPORATED_COUNTRY_INFRASTRUCTURE_NOT:0 "国が所有する[Concept('concept_incorporated_state', '$concept_incorporated_states$')]の[concept_infrastructure]平均は$COMPARATOR$ #variable $NUM$#!ではありません" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_WAR:0 "戦争状態に発展しました"
+ TRIGGER_IS_WAR_NOT:0 "戦争状態に発展しませんでした"
+ TRIGGER_IS_COUNTRY_TYPE:0 "#variable $COUNTRY_TYPE$#!です"
+ TRIGGER_IS_COUNTRY_TYPE_NOT:0 "#variable $COUNTRY_TYPE$#!ではありません"
+ TRIGGER_IS_SUBJECT_TYPE:0 "$SUBJECT_TYPE|v$-タイプの[concept_subject]です"
+ TRIGGER_IS_SUBJECT_TYPE_NOT:0 "$SUBJECT_TYPE|v$-タイプの[concept_subject]ではありません"
+ TRIGGER_CONTEXT_MARKET:0 "$NAME|v$"
+ TRIGGER_CONTEXT_STATE:0 "$NAME|v$"
+ TRIGGER_CONTEXT_COUNTRY:0 "$NAME|v$"
+ TRIGGER_CONTEXT_DEFAULT:0 "$NAME|v$"
+ TRIGGER_HAS_CULTURE:0 "文化は[CULTURE.GetName]です"
+ TRIGGER_HAS_CULTURE_NOT:0 "文化は[CULTURE.GetName]ではありません"
+ TRIGGER_HAS_RELIGION:0 "[TARGET_RELIGION.GetName]の実践者です"
+ TRIGGER_HAS_RELIGION_NOT:0 "[TARGET_RELIGION.GetName]の実践者ではありません"
+ TRIGGER_IS_EMPLOYED:0 "就業中です"
+ TRIGGER_IS_EMPLOYED_NOT:0 "失業中です"
+ TRIGGER_IS_POP_TYPE:0 "当POPは[POP_TYPE.GetName]です"
+ TRIGGER_IS_POP_TYPE_NOT:0 "当POPは[POP_TYPE.GetName]ではありません"
+ TRIGGER_HAS_TRAIT:0 "[CHARACTER_TRAIT.GetName]特性を持っています"
+ TRIGGER_HAS_TRAIT_NOT:0 "[CHARACTER_TRAIT.GetName]特性を持っていません"
+ TRIGGER_IS_FEMALE:0 "女性です"
+ TRIGGER_IS_FEMALE_NOT:0 "女性ではありません"
+ TRIGGER_IS_CHARACTER_ALIVE:0 "[CHARACTER.GetFullName]は存命中です"
+ TRIGGER_IS_CHARACTER_ALIVE_NOT:0 "[CHARACTER.GetFullName]は死亡しています"
+ TRIGGER_IS_BUSY:0 "多忙です"
+ TRIGGER_IS_BUSY_NOT:0 "多忙ではありません"
+ TRIGGER_IS_IN_VOID:0 "蒸発しました"
+ TRIGGER_IS_IN_VOID_NOT:0 "蒸発していません"
+ TRIGGER_IS_BUILDING_TYPE:0 "施設は[BUILDING_TYPE.GetName]です"
+ TRIGGER_IS_BUILDING_TYPE_NOT:0 "施設は[BUILDING_TYPE.GetName]ではありません"
+ TRIGGER_EXPECTED_QUALITY_OF_LIFE:0 "生活水準の期待値は$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_EXPECTED_QUALITY_OF_LIFE_NOT:0 "生活水準の期待値は$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_HAS_MODIFIER:0 "#variable $MODIFIER$#!係数を持っています"
+ TRIGGER_HAS_MODIFIER_NOT:0 "#variable $MODIFIER$#!係数を持っていません"
+ TRIGGER_HAS_EMPLOYEE_SLOTS_FILLED:0 "従業員の定員が埋まりました"
+ TRIGGER_HAS_EMPLOYEE_SLOTS_FILLED_NOT:0 "従業員の定員が埋まっていません"
+ TRIGGER_IS_DIPLOMATIC_PLAY_INITIATOR:0 "あらゆる外交プレイの開始者です"
+ TRIGGER_IS_DIPLOMATIC_PLAY_INITIATOR_NOT:0 "いかなる外交プレイの開始者ではありません"
+ TRIGGER_IN_DEFAULT:0 "債務不履行状態です　"
+ TRIGGER_IN_DEFAULT_NOT:0 "債務不履行状態ではありません　"
+ TRIGGER_IN_ELECTION_CAMPAIGN:0 "選挙活動期間中です"
+ TRIGGER_IN_ELECTION_CAMPAIGN_NOT:0 "選挙活動期間中ではありません"
+ TRIGGER_HAS_WAR_WITH:0 "[TARGET_COUNTRY.GetName]と戦争中です"
+ TRIGGER_HAS_WAR_WITH_NOT:0 "[TARGET_COUNTRY.GetName]と戦争中ではありません"
+ TRIGGER_HAS_DIPLOMATS_EXPELLED:0 "最近[TARGET_COUNTRY.GetName]の外交官を国外追放しました"
+ TRIGGER_HAS_DIPLOMATS_EXPELLED_NOT:0 "最近[TARGET_COUNTRY.GetName]の外交官を国外追放していません"
+ TRIGGER_HAS_STRATEGIC_ADJACENCY:0 "$TARGET$との戦略的隣接性があります"
+ TRIGGER_HAS_STRATEGIC_ADJACENCY_NOT:0 "$TARGET$との戦略的隣接性がありません"
+ TRIGGER_HAS_OVERLAPPING_INTERESTS:0 "[TARGET_COUNTRY.GetName]と[concept_interest]が重複しています"
+ TRIGGER_HAS_OVERLAPPING_INTERESTS_NOT:0 "[TARGET_COUNTRY.GetName]と[concept_interest]が重複していません"
+ TRIGGER_HAS_DIPLOMATIC_RELEVANCE:0 "[TARGET_COUNTRY.GetName]との外交関連性があります"
+ TRIGGER_HAS_DIPLOMATIC_RELEVANCE_NOT:0 "[TARGET_COUNTRY.GetName]との外交関連性がありません"
+ TRIGGER_HAS_CLAIM:0 "[TARGET_STATE_REGION.GetName]の所有権を[concept_claim]しています"
+ TRIGGER_HAS_CLAIM_NOT:0 "[TARGET_STATE_REGION.GetName]は所有権を[concept_claim]していません"
+ TRIGGER_HAS_CLAIM_BY:0 "[Country.GetName]が所有権を[Concept('concept_claim', '$concept_claimed$')]しています" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_CLAIM_BY_NOT:0 "[Country.GetName]は所有権を[Concept('concept_claim', '$concept_claimed$')]していません" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_IN_WAR_TOGETHER:0 "[TARGET_COUNTRY.GetName]の戦時同盟です"
+ TRIGGER_IS_IN_WAR_TOGETHER_NOT:0 "[TARGET_COUNTRY.GetName]の戦時同盟ではありません"
+ TRIGGER_IS_WARLEADER:0 "[TARGET_COUNTRY.GetName|v]は戦争リーダーです"
+ TRIGGER_IS_WARLEADER_NOT:0 "[TARGET_COUNTRY.GetName|v]は戦争リーダーではありません"
+ TRIGGER_IS_UNDER_CONSTRUCTION:0 "建設中です"
+ TRIGGER_IS_UNDER_CONSTRUCTION_NOT:0 "建設中ではありません"
+ # [LocEditor:UntranslatedKey] `TRIGGER_OWES_OBLIGATION_TO`
+ # [LocEditor:UntranslatedKey] `TRIGGER_OWES_OBLIGATION_TO_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_OWED_OBLIGATION_BY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_OWED_OBLIGATION_BY_NOT`
+ TRIGGER_HAS_SUBJECT_RELATION_WITH:0 "[TARGET_COUNTRY.GetName]との主従関係にあります"
+ TRIGGER_HAS_SUBJECT_RELATION_WITH_NOT:0 "[TARGET_COUNTRY.GetName]とは主従関係にありません"
+ TRIGGER_IS_SUBJECT_OF:0 "[TARGET_COUNTRY.GetName]の臣下です"
+ TRIGGER_IS_SUBJECT_OF_NOT:0 "[TARGET_COUNTRY.GetName]の臣下ではありません"
+ TRIGGER_HAS_DIPLOMATIC_PACT:0 "[TARGET_COUNTRY.GetName]との[DIPLOMATIC_ACTION_TYPE.GetName]があります"
+ TRIGGER_HAS_DIPLOMATIC_PACT_NOT:0 "[TARGET_COUNTRY.GetName]との[DIPLOMATIC_ACTION_TYPE.GetName]はありません"
+ TRIGGER_CAN_HAVE_AS_SUBJECT:0 "[COUNTRY.GetName]は、[TARGET_COUNTRY.GetName]を$SUBJECT_TYPE|v$-タイプの[concept_subject]として所有することができます"
+ TRIGGER_CAN_HAVE_AS_SUBJECT_NOT:0 "[COUNTRY.GetName]は、[TARGET_COUNTRY.GetName]を$SUBJECT_TYPE|v$-タイプの[concept_subject]として所有することはできません"
+ TRIGGER_HAS_STRATEGY:0 "#variable [AIStrategy.GetName]#!戦略を所持しています"
+ TRIGGER_HAS_STRATEGY_NOT:0 "#variable [AIStrategy.GetName]#!戦略を所持していません"
+ TRIGGER_HAS_ATTITUDE:0 "[TARGET_COUNTRY.GetName]への態度は#variable $ATTITUDE$#!です"
+ TRIGGER_HAS_ATTITUDE_NOT:0 "[TARGET_COUNTRY.GetName]への態度は#variable $ATTITUDE$#!ではありません"
+ TRIGGER_HAS_SECRET_GOAL:0 "[TARGET_COUNTRY.GetName]に対する極秘目標#variable $SECRET_GOAL$#!があります"
+ TRIGGER_HAS_SECRET_GOAL_NOT:0 "[TARGET_COUNTRY.GetName]に対する極秘目標#variable $SECRET_GOAL$#!はありません"
+ TRIGGER_MODIFIER_EQUAL:0 "#variable $MODIFIER_NAME$#!係数の値は#variable $VALUE$#!と同じです"
+ TRIGGER_CAN_TAKE_ON_SCALED_DEBT:0 "[TARGET_COUNTRY.GetAdjective|v]の債務@money!#variable $VALUE|K0$#!を肩代わりできます" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_CAN_TAKE_ON_SCALED_DEBT_NOT:0 "[TARGET_COUNTRY.GetAdjective|v]の債務@money!#variable $VALUE|K0$#!を肩代わりできません" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_CAN_HAVE_SUBJECTS:0 "[COUNTRY.GetName]には臣下がいます"
+ TRIGGER_CAN_HAVE_SUBJECTS_NOT:0 "[COUNTRY.GetName]には臣下がいません"
+ TRIGGER_IS_IN_CUSTOMS_UNION:0 "[Country.GetName]は関税同盟の一員です"
+ TRIGGER_IS_IN_CUSTOMS_UNION_NOT:0 "[Country.GetName]は関税同盟の一員ではありません"
+ TRIGGER_LEADS_CUSTOMS_UNION:0 "[Country.GetName]が関税同盟を主導しています"
+ TRIGGER_LEADS_CUSTOMS_UNION_NOT:0 "[Country.GetName]は関税同盟を主導していません"
+ TRIGGER_LITERACY_RATE:0 "$SUBJECT$の識字率は$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_LITERACY_RATE_NOT:0 "$SUBJECT$の識字率は$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_HAS_SCALED_DEBT:0 "$COMPARATOR$ @money!#variable $VALUE|K0$#!の債務があります"
+ TRIGGER_HAS_SCALED_DEBT_NOT:0 "$COMPARATOR$ @money!#variable $VALUE|K0$#!の債務はありません"
+ TRIGGER_RELATIONS:0 "#variable $COUNTRY_ADJ$#!と#variable $TARGET_COUNTRY$#!との関係は$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_RELATIONS_NOT:0 "#variable $COUNTRY_ADJ$#!と#variable $TARGET_COUNTRY$#!との関係は$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_ARABLE_LAND:0 "耕作地$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_ARABLE_LAND_NOT:0 "耕作地$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_FREE_ARABLE_LAND:0 "利用可能な耕作地$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_FREE_ARABLE_LAND_NOT:0 "利用可能な耕作地$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_TREASURY:0 "国庫$COMPARATOR$ @money!#variable $NUM$#!です"
+ TRIGGER_TREASURY_NOT:0 "国庫$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_INTEREST_GROUP_POPULATION:0 "人口$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_INTEREST_GROUP_POPULATION_NOT:0 "人口$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_WEEKLY_PROFIT:0 "週次利益 $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_WEEKLY_PROFIT_NOT:0 "週次利益 $COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_OCCUPANCY:0 "労働者の[BUILDING.GetName]占有率は$COMPARATOR$ #variable $NUM|%0v$#!です"
+ TRIGGER_OCCUPANCY_NOT:0 "労働者の[BUILDING.GetName]占有率は$COMPARATOR$ #variable $NUM|%0v$#!ではありません"
+ TRIGGER_INTEREST_GROUP_POPULATION_PERCENTAGE:0 "国民人口の比率は$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_INTEREST_GROUP_POPULATION_PERCENTAGE_NOT:0 "国民人口の比率は$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_HAS_TECHNOLOGY_PROGRESS:0 "[TECHNOLOGY.GetName]の技術進捗は$COMPARATOR$ #variable $NUM|%$#!です"
+ TRIGGER_HAS_TECHNOLOGY_PROGRESS_NOT:0 "[TECHNOLOGY.GetName]の技術進捗は$COMPARATOR$ #variable $NUM|%$#!ではありません"
+ TRIGGER_ESCALATION:0 "深刻度 $COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_ESCALATION_NOT:0 "深刻度 $COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_STRATA:0 "階層は$COMPARATOR$ $STRATA$です"
+ TRIGGER_STRATA_NOT:0 "階層は$COMPARATOR$ $STRATA$ではありません"
+ TRIGGER_AGE:0 "年齢は$COMPARATOR$ $NUM|v$です"
+ TRIGGER_AGE_NOT:0 "年齢は$COMPARATOR$ $NUM|v$ではありません"
+ TRIGGER_COMMANDER_RANK:0 "司令官ランクは$COMPARATOR$ $NUM|v$です"
+ TRIGGER_COMMANDER_RANK_NOT:0 "司令官ランクは$COMPARATOR$ $NUM|v$ではありません"
+ TRIGGER_ARMY_RESERVES:0 "陸軍予備役は$COMPARATOR$ $NUM|v$です"
+ TRIGGER_ARMY_RESERVES_NOT:0 "陸軍予備役は$COMPARATOR$ $NUM|v$ではありません"
+ TRIGGER_NAVY_RESERVES:0 "海軍予備役は$COMPARATOR$ $NUM|v$です"
+ TRIGGER_NAVY_RESERVES_NOT:0 "海軍予備役は$COMPARATOR$ $NUM|v$ではありません"
+ TRIGGER_QUALITY_OF_LIFE:0 "生活水準$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_QUALITY_OF_LIFE_NOT:0 "生活水準$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_STANDARD_OF_LIVING:0 "生活水準$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_STANDARD_OF_LIVING_NOT:0 "生活水準$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_FULLFILLMENT:0 "納品達成率$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_FULLFILLMENT_NOT:0 "納品達成率$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_TURMOIL:0 "騒乱は $COMPARATOR$ #variable $NUM|%$#!です"
+ TRIGGER_TURMOIL_NOT:0 "騒乱は $COMPARATOR$ #variable $NUM|%$#!ではありません"
+ TRIGGER_LOYALTY:0 "政府体制支持者は$COMPARATOR$ #variable $NUM|%$#!です"
+ TRIGGER_LOYALTY_NOT:0 "政府体制支持者は$COMPARATOR$ #variable $NUM|%$#!ではありません"
+ TRIGGER_POLLUTION_GENERATION:0 "総汚染発生率は$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_POLLUTION_GENERATION_NOT:0 "総汚染発生率は$COMPARATOR$ #variable $NUM$#!ではありません"
+ # [LocEditor:UntranslatedKey] `TRIGGER_INCORPORATION_PROGRESS`
+ # [LocEditor:UntranslatedKey] `TRIGGER_INCORPORATION_PROGRESS_NOT`
+ TRIGGER_IS_IN_REVOLT:0 "政府体制支持者$COMPARATOR$ #variable $NUM|%$#!です"
+ TRIGGER_IS_IN_REVOLT_NOT:0 "政府体制支持者$COMPARATOR$ #variable $NUM|%$#!ではありません"
+ TRIGGER_INFRASTRUCTURE:0 "インフラ$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_INFRASTRUCTURE_NOT:0 "インフラ$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_INFRASTRUCTURE_USAGE:0 "インフラ使用率$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_INFRASTRUCTURE_USAGE_NOT:0 "インフラ使用率$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_DEVASTATION:0 "戦禍は$COMPARATOR$ #variable $NUM|%$#!です"
+ TRIGGER_DEVASTATION_NOT:0 "戦禍は$COMPARATOR$ #variable $NUM|%$#!ではありません"
+ TRIGGER_TOTAL_URBANIZATION:0 "都市化合計$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_TOTAL_URBANIZATION_NOT:0 "都市化合計$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_TOTAL_POPULATION:0 "総人口$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_TOTAL_POPULATION_NOT:0 "総人口$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_INVESTMENT_POOL:0 "投資プール$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_INVESTMENT_POOL_NOT:0 "投資プール$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_HIGHEST_SECESSION_PROGRESS:0 "最大規模の分離運動進捗$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_HIGHEST_SECESSION_PROGRESS_NOT:0 "最大規模の分離運動進捗$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_REVOLUTION_PROGRESS:0 "革命の進捗$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_REVOLUTION_PROGRESS_NOT:0 "革命の進捗$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_IS_INTEREST_ACTIVE:0 "[concept_interest]は[concept_active_interest]です"
+ TRIGGER_IS_INTEREST_ACTIVE_NOT:0 "[concept_interest]は[concept_active_interest]ではありません"
+ CHECK_AREA_TRIGGER_ADJACENT:0 "$TARGET$に隣接しています"
+ CHECK_AREA_TRIGGER_ADJACENT_NOT:0 "$TARGET$に隣接していません"
+ CHECK_AREA_TRIGGER_INTERSECTING:0 "$TARGET$を横切ります"
+ CHECK_AREA_TRIGGER_INTERSECTING_NOT:0 "$TARGET$を横切りません"
+ CHECK_AREA_TRIGGER_ADJACENT_INTERSECTING:0 "$TARGET$と隣接している、あるいは領土を横切ります"
+ CHECK_AREA_TRIGGER_ADJACENT_INTERSECTING_NOT:0 "$TARGET$と隣接していない、あるいは領土を横切りません"
+ TRIGGER_DIP_POWER:0 "#variable 外交パワー#! (@inf!) $COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_DIP_POWER_NOT:0 "#variable 外交パワー#! (@inf!) $COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_COUNTRY_RANK:0 "#variable $NAME_ADJ$#!の戦力ランクは$COMPARATOR$ $RANK|v$です" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_COUNTRY_RANK_NOT:0 "#variable $NAME_ADJ$#!の戦力ランクは$COMPARATOR$ $RANK|v$ではありません" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_RANK_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_RANK_THIRD_NOT`
+ TRIGGER_GLOBAL_COUNTRY_RANKING:0 "#variable $NAME_ADJ$#!のランクは$COMPARATOR$ $NUM|v$です" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_GLOBAL_COUNTRY_RANKING_NOT:0 "#variable $NAME_ADJ$#!の戦力ランクは$COMPARATOR$ $NUM|v$ではありません" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_GLOBAL_COUNTRY_RANKING_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_GLOBAL_COUNTRY_RANKING_THIRD_NOT`
+ TRIGGER_GOVERNMENT_LEGITIMACY:0 "#variable $NAME_ADJ$#!の[concept_legitimacy]は$COMPARATOR$ #variable $NUM$#!です" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_GOVERNMENT_LEGITIMACY_NOT:0 "#variable $NAME_ADJ$#!の[concept_legitimacy]は$COMPARATOR$ #variable $NUM$#!ではありません" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_GOVERNMENT_LEGITIMACY_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_GOVERNMENT_LEGITIMACY_THIRD_NOT`
+ TRIGGER_COUNTRY_TIER:0 "#variable [COUNTRY.GetName]の[concept_country_tier]は$TIER|v$です"
+ TRIGGER_COUNTRY_TIER_NOT:0 "#variable [COUNTRY.GetName]の[concept_country_tier]は$TIER|v$ではありません"
+ CONTEXT_TRIGGER_SCOPE_NAME:0 "$NAME|V$:"
+ CONTEXT_SWITCH_CHARACTER:0 "$NAME|v$"
+ CONTEXT_SWITCH_DIPLOMATIC_PLAY:0 "$NAME|v$"
+ TRIGGER_HAS_DIPLOMATIC_PLAY:0 "[STRATEGIC_REGION.GetName]で外交プレイが進行中です"
+ TRIGGER_HAS_DIPLOMATIC_PLAY_NOT:0 "[STRATEGIC_REGION.GetName]で外交プレイが進行中ではありません"
+ ANY_KEY:0 "どれでも"
+ COLONY_KEY:0 "植民地"
+ TRIGGER_IS_BUILDING_CATEGORY:0 "$CATEGORY$です"
+ TRIGGER_IS_BUILDING_CATEGORY_NOT:0 "$CATEGORY$ではありません"
+ TRIGGER_IS_MARGINAL:0 "利益団体は[concept_marginalized]です"
+ TRIGGER_IS_MARGINAL_NOT:0 "利益団体は[concept_marginalized]ではありません"
+ TRIGGER_IS_POWERFUL:0 "利益団体は[concept_powerful]です"
+ TRIGGER_IS_POWERFUL_NOT:0 "利益団体は[concept_powerful]ではありません"
+ TRIGGER_POP_EMPLOYMENT_BUILDING_GROUP:0 "#variable $BUILDING_GROUP$#!施設で就業中です"
+ TRIGGER_POP_EMPLOYMENT_BUILDING_GROUP_NOT:0 "#variable $BUILDING_GROUP$#!施設で就業中ではありません"
+ TRIGGER_POP_EMPLOYMENT_BUILDING:0 "[BUILDING.GetName]で就業中です" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_POP_EMPLOYMENT_BUILDING_NOT:0 "[BUILDING.GetName]で就業中ではありません" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_POP_CULTURE:0 "[CULTURE.GetName]文化を持っています"
+ TRIGGER_HAS_POP_CULTURE_NOT:0 "[CULTURE.GetName]文化を持っていません"
+ TRIGGER_HAS_POP_RELIGION:0 "[RELIGION.GetName]宗教を有しています"
+ TRIGGER_HAS_POP_RELIGION_NOT:0 "[RELIGION.GetName]宗教を有していません"
+ TRIGGER_STATE_RELIGION:0 "[concept_state_religion]は[RELIGION.GetName]です"
+ TRIGGER_STATE_RELIGION_NOT:0 "[concept_state_religion]は[RELIGION.GetName]ではありません"
+ TRIGGER_POP_IS_DISCRIMINATED:0 "母国で差別待遇を受けています"
+ TRIGGER_POP_IS_DISCRIMINATED_NOT:0 "母国で差別待遇を受けていません"
+ TRIGGER_POP_HAS_PRIMARY_CULTURE:0 "母国の主要文化に属しています"
+ TRIGGER_POP_HAS_PRIMARY_CULTURE_NOT:0 "母国の主要文化に属していません"
+ TRIGGER_CULTURE_ACCEPTED:0 "母国において容認されていると考えられている文化です"
+ TRIGGER_CULTURE_ACCEPTED_NOT:0 "母国において容認されていると考えられている文化ではありません"
+ TRIGGER_RELIGION_ACCEPTED:0 "母国において容認されていると考えられている宗教です"
+ TRIGGER_RELIGION_ACCEPTED_NOT:0 "母国において容認されていると考えられている宗教ではありません"
+ TRIGGER_WEALTH:0 "$COMPARATOR$ #variable $NUM$#!の財力を有しています"
+ TRIGGER_WEALTH_NOT:0 "$COMPARATOR$ #variable $NUM$#!の財力を有していません"
+ TRIGGER_IS_PRIMARY_CULTURE_OF:0 "[Culture.GetName]を主要文化として有しています"
+ TRIGGER_IS_PRIMARY_CULTURE_OF_NOT:0 "[Culture.GetName]を主要文化として有していません"
+ TRIGGER_SHARES_TRAIT_WITH_ANY_PRIMARY_CULTURE:0 "[CULTURE.GetName]は[TARGET_COUNTRY.GetName]のあらゆる主要文化に共通する特性を持っています"
+ TRIGGER_SHARES_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOT:0 "[CULTURE.GetName]は[TARGET_COUNTRY.GetName]のいかなる主要文化とも特性を共有していません"
+ TRIGGER_SHARES_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE:0 "[CULTURE.GetName]は[TARGET_COUNTRY.GetName]のあらゆる主要文化に共通する遺伝形質を持っています"
+ TRIGGER_SHARES_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOT:0 "[CULTURE.GetName]は[TARGET_COUNTRY.GetName]のいかなる主要文化とも遺伝形質を共有していません"
+ TRIGGER_SHARES_NON_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE:0 "[CULTURE.GetName]は[TARGET_COUNTRY.GetName]のあらゆる主要文化に共通する非遺伝形質を持っています"
+ TRIGGER_SHARES_NON_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOT:0 "[CULTURE.GetName]は[TARGET_COUNTRY.GetName]のいかなる主要文化とも非遺伝形質を共有していません"
+ # [LocEditor:UntranslatedKey] `TRIGGER_SHARES_HERITAGE_AND_OTHER_TRAIT_WITH_ANY_PRIMARY_CULTURE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_SHARES_HERITAGE_AND_OTHER_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOT`
+ TRIGGER_SHARES_TRAIT_WITH_STATE_RELIGION:0 "[RELIGION.GetName]は[TARGET_COUNTRY.GetName]の[concept_state_religion]と特性を共有しています"
+ TRIGGER_SHARES_TRAIT_WITH_STATE_RELIGION_NOT:0 "[RELIGION.GetName]は[TARGET_COUNTRY.GetName]の[concept_state_religion]と特性を共有していません"
+ TRIGGER_SHARES_HERITAGE_TRAIT_WITH_STATE_RELIGION:0 "[RELIGION.GetName]は[TARGET_COUNTRY.GetName]の[concept_state_religion]と特性を共有しています"
+ TRIGGER_SHARES_HERITAGE_TRAIT_WITH_STATE_RELIGION_NOT:0 "[RELIGION.GetName]は[TARGET_COUNTRY.GetName]の[concept_state_religion]と特性を共有していません"
+ TRIGGER_MOST_POWERFUL_STRATA:0 "#variable $TYPE$#!が最も強い政治力を持っています"
+ TRIGGER_MOST_POWERFUL_STRATA_NOT:0 "#variable $TYPE$#!は最も強い政治力を持っていません"
+ TRIGGER_IS_INCORPORATED:0 "併合されています"
+ TRIGGER_IS_INCORPORATED_NOT:0 "併合されていません"
+ TRIGGER_IS_MASS_MIGRATION_TARGET:0 "[concept_state] [STATE.GetName]は[concept_mass_migration_target]です"
+ TRIGGER_IS_MASS_MIGRATION_TARGET_NOT:0 "[concept_state] [STATE.GetName]は[concept_mass_migration_target]ではありません"
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_SPLIT_STATE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_SPLIT_STATE_NOT`
+ TRIGGER_IS_LARGEST_STATE_IN_REGION:0 "[concept_state_region]で最大の[concept_state]です"
+ TRIGGER_IS_LARGEST_STATE_IN_REGION_NOT:0 "[concept_state_region]で最大の[concept_state]ではありません"
+ TRIGGER_IS_COASTAL:0 "沿岸部です"
+ TRIGGER_IS_COASTAL_NOT:0 "沿岸部ではありません"
+ TRIGGER_HAS_PORT:0 "稼働中の港湾を所有しています"
+ TRIGGER_HAS_PORT_NOT:0 "稼働中の港湾を所有していません"
+ TRIGGER_IS_AT_WAR:0 "戦争中です" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_AT_WAR_NOT:0 "戦争中ではありません" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_AT_WAR_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_AT_WAR_THIRD_NOT`
+ TRIGGER_IS_RESEARCHING_TECHNOLOGY:0 "$TECHNOLOGY|v$技術を研究中です"
+ TRIGGER_IS_RESEARCHING_TECHNOLOGY_NOT:0 "$TECHNOLOGY|v$技術を研究していません"
+ TRIGGER_IS_RESEARCHING_TECHNOLOGY_CATEGORY:0 "$TECHNOLOGY_CAT|v$技術分類を研究中です"
+ TRIGGER_IS_RESEARCHING_TECHNOLOGY_CATEGORY_NOT:0 "$TECHNOLOGY_CAT|v$技術分類を研究していません"
+ TRIGGER_HAS_RESEARCHABLE_TECHNOLOGY:0 "研究できる技術が残っています"
+ TRIGGER_HAS_RESEARCHABLE_TECHNOLOGY_NOT:0 "研究できる技術が残っていません"
+ TRIGGER_SHOULD_SET_WARGOAL:0 "外交プレイにおける主要な戦争目標が不足しています"
+ TRIGGER_SHOULD_SET_WARGOAL_NOT:0 "外交プレイにおける主要な戦争目標は不足していません"
+ TRIGGER_IS_LOSING_POWER_RANK:0 "現在の戦力ランクを失います"
+ TRIGGER_IS_LOSING_POWER_RANK_NOT:0 "現在の戦力ランクは失われません"
+ TRIGGER_HAS_DECREASING_INTERESTS:0 "関心が薄れています"
+ TRIGGER_HAS_DECREASING_INTERESTS_NOT:0 "関心は薄れていません"
+ TRIGGER_IS_IN_GOVERNMENT:0 "政府の所属です"
+ TRIGGER_IS_IN_GOVERNMENT_NOT:0 "政府の所属ではありません"
+ TRIGGER_IG_APPROVAL:0 "承認は$COMPARATOR$ #variable $NUM|0+=$#!です"
+ TRIGGER_IG_APPROVAL_NOT:0 "承認は$COMPARATOR$ #variable $NUM|0+=$#!ではありません"
+ TRIGGER_IG_CLOUT:0 "影響力は$COMPARATOR$ #variable $NUM|0%$#!です"
+ TRIGGER_IG_CLOUT_NOT:0 "影響力は$COMPARATOR$ #variable $NUM|0%$#!ではありません"
+ TRIGGER_IG_GOVERNMENT_POWER_SHARE:0 "[INTEREST_GROUP.GetCountry.GetName]における政治力は、政府の$COMPARATOR$ #variable $NUM|0%$#!です"
+ TRIGGER_IG_GOVERNMENT_POWER_SHARE_NOT:0 "[INTEREST_GROUP.GetCountry.GetName]における政治力は、政府の$COMPARATOR$ #variable $NUM|0%$#!ではありません"
+ TRIGGER_IG_STATE_POL_STRENGTH_SHARE:0 "[TARGET_INTEREST_GROUP.GetName]の政治力は$COMPARATOR$ $NUM|%$です"
+ TRIGGER_IG_STATE_POL_STRENGTH_SHARE_NOT:0 "[TARGET_INTEREST_GROUP.GetName]の政治力は$COMPARATOR$ $NUM|%$ではありません"
+ TRIGGER_HAS_LAW:0 "[TARGET_LAW_TYPE.GetName]を制定しました"
+ TRIGGER_HAS_LAW_NOT:0 "[TARGET_LAW_TYPE.GetName]を制定していません"
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_LAW_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_LAW_THIRD_NOT`
+ TRIGGER_HAS_GOVERNMENT_CLOUT:0 "政府には$COMPARATOR$ #variable $NUM|0%$#!の影響力があります"
+ TRIGGER_HAS_GOVERNMENT_CLOUT_NOT:0 "政府には$COMPARATOR$ #variable $NUM|0%$#!の影響力がありません"
+ TRIGGER_HAS_RULING_INTEREST_GROUP:0 "政府には#variable $INTEREST_GROUP_TYPE$#!が含まれます"
+ TRIGGER_HAS_RULING_INTEREST_GROUP_NOT:0 "政府には#variable $INTEREST_GROUP_TYPE$#!が含まれません"
+ TRIGGER_HAS_RULING_INTEREST_GROUP_COUNT:0 "政府には$COMPARATOR$ #variable $NUM|0$#!の利益団体が所属しています"
+ TRIGGER_HAS_RULING_INTEREST_GROUP_COUNT_NOT:0 "政府には$COMPARATOR$ #variable $NUM|0$#!の利益団体が所属していません"
+ TRIGGER_HAS_IDEOLOGY:0 "[concept_ideology] [IDEOLOGY.GetName]を有しています"
+ TRIGGER_HAS_IDEOLOGY_NOT:0 "[concept_ideology] [IDEOLOGY.GetName]を有していません"
+ TRIGGER_LAW_STANCE:0 "[TARGET_LAW_TYPE.GetName]でのスタンスは$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_LAW_STANCE_NOT:0 "[TARGET_LAW_TYPE.GetName]でのスタンスは$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_IS_GOAL_COMPLETE:0 "[JOURNAL_ENTRY.GetGoalDesc]"
+ TRIGGER_IS_GOAL_COMPLETE_NOT:0 "[JOURNAL_ENTRY.GetGoalDesc]"
+ TRIGGER_COUNTRY_HAS_PRIMARY_CULTURE:0 "[TARGET_CULTURE.GetName]は国にとって最重要です　"
+ TRIGGER_COUNTRY_HAS_PRIMARY_CULTURE_NOT:0 "[TARGET_CULTURE.GetName]は国にとって最重要ではありません"
+ TRIGGER_COUNTRY_HAS_STATE_RELIGION:0 "[concept_state_religion]として宗教[TARGET_RELIGION.GetName]を掲げています"
+ TRIGGER_COUNTRY_HAS_STATE_RELIGION_NOT:0 "[concept_state_religion]として宗教[TARGET_RELIGION.GetName]を掲げていません"
+ TRIGGER_HAS_ROLE:0 "#variable $ROLE$#!の役割を持っています"
+ TRIGGER_HAS_ROLE_NOT:0 "#variable $ROLE$#!の役割を持っていません"
+ TRIGGER_IS_MONARCH:0 "君主制です"
+ TRIGGER_IS_MONARCH_NOT:0 "君主制ではありません"
+ TRIGGER_IS_RULER:0 "支配者です"
+ TRIGGER_IS_RULER_NOT:0 "支配者ではありません"
+ TRIGGER_IS_MOBILIZED:0 "[Concept('concept_mobilize_general', '$concept_mobilize_general_mobilized$]です"
+ TRIGGER_IS_MOBILIZED_NOT:0 "[Concept('concept_mobilize_general', '$concept_mobilize_general_mobilized$]ではありません"
+ TRIGGER_HAS_GOVERNMENT_TYPE:0 "[GOVERNMENT_TYPE.GetName]の政府タイプを有しています"
+ TRIGGER_HAS_GOVERNMENT_TYPE_NOT:0 "[GOVERNMENT_TYPE.GetName]の政府タイプを有していません"
+ TRIGGER_HAS_RADICALIZED_INTEREST_GROUPS:0 "急進的な利益団体を擁しています"
+ TRIGGER_HAS_RADICALIZED_INTEREST_GROUPS_NOT:0 "急進的な利益団体を擁していません"
+ TRIGGER_HAS_INSURRECTIONARY_INTEREST_GROUPS:0 "反乱革命主義的な利益団体を擁しています"
+ TRIGGER_HAS_INSURRECTIONARY_INTEREST_GROUPS_NOT:0 "反乱革命主義的な利益団体を擁していません"
+ TRIGGER_HAS_RADICALIZING_INTEREST_GROUPS:0 "先鋭化している利益団体を擁しています"
+ TRIGGER_HAS_RADICALIZING_INTEREST_GROUPS_NOT:0 "先鋭化している利益団体を擁していません"
+ TRIGGER_HAS_HEALTHY_ECONOMY:0 "健全な経済を有しています"
+ TRIGGER_HAS_HEALTHY_ECONOMY_NOT:0 "健全な経済を有していません"
+ TRIGGER_UNUSED_TRADE_ROUTES:0 "$COMPARATOR$ #variable $NUM|0$#!の未使用[Concept('concept_trade_route', '$concept_trade_routes$')]が存在します"
+ TRIGGER_UNUSED_TRADE_ROUTES_NOT:0 "$COMPARATOR$ #variable $NUM|0$#!の未使用[Concept('concept_trade_route', '$concept_trade_routes$')]は存在しません"
+ TRIGGER_UNUSED_TRADE_ROUTES_IN_MARKET:0 "[MARKET.GetName]の未使用[Concept('concept_trade_route', '$concept_trade_routes$')]$COMPARATOR$ $NUM|0$です"
+ TRIGGER_UNUSED_TRADE_ROUTES_IN_MARKET_NOT:0 "[MARKET.GetName]の未使用[Concept('concept_trade_route', '$concept_trade_routes$')]$COMPARATOR$ $NUM|0$ではありません"
+ TRIGGER_ISOLATED_STATES:0 "$COMPARATOR$ #variable $NUM|0$#!の[Concept('concept_isolated_state', '$concept_isolated_states$')]が存在します" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ISOLATED_STATES_NOT:0 "$COMPARATOR$ #variable $NUM|0$#!の[Concept('concept_isolated_state', '$concept_isolated_states$')]は存在しません" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_ISOLATED_FROM_MARKET:0 "[STATE.GetName]は[concept_isolated_state]です"
+ TRIGGER_IS_ISOLATED_FROM_MARKET_NOT:0 "[STATE.GetName]は[concept_isolated_state]ではありません"
+ TRIGGER_HAS_REVOLUTION:0 "革命中です"
+ TRIGGER_HAS_REVOLUTION_NOT:0 "革命中ではありません"
+ TRIGGER_IS_REVOLUTIONARY:0 "革命に向かっています"
+ TRIGGER_IS_REVOLUTIONARY_NOT:0 "革命に向かっていません"
+ # [LocEditor:UntranslatedKey] `TRIGGER_CIVIL_WAR_PROGRESS_GAIN`
+ # [LocEditor:UntranslatedKey] `TRIGGER_CIVIL_WAR_PROGRESS_GAIN_NOT`
+ TRIGGER_HAS_ANY_SECESSIONISTS_POSSIBLE:0 "分離派論者による活動の可能性があります"
+ TRIGGER_HAS_ANY_SECESSIONISTS_POSSIBLE_NOT:0 "分離派論者による活動の可能性はありません"
+ TRIGGER_HAS_ANY_SECESSIONISTS_GROWING:0 "分離派論者による活動の可能性が高まっています"
+ TRIGGER_HAS_ANY_SECESSIONISTS_GROWING_NOT:0 "分離派論者による活動の可能性は高まっていません"
+ TRIGGER_HAS_ANY_SECESSIONISTS_BROKEN_OUT:0 "分離している国が存在します"
+ TRIGGER_HAS_ANY_SECESSIONISTS_BROKEN_OUT_NOT:0 "分離している国は存在しません"
+ TRIGGER_ACTIVE_LENS:0 "$LENS$がアクティブです"
+ TRIGGER_ACTIVE_LENS_NOT:0 "$LENS$は非アクティブです"
+ TRIGGER_IS_PANEL_OPEN:0 "$PANEL$ $TAB_NAME$が開いています"
+ TRIGGER_IS_PANEL_OPEN_NOT:0 "$PANEL$ $TAB_NAME$は開いていません"
+ TRIGGER_IS_PRODUCTION_METHOD_ACTIVE:0 "製法[PRODUCTION_METHOD.GetName]を使っている[BUILDING_TYPE.GetName]があります"
+ TRIGGER_IS_PRODUCTION_METHOD_ACTIVE_NOT:0 "製法[PRODUCTION_METHOD.GetName]を使っている[BUILDING_TYPE.GetName]はありません"
+ TRIGGER_CAN_ACTIVATE_PRODUCTION_METHOD:0 "製法[PRODUCTION_METHOD.GetName]を稼働できる[BUILDING_TYPE.GetName]があります"
+ TRIGGER_CAN_ACTIVATE_PRODUCTION_METHOD_NOT:0 "製法「[PRODUCTION_METHOD.GetName]を稼働できる[BUILDING_TYPE.GetName]はありません"
+ TRIGGER_EXPERIENCE_LEVEL:0 "経験レベルは$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_EXPERIENCE_LEVEL_NOT:0 "経験レベルは$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_OWNS_TREATY_PORT_IN:0 "[STATE_REGION.GetName]に条約港を所有しています"
+ TRIGGER_OWNS_TREATY_PORT_IN_NOT:0 "[STATE_REGION.GetName]に条約港を所有していません"
+ TRIGGER_COUNTRY_DEFINITION_HAS_CULTURE:0 "文化「[TARGET_CULTURE.GetName]を有しています"
+ TRIGGER_COUNTRY_DEFINITION_HAS_CULTURE_NOT:0 "文化「[TARGET_CULTURE.GetName]を有していません"
+ TRIGGER_IS_HOME_COUNTRY_FOR:0 "[TARGET_COUNTRY.GetName]の本国です"
+ TRIGGER_IS_HOME_COUNTRY_FOR_NOT:0 "[TARGET_COUNTRY.GetName]の本国ではありません"
+ TRIGGER_ANY_SCOPE_STATE_PERCENT_GREATER_THAN:0 "指定された比率要件が満たされています"
+ TRIGGER_IS_LAND_THEATER:0 "陸戦場です"
+ TRIGGER_IS_LAND_THEATER_NOT:0 "陸戦場ではありません"
+ violate_sovereignty_trigger_not:0 "双方の戦争リーダーと隣接している陸戦場が必須です"
+ TRIGGER_IS_SLAVE_STATE:0 "[STATE.GetName]は奴隷州です。"
+ TRIGGER_IS_SLAVE_STATE_NOT:0 "[STATE.GetName]は奴隷州ではありません。"
+ TRIGGER_HAS_DLC:0 "DLC #variable $DLC$#!を所有しています"
+ TRIGGER_HAS_DLC_NOT:0 "DLC #variable $DLC$#!を所有していません"
+ TRIGGER_OWNS_ENTIRE_STATE_REGION:0 "すべての[StateRegion.GetName]を所有しています"
+ TRIGGER_OWNS_ENTIRE_STATE_REGION_NOT:0 "すべての[StateRegion.GetName]を所有していません"
+ TRIGGER_COUNTRY_OR_SUBJECT_OWNS_ENTIRE_STATE_REGION:0 "[StateRegion.GetName]は国家あるいはその臣下の所有です"
+ TRIGGER_COUNTRY_OR_SUBJECT_OWNS_ENTIRE_STATE_REGION_NOT:0 "[StateRegion.GetName]は国家あるいはその臣下の所有ではありません"
+ TRIGGER_HAS_STATE_IN_STATE_REGION:0 "[STATE_REGION.GetName]に州を有しています"
+ TRIGGER_HAS_STATE_IN_STATE_REGION_NOT:0 "[STATE_REGION.GetName]に州を有していません"
+ TRIGGER_HAS_ASSIMILATING_POPS:0 "[STATE.GetName]には[Concept('concept_assimilation', '$concept_assimilating$')]された[Concept('concept_pop', '$concept_pops$')]がいます。" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_ASSIMILATING_POPS_NOT:0 "[STATE.GetName]には[Concept('concept_assimilation', '$concept_assimilating$')]された[Concept('concept_pop', '$concept_pops$')]はいません。" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_CONVERTING_POPS:0 "[STATE.GetName]には[Concept('concept_conversion', '$concept_converting$')]された[Concept('concept_pop', '$concept_pops$')]がいます。" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_CONVERTING_POPS_NOT:0 "[STATE.GetName]には[Concept('concept_conversion', '$concept_converting$')]された[Concept('concept_pop', '$concept_pops$')]はいません。" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_APPROACHING_BUREAUCRACY_SHORTAGE:0 "この国は間もなく$BUREAUCRACY$不足に突入します"
+ TRIGGER_APPROACHING_BUREAUCRACY_SHORTAGE_NOT:0 "この国は間もなく$BUREAUCRACY$不足に突入しません"
+ TRIGGER_IS_CONSTRUCTION_PAUSED:0 "建設は一時停止中です"
+ TRIGGER_IS_CONSTRUCTION_PAUSED_NOT:0 "建設は一時停止中ではありません"
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_WASTED_CONSTRUCTION`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_WASTED_CONSTRUCTION_NOT`
+ TRIGGER_HAS_DISCRIMINATION_TRAIT:0 "$SUBJECT$は$TRAIT|v$の特性を持っています"
+ TRIGGER_HAS_DISCRIMINATION_TRAIT_NOT:0 "$SUBJECT$は$TRAIT|v$の特性を持っていません"
+ TRIGGER_IS_INSURRECTIONARY:0 "[INTEREST_GROUP.GetName]は反乱革命主義的です" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_INSURRECTIONARY_NOT:0 "[INTEREST_GROUP.GetName]は反乱革命主義的ではありません" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_INSURRECTIONARY_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_INSURRECTIONARY_THIRD_NOT`
+ TRIGGER_IS_BEING_SUPPRESSED:0 "[INTEREST_GROUP.GetName]は現在抑圧されています"
+ TRIGGER_IS_BEING_SUPPRESSED_NOT:0 "[INTEREST_GROUP.GetName]は現在抑圧されていません"
+ TRIGGER_IS_BEING_PROMOTED:0 "[INTEREST_GROUP.GetName]を現在奨励中です" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_BEING_PROMOTED_NOT:0 "[INTEREST_GROUP.GetName]は現在奨励中ではありません" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_BEING_PROMOTED_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_BEING_PROMOTED_THIRD_NOT`
+ TRIGGER_SHARES_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOCONTEXT:0 "あらゆる[concept_primary_cultures] ([GetPlayer.GetName]の[GetPlayer.GetPrimaryCulturesDesc]) と[concept_cultural_trait]を共有しています" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_SHARES_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOCONTEXT_NOT`
+ TRIGGER_SHARES_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOCONTEXT:0 "いかなる[concept_primary_cultures] ([GetPlayer.GetName]の[GetPlayer.GetPrimaryCulturesDesc]) とも[concept_cultural_trait]を共有していません"
+ # [LocEditor:UntranslatedKey] `TRIGGER_SHARES_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOCONTEXT_NOT`
+ TRIGGER_SHARES_NON_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOCONTEXT:0 "いかなる[concept_primary_cultures] ([GetPlayer.GetName]の[GetPlayer.GetPrimaryCulturesDesc]) とも[concept_cultural_heritage_trait]でない[concept_cultural_trait]を共有していません"
+ # [LocEditor:UntranslatedKey] `TRIGGER_SHARES_NON_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOCONTEXT_NOT`
+ TRIGGER_SCOPE_COUNTRY_NOCONTEXT:0 "国"
+ TRIGGER_SHARES_HERITAGE_TRAIT_WITH_STATE_RELIGION_NOCONTEXT:0 "[concept_state_religion] ([GetPlayer.GetName]の[GetPlayer.GetStateReligion.GetName]) と特性を共有しています"
+ # [LocEditor:UntranslatedKey] `TRIGGER_SHARES_HERITAGE_TRAIT_WITH_STATE_RELIGION_NOCONTEXT_NOT`
+ TRIGGER_IS_STATE_RELIGION_NOCONTEXT:0 "[concept_state_religion]です" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_STATE_RELIGION_NOCONTEXT_NOT`
+ TRIGGER_IS_PRIMARY_CULTURE_OF_NOCONTEXT:0 "[concept_primary_cultures]です" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PRIMARY_CULTURE_OF_NOCONTEXT_NOT`
+ TRIGGER_IS_COUNTRY_TYPE_NOCONTEXT_NOT:0 "#variable $COUNTRY_TYPE$#!ではありません"
+ TRIGGER_ALWAYS_NOCONTEXT:0 "常に"
+ TRIGGER_POLLUTION_AMOUNT:0 "[STATE_REGION.GetName]の汚染は$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_POLLUTION_AMOUNT_NOT:0 "[STATE_REGION.GetName]の汚染は$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_IS_CAPITAL:0 "[STATE.GetName]は[STATE.GetOwner.GetName]の首都です"
+ TRIGGER_IS_CAPITAL_NOT:0 "[STATE.GetName]は[STATE.GetOwner.GetName]の首都ではありません"
+ TRIGGER_CONTAINS_CAPITAL_OF:0 "[STATE_REGION.GetName]には[TARGET_COUNTRY.GetName]の首都が含まれます"
+ TRIGGER_CONTAINS_CAPITAL_OF_NOT:0 "[STATE_REGION.GetName]には[TARGET_COUNTRY.GetName]の首都が含まれません"
+ TRIGGER_REMAINING_UNDEPLETED:0 "[STATE_REGION.GetName]は、$COMPARATOR$ #variable $NUM$#!の資源が残っている#variable $BUILDING_GROUP$#!を有しています"
+ TRIGGER_REMAINING_UNDEPLETED_NOT:0 "[STATE_REGION.GetName]は、$COMPARATOR$ #variable $NUM$#!の資源が残っている#variable $BUILDING_GROUP$#!を有していません"
+ TRIGGER_IS_MARKET_GOODS_EXPENSIVE:0 "[GOODS.GetName]は[MARKET.GetName]で高価です"
+ TRIGGER_IS_MARKET_GOODS_EXPENSIVE_NOT:0 "[GOODS.GetName]は[MARKET.GetName]で高価ではありません"
+ TRIGGER_IS_MARKET_GOODS_CHEAP:0 "[GOODS.GetName]は[MARKET.GetName]で安価です"
+ TRIGGER_IS_MARKET_GOODS_CHEAP_NOT:0 "[GOODS.GetName]は[MARKET.GetName]で安価ではありません"
+ TRIGGER_IS_CONSUMED_BY_GOVERNMENT_BUILDINGS:0 "[GOODS.GetName]は[Concept('concept_government_good', '$concept_government_goods$')]です" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_CONSUMED_BY_GOVERNMENT_BUILDINGS_NOT:0 "[GOODS.GetName]は[Concept('concept_government_good', '$concept_government_goods$')]ではありません" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_CONSUMED_BY_MILITARY_BUILDINGS:0 "[GOODS.GetName]は[Concept('concept_military_good', '$concept_military_goods$')]です" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_CONSUMED_BY_MILITARY_BUILDINGS_NOT:0 "[GOODS.GetName]は[Concept('concept_military_good', '$concept_military_goods$')]ではありません" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_MARKET_ACCESS_AMOUNT:0 "[concept_market_access]は$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_MARKET_ACCESS_AMOUNT_NOT:0 "[concept_market_access]は$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_MARKET_GOODS_BUY_ORDERS:0 "[MARKET.GetName]における[GOODS.GetName]の買い注文は$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_MARKET_GOODS_BUY_ORDERS_NOT:0 "[MARKET.GetName]における[GOODS.GetName]の買い注文は$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_MARKET_GOODS_SELL_ORDERS:0 "[MARKET.GetName]における[GOODS.GetName]の売り注文は$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_MARKET_GOODS_SELL_ORDERS_NOT:0 "[MARKET.GetName]における[GOODS.GetName]の売り注文は$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_MARKET_GOODS_CONSUMPTION:0 "[MARKET.GetName]における[GOODS.GetName]の消費量は$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_MARKET_GOODS_CONSUMPTION_NOT:0 "[MARKET.GetName]における[GOODS.GetName]の消費量は$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_MARKET_GOODS_PRODUCTION:0 "[MARKET.GetName]における[GOODS.GetName]の生産量は$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_MARKET_GOODS_PRODUCTION_NOT:0 "[MARKET.GetName]における[GOODS.GetName]の生産量は$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_LEADING_PRODUCER_OF:0 "[COUNTRY.GetName]は[TARGET_GOODS.GetName]の最大手生産者です"
+ TRIGGER_LEADING_PRODUCER_OF_NOT:0 "[COUNTRY.GetName]は[TARGET_GOODS.GetName]の最大手生産者ではありません"
+ TRIGGER_MARKET_GOODS_IMPORTS:0 "[MARKET.GetName]における[GOODS.GetName]の輸入量は$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_MARKET_GOODS_IMPORTS_NOT:0 "[MARKET.GetName]における[GOODS.GetName]の輸入量は$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_MARKET_GOODS_EXPORTS:0 "[MARKET.GetName]における[GOODS.GetName]の輸出量は$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_MARKET_GOODS_EXPORTS_NOT:0 "[MARKET.GetName]における[GOODS.GetName]の輸出量は$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_MARKET_GOODS_DELTA:0 "[MARKET.GetName]における[GOODS.GetName]のデルタ値は$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_MARKET_GOODS_DELTA_NOT:0 "[MARKET.GetName]における[GOODS.GetName]のデルタ値は$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_WEEKLY_NET_FIXED_INCOME:0 "[COUNTRY.GetName]の週間固定収入は$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_WEEKLY_NET_FIXED_INCOME_NOT:0 "[COUNTRY.GetName]の週間固定収入は$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_IS_EMBARGOING_GOODS:0 "[COUNTRY.GetName]は[TARGET_GOODS.GetName]の禁輸措置を実施中です"
+ TRIGGER_IS_EMBARGOING_GOODS_NOT:0 "[COUNTRY.GetName]は[TARGET_GOODS.GetName]の禁輸措置を実施中ではありません"
+ TRIGGER_IS_PROMOTING_GOODS:0 "[COUNTRY.GetName]は[GOODS.GetName]の販促中です"
+ TRIGGER_IS_PROMOTING_GOODS_NOT:0 "[COUNTRY.GetName]は[GOODS.GetName]の販促中ではありません"
+ TRIGGER_IS_SUPPRESSING_GOODS:0 "[COUNTRY.GetName]は[GOODS.GetName]を抑制中です"
+ TRIGGER_IS_SUPPRESSING_GOODS_NOT:0 "[COUNTRY.GetName]は[GOODS.GetName]を抑制中ではありません"
+ TRIGGER_IS_TAXING_GOODS:0 "[COUNTRY.GetName]は[GOODS.GetName]への課税を実施中です"
+ TRIGGER_IS_TAXING_GOODS_NOT:0 "[COUNTRY.GetName]は[GOODS.GetName]への課税を実施中ではありません"
+ TRIGGER_INSTITUTION_INVESTMENT_LEVEL:0 "[INSTITUTION_TYPE.GetName]の投資レベルは$COMPARATOR$ $NUM$です"
+ TRIGGER_INSTITUTION_INVESTMENT_LEVEL_NOT:0 "[INSTITUTION_TYPE.GetName]の投資レベルは$COMPARATOR$ $NUM$ではありません"
+ # [LocEditor:UntranslatedKey] `TRIGGER_INSTITUTION_INVESTMENT_LEVEL_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_INSTITUTION_INVESTMENT_LEVEL_THIRD_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_TAX_LEVEL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_TAX_LEVEL_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_TAX_LEVEL_VALUE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_TAX_LEVEL_VALUE_NOT`
+ TRIGGER_NUM_TAXED_GOODS:0 "課税対象商品数は$COMPARATOR$ $NUM$です"
+ TRIGGER_NUM_TAXED_GOODS_NOT:0 "課税対象商品数は$COMPARATOR$ $NUM$ではありません"
+ TRIGGER_IS_GOVERNMENT_FUNDED:0 "[concept_government_building]です"
+ TRIGGER_IS_GOVERNMENT_FUNDED_NOT:0 "[concept_government_building]ではありません"
+ TRIGGER_BUILDING_HAS_GOODS_SHORTAGE:0 "[Concept('concept_input_goods_shortage', '$concept_input_goods_shortages$')]が発生しています" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_BUILDING_HAS_GOODS_SHORTAGE_NOT:0 "[Concept('concept_input_goods_shortage', '$concept_input_goods_shortages$')]は発生していません" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_MARKET_HAS_GOODS_SHORTAGE:0 "[Concept('concept_input_goods_shortage', '$concept_input_goods_shortages$')]が発生しています" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_MARKET_HAS_GOODS_SHORTAGE_NOT:0 "[Concept('concept_input_goods_shortage', '$concept_input_goods_shortages$')]は発生していません" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_MARKET_GOODS_HAS_GOODS_SHORTAGE:0 "[Concept('concept_input_goods_shortage', '$concept_input_goods_shortages$')]が発生しています" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_MARKET_GOODS_HAS_GOODS_SHORTAGE_NOT:0 "[Concept('concept_input_goods_shortage', '$concept_input_goods_shortages$')]は発生していません" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_CONSUMPTION_TAX`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_CONSUMPTION_TAX_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_DESIRED_LAW_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_DESIRED_LAW_EQUAL_NOT`
+ TRIGGER_STATE_REGION_HAS_GOODS_SHORTAGE:0 "[Concept('concept_input_goods_shortage', '$concept_input_goods_shortages$')]が発生しています" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_STATE_REGION_HAS_GOODS_SHORTAGE_NOT:0 "[Concept('concept_input_goods_shortage', '$concept_input_goods_shortages$')]は発生していません" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_SUBSISTENCE_BUILDING:0 "[concept_subsistence_building]です"
+ TRIGGER_IS_SUBSISTENCE_BUILDING_NOT:0 "[concept_subsistence_building]ではありません"
+ TRIGGER_EARNINGS:0 "[BUILDING.GetName]の収入$COMPARATOR$ $NUM$です"
+ TRIGGER_EARNINGS_NOT:0 "[BUILDING.GetName]の収入$COMPARATOR$ $NUM$ではありません"
+ TRIGGER_IS_PROGRESSING:0 "[JournalEntry.GetName]が進捗中です"
+ TRIGGER_IS_PROGRESSING_NOT:0 "[JournalEntry.GetName]は進捗中ではありません"
+ TRIGGER_HAS_OBJECTIVE:0 "[Country.GetName]は目標「[Objective.GetName]を掲げています"
+ TRIGGER_HAS_OBJECTIVE_NOT:0 "[Country.GetName]は目標「[Objective.GetName]を掲げていません"
+ TRIGGER_HAS_COMPLETED_SUBGOAL:0 "[Country.GetName]がサブゴール$SUBGOAL$を達成しました"
+ TRIGGER_HAS_COMPLETED_SUBGOAL_NOT:0 "[Country.GetName]はサブゴール$SUBGOAL$を達成していません"
+ TRIGGER_IT_IS_WINTER:0 "冬です"
+ TRIGGER_IT_IS_WINTER_NOT:0 "冬ではありません"
+ TRIGGER_IT_IS_SPRING:0 "春です"
+ TRIGGER_IT_IS_SPRING_NOT:0 "春ではありません"
+ TRIGGER_IT_IS_SUMMER:0 "夏です"
+ TRIGGER_IT_IS_SUMMER_NOT:0 "夏ではありません"
+ TRIGGER_IT_IS_AUTUMN:0 "秋です"
+ TRIGGER_IT_IS_AUTUMN_NOT:0 "秋ではありません"
+ TRIGGER_HAS_CULTURAL_OBSESSION:0 "[CULTURE.GetName]は[GOODS.GetName]に夢中です"
+ TRIGGER_HAS_CULTURAL_OBSESSION_NOT:0 "[CULTURE.GetName]は[GOODS.GetName]に夢中ではありません"
+ TRIGGER_HAS_RELIGIOUS_TABOO:0 "[RELIGION.GetName]には[GOODS.GetName]に対するタブーがあります"
+ TRIGGER_HAS_RELIGIOUS_TABOO_NOT:0 "[RELIGION.GetName]には[GOODS.GetName]に対するタブーはありません"
+ TRIGGER_RADICAL_FRACTION:0 "全$FILTER$ [Concept('concept_pop', '$concept_pops$')]に占める[Concept('concept_radical', '$concept_radicals$')]の割合は$COMPARATOR$ $NUM$です" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_RADICAL_FRACTION_NOT:0 "全$FILTER$ [Concept('concept_pop', '$concept_pops$')]に占める[Concept('concept_radical', '$concept_radicals$')]の割合は$COMPARATOR$ $NUM$ではありません" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_LOYALIST_FRACTION:0 "全$FILTER$ [Concept('concept_loyalist', '$concept_loyalists$')]に占める[Concept('concept_radical', '$concept_radicals$')]の割合は$COMPARATOR$ $NUM$です" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_LOYALIST_FRACTION_NOT:0 "全$FILTER$ [Concept('concept_loyalist', '$concept_loyalists$')]に占める[Concept('concept_radical', '$concept_radicals$')]の割合は$COMPARATOR$ $NUM$ではありません" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_COMMANDER_ORDER:0 "司令官命令は[COMMANDER_ORDER_TYPE.GetName]です"
+ TRIGGER_HAS_COMMANDER_ORDER_NOT:0 "司令官命令は[COMMANDER_ORDER_TYPE.GetName]ではありません"
+ TRIGGER_GAME_DATE:0 "ゲームにおける現時点での日付は$COMPARATOR$ $DATE$です"
+ TRIGGER_GAME_DATE_NOT:0 "ゲームにおける現時点での日付は$COMPARATOR$ $DATE$ではありません"
+ TRIGGER_ENACTING_ANY_LAW:0 "法律を制定中です"
+ TRIGGER_ENACTING_ANY_LAW_NOT:0 "法律を制定中ではありません"
+ TRIGGER_IS_ENACTING_LAW:0 "[TARGET_LAW_TYPE.GetName]を制定中です"
+ TRIGGER_IS_ENACTING_LAW_NOT:0 "[TARGET_LAW_TYPE.GetName]を制定中ではありません"
+ TRIGGER_IS_EXPANDING_INSTITUTION:0 "公共施設を拡張中です"
+ TRIGGER_IS_EXPANDING_INSTITUTION_NOT:0 "公共施設を拡張中ではありません"
+ TRIGGER_EXPANDING_INSTITUTION:0 "[InstitutionType.GetName]を拡張中です"
+ TRIGGER_EXPANDING_INSTITUTION_NOT:0 "[InstitutionType.GetName]を拡張中ではありません"
+ TRIGGER_CULTURE_IS_DISCRIMINATED_IN:0 "[Country.GetName]で差別を受けています"
+ TRIGGER_CULTURE_IS_DISCRIMINATED_IN_NOT:0 "[Country.GetName]で差別を受けていません"
+ TRIGGER_CULTURE_SECESSION_PROGRESS:0 "[TARGET_COUNTRY.GetName]の[CULTURE.GetName]: [concept_secession]の進捗状況 ($CURRENT_VALUE$) は$COMPARATOR$ $NUM|v$です"
+ TRIGGER_CULTURE_SECESSION_PROGRESS_NOT:0 "[TARGET_COUNTRY.GetName]の[CULTURE.GetName]: [concept_secession]の進捗状況 ($CURRENT_VALUE$) は$COMPARATOR$ $NUM|v$です"
+ TRIGGER_HAS_ONGOING_CONVERSION:0 "[Pop.GetName]は今現在改宗に取り組んでいます"
+ TRIGGER_HAS_ONGOING_CONVERSION_NOT:0 "[Pop.GetName]は今現在改宗に取り組んでいません"
+ TRIGGER_HAS_ONGOING_ASSIMILATION:0 "[Pop.GetName]は今現在文化的同化に取り組んでいます"
+ TRIGGER_HAS_ONGOING_ASSIMILATION_NOT:0 "[Pop.GetName]は今現在文化的同化に取り組んでいません"
+ TRIGGER_LAW_APPROVED_BY:0 "[Law.GetName]は[InterestGroup.GetName]によって承認されています"
+ TRIGGER_LAW_APPROVED_BY_NOT:0 "[Law.GetName]は[InterestGroup.GetName]によって承認されていません"
+ TRIGGER_HAS_WAR_SUPPORT:0 "[Country.GetAdjective]の[concept_war_support] ($CURRENT_VALUE$) は$COMPARATOR$ $NUM|v$です" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_WAR_SUPPORT_NOT:0 "[Country.GetAdjective]の[concept_war_support]は$COMPARATOR$ $NUM|v$ではありません" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_WAR_EXHAUSTION:0 "[Country.GetAdjective]の[concept_war_exhaustion]は$COMPARATOR$ $NUM|v$です" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_WAR_EXHAUSTION_NOT:0 "[Country.GetAdjective]の[concept_war_exhaustion]は$COMPARATOR$ $NUM|v$ではありません" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_TRUCE_WITH:0 "[COUNTRY.GetName]は、[TARGET_COUNTRY.GetName]と停戦協定を結んでいます"
+ TRIGGER_HAS_TRUCE_WITH_NOT:0 "[COUNTRY.GetName]は、[TARGET_COUNTRY.GetName]と停戦協定を結んでいません"
+ TRIGGER_IS_BEING_CONVOY_RAIDED:0 "[Country.GetName]は輸送船団襲撃を受けています"
+ TRIGGER_IS_BEING_CONVOY_RAIDED_NOT:0 "[Country.GetName]は輸送船団襲撃を受けていません"
+ TRIGGER_IS_VIOLATING_SOVEREIGNTY_OF:0 "[COUNTRY.GetName]は[TARGET_COUNTRY.GetAdjective]の[concept_sovereignty]を侵害しました" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_VIOLATING_SOVEREIGNTY_OF_NOT:0 "[COUNTRY.GetName]は[TARGET_COUNTRY.GetAdjective]の[concept_sovereignty]を侵害していません" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_SUBSIDIZED:0 "[Building.GetName]は[Concept('concept_subsidies', '$concept_subsidized$')]です" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_SUBSIDIZED_NOT:0 "[Building.GetName]は[Concept('concept_subsidies', '$concept_subsidized$')]ではありません" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_REPAIRING:0 "[Character.GetFullName]は海戦に破れ、修復作業に追われています"
+ TRIGGER_IS_REPAIRING_NOT:0 "[Character.GetFullName]は最近の海戦に負けていません"
+ TRIGGER_IS_ADVANCING_ON_FRONT:0 "[CHARACTER.GetFullName]が[TARGET_FRONT.GetName]に進攻しています"
+ TRIGGER_IS_ADVANCING_ON_FRONT_NOT:0 "[CHARACTER.GetFullName]は[TARGET_FRONT.GetName]に進攻していません"
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_HIGH_ATTRITION`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_HIGH_ATTRITION_NOT`
+ TRIGGER_HAS_ACTIVE_PRODUCTION_METHOD:0 "[BUILDING.GetName]が[PRODUCTION_METHOD.GetName]の稼働を開始しました"
+ TRIGGER_HAS_ACTIVE_PRODUCTION_METHOD_NOT:0 "[BUILDING.GetName]は[PRODUCTION_METHOD.GetName]の稼働を開始していません"
+ TRIGGER_CASH_RESERVES_AVAILABLE:0 "[BUILDING.GetName]の[concept_cash_reserves]は$COMPARATOR$ @money!$NUM|vD$です"
+ TRIGGER_CASH_RESERVES_AVAILABLE_NOT:0 "[BUILDING.GetName]の[concept_cash_reserves]は$COMPARATOR$ @money!$NUM|vD$ではありません"
+ TRIGGER_CASH_RESERVES_RATIO:0 "[BUILDING.GetName]の[concept_cash_reserves]は$COMPARATOR$ $NUM|%0v$です"
+ TRIGGER_CASH_RESERVES_RATIO_NOT:0 "[BUILDING.GetName]の[concept_cash_reserves]は$COMPARATOR$ $NUM|%0v$ではありません"
+ TRIGGER_IS_TRADE_ROUTE_ACTIVE:0 "[concept_trade_route]は活動中です"
+ TRIGGER_IS_TRADE_ROUTE_ACTIVE_NOT:0 "[concept_trade_route]は活動を休止しています"
+ TRIGGER_IS_CONSTRUCTION_EXPENSIVE:0 "[State.GetName]での[BuildingType.GetName]建設は高額です"
+ TRIGGER_IS_CONSTRUCTION_EXPENSIVE_NOT:0 "[State.GetName]での[BuildingType.GetName]建設は高額ではありません"
+ TRIGGER_IS_BUILDABLE:0 "[BuildingType.GetName]は手作業による建設が可能です"
+ TRIGGER_IS_BUILDABLE_NOT:0 "[BuildingType.GetName]は手作業による建設が可能ではありません"
+ TRIGGER_NUM_CASUALTIES:0 "[War.GetName]における総死傷者数は$COMPARATOR$ #variable $NUM|0+=$#!です"
+ TRIGGER_NUM_CASUALTIES_NOT:0 "[War.GetName]における総死傷者数は$COMPARATOR$ #variable $NUM|0+=$#!ではありません"
+ TRIGGER_NUM_WOUNDED:0 "[War.GetName]における総負傷者数は$COMPARATOR$ #variable $NUM|0+=$#!です"
+ TRIGGER_NUM_WOUNDED_NOT:0 "[War.GetName]における総負傷者数は$COMPARATOR$ #variable $NUM|0+=$#!ではありません"
+ TRIGGER_NUM_DEAD:0 "[War.GetName]における総死者数は$COMPARATOR$ #variable $NUM|0+=$#!です"
+ TRIGGER_NUM_DEAD_NOT:0 "[War.GetName]における総死者数は$COMPARATOR$ #variable $NUM|0+=$#!ではありません"
+ TRIGGER_NUM_COUNTRY_CASUALTIES:0 "[War.GetName]における#v [Country.GetAdjective]#!側の総死傷者数は$COMPARATOR$ #variable $NUM|0+=$#!です" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_NUM_COUNTRY_CASUALTIES_NOT:0 "[War.GetName]における#v [Country.GetAdjective]#!側の総死傷者数は$COMPARATOR$ #variable $NUM|0+=$#!ではありません" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_NUM_COUNTRY_WOUNDED:0 "[War.GetName]における#v [Country.GetAdjective]#!側の総負傷者#!数は$COMPARATOR$ #variable $NUM|0+=$#!です" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_NUM_COUNTRY_WOUNDED_NOT:0 "[War.GetName]における#v [Country.GetAdjective]#!側の総負傷者#!数は$COMPARATOR$ #variable $NUM|0+=$#!ではありません" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_NUM_COUNTRY_DEAD:0 "[War.GetName]における#v [Country.GetAdjective]#!側の総死者#!数は$COMPARATOR$ #variable $NUM|0+=$#!です" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_NUM_COUNTRY_DEAD_NOT:0 "[War.GetName]における#v [Country.GetAdjective]#!側の総死者#!数は$COMPARATOR$ #variable $NUM|0+=$#!ではありません" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_POLITICAL_MOVEMENT_SUPPORT:0 "支持は$COMPARATOR$ #variable $NUM|0+=$#!です"
+ TRIGGER_POLITICAL_MOVEMENT_SUPPORT_NOT:0 "支持は$COMPARATOR$ #variable $NUM|%0$#!ではありません"
+ TRIGGER_POLITICAL_MOVEMENT_RADICALISM:0 "急進派は$COMPARATOR$ #variable $NUM|0+=$#!です"
+ TRIGGER_POLITICAL_MOVEMENT_RADICALISM_NOT:0 "急進派は$COMPARATOR$ #variable $NUM|%0$#!ではありません"
+ TRIGGER_IS_POLITICAL_MOVEMENT_TYPE:0 "タイプは$MOVEMENT_TYPE|v$です"
+ TRIGGER_IS_POLITICAL_MOVEMENT_TYPE_NOT:0 "タイプは$MOVEMENT_TYPE|v$ではありません"
+ TRIGGER_IS_COUNTRY_ALIVE:0 "[Country.GetName]は活発です　"
+ TRIGGER_IS_COUNTRY_ALIVE_NOT:0 "[Country.GetName]は死に体です　"
+ TRIGGER_CIVIL_WAR_PROGRESS:0 "[concept_civil_war]の進捗状況は$COMPARATOR$ #variable $NUM|0$#!です"
+ TRIGGER_CIVIL_WAR_PROGRESS_NOT:0 "[concept_civil_war]の進捗状況は$COMPARATOR$ #variable $NUM|0$#!ではありません"
+ TRIGGER_IS_CIVIL_WAR_TYPE:0 "[concept_civil_war]は#v $CIVIL_WAR_TYPE$#!です"
+ TRIGGER_IS_CIVIL_WAR_TYPE_NOT:0 "[concept_civil_war]は#v $CIVIL_WAR_TYPE$#!ではありません"
+ TRIGGER_IS_TREATY_PORT:0 "[State.GetName]は[concept_treaty_port]です"
+ TRIGGER_IS_TREATY_PORT_NOT:0 "[State.GetName]は[concept_treaty_port]ではありません"
+ TRIGGER_STATE_UNEMPLOYMENT_RATE:0 "[State.GetName]の失業率は$COMPARATOR$ #v $NUM|0%$#!です"
+ TRIGGER_STATE_UNEMPLOYMENT_RATE_NOT:0 "[State.GetName]の失業率は$COMPARATOR$ #v $NUM|0%$#!ではありません"
+ TRIGGER_STATE_POPULATION:0 "[State.GetName]の総人口は$COMPARATOR$ #v $NUM|K$#!です"
+ TRIGGER_STATE_POPULATION_NOT:0 "[State.GetName]の総人口は$COMPARATOR$ #v $NUM|K$#!ではありません"
+ TRIGGER_IS_HEIR:0 "[concept_heir]です"
+ TRIGGER_IS_HEIR_NOT:0 "[concept_heir]ではありません"
+ TRIGGER_HAS_POTENTIAL_RESOURCE:0 "[STATE.GetName]に#v $BUILDING_GROUP$#!を建設できます"
+ TRIGGER_HAS_POTENTIAL_RESOURCE_NOT:0 "[STATE.GetName]に#v $BUILDING_GROUP$#!を建設できません"
+ TRIGGER_IS_ENCOURAGING_CONSUMPTION:0 "[COUNTRY.GetName]は[TARGET_GOODS.GetName]の消費を奨励しています"
+ TRIGGER_IS_ENCOURAGING_CONSUMPTION_NOT:0 "[COUNTRY.GetName]は[TARGET_GOODS.GetName]の消費を奨励していません"
+ TRIGGER_IS_DISCOURAGING_CONSUMPTION:0 "[COUNTRY.GetName]は[TARGET_GOODS.GetName]の消費を冷遇しています"
+ TRIGGER_IS_DISCOURAGING_CONSUMPTION_NOT:0 "[COUNTRY.GetName]は[TARGET_GOODS.GetName]の消費を冷遇していません"
+ TRIGGER_AUTHORITY:0 "[concept_authority] @aut!は$COMPARATOR$ #variable $NUM|0$#!です"
+ TRIGGER_AUTHORITY_NOT:0 "[concept_authority] @aut!は$COMPARATOR$ #variable $NUM|0$#!ではありません"
+ TRIGGER_BUREAUCRACY:0 "[concept_bureaucracy] @bur!は$COMPARATOR$ #variable $NUM|0$#!です"
+ TRIGGER_BUREAUCRACY_NOT:0 "[concept_bureaucracy] @bur!は$COMPARATOR$ #variable $NUM|0$#!ではありません"
+ TRIGGER_INFLUENCE:0 "[concept_influence] @inf!は$COMPARATOR$ #variable $NUM|0$#!です"
+ TRIGGER_INFLUENCE_NOT:0 "[concept_influence] @inf!は$COMPARATOR$ #variable $NUM|0$#!ではありません"
+ TRIGGER_ELECTION_MOMENTUM:0 "[concept_momentum]は$COMPARATOR$ $NUM|%v$ ($CURRENT_VALUE$) です"
+ TRIGGER_ELECTION_MOMENTUM_NOT:0 "[concept_momentum]は$COMPARATOR$ $NUM|%v$ ($CURRENT_VALUE$) ではありません"
+ TRIGGER_IS_HOMELAND_OF_COUNTRY_CULTURES:0 "[TARGET_COUNTRY.GetName]は[STATE.GetName]を本国と見なしています"
+ TRIGGER_IS_HOMELAND_OF_COUNTRY_CULTURES_NOT:0 "[TARGET_COUNTRY.GetName]は[STATE.GetName]を本国と見なしていません"
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_PARTY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_PARTY_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_MEMBER_OF_PARTY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_MEMBER_OF_PARTY_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PARTY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PARTY_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PARTY_TYPE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PARTY_TYPE_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PARTY_TYPE_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PARTY_TYPE_THIRD_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_SAME_PARTY_TYPE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_SAME_PARTY_TYPE_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_SAME_PARTY_TYPE_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_SAME_PARTY_TYPE_THIRD_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_PARTY_MEMBER`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_PARTY_MEMBER_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_PARTY_MEMBER_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_PARTY_MEMBER_THIRD_NOT`
+ 
+  #For each script list, we need TRIGGER_<key>, TRIGGER_<key>_ALL, TRIGGER_<key>_PERCENT and TRIGGER_<key>_COUNT
+ TRIGGER_ANY_MARKET:0 "いずれかの[concept_market]:"
+ TRIGGER_ANY_MARKET_ALL:0 "すべての[Concept('concept_market', '$concept_markets$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_MARKET_PERCENT:0 "[Concept('concept_market', '$concept_markets$')]の$PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_MARKET_COUNT:0 "$PARAMETERS$ [Concept('concept_market', '$concept_markets$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_THEATER:0 "いずれかの[concept_theater]:"
+ TRIGGER_ANY_SCOPE_THEATER_ALL:0 "すべての[Concept('concept_theater', '$concept_theaters$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_THEATER_PERCENT:0 "[Concept('concept_theater', '$concept_theaters$')]の$PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_THEATER_COUNT:0 "$PARAMETERS$ [Concept('concept_theater', '$concept_theaters$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_POP:0 "いずれかの[concept_pop]:"
+ TRIGGER_ANY_SCOPE_POP_ALL:0 "すべての[Concept('concept_pop', '$concept_pops$')]:"
+ TRIGGER_ANY_SCOPE_POP_PERCENT:0 "[Concept('concept_pop', '$concept_pops$')]の$PARAMETERS$:"
+ TRIGGER_ANY_SCOPE_POP_COUNT:0 "$PARAMETERS$ [Concept('concept_pop', '$concept_pops$')]:"
+ TRIGGER_ANY_SCOPE_BUILDING:0 "いずれかの[concept_building]:"
+ TRIGGER_ANY_SCOPE_BUILDING_ALL:0 "すべての[Concept('concept_building', '$concept_buildings$')]:"
+ TRIGGER_ANY_SCOPE_BUILDING_PERCENT:0 "[Concept('concept_building', '$concept_buildings$')]の$PARAMETERS$:"
+ TRIGGER_ANY_SCOPE_BUILDING_COUNT:0 "$PARAMETERS$ [Concept('concept_building', '$concept_buildings$')]:"
+ TRIGGER_ANY_SCOPE_INTEREST_MARKER:0 "いずれかの関心マーカー:"
+ TRIGGER_ANY_SCOPE_INTEREST_MARKER_ALL:0 "すべての関心マーカー:"
+ TRIGGER_ANY_SCOPE_INTEREST_MARKER_PERCENT:0 "関心マーカーの$PARAMETERS$:"
+ TRIGGER_ANY_SCOPE_INTEREST_MARKER_COUNT:0 "$PARAMETERS$関心マーカー:"
+ 
+ TRIGGER_ANY_INTEREST_GROUP:0 "いずれかの[concept_interest_group]:"
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_INTEREST_GROUP_FIRST`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_INTEREST_GROUP_THIRD`
+ TRIGGER_ANY_INTEREST_GROUP_ALL:0 "すべての[Concept('concept_interest_group', '$concept_interest_groups$')]:"
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_INTEREST_GROUP_ALL_THIRD`
+ TRIGGER_ANY_INTEREST_GROUP_PERCENT:0 "[Concept('concept_interest_group', '$concept_interest_groups$')]の$PARAMETERS$:"
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_INTEREST_GROUP_PERCENT_THIRD`
+ TRIGGER_ANY_INTEREST_GROUP_COUNT:0 "$PARAMETERS$ [Concept('concept_interest_group', '$concept_interest_groups$')]:"
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_INTEREST_GROUP_COUNT_THIRD`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_ALL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_ALL_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_PERCENT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_PERCENT_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_COUNT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_COUNT_THIRD`
+ 
+ TRIGGER_ANY_SUPPORTING_INTEREST_GROUP:0 "いずれかの支持[concept_interest_group]:"
+ TRIGGER_ANY_SUPPORTING_INTEREST_GROUP_ALL:0 "すべての支持[Concept('concept_interest_group', '$concept_interest_groups$')]:"
+ TRIGGER_ANY_SUPPORTING_INTEREST_GROUP_PERCENT:0 "支持[Concept('concept_interest_group', '$concept_interest_groups$')]の$PARAMETERS$:"
+ TRIGGER_ANY_SUPPORTING_INTEREST_GROUP_COUNT:0 "$PARAMETERS$支持[Concept('concept_interest_group', '$concept_interest_groups$')]:"
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_ALL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_ALL_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_PERCENT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_PERCENT_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_COUNT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_COUNT_THIRD`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_ALL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_ALL_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_PERCENT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_PERCENT_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_COUNT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_COUNT_THIRD`
+ 
+ TRIGGER_ANY_POLITICAL_MOVEMENT:0 "いずれかの[concept_political_movement]:"
+ TRIGGER_ANY_POLITICAL_MOVEMENT_ALL:0 "すべての[Concept('concept_political_movement', '$concept_political_movements$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_POLITICAL_MOVEMENT_PERCENT:0 "[Concept('concept_political_movement', '$concept_political_movements$')]の$PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_POLITICAL_MOVEMENT_COUNT:0 "$PARAMETERS$ [Concept('concept_political_movement', '$concept_political_movements$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_DIPLOMATIC_PLAY:0 "いずれかの[concept_diplomatic_play]:"
+ TRIGGER_ANY_DIPLOMATIC_PLAY_ALL:0 "すべての[Concept('concept_diplomatic_play', '$concept_diplomatic_plays$')]:"
+ TRIGGER_ANY_DIPLOMATIC_PLAY_PERCENT:0 "[Concept('concept_diplomatic_play', '$concept_diplomatic_plays$')]の$PARAMETERS$:"
+ TRIGGER_ANY_DIPLOMATIC_PLAY_COUNT:0 "$PARAMETERS$ [Concept('concept_diplomatic_play', '$concept_diplomatic_plays$')]:"
+ TRIGGER_ANY_SCOPE_PLAY_PARTICIPANT:0 "いずれかの[concept_diplomatic_play]参加者:"
+ TRIGGER_ANY_SCOPE_PLAY_PARTICIPANT_ALL:0 "すべての[concept_diplomatic_play]参加者:"
+ TRIGGER_ANY_SCOPE_PLAY_PARTICIPANT_PERCENT:0 "[concept_diplomatic_play]参加者の$PARAMETERS$:"
+ TRIGGER_ANY_SCOPE_PLAY_PARTICIPANT_COUNT:0 "$PARAMETERS$ [concept_diplomatic_play]参加者:"
+ TRIGGER_ANY_STATE_REGION:0 "いずれかの[concept_state_region]:"
+ TRIGGER_ANY_STATE_REGION_ALL:0 "すべての[Concept('concept_state_region', '$concept_state_regions$')]:"
+ TRIGGER_ANY_STATE_REGION_PERCENT:0 "[Concept('concept_state_region', '$concept_state_regions$')]の$PARAMETERS$:"
+ TRIGGER_ANY_STATE_REGION_COUNT:0 "$PARAMETERS$ [Concept('concept_state_region', '$concept_state_regions$')]:"
+ TRIGGER_ANY_TRADE_ROUTE:0 "いずれかの[concept_trade_route]:"
+ TRIGGER_ANY_TRADE_ROUTE_ALL:0 "すべての[Concept('concept_trade_route', '$concept_trade_routes$')]:"
+ TRIGGER_ANY_TRADE_ROUTE_PERCENT:0 "[Concept('concept_trade_route', '$concept_trade_routes$')]の$PARAMETERS$:"
+ TRIGGER_ANY_TRADE_ROUTE_COUNT:0 "$PARAMETERS$ [Concept('concept_trade_route', '$concept_trade_routes$')]:"
+ TRIGGER_ANY_LAW:0 "いずれかの法律:"
+ TRIGGER_ANY_LAW_ALL:0 "すべての法律:"
+ TRIGGER_ANY_LAW_PERCENT:0 "法律の$PARAMETERS$:"
+ TRIGGER_ANY_LAW_COUNT:0 "$PARAMETERS$ 法律:"
+ TRIGGER_ANY_SCOPE_CHARACTER:0 "いずれかの[concept_character]:"
+ TRIGGER_ANY_SCOPE_CHARACTER_ALL:0 "すべての[Concept('concept_character', '$concept_characters$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_CHARACTER_PERCENT:0 "[Concept('concept_character', '$concept_characters$')]の$PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_CHARACTER_COUNT:0 "$PARAMETERS$ [Concept('concept_character', '$concept_characters$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CHARACTER:0 "世界にいるいずれかの[concept_character]:"
+ TRIGGER_ANY_CHARACTER_ALL:0 "世界にいるすべての[Concept('concept_character', '$concept_characters$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CHARACTER_PERCENT:0 "世界にいる[Concept('concept_character', '$concept_characters$')]の$PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CHARACTER_COUNT:0 "$PARAMETERS$ 世界にいる[Concept('concept_character', '$concept_characters$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CHARACTER_IN_VOID:0 "いずれかの無効な[concept_character]:"
+ TRIGGER_ANY_CHARACTER_IN_VOID_ALL:0 "すべての無効な[Concept('concept_character', '$concept_characters$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CHARACTER_IN_VOID_PERCENT:0 "無効な[Concept('concept_character', '$concept_characters$')]の$PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CHARACTER_IN_VOID_COUNT:0 "$PARAMETERS$ 無効な[Concept('concept_character', '$concept_characters$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_COUNTRY:0 "いずれかの[concept_country]:"
+ TRIGGER_ANY_COUNTRY_ALL:0 "すべての[Concept('concept_country', '$concept_countries$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_COUNTRY_PERCENT:0 "[Concept('concept_country', '$concept_countries$')]の$PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_COUNTRY_COUNT:0 "$PARAMETERS$ [Concept('concept_country', '$concept_countries$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_ALLY:0 "いずれかの同盟:"
+ TRIGGER_ANY_SCOPE_ALLY_ALL:0 "すべての同盟:"
+ TRIGGER_ANY_SCOPE_ALLY_PERCENT:0 "同盟の$PARAMETERS$:"
+ TRIGGER_ANY_SCOPE_ALLY_COUNT:0 "$PARAMETERS$ 同盟:"
+ TRIGGER_ANY_SCOPE_INITIATOR_ALLY:0 "開始者の同盟いずれか:"
+ TRIGGER_ANY_SCOPE_INITIATOR_ALLY_ALL:0 "開始者の同盟すべて:"
+ TRIGGER_ANY_SCOPE_INITIATOR_ALLY_PERCENT:0 "開始者の同盟の$PARAMETERS$:"
+ TRIGGER_ANY_SCOPE_INITIATOR_ALLY_COUNT:0 "$PARAMETERS$ 開始者の同盟:"
+ TRIGGER_ANY_SCOPE_TARGET_ALLY:0 "対象の同盟いずれか:"
+ TRIGGER_ANY_SCOPE_TARGET_ALLY_ALL:0 "対象の同盟すべて:"
+ TRIGGER_ANY_SCOPE_TARGET_ALLY_PERCENT:0 "対象の同盟の$PARAMETERS$:"
+ TRIGGER_ANY_SCOPE_TARGET_ALLY_COUNT:0 "$PARAMETERS$ 対象の同盟:"
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_INTERESTED_PARTIES:0 "主権が侵害された場合に関心を示しそうないずれかの国:" #hmmm
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_INTERESTED_PARTIES_ALL:0 "主権が侵害された場合に関心を示しそうな国すべて:"
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_INTERESTED_PARTIES_PERCENT:0 "主権が侵害された場合に関心を示しそうな国の$PARAMETERS$:"
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_INTERESTED_PARTIES_COUNT:0 "$PARAMETERS$ 主権が侵害された場合に関心を示しそうな国:"
+ TRIGGER_ANY_OVERLORD_OR_ABOVE:0 "君主またはさらに高位のいずれか:"
+ TRIGGER_ANY_OVERLORD_OR_ABOVE_ALL:0 "君主またはさらに高位のすべて:"
+ TRIGGER_ANY_OVERLORD_OR_ABOVE_PERCENT:0 "君主またはさらに高位の$PARAMETERS$:"
+ TRIGGER_ANY_OVERLORD_OR_ABOVE_COUNT:0 "$PARAMETERS$ 君主またはさらに高位:"
+ TRIGGER_ANY_SUBJECT_OR_BELOW:0 "臣下またはそれ以下のいずれか:"
+ TRIGGER_ANY_SUBJECT_OR_BELOW_ALL:0 "臣下またはそれ以下のすべて:"
+ TRIGGER_ANY_SUBJECT_OR_BELOW_PERCENT:0 "臣下またはそれ以下の$PARAMETERS$:"
+ TRIGGER_ANY_SUBJECT_OR_BELOW_COUNT:0 "$PARAMETERS$ 臣下またはそれ以下:"
+ TRIGGER_ANY_IN_HIERARCHY:0 "君主階級にいるいずれかの[concept_country]:"
+ TRIGGER_ANY_IN_HIERARCHY_ALL:0 "君主階級にいるすべての[Concept('concept_country', '$concept_countries$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_IN_HIERARCHY_PERCENT:0 "君主階級にいる[Concept('concept_country', '$concept_countries$')]の$PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_IN_HIERARCHY_COUNT:0 "$PARAMETERS$ 君主階級にいる[Concept('concept_country', '$concept_countries$')]:" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_RIVAL_COUNTRY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_RIVAL_COUNTRY_ALL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_RIVAL_COUNTRY_PERCENT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_RIVAL_COUNTRY_COUNT`
+ TRIGGER_ANY_SCOPE_CULTURE:0 "いずれかの[concept_culture]:"
+ TRIGGER_ANY_SCOPE_CULTURE_ALL:0 "すべての[Concept('concept_culture', '$concept_cultures$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_CULTURE_PERCENT:0 "[Concept('concept_culture', '$concept_cultures$')]の$PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_CULTURE_COUNT:0 "$PARAMETERS$ [Concept('concept_culture', '$concept_cultures$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_PRIMARY_CULTURE:0 "いずれかの[concept_primary_cultures]:"
+ TRIGGER_ANY_PRIMARY_CULTURE_ALL:0 "すべての[Concept('concept_primary_cultures', '$concept_primary_culture$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_PRIMARY_CULTURE_PERCENT:0 "[Concept('concept_primary_cultures', '$concept_primary_culture$')]の$PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_PRIMARY_CULTURE_COUNT:0 "$PARAMETERS$ [Concept('concept_primary_cultures', '$concept_primary_culture$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_STATE:0 "世界にあるいずれかの[concept_state]:"
+ TRIGGER_ANY_STATE_ALL:0 "世界にあるすべての[Concept('concept_state', '$concept_states$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_STATE_PERCENT:0 "世界にある[Concept('concept_state', '$concept_states$')]の$PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_STATE_COUNT:0 "$PARAMETERS$ 世界にある[Concept('concept_state', '$concept_states$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_STATE:0 "いずれかの[concept_state]:"
+ TRIGGER_ANY_SCOPE_STATE_ALL:0 "すべての[Concept('concept_state', '$concept_states$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_STATE_PERCENT:0 "[Concept('concept_state', '$concept_states$')]の$PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_STATE_COUNT:0 "$PARAMETERS$ [Concept('concept_state', '$concept_states$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_NEIGHBOURING_STATE:0 "いずれかの近隣[concept_state]:"
+ TRIGGER_ANY_NEIGHBOURING_STATE_ALL:0 "すべての近隣[Concept('concept_state', '$concept_states$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_NEIGHBOURING_STATE_PERCENT:0 "近隣[Concept('concept_state', '$concept_states$')]の$PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_NEIGHBOURING_STATE_COUNT:0 "$PARAMETERS$ 近隣[Concept('concept_state', '$concept_states$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_WAR:0 "いずれかの[concept_war]:"
+ TRIGGER_ANY_SCOPE_WAR_ALL:0 "すべての[Concept('concept_war', '$concept_wars$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_WAR_PERCENT:0 "$PARAMETERS$ of [Concept('concept_war', '$concept_wars$')]の$PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_WAR_COUNT:0 "$PARAMETERS$ [Concept('concept_war', '$concept_wars$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_WARS:0 "主権侵害による戦争いずれか:" #hmmm
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_WARS_ALL:0 "主権侵害による戦争すべて:"
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_WARS_PERCENT:0 "主権侵害による戦争の$PARAMETERS$:"
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_WARS_COUNT:0 "$PARAMETERS$ 主権侵害による戦争:"
+ TRIGGER_ANY_CIVIL_WAR:0 "いずれかの[concept_civil_war]:"
+ TRIGGER_ANY_CIVIL_WAR_ALL:0 "すべての[Concept('concept_civil_war', '$concept_civil_wars$')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CIVIL_WAR_PERCENT:0 "[Concept('concept_civil_war', '$concept_civil_wars$')]の$PARAMETERS$:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CIVIL_WAR_COUNT:0 "$PARAMETERS$ [Concept('concept_civil_war', '$concept_civil_wars$')]:" # [LocEditor:AwaitingBatchUpdate]
+
+ TRIGGER_BUILDING_LEVEL_GREATER_THAN:0 "[BUILDING.GetName]レベルは$TARGET_VALUE|0v$以上です"
+ TRIGGER_BUILDING_LEVEL_GREATER_OR_EQUAL:0 "[BUILDING.GetName]レベルは$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_BUILDING_LEVEL_LESS_THAN:0 "[BUILDING.GetName]レベルは$TARGET_VALUE|0v$未満です"
+ TRIGGER_BUILDING_LEVEL_LESS_OR_EQUAL:0 "[BUILDING.GetName]レベルは$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_BUILDING_LEVEL_EQUAL:0 "[BUILDING.GetName]レベルは$TARGET_VALUE|0v$です"
+ TRIGGER_BUILDING_LEVEL_NOT_EQUAL:0 "[BUILDING.GetName]レベルは$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_TRADE_ROUTE_LEVEL_GREATER_THAN:0 "[TRADE_ROUTE.GetName]レベルは$TARGET_VALUE|0v$以上です"
+ TRIGGER_TRADE_ROUTE_LEVEL_GREATER_OR_EQUAL:0 "[TRADE_ROUTE.GetName]レベルは$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_TRADE_ROUTE_LEVEL_LESS_THAN:0 "[TRADE_ROUTE.GetName]レベルは$TARGET_VALUE|0v$未満です"
+ TRIGGER_TRADE_ROUTE_LEVEL_LESS_OR_EQUAL:0 "[TRADE_ROUTE.GetName]レベルは$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_TRADE_ROUTE_LEVEL_EQUAL:0 "[TRADE_ROUTE.GetName]レベルは$TARGET_VALUE|0v$です"
+ TRIGGER_TRADE_ROUTE_LEVEL_NOT_EQUAL:0 "[TRADE_ROUTE.GetName]レベルは$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_NUM_ALLIANCES_TO_RIVALS_GREATER_THAN:0 "[COUNTRY.GetName]とライバル関係にあり、[TARGET_COUNTRY.GetName]と同盟関係にある国の数は$TARGET_VALUE|0v$以上です"
+ TRIGGER_NUM_ALLIANCES_TO_RIVALS_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]とライバル関係にあり、[TARGET_COUNTRY.GetName]と同盟関係にある国の数は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_NUM_ALLIANCES_TO_RIVALS_LESS_THAN:0 "[COUNTRY.GetName]とライバル関係にあり、[TARGET_COUNTRY.GetName]と同盟関係にある国の数は$TARGET_VALUE|0v$未満です"
+ TRIGGER_NUM_ALLIANCES_TO_RIVALS_LESS_OR_EQUAL:0 "[COUNTRY.GetName]とライバル関係にあり、[TARGET_COUNTRY.GetName]と同盟関係にある国の数は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_NUM_ALLIANCES_TO_RIVALS_EQUAL:0 "[COUNTRY.GetName]とライバル関係にあり、[TARGET_COUNTRY.GetName]と同盟関係にある国の数は$TARGET_VALUE|0v$です"
+ TRIGGER_NUM_ALLIANCES_TO_RIVALS_NOT_EQUAL:0 "[COUNTRY.GetName]とライバル関係にあり、[TARGET_COUNTRY.GetName]と同盟関係にある国の数は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_NUM_ALLIANCES_TO_ALLIES_GREATER_THAN:0 "[COUNTRY.GetName]レベルと同盟関係にあり、[TARGET_COUNTRY.GetName]と同盟関係にある国の数は$TARGET_VALUE|0v$以上です"
+ TRIGGER_NUM_ALLIANCES_TO_ALLIES_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]レベルと同盟関係にあり、[TARGET_COUNTRY.GetName]と同盟関係にある国の数は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_NUM_ALLIANCES_TO_ALLIES_LESS_THAN:0 "[COUNTRY.GetName]レベルと同盟関係にあり、[TARGET_COUNTRY.GetName]と同盟関係にある国の数は$TARGET_VALUE|0v$未満です"
+ TRIGGER_NUM_ALLIANCES_TO_ALLIES_LESS_OR_EQUAL:0 "[COUNTRY.GetName]レベルと同盟関係にあり、[TARGET_COUNTRY.GetName]と同盟関係にある国の数は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_NUM_ALLIANCES_TO_ALLIES_EQUAL:0 "[COUNTRY.GetName]レベルと同盟関係にあり、[TARGET_COUNTRY.GetName]と同盟関係にある国の数は$TARGET_VALUE|0v$です"
+ TRIGGER_NUM_ALLIANCES_TO_ALLIES_NOT_EQUAL:0 "[COUNTRY.GetName]レベルと同盟関係にあり、[TARGET_COUNTRY.GetName]と同盟関係にある国の数は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_RELATIONS_GREATER_THAN:0 "[COUNTRY.GetName]と[TARGET_COUNTRY.GetName]の関係は$TARGET_VALUE|0v$以上です"
+ TRIGGER_RELATIONS_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]と[TARGET_COUNTRY.GetName]の関係は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_RELATIONS_LESS_THAN:0 "[COUNTRY.GetName]と[TARGET_COUNTRY.GetName]の関係は$TARGET_VALUE|0v$未満です"
+ TRIGGER_RELATIONS_LESS_OR_EQUAL:0 "[COUNTRY.GetName]と[TARGET_COUNTRY.GetName]の関係は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_RELATIONS_EQUAL:0 "[COUNTRY.GetName]と[TARGET_COUNTRY.GetName]の関係は$TARGET_VALUE|0v$です"
+ TRIGGER_RELATIONS_NOT_EQUAL:0 "[COUNTRY.GetName]と[TARGET_COUNTRY.GetName]の関係は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_RELATIONS_THRESHOLD_GREATER_THAN:0 "[COUNTRY.GetName]と[TARGET_COUNTRY.GetName]の関係は$TARGET_VALUE|0v$以上です"
+ TRIGGER_RELATIONS_THRESHOLD_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]と[TARGET_COUNTRY.GetName]の関係は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_RELATIONS_THRESHOLD_LESS_THAN:0 "[COUNTRY.GetName]と[TARGET_COUNTRY.GetName]の関係は$TARGET_VALUE|0v$未満です"
+ TRIGGER_RELATIONS_THRESHOLD_LESS_OR_EQUAL:0 "[COUNTRY.GetName]と[TARGET_COUNTRY.GetName]の関係は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_RELATIONS_THRESHOLD_EQUAL:0 "[COUNTRY.GetName]と[TARGET_COUNTRY.GetName]の関係は$TARGET_VALUE|0v$です"
+ TRIGGER_RELATIONS_THRESHOLD_NOT_EQUAL:0 "[COUNTRY.GetName]と[TARGET_COUNTRY.GetName]の関係は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_INFAMY_THRESHOLD_GREATER_THAN:0 "[COUNTRY.GetName]の悪名は$TARGET_VALUE|0v$以上です"
+ TRIGGER_INFAMY_THRESHOLD_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]の悪名は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_INFAMY_THRESHOLD_LESS_THAN:0 "[COUNTRY.GetName]の悪名は$TARGET_VALUE|0v$未満です"
+ TRIGGER_INFAMY_THRESHOLD_LESS_OR_EQUAL:0 "[COUNTRY.GetName]の悪名は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_INFAMY_THRESHOLD_EQUAL:0 "[COUNTRY.GetName]の悪名は$TARGET_VALUE|0v$です"
+ TRIGGER_INFAMY_THRESHOLD_NOT_EQUAL:0 "[COUNTRY.GetName]の悪名は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_TENSION_GREATER_THAN:0 "[COUNTRY.GetName]と[TARGET_COUNTRY.GetName]との緊張は$TARGET_VALUE|0v$以上です"
+ TRIGGER_TENSION_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]と[TARGET_COUNTRY.GetName]との緊張は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_TENSION_LESS_THAN:0 "[COUNTRY.GetName]と[TARGET_COUNTRY.GetName]との緊張は$TARGET_VALUE|0v$未満です"
+ TRIGGER_TENSION_LESS_OR_EQUAL:0 "[COUNTRY.GetName]と[TARGET_COUNTRY.GetName]との緊張は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_TENSION_EQUAL:0 "[COUNTRY.GetName]と[TARGET_COUNTRY.GetName]との緊張は$TARGET_VALUE|0v$です"
+ TRIGGER_TENSION_NOT_EQUAL:0 "[COUNTRY.GetName]と[TARGET_COUNTRY.GetName]との緊張は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_TENSION_THRESHOLD_GREATER_THAN:0 "[COUNTRY.GetName]と[TARGET_COUNTRY.GetName]との緊張は$TARGET_VALUE|0v$以上です"
+ TRIGGER_TENSION_THRESHOLD_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]と[TARGET_COUNTRY.GetName]との緊張は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_TENSION_THRESHOLD_LESS_THAN:0 "[COUNTRY.GetName]と[TARGET_COUNTRY.GetName]との緊張は$TARGET_VALUE|0v$未満です"
+ TRIGGER_TENSION_THRESHOLD_LESS_OR_EQUAL:0 "[COUNTRY.GetName]と[TARGET_COUNTRY.GetName]との緊張は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_TENSION_THRESHOLD_EQUAL:0 "[COUNTRY.GetName]と[TARGET_COUNTRY.GetName]との緊張は$TARGET_VALUE|0v$です"
+ TRIGGER_TENSION_THRESHOLD_NOT_EQUAL:0 "[COUNTRY.GetName]と[TARGET_COUNTRY.GetName]との緊張は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_NUM_ENEMY_UNITS_GREATER_THAN:0 "[FRONT.GetName]に展開している敵ユニットの数は$TARGET_VALUE|0v$以上です"
+ TRIGGER_NUM_ENEMY_UNITS_GREATER_OR_EQUAL:0 "[FRONT.GetName]に展開している敵ユニットの数は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_NUM_ENEMY_UNITS_LESS_THAN:0 "[FRONT.GetName]に展開している敵ユニットの数は$TARGET_VALUE|0v$未満です"
+ TRIGGER_NUM_ENEMY_UNITS_LESS_OR_EQUAL:0 "[FRONT.GetName]に展開している敵ユニットの数は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_NUM_ENEMY_UNITS_EQUAL:0 "[FRONT.GetName]に展開している敵ユニットの数は$TARGET_VALUE|0v$です"
+ TRIGGER_NUM_ENEMY_UNITS_NOT_EQUAL:0 "[FRONT.GetName]に展開している敵ユニットの数は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_NUM_ALLIANCES_GREATER_THAN:0 "[COUNTRY.GetName]の同盟の数は$TARGET_VALUE|0v$以上です"
+ TRIGGER_NUM_ALLIANCES_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]の同盟の数は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_NUM_ALLIANCES_LESS_THAN:0 "[COUNTRY.GetName]の同盟の数は$TARGET_VALUE|0v$未満です"
+ TRIGGER_NUM_ALLIANCES_LESS_OR_EQUAL:0 "[COUNTRY.GetName]の同盟の数は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_NUM_ALLIANCES_EQUAL:0 "[COUNTRY.GetName]の同盟の数は$TARGET_VALUE|0v$です"
+ TRIGGER_NUM_ALLIANCES_NOT_EQUAL:0 "[COUNTRY.GetName]の同盟の数は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_INFAMY_GREATER_THAN:0 "[COUNTRY.GetName]の悪名は$TARGET_VALUE|0v$以上です"
+ TRIGGER_INFAMY_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]の悪名は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_INFAMY_LESS_THAN:0 "[COUNTRY.GetName]の悪名は$TARGET_VALUE|0v$未満です"
+ TRIGGER_INFAMY_LESS_OR_EQUAL:0 "[COUNTRY.GetName]の悪名は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_INFAMY_EQUAL:0 "[COUNTRY.GetName]の悪名は$TARGET_VALUE|0v$です"
+ TRIGGER_INFAMY_NOT_EQUAL:0 "[COUNTRY.GetName]の悪名は$TARGET_VALUE|0v$ではありません"
+
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_AVERAGE_SOL_GREATER_THAN`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_AVERAGE_SOL_GREATER_OR_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_AVERAGE_SOL_LESS_THAN`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_AVERAGE_SOL_LESS_OR_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_AVERAGE_SOL_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_AVERAGE_SOL_NOT_EQUAL`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_STATE_AVERAGE_SOL_GREATER_THAN`
+ # [LocEditor:UntranslatedKey] `TRIGGER_STATE_AVERAGE_SOL_GREATER_OR_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_STATE_AVERAGE_SOL_LESS_THAN`
+ # [LocEditor:UntranslatedKey] `TRIGGER_STATE_AVERAGE_SOL_LESS_OR_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_STATE_AVERAGE_SOL_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_STATE_AVERAGE_SOL_NOT_EQUAL`
+
+ TRIGGER_INCOME_GREATER_THAN:0 "[COUNTRY.GetName]の歳入は$TARGET_VALUE|0v$以上です"
+ TRIGGER_INCOME_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]の歳入は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_INCOME_LESS_THAN:0 "[COUNTRY.GetName]の歳入は$TARGET_VALUE|0v$未満です"
+ TRIGGER_INCOME_LESS_OR_EQUAL:0 "[COUNTRY.GetName]の歳入は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_INCOME_EQUAL:0 "[COUNTRY.GetName]の歳入は$TARGET_VALUE|0v$です"
+ TRIGGER_INCOME_NOT_EQUAL:0 "[COUNTRY.GetName]の歳入は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_NUM_TRADE_ROUTES_GREATER_THAN:0 "[COUNTRY.GetName]が有する貿易ルートの数は$TARGET_VALUE|0v$以上です"
+ TRIGGER_NUM_TRADE_ROUTES_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]が有する貿易ルートの数は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_NUM_TRADE_ROUTES_LESS_THAN:0 "[COUNTRY.GetName]が有する貿易ルートの数は$TARGET_VALUE|0v$未満です"
+ TRIGGER_NUM_TRADE_ROUTES_LESS_OR_EQUAL:0 "[COUNTRY.GetName]が有する貿易ルートの数は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_NUM_TRADE_ROUTES_EQUAL:0 "[COUNTRY.GetName]が有する貿易ルートの数は$TARGET_VALUE|0v$です"
+ TRIGGER_NUM_TRADE_ROUTES_NOT_EQUAL:0 "[COUNTRY.GetName]が有する貿易ルートの数は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_NUM_RULING_IGS_GREATER_THAN:0 "[COUNTRY.GetName]にいる与党側利益団体の数は$TARGET_VALUE|0v$以上です"
+ TRIGGER_NUM_RULING_IGS_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]にいる与党側利益団体の数は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_NUM_RULING_IGS_LESS_THAN:0 "[COUNTRY.GetName]にいる与党側利益団体の数は$TARGET_VALUE|0v$未満です"
+ TRIGGER_NUM_RULING_IGS_LESS_OR_EQUAL:0 "[COUNTRY.GetName]にいる与党側利益団体の数は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_NUM_RULING_IGS_EQUAL:0 "[COUNTRY.GetName]にいる与党側利益団体の数は$TARGET_VALUE|0v$です"
+ TRIGGER_NUM_RULING_IGS_NOT_EQUAL:0 "[COUNTRY.GetName]にいる与党側利益団体の数は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_NUM_POSITIVE_RELATIONS_GREATER_THAN:0 "[COUNTRY.GetName]が有する肯定的な関係の数は$TARGET_VALUE|0v$以上です"
+ TRIGGER_NUM_POSITIVE_RELATIONS_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]が有する肯定的な関係の数は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_NUM_POSITIVE_RELATIONS_LESS_THAN:0 "[COUNTRY.GetName]が有する肯定的な関係の数は$TARGET_VALUE|0v$未満です"
+ TRIGGER_NUM_POSITIVE_RELATIONS_LESS_OR_EQUAL:0 "[COUNTRY.GetName]が有する肯定的な関係の数は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_NUM_POSITIVE_RELATIONS_EQUAL:0 "[COUNTRY.GetName]が有する肯定的な関係の数は$TARGET_VALUE|0v$です"
+ TRIGGER_NUM_POSITIVE_RELATIONS_NOT_EQUAL:0 "[COUNTRY.GetName]が有する肯定的な関係の数は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_ARMY_SIZE_GREATER_THAN:0 "[COUNTRY.GetName]が有する大隊の数は$TARGET_VALUE|0v$以上です"
+ TRIGGER_ARMY_SIZE_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]が有する大隊の数は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_ARMY_SIZE_LESS_THAN:0 "[COUNTRY.GetName]が有する大隊の数は$TARGET_VALUE|0v$未満です"
+ TRIGGER_ARMY_SIZE_LESS_OR_EQUAL:0 "[COUNTRY.GetName]が有する大隊の数は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_ARMY_SIZE_EQUAL:0 "[COUNTRY.GetName]が有する大隊の数は$TARGET_VALUE|0v$です"
+ TRIGGER_ARMY_SIZE_NOT_EQUAL:0 "[COUNTRY.GetName]が有する大隊の数は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_NAVY_SIZE_GREATER_THAN:0 "[COUNTRY.GetName]が有する軍用艦船の数は$TARGET_VALUE|0v$以上です"
+ TRIGGER_NAVY_SIZE_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]が有する軍用艦船の数は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_NAVY_SIZE_LESS_THAN:0 "[COUNTRY.GetName]が有する軍用艦船の数は$TARGET_VALUE|0v$未満です"
+ TRIGGER_NAVY_SIZE_LESS_OR_EQUAL:0 "[COUNTRY.GetName]が有する軍用艦船の数は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_NAVY_SIZE_EQUAL:0 "[COUNTRY.GetName]が有する軍用艦船の数は$TARGET_VALUE|0v$です"
+ TRIGGER_NAVY_SIZE_NOT_EQUAL:0 "[COUNTRY.GetName]が有する軍用艦船の数は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_NUM_COMMANDERS_GREATER_THAN:0 "[COUNTRY.GetName]が擁する司令官の数は$TARGET_VALUE|0v$以上です"
+ TRIGGER_NUM_COMMANDERS_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]が擁する司令官の数は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_NUM_COMMANDERS_LESS_THAN:0 "[COUNTRY.GetName]が擁する司令官の数は$TARGET_VALUE|0v$未満です"
+ TRIGGER_NUM_COMMANDERS_LESS_OR_EQUAL:0 "[COUNTRY.GetName]が擁する司令官の数は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_NUM_COMMANDERS_EQUAL:0 "[COUNTRY.GetName]が擁する司令官の数は$TARGET_VALUE|0v$です"
+ TRIGGER_NUM_COMMANDERS_NOT_EQUAL:0 "[COUNTRY.GetName]が擁する司令官の数は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_NUM_ACTIVE_PLAYS_GREATER_THAN:0 "[COUNTRY.GetName]が有する外交プレイの数は$TARGET_VALUE|0v$以上です"
+ TRIGGER_NUM_ACTIVE_PLAYS_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]が有する外交プレイの数は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_NUM_ACTIVE_PLAYS_LESS_THAN:0 "[COUNTRY.GetName]が有する外交プレイの数は$TARGET_VALUE|0v$未満です"
+ TRIGGER_NUM_ACTIVE_PLAYS_LESS_OR_EQUAL:0 "[COUNTRY.GetName]が有する外交プレイの数は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_NUM_ACTIVE_PLAYS_EQUAL:0 "[COUNTRY.GetName]が有する外交プレイの数は$TARGET_VALUE|0v$です"
+ TRIGGER_NUM_ACTIVE_PLAYS_NOT_EQUAL:0 "[COUNTRY.GetName]が有する外交プレイの数は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_NUM_COLONY_PROJECTS_GREATER_THAN:0 "[COUNTRY.GetName]が所有する植民地計画の数は$TARGET_VALUE|0v$以上です"
+ TRIGGER_NUM_COLONY_PROJECTS_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]が所有する植民地計画の数は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_NUM_COLONY_PROJECTS_LESS_THAN:0 "[COUNTRY.GetName]が所有する植民地計画の数は$TARGET_VALUE|0v$未満です"
+ TRIGGER_NUM_COLONY_PROJECTS_LESS_OR_EQUAL:0 "[COUNTRY.GetName]が所有する植民地計画の数は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_NUM_COLONY_PROJECTS_EQUAL:0 "[COUNTRY.GetName]が所有する植民地計画の数は$TARGET_VALUE|0v$です"
+ TRIGGER_NUM_COLONY_PROJECTS_NOT_EQUAL:0 "[COUNTRY.GetName]が所有する植民地計画の数は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_NUM_UNINCORPORATED_STATES_GREATER_THAN:0 "[COUNTRY.GetName]所属で併合されていない州の数は$TARGET_VALUE|0v$以上です"
+ TRIGGER_NUM_UNINCORPORATED_STATES_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]所属で併合されていない州の数は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_NUM_UNINCORPORATED_STATES_LESS_THAN:0 "[COUNTRY.GetName]所属で併合されていない州の数は$TARGET_VALUE|0v$未満です"
+ TRIGGER_NUM_UNINCORPORATED_STATES_LESS_OR_EQUAL:0 "[COUNTRY.GetName]所属で併合されていない州の数は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_NUM_UNINCORPORATED_STATES_EQUAL:0 "[COUNTRY.GetName]所属で併合されていない州の数は$TARGET_VALUE|0v$です"
+ TRIGGER_NUM_UNINCORPORATED_STATES_NOT_EQUAL:0 "[COUNTRY.GetName]所属で併合されていない州の数は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_POPULARITY_GREATER_THAN:0 "[CHARACTER.GetName]の人気度は$TARGET_VALUE|0v$以上です"
+ TRIGGER_POPULARITY_GREATER_OR_EQUAL:0 "[CHARACTER.GetName]の人気度は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_POPULARITY_LESS_THAN:0 "[CHARACTER.GetName]の人気度は$TARGET_VALUE|0v$未満です"
+ TRIGGER_POPULARITY_LESS_OR_EQUAL:0 "[CHARACTER.GetName]の人気度は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_POPULARITY_EQUAL:0 "[CHARACTER.GetName]の人気度は$TARGET_VALUE|0v$です"
+ TRIGGER_POPULARITY_NOT_EQUAL:0 "[CHARACTER.GetName]の人気度は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_COUNTRY_GDP_GREATER_THAN:0 "[COUNTRY.GetName]の$GDP_SHORT$は@money!$TARGET_VALUE|Dv$以上です"
+ TRIGGER_COUNTRY_GDP_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]の$GDP_SHORT$は@money!$TARGET_VALUE|Dv$と同等かそれ以上です"
+ TRIGGER_COUNTRY_GDP_LESS_THAN:0 "[COUNTRY.GetName]の$GDP_SHORT$は@money!$TARGET_VALUE|Dv$未満です"
+ TRIGGER_COUNTRY_GDP_LESS_OR_EQUAL:0 "[COUNTRY.GetName]の$GDP_SHORT$は@money!$TARGET_VALUE|Dv$と同等かそれ以下です"
+ TRIGGER_COUNTRY_GDP_EQUAL:0 "[COUNTRY.GetName]の$GDP_SHORT$は@money!$TARGET_VALUE|Dv$です"
+ TRIGGER_COUNTRY_GDP_NOT_EQUAL:0 "[COUNTRY.GetName]の$GDP_SHORT$は@money!$TARGET_VALUE|Dv$ではありません"
+
+ TRIGGER_PRESTIGE_GREATER_THAN:0 "[COUNTRY.GetName]の国威は$TARGET_VALUE|0v$以上です"
+ TRIGGER_PRESTIGE_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]の国威は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_PRESTIGE_LESS_THAN:0 "[COUNTRY.GetName]の国威は$TARGET_VALUE|0v$未満です"
+ TRIGGER_PRESTIGE_LESS_OR_EQUAL:0 "[COUNTRY.GetName]の国威は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_PRESTIGE_EQUAL:0 "[COUNTRY.GetName]の国威は$TARGET_VALUE|0v$です"
+ TRIGGER_PRESTIGE_NOT_EQUAL:0 "[COUNTRY.GetName]の国威は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_CREDIT_GREATER_THAN:0 "[COUNTRY.GetName]の信用は$TARGET_VALUE|0v$以上です"
+ TRIGGER_CREDIT_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]の信用は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_CREDIT_LESS_THAN:0 "[COUNTRY.GetName]の信用は$TARGET_VALUE|0v$未満です"
+ TRIGGER_CREDIT_LESS_OR_EQUAL:0 "[COUNTRY.GetName]の信用は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_CREDIT_EQUAL:0 "[COUNTRY.GetName]の信用は$TARGET_VALUE|0v$です"
+ TRIGGER_CREDIT_NOT_EQUAL:0 "[COUNTRY.GetName]の信用は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_LEGITIMACY_GREATER_THAN:0 "[COUNTRY.GetName]政府の正当性は$TARGET_VALUE|0v$以上です"
+ TRIGGER_LEGITIMACY_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]政府の正当性は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_LEGITIMACY_LESS_THAN:0 "[COUNTRY.GetName]政府の正当性は$TARGET_VALUE|0v$未満です"
+ TRIGGER_LEGITIMACY_LESS_OR_EQUAL:0 "[COUNTRY.GetName]政府の正当性は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_LEGITIMACY_EQUAL:0 "[COUNTRY.GetName]政府の正当性は$TARGET_VALUE|0v$です"
+ TRIGGER_LEGITIMACY_NOT_EQUAL:0 "[COUNTRY.GetName]政府の正当性は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_TECHS_RESEARCHED_GREATER_THAN:0 "[COUNTRY.GetName]で研究された技術の数は$TARGET_VALUE|0v$以上です"
+ TRIGGER_TECHS_RESEARCHED_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]で研究された技術の数は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_TECHS_RESEARCHED_LESS_THAN:0 "[COUNTRY.GetName]で研究された技術の数は$TARGET_VALUE|0v$未満です"
+ TRIGGER_TECHS_RESEARCHED_LESS_OR_EQUAL:0 "[COUNTRY.GetName]で研究された技術の数は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_TECHS_RESEARCHED_EQUAL:0 "[COUNTRY.GetName]で研究された技術の数は$TARGET_VALUE|0v$です"
+ TRIGGER_TECHS_RESEARCHED_NOT_EQUAL:0 "[COUNTRY.GetName]で研究された技術の数は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_FRONT_LENGTH_GREATER_THAN:0 "[FRONT.GetName]前線の総延長は$TARGET_VALUE|0v$以上です"
+ TRIGGER_FRONT_LENGTH_GREATER_OR_EQUAL:0 "[FRONT.GetName]前線の総延長は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_FRONT_LENGTH_LESS_THAN:0 "[FRONT.GetName]前線の総延長は$TARGET_VALUE|0v$未満です"
+ TRIGGER_FRONT_LENGTH_LESS_OR_EQUAL:0 "[FRONT.GetName]前線の総延長は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_FRONT_LENGTH_EQUAL:0 "[FRONT.GetName]前線の総延長は$TARGET_VALUE|0v$です"
+ TRIGGER_FRONT_LENGTH_NOT_EQUAL:0 "[FRONT.GetName]前線の総延長は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_NUM_MOBILIZED_BATTALIONS_GREATER_THAN:0 "動員した大隊の[CHARACTER.GetName]数は$TARGET_VALUE|0v$以上です"
+ TRIGGER_NUM_MOBILIZED_BATTALIONS_GREATER_OR_EQUAL:0 "動員した大隊の[CHARACTER.GetName]数は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_NUM_MOBILIZED_BATTALIONS_LESS_THAN:0 "動員した大隊の[CHARACTER.GetName]数は$TARGET_VALUE|0v$未満です"
+ TRIGGER_NUM_MOBILIZED_BATTALIONS_LESS_OR_EQUAL:0 "動員した大隊の[CHARACTER.GetName]数は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_NUM_MOBILIZED_BATTALIONS_EQUAL:0 "動員した大隊の[CHARACTER.GetName]数は$TARGET_VALUE|0v$です"
+ TRIGGER_NUM_MOBILIZED_BATTALIONS_NOT_EQUAL:0 "動員した大隊の[CHARACTER.GetName]数は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_AVERAGE_DEFENSE_GREATER_THAN:0 "[FRONT.GetName]の防御力平均は$TARGET_VALUE|0v$以上です"
+ TRIGGER_AVERAGE_DEFENSE_GREATER_OR_EQUAL:0 "[FRONT.GetName]の防御力平均は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_AVERAGE_DEFENSE_LESS_THAN:0 "[FRONT.GetName]の防御力平均は$TARGET_VALUE|0v$未満です"
+ TRIGGER_AVERAGE_DEFENSE_LESS_OR_EQUAL:0 "[FRONT.GetName]の防御力平均は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_AVERAGE_DEFENSE_EQUAL:0 "[FRONT.GetName]の防御力平均は$TARGET_VALUE|0v$です"
+ TRIGGER_AVERAGE_DEFENSE_NOT_EQUAL:0 "[FRONT.GetName]の防御力平均は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_AVERAGE_OFFENSE_GREATER_THAN:0 "[FRONT.GetName]の攻撃力平均は$TARGET_VALUE|0v$以上です"
+ TRIGGER_AVERAGE_OFFENSE_GREATER_OR_EQUAL:0 "[FRONT.GetName]の攻撃力平均は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_AVERAGE_OFFENSE_LESS_THAN:0 "[FRONT.GetName]の攻撃力平均は$TARGET_VALUE|0v$未満です"
+ TRIGGER_AVERAGE_OFFENSE_LESS_OR_EQUAL:0 "[FRONT.GetName]の攻撃力平均は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_AVERAGE_OFFENSE_EQUAL:0 "[FRONT.GetName]の攻撃力平均は$TARGET_VALUE|0v$です"
+ TRIGGER_AVERAGE_OFFENSE_NOT_EQUAL:0 "[FRONT.GetName]の攻撃力平均は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_NUM_TOTAL_BATTALIONS_GREATER_THAN:0 "大隊の[FRONT.GetName]数は$TARGET_VALUE|0v$以上です"
+ TRIGGER_NUM_TOTAL_BATTALIONS_GREATER_OR_EQUAL:0 "大隊の[FRONT.GetName]数は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_NUM_TOTAL_BATTALIONS_LESS_THAN:0 "大隊の[FRONT.GetName]数は$TARGET_VALUE|0v$未満です"
+ TRIGGER_NUM_TOTAL_BATTALIONS_LESS_OR_EQUAL:0 "大隊の[FRONT.GetName]数は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_NUM_TOTAL_BATTALIONS_EQUAL:0 "大隊の[FRONT.GetName]数は$TARGET_VALUE|0v$です"
+ TRIGGER_NUM_TOTAL_BATTALIONS_NOT_EQUAL:0 "大隊の[FRONT.GetName]数は$TARGET_VALUE|0v$ではありません"
+
+ TRIGGER_NUM_DEFENDING_BATTALIONS_GREATER_THAN:0 "防衛側にいる大隊の[FRONT.GetName]数は$TARGET_VALUE|0v$以上です"
+ TRIGGER_NUM_DEFENDING_BATTALIONS_GREATER_OR_EQUAL:0 "防衛側にいる大隊の[FRONT.GetName]数は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_NUM_DEFENDING_BATTALIONS_LESS_THAN:0 "防衛側にいる大隊の[FRONT.GetName]数は$TARGET_VALUE|0v$未満です"
+ TRIGGER_NUM_DEFENDING_BATTALIONS_LESS_OR_EQUAL:0 "防衛側にいる大隊の[FRONT.GetName]数は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_NUM_DEFENDING_BATTALIONS_EQUAL:0 "防衛側にいる大隊の[FRONT.GetName]数は$TARGET_VALUE|0v$です"
+ TRIGGER_NUM_DEFENDING_BATTALIONS_NOT_EQUAL:0 "防衛側にいる大隊の[FRONT.GetName]数は$TARGET_VALUE|0v$ではありません"
+
+ # [LocEditor:UntranslatedKey] `TRIGGER_COMMANDER_PM_USAGE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COMMANDER_PM_USAGE_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_DIPLOMATIC_PLAY_PM_USAGE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_DIPLOMATIC_PLAY_PM_USAGE_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_FRONT_SIDE_PM_USAGE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_FRONT_SIDE_PM_USAGE_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_PM_USAGE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_PM_USAGE_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_BATTLE_SIDE_PM_USAGE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_BATTLE_SIDE_PM_USAGE_NOT`
+
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_MAJORITY_COMBAT_UNIT_ETHNICITY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_MAJORITY_COMBAT_UNIT_ETHNICITY_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_POP_TYPE_PERCENT_COUNTRY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_POP_TYPE_PERCENT_COUNTRY_NOT`
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ TRIGGER_AND:0 "以下のすべて:"
+ TRIGGER_AND_NOCONTEXT:0 "$TRIGGER_AND$"
+ TRIGGER_OR:0 "少なくともどれか一つ:"
+ TRIGGER_OWES_FAVOR_TO:0 "[TARGET_COUNTRY.GetName]に恩義があります"
+ TRIGGER_OWES_FAVOR_TO_NOT:0 "[TARGET_COUNTRY.GetName]に恩義はありません"
+ TRIGGER_IS_OWED_FAVOR_BY:0 "[COUNTRY.GetName]は[TARGET_COUNTRY.GetName]に恩義があります"
+ TRIGGER_IS_OWED_FAVOR_BY_NOT:0 "[COUNTRY.GetName]は[TARGET_COUNTRY.GetName]に恩義がありません"
+ TRIGGER_PRESTIGE:0 "#variable $NAME_ADJ$#!の国威は$COMPARATOR$ #variable $NUM$#!です"
+ TRIGGER_PRESTIGE_NOT:0 "#variable $NAME_ADJ$#!の国威は$COMPARATOR$ #variable $NUM$#!ではありません"
+ TRIGGER_OR_NOCONTEXT:0 "または"
+ TRIGGER_IS_AT_WAR_NOCONTEXT:0 "戦争中です"
+ TRIGGER_IS_AT_WAR_NOCONTEXT_NOT:0 "戦争中ではありません"
+ TRIGGER_IS_PRIMARY_CULTURE_NOCONTEXT:0 "[concept_primary_cultures]です"
+ TRIGGER_INCOME_TAX_LEVEL:0 "所得税レベル$COMPARATOR$ $LEVEL$です"
+ TRIGGER_INCOME_TAX_LEVEL_NOT:0 "所得税レベル$COMPARATOR$ $LEVEL$ではありません"
+ TRIGGER_POLL_TAX_LEVEL:0 "人頭税レベル$COMPARATOR$ $LEVEL$です"
+ TRIGGER_POLL_TAX_LEVEL_NOT:0 "人頭税レベル$COMPARATOR$ $LEVEL$ではありません"
+ TRIGGER_CONSUMPTION_TAX_LEVEL:0 "消費税レベル$COMPARATOR$ $LEVEL$です"
+ TRIGGER_CONSUMPTION_TAX_LEVEL_NOT:0 "消費税レベル$COMPARATOR$ $LEVEL$ではありません"
+ TRIGGER_INCOME_TAX_LEVEL_VALUE:0 "所得税レベル$COMPARATOR$ $NUM$です"
+ TRIGGER_INCOME_TAX_LEVEL_VALUE_NOT:0 "所得税レベル$COMPARATOR$ $NUM$ではありません"
+ TRIGGER_POLL_TAX_LEVEL_VALUE:0 "人頭税レベル$COMPARATOR$ $NUM$です"
+ TRIGGER_POLL_TAX_LEVEL_VALUE_NOT:0 "人頭税レベル$COMPARATOR$ $NUM$ではありません"
+ TRIGGER_CONSUMPTION_TAX_LEVEL_VALUE:0 "消費税レベル$COMPARATOR$ $NUM$です"
+ TRIGGER_CONSUMPTION_TAX_LEVEL_VALUE_NOT:0 "消費税レベル$COMPARATOR$ $NUM$ではありません"
+ TRIGGER_HAS_HIGH_ATTRITION_RISK:0 "[Character.GetFullName]には高い[concept_attrition]リスクがあります"
+ TRIGGER_HAS_HIGH_ATTRITION_RISK_NOT:0 "[Character.GetFullName]には高い[concept_attrition]リスクがありません"
+ TRIGGER_AVERAGE_SOL_GREATER_THAN:0 "[COUNTRY.GetName]の平均的な生活水準は$TARGET_VALUE|0v$以上です"
+ TRIGGER_AVERAGE_SOL_GREATER_OR_EQUAL:0 "[COUNTRY.GetName]の平均的な生活水準は$TARGET_VALUE|0v$と同等かそれ以上です"
+ TRIGGER_AVERAGE_SOL_LESS_THAN:0 "[COUNTRY.GetName]の平均的な生活水準は$TARGET_VALUE|0v$未満です"
+ TRIGGER_AVERAGE_SOL_LESS_OR_EQUAL:0 "[COUNTRY.GetName]の平均的な生活水準は$TARGET_VALUE|0v$と同等かそれ以下です"
+ TRIGGER_AVERAGE_SOL_EQUAL:0 "[COUNTRY.GetName]の平均的な生活水準は$TARGET_VALUE|0v$です"
+ TRIGGER_AVERAGE_SOL_NOT_EQUAL:0 "[COUNTRY.GetName]の平均的な生活水準は$TARGET_VALUE|0v$ではありません"
+ TRIGGER_IS_ADVANCING:0 "[CHARACTER.GetName]は進軍中です"
+ TRIGGER_IS_ADVANCING_NOT:0 "[CHARACTER.GetName]は進軍中ではありません"

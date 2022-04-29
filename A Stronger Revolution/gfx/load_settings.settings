@@ -1,0 +1,19 @@
+#This file basically determines which folders are available to be loaded at a lower resolution. 
+#all *.dds files will be loaded in at a lower resolution. png & tga files are kept at same resolution
+#The order of the directories here matter, the first time a texture is loaded determins what setting they will use. So you want it to start with specifics, then go more global as you move down the list. 
+#The array signifies how many mipmaps will be skipped loading at low/medium/high/ultra quality
+
+#specific stuff on top, algorithm will stop at first hit
+"gfx/models" = { -2 -1 0 0 } #Any texture coming from the gfx/models folder will be loaded with skipping 4 mipmaps at low quality, or 2 at medium, or 1 at high, or 0 at ultra settings
+"gfx/portraits" = { -2 -1 0 0 }
+"gfx/interface/backgrounds/top_header.dds" = { -1 -1 -1 0 }
+
+"gfx/map/environment" = { -2 -1 0 0 }
+"gfx/map/terrain" = { -4 -2 -1 0 }
+"gfx/map/rivers" = { -4 -2 -1 0 }
+"gfx/map/water" = { -2 -1 0 0 }
+"gfx/map/roads" = { -4 -2 -1 0 }
+"gfx/map/textures/colormap.dds" = { -2 -1 0 0 }
+"gfx/map/textures/flatmap.dds" = { -2 -1 0 0 }
+"gfx/map/masks" = { -2 -1 0 0 }
+"gfx/map" = { 0 0 0 0 }

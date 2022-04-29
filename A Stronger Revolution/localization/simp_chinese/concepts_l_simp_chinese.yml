@@ -1,0 +1,1268 @@
+﻿l_simp_chinese:
+  
+ concept_concept:0 "概念"
+ concept_concepts:0 "概念"
+ concept_concept_desc:0 "这条游戏概念的弹框提示内包含了另一条[concept_concept]。"
+
+ concept_sol:0 "生活水平"
+ concept_sol_desc:0 "生活水平是[concept_pop_possessive]长期积累的物质[concept_wealth]与生活条件短期改善的综合体现。它控制着出生率与死亡率，并且它的改变会导致[Concept('concept_pop', '$concept_pops$')]成为[concept_radical]或[concept_loyalist]。生活水平随着人群的购买力和获得服务的机会而变化。"
+
+ concept_pop_growth:0 "人口增长率"
+ concept_pop_growth_desc:0 "[concept_pop]每年增加或减少的人口净数量取决于其出生率和死亡率。这些由[concept_sol]控制，并受到疾病、工作条件、有益的[Concept('concept_institution', '$concept_institutions$)']和空余的生活空间等因素影响。\n\n@information! 由[concept_migration]或战争伤亡等导致的外来变化不包含在内。" # [LocEditor:AwaitingBatchUpdate]
+ 
+ # [LocEditor:UntranslatedKey] `concept_individual`
+ # [LocEditor:UntranslatedKey] `concept_individuals`
+ # [LocEditor:UntranslatedKey] `concept_individual_desc`
+
+ concept_building:0 "建筑"
+ concept_buildings:0 "建筑"
+ concept_building_possessive:0 "建筑"
+ concept_building_desc:0 "[Concept('concept_pop', '$concept_pops$')]在建筑中工作。他们开发[concept_state]中的自然潜力，或是通过投入[Concept('concept_good', '$concept_goods$')]创造其他[Concept('concept_good', '$concept_goods$')]与效果，例如[concept_infrastructure]。建筑生产什么、以及谁在建筑中工作，都能通过改变建筑的[Concept('concept_production_method', '$concept_production_methods$')]来调整。"
+  
+ concept_opinion:0 "观感"
+ concept_opinion_desc:0 "你的人民对于其他国家、以及其他[Concept('concept_country', '$concept_countries$)']对于你的观感都是你外交关系中的重要一环。" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_colonize:0 "殖民"
+ concept_colonizes:0 "殖民" # [LocEditor:AwaitingBatchUpdate]
+ concept_colonize_desc:0 "如果你是列强或主要政权，就可以在一个你拥有[concept_interest]的[concept_strategic_region]殖民属于[concept_decentralized_nation]的[concept_state]。"
+
+ concept_potentials:0 "生产潜力"
+ concept_potentials_desc:0 "生产潜力的数量显示了一处地区能够产出多少该种商品。"
+
+ concept_diplomatic_play:0 "外交博弈"
+ # [LocEditor:UntranslatedKey] `concept_diplomatic_play_short`
+ concept_diplomatic_plays:0 "外交博弈"
+ concept_diplomatic_play_desc:0 "如果你在一处[concept_strategic_region]有[concept_interest]，就可以在该区域提出声索并开展一场外交博弈。外交博弈可能和平解决，也可能升级为战争。每个在该[concept_strategic_region]有着[concept_interest]的国家都将决定是支持你还是外交博弈的目标，或是放弃介入。"
+  
+ concept_maneuver:0 "博弈行动力"
+ concept_maneuvers:0 "博弈行动力" # [LocEditor:AwaitingBatchUpdate]
+ concept_maneuver_desc:0 "[Concept('concept_diplomatic_play', '$concept_diplomatic_plays$)']中的博弈行动力可以用来增加更多的[concept_war_goal]或是[concept_sway][Concept('concept_country', '$concept_countries$)']到你的阵营。只有外交博弈的发起者和目标可以使用。" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_modifier:0 "修正"
+ concept_modifiers:0 "修正" # [LocEditor:AwaitingBatchUpdate]
+ concept_modifier_desc:0 "#todo 修正到底是什么，以及我们真的要这样当做游戏概念解释给玩家吗？#!"
+
+ concept_ruler:0 "统治者"
+ concept_rulers:0 "统治者"
+ concept_ruler_possessive:0 "统治者"
+ concept_ruler_desc:0 "[concept_country]的统治者是一种[concept_character]。他们拥有的各种[Concept('concept_character_trait', '$concept_character_traits$)']给予[concept_country]特定的加成或减益。" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_heir:0 "继任者"
+ concept_heir_desc:0 "[concept_country]的继任者是一种[concept_character]。他们将会在[concept_country]现任[concept_ruler]死后接班成为[concept_ruler]。"
+
+ concept_homeland:0 "本土"
+ concept_homelands:0 "本土" # [LocEditor:AwaitingBatchUpdate]
+ concept_homeland_desc:0 "[concept_culture_possessive]本土是该文化[Concept('concept_pop', '$concept_pops$')]感到自身有天然归属感的[concept_state_region]。人群倾向于移动到自己的本土，并且比起侵略性扩张，国际社会更易于将夺回失落的本土视作正当行为。"
+
+ concept_mobilize_general:0 "动员将领"
+ concept_mobilize_general_mobilize:0 "动员"
+ concept_mobilize_general_mobilizing:0 "动员"
+ concept_mobilize_general_mobilized:0 "动员"
+ concept_mobilize_general_mobilization:0 "动员"
+ concept_mobilize_general_desc:0 "#todo 动员一名[concept_general]会开始动员其所部[Concept('concept_battalion', '$concept_battalions$)']。注意一名已$concept_mobilize_general_mobilized$的$concept_general$无法被手动解除动员，只会在国家处于和平时解除动员。#!" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_mobilize_battalion:0 "动员营队"
+ concept_mobilize_battalion_demobilized:0 "解除动员"
+ # [LocEditor:UntranslatedKey] `concept_mobilize_battalion_mobilize`
+ concept_mobilize_battalion_mobilizing:0 "动员"
+ concept_mobilize_battalion_mobilized:0 "动员"
+ # [LocEditor:UntranslatedKey] `concept_mobilize_battalions_mobilized`
+ concept_mobilize_battalion_desc:0 "#todo 委派给一名已[Concept('concept_mobilize_general', '$concept_mobilize_general_mobilized$')][concept_general]的[Concept('concept_battalion', '$concept_battalions$)']会立刻根据[concept_state]的[concept_infrastructure]开始动员。一旦完成动员，[Concept('concept_battalion', '$concept_battalions$)']将消耗更多资源但也准备好了作战！#!" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_conscription_center:0 "征兵中心"
+ concept_conscription_centers:0 "征兵中心"
+ concept_conscription_center_conscription:0 "征兵"
+ # [LocEditor:UntranslatedKey] `concept_conscripted`
+ # [LocEditor:UntranslatedKey] `concept_conscription`
+ concept_conscription_center_desc:0 "#todo 征兵中心是一种自动放置的建筑，按照[concept_country]的征兵法律，可以在激活后征募公民进入军事服役。#!"
+
+ concept_conscript_battalion:0 "征召营队"
+ concept_conscript_battalions:0 "征召营队"
+ # [LocEditor:UntranslatedKey] `concept_conscript_battalion_drafting`
+ concept_conscript_battalion_desc:0 "#todo 征召营队是一支在[concept_conscription_center]训练出来的临时[concept_battalion]。#!" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_front:0 "前线"
+ concept_fronts:0 "前线" # [LocEditor:AwaitingBatchUpdate]
+ concept_front_desc:0 "前线是两个[concept_war]中[Concept('concept_country', '$concept_countries$)']边境[Concept('concept_province', '$concept_provinces$)']的集合。被委派到前线所处[Concept('concept_strategic_region', '$concept_strategic_regions$)']的[Concept('concept_commander', '$concept_commanders$)']会派出部队到前线。同一前线可以有数个[Concept('concept_commander', '$concept_commanders$)']，级别最高的[concept_commander]将掌管本方前线。若该[concept_commander]受令入侵且有足够的部队，就会开始拟定[concept_battle_plan]并最终导致[concept_battle]。" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_garrison:0 "驻军"
+ concept_garrison_desc:0 "#TODO 驻军是……"
+
+ concept_advancement_progress:0 "进军进度"
+ concept_advancement_progress_desc:0 "#TODO [concept_front]若要发动一场新的[concept_battle]，首先需要积累足够的进军进度。#!"
+ concept_advancement_speed:0 "进军速度"
+ concept_advancement_speed_desc:0 "#TODO 指挥官的进军速度是其对于[concept_front][concept_advancement_progress]的贡献。\n没有可用部队的指挥官进军速度为零。#!"
+
+ concept_province:0 "地块"
+ concept_provinces:0 "地块" # [LocEditor:AwaitingBatchUpdate]
+ concept_province_desc:0 "地块是[Concept('concept_state', '$concept_states$)']的一部分，不同地块拥有不同的[concept_terrain]。[concept_battle]中，[Concept('concept_general', '$concept_generals$)']可以行军跨越和征服地块。" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_commander:0 "指挥官"
+ concept_commanders:0 "指挥官" # [LocEditor:AwaitingBatchUpdate]
+ concept_commander_desc:0 "指挥官是领导军队的[concept_character]。"
+
+ concept_battle:0 "战斗"
+ concept_battle_desc:0 "战斗是[concept_war]双方在[concept_front]交锋，对彼此造成伤亡。战斗在一处[concept_province]打响，其[concept_terrain]对于战斗结果有影响。战斗结束时，赢家夺得[concept_province]的控制权。"
+
+ concept_terrain:0 "地形"
+ concept_terrain_desc:0 "[concept_province]的地形控制着……#todo 什么东西#!，如果一场[concept_battle]在该[concept_province]中打响。" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_strategic_region:0 "战略区域"
+ concept_strategic_regions:0 "战略区域" # [LocEditor:AwaitingBatchUpdate]
+ concept_strategic_region_desc:0 "战略区域是会受到[Concept('concept_diplomatic_play', '$concept_diplomatic_plays$)']侵扰的[Concept('concept_state_region', '$concept_state_regions$')]的集合。[concept_country]的军队在某战略区域投射[concept_interest]时，该国才能参与此处的[concept_diplomatic_play]。"
+
+ concept_sway:0 "拉拢"
+ concept_sway_desc:0 "[concept_diplomatic_play]的发起或目标[concept_country]可以尝试拉拢在该[concept_strategic_region]有[concept_interest]且尚未选边站的任何[concept_country]。"
+  
+ concept_diplomatic_action:0 "外交行动"
+ concept_diplomatic_actions:0 "外交行动"
+ concept_diplomatic_action_desc:0 "[concept_country]可以针对另一个[concept_country]采取外交行动，例如组建[Concept('concept_alliance', '$concept_alliances$)']、宣布[Concept('concept_rivalry', '$concept_rivalries$)']等。" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_bureaucracy:0 "行政力"
+ concept_bureaucracy_desc:0 "行政力（@bur!）被用于维持你国家的中央凝聚力。其花费随着[Concept('concept_incorporated_state', '$concept_incorporated_states$)']中的人口和每个[concept_institution]的投入等级而增加。令[concept_pop]在[Concept('concept_government_building', '$concept_government_buildings$)']中工作可以让你获得@bur!。" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_government_building:0 "政府建筑"
+ concept_government_buildings:0 "政府建筑" # [LocEditor:AwaitingBatchUpdate]
+ concept_government_building_desc:0 "政府建筑是一种建筑，[concept_country]既为在其中工作的[Concept('concept_pop', '$concept_pops$')]支付工资，也承担该建筑生产链所消耗的[Concept('concept_good', '$concept_goods$')]的成本。"
+
+ concept_military_building:0 "军事建筑"
+ concept_military_buildings:0 "军事建筑" # [LocEditor:AwaitingBatchUpdate]
+ concept_military_building_desc:0 "#todo 军事建筑是……#!" # [LocEditor:AwaitingBatchUpdate]
+
+ # [LocEditor:UntranslatedKey] `concept_incorporate`
+ # [LocEditor:UntranslatedKey] `concept_incorporated`
+ # [LocEditor:UntranslatedKey] `concept_incorporating`
+ concept_incorporated_state:0 "已整合地区"
+ concept_incorporated_states:0 "已整合地区" # [LocEditor:AwaitingBatchUpdate]
+ concept_incorporated_state_desc:0 "已整合地区中的[Concept('concept_pop', '$concept_pops$')]可以获得[Concept('concept_institution', '$concept_institutions$)']带来的好处，要缴纳税款，并且完全参与该国的政治体制。" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_influence:0 "影响力"
+ concept_influence_desc:0 "针对另一[concept_country]的[Concept('concept_diplomatic_action', '$concept_diplomatic_actions$)']会消耗影响力（@inf!）。你的[concept_rank]，以及你的[Concept('concept_rivalry', '$concept_rivals$)']会为你产生@inf!" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_authority:0 "权威力"
+ concept_authority_desc:0 "权威力（@aut!）是用来达成国家的内部变化的，例如颁布[Concept('concept_decree', '$concept_decreees$)']或是操弄[Concept('concept_interest_group', '$concept_interest_groups$')]。你从你的[Concept('concept_law', '$concept_laws$')]获得@aut!。" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_institution:0 "机构"
+ concept_institutions:0 "机构" # [LocEditor:AwaitingBatchUpdate]
+ concept_institution_desc:0 "机构为你[concept_country]的[Concept('concept_incorporated_state', '$concept_incorporated_states$)']带来好处。维持机构所消耗的[concept_bureaucracy]与生活在你[Concept('concept_incorporated_state', '$concept_incorporated_states$)']的[Concept('concept_pop', '$concept_pops$')]数量和机构的规模成比例。" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_law:0 "法律"
+ concept_laws:0 "法律"
+ concept_law_desc:0 "法律决定了如何治理和运转你的国家。某些法律会启用[Concept('concept_institution', '$concept_institutions$)']。法律要得到通过，至少需要一个[concept_in_government]的[concept_interest_group]的支持。" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_law_group:0 "宪法组"
+ concept_law_group_desc:0 "#todo [Concept('concept_law', '$concept_laws$')]归为一组……#!" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_money:0 "@money!金钱"
+ concept_money_desc:0 "金钱使世界运转，用来支付政府工资、建筑材料、产业补贴和军事装备。你通过[Concept('concept_pop', '$concept_pops$')]的[concept_taxation]和[Concept('concept_building', '$concept_buildings$')]获得$concept_money$。盈余的$concept_money$被用来支付你的[concept_national_debt]或累积增加你的[concept_gold_reserves]。亏欠的$concept_money$会增加你的[concept_national_debt]直到触及根据你[concept_gdp]乘数计算出的[concept_credit_limit]。"
+
+ concept_taxation:0 "赋税"
+ concept_taxation_desc:0 "赋税是从$concept_pop$工资中收取的[concept_money]或是增加到[Concept('concept_good', '$concept_goods$')]价格上的消费税。"
+
+ concept_workforce:0 "劳动力"
+ concept_workforce_desc:0 "[concept_building]的劳动力包括不同[Concept('concept_profession', '$concept_professions$')]的[Concept('concept_pop', '$concept_pops$')]。$concept_pops$会晋升或降级以填充当前的[Concept('concept_production_method', '$concept_production_methods$')]所需的$concept_professions$。"
+
+ concept_national_debt:0 "国债"
+ concept_national_debt_desc:0 "国债是你欠……某人的[concept_money]。你根据国债的[concept_money]数量支付[concept_budget_interest_rate]。如果你结余为负，你的国债将会增加。"
+
+ concept_gold_reserves:0 "黄金储备"
+ concept_gold_reserves_desc:0 "黄金储备是你[concept_country]在储备中积存的[concept_money]数量。如果你结余为正，你的黄金储备将会增加，反之亦然。"
+
+ concept_cash_reserves:0 "现金储备"
+ concept_cash_reserves_desc:0 "[concept_building]的现金储备是其所有者积存的金钱。如果建筑的每周结余为正，这些金钱的一部分将被放入现金储备，剩余的派发给建筑所有者的人群（他们会用来增加自己的[concept_sol]并将金钱放入[concept_investment_pool]）。"
+
+ concept_credit_limit:0 "信贷上限"
+ concept_credit_limit_desc:0 "信贷上限根据你[concept_gdp]的乘数计算得出，限制了你所能累积的[concept_national_debt]数量。"
+  
+ concept_obsession:0 "痴迷"
+ concept_obsession_desc:0 "[concept_culture]可能痴迷于某一特定[concept_good]。相较于同一[concept_pop_needs]类别的其他商品，该文化的[Concept('concept_pop', '$concept_pops$')]将会显著地花费更多在所痴迷的商品上。"
+  
+ concept_taboo:0 "禁忌"
+ concept_taboo_desc:0 "[concept_religion]可能对于某一特定[concept_good]有禁忌。相较于同一[concept_pop_needs]类别的其他商品，该宗教的[Concept('concept_pop', '$concept_pops$')]将会显著地花费更少在被认为是禁忌的商品上。"
+  
+ concept_goods_substitution:0 "商品替代"
+ concept_goods_substitution_desc:0 "属于同一[concept_pop_needs]类别的商品，在人群消费中基于易得程度可以相互替代。例如，基础食品组包括谷物和肉类，人群通常消费较多谷物和较少肉类，而如果肉类之后在市场中更易得，就会增加肉类消费（因而减少谷物消费）。某些情况下，如果一种商品在[concept_market]中不存在[concept_sell_orders]，该商品可能会被完全替代。如果一种商品属于[concept_taboo]或是受到文化[concept_obsession]，相较于同一类别的其他商品，该人群购买此商品的数量会有极大差异。有更高内在价值的商品更能满足一类人群在一特定人群需求类别中的需求，举例来说，一单位加工食品等价于数单位的谷物。"
+
+ concept_sell_orders:0 "销售订单"
+ concept_sell_orders_desc:0 "在中央[concept_market]销售一种货物的订单决定了该货物的[concept_market_price]。销售订单由地区的消费和生产决定，[concept_state]对于该[concept_market]的[concept_market_access]越高，数量越多。"
+
+ concept_buy_orders:0 "购买订单"
+ concept_buy_orders_desc:0 "在中央[concept_market]购买一种货物的订单决定了该货物的[concept_market_price]。购买订单由地区的消费和生产决定，[concept_state]对于该[concept_market]的[concept_market_access]越高，数量越多。"
+
+ concept_market_price:0 "市场价格"
+ concept_market_price_desc:0 "[concept_market]中一种[concept_good]的价格，由[concept_buy_orders]和[concept_sell_orders]决定，也会根据[concept_state_possessive]的[concept_market_access]影响其[concept_local_price]。"
+
+ concept_local_price:0 "本地价格"
+ concept_local_price_desc:0 "[concept_state]中一种[concept_good]的价格，由当地的消费、生产、以及经[concept_state_possessive][concept_market_access]修正后的[concept_market_price]决定，并会产生[concept_buy_orders]和[concept_sell_orders]。"
+
+ concept_subsistence_building:0 "自给建筑"
+ concept_subsistence_buildings:0 "自给建筑" # [LocEditor:AwaitingBatchUpdate]
+ concept_subsistence_building_desc:0 "自给建筑是[Concept('concept_building', '$concept_buildings$')]的一种类别，比通常建筑要低效得多，作为[concept_urbanization]或[concept_arable_land]过剩的副作用而自动生成（及消灭）。"
+
+ concept_non_government_building:0 "生产建筑"
+ concept_non_government_building_desc:0 "生产建筑生产某种东西且不由政府买单。"
+  
+ concept_trade_route:0 "贸易路线"
+ concept_trade_routes:0 "贸易路线"
+ concept_trade_route_desc:0 "有供应的[Concept('concept_good', '$concept_goods$')]在[Concept('concept_market', '$concept_markets$)']间通过贸易路线移动，使出口方价格升高并降低进口方的价格。每条贸易路线能够移动的$concept_goods$数量由连接两个[Concept('concept_market', '$concept_markets$)']的[concept_infrastructure]质量决定。" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_trade_agreement:0 "贸易协议"
+ concept_trade_agreement_desc:0 "贸易协议是两个[Concept('concept_country', '$concept_countries$)']之间的外交协定，增加两国控制的[Concept('concept_market', '$concept_markets$)']间所有[Concept('concept_trade_route', '$concept_trade_routes$')]的效率。" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_trade_route_competitiveness:0 "贸易路线竞争力"
+ concept_trade_route_competitiveness_desc:0 "#todo 贸易路线竞争力是……#!"
+
+ concept_economy_of_scale:0 "规模经济"
+ concept_economy_of_scale_desc:0 "#todo 规模经济是……#!"
+  
+ concept_interest_group:0 "利益集团"
+ concept_interest_groups:0 "利益集团"
+ concept_interest_group_possessive:0 "利益集团"
+ concept_interest_group_desc:0 "利益集团是你[concept_country]内拥有共同利益的政治派系。利益集团根据自身有多大程度代表了$concept_pop$的个体处境而吸引[Concept('concept_pop', '$concept_pops$')]的支持。利益集团有数个[Concept('concept_ideology', '$concept_ideologies$')]，促使他们对于不同的[Concept('concept_law', '$concept_laws$')]选择不同的立场。利益集团也有数个[Concept('concept_interest_group_trait', '$concept_interest_group_traits$)']，分别在不同的[concept_ig_approval]等级时候激活。利益集团还会有一位[concept_politician]作为领袖，其个人的[concept_ideology]也会传染给该利益集团。"
+
+ concept_interest_group_attraction:0 "利益集团吸引力"
+ concept_interest_group_attractions:0 "利益集团吸引力" # [LocEditor:AwaitingBatchUpdate]
+ concept_attracted:0 "吸引"
+ concept_interest_group_attraction_desc:0 "#todo 利益集团吸引力是……#!" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_politician:0 "政治家"
+ concept_politicians:0 "政治家" # [LocEditor:AwaitingBatchUpdate]
+ concept_politician_desc:0 "政治家是一名[concept_character]，会有[Concept('concept_character_trait', '$concept_character_traits$)']。" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_leader:0 "领袖"
+ concept_leaders:0 "领袖"
+ concept_leader_desc:0 "[concept_interest_group]的领袖是一名[concept_character]，会有[Concept('concept_character_trait', '$concept_character_traits$)']和一种施加到该[concept_interest_group_possessive][Concept('concept_ideology', '$concept_ideologies$')]上的[concept_ideology]。" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_character:0 "角色"
+ concept_characters:0 "角色" # [LocEditor:AwaitingBatchUpdate]
+ concept_character_desc:0 "角色就是，角色。根据语境，会被视为[Concept('concept_politician', '$concept_politicians$)']、[Concept('concept_commander', '$concept_commanders$)']等。" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_interest_group_trait:0 "利益集团特质"
+ concept_interest_group_traits:0 "利益集团特质" # [LocEditor:AwaitingBatchUpdate]
+ concept_interest_group_trait_desc:0 "如果激活，利益集团特质为[concept_country]提供增益或减成。特质会在不同级别的[concept_ig_approval]上激活/停止激活。"
+
+ concept_character_trait:0 "角色特质"
+ concept_character_traits:0 "角色特质" # [LocEditor:AwaitingBatchUpdate]
+ concept_character_trait_desc:0 "生效的角色特质会提供增益或减成 "
+
+ concept_military:0 "军事"
+ concept_military_desc:0 "你的军事……" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_construction_queue:0 "建造队列"
+ concept_construction_queue_desc:0 "每个[concept_state]同一时间可以扩建一个[concept_building]，其他的在建造队列中等待。"
+
+ # [LocEditor:UntranslatedKey] `concept_under_construction`
+ # [LocEditor:UntranslatedKey] `concept_under_construction_desc`
+
+ concept_political_strength:0 "政治力量"
+ concept_political_strength_desc:0 "#todo 政治力量是一组[Concept('concept_pop', '$concept_pops$')]因其[concept_status]、[concept_wealth]和投出[concept_votes]的数量而获得的政治力量的总和。#!" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_urban_center:0 "城镇中心"
+ concept_urban_centers:0 "城镇中心" # [LocEditor:AwaitingBatchUpdate]
+ concept_urban_center_desc:0 "城镇中心是[concept_urbanization]创建的一种特殊[concept_building]。"
+
+ concept_urbanization:0 "城镇化"
+ concept_urbanization_desc:0 "城镇化来自[concept_state]的大部分[Concept('concept_building', '$concept_buildings$')]。[concept_state]内每产生[GetDefine('NEconomy','URBANIZATION_PER_BUILDING')|v]点城镇化，就会创建一级[concept_urban_center]。"
+  
+ concept_ideology:0 "意识形态"
+ concept_ideologies:0 "意识形态"
+ concept_ideology_desc:0 "意识形态决定了一个[concept_interest_group]会支持或反对什么[concept_law]。要通过一项[concept_law]，需要有至少一个执政的[Concept('concept_interest_group', '$concept_interest_groups$')]支持该法。"
+
+ concept_subsistence_output:0 "自给产出"
+ concept_subsistence_output_desc:0 "[concept_peasants]从自给农业中产出的额外收入形式，代表着仅为维生而工作生产的商品。\n\n不像工资，[concept_subsistence_output]不由[Concept('concept_building', '$concept_building_possessive$)']的收入支付，也不被课[concept_budget_income_taxes]。"
+  
+ concept_good_production:0 "生产值"
+ concept_good_production_desc:0 "[Concept('concept_building', '$concept_buildings$')]或[Concept('concept_pop', '$concept_pops$')]生产的数量。"
+  
+ concept_good_consumption:0 "消费值"
+ concept_good_consumption_desc:0 "该商品被[Concept('concept_building', '$concept_buildings$')]或[Concept('concept_pop', '$concept_pops$')]消费的数量。"
+  
+  
+ concept_split_state:0 "分属地区"
+ # [LocEditor:UntranslatedKey] `concept_split_state_short`
+ concept_split_state_desc:0 "分属地区是被分割为更小[Concept('concept_state', '$concept_states$)']的[concept_state_region]。如果一个[concept_country]控制了更大部分的分属地区，就将会合并为一个地区。" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_unincorporated_state:0 "未整合地区"
+ concept_unincorporated_states:0 "未整合地区"
+ concept_unincorporated_state_desc:0 "未整合地区由一个[concept_country]控制，但被认为是一块控制领土或边疆而未正式接纳为国家本土的一部分。生活在此的[Concept('concept_pop', '$concept_pops$')]不享有公民权也不怎么提供[concept_political_strength]给其[Concept('concept_interest_group', '$concept_interest_groups$')]。未整合地区可以被转化为[concept_incorporated_state]，从而将其置于[concept_country_possessive]中央政府的直接管理之下。#!"
+  
+ concept_colonial_state:0 "殖民地区"
+ concept_colonial_states:0 "殖民地区" # [LocEditor:AwaitingBatchUpdate]
+ concept_colonial_state_desc:0 "殖民地区是一种特殊[concept_unincorporated_state]，通常是在[concept_decentralized_nation]设立[concept_colony]或从[concept_unrecognized_power]征服获得领土后创建。最终与属于同一[concept_country]的非殖民地区接壤的殖民地区会失去殖民地地位并转变为普通的[concept_unincorporated_state]。\n\n殖民地区有着移民吸引力的增益并受到殖民地[Concept('concept_law', '$concept_laws$')]和[Concept('concept_institution', '$concept_institutions$)']的某些修正的影响。" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_decentralized_nation:0 "$decentralized_nation$"
+ concept_decentralized_nations:0 "松散部族" # [LocEditor:AwaitingBatchUpdate]
+ concept_decentralized_nation_desc:0 "$decentralized_nation$的土地可以被殖民者定居。"
+  
+ concept_arable_land:0 "可耕土地"
+ concept_arable_land_desc:0 "可耕土地是一种资源，如其他资源一样可以被许多类型的资源产业占用，生产出多种[Concept('concept_good', '$concept_goods$')]。若不被其他建筑占用，则会被[concept_subsistence_building]自给农场占用。"
+  
+ concept_state_resource:0 "地区资源"
+ concept_state_resource_desc:0 "该资源可以被你的资源产业利用，为你的制造业或贸易提供[Concept('concept_good', '$concept_goods$')]。"
+
+ concept_state_region:0 "地域"
+ concept_state_regions:0 "地域"
+ concept_state_region_desc:0 "一块地域通常与一块[concept_state]相对应，但也可以在[concept_split_state]的情况下包括数个[Concept('concept_state', '$concept_states$)']。" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_occupancy:0 "利用率"
+ concept_occupancy_desc:0 "建筑的岗位满员率和产出比例。随着收入增加，建筑会雇佣和晋升来满足需求。"
+  
+ concept_votes:0 "选票"
+ concept_votes_desc:0 "你的[Concept('concept_law', '$concept_laws$')]决定了不同类型的[Concept('concept_pop', '$concept_pops$')]可以投出多少选票。选票主要投给人群支持的[concept_interest_group]，不过可能会根据当前[concept_election]中集团的[concept_momentum]而改变。选举日后，总投票数锁定，直到下次选举。"
+  
+ concept_ig_population:0 "利益集团人数"
+ concept_ig_population_desc:0 "属于该利益集团的[Concept('concept_pop', '$concept_pops$')]数量。"
+  
+ concept_ig_approval:0 "支持度"
+ concept_ig_approves:0 "支持"
+ concept_ig_approve:0 "支持"
+ concept_ig_approving:0 "支持"
+ concept_ig_disapproval:0 "反对度"
+ concept_ig_disapproves:0 "反对"
+ concept_ig_disapprove:0 "反对"
+ concept_ig_disapproving:0 "反对"
+ concept_ig_indifferent:0 "不关心"
+ concept_ig_approval_desc:0 "$concept_interest_group$的支持度或反对度由其[concept_country]的[Concept('concept_law', '$concept_laws$')]与其[Concept('concept_ideology', '$concept_ideologies$')]的匹配程度以及该[concept_interest_group]中全部[Concept('concept_pop', '$concept_pops$')]的忠诚度决定。这也决定了哪些[Concept('concept_interest_group_trait', '$concept_interest_group_traits$)']是激活的。如果无法确定支持度或反对度，则该$concept_interest_group$是中立的。" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_pol_str:0 "政治力量"
+ concept_pol_str_desc:0 "[concept_pop]（及其[concept_interest_group]）对于国家政治所拥有的权力大小的衡量。政治力量决定了集团所拥有的[concept_clout]的大小，并由支持该集团的[Concept('concept_pop', '$concept_pops$')]的[concept_status]和[concept_wealth]，以及该[concept_interest_group]在上次[concept_election]中获得的[concept_votes]决定。"
+
+ concept_clout:0 "势力"
+ concept_clout_desc:0 "势力是[concept_interest_group]从其[Concept('concept_pop', '$concept_pops$')]中获得[concept_pol_str]数量相较于国家总值的份额。如果某[concept_interest_group][concept_in_government]，高势力对于你的[concept_legitimacy]有正面影响。低[concept_clout]的集团被认为[concept_marginalized]集团。"
+
+ concept_powerful:0 "举足轻重"
+ concept_powerful_desc:0 "[concept_clout]值决定了[concept_interest_group]是否会被看作举足轻重或者略具影响。超过#variable [GetDefine('NPolitics', 'POWERFUL_IG_THRESHOLD')|%0]#!的[concept_clout]意味着该利益集团举足轻重。举足轻重意味着[concept_interest_group_possessive][concept_interest_group_trait]的效果会增加#variable [GetDefine('NPolitics', 'POWERFUL_IG_TRAIT_BONUS')|=%0]#!。"
+
+ concept_influential:0 "略具影响"
+ concept_influential_desc:0 "[concept_clout]值决定了[concept_interest_group]是否会被看作举足轻重或者略具影响。处于略具影响地位的[concept_interest_group_possessive]的[concept_interest_group_trait]的效果要弱于处于[concept_powerful]地位时的效果。"
+
+ concept_status:0 "社会地位"
+ concept_status_desc:0 "社会地位是指[concept_pop]在你[concept_country]里的地位。你的[Concept('concept_law', '$concept_laws$')]决定了不同[concept_profession]的[Concept('concept_pop', '$concept_pops$')]所具有的地位。"
+  
+ concept_marginalized:0 "边缘"
+ concept_marginalized_desc:0 "边缘[Concept('concept_interest_group', '$concept_interest_groups$')]所拥有的支持度太低，政治上不值得关注，无法在政府任职也造不成会引起注意的麻烦。"
+  
+ concept_politically_inactive:0 "政治冷漠"
+ concept_politically_inactive_desc:0 "政治冷漠的人群是不属于任一[concept_interest_group]的人群。这可能是由于低[concept_sol]或低[concept_literacy]的原因。他们并不参与你控制的国家的政治进程，意味着他们不会增加任何[concept_interest_group_possessive]的[concept_clout]。"
+
+ concept_investment_level:0 "投入等级"
+ concept_investment_levels:0 "投入等级" # [LocEditor:AwaitingBatchUpdate]
+ concept_investment_level_desc:0 "投入等级是……" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_trade_lens:0 "贸易视图"
+ concept_trade_lens_desc:0 "贸易视图中，你可以查看并操纵国家的贸易。"
+  
+ concept_production_lens:0 "生产视图"
+ concept_production_lens_desc:0 "生产视图中，你可以查看并操纵国家的生产。"
+  
+ concept_political_lens:0 "政治视图"
+ concept_political_lens_desc:0 "政治视图中，你可以查看并操纵国家的政治。"
+  
+ concept_diplomatic_lens:0 "外交视图"
+ concept_diplomatic_lens_desc:0 "外交视图中，你可以查看并操纵国家的外交。"
+  
+ concept_military_lens:0 "军事视图"
+ concept_military_lens_desc:0 "军事视图中，你可以查看并操纵国家的军事。"
+  
+ concept_country:0 "国家"
+ concept_countries:0 "国家" # [LocEditor:AwaitingBatchUpdate]
+ concept_country_possessive:0 "国家"
+ concept_country_desc:0 "国家是……\n\n你正扮演一只看不见的手，塑造并指引你的国家渡过维多利亚时代。" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_decree:0 "法令"
+ # [LocEditor:UntranslatedKey] `concept_decrees`
+ concept_decree_desc:0 "法令是……" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_population:0 "人口"
+ concept_population_desc:0 "你国家的人口是那些在你的产业、政府和军队中工作的人。这些人的[concept_taxation]是你收入的主要来源。他们的忠诚和诉求会成为你的助力亦或阻碍。"
+  
+ concept_pop_needs:0 "需求"
+ concept_pop_needs_desc:0 "[Concept('concept_pop', '$concept_pops$')]将收入花费在[Concept('concept_good', '$concept_goods$')]上来满足其需求。人群的[concept_wealth]越高，会购买的$concept_goods$就越多。人群随着财富的增长而添加更多样和奢侈的需求。一项需求通常可以通过[concept_goods_substitution]机制被多种商品满足。如果人群在需求被满足后还有金钱剩余，其财富将会增加，反之亦然。"
+  
+ concept_army_budget:0 "军队预算"
+ concept_army_budget_desc:0 "你的陆军/海军预算每周都会被耗费，用来在兵营购买[Concept('concept_good', '$concept_goods$')]，然后转而被已部署的[concept_battalion]消费掉。"
+
+ concept_battalion:0 "营队"
+ concept_battalions:0 "营队" # [LocEditor:AwaitingBatchUpdate]
+ concept_battalion_desc:0 "营队是陆军人力资源的度量单位。它代表着1000名在[Concept('concept_barrack', '$concept_barracks$)']工作的人口。" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_warship:0 "战舰"
+ concept_warships:0 "战舰" # [LocEditor:AwaitingBatchUpdate]
+ concept_warship_desc:0 "战舰是海军人力资源的丈量单位。它表示1000名在[Concept('concept_naval_base', '$concept_naval_bases$)']工作的人口。" # [LocEditor:AwaitingBatchUpdate]
+  
+ # [LocEditor:UntranslatedKey] `concept_construction_sector`
+ # [LocEditor:UntranslatedKey] `concept_construction_sector_desc`
+
+ concept_barrack:0 "兵营"
+ concept_barracks:0 "兵营" # [LocEditor:AwaitingBatchUpdate]
+ concept_barrack_desc:0 "兵营产生[Concept('concept_battalion', '$concept_battalions$)']" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_naval_base:0 "海军基地"
+ concept_naval_bases:0 "海军基地" # [LocEditor:AwaitingBatchUpdate]
+ concept_naval_base_desc:0 "海军基地产生[Concept('concept_warship', '$concept_warships$)']" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_in_government:0 "执政"
+ concept_in_government_desc:0 "若[concept_interest_group]执政，其[concept_clout]就会提供[concept_legitimacy]，这又有助于[Concept('concept_law', '$concept_laws$')]更快通过。若要通过一项[concept_law]，需要有至少一个执政的$concept_interest_groups$支持该法。"
+
+ concept_in_opposition:0 "在野"
+ concept_in_opposition_desc:0 "若[concept_interest_group]在野，则他们不属于政府的一部分，会有支持度减成。"
+  
+ concept_legitimacy:0 "政府合法性"
+ concept_legitimate:0 "合法"
+ concept_legitimacy_desc:0 "政府合法性衡量[concept_in_government][Concept('concept_interest_group','$concept_interest_groups$')]的组成有多符合国家的[Concept('concept_law', '$concept_laws$')]。这会影响[concept_laws]通过的效率。"
+  
+ concept_market_capital:0 "市场中心"
+ concept_market_capital_desc:0 "市场中心是[concept_market]的枢纽，所有[Concept('concept_trade_route', '$concept_trade_routes$')]的连接之处。[concept_market]中每个[concept_state_region]的[concept_market_access]都由其通向[concept_market_capital]的[concept_infrastructure]决定。\n\n市场中心通常是[concept_market_controller_possessive][concept_capital_state]的[concept_state_region]。"
+  
+ concept_market_controller:0 "市场掌控者"
+ concept_market_controller_possessive:0 "市场掌控者"
+ concept_market_controller_desc:0 "市场掌控者是主导某个市场的国家……"
+
+ concept_ownership_share:0 "所有权份额"
+ concept_ownership_shares:0 "所有权份额" # [LocEditor:AwaitingBatchUpdate]
+ concept_ownership_share_desc:0 "在某座[concept_building]中拥有一定份额的[concept_pop]可以获取一部分利润作为收入。所得多寡取决于所持份额相对于建筑总份额的比例。他们通常也拥有这座建筑对应比例的[concept_cash_reserves]。只有受雇于这座建筑的人群才能拥有份额。所有权份额主要取决于建筑的[Concept('concept_production_method', '$concept_production_methods$')]，但也会受其他因素影响，比如[Concept('concept_law', '$concept_laws$')]以及[Concept('concept_technology', '$concept_technologies$)']。"
+  
+ concept_market_share:0 "市场份额"
+ concept_market_share_desc:0 "同一[concept_market]内每个[concept_country]的市场份额取决于他们在这个[concept_market]内产生的[concept_buy_orders]以及[concept_sell_orders]的数量；如果成为了[concept_market_controller]，那么份额也会上升。一个[concept_country_possessive]的市场份额越多，它就能在这个[concept_market]征收更多的[Concept('concept_consumption_tax', '$concept_consumption_taxes$)']。" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_default:0 "债务违约"
+ concept_default_desc:0 "债务违约意味着……" # [LocEditor:AwaitingBatchUpdate]
+ 
+ # [LocEditor:UntranslatedKey] `concept_bankruptcy`
+ # [LocEditor:UntranslatedKey] `concept_bankruptcy_desc`
+
+ concept_embargo:0 "禁运"
+ concept_embargoed:0 "禁运" # [LocEditor:AwaitingBatchUpdate]
+ concept_embargos:0 "禁运" # [LocEditor:AwaitingBatchUpdate]
+ concept_embargoing:0 "禁运" # [LocEditor:AwaitingBatchUpdate]
+ concept_embargo_desc:0 "[concept_market_controller]可以决定[concept_embargo]一种[concept_good]。这意味着……嗯，某些事。" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_encourage_consumption:0 "鼓励消费"
+ concept_encouraging_consumption:0 "鼓励消费" # [LocEditor:AwaitingBatchUpdate]
+ concept_encourage_consumption_desc:0 "鼓励消费会……" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_discourage_consumption:0 "抑制消费"
+ concept_discouraging_consumption:0 "抑制消费" # [LocEditor:AwaitingBatchUpdate]
+ concept_discourage_consumption_desc:0 "抑制消费会……" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_consumption_tax:0 "消费税"
+ concept_consumption_taxes:0 "消费税" # [LocEditor:AwaitingBatchUpdate]
+ concept_consumption_tax_desc:0 "消费税是……" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_loyalist:0 "效忠派"
+ concept_loyalists:0 "效忠派" # [LocEditor:AwaitingBatchUpdate]
+ concept_loyalist_desc:0 "忠于国家的人群……"
+  
+ concept_radical:0 "激进派"
+ concept_radicals:0 "激进派" # [LocEditor:AwaitingBatchUpdate]
+ concept_radical_desc:0 "不忠于国家的人群……"
+  
+ concept_radicalized:0 "激进化"
+ concept_radicalized_desc:0 "如果他们的势力继续增长，那么可能会变为革命派；另一方面，如果他们的诉求得到了满足，那么不会再变得激进。"
+  
+ concept_de_radicalize:0 "去激进化"
+ concept_de_radicalize_desc:0 "如果满足了他们部分诉求，那么就可能去激进化。"
+  
+ concept_rivalry:0 "宿敌"
+ concept_rivals:0 "宿敌" # [LocEditor:AwaitingBatchUpdate]
+ concept_rival:0 "宿敌" # [LocEditor:AwaitingBatchUpdate]
+ concept_rivalries:0 "宿敌" # [LocEditor:AwaitingBatchUpdate]
+ concept_rivalry_desc:0 "成为宿敌允许你作为对手干涉该国发起的外交博弈，你也会因为两个[Concept('concept_country', '$concept_countries$)']每块重叠的[concept_interest]而获得影响力。" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_colony:0 "殖民地"
+ concept_colonys:0 "殖民地" # [LocEditor:AwaitingBatchUpdate]
+ concept_colonies:0 "殖民地" # [LocEditor:AwaitingBatchUpdate]
+ concept_colony_desc:0 "殖民地是列强或主要政权在[concept_decentralized_nation]的土地上发起的大规模定居行动。殖民地一开始仅是一小块土地，按照该国的殖民增长值而逐渐成长。\n\n殖民地通常是作为[concept_colonial_state]创建，直到与属于同一[concept_country]的非殖民地区接壤。"
+  
+ # [LocEditor:UntranslatedKey] `concept_innovation`
+ # [LocEditor:UntranslatedKey] `concept_innovation_desc`
+  
+ concept_technology_spread:0 "科技扩散"
+ concept_technology_spread_desc:0 "科技扩散是……"
+  
+ concept_technology_era:0 "科技时代"
+ concept_technology_era_desc:0 "游戏中的每个时代都包括数项科技，每个时代都限制了你可以获得这些科技的方式。"
+  
+ concept_escalation:0 "激化度"
+ concept_escalation_desc:0 "[concept_diplomatic_play]的激化度会稳步提升，分为三个完全不同的阶段：#b 开场行动#!、#b 外交操作#!和#b 战争倒计时#!。[concept_diplomatic_play]所处的阶段限制了参与者们能采取的行动。激化度达到100，战争爆发。"
+
+ concept_combat_width:0 "战线宽度"
+ concept_combat_width_desc:0 "地形的战线宽度决定了战斗中部队较多的一方对于部队较少的一方所能获得的数值优势。"
+
+ concept_infamy:0 "恶名"
+ concept_infamy_desc:0 "恶名是……"
+  
+ concept_diplomatic_incident:0 "外交事件"
+ concept_diplomatic_incidents:0 "外交事件"
+ concept_diplomatic_incident_desc:0 "外交事件是……"
+  
+ concept_tension:0 "紧张度"
+ concept_tensions:0 "紧张度" # [LocEditor:AwaitingBatchUpdate]
+ concept_tension_desc:0 "紧张度衡量一个殖民[concept_country]和一个[concept_decentralized_nation]之间的关系有多紧绷。与附近[Concept('concept_decentralized_nation', '$concept_decentralized_nations$)']的紧张度会随着[concept_country][Concept('concept_colonize', '$concept_colonizes$)']的每个[concept_province]而增加，并随时间自然降低。\n\n如果紧张度等级升至#b $TENSION_VOLATILE$#!，继续殖民可能会触发[concept_native_uprising]。" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_relation:0 "关系"
+ concept_relations:0 "关系" # [LocEditor:AwaitingBatchUpdate]
+ concept_relation_desc:0 "关系是两个[Concept('concept_country', '$concept_countries$)']间的官方关系" # [LocEditor:AwaitingBatchUpdate]
+  
+ # [LocEditor:UntranslatedKey] `concept_ai_strategy`
+ # [LocEditor:UntranslatedKey] `concept_ai_strategies`
+ # [LocEditor:UntranslatedKey] `concept_ai_strategy_desc`
+  
+ concept_strategic_desire:0 "战略渴求"
+ concept_strategic_desire_desc:0 "AI控制的[Concept('concept_country', '$concept_countries$)']可能会对其他[Concept('concept_country', '$concept_countries$)']有战略渴求，认为与其[Concept('concept_objective', '$concept_objectives$)']有关。对于[concept_country]的战略渴求会与其他因素如[Concept('concept_relation', '$concept_relations$)']和[concept_infamy]等决定其[concept_attitude]。" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_attitude:0 "态度"
+ concept_attitude_desc:0 "态度是AI国家对待你的方案（受其他数值影响）"
+
+ concept_instant_diplomatic_action:0 "瞬时外交行动"
+ concept_instant_diplomatic_action_desc:0 "瞬时外交行动是……" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_ongoing_diplomatic_action:0 "持续外交行动"
+ concept_ongoing_diplomatic_action_desc:0 "持续外交行动是……" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_diplomatic_pact:0 "外交条约"
+ concept_diplomatic_pact_desc:0 "外交条约是……" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_oppose:0 "反对"
+ concept_oppose_desc:0 "反对[concept_diplomatic_play]者会在激化为战争后与任何同为反对博弈者站在同一阵营"
+  
+ concept_support:0 "支持"
+ concept_support_desc:0 "支持[concept_diplomatic_play]者会在激化为战争后与任何同为支持博弈者站在同一阵营"
+
+ concept_war_reparations:0 "战争赔款"
+ concept_war_reparations_desc:0 "战争赔款是……" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_open_market:0 "市场开放"
+ concept_open_market_desc:0 "市场开放是……"
+  
+ concept_humiliation:0 "羞辱"
+ concept_humiliated:0 "羞辱" # [LocEditor:AwaitingBatchUpdate]
+ concept_humiliate:0 "羞辱" # [LocEditor:AwaitingBatchUpdate]
+ concept_humiliation_desc:0 "羞辱是……"
+
+ concept_customs_union:0 "关税同盟"
+ concept_customs_union_desc:0 "关税同盟是……"
+
+ concept_senior_partner:0 "高级成员"
+ concept_senior_partner_desc:0 "#todo [concept_customs_union]的高级成员控制[concept_junior_partner]的[concept_market]。#!"
+
+ concept_junior_partner:0 "低级成员"
+ concept_junior_partner_desc:0 "#todo [concept_customs_union]的低级成员将[concept_market]控制权交给[concept_senior_partner]。#!"
+
+ concept_alliance:0 "同盟"
+ concept_alliances:0 "同盟" # [LocEditor:AwaitingBatchUpdate]
+ concept_alliance_desc:0 "同盟是……"
+ 
+ # [LocEditor:UntranslatedKey] `concept_defensive_pact`
+ # [LocEditor:UntranslatedKey] `concept_defensive_pacts`
+ # [LocEditor:UntranslatedKey] `concept_defensive_pact_desc`
+
+ concept_protectorate:0 "受保护国"
+ concept_protectorate_desc:0 "受保护国是……" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_puppet:0 "傀儡国"
+ concept_puppet_desc:0 "傀儡国是……" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_personal_union:0 "共主邦联"
+ concept_personal_union_desc:0 "共主邦联是……" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_dominion:0 "自治领"
+ concept_dominion_desc:0 "自治领是……"
+  
+ concept_tributary:0 "朝贡国" #remove
+ concept_tributary_desc:0 "朝贡国是……" #remove
+  
+ concept_vassal:0 "附庸"
+ concept_vassal_desc:0 "附庸是……"
+  
+ concept_yield:0 "投降"
+ concept_yield_desc:0 "TODO concept_yield_desc"
+  
+ concept_abstain:0 "弃权"
+ concept_abstain_desc:0 "如果一场[concept_diplomatic_play]激化为战争，那么任何既不支持也不反对的国家不会加入这场冲突，它们的[concept_interest]也会失效"
+  
+ concept_command_prio:0 "司令部优先级"
+ concept_command_prio_desc:0 "司令部所辖战略区域中的兵营首先并优先将增援供给所属司令部，然后将剩余部队按照优先度顺序送往其他司令部。"
+  
+ concept_supply:0 "补给"
+ concept_supply_desc:0 "指挥官当前的补给。将随着时间的推移慢慢转为所有被指挥单位的平均补给值\n指挥官的补给被用来恢复他所有部队的士气"
+  
+ concept_organization_tooltip:0 "组织度弹框提示"
+ concept_organization_tooltip_desc:0 "组织度这一数值的高低表示某个司令部的组织规划是否整齐有序。它影响战斗中的[concept_combat_effectiveness]数值；如果组织度过低，角色不太可能会发起一场战斗。只要司令部的补给良好，组织度就会随时间推移慢慢恢复。"
+  
+ concept_battle_summary_warsupport:0 "战斗总结战争支持度"
+ concept_battle_summary_warsupport_desc:0 "获取战争支持度的方式包括赢得战斗以及对敌人造成伤亡"
+  
+ concept_defend:0 "防御"
+ concept_defend_desc:0 "向角色下达命令，让其尝试集结军力。"
+  
+ concept_patrol:0 "巡逻"
+ concept_patrol_desc:0 "巡逻固定航线，发现敌方舰船"
+  
+ concept_defend_state:0 "防御地区"
+ concept_defend_state_desc:0 "向角色下达指令，集中防御特定地区。"
+  
+ concept_conquer_state:0 "征服地区"
+ concept_conquer_state_desc:0 "给角色下达指令，集中攻克特定地区。"
+  
+ concept_set_objective:0 "设置目标"
+ concept_set_objective_desc:0 "你告诉角色你的目标是什么，他们自由选择达成这个目标的手段。"
+  
+ concept_manage_character:0 "管理角色"
+ concept_manage_character_desc:0 "派遣哪一名角色去往哪个区域，可以在战争中力挽狂澜，但说不定会得罪不该得罪的人。"
+  
+ concept_manpower:0 "人力"
+ concept_manpower_desc:0 "这个司令部的人员数量。人员数量、[concept_morale]以及兵营提供何种补给品，将决定这些士兵在战斗中表现如何。"
+
+ concept_morale:0 "士气"
+ concept_morale_desc:0 "士气是……"
+  
+ concept_rank:0 "国际地位"
+ concept_rank_desc:0 "你的国际地位取决于你的[concept_prestige]与世界上其他[Concept('concept_country', '$concept_countries$)']的相对大小。它规定了你能够参与哪些国际行动，你的人民和世界对你有何期待，以及你在全球弱肉强食次序中排名第几。" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_migration:0 "移民"
+ concept_migrating:0 "移民" # [LocEditor:AwaitingBatchUpdate]
+ concept_immigration:0 "迁入" # [LocEditor:AwaitingBatchUpdate]
+ concept_immigrating:0 "迁入" # [LocEditor:AwaitingBatchUpdate]
+ concept_emigration:0 "迁出" # [LocEditor:AwaitingBatchUpdate]
+ concept_emigrating:0 "迁出" # [LocEditor:AwaitingBatchUpdate]
+ concept_migration_desc:0 "你来给老子翻译翻译，什么叫他妈的移民"
+
+ concept_migration_target:0 "移民目的地"
+ concept_migration_target_desc:0 "移民目的地是……"
+
+ concept_mass_migration_target:0 "移民潮目的地"
+ concept_mass_migration_target_desc:0 "#todo A Mass Migration Target is...#!"
+
+ concept_base_price:0 "基础价格"
+ concept_base_price_desc:0 "基础价格是……"
+
+ concept_capital_state:0 "首都地区"
+ concept_capital_state_desc:0 "首都地区是一个国家的中央政府所在地。在战时，控制首都地区具有非凡的重要性，住在当地的人群对于政治有着更大的影响力。"
+
+ concept_treaty_port:0 "条约港"
+ concept_treaty_port_desc:0 "条约港是……"
+
+ concept_prestige:0 "威望"
+ concept_prestige_desc:0 "威望产生自[Concept('concept_building', '$concept_buildings$')]、你的[concept_gdp]以及你在全世界所拥有的[Concept('concept_interest', '$concept_interests$)']的数量。" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_power_projection:0 "力量投射"
+ concept_power_projection_desc:0 "投射力量时，你就在该[concept_strategic_region]产生了一项[concept_interest]，使你能发起或加入该处的[Concept('concept_diplomatic_play', '$concept_diplomatic_plays$)']。更高级别的[concept_interest]为你开启更多机会，例如设立[Concept('concept_colony', '$concept_colonies$)']的能力。" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_dividends:0 "分红"
+ concept_dividends_desc:0 "[Concept('concept_building','$concept_buildings$')]结余为正时，部分利润会按照[Concept('concept_ownership_share', '$concept_ownership_shares$')]作为$concept_dividends$支付给[Concept('concept_pop', '$concept_pops$')]。"
+  
+ concept_credit:0 "信贷额"
+ concept_credit_desc:0 "国家信贷额是政府能从国内借到的钱数，等于国内[concept_cash_reserves]总额。"
+  
+ concept_principal:0 "本金"
+ concept_principal_desc:0 "目前你从国内借得资金的数额，不包括利息。"
+  
+ concept_domestic_loans:0 "国内贷款"
+ concept_loans:0 "贷款"
+ concept_domestic_loans_desc:0 "国内贷款是[concept_country]已从国内借到的资金。"
+  
+ concept_interest:0 "利益"
+ concept_interests:0 "利益"
+ concept_interest_desc:0 "在一个[concept_strategic_region]有利益，就是向世界发出信号表明你会参与该地域的任何[Concept('concept_diplomatic_play', '$concept_diplomatic_plays$)']。"
+
+ concept_command:0 "司令部"
+ concept_commands:0 "司令部" # [LocEditor:AwaitingBatchUpdate]
+ concept_command_desc:0 "司令部是指身处[concept_theater]中的[concept_commander]，下辖[Concept('concept_barrack', '$concept_barracks$)']或[Concept('concept_naval_base', '$concept_naval_bases$)']所提供的一定数量的[Concept('concept_battalion', '$concept_battalions$)']或海军战舰。司令部能拥有的营队上限由指挥官的军衔决定。" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_war_support:0 "战争支持度"
+ concept_war_support_desc:0 "范围从+100到-100的数字，描述你[concept_country]的人口有多渴望继续这场战争。"
+
+ concept_war_exhaustion:0 "厌战度"
+ concept_war_exhaustion_desc:0 "#todo 厌战度是……#!"
+
+ concept_theater:0 "战区"
+ concept_theaters:0 "战区"
+ concept_theater_desc:0 "战区是受一个[concept_country]及其盟友控制的所有陆上相连省份。"
+  
+ concept_literacy:0 "识字率"
+ concept_literacy_desc:0 "能读写[Concept('concept_pop', '$concept_pops$')]的数量。某些[Concept('concept_profession', '$concept_professions$')]比其他的要求更高的识字率，限制了其他类型$concept_pops$晋升为该种类型的[concept_pop_qualifications]。你可以投资教育系统来逐渐获得更高的识字率。"
+  
+ concept_discrimination:0 "歧视"
+ concept_discriminated:0 "受歧视" # [LocEditor:AwaitingBatchUpdate]
+ concept_discrimination_desc:0 "若[concept_culture]及/或[concept_religion]不被[concept_country]接受，则[Concept('concept_pop', '$concept_pops$')]受到歧视。受歧视$concept_pops$不能做某些工作，比同事得到的工资更少，[concept_political_strength]较低，也更有可能移民。某些[Concept('concept_law', '$concept_laws$')]能扩大对于$concept_laws$和[Concept('concept_religion', '$concept_religions$)']的国家接受度。" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_turmoil:0 "动乱"
+ concept_turmoil_desc:0 "动乱的[Concept('concept_state', '$concept_states$)']和[Concept('concept_culture', '$concept_cultures$)']中有对现状不满的[Concept('concept_radical', '$concept_radicals$)']。动乱值等于[concept_state_possessive]或[concept_culture_possessive]的[concept_workforce]中[concept_radical]的比例。" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_unemployed:0 "失业"
+ concept_unemployed_desc:0 "失业是……"
+  
+ concept_peasants:0 "@peasants!自给农"
+ concept_peasant:0 "自给农" # [LocEditor:AwaitingBatchUpdate]
+ concept_peasants_desc:0 "自给农是只会在[Concept('concept_subsistence_building', '$concept_subsistence_buildings$)']中存在的特殊种类[concept_pop]。他们大多自给自足，主要通过[concept_subsistence_output]维生，[concept_pop_needs]只有一小部分被计算进入当地[concept_market]的[concept_buy_orders]。" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_cultural_turmoil:0 "文化动乱"
+ concept_cultural_turmoil_desc:0 "在全世界都有高动乱的[Concept('concept_culture', '$concept_cultures$)']最终会寻找一处新家园，而在某一[concept_country]有高动乱的[Concept('concept_culture', '$concept_cultures$)']则会夺取该国的一部分作为自己的家园。当一个[concept_culture_possessive]的[concept_pop_possessive]的动乱超过#variable [GetDefine( 'NPolitics', 'SECESSION_TURMOIL_CUTOFF')]#!，就有可能叛乱。每#variable [GetDefine('NPops','MIGRATION_CULTURE_TARGET_TURMOIL')]#!动乱则有可能创建一个移民潮目标。" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_taxes:0 "赋税"
+ concept_taxes_desc:0 "[Concept('concept_country', '$concept_countries$)']可以通过各种方式开发利用其市场经济。最常见的方式是对其民众的私营收入征税，或对[Concept('concept_good', '$concept_goods$')]的销售、购买或贸易征税。" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_general:0 "陆军将领"
+ concept_generals:0 "陆军将领" # [LocEditor:AwaitingBatchUpdate]
+ concept_general_desc:0 "领导陆军的角色。"
+  
+ concept_admiral:0 "海军将领"
+ concept_admirals:0 "海军将领" # [LocEditor:AwaitingBatchUpdate]
+ concept_admiral_desc:0 "领导海军的角色。"
+  
+ concept_working_adults:0 "在职劳力"
+ concept_working_adult:0 "在职劳力" # [LocEditor:AwaitingBatchUpdate]
+ concept_working_adults_desc:0 "在职劳力，指的是那部分在[Concept('concept_building', '$concept_buildings$')]工作的[concept_population]，他们是人群中财富创造以及[concept_political_strength]的主体。"
+  
+ concept_dependents:0 "受扶养人口"
+ concept_dependents_desc:0 "受扶养人口是[concept_population]中不参与工作的部分。他们代表[concept_working_adults]的家人。通过某些[Concept('concept_law', '$concept_laws$')]或维持[Concept('concept_institution', '$concept_institutions$)']可以使受扶养人口转为[concept_working_adults]或者帮他们贡献更多收入或[concept_political_strength]。" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_disenfranchised:0 "剥夺公民权"
+ concept_disenfranchised_desc:0 "被剥夺公民权意味着……"
+
+ concept_input_mult:0 "消费因素" # [LocEditor:AwaitingBatchUpdate]
+ concept_input_mult_desc:0 "消费因素指……" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_throughput:0 "吞吐量"
+ concept_throughput_desc:0 "吞吐量是……"
+
+ concept_combat_effectiveness:0 "攻击和防御"
+ concept_combat_effectiveness_desc:0 "你的部队的攻防能力"
+ 
+ concept_offensive_combat_effectiveness:0 "进攻"
+ concept_offensive_combat_effectiveness_desc:0 "进攻是"
+
+ concept_defensive_combat_effectiveness:0 "防御"
+ concept_defensive_combat_effectiveness_desc:0 "防御是"
+
+ concept_slavery:0 "奴隶制"
+ concept_enslaved:0 "奴役" # [LocEditor:AwaitingBatchUpdate]
+ concept_slavery_desc:0 "奴隶制是"
+  
+ concept_native_uprising:0 "原住民暴动"
+ concept_native_uprising_desc:0 "原住民暴动是一种[concept_diplomatic_play]，如果殖民者和[concept_decentralized_nation]之间的[concept_tension]上升到了#b $TENSION_VOLATILE$#!就会发生。在这场博弈中，[concept_decentralized_nation]会鼓动自己的战士，试图从殖民者手中夺取接壤的[Concept('concept_state', '$concept_states$)']。" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_radicalization:0 "激进化"
+ concept_radicalize:0 "激进化" # [LocEditor:AwaitingBatchUpdate]
+ concept_radicalization_desc:0 "TODO concept_radicalization_desc"
+  
+ concept_revolution:0 "革命"
+ concept_revolutions:0 "革命" # [LocEditor:AwaitingBatchUpdate]
+ concept_revolution_desc:0 "TODO concept_revolution_desc"
+
+ concept_civil_war:0 "内战"
+ concept_civil_wars:0 "内战"
+ concept_civil_war_desc:0 "内战是……"
+ 
+ concept_war:0 "战争"
+ concept_wars:0 "战争" # [LocEditor:AwaitingBatchUpdate]
+ concept_war_desc:0 "战争是"
+
+ concept_war_goal:0 "战争目标"
+ concept_war_goals:0 "战争目标" # [LocEditor:AwaitingBatchUpdate]
+ concept_war_goal_desc:0 "战争目标是"
+
+ concept_resource_potential:0 "资源潜力"
+ concept_resource_potentials:0 "资源潜力" # [LocEditor:AwaitingBatchUpdate]
+ concept_resource_potential_desc:0 "资源潜力是"
+
+ concept_government_administration:0 "政府行政机构"
+ concept_government_administrations:0 "政府行政机构" # [LocEditor:AwaitingBatchUpdate]
+ concept_government_administration_desc:0 "政府行政机构是"
+
+ concept_government:0 "政府"
+ concept_government_desc:0 "政府是"
+
+ concept_subject:0 "附属"
+ concept_subjects:0 "附属国" # [LocEditor:AwaitingBatchUpdate]
+ concept_subject_desc:0 "附属是"
+  
+ concept_inactive_interest:0 "无效利益"
+ concept_inactive_interest_desc:0 "无效的[concept_interest]是指……"
+
+ concept_active_interest:0 "生效利益"
+ concept_active_interest_desc:0 "生效的[concept_interest]是指"
+  
+ concept_declared_interest:0 "公开利益"
+ concept_declared_interest_desc:0 "公开[concept_interest]是一种[concept_active_interest]，某个[concept_country]主动公开宣称在某个[concept_strategic_region]有利益，但并不在当地控制了任何领土。"
+
+ concept_great_power:0 "列强"
+ concept_great_powers:0 "列强" # [LocEditor:AwaitingBatchUpdate]
+ concept_great_power_desc:0 "列强是少数几个拥有全球帝国或全面地区主宰地位、可以转动全世界的[Concept('concept_country', '$concept_countries$)']。他们与其他列强永远处于争夺优势地位的对峙状态且永远警惕那些试图夺取他们利益以走向伟大的勇敢大国。\n#todo 制作中#!\n#todo 在游戏中添加列强列表#!" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_major_power:0 "主要政权"
+ concept_major_power_desc:0 "主要政权由于在其所在区域的强烈存在感而引人瞩目，即使它们尚未强大到足以建立真正的全球霸权，但依然是地方上一支不可忽视的力量。它们中最优秀的一批或可升格为列强。\n#todo 待重写#!"
+  
+ concept_minor_power:0 "次要政权"
+ concept_minor_power_desc:0 "次要政权在更高级势力的帝国主义游戏中充当马前卒，通常被当作缓冲[Concept('concept_country', '$concept_countries$)']、傀儡国或垄断市场。\n#todo 待重写#!" # [LocEditor:AwaitingBatchUpdate]
+ 
+ concept_insignificant_power:0 "弱小政权"
+ concept_insignificant_power_desc:0 "弱小政权比次要政权还要弱小#todo 制作中#!"
+  
+ concept_subject_power:0 "附属政权"
+ concept_subject_power_desc:0 "附属政权对其他更强大的政治实体表示恭顺，很大程度上无法自主进行外交。\n#todo 待重写#!"
+  
+ concept_unrecognized_power:0 "未受认可国家"
+ concept_unrecognized_power_desc:0 "未受认可国家是那些被列强认为低等且未文明开化的政治实体，不过是潜在的未来征服目标罢了。要晋升到更高等级，它们必须通过外交或战争受到一个列强的认可。\n#todo 待重写#!"
+
+ # [LocEditor:UntranslatedKey] `concept_obligation`
+ # [LocEditor:UntranslatedKey] `concept_obligations`
+ # [LocEditor:UntranslatedKey] `concept_obligation_desc`
+  
+ concept_secession:0 "分离"
+ concept_secessions:0 "分离"
+ concept_secession_desc:0 "#todo concept_secession_desc #!"
+  
+ concept_profitability:0 "盈利能力"
+ concept_profitability_desc:0 "盈利能力是指与世界上的其他建筑相比，每个就业者的相对收入。"
+  
+ concept_expeditionary_force:0 "远征军"
+ concept_expeditionary_force_desc:0 "#todo concept_expeditionary_force_desc #!"
+
+ concept_commander_of_front:0 "前线司令部"
+ concept_commander_of_front_desc:0 "#todo concept_commander_of_front_desc #!"
+
+ # [LocEditor:UntranslatedKey] `concept_construction`
+ # [LocEditor:UntranslatedKey] `concept_construction_desc`
+ 
+ concept_gdp:0 "国内生产总值"
+ concept_gdp_short:0 "GDP" # [LocEditor:AwaitingBatchUpdate]
+ concept_gdp_desc:0 "国内生产总值是你的[concept_country]生产的全部[Concept('concept_good', '$concept_goods$')]的[concept_market]价格总和。"
+
+ concept_education_access:0 "受教育机会"
+ concept_education_access_desc:0 "这是衡量[concept_pop]中的人们能够使他们孩子接受教育的程度。随着新一代人的出生和成长，人群的[concept_literacy]也会逐渐变得与其受教育机会一致。"
+
+ concept_isolated_state:0 "孤立地域"
+ concept_isolated_states:0 "孤立地域" # [LocEditor:AwaitingBatchUpdate]
+ concept_isolated_state_adj:0 "孤立" # [LocEditor:AwaitingBatchUpdate]
+ concept_isolated_state_desc:0 "该[concept_state_region]在其[concept_market]处于孤立状态，这意味着其贸易潜力非常有限且不与其他任何[Concept('concept_state_region', '$concept_state_regions$')]进行贸易。这将使不在该[concept_state_region]生产的[Concept('concept_good', '$concept_goods$')]价格非常高。要使其连接到[concept_market]中，你需要在[concept_state_region]和其[concept_market_capital]之间建立[concept_infrastructure_connection]。"
+
+ concept_input_goods_shortage:0 "投入品短缺"
+ concept_input_goods_shortages:0 "投入品短缺" # [LocEditor:AwaitingBatchUpdate]
+ concept_input_goods_shortage_desc:0 "消费某种[Concept('concept_good', '$concept_goods$')]的[Concept('concept_building', '$concept_buildings$')]，如果对该$concept_goods$的[concept_buy_orders]得到满足的比例少于[GetDefine('NEconomy', 'GOODS_SHORTAGE_PENALTY_THRESHOLD')|v%0]，就会遭受产出惩罚。这通常是由于该[concept_good]在[Concept('concept_building', '$concept_building_possessive$)']所属[concept_market]短缺，但也有可能是由于$concept_building$所在[concept_state_region]的[concept_market_access]过低。"
+
+ concept_market:0 "市场"
+ concept_markets:0 "市场" # [LocEditor:AwaitingBatchUpdate]
+ concept_market_possessive:0 "市场"
+ concept_market_desc:0 "同一市场内的所有[Concept('concept_state', '$concept_states$)']会彼此交易[Concept('concept_good', '$concept_goods$')]。就贸易而言，这些地区彼此间联系有多紧密，取决于每个地区的[concept_market_access]" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_market_access:0 "市场接入度"
+ concept_market_access_desc:0 "市场接入度由[concept_state_region]内的[concept_infrastructure_usage]和[concept_infrastructure]数量的对比决定。"
+
+ concept_infrastructure:0 "基础设施"
+ concept_infrastructure_desc:0 "基础设施由铁路或港口之类的建筑提供，影响一个[concept_state]与所属[concept_market]的联系有多紧密。"
+
+ concept_infrastructure_usage:0 "基础设施使用量"
+ concept_infrastructure_usage_desc:0 "基础设施使用量是……"
+  
+ concept_infrastructure_connection:0 "基础设施连接"
+ concept_infrastructure_connection_desc:0 "基础设施连接时两个[Concept('concept_state_region', '$concept_state_regions$')]间[concept_infrastructure]能够被追溯的等级。在追溯两个$concept_state_regions$间的[concept_infrastructure]时，较低[concept_infrastructure]的$concept_state_regions$通过港口。"
+
+ concept_good:0 "商品"
+ concept_goods:0 "商品"
+ concept_good_desc:0 "商品由建筑或人群生产。一个地区某种商品的价格由该[concept_state_possessive]所属[concept_market]的该商品价格与该地区的[concept_market_access]决定。"
+
+ concept_government_good:0 "政府商品"
+ concept_government_goods:0 "政府商品" # [LocEditor:AwaitingBatchUpdate]
+ concept_government_good_desc:0 "政府[Concept('concept_good', '$concept_goods$')]是完全由[concept_government]出资的建筑为维持其稳定运作所必须消耗的$concept_goods$。"
+
+ concept_military_good:0 "军需商品"
+ concept_military_goods:0 "军用商品" # [LocEditor:AwaitingBatchUpdate]
+ concept_military_good_desc:0 "军需[Concept('concept_good', '$concept_goods$')]是那些提供军事力量（无论海陆）的建筑所消耗的$concept_goods$。"
+
+ concept_state:0 "地区"
+ concept_states:0 "地区"
+ # [LocEditor:UntranslatedKey] `concept_state_or_states`
+ concept_state_possessive:0 "地区"
+ concept_state_desc:0 "地区是[concept_country]控制的地理区域。[Concept('concept_pop', '$concept_pops$')]在地区内的[Concept('concept_building', '$concept_buildings$')]工作和生活。在大多数情况下[concept_state_region]中只有一个地区，而[concept_split_state]将包含多个由不同[Concept('concept_country', '$concept_countries$)']控制的地区。除非一个地区是[Concept('concept_isolated_state', 'Isolated')]的，否则它都会与同[concept_market]的其他地区根据[concept_market_access]进行贸易。" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_pop:0 "人群"
+ concept_pops:0 "人群"
+ concept_pop_possessive:0 "人群"
+ concept_pop_desc:0 "人群是[concept_culture]、[concept_religion]相同、[concept_profession]相同且在同一[concept_state]的同一[concept_building]工作的一群人。他们使用工作赚来的[concept_money]购买[Concept('concept_good', '$concept_goods$')]，这决定了他们的[concept_wealth]，而财富结合其他因素决定了他们的[concept_sol]。他们或支持[Concept('concept_interest_group', '$concept_interest_groups$')]，或对[concept_politically_inactive]。一个人群包括一定数量的[concept_working_adults]和一定数量的[concept_dependents]。"
+
+ concept_profession:0 "职业"
+ concept_professions:0 "职业"
+ concept_profession_desc:0 "职业是……"
+
+ concept_production_method:0 "生产方式"
+ concept_production_methods:0 "生产方式"
+ concept_production_method_desc:0 "生产方式可以开启或关闭，以改变[Concept('concept_good', '$concept_goods$')]的投入和产出以及[concept_building]所造成的效果。生产方式也可以改变在[concept_building]中工作的[Concept('concept_pop', '$concept_pops$')]类型。生产方式可以通过[concept_technology]解锁。"
+
+ concept_culture:0 "文化"
+ concept_cultures:0 "文化" # [LocEditor:AwaitingBatchUpdate]
+ concept_culture_possessive:0 "文化"
+ concept_culture_desc:0 "文化是区分不同[Concept('concept_pop', '$concept_pops$')]的因素之一。在一个国家中，一种文化要么被接受，要么被歧视。"
+
+ concept_accepted_culture:0 "已接纳文化"
+ concept_accepted_culture_desc:0 "已接纳文化是[concept_primary_cultures]和其它由国家[concept_laws]所接受的文化。"
+
+ concept_primary_cultures:0 "主流文化"
+ concept_primary_culture:0 "主流文化"
+ concept_primary_cultures_desc:0 "主流文化是一个国家的主要[Concept('concept_culture', '$concept_cultures$)']（可以是多个）。[AddLocalizationIf(HasGameState, 'concept_primary_cultures_ingame_added')]" # [LocEditor:AwaitingBatchUpdate]
+ concept_primary_cultures_ingame_added:0 "\n\n[GetPlayer.GetName]的主流文化是[GetPlayer.GetPrimaryCulturesDesc]。"
+
+ concept_cultural_trait:0 "文化特质"
+ concept_cultural_traits:0 "文化特质" # [LocEditor:AwaitingBatchUpdate]
+ concept_cultural_trait_desc:0 "文化特质是……"
+
+ concept_cultural_heritage_trait:0 "传承文化特质"
+ concept_cultural_heritage_trait_desc:0 "传承文化特质是……"
+
+ concept_religion:0 "宗教"
+ concept_religions:0 "宗教" # [LocEditor:AwaitingBatchUpdate]
+ concept_religion_desc:0 "宗教是区分不同[Concept('concept_pop', '$concept_pops$')]的因素之一。在一个国家中，一种宗教要么被接受，要么被歧视。"
+
+ concept_accepted_religion:0 "已接纳宗教"
+ concept_accepted_religion_desc:0 "已接纳宗教包括[concept_state_religion]和国家[concept_laws]接受的任何其他宗教。"
+
+ concept_state_religion:0 "国教"
+ concept_state_religion_desc:0 "国教是一个国家主流的、主导的、最重要的、大多数人群信仰的宗教。"
+
+ concept_religious_trait:0 "宗教特质"
+ concept_religious_traits:0 "宗教特质" # [LocEditor:AwaitingBatchUpdate]
+ concept_religious_trait_desc:0 "宗教特质是……"
+
+ concept_discrimination_trait:0 "歧视特质"
+ concept_discrimination_traits:0 "歧视特质" # [LocEditor:AwaitingBatchUpdate]
+ concept_discrimination_trait_desc:0 "歧视特质是……"
+
+ concept_investment_pool:0 "投资池"
+ concept_investment_pool_desc:0 "当赚的钱太多不知道该怎么花时，你的$aristocrats$和$capitalists$会将这部分钱放入投资池。你的[Concept('concept_law', '$concept_laws$')]决定了哪种建筑可以用这笔钱建造。"
+
+ concept_wealth:0 "财富"
+ concept_wealthy:0 "富有"
+ concept_wealth_desc:0 "财富是一个[concept_pop]使用在[Concept('concept_building', '$concept_buildings$')]工作赚到的钱能购买的[Concept('concept_good', '$concept_goods$')]总值。他们的财富是影响$concept_pops$[concept_sol]的主要因素。"
+
+ concept_technology:0 "科技"
+ concept_technologies:0 "科技"
+ concept_technology_desc:0 "科技是……"
+
+ concept_navy:0 "海军"
+ concept_navy_desc:0 "海军是……"
+
+ concept_sea_lane:0 "海上航线"
+ concept_sea_lanes:0 "海上航线" # [LocEditor:AwaitingBatchUpdate]
+ concept_sea_lane_desc:0 "海上航线是……"
+
+ concept_port:0 "港口"
+ concept_ports:0 "港口" # [LocEditor:AwaitingBatchUpdate]
+ concept_port_desc:0 "港口是……"
+
+ concept_canal:0 "运河"
+ concept_canals:0 "运河" # [LocEditor:AwaitingBatchUpdate]
+ concept_canal_desc:0 "运河是……"
+
+ concept_monument:0 "奇观"
+ concept_monuments:0 "奇观" # [LocEditor:AwaitingBatchUpdate]
+ concept_monument_desc:0 "奇观是……"
+
+ concept_productivity:0 "就业者年度生产率"
+ concept_productivity_short:0 "生产率"
+ concept_productive:0 "高生产率"
+ concept_unproductive:0 "低生产率"
+ concept_productivity_desc:0 "每位就业者每年产生的价值，计算方式为（商品销售收入－材料费）/就业者总数"
+
+ concept_election:0 "选举"
+ concept_election_desc:0 "选举被操纵……"
+
+ concept_trade_power:0 "贸易能力"
+ concept_trade_power_desc:0 "[concept_trade_route]的贸易能力是进口市场的[concept_import_power]和出口市场的[concept_export_power]中较低的那一项。"
+
+ concept_import_power:0 "进口能力"
+ concept_import_power_desc:0 "某一特定[concept_good]在一个[concept_market]的进口能力是基于其[concept_buy_orders]的，最低为每级的最小数量。"
+
+ concept_export_power:0 "出口能力"
+ concept_export_power_desc:0 "某一特定[concept_good]在一个[concept_market]的出口能力是基于其[concept_sell_orders]的，最高为每级的最大数量。"
+  
+ concept_budget_minting:0 "铸币收入"
+ concept_budget_minting_desc:0 "铸币收入是所有[Concept('concept_country', '$concept_countries$)']从印发或铸造新[concept_money]货币中产生的收入类型。从铸币获得的收入数额至少有#v @money!1000#!，并且[concept_country_possessive][concept_gdp]每增加#v @money!一百万#!，铸币收入增长#v @money!500#!。" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_budget_poll_taxes:0 "人头税"
+ concept_budget_poll_tax:0 "人头税" # [LocEditor:AwaitingBatchUpdate]
+ concept_budget_poll_taxes_desc:0 "人头税按周缴纳收取，是每名受人头税类型影响的[Concept('concept_working_adults', '$concept_working_adult$)']缴纳的固定数额的[concept_money]。" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_budget_land_taxes:0 "土地税"
+ concept_budget_land_taxes_desc:0 "土地税是一种只对[concept_peasants]征收的[Concept('concept_budget_poll_taxes', '$concept_budget_poll_tax$)']" # [LocEditor:AwaitingBatchUpdate]
+  
+ # [LocEditor:UntranslatedKey] `concept_budget_heathen_taxes`
+ # [LocEditor:UntranslatedKey] `concept_budget_heathen_taxes_desc`
+ 
+ concept_budget_per_capita_taxes:0 "人均税"
+ concept_budget_per_capita_taxes_desc:0 "人均税是一种[Concept('concept_budget_poll_taxes', '$concept_budget_poll_tax$)']，对所有[Concept('concept_pop', '$concept_pops$')]征收。" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_budget_income_taxes:0 "所得税"
+ concept_budget_income_taxes_desc:0 "income_taxes_desc"
+  
+ concept_budget_investment_income:0 "来自投资基金的收入"
+ concept_budget_investment_income_desc:0 "investment_income_desc"
+
+ concept_budget_consumption_taxes:0 "消费税"
+ concept_budget_consumption_taxes_desc:0 "consumption_taxes_desc"
+
+ concept_budget_dividends_taxes:0 "红利税"
+ concept_budget_dividends_taxes_desc:0 "dividends_taxes_desc"
+
+ concept_budget_additional_income:0 "额外收入"
+ concept_budget_additional_income_desc:0 "额外收入是……"
+  
+ concept_budget_additional_expenses:0 "额外支出"
+ concept_budget_additional_expenses_desc:0 "额外支出是……"
+
+ concept_budget_diplomatic_pacts:0 "外交条约"
+ concept_budget_diplomatic_pacts_desc:0 "diplomatic_pacts_desc"
+
+ # [LocEditor:UntranslatedKey] `concept_budget_construction_goods`
+ # [LocEditor:UntranslatedKey] `concept_budget_construction_goods_desc`
+ 
+ # [LocEditor:UntranslatedKey] `concept_budget_construction_wages`
+ # [LocEditor:UntranslatedKey] `concept_budget_construction_wages_desc`
+ 
+ # [LocEditor:UntranslatedKey] `concept_budget_construction_slaves`
+ # [LocEditor:UntranslatedKey] `concept_budget_construction_slaves_desc`
+  
+ concept_budget_government_wages:0 "政府工资"
+ concept_budget_government_wages_desc:0 "government_wages_desc"
+
+ concept_budget_wages:0 "工资"
+ concept_budget_wage:0 "工资"
+ concept_budget_wages_desc:0 "[Concept('concept_building', '$concept_buildings$')]向其内的[concept_workforce][Concept('concept_pop','$concept_pops$')]支付工资。不过，不同建筑支付的方式不一样。因此我们有三种工资，[concept_budget_government_wages]出现在政府拨款的建筑中，[concept_budget_military_wages]也出现在政府拨款的建筑中，所有其他“普通”建筑都发放[Concept('concept_building_wage', '$concept_building_wages$')]。"
+
+ concept_budget_goods_for_government_buildings:0 "政府建筑商品消费"
+ concept_budget_goods_for_government_buildings_desc:0 "goods_for_government_buildings_desc"
+
+ concept_budget_government_slaves:0 "政府奴隶"
+ concept_budget_government_slaves_desc:0 "government_slaves_desc"
+
+ concept_budget_military_wages:0 "军队工资"
+ concept_budget_military_wages_desc:0 "military_wages_desc"
+
+ concept_budget_goods_for_military_buildings:0 "军事建筑商品消费"
+ concept_budget_goods_for_military_buildings_desc:0 "goods_for_military_buildings_desc"
+
+ concept_budget_military_slaves:0 "军用奴隶"
+ concept_budget_military_slaves_desc:0 "military_slaves_desc"
+
+ concept_subsidies:0 "补贴"
+ concept_subsidize:0 "补贴" # [LocEditor:AwaitingBatchUpdate]
+ concept_subsidized:0 "补贴" # [LocEditor:AwaitingBatchUpdate]
+ concept_subsidizing:0 "补贴" # [LocEditor:AwaitingBatchUpdate]
+ concept_subsidies_desc:0 "政府确保受补贴的建筑总是人员齐备，并确保建筑内就业者拿到的工资总是不低于政府工资。如果建筑无力支付，政府会补齐差额。"
+
+ concept_budget_interest_rate:0 "利率"
+ # [LocEditor:UntranslatedKey] `concept_budget_interest`
+ concept_budget_interest_rates:0 "利率" # [LocEditor:AwaitingBatchUpdate]
+ concept_budget_interest_rate_desc:0 "interest_desc"
+  
+ concept_country_tier:0 "国家位阶"
+ concept_country_tier_desc:0 "国家位阶是一个[concept_country]根据其历史和重要性被赋予的固有地位和[concept_prestige]。[concept_country_possessive]的位阶越高，其获得的[concept_prestige]就越多。一个[concept_country]只能成立比其本身国家位阶更高的国家。"
+  
+ concept_claim:0 "宣称"
+ concept_claims:0 "宣称" # [LocEditor:AwaitingBatchUpdate]
+ concept_claimed:0 "宣称" # [LocEditor:AwaitingBatchUpdate]
+ concept_claim_desc:0 "一个[concept_country]对一片[concept_state_region]拥有土地宣称，通常是因为该地域曾经属于该国。对某一[concept_state_region]拥有宣称的[concept_country]可以使用#v $war_goal_return_state_type_name$#![concept_war_goal]，这样获得的[concept_infamy]远低于使用常规的#v $war_goal_conquer_state_type_name$#![concept_war_goal]。\n\n从其他[concept_country]征服[concept_incorporated_state]会给予该国对该[concept_state_region]的宣称。"
+  
+ concept_devastation:0 "荒废度"
+ concept_devastation_desc:0 "荒废度代表一个[concept_state_region]在战争和冲突中遭受的破坏。它因敌方占领和发生在该[concept_state_region]的战斗增加，随时间逐渐降低。荒废度会降低该[concept_state_region]的[concept_infrastructure]，并提高[Concept('concept_pop', '$concept_pops$')]死亡率。"
+
+ concept_command_limit:0 "指挥上限"
+ concept_command_limit_desc:0 "指挥上限是指一名指挥官所能指挥的[Concept('concept_battalion', '$concept_battalions$)']或[Concept('concept_warship', '$concept_warships$)']数量。你可以通过晋升指挥官来提升其指挥上限。" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_pop_qualifications:0 "资质"
+ concept_qualifying:0 "有资质" # [LocEditor:AwaitingBatchUpdate]
+ concept_pop_qualifications_desc:0 "人群逐渐获得必要的资质来成为不同的[Concept('concept_profession', '$concept_professions$')]。如果当前属性与人口类型匹配，或者目前在相关领域工作，就会更快获得资质。[concept_literacy]、[concept_wealth]和[concept_discrimination]通常是决定性因素。"
+
+ concept_hq:0 "总部"
+ concept_hq_desc:0 "#TODO 一名指挥官有一个本土总部和一个当地总部。如果本土总部被摧毁，则指挥官也会被移除。#!"
+  
+ concept_tax_waste:0 "税收浪费"
+ concept_tax_waste_desc:0 "在收入政府金库之前，由于效率低下或贪腐而被浪费的税收。"
+  
+ concept_assimilation:0 "同化"
+ concept_assimilating:0 "同化" # [LocEditor:AwaitingBatchUpdate]
+ concept_assimilation_desc:0 "在所处国家中属于接受文化的人群可能被同化成[concept_primary_cultures]的一部分。"
+  
+ concept_conversion:0 "皈依"
+ concept_converting:0 "皈依" # [LocEditor:AwaitingBatchUpdate]
+ concept_conversion_desc:0 "信仰在该国被歧视宗教的人群有可能皈依[concept_accepted_religion]。"
+  
+ concept_life_experience:0 "生活经验"
+ concept_life_experience_desc:0 "[Concept('concept_character', '$concept_characters$)']将随着时间的推进和处境获得生活经验，这将影响他们获得新[Concept('concept_character_trait', '$concept_character_traits$)']的可能性。" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_supply_network:0 "补给网络"
+ concept_supply_network_desc:0 "补给网络是维持[Concept('concept_trade_route', '$concept_trade_routes$')]和补给海外[Concept('concept_commander', '$concept_commanders$)']所必需的。它需要[concept_convoys]才能发挥作用。" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_convoys:0 "船队"
+ # [LocEditor:UntranslatedKey] `concept_convoy`
+ concept_convoys_desc:0 "船队被用来补给海外军队和维持[concept_supply_network]。"
+
+ # [LocEditor:UntranslatedKey] `concept_shipping_lane`
+ # [LocEditor:UntranslatedKey] `concept_shipping_lanes`
+ # [LocEditor:UntranslatedKey] `concept_shipping_lane_desc`
+
+ # [LocEditor:UntranslatedKey] `concept_shipping_lane_effectiveness`
+ # [LocEditor:UntranslatedKey] `concept_shipping_lane_effectiveness_desc`
+
+ # [LocEditor:UntranslatedKey] `concept_port_connection`
+ # [LocEditor:UntranslatedKey] `concept_port_connections`
+ # [LocEditor:UntranslatedKey] `concept_port_connection_desc`
+
+ # [LocEditor:UntranslatedKey] `concept_supply_route`
+ # [LocEditor:UntranslatedKey] `concept_supply_routes`
+ # [LocEditor:UntranslatedKey] `concept_supply_route_desc`
+
+ concept_popularity:0 "人气"
+ concept_popularity_desc:0 "[Concept('concept_pop', '$concept_pops$')]追随某一角色的意愿取决于该角色的人气。"
+  
+ concept_momentum:0 "声势"
+ concept_momentum_desc:0 "声势会提高一个[concept_interest_group]在[concept_election]中获得[concept_votes]的几率。在选举后重置。"
+  
+ concept_government_expenses:0 "政府支出"
+ concept_government_expenses_short:0 "支出" # [LocEditor:AwaitingBatchUpdate]
+ concept_government_expenses_desc:0 "政府支出是……"
+
+ concept_sovereignty:0 "主权"
+ concept_sovereignty_desc:0 "#todo 主权是……#!"
+
+ concept_normal_wage:0 "正常工资"
+ concept_normal_wage_desc:0 "国家的$concept_normal_wage$取决于[Concept('concept_incorporated_state', '$concept_incorporated_states$)']非政府产业的平均工资。" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_in_reserve:0 "预备役"
+ concept_in_reserve_desc:0 "预备役状态意味着这些部队没有[concept_commander]。没有[concept_commander]的部队不能接受命令，但会参与防御行动。"
+  
+ concept_dead:0 "死亡"
+ concept_dead_desc:0 "表示阵亡或死于[concept_attrition]的人数。"
+
+ concept_wounded:0 "负伤"
+ concept_wounded_desc:0 "表示因战斗或[concept_attrition]而负伤的人数。受伤人员将放弃其岗位。"
+
+ concept_attrition:0 "损耗"
+ concept_attrition_desc:0 "#todo 损耗是……#!"
+
+ concept_character_role:0 "职责"
+ concept_character_role_desc:0 "职责决定了角色会做什么。"
+  
+ concept_building_wage:0 "工资"
+ concept_building_wages:0 "工资"
+ concept_building_wage_desc:0 "建筑的工资由其经济状况决定。其每周[concept_building_balance]要得到提升，才能够吸纳更多[Concept('concept_pop', '$concept_pops$')]为劳动力。你可以让建筑用到的[Concept('concept_good', '$concept_goods$')]变得更便宜或让其生产的商品变得更昂贵来影响这一点。这可以通过增加或减少建筑所属[concept_market]的供需来做到。你可以[Concept('concept_subsidies', '$concept_subsidizing$)']建筑来保证劳动力获得有竞争力的工资。有必要时用这甚至会用上来自瑞典的神秘[concept_money]来保持建筑周转。" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_building_balance:0 "结余"
+ concept_building_balance_desc:0 "建筑的结余是建筑使用所有收入支付所有支出后剩余的钱。"
+
+ concept_treasury:0 "国库"
+ concept_treasury_desc:0 "国库是你的钱。"
+
+ concept_head_of_state:0 "国家元首"
+ concept_head_of_state_desc:0 "一个国家的统治者或最高代表。谁是特定国家的国家元首取决于该国的[Concept('concept_law', '$concept_laws$')]。"
+
+ concept_lower_strata:0 "下等阶层"
+ concept_lower_strata_desc:0 "下等阶层是那些只能出售劳动力的[Concept('concept_pop', '$concept_pops$')]。\n\n#todo PRCAL-13648 rewrite and make the description of this Strata concept better#![AddLocalizationIf(HasGameState, 'concept_lower_strata_ingame_added')]"
+ concept_lower_strata_ingame_added:0 "\n\n由以下[Concept('concept_profession', '$concept_professions$')]组成：\n[GetPopTypesInLowerStrataDesc]"
+
+ concept_middle_strata:0 "中等阶层"
+ concept_middle_strata_desc:0 "中等阶层是那些拥有好工作，不穷也不富的[Concept('concept_pop', '$concept_pops$')]。\n\n#todo PRCAL-13648 rewrite and make the description of this Strata concept better#![AddLocalizationIf(HasGameState, 'concept_middle_strata_ingame_added')]"
+ concept_middle_strata_ingame_added:0 "\n\n由以下[Concept('concept_profession', '$concept_professions$')]组成：\n[GetPopTypesInMiddleStrataDesc]"
+
+ concept_upper_strata:0 "上等阶层"
+ concept_upper_strata_desc:0 "上等阶层是社会地位最高的那些[Concept('concept_pop', '$concept_pops$')]。上等阶层的个人拥有更高的可支配收入，对自然资源的使用有更多控制权。这一阶层只占总人口的一小部分，但却控制着不成比例的财富总量。\n\n#todo PRCAL-13648 rewrite and make the description of this Strata concept better#![AddLocalizationIf(HasGameState, 'concept_upper_strata_ingame_added')]"
+ concept_upper_strata_ingame_added:0 "\n\n由以下[Concept('concept_profession', '$concept_professions$')]组成：\n[GetPopTypesInUpperStrataDesc]"
+
+ concept_migration_pull:0 "移民吸引力"
+ concept_migration_pull_desc:0 "移民吸引力是一个[concept_state]吸引移民的能力"
+
+ concept_enactment_success:0 "成功"
+ concept_enactment_success_desc:0 "成功是……"
+
+ concept_enactment_advance:0 "推进"
+ concept_enactment_advance_desc:0 "推进是……"
+
+ concept_enactment_debate:0 "辩论"
+ concept_enactment_debate_desc:0 "辩论是……"
+
+ concept_enactment_stall:0 "停滞"
+ concept_enactment_stall_desc:0 "停滞是……"
+
+ concept_political_movement:0 "政治运动"
+ # [LocEditor:UntranslatedKey] `concept_political_movement_short`
+ concept_political_movements:0 "政治运动" # [LocEditor:AwaitingBatchUpdate]
+ concept_political_movement_desc:0 "政治运动是……"
+  
+ concept_political_movement_support:0 "政治运动支持度"
+ concept_political_movement_support_short:0 "支持度" # [LocEditor:AwaitingBatchUpdate]
+ concept_political_movement_support_desc:0 "政治运动支持度是……"
+  
+ concept_political_movement_radicalism:0 "政治运动激进程度"
+ concept_political_movement_radicalism_short:0 "激进程度" # [LocEditor:AwaitingBatchUpdate]
+ concept_political_movement_radicalism_desc:0 "政治运动激进程度是……"
+  
+ concept_political_movement_placated:0 "安抚"
+ concept_political_movement_placated_desc:0 "安抚一项政治运动是指……"
+
+ concept_journal_entry:0 "日志条目"
+ concept_journal_entries:0 "日志条目" # [LocEditor:AwaitingBatchUpdate]
+ concept_journal_entry_desc:0 "日志条目记载着你国家正在发生的事件，显示机遇或挑战，提醒你曾作出的承诺，或警告可能发生的潜在危机。\n\n日志条目通常在被认为完成后从你的日志中解决移除。不过是所有的日志条目都能被完成——有些注定失败、过期或在某些条件下移除。"
+
+ concept_promote:0 "扶植"
+ concept_promoted:0 "扶植"
+ concept_promotes:0 "扶植"
+ concept_promoting:0 "扶植"
+ concept_promotion:0 "扶植"
+ concept_promote_desc:0 "#todo Promote ...#!"
+
+ concept_suppress:0 "打压"
+ concept_suppressed:0 "打压"
+ concept_suppressing:0 "打压"
+ concept_suppression:0 "打压"
+ concept_suppress_desc:0 "#todo Suppress is...#!"
+
+ concept_party:0 "党派"
+ # [LocEditor:UntranslatedKey] `concept_parties`
+ concept_party_desc:0 "制作中"
+
+ # [LocEditor:UntranslatedKey] `concept_order`
+ # [LocEditor:UntranslatedKey] `concept_orders`
+ # [LocEditor:UntranslatedKey] `concept_order_desc`
+ 
+ # [LocEditor:UntranslatedKey] `concept_unification_candidate`
+ # [LocEditor:UntranslatedKey] `concept_unification_candidate_short`
+ # [LocEditor:UntranslatedKey] `concept_unification_candidates`
+ # [LocEditor:UntranslatedKey] `concept_unification_candidate_desc`
+ 
+ # [LocEditor:UntranslatedKey] `concept_unification_supporter`
+ # [LocEditor:UntranslatedKey] `concept_unification_support`
+ # [LocEditor:UntranslatedKey] `concept_unification_supporting`
+ # [LocEditor:UntranslatedKey] `concept_unification_supporter_desc`
+
+ # [LocEditor:UntranslatedKey] `concept_recognized_power`
+ # [LocEditor:UntranslatedKey] `concept_recognized_power_desc`
+
+ # [LocEditor:UntranslatedKey] `concept_observer_mode`
+ # [LocEditor:UntranslatedKey] `concept_observer`
+ # [LocEditor:UntranslatedKey] `concept_observer_mode_desc`
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ concept_reinforcements:0 "增援"
+ concept_reinforcements_desc:0 "增援是目前正在前往某处的[Concept('concept_battalion', '$concept_battalions$)']或[Concept('concept_warship', '$concept_warships$)']。"
+ concept_travel_queue:0 "行军行列"
+ concept_travel_queue_desc:0 "当[Concept('concept_battalion', '$concept_battalions$)']或[Concept('concept_warship', '$concept_warships$)']受令前往某处，他们就进入了行军行列。他们可以在[Concept('concept_barrack', '$concept_barracks$)']、[Concept('concept_commander', '$concept_commanders$)']和[Concept('concept_front', '$concept_fronts$)']之间移动。"
+ concept_battle_plan:0 "作战计划"
+ concept_battle_plan_desc:0 "作战计划由受令入侵的[concept_front][concept_commander]拟订。若有足够的部队被分派给该计划，一场[concept_battle]就将打响。"
+ concept_good_net:0 "商品净额"
+ concept_good_net_desc:0 "该商品在该[concept_market]中贸易后的数额。"
+ concept_decreees:0 "法令"
+ concept_construction_camp:0 "建筑营地"
+ concept_construction_camps:0 "建筑营地"
+ concept_construction_camp_desc:0 "一个建筑营地是……"
+ concept_innovation_points:0 "创新点"
+ concept_innovation_points_desc:0 "大学产生创新点。可以用来研究发明。"
+ concept_objective:0 "目标"
+ concept_objectives:0 "目标"
+ concept_objective_desc:0 "AI控制的国家有一系列目标去控制其策略\n#todo TODO MORE INFO#!"
+ concept_favor:0 "人情"
+ concept_favors:0 "人情"
+ concept_favor_desc:0 "#todo 人情是……#!"
+ concept_construction_points:0 "建造点数"
+ concept_construction_points_desc:0 "@construction!建造点数由[Concept('concept_construction_camp', '$concept_construction_camps$)']产生，用于修建[Concept('concept_building', '$concept_buildings$')]。"
+ concept_budget_new_construction:0 "新建造"
+ concept_budget_new_construction_desc:0 "new_construction_desc"

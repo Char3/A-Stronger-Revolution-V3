@@ -1,0 +1,103 @@
+﻿CHARACTERS = {
+	c:AUS = {
+		create_character = {
+			# Ferdinand I of Austria
+			#role = politician # Remove this line
+			first_name = Ferdinand
+			last_name = von_Habsburg
+			ruler = yes
+			age = 43
+			interest_group = ig_landowners
+			traits = {
+				arrogant
+				# TODO: condition: mentally deficient
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			#role = politician # Remove this line
+			first_name = Klemens
+			last_name = von_Metternich
+			age = 63
+			ig_leader = yes
+			interest_group = ig_landowners
+			traits = {
+				meticulous
+			}
+		}
+
+		create_character = {
+			# Archduke Louis of Austria
+			#role = politician # Remove this line
+			first_name = Ludwig
+			last_name = von_Habsburg
+			age = 51
+			ig_leader = yes
+			interest_group = ig_armed_forces
+			traits = {
+				arrogant
+			}
+		}
+
+		create_character = {
+			#role = politician # Remove this line
+			first_name = Franz_Anton
+			last_name = von_Kolowrat_Liebsteinsky
+			age = 58
+			ig_leader = yes
+			interest_group = ig_intelligentsia
+			traits = {
+				imperious
+			}
+		}
+
+		create_character = {
+			# Vincenz Milde, Archbishop of Vienna from 1832 to 1853
+			#role = politician # Remove this line
+			first_name = Vincenz
+			last_name = Milde
+			age = 59
+			ig_leader = yes
+			interest_group = ig_devout
+			traits = {
+				cautious
+			}
+		}
+
+		create_character = { # General
+			is_general = yes
+			first_name = Josef
+			last_name = Radetzky
+			age = 70
+			traits = {
+				persistent
+				surveyor
+			}
+		}
+		
+		create_character = { # General
+			is_general = yes
+			first_name = Julius
+			last_name = von_Haynau
+			age = 50
+			traits = {
+				wrathful
+				cruel
+			}
+		}
+		
+		create_character = { # General
+			is_general = yes
+			first_name = Heinrich
+			last_name = von_Hess
+			age = 48
+			traits = {
+				meticulous
+				resupply_commander
+			}
+		}		
+	}
+}

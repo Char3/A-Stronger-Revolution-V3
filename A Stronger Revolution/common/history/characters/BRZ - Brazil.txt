@@ -1,0 +1,81 @@
+﻿CHARACTERS = {
+	c:BRZ = {
+		create_character = {
+			# Pedro II
+			#role = politician # Remove this line
+			first_name = "Pedro"
+			last_name = "de_Braganca"
+			ruler = yes
+			age = 11
+			interest_group = ig_intelligentsia
+			ideology = ideology_moderate
+			traits = {
+				meticulous
+			}
+		}	
+
+		# Isobel, Princess Imperial was not born until 1846
+
+		create_character = {
+			is_general = yes
+			first_name = Pierre
+			last_name = Labatut
+			age = 60
+			culture = cu:french
+			traits = {
+				arrogant
+				forest_commander
+			}
+			# prestige = 0.1
+		}
+		
+	#	create_character = {
+	#		is_general = yes
+	#		first_name = Sebastiao
+	#		last_name = Pinto
+	#		age = 61
+	#		traits = {
+	#	#		perverse
+	#	#		unfit
+	#		}
+	#
+	#	}
+		
+	#	create_character = {
+	#		is_general = yes
+	#		first_name = Barao
+	#		last_name = de_Tramandai
+	#		age = 37
+	#		traits = {
+	#			cautious
+	#	#		politician
+	#		}
+	#
+	#	}
+		
+		
+	#	create_character = {
+	#		is_general = yes
+	#		first_name = Pedro
+	#		last_name = de_Alcantara_Bellegarde
+	#		age = 35
+	#		traits = {
+	#	#		reserved
+	#	#		professor
+	#		}
+	#	}
+		
+		create_character = { # Sea
+			is_admiral = yes
+			first_name = John
+			last_name = Grenfell
+			age = 36
+			culture = cu:british
+			traits = {
+				experienced_naval_commander
+				innovative
+				wounded # Lost his right arm
+			}
+		}
+	}
+}

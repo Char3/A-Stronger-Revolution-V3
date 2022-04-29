@@ -1,0 +1,255 @@
+﻿l_russian:
+ OCCUPY_STATE_EFFECT_SUSTAINABLE:0 "достаточный уровень"
+ OCCUPY_STATE_EFFECT_STAGE:0 "этап $NUMBER$"
+ OCCUPY_STATE_EFFECT_DESC:0 "$COUNTRY_NAME$ оккупирует область $STATE_NAME$ на этапе «$STAGE_DESC$»."
+ SPAWN_ISSUE_EFFECT_DESC:0 "Издать указ «#variable $ISSUE_NAME$#!» в области $STATE_NAME$."
+ SET_CHARACTER_EFFECT:0 "#V $CHARACTER|v$#! приписывается к войсковой части #V $COMMAND$#!."
+ SET_CHARACTER_NONE_EFFECT:0 "Персонаж из войсковой части #V $COMMAND$#! не имеет назначения."
+
+ ADD_TREASURY_EFFECT_POSITIVE:0 "[COUNTRY.GetName] получает $VALUE|+=$@money!."
+ ADD_TREASURY_EFFECT_NEGATIVE:0 "[COUNTRY.GetName] теряет $VALUE|+=$@money!."
+ SET_COUNTRY_ARMY_SP_TARGET:0 "Установлено целевое количество очков силы (@army_SP!) #variable [COUNTRY.GetAdjective|l]#!ой армии: #variable $VALUE$#!." # [LocEditor:AwaitingBatchUpdate]
+ SET_COUNTRY_NAVY_SP_TARGET:0 "Установлено целевое количество очков силы (@navy_SP!) #variable [COUNTRY.GetAdjective|l]#!ого флота: #variable $VALUE$#!." # [LocEditor:AwaitingBatchUpdate]
+ SET_INFAMY:0 "[concept_infamy] выставляется на $VALUE|v$."
+ SET_RELATIONS:0 "Установлен уровень отношения #variable [COUNTRY.GetAdjective|l]ого#! государства к государству #variable [TARGET_COUNTRY.GetName]#!: #variable $VALUE|0$#!." # [LocEditor:AwaitingBatchUpdate]
+ SET_TENSION:0 "Установлен уровень [Concept('concept_tension', 'напряжения')] в отношениях государств [COUNTRY.GetName] и [TARGET_COUNTRY.GetName]: #variable $VALUE|0$#!." # [LocEditor:AwaitingBatchUpdate]
+ SET_STRATEGY:0 "[COUNTRY.GetName] принимает стратегию «#variable [AIStrategy.GetName]»#!."
+ SET_DIPLOMATS_EXPELLED:0 "[COUNTRY.GetName] изгоняет [TARGET_COUNTRY.GetAdjective|l]их дипломатов. Улучшение отношений невозможно в течение #b 5 лет#!."
+ SET_SECRET_GOAL:0 "[COUNTRY.GetName] ставит тайную цель «#variable $SECRET_GOAL$#!» в отношении государства [TARGET_COUNTRY.GetName]."
+ SET_MUTUAL_SECRET_GOAL:0 "[COUNTRY.GetName] и [TARGET_COUNTRY.GetName] ставят тайную цель «#variable $SECRET_GOAL$#!» в отношении друг друга."
+ # [LocEditor:UntranslatedKey] `SET_TAX_LEVEL`
+ SET_GOVERNMENT_WAGE_LEVEL:0 "Установлен уровень [Concept('concept_government_wage', 'государственных зарплат')] в государстве [COUNTRY.GetName]: #v $WAGE_LEVEL$#!."
+ SET_MILITARY_WAGE_LEVEL:0 "Установлен уровень [Concept('concept_military_wage', 'военных зарплат')] в государстве [COUNTRY.GetName]: #v $WAGE_LEVEL$#!."
+ ADD_CHANGE_RELATIONS_PROGRESS:0 "#variable [COUNTRY.GetName]#! меняет уровень отношений с государством [TARGET_COUNTRY.GetName] на #variable $VALUE$#!." # [LocEditor:AwaitingBatchUpdate]
+ ADD_TECHNOLOGY_PROGRESS:0 "[COUNTRY.GetName] получает $VALUE|+D$ ед. развития технологии «[TECHNOLOGY.GetName]»."
+ ADD_TECHNOLOGY_PROGRESS_NEG:0 "[COUNTRY.GetName] теряет $VALUE|+$ ед. развития технологии «[TECHNOLOGY.GetName]»."
+ SET_ARMY_STOCKPILE:0 "Установлен размер накоплений #variable [COUNTRY.GetAdjective|l]ой#! армии: $VALUE|+$ компл." # [LocEditor:AwaitingBatchUpdate]
+ SET_NAVY_STOCKPILE:0 "Установлен размер накоплений #variable [COUNTRY.GetAdjective|l]ого#! флота: $VALUE|+$ компл." # [LocEditor:AwaitingBatchUpdate]
+ SET_STOCKPILE:0 "$SET_ARMY_STOCKPILE$"
+ ACTIVATE_LAW:0 "[COUNTRY.GetName] принимает закон «[Law.GetFullNameWithStatus]»."
+ SET_INSTITUTION_INVESTMENT_LEVEL:0 "[COUNTRY.GetName] выводит инвестиции института «[INSTITUTION.GetName]» на уровень $LEVEL|v$."
+ CHANGE_INSTITUTION_INVESTMENT_LEVEL:0 "[Country.GetName] меняет уровень инвестиций института «[INSTITUTION.GetName]» на $INVESTMENT|v$."
+ ACTIVATE_LAW_WITH_INVESTMENT_LEVEL:0 "[COUNTRY.GetName] принимает закон «[Law.GetFullNameWithStatus]» с уровнем инвестиций $LEVEL|v$."
+ DEACTIVATE_LAW:0 "[COUNTRY.GetName] отменяет закон «[Law.GetFullNameWithStatus]»."
+ CALL_ELECTION:0 "[COUNTRY.GetName] проведёт #variable выборы через $MONTHS$ мес.#!"
+ SET_INTEREST_GROUP_NAME:0 "[IG.GetName] теперь называется #variable «$IG_NAME$»#!."
+ SET_AS_INTEREST_GROUP_LEADER:0 "[Character.GetFullName|v] становится лидером группы «[Character.GetInterestGroup.GetName|v]»."
+ # [LocEditor:UntranslatedKey] `REMOVE_AS_INTEREST_GROUP_LEADER`
+ DO_REVOLUTION_CLEANUP:0 "Гражданская война завершается."
+ ADD_IDEOLOGY:0 "[InterestGroup.GetName] получает идеологию «[Ideology.GetName]»."
+ REMOVE_IDEOLOGY:0 "[InterestGroup.GetName] теряет идеологию «[Ideology.GetName]»."
+ SET_IDEOLOGY:0 "[Character.GetFullName|v] примет идеологию «[Ideology.GetName]»."
+ CHANGE_RELATIONS:0 "#variable [COUNTRY.GetName]#! улучшает [Concept('concept_relation', 'отношения')] с государством #variable [TARGET_COUNTRY.GetName]#! на $VALUE|0+$." # [LocEditor:AwaitingBatchUpdate]
+ CHANGE_RELATIONS_NEG:0 "#variable [COUNTRY.GetName]#! ухудшает [Concept('concept_relation', 'отношения')] с государством #variable [TARGET_COUNTRY.GetName]#! на $VALUE|0-$." # [LocEditor:AwaitingBatchUpdate]
+ CHANGE_TENSION:0 "[Concept('concept_tension', '$concept_tensions$')] между государствами [COUNTRY.GetName] и [TARGET_COUNTRY.GetName] увеличивается на #N $VALUE|0$#!." # [LocEditor:AwaitingBatchUpdate]
+ CHANGE_TENSION_NEG:0 "[Concept('concept_tension', '$concept_tensions$')] между государствами [COUNTRY.GetName] и [TARGET_COUNTRY.GetName] снижается на #P $VALUE|0$#!." # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `SET_OWES_OBLIGATION_TO`
+ # [LocEditor:UntranslatedKey] `SET_OWES_OBLIGATION_TO_NEG`
+ RECALCULATE_LAWS:0 "[COUNTRY.GetName] пересмотрит свои [Concept('concept_law', 'законы')]."
+ RECALCULATE_LAWS_NEG:0 "[COUNTRY.GetName] НЕ БУДЕТ пересматривать свои [Concept('concept_law', 'законы')]."
+ VALIDATE_SUBSIDIES:0 "[COUNTRY.GetName] гарантирует законность своих промышленных субсидий."
+ VALIDATE_SUBSIDIES_NEG:0 "[COUNTRY.GetName] НЕ гарантирует законность своих промышленных субсидий."
+ RECALCULATE_POP_IG_SUPPORT:0 "[Concept('concept_pop', '$concept_pops$')] в государстве [COUNTRY.GetName] пересмотрят поддержку своей [Concept('concept_interest_group', 'заинтересованной группы')]."
+ RECALCULATE_POP_IG_SUPPORT_NEG:0 "[Concept('concept_pop', '$concept_pops$')] в государстве [COUNTRY.GetName] НЕ БУДУТ пересматривать поддержку своей [Concept('concept_interest_group', 'заинтересованной группы')]."
+ SET_COUNTRY_TYPE:0 "[COUNTRY.GetName] теперь #variable $COUNTRY_TYPE$#!."
+ SET_CAPITAL:0 "#variable [COUNTRY.GetAdjective]ое#! [concept_capital_state|l] перемещается в регион #variable $STATE_REGION_NAME$#!." # [LocEditor:AwaitingBatchUpdate]
+ SET_MARKET_CAPITAL:0 "#variable [COUNTRY.GetAdjective]ая#! [concept_market_capital|l] перемещается в регион #variable $STATE_REGION_NAME$#!." # [LocEditor:AwaitingBatchUpdate]
+ CLEAR_DEBT:0 "Финансовая задолженность #variable [COUNTRY.GetAdjective|l]ого#! государства покрыта." # [LocEditor:AwaitingBatchUpdate]
+ CLEAR_DEBT_NEG:0 "Финансовая задолженность #variable [COUNTRY.GetAdjective|l]ого#! государства НЕ покрыта." # [LocEditor:AwaitingBatchUpdate]
+ CLEAR_SCALED_DEBT:0 "Финансовая задолженность #variable [COUNTRY.GetAdjective|l]ого#! государства покрыта благодаря показателю ВВП #variable $VALUE$#!." # [LocEditor:AwaitingBatchUpdate]
+ TAKE_ON_SCALED_DEBT:0 "[COUNTRY.GetName] принимает на себя долг государства [TARGET_COUNTRY.GetName]: @money!#variable $VALUE|D$#!."
+ CREATE_TRADE_ROUTE:0 "[COUNTRY.GetName] создаёт торговый $TRADE_DIR$ путь $LEVEL|v0$ уровня для транспортировки [GOODS.GetTextIcon] товара «[GOODS.GetName]» на рынок «[TARGET_MARKET.GetName]»."
+ LOCK_TRADE_ROUTE:0 "Путь «[TradeRoute.GetName]» заблокирован на $DURATION$."
+ ADD_PRIMARY_CULTURE:0 "[TARGET_CULTURE.GetName] теперь [Concept('concept_primary_cultures', 'культура')] государства [COUNTRY.GetName]."
+ REMOVE_PRIMARY_CULTURE:0 "[TARGET_CULTURE.GetName] больше не [concept_primary_culture|l] государства [COUNTRY.GetName]."
+ # [LocEditor:UntranslatedKey] `SET_STATE_RELIGION`
+ ADD_CULTURAL_OBSESSION:0 "[CULTURE.GetName] испытывает тягу к товару «[GOODS.GetName]»."
+ REMOVE_CULTURAL_OBSESSION:0 "[CULTURE.GetName] больше не испытывает тягу к товару «[GOODS.GetName]»."
+ CREATE_RANDOM_CHARACTER_NAME:0 "Персонаж"
+ CREATE_CHARACTER:0 "$CHARACTER_NAME$ появляется в государстве [COUNTRY.GetName]."
+ # [LocEditor:UntranslatedKey] `ADD_INNOVATION`
+ # [LocEditor:UntranslatedKey] `ADD_INNOVATION_NEG`
+ ADD_INVESTMENT_POOL:0 "#variable [COUNTRY.GetAdjective]ий#! [concept_investment_pool|l] увеличен на @money!$VALUE|D+$." # [LocEditor:AwaitingBatchUpdate]
+ ADD_TECHNOLOGY_RESEARCHED:0 "#variable [COUNTRY.GetName]#! получает технологию #variable «[TECHNOLOGY.GetName]»#!."
+ ADD_ERA_RESEARCHED:0 "#variable [COUNTRY.GetName]#! теперь владеет всеми технологиями эпохи #variable [ERA.GetName]#!."
+ CREATE_DIPLOMATIC_PACT:0 "#variable [COUNTRY.GetName]#! начинает дипломатическую игру «[DIPLOMATIC_ACTION_TYPE.GetName]» с государством #variable [TARGET_COUNTRY.GetName]#!."
+ CHANGE_INFAMY:0 "[concept_infamy] увеличивается на #variable $VALUE$#!."
+ CHANGE_INFAMY_NEG:0 "[concept_infamy] уменьшается на #variable $VALUE$#!."
+ CREATE_INCIDENT:0 "$DESC$"
+ PLAY_AS:0 "Активным государством игрока становится [TARGET_COUNTRY.GetName], а не [COUNTRY.GetName]."
+
+ REMOVE_INITIATOR_BACKERS:0 "[COUNTRY.GetName] выходит из дипломатической игры «[TARGET_DIPLOMATIC_PLAY.GetName]»."
+ REMOVE_TARGET_BACKERS:0 "[COUNTRY.GetName] выходит из дипломатической игры «[TARGET_DIPLOMATIC_PLAY.GetName]»."
+ ADD_INITIATOR_BACKERS:0 "[COUNTRY.GetName] присоединяется к дипломатической игре «[TARGET_DIPLOMATIC_PLAY.GetName]» на стороне инициатора."
+ ADD_TARGET_BACKERS:0 "[COUNTRY.GetName] присоединяется к дипломатической игре «[TARGET_DIPLOMATIC_PLAY.GetName]» на стороне цели."
+ ADD_ESCALATION:0 "Эскалация дипломатической игры «[DIPLOMATIC_PLAY.GetName]» выросла на $VALUE|-$."
+ ADD_ESCALATION_NEG:0 "Эскалация дипломатической игры «[DIPLOMATIC_PLAY.GetName]» снизилась на $VALUE|-$."
+ END_PLAY:0 "[DIPLOMATIC_PLAY.GetName] завершается."
+ END_PLAY_NEG:0 "[DIPLOMATIC_PLAY.GetName] продолжается."
+ SET_KEY:0 "[DIPLOMATIC_PLAY.GetName] теперь называется #variable «$KEY$»#!."
+ ADD_DIPLOMATIC_PLAY_WAR_SUPPORT:0 "[Country.GetAdjective]ая [Concept('concept_war_support', 'воинственность')] в дипломатической игре «[TARGET_DIPLOMATIC_PLAY.GetName]» повышается на $VALUE|+$." # [LocEditor:AwaitingBatchUpdate]
+ ADD_DIPLOMATIC_PLAY_WAR_SUPPORT_NEG:0 "[Country.GetAdjective]ая [Concept('concept_war_support', 'воинственность')] в дипломатической игре «[TARGET_DIPLOMATIC_PLAY.GetName]» снижается на $VALUE|+$." # [LocEditor:AwaitingBatchUpdate]
+ ADD_WAR_WAR_SUPPORT:0 "[Country.GetAdjective]ая [Concept('concept_war_support', 'воинственность')] на войне «[War.GetName]» повышается на $VALUE|+$." # [LocEditor:AwaitingBatchUpdate]
+ ADD_WAR_WAR_SUPPORT_NEG:0 "[Country.GetAdjective]ая [Concept('concept_war_support', 'воинственность')] на войне «[War.GetName]» снижается на $VALUE|+$." # [LocEditor:AwaitingBatchUpdate]
+ ADD_WAR_EXHAUSTION:0 "[Country.GetAdjective]ое [Concept('concept_war_exhaustion', 'утомление войной')] «[TARGET_WAR.GetName]» повышается на $VALUE|+$." # [LocEditor:AwaitingBatchUpdate]
+ ADD_WAR_EXHAUSTION_NEG:0 "[Country.GetAdjective]ое [Concept('concept_war_exhaustion', 'утомление войной')] «[TARGET_WAR.GetName]» снижается на $VALUE|+$." # [LocEditor:AwaitingBatchUpdate]
+ ADD_WAR_GOAL:0 "[COUNTRY.GetName] добавляет цель «[WAR_GOAL.GetName]» для государства [TARGET_COUNTRY.GetName] в дипломатической игре «[DIPLOMATIC_PLAY.GetName]."
+ REMOVE_WAR_GOAL:0 "[COUNTRY.GetName] отказывается от цели «[WAR_GOAL.GetName]» для государства [TARGET_COUNTRY.GetName] в дипломатической игре «[DIPLOMATIC_PLAY.GetName]." # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `REMOVE_WAR_GOAL_NONE`
+ CREATE_DIPLOMATIC_PLAY:0 "[COUNTRY.GetName] создаёт [Concept('concept_diplomatic_play', 'дипломатическую игру')] #variable «[DIPLOMATIC_PLAY_TYPE.GetName]»#! против государства [TARGET_COUNTRY.GetName]."
+ SET_WAR:0 "[DIPLOMATIC_PLAY.GetName] перерастает в войну!"
+ SET_WAR_NEG:0 "[DIPLOMATIC_PLAY.GetName] НЕ перерастает в войну."
+ CREATE_TRUCE:0 "[COUNTRY.GetName] и [TARGET_COUNTRY.GetName] заключают #variable перемирие на $MONTHS$ мес.#!"
+ VIOLATE_SOVEREIGNTY_JOIN:0 "[COUNTRY.GetName] приходит на помощь государству [TARGET_COUNTRY.GetName]."
+
+ SET_INTEREST_MARKER_EFFECT:0 "[COUNTRY.GetName] устанавливает #variable уровень [Concept('concept_interest', 'интереса')] $LEVEL$#! в регионе #variable [STRATEGIC_REGION.GetName]#!."
+
+ KILL_CHARACTER:0 "[CHARACTER.GetFullName] умирает."
+ KILL_CHARACTER_NEG:0 "[CHARACTER.GetFullName] здравствует."
+ PLACE_CHARACTER_IN_VOID:0 "[CHARACTER.GetFullName] бесследно исчезает."
+ FREE_CHARACTER_FROM_VOID:0 "[CHARACTER.GetFullName] обнаруживается среди живых."
+ FREE_CHARACTER_FROM_VOID_NEG:0 "[CHARACTER.GetFullName] пропадает без вести."
+ ADD_TRAIT:0 "[CHARACTER.GetFullName] получает черту характера «[CHARACTER_TRAIT.GetName]»."
+ REMOVE_TRAIT:0 "[CHARACTER.GetFullName] лишается черты характера «[CHARACTER_TRAIT.GetName]»."
+ TRANSFER_CHARACTER:0 "[CHARACTER.GetFullName] поступает на службу государства [TARGET_COUNTRY.GetName]."
+ SET_CHARACTER_BUSY:0 "Персонаж [CHARACTER.GetFullName] теперь занят и отменяет все задания."
+ SET_CHARACTER_BUSY_NEG:0 "Персонаж [CHARACTER.GetFullName] больше не занят."
+
+ ADD_ORGANIZATION:0 "Организация государства [COUNTRY.GetName] в области #variable [AO.GetName]#! увеличена на $VALUE|+$."
+ ADD_ORGANIZATION_NEG:0 "Организация государства [COUNTRY.GetName] в области #variable [AO.GetName]#! снижена на $VALUE|+$."
+ ADD_SPIRIT:0 "Дух государства [COUNTRY.GetName] в области #variable [AO.GetName]#! увеличен на $VALUE|+$."
+ ADD_SPIRIT_NEG:0 "Дух государства [COUNTRY.GetName] в области #variable [AO.GetName]#! снижен на $VALUE|+$."
+ SET_ORGANIZATION:0 "Установлена организация государства [COUNTRY.GetName] в области #variable [AO.GetName]#!: $VALUE|+$."
+ SET_SPIRIT:0 "Установлен дух государства [COUNTRY.GetName] в области #variable [AO.GetName]#!: $VALUE|+$."
+
+ SET_OWNER_OF_PROVINCES:0 "[COUNTRY.GetName] получает провинции ($NUM_PROVINCES|v$) в регионе [TARGET_STATE_REGION.GetName]."
+ CREATE_STATE:0 "[COUNTRY.GetName] получает область в государстве [TARGET_STATE_REGION.GetName]."
+ SET_STATE_TYPE:0 "[STATE.GetName] теперь $STATE_TYPE|v$."
+ SET_STATE_OWNER:0 "[TARGET_COUNTRY.GetName] теперь владеет областью [STATE.GetName]."
+ CREATE_BUILDING:0 "В области [State.GetName] создаётся [BuildingType.GetName] (размер $LEVEL|v$)."
+ ADD_BUILDING_LEVEL:0 "Уровень сооружения [BuildingType.GetName] в области [State.GetName] меняется на $LEVEL|v$."
+ START_BUILDING_CONSTRUCTION:0 "Начать строительство сооружения [BuildingType.GetName] в области [State.GetName]."
+ CREATE_POP:0 "[STATE.GetName] получает группу населения #variable [POP_TYPE.GetName]#! ($SIZE|+$)."
+ ADD_HOMELAND:0 "[STATE_REGION.GetName] теперь [Concept('concept_homeland', 'родина')] культуры #variable [CULTURE.GetName]#!."
+ REMOVE_HOMELAND:0 "[STATE_REGION.GetName] больше не [Concept('concept_homeland', 'родина')] культуры #variable [CULTURE.GetName]#!."
+ ADD_CLAIM:0 "[TARGET_COUNTRY.GetName] получает [Concept('concept_claim', 'претензию')] на регион [STATE_REGION.GetName]."
+ REMOVE_CLAIM:0 "[TARGET_COUNTRY.GetName] теряет [Concept('concept_claim', 'претензию')] на регион [STATE_REGION.GetName]."
+ ACTIVATE_BUILDING:0 "Сооружение «[BUILDING_TYPE.GetName]» в области [STATE.GetName] активировано."
+ DEACTIVATE_BUILDING:0 "Сооружение «[BUILDING_TYPE.GetName]» в области [STATE.GetName] деактивировано."
+ REMOVE_BUILDING:0 "Сооружение «[BUILDING_TYPE.GetName]» в области [STATE.GetName] уничтожено."
+ CREATE_MARKET_EFFECT:0 "В области [STATE.GetName] создан новый рынок."
+ ADD_ARABLE_LAND_POSITIVE_EFFECT:0 "[STATE_REGION.GetName] получает [Concept('concept_arable_land', 'пахотные земли')] ($VALUE|+0$)."
+ ADD_ARABLE_LAND_NEGATIVE_EFFECT:0 "[STATE_REGION.GetName] теряет [Concept('concept_arable_land', 'пахотные земли')] ($VALUE|-0$)."
+ ADD_DEVASTATION_POSITIVE_EFFECT:0 "[concept_devastation] в регионе [STATE_REGION.GetName] увеличивается на $VALUE|-0$%."
+ ADD_DEVASTATION_NEGATIVE_EFFECT:0 "[concept_devastation] в регионе [STATE_REGION.GetName] снижается на $VALUE|+0$%."
+ SET_DEVASTATION_POSITIVE_EFFECT:0 "Установлено [Concept('concept_devastation', 'опустошение')] региона [STATE_REGION.GetName]: #variable $VALUE|0$%#."
+ SET_DEVASTATION_NEGATIVE_EFFECT:0 "Установлено [Concept('concept_devastation', 'опустошение')] региона [STATE_REGION.GetName]: #variable $VALUE|0$%#."
+ ADD_POLLUTION_EFFECT:0 "Уровень загрязнения региона [StateRegion.GetName] увеличен на $VALUE|-0$."
+ REMOVE_POLLUTION_EFFECT:0 "Уровень загрязнения региона [StateRegion.GetName] снижен на $VALUE|+0$."
+  
+ ADD_POP_WEALTH:0 "[Pop.GetName] в области [POP.GetState.GetName] получает благосостояние ($VALUE|+$)."
+ ADD_POP_WEALTH_NEG:0 "[Pop.GetName] в области [POP.GetState.GetName] теряет благосостояние ($VALUE|+$)."
+ SET_POP_WEALTH:0 "Установлено благосостояние группы населения [Pop.GetName] в области [POP.GetState.GetName]: $VALUE|+$."
+ SET_POP_LITERACY:0 "Установлена грамотность группы населения [Pop.GetName] в области [POP.GetState.GetName]: $VALUE|+0%$."
+ SET_POP_QUALIFICATIONS:0 "Установлена [Concept('concept_pop_qualifications', 'квалификация')] группы населения [Pop.GetName] ([POP_TYPE.GetName]) в области [POP.GetState.GetName]: $VALUE|+0%$."
+ SET_POP_HAPPINESS:0 "Установлено счастье группы населения [Pop.GetName] в области [POP.GetState.GetName]: $VALUE|+$."
+ CHANGE_POPTYPE:0 "[Pop.GetName] в области [Pop.GetState.GetName] теперь #variable [POP_TYPE.GetName]#!."
+ CHANGE_POP_RELIGION:0 "[Pop.GetName] ($VALUE|0v%$) в области [Pop.GetState.GetName] становятся адептами религии [Religion.GetName]."
+ # [LocEditor:UntranslatedKey] `CONVERT_POPULATION`
+ CHANGE_POP_CULTURE:0 "$VALUE|0v%$ группы населения [Pop.GetName] в области [Pop.GetState.GetName] присоединятся к культуре [Culture.GetName]."
+ MOVE_POP:0 "[Pop.GetName] переместится из области [Pop.GetState.GetName] в область [TARGET_STATE.GetName]."
+
+ EFFECT_CREATE_ASSIGNMENT:0 "Назначить персонажа [CHARACTER.GetFullName] в регион [STRATEGIC_REGION.GetName]."
+ EFFECT_PROJECT_POWER:0 "[CHARACTER.GetFullName] будет проецировать силу в регион [STRATEGIC_REGION.GetName]."
+  
+ TRIGGER_EVENT:0 "Запускает событие #variable «$EVENT_NAME$»#!."
+
+ ANNEX_EFFECT:0 "[COUNTRY.GetName] аннексирует государство [TARGET_COUNTRY.GetName]."
+  
+ ADD_JOURNAL_ENTRY:0 "Добавляет запись #variable «$JOURNAL_ENTRY_NAME$»#! в дневник государства [COUNTRY.GetName|v]."
+ START_TUTORIAL_LESSON:0 "Запуск урока #variable «$TUTORIAL_NAME$»#!."
+  
+ ADD_RULING_INTEREST_GROUP:0 "[INTEREST_GROUP.GetName] присоединяется к правительству."
+ REMOVE_RULING_INTEREST_GROUP:0 "[INTEREST_GROUP.GetName] выходит из правительства."
+ SET_RULING_INTEREST_GROUPS:0 "Указанные заинтересованные группы присоединяются к правительству, а все остальные выходят из него."
+ ADD_MODIFIER:0 "$SUBJECT_NAME$ получает #tooltippable #tooltip:[GetRawTextTooltipTag('$ADD_MODIFIER_BREAKDOWN$')] $MODIFIER_NAME$#!#! $DURATION$\n$TAB$#indent_newline:3 $MODIFIER_DESC$#!."
+ ADD_MODIFIER_BREAKDOWN:0 "#header $MODIFIER_NAME$#!\n$MODIFIER_DESC$."
+ ADD_ENACTMENT_MODIFIER:0 "$ADD_MODIFIER$"
+ REMOVE_MODIFIER:0 "$SUBJECT_NAME$ теряет #tooltippable #tooltip:[GetRawTextTooltipTag('$REMOVE_MODIFIER_BREAKDOWN$')] #variable $MODIFIER_NAME$#!#!#!\n$TAB$#indent_newline:3 $MODIFIER_DESC$#!."
+ REMOVE_MODIFIER_BREAKDOWN:0 "#header $MODIFIER_NAME$#!\n$MODIFIER_DESC$."
+ REMOVE_ENACTMENT_MODIFIER:0 "$REMOVE_MODIFIER$"
+
+ ACTIVATE_PRODUCTION_METHOD:0 "Активирует метод «[PRODUCTION_METHOD.GetName]» для сооружений типа «[BUILDING_TYPE.GetName]» ($TARGET|v$)."
+ ADD_COMMANDER_RANK:0 "[CHARACTER.GetFullName] $DESC_STR$ — #variable [COMMANDER_RANK.GetName]#!." # [LocEditor:AwaitingBatchUpdate]
+ SET_COMMANDER_RANK:0 "[CHARACTER.GetFullName] $DESC_STR$ — #variable [COMMANDER_RANK.GetName]#!." # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `ADD_CHARACTER_ROLE`
+ ADD_EXPERIENCE:0 "[CHARACTER.GetFullName] получает [Concept('concept_life_experience', 'жизненный опыт')]."
+
+ CREATE_COUNTRY:0 "Создано новое государство"
+ ADD_CULTURE_WELFARE_MODIFIER:0 "[STATE.GetName] получает модификатор $MODIFIER_NAME|v$ $DURATION$\n   #header $MODIFIER_NAME$#!\n   $MODIFIER_DESC$."
+ # [LocEditor:UntranslatedKey] `ADD_RELIGION_WELFARE_MODIFIER`
+ FORCE_RESOURCE_DISCOVERY:0 "Найдены ресурсы в сооружениях #variable $BUILDING_GROUP$#! государства [State.GetName]."
+ FORCE_RESOURCE_DEPLETION:0 "Истощены ресурсы в сооружениях #variable $BUILDING_GROUP$#! государства [State.GetName]."
+
+ SET_NEXT_ELECTION_DATE:0 "Дата выборов в государстве [COUNTRY.Name|v] — $DATE|v$." # [LocEditor:AwaitingBatchUpdate]
+
+ JOIN_REVOLUTION:0 "Группа «[INTEREST_GROUP.GetName]» становится мятежной."
+ ABANDON_REVOLUTION:0 "Группа [INTEREST_GROUP.GetName] прекращает мятеж."
+
+ START_PROMOTE_IG:0 "Начать продвижение группы «[INTEREST_GROUP.GetName]»."
+ STOP_PROMOTE_IG:0 "Прекратить продвижение группы «[INTEREST_GROUP.GetName]»."
+ START_SUPPRESS_IG:0 "Начать подавление группы «[INTEREST_GROUP.GetName]»."
+ STOP_SUPPRESS_IG:0 "Прекратить подавление группы «[INTEREST_GROUP.GetName]»."
+  
+ ADD_EMBARGOED_GOODS:0 "[COUNTRY.GetName] налагает [Concept('concept_embargo', 'эмбарго')] на товар «[TARGET_GOODS.GetName]»." # [LocEditor:AwaitingBatchUpdate]
+ REMOVE_EMBARGOED_GOODS:0 "[COUNTRY.GetName] снимает [Concept('concept_embargo', 'эмбарго')] с товара «[TARGET_GOODS.GetName]»." # [LocEditor:AwaitingBatchUpdate]
+ ADD_ENCOURAGED_GOODS:0 "[COUNTRY.GetName] теперь [Concept('concept_encourage_consumption', 'поощряет потребление')] товара «[GOODS.GetName]»." # [LocEditor:AwaitingBatchUpdate]
+ REMOVE_ENCOURAGED_GOODS:0 "[COUNTRY.GetName] больше не [Concept('concept_encourage_consumption', 'поощряет потребление')] товара «[GOODS.GetName]»." # [LocEditor:AwaitingBatchUpdate]
+ ADD_DISCOURAGED_GOODS:0 "[COUNTRY.GetName] теперь [Concept('concept_discourage_consumption', 'препятствует потреблению')] товара «[TARGET_GOODS.GetName]»." # [LocEditor:AwaitingBatchUpdate]
+ REMOVE_DISCOURAGED_GOODS:0 "[COUNTRY.GetName] больше не [Concept('concept_discourage_consumption', 'препятствует потреблению')] товара «[TARGET_GOODS.GetName]»." # [LocEditor:AwaitingBatchUpdate]
+ ADD_TAXED_GOODS:0 "[COUNTRY.GetName] начинает взимать [Concept('concept_consumption_tax', 'потребительский налог')] на товар «[TARGET_GOODS.GetName]»." # [LocEditor:AwaitingBatchUpdate]
+ REMOVE_TAXED_GOODS:0 "[COUNTRY.GetName] прекращает взимать [Concept('concept_consumption_tax', 'потребительский налог')] на товар «[TARGET_GOODS.GetName]»." # [LocEditor:AwaitingBatchUpdate]
+  
+ ADD_RADICALS:0 "$NUM|%$ [Concept('concept_pop', 'групп населения')] «$FILTER$» становятся более [Concept('concept_radical', 'радикальными')]."
+ ADD_LOYALISTS:0 "$NUM|%$ [Concept('concept_pop', 'групп населения')] «$FILTER$» становятся более [Concept('concept_loyalist', 'лояльными')]."
+
+ ADD_CIVIL_WAR_PROGRESS:0 "Изменить прогресс гражданской войны на $VALUE|%$."
+ ADD_LAW_PROGRESS:0 "Изменить прогресс закона «[Law.GetName]» на $VALUE|0%$."
+
+ MAKE_INDEPENDENT:0 "[COUNTRY.GetName] обретает независимость от государства [TARGET_COUNTRY.GetName]."
+ MAKE_INDEPENDENT_NEG:0 "[COUNTRY.GetName] НЕ обретает независимость от государства [TARGET_COUNTRY.GetName]."
+  
+ OBJECTIVE_SUBGOAL_EFFECT:0 "Вторичная цель (игрок этого не увидит)"
+  
+ REMOVE_DIPLOMATIC_PACT:0 "[COUNTRY.GetName] отменяет дипломатический манёвр «[DIPLOMATIC_ACTION_TYPE.GetName]» с государством [TARGET_COUNTRY.GetName]"
+  
+ SET_SUBSIDIZED:0 "Начать [Concept('concept_subsidies', 'субсидирование')] сооружения «[Building.GetName]»." # [LocEditor:AwaitingBatchUpdate]
+ SET_SUBSIDIZED_NEGATIVE:0 "Прекратить [Concept('concept_subsidies', 'субсидирование')] сооружения «[Building.GetName]»." # [LocEditor:AwaitingBatchUpdate]
+  
+ ADD_MOMENTUM:0 "[Party.GetName] получит #v $MOMENTUM|%+=0$#! к [Concept('concept_momentum', 'мотивации')]"
+ RESOLVE_PLAY_FOR:0 "[Country.GetName] навязывает свои военные цели и прекращает дипломатическую игру «[TARGET_DIPLOMATIC_PLAY.GetName]»."
+
+ CHANGE_CHARACTER_RELIGION:0 "[Character.GetFullName] становится адептом религии «[TARGET_RELIGION.GetName]»."
+ CHANGE_TAG:0 "[COUNTRY.GetName] теперь $NEW_TAG|v$."
+ SET_INTEREST_MARKER_IN_REGION:0 "Устанавливает метку интереса в регионе $REGION_NAME|v$."
+ CHANGE_SUBJECT_TYPE:0 "[Country.GetName] теперь $SUBJECT_TYPE$, чей хозяин — [Country.GetOverlord.GetName]."
+
+ PARTIES_EMERGENCE:0 "Это приведёт к образованию партий."
+ PARTIES_DISAPPEARENCE:0 "Это приведёт к исчезновению партий."
+ UPDATE_PARTY_SUPPORT_EFFECT:0 "Заинтересованные группы пересмотрят поддержку своих партий."
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ SET_INCOME_TAX_LEVEL:0 "Установлен уровень [Concept('concept_budget_income_taxes', 'подоходных налогов')] государства [COUNTRY.GetName]: #variable $TAX_LEVEL$#!."
+ SET_POLL_TAX_LEVEL:0 "Установлен уровень [Concept('concept_budget_poll_taxes', 'подушных налогов')] государства [COUNTRY.GetName]: #variable $TAX_LEVEL$#!."
+ SET_CONSUMPTION_TAX_LEVEL:0 "Установлен уровень [Concept('concept_budget_consumption_taxes', 'потребительских налогов')] государства [COUNTRY.GetName]: #variable $TAX_LEVEL$#!."
+ SET_OWES_FAVOR_TO:0 "У государства [COUNTRY.GetName] есть [Concept('concept_favor', 'обязательство')] перед государством [TARGET_COUNTRY.GetName]."
+ SET_OWES_FAVOR_TO_NEG:0 "У государства [COUNTRY.GetName] больше нет [Concept('concept_favor', 'обязательств')] перед государством [TARGET_COUNTRY.GetName]."
+ SET_ARMY_BUDGET:0 "Определён бюджет #variable [COUNTRY.GetAdjective|l]ой#! армии: #variable $VALUE$#!."
+ SET_NAVY_BUDGET:0 "Определён бюджет #variable [COUNTRY.GetAdjective|l]ого#! флота: #variable $VALUE$#!."
+ SET_STOCKPILE_BUDGET:0 "Определён бюджет #variable [COUNTRY.GetAdjective|l]их#! накоплений: #variable $VALUE$#!."
+ ADD_STOCKPILE:0 "#variable [COUNTRY.GetAdjective]ие#! накопления увеличены на $VALUE|+$."
+ ADD_STOCKPILE_NEG:0 "#variable [COUNTRY.GetAdjective]ие#! накопления уменьшены на $VALUE|+$."
+ ADD_INNOVATION_POINTS:0 "Очки инновации государства #variable [COUNTRY.GetName]#! увеличены на $VALUE|+$."
+ ADD_INNOVATION_POINTS_NEG:0 "Очки инновации государства #variable [COUNTRY.GetName]#! уменьшены на $VALUE|+$."
+ MULT_DIPLOMATIC_PLAY_WAR_SUPPORT:0 "[Country.GetAdjective]ая [Concept('concept_war_support', 'воинственность')] в дипломатической игре «[TARGET_DIPLOMATIC_PLAY.GetName]» умножается на $VALUE|+$."
+ MULT_WAR_WAR_SUPPORT:0 "[Country.GetAdjective]ая [Concept('concept_war_support', 'воинственность')] на войне «[War.GetName]» умножается на $VALUE|+$."

@@ -1,0 +1,9 @@
+﻿object={
+	name="testmesh_03_tile"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="static"
+	pdxmesh="european_rural_plantation_01_mesh"
+	count=0
+}

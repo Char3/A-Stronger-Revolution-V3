@@ -1,0 +1,113 @@
+﻿CHARACTERS = {
+	c:SWE = {
+		create_character = {
+			# Charles XIV John of Sweden, born Jean Bernadotte, one of Napoleon's former marshals
+			#role = politician # Remove this line
+			first_name = "Karl_Johan"
+			last_name = "Bernadotte"
+			ruler = yes
+			birth_date = 1763.1.26
+			culture=cu:french
+			interest_group = ig_landowners
+			traits = {
+				ambitious experienced_political_operator
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}	
+
+		create_character = {
+			#role = politician # Remove this line
+			first_name = "Oscar"
+			last_name = "Bernadotte"
+			heir = yes
+			age = 37
+			interest_group = ig_landowners
+			traits = {
+				romantic
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			is_admiral = yes
+			first_name = "Carl"
+			last_name = "Nordenskiold"
+			age = 45 
+			traits = {
+				experienced_naval_commander
+				ambitious
+			}
+			# prestige = 0.1
+		}
+	
+		
+	#	create_character = {
+	#		is_general = yes
+	#		first_name = Johan
+	#		last_name = Tawast
+	#		age = 73
+	#		interest_group = ig_landowners
+	#		traits = {
+	#			brave
+	#			arrogant
+	#		}
+	#	}
+		
+		create_character = {
+			is_general = yes
+			first_name = Axel
+			last_name = Morner
+			age = 62
+			interest_group = ig_armed_forces
+			traits = {
+				romantic
+			}
+		}
+		
+		# create_character = { # Sea
+			#is_admiral = yes
+			# name = "Baltzar von Platen"
+			# age = dead...?
+			# traits = {
+			# 	able
+			# 	explorer
+			# }
+		# }
+		
+		# create_character = {
+			# name = "C. Cederström"
+			# age = dead...?
+			# traits = {
+				# strange
+				# hated
+			# }
+		# }
+		
+	#	create_character = {
+	#		is_general = yes
+	#		first_name = Johan_Peter
+	#		last_name = af_Billbergh
+	#		age = 60
+	#		traits = {
+	#	#		diplomat
+	#	#		toady
+	#		}
+	#
+	#	}
+		
+	#	create_character = {
+	#		is_general = yes
+	#		first_name = Gustaf
+	#		last_name = Peyron
+	#		age = 53
+	#		traits = {
+	#			imperious
+	#	#		up_from_the_ranks
+	#		}
+	#	}
+	}
+}

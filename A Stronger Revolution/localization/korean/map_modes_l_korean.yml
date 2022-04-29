@@ -1,0 +1,45 @@
+﻿l_korean:
+ mm_default:0 "국가"
+ mm_ongoing_diplo_play:0 "분쟁에 연루됨"
+ mm_strategic_region:0 "전략 지역"
+ mm_state:0 "주"
+ mm_theater:0 "전역"
+ mm_military:0 "군사"
+
+ mm_interest_group:0 "이해 집단"
+ mm_population:0 "인구"
+ mm_culture:0 "문화"
+ mm_religion:0 "종교"
+ mm_culture_nationally:0 "[GetPlayer.GetName] 내 문화"
+ mm_culture_overview:0 "문화 개요"
+ mm_religion_nationally:0 "[GetPlayer.GetName] 내 종교"
+ mm_goods_production:0 "상품 생산"
+ mm_goods_consumption:0 "상품 소비"
+ mm_goods_potentials:0 "상품 잠재력"
+ mm_country_attitude:0 "국가 태도"
+ mm_country_relations:0 "국가 관계"
+ mm_country_infamy:0 "국가 악명"
+ mm_technology:0 "기술"
+ mm_trade:0 "시장"
+ mm_province_template_terrain:0 "지방 지형"
+ mm_standard_of_living:0 "생활 수준"
+ mm_migration:0 "이주"
+ # [LocEditor:UntranslatedKey] `mm_gdp`
+ # [LocEditor:UntranslatedKey] `mm_gdp_nationally`
+
+ mm_theater_interaction:0 "전역 상호작용"
+ mm_state_interaction:0 "주 상호작용"
+ mm_country_interaction:0 "국가 상호작용"
+ mm_market_interaction:0 "시장 상호작용"
+ mm_strategic_region_interaction:0 "전략 지역 상호작용"
+ mm_command_interaction:0 "사령부 상호작용"
+ mm_hq_interaction:0 "본부 상호작용"
+ mm_front_interaction:0 "전선 상호작용"
+ mm_recruit_generals_interaction:0 "장군 영입 상호작용"
+ # [LocEditor:UntranslatedKey] `mm_recruit_admirals_interaction`
+ # [LocEditor:UntranslatedKey] `mm_construction_interaction`
+
+ mm_budget:0 "예산"
+ mm_political:0 "정치"
+ mm_diplomatic:0 "외교"
+ mm_production:0 "주 내 생산"

@@ -1,0 +1,637 @@
+﻿l_turkish:
+ tutorial_lesson_button_skip:2 "Dersi Atla"
+ tutorial_lesson_button_next:2 "Sonraki"
+ tutorial_lesson_button_continue:1 "İlerle!"
+ 
+ tutorial_lesson_button_complete:2 "Anladım"
+ tutorial_lesson_button_read_later:2 "Daha Sonra Oku"
+ tutorial_lesson_button_refuse:2 "Asla!"
+ tutorial_lesson_button_explain:2 "Açıkla Lütfen"
+ tutorial_lesson_button_excellent:2 "Harika"
+ tutorial_lesson_button_elaborate:2 "Ayrıntılı Bilgi"
+ tutorial_lesson_button_back:2 "Geri"
+ tutorial_lesson_button_repeat_step:2 "Tekrar Göster"
+ tutorial_lesson_button_show_more:0 "Daha fazla"
+ tutorial_lesson_button_show_less:0 "Daha az"
+ tutorial_lesson_button_come_again:2 "Lütfen Tekrarla"
+ TUTORIAL_STEP_INSTRUCTIONS:2 "Devam etmek için:"
+ skip_to_next_topic:2 "Bu öğretici dersi atla"
+
+ lesson_step_1_of_2:1 "1/2"
+ lesson_step_2_of_2:1 "2/2"
+ lesson_step_1_of_3:1 "1/3"
+ lesson_step_2_of_3:1 "2/3"
+ lesson_step_3_of_3:1 "3/3"
+ lesson_step_1_of_4:1 "1/4"
+ lesson_step_2_of_4:1 "2/4"
+ lesson_step_3_of_4:1 "3/4"
+ lesson_step_4_of_4:1 "4/4"
+ lesson_step_1_of_5:1 "1/5"
+ lesson_step_2_of_5:1 "2/5"
+ lesson_step_3_of_5:1 "3/5"
+ lesson_step_4_of_5:1 "4/5"
+ lesson_step_5_of_5:1 "5/5"
+ lesson_step_1_of_6:1 "1/6"
+ lesson_step_2_of_6:1 "2/6"
+ lesson_step_3_of_6:1 "3/6"
+ lesson_step_4_of_6:1 "4/6"
+ lesson_step_5_of_6:1 "5/6"
+ lesson_step_6_of_6:1 "6/6"
+ lesson_step_1_of_7:1 "1/7"
+ lesson_step_2_of_7:1 "2/7"
+ lesson_step_3_of_7:1 "3/7"
+ lesson_step_4_of_7:1 "4/7"
+ lesson_step_5_of_7:1 "5/7"
+ lesson_step_6_of_7:1 "6/7"
+ lesson_step_7_of_7:1 "7/7"
+ lesson_step_1_of_8:1 "1/8"
+ lesson_step_2_of_8:1 "2/8"
+ lesson_step_3_of_8:1 "3/8"
+ lesson_step_4_of_8:1 "4/8"
+ lesson_step_5_of_8:1 "5/8"
+ lesson_step_6_of_8:1 "6/8"
+ lesson_step_7_of_8:1 "7/8"
+ lesson_step_8_of_8:1 "8/8"
+ lesson_step_1_of_9:1 "1/9"
+ lesson_step_2_of_9:1 "2/9"
+ lesson_step_3_of_9:1 "3/9"
+ lesson_step_4_of_9:1 "4/9"
+ lesson_step_5_of_9:1 "5/9"
+ lesson_step_6_of_9:1 "6/9"
+ lesson_step_7_of_9:1 "7/9"
+ lesson_step_8_of_9:1 "8/9"
+ lesson_step_9_of_9:1 "9/9"
+
+#Lesson names
+
+ lesson_basics:0 "Giriş"
+
+ TRIGGER_LESSON_BASICS_NESTED_TOOLTIPS_CONTINUE:1 "Bir bilgi kutusunun içindeyken imlecini $tooltip_hinter$ üzerine getir"
+ TOOLTIPS_EXPLAINER:1 "Bu bir #tooltippable #tooltip:NESTED_TOOLTIPS_EXPLAINER Bilgi Kutusu#!#!"
+ NESTED_TOOLTIPS_EXPLAINER:0 "Bilgi kutuları, genellikle imlecinin üzerinde durduğu yerle ilgili ayrıntılı bilgi verir ve tıpkı bu örnekte olduğu gibi iç içe bilgiler sağlar."
+ 
+ tooltip_hinter:1 "#tooltippable #tooltip:TOOLTIPS_EXPLAINER altı çizili metin#!#!"
+ tooltip_hinter_name:1 "#tooltippable_name #tooltip:TOOLTIPS_EXPLAINER İsim#!#!"
+ tooltip_hinter_names:1 "#tooltippable_name #tooltip:TOOLTIPS_EXPLAINER İsimler#!#!"
+ tooltip_hinter_concept:0 "[concept_concept]"
+ tooltip_hinter_concepts:0 "[Concept('concept_concept', 'Konseptler')]"
+
+ # Basics
+ lesson_basics_welcome:1 "İlerleme Çağı'na Hoş Geldin!"
+ lesson_basics_welcome_desc:2 "Yıl 1836. [GetPlayer.GetRuler.GetFullName], [GetPlayer.GetName] ülkesinde [GetPlayer.GetRuler.GetRoleTitle]. Tüm hızıyla süren Sanayi Devrimi, sarsıcı sosyal değişimlere neden oldu. Avrupa'ya bir nebze de olsa düzen getiren Viyana Kongresi'nden 20 yıl sonra [Concept('concept_great_power', '$concept_great_powers$')] arasında huzursuzluklar yeniden baş göstermeye başladı. Önümüzdeki yüzyılda [GetPlayer.GetName] ülkesini zafere ulaştırmak senin elinde.\n\nVictoria 3'te "kazanmanın" birden fazla yolu vardır. Zafer yollarında ilerlerken hedeflerini belirlemek ve farklı hikâyeleri deneyimlemek senin elinde." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_basics_core_gameplay:0 "Ana Oynanış Özellikleri"
+ lesson_basics_core_gameplay_short:0 "Victoria 3'te amacın, yönetimine geçtiğin Victoria çağı ülkesini #bold ekonomi#! ve #bold siyasete#! odaklanarak büyütmek ve şekillendirmektir. Hayallerindeki toplumu inşa etmeye çalışırken bir yandan da iç ve dış zorluklara göğüs germen gerekecek."
+ lesson_basics_core_gameplay_show_more:0 "Bu yolda siyaset, ekonomi, diplomasi ve savaş yöntemlerini kullanacaksın, fakat çok dikkatli olmalısın zira halkın da kendine göre ihtiyaçları ve istekleri olacak. Aldığın kararlar onları da etkileyecek ve bunun karşılığında onlar da sana etki etmeye çalışacaklar.\n\nVictoria 3, birçok farklı değişkene sahip olan dinamik bir simülasyondur. Burada yaptığın her şeyin bir sonucu vardır; istemeden yaptıklarının bile. Zaten normal olan da budur! Oynamaya başlamadan önce oyuna dair her şeyi öğrenmen şart değil. Yavaş yavaş ilerleyip hatalarından ders çıkarırsan usta bir politikacı olabilirsin!"
+ lesson_basics_core_gameplay_desc:0 "Victoria 3'te amacın, yönetimine geçtiğin Victoria çağı ülkesini #bold ekonomi#! ve #bold siyasete#! odaklanarak büyütmektir. Hayallerindeki toplumu inşa etmeye çalışırken bir yandan da iç ve dış zorluklara göğüs germen gerekecek.\n\nBu yolda siyaset, ekonomi, diplomasi ve savaş yöntemlerini kullanacaksın, fakat çok dikkatli olmalısın zira halkın da kendine göre ihtiyaçları ve istekleri olacak. Aldığın kararlar onları da etkileyecek ve bunun karşılığında onlar da sana etki etmeye çalışacaklar.\n\nVictoria 3, birçok farklı değişkene sahip olan dinamik bir simülasyondur. Burada yaptığın her şeyin bir sonucu vardır; istemeden yaptıklarının bile. Zaten normal olan da budur! Oynamaya başlamadan önce oyuna dair her şeyi öğrenmen şart değil. Yavaş yavaş ilerleyip hatalarından ders çıkarırsan usta bir politikacı olabilirsin!"
+ # [LocEditor:UntranslatedKey] `lesson_basics_core_gameplay_part_1_desc`
+ # [LocEditor:UntranslatedKey] `lesson_basics_core_gameplay_part_2_desc`
+ # [LocEditor:UntranslatedKey] `lesson_basics_core_gameplay_you`
+ # [LocEditor:UntranslatedKey] `lesson_basics_core_gameplay_politics`
+ # [LocEditor:UntranslatedKey] `lesson_basics_core_gameplay_economics`
+ # [LocEditor:UntranslatedKey] `lesson_basics_core_gameplay_diplomacy`
+ # [LocEditor:UntranslatedKey] `lesson_basics_core_gameplay_war`
+ # [LocEditor:UntranslatedKey] `lesson_basics_core_gameplay_country_and`
+
+ #Camera & Map
+ lesson_basics_camera:1 "Kamera ($lesson_basics$)"
+ lesson_basics_camera_keys:1 "Haritada etrafa bakınmak için #v W#!, #v A#!, #v S#! ve #v D#! tuşlarını kullan."
+ lesson_basics_camera_scroll_wheel:1 "Yakınlaşıp uzaklaşmak için #v fare tekerleğini#! kullan; tekerleği basılı tutarak haritayı kaydırabilirsin."
+ lesson_basics_camera_map:1 "Fare imlecini ekranın kenarlarına götürmek de haritayı kaydırır."
+ lesson_basics_camera_tab:1 "#v Tab#! tuşunu basılı tutarak tüm dünyayı genel bakış ile görebilirsin. Bu görünümdeyken herhangi bir yere tıklayabilir ve ardından #v Tab#! tuşunu bırakarak oraya gidebilirsin."
+ lesson_basics_camera_desc:1 "Haritada etrafa bakınmak için #v W#!, #v A#!, #v S#! ve #v D#! tuşlarını kullan. Fare imlecini ekranın kenarlarına götürmek ya da fareyi hareket ettirirken fare tekerleğini basılı tutmak da haritayı kaydırır.\n\nYakınlaşıp uzaklaşmak için #v fare tekerleğini#! kullan.\n\n#v Tab#! tuşunu basılı tutarak tüm dünyayı genel bakış ile görebilirsin. Bu görünümdeyken herhangi bir yere tıklayabilir ve ardından #v Tab#! tuşunu bırakarak oraya gidebilirsin."
+
+ lesson_basics_pausing:1 "Durdurma ($lesson_basics$)"
+ lesson_basics_pausing_short:0 "Gösterilen hız kontrolleriyle oyunun hızını ayarlayabilir ve oyunu durdurup devam ettirebilirsin. Durdurma/devam ettirme işlemini klavyenden #v Space#! tuşuna basarak da yapabilirsin."
+ lesson_basics_pausing_spacebar:0 "Durdurma/devam ettirme işlemini klavyenden #v Space#! tuşuna basarak da yapabilirsin."
+ lesson_basics_pausing_show_more:0 "Victoria 3, 1836 ile 1936 arasındaki 100 yıllık zaman diliminde geçer fakat oyunun temposunu kendine göre ayarlayabilirsin. Şu anda oyun durdurulduğu için zaman ilerlemiyor. Durdurduktan sonra da oyunla etkileşime geçmeye devam edebilirsin fakat birçok eylemin sonucu zamanla ortaya çıkar ve etkilerini görmek için zamanın akması gerekir.\n\nÖğreticinin bu bölümünde bazı temel özellikleri öğreneceksin ve bu sırada oyun durdurulmuş halde kalacak. Fakat birazdan kontrolü tekrar sana bırakacağımız için bir gözün hız kontrollerinde olsun."
+ lesson_basics_pausing_desc:1 "19. yüzyıl maceran şimdi başlıyor ancak oyunu öğrenme sürecin burada bitmiyor!\n\nBu dersi bitirdikten sonra #v oyunu devam ettirmeye#!, istediğin yere tıklamaya ve dünyayı keşfetmeye hazır olacaksın. Oyun içinde bir gün geçtikten sonra ilk öğrenme mücadelen başlayacak.\n\nVictoria 3, 1836 ile 1936 arasındaki 100 yıllık zaman diliminde geçer fakat oyunun temposunu kendine göre ayarlayabilirsin. Şu anda oyun durdurulduğu için zaman ilerlemiyor. Durdurduktan sonra da oyunla etkileşime geçmeye devam edebilirsin fakat birçok eylemin sonucu zamanla ortaya çıkar ve etkilerini görmek için zamanın akması gerekir.\n\nGösterilen hız kontrollerini kullanarak oyun hızını 1 ila 5 arasında değiştirebilirsin.\n\nOyunu durdurup devam ettirmek için simgelere tıklayabilir ya da klavyendeki #v Space#! tuşuna basabilirsin. Hızı #v +#! ve #v -#! tuşlarıyla ayarlayabilirsin."
+ lesson_basics_pausing_continue:0 "Oyunu devam ettir"
+ 
+ lesson_basics_nested_tooltips:1 "İç İçe Geçmiş Bilgi Kutuları ($lesson_basics$)"
+ lesson_basics_nested_tooltips_desc:2 "Oyunda zaman zaman $tooltip_hinter$, renkli $tooltip_hinter_name$ ya da $tooltip_hinter_concept$ göreceksin. Fare imlecini bu tür metinlerin üzerine getirerek açılacak yeni #b bilgi kutusu#! penceresinden ayrıntılı bilgi alabilirsin.\n\nİmlecini bir süre sabit tutarsan bilgi kutusu kilitlenir ve çerçevesi belirgin hale gelir. İmlecini bu bilgi kutusunun üzerinde gezdirerek yeni $tooltip_hinter$, $tooltip_hinter_names$ ve $tooltip_hinter_concepts$ bulabilirsin."
+ lesson_basics_nested_tooltips_hover_word:1 "Place your cursor over #todo #tooltippable underlined text#!#!"
+ lesson_basics_nested_tooltips_complete:1 "$lesson_basics_nested_tooltips$"
+ lesson_basics_nested_tooltips_complete_desc:1 "$lesson_basics_nested_tooltips_desc$"
+ lesson_basics_nested_tooltips_continue:0 "Fare imlecini bir bilgi kutusunun içinde yer alan başka bir bilgi kutusunun üzerine getir"
+ 
+ lesson_basics_capacities:0 "Kapasiteler ($lesson_basics$)"
+ lesson_basics_capacities_short:0 "Üç farklı Kapasite çeşidi, ülkenin farklı yönlerden sahip olduğu gücü gösterir.\n\n@bur! [concept_bureaucracy], devletinin bürokratik etkisini gösterir.\n\n@aut! [concept_authority] ise [Concept('concept_head_of_state', 'Devlet Başkanının')] hükmetme becerisini simgeler.\n\n@inf! [concept_influence] da dünya meselelerine ne kadar ağırlık koyabileceğini belirler."
+ lesson_basics_capacities_show_more:0 "Kapasiteler sırasıyla bazı [Concept('concept_government_building', 'Devlet Binalarından')], belli başlı [Concept('concept_law', 'Kanunlardan')] ve senin [Concept('concept_rank', 'Derecenden')] meydana gelirler. Kendi çıkarlarına göre bunların dağılımını yapmak sana kalmıştır.\n\nKullanılmayan Kapasite, ülkenin bir özelliğini bir miktar güçlendirirken aşırı kullanılan Kapasite, büyük bir zarara yol açar." # [LocEditor:AwaitingBatchUpdate]
+ lesson_basics_capacities_desc:0 "Üç farklı Kapasite çeşidi, ülkenin farklı yönlerden sahip olduğu gücü gösterir.\n\n@bur! [concept_bureaucracy], devletinin bürokratik etkisini gösterir.\n\n@aut! [concept_authority] ise [Concept('concept_head_of_state', 'Devlet Başkanının')] hükmetme becerisini simgeler.\n\n@inf! [concept_influence] da dünya meselelerine ne kadar ağırlık koyabileceğini belirler.\n\nKapasiteler sırasıyla bazı [Concept('concept_government_building', 'Devlet Binalarından')], belli başlı [Concept('concept_law', 'Kanunlardan')] ve senin [Concept('concept_rank', 'Derecenden')] meydana gelirler. Kendi çıkarlarına göre bunların dağılımını yapmak sana kalmıştır.\n\nKullanılmayan Kapasite, ülkenin bir özelliğini bir miktar güçlendirirken aşırı kullanılan Kapasite, büyük bir zarara yol açar." # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `lesson_basics_capacities_desc_1`
+ # [LocEditor:UntranslatedKey] `lesson_basics_capacities_desc_B`
+ # [LocEditor:UntranslatedKey] `lesson_basics_capacities_desc_A`
+ # [LocEditor:UntranslatedKey] `lesson_basics_capacities_desc_I`
+ # [LocEditor:UntranslatedKey] `lesson_basics_capacities_desc_R`
+ 
+ lesson_basics_treasury:0 "Hazine ($lesson_basics$)"
+ lesson_basics_treasury_short:0 "[Concept('concept_treasury', 'Hazinede')] bulunan [concept_money], devlet aygıtını fonlamak, sanayi ve altyapıyı genişletmek, askeri giderleri karşılamak ve hatta küçük ülkeler üzerinde nüfuz elde etmek için kullanılabilir."
+ lesson_basics_treasury_show_more:0 "Ülkendeki paranın çok büyük bir kısmı senin kontrolünün dışındadır ve [Concept('concept_building', '$concept_buildings$')] ile [Concept('concept_pop', '$concept_pops$')] tarafından kullanılır. Ekonomini büyütüp vergilendirmeye tabi tutarak hazine gelirlerini arttırabilirsin. [Concept('concept_government_building', 'Devlet Binalarının')] çalışma masraflarını kısarak giderlerini azaltabilirsin.\n\nÜst çubukta yer alan bilanço, haftalık değişimi gösterir. Kapasitelerin aksine, [concept_money] daha sonra harcanmak için biriktirilebilir. Ancak negatif haftalık bilançoyla borçlanmak, yatırımlar açısından daha iyi sonuçlar doğurabilir. Haftalık bilanço pozitifken borçlar otomatik olarak ödenir." # [LocEditor:AwaitingBatchUpdate]
+ lesson_basics_treasury_desc:0 "[Concept('concept_treasury', 'Hazinede')] bulunan [concept_money], devlet aygıtını fonlamak, sanayi ve altyapıyı geliştirmek, askeri giderleri karşılamak ve hatta küçük ülkeler üzerinde nüfuz elde etmek için kullanılabilir.\n\nÜlkendeki paranın çok büyük bir kısmı senin kontrolünün dışındadır ve [Concept('concept_building', '$concept_buildings$')] ile [Concept('concept_pop', '$concept_pops$')] tarafından kullanılır. Ekonomini büyütüp vergilendirmeye tabi tutarak $concept_treasury$ gelirlerini arttırabilirsin. [Concept('concept_government_building', 'Devlet Binalarının')] çalışma masraflarını kısarak giderlerini azaltabilirsin.\n\nÜst çubukta yer alan bilanço, haftalık değişimi gösterir. Kapasitelerin aksine, [concept_money] daha sonra harcanmak için biriktirilebilir. Ancak negatif haftalık bilançoyla borçlanmak, yatırımlar açısından daha iyi sonuçlar doğurabilir. Haftalık bilanço pozitifken borçlar otomatik olarak ödenir." # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `lesson_basics_treasury_part_1_desc`
+ # [LocEditor:UntranslatedKey] `lesson_basics_treasury_part_2_desc`
+ # [LocEditor:UntranslatedKey] `lesson_basics_treasury_part_3_desc`
+ # [LocEditor:UntranslatedKey] `lesson_basics_treasury_part_4_desc`
+ # [LocEditor:UntranslatedKey] `lesson_basics_treasury_part_5_desc`
+ # [LocEditor:UntranslatedKey] `lesson_basics_treasury_Expand_industry`
+ # [LocEditor:UntranslatedKey] `lesson_basics_treasury_Fund`
+ # [LocEditor:UntranslatedKey] `lesson_basics_treasury_Pay`
+ # [LocEditor:UntranslatedKey] `lesson_basics_treasury_Influence`
+ # [LocEditor:UntranslatedKey] `lesson_basics_treasury_Taxes`
+
+ lesson_basics_info_panels:0 "Bilgi Panelleri ($lesson_basics$)"
+ lesson_basics_info_panels_desc:0 "Ekranın sol tarafında bulunan butonlar aracılığıyla [GetPlayer.GetName] hakkında çeşitli genel bakışlara ulaşabilirsin.\n\nBunların bazıları ülke yönetiminde kullanılırken bazıları bilgi verme amaçlıdır. Bilgi panellerinde istediğin gibi gezinebilirsin. Hazır olunca "Sonraki" butonuna bas."
+
+ lesson_basics_lenses:0 "Görünümler ($lesson_basics$)"
+ lesson_basics_lenses_short:0 "Ekranın alt tarafında beş farklı Görünüm yer alır. Bunlar, iyi kararlar almana yardımcı olacak bilgiler sunar ve ülkeni şekillendirirken başvurabileceğin eylemlere kolayca erişebilmeni sağlar."
+ lesson_basics_lenses_production:0 "#b Üretim#!, sanayiyi genişletmek için kullanılır. Ekonomik çıktılarla ilgili ayrıntılı bilgi sağlar."
+ lesson_basics_lenses_politics:0 "#b Siyaset#!, devleti ve halkı yönetmek için kullanılır. Ülkendeki güç dengelerine dair ayrıntılı bilgi sağlar."
+ lesson_basics_lenses_diplomacy:0 "#b Diplomasi#!, diğer ülkelerle anlaşma yapmak veya mevcut anlaşmaları feshetmek ve onlara karşı [Concept('concept_diplomatic_play', 'Diplomatik Hamlelere')] girişmek için kullanılır. Diğer ülkelerin sana olan bakış açılarına dair ayrıntılı bilgi sağlar."
+ lesson_basics_lenses_military:0 "#b Ordu#!, kara ordusunu ve donanmayı genişletmek için kullanılır. [concept_commander] Emirlerine ve diğer savaş meselelerine dair ayrıntılı bilgi sağlar."
+ lesson_basics_lenses_trade:0 "#b Ticaret#!, ticari [Concept('concept_infrastructure', 'Altyapıyı')] genişletmene olanak tanır. [Concept('concept_market', 'Pazarlar')] ve [Concept('concept_trade_route', 'Ticaret Yollarına')] dair ayrıntılı bilgi sağlar." # [LocEditor:AwaitingBatchUpdate]
+ lesson_basics_lenses_desc:0 "Ekranın alt tarafında beş farklı Görünüm yer alır. Bunlar, iyi kararlar almana yardımcı olacak bilgiler sunar ve ülkeni şekillendirirken başvurabileceğin eylemlere kolayca erişebilmeni sağlar.\n\n#b Üretim#!, sanayiyi genişletmek için kullanılır. Ekonomik çıktılarla ilgili ayrıntılı bilgi sağlar.\n\n#b Siyaset#!, devleti ve halkı yönetmek için kullanılır. Ülkendeki güç dengelerine dair ayrıntılı bilgi sağlar.\n\n#b Diplomasi#!, diğer ülkelerle anlaşma yapmak veya mevcut anlaşmaları feshetmek ve onlara karşı [Concept('concept_diplomatic_play', 'Diplomatik Hamlelere')] girişmek için kullanılır. Diğer ülkelerin sana olan bakış açılarına dair ayrıntılı bilgi sağlar.\n\n#b Ordu#!, kara ordusunu ve donanmayı genişletmek için kullanılır. [concept_commander] Emirlerine ve diğer savaş meselelerine dair ayrıntılı bilgi sağlar.\n\n#b Ticaret#!, ticari [Concept('concept_infrastructure', 'Altyapıyı')] genişletmene olanak tanır. [Concept('concept_market', 'Pazarlar')] ve [Concept('concept_trade_route', 'Ticaret Yollarına')] dair ayrıntılı bilgi sağlar." # [LocEditor:AwaitingBatchUpdate]
+ lesson_basics_lenses_continue:0 "Görünüm butonlarından herhangi birine tıklayarak görünüm arayüzünü aç"
+ 
+ lesson_basics_lenses_complete:0 "$lesson_basics_lenses$"
+ lesson_basics_lenses_complete_desc:0 "Haritadan uzaklaşarak değişen ayrıntılara göz at. Devam etmeye hazır olduğunda görünümü kapat ve "Sonraki" butonuna bas."
+ lesson_basics_lenses_complete_continue:0 "Görünüm butonuna tekrar tıklayarak görünüm arayüzünü kapat"
+
+ TRIGGER_LESSON_BASICS_LENSES_CONTINUE:0 "Herhangi bir görünümü aç"
+ TRIGGER_LESSON_BASICS_LENSES_COMPLETE_CONTINUE:0 "Görünümü kapat"
+
+ lesson_basics_intro_ending:0 "Giriş bölümünün sonu ($lesson_basics$)"
+ lesson_basics_intro_ending_desc:0 "19. yüzyıl maceran şimdi başlıyor ancak oyunu öğrenme sürecin burada bitmiyor!\n\nBu dersi bitirdikten sonra #v oyunu devam ettirmeye#!, istediğin yere tıklamaya ve dünyayı keşfetmeye hazır olacaksın. Oyun içinde bir gün geçtikten sonra ilk öğrenme mücadelen başlayacak."
+
+ #POPS
+ lesson_pops_intro:0 "Toplumlar"
+ lesson_pops_intro_desc:0 "Bir ülkede aynı [Concept('concept_profession', 'Mesleği')], [Concept('concept_building', 'İşyerini')], [Concept('concept_state', 'Vilayeti')], [Concept('concept_culture', 'Kültürü')] ve [Concept('concept_religion', 'Dini')] paylaşan, yani benzer ekonomik ve siyasi rollere sahip olan belli başlı demografik gruplara Toplum denir.\n\nBu derste öncelikle ülkendeki Toplumların #b Özetine#! göz atacağız, ardından belirli bir Toplumun #b Ayrıntılarına#! bakacağız.\n\nBaşlamak için gösterilen "Nüfus" simgesine tıkla."
+ lesson_pops_intro_continue:0 "Nüfus panelini aç"
+
+ lesson_pops_summary:0 "Toplum Özeti"
+ lesson_pops_summary_desc:0 "Ülkende yaşayan Toplum çeşitlerini ve bu Toplumların [Concept('concept_political_strength', 'Siyasi Güçlerini')] buradan görebilirsin. Fakat şu anda bize daha çok bilgi lazım olduğundan, gösterilen "Ayrıntılı Liste" kısmına tıkla ve ülkede yaşayan Toplumlara ayrı ayrı göz at."
+ lesson_pops_summary_continue:0 "Ayrıntılı Listeyi aç"
+ 
+ lesson_pops_country_details:0 "Ülkendeki Toplumlar"
+ lesson_pops_country_details_desc:0 "Bu [Concept('concept_profession', 'Meslek')] listesi şunları gösterir:\n$TAB$Bireylerin toplam #v sayısı#!,\n$TAB$toplam [Concept('concept_political_strength', 'Siyasi Güç')],\n$TAB$aralarında baskın olan [Concept('concept_interest_group', '$concept_interest_groups$')],\n$TAB$ortalama [concept_sol].\n\nVilayetlere Genel Bakış panelinden herhangi bir vilayet için benzer bilgilere ulaşabilirsin. Vilayetlerinden birine tıkla ve Genel Bakış sekmesine git."
+ lesson_pops_country_details_continue:0 "Vilayetlerinden birine tıkla ve Genel Bakış sekmesini aç"
+ 
+ lesson_pops_state_population:0 "Vilayet Toplumları"
+ lesson_pops_state_population_desc:0 "Bazı temel nüfus istatistiklerine Vilayetlere Genel Bakış panelinin alt kısmından ulaşılabilir. Gösterilen butona basarak bu vilayetin nüfus ayrıntılarına ulaş."
+ lesson_pops_state_population_continue:0 "Nüfus butonuna tıkla"
+ 
+ lesson_pops_state_population_details:0 "Vilayet Toplum Ayrıntıları"
+ lesson_pops_state_population_details_desc:0 "Bu bakış, öncekine benzerdir fakat burada ülkendeki herkesi değil, yalnızca baktığın vilayetin Toplum bilgilerini görebilirsin. Oyun boyunca ülkendeki farklı Toplumlara dair bir araya getirilmiş ve kategorize edilmiş bilgiler alabilirsin.\n\nBu kategorilerden birine tıklayarak bu meslekle bağlantılı tüm Toplumların bir listesini gör. Bunlara ayrı ayrı tıklayarak belli başlı demografik gruplara dair ayrıntılı bilgi alabilirsin."
+ lesson_pops_state_population_details_continue:0 "Bir kategoriyi genişlet ve ayrı bir Topluma tıkla"
+ 
+ lesson_pops_stats_1:0 "Toplum Mülkleri"
+ lesson_pops_stats_1_desc:0 "Burada bir Toplumu tüm ihtişamıyla görebilirsin. Toplumlarla doğrudan etkileşime geçmesen de eylemlerin, ülkendeki Toplumların mülklerine etki eder. Nüfusunun becerileri, koşulları, hareket kabiliyeti ve istekleri değiştikçe ülken de değişir.\n\nŞimdi bir Toplumun mülklerine bakacağız. Ülkeni yönetirken neredeyse sürekli toplam ve ortalama değerler karşına çıkacak. Fakat bazen bir değerin #b kaynağını#! anlayabilmek için bireyler düzeyine inmen gerekecek. Her bir değer için her zaman açıklayıcı bir bilgi kutusu da olacak."
+
+ lesson_pops_stats_2:0 "Meslek"
+ lesson_pops_stats_2_desc:0 "Bir Toplumun [Concept('concept_profession', 'Mesleği')], o Toplumdaki fertlerin geçimlerini sağlamak için ne iş yaptığını gösterir. Bu da o Toplumdaki fertlerin [Concept('concept_building_wage', 'Ücretlerine')] ve destekleyebilecekleri [Concept('concept_interest_group', 'Çıkar Gruplarına')] etki eder. Meslekler, [Concept('concept_lower_strata', 'Alt Tabakanın')], [Concept('concept_middle_strata', 'Orta Tabakanın')] veya [Concept('concept_upper_strata', 'Üst Tabakanın')] bir parçası olur ve [Concept('concept_taxation', 'Vergi Oranları')] bundan etkilenebilir.\n\nBir Toplumun bütün fertleri tek seferde Meslek değiştirmez. Aynı [Concept('concept_state', 'Vilayette')] bulunan bir [Concept('concept_building', 'Binada')] yeni iş ilanları açıldığında, yeni iş için [Concept('concept_pop_qualifications', 'Nitelikli')] olanlara iş teklifleri yapılır. Yeni iş fırsatı, mevcut işinden daha iyi olan [Concept('concept_workforce', 'İşgücündeki')] bazı fertler, [Concept('concept_dependents', 'Muhtaçlarını')] alır ve kendilerine uygun Mesleğin Toplumuna katılır ya da yeni bir Toplum oluşturur.\n\nTüm bunlar olurken sen herhangi bir müdahalede bulunamazsın; zaten yeni iş pozisyonları makul bir süre içerisinde dolduğu sürece bu süreçten haberin bile olmayabilir. Ülkende sunulan Meslek fırsatlarıyla farklı demografik kesimler arasında nasıl geçişler olduğunu zamanla fark edeceksin."
+ 
+ lesson_pops_stats_3:0 "Hayat Standardı"
+ lesson_pops_stats_3_desc:0 "Bir Toplumun [Concept('concept_sol', 'Hayat Standardı')], hem sahip oldukları [Concept('concept_wealth', 'Varlıklara')] hem de yaşadıkları yerin koşullarına bağlıdır. Hayat Standardı, Toplumdaki fertlerin genel memnuniyet düzeylerini belirler ve [Concept('concept_pop_growth', 'Büyümelerine')] etki eder.\n\nHayat Standardı yükseldikçe, Toplumdaki bazı fertler [Concept('concept_loyalist', 'Sadık')] hale gelirler. Hayat Standardı düşen Toplumlar ise daha [concept_radical] hale gelir. Bir Toplumun Hayat Standardı, ülkedeki asgari düzeyin altında kaldıkça o Toplum daha da [Concept('concept_radical', 'Radikalleşir')]." # [LocEditor:AwaitingBatchUpdate]
+ 
+ lesson_pops_stats_4:0 "Nüfus ve Gelir"
+ lesson_pops_stats_4_desc:0 "Bir Toplum, [Concept('concept_workforce', 'İşgücünden')] ve [Concept('concept_dependents', 'Muhtaçlardan')] meydana gelir. İşgücü, [concept_building_wage] karşılığında ülkedeki [Concept('concept_building', 'Binalarda')] çalışır. Muhtaçlar ise yaş ya da sakatlık durumundan veya evi çekip çevirme, çocuklar ve yaşlılarla ilgilenme zorunluluğundan dolayı gündelik basit işler haricinde çalışamayan kişilerdir. İşgücü ve Muhtaçlar genellikle Toplumların toplam gelirine katkıda bulunurlar fakat burada aslan payı çalışan ücretlerine aittir.\n\nHem İşgücünün hem de Muhtaçların karşılanması gereken [Concept('concept_pop_needs', 'İhtiyaçları')] vardır ve bu ihtiyaçları karşılamak için gelirlerini [Concept('concept_good', 'Mallara')] harcarlar. Para artarsa Toplumun sahip olduğu [Concept('concept_wealth', 'Varlıklar')] zamanla artar. Gelirler, giderleri karşılamaya yetmezse Varlık azalmaya başlar."
+ 
+ lesson_pops_stats_5:0 "Çalıştırılmaya Uygunluk"
+ lesson_pops_stats_5_desc:0 "Bu bölümde Toplumun fertlerinin yaşayıp çalıştıkları [concept_state] ve [concept_literacy] oranları ile [concept_discrimination] durumlarını belirleyen [Concept('concept_culture', 'Kültürleri')] ve [Concept('concept_religion', 'Dinleri')] listelenir.\n\nBu özellikler, fertlerin çalıştırılmaya uygunluğunu belirlemede özellikle önemlidir. Fertler, yalnızca yaşadıkları [Concept('concept_state', 'Vilayette')] bulunan işlere girebilirler. [Concept('concept_discrimination', 'Ayrımcılık Gören')] fertler, daha iyi [Concept('concept_profession', 'Meslekler')] için [Concept('concept_pop_qualifications', 'Nitelikli')] olma konusunda zorlanırlar. Ayrıca modern dünyanın getirdiği daha teknik ve akademik işleri yapabilmek için yüksek [concept_literacy] oranına sahip olunması kritik önemdedir."
+ 
+ lesson_pops_stats_6:0 "Siyaset"
+ lesson_pops_stats_6_desc:0 "Bu bölümde Toplumun desteklediği [Concept('concept_interest_group', 'Çıkar Grupları')], bu desteğin ne kadar [Concept('concept_political_strength', 'Siyasi Güce')] sahip olabileceği ve Toplumdaki [Concept('concept_radical', 'Radikaller')] ile [Concept('concept_loyalist', 'Sadıkların')] sayısı listelenir.\n\nÇıkar Grupları, [Concept('concept_ideology', 'İdeolojilerine')] bağlı olarak farklı [Concept('concept_law', 'Kanunları')] destekler ve Toplumlardan aldıkları Siyasi Gücü kullanarak çeşitli politikalar güderler. Sadıklar ve Radikaller, Toplumlarının desteklediği Çıkar Gruplarının [concept_ig_approval] oranını etkilerler. Radikaller ayrıca Toplumlarının [Concept('concept_state', 'Vilayetinde')] [concept_turmoil] da çıkarırlar." # [LocEditor:AwaitingBatchUpdate]
+ 
+ lesson_pops_conclusion:0 "Toplumlar - Sonuç"
+ lesson_pops_conclusion_desc:0 "Toplumlar, ülkenin yapıtaşıdır ve başarılı bir ülke kurmanın yolu farklı Toplumları başarıyla yönetmekten geçer. Yeni iş olanakları sunarak ve uygun politikaları hayata geçirerek Toplumlarını daha varlıklı, mutlu ve okuryazar hale getirmek hem büyük faydalar sağlar hem de yeni zorluklar doğurur. Yaptığın değişiklikler, ülkendeki Toplumları etkiler ve bu durum, Toplumların ileride yapacağın değişikliklere olan yaklaşımını da belirler."
+ 
+ #ECONOMY
+ lesson_expand_building_how_1:0 "[Concept('concept_building', 'Binalar')] Nasıl Genişletilir?"
+ lesson_expand_building_how_1_desc:0 "Tüm [Concept('concept_building', 'Binalar')] [Concept('concept_state', 'Vilayetlere')] inşa edilir. Haritaya tıklayınca belirli bir [Concept('concept_state', 'Vilayette')] bulunan [Concept('concept_building', 'Binaları')] görebilirsin.\n\nŞimdi haritada [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] [Concept('concept_state', 'Vilayetini')] bul. İmleci adının üzerine getirirsen [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetCountry.GetName] konumunda bir yeri gösterecektir." # [LocEditor:AwaitingBatchUpdate]
+ lesson_expand_building_how_1_continue:0 "Haritada [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] [Concept('concept_state', 'Vilayetine')] tıkla, ardından [Concept('concept_building', 'Binalar')] sekmesine git"
+
+ lesson_expand_building_how_2:0 "$lesson_expand_building_how_1$"
+ lesson_expand_building_how_2_desc:0 "Binalara Genel Bakış paneli üzerinden [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] [Concept('concept_state', 'Vilayetinde')] bulunan [Concept('concept_building', 'Binalara')] dair genel bilgiler edinebilirsin. Binalar burada dört kategoriye ayrılır: #b Kent#!, #b Kaynak#!, #b Tarım#! ve #b Kalkınma#!."
+ lesson_expand_building_how_2_continue:0 "[concept_state] panelinde [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] binasına tıkla"
+ 
+ lesson_expand_building_how_3:0 "$lesson_expand_building_how_1$"
+ lesson_expand_building_how_3_desc:0 "Şimdi [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetinde yer alan [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] [Concept('concept_building', 'Binasına')] dair ayrıntılı bilgi görebilirsin. Gösterilen '+' butonuna tıklayarak panel üzerinden bu binanın genişletilmesini emredebilirsin.\n\n[GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] genişletmesi için görünümleri de kullanabilirsin.\n\n[GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] konumunda bulunan [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] binasını genişletmek için bu iki yöntemden birini kullan."
+
+ lesson_expand_building_why_1:0 "[Concept('concept_building', 'Binalar')] Neden Genişletilir?"
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_1K_desc`
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_1K_expand`
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_1K_enrich`
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_1K_taxes`
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_1K_original_desc`
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_1K_p2_desc`
+ lesson_expand_building_why_1_continue:0 "Haritada [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] [Concept('concept_state', 'Vilayetine')] tıkla, ardından [Concept('concept_building', 'Binalar')] sekmesine git"
+
+ lesson_expand_building_why_2:0 "$lesson_expand_building_why_1$"
+ lesson_expand_building_why_2_desc:0 "[Concept('concept_building', 'Binalara')] Genel Bakış paneli üzerinden [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] [Concept('concept_state', 'Vilayetinde')] bulunan [Concept('concept_building', 'Binalara')] dair genel bilgiler edinebilirsin. Binalar burada dört kategoriye ayrılır: #b Kent#!, #b Kaynak#!, #b Tarım#! ve #b Kalkınma#!."
+ lesson_expand_building_2_icon_text:0 "[GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] [concept_state] panelinde [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] binasını bul."
+ lesson_expand_building_why_2_continue:0 "[concept_state] panelinde [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] binasına tıkla"
+ 
+ lesson_expand_building_why_3:0 "$lesson_expand_building_why_1$"
+ lesson_expand_building_why_3_desc:0 "[Concept('concept_building', 'Binanın')] İşlemler başlığı altında #v Giderleri#! ve #v Gelirleri#! göreceksin. Gelirler, Giderlerden fazlaysa bu [concept_building] kâr eder. Kâr miktarı #v Haftalık Bilanço#! olarak gösterilir. #v Haftalık Bilanço#! pozitifse elde edilen kârın nereye harcandığını bilgi kutusundan görebilirsin.\n\n#v Haftalık Bilançonun#! negatif olması genellikle işlerin yolunda olmadığını gösterir fakat bunu başka bir öğretici mücadelede göreceksin."
+
+ lesson_expand_building_why_4:0 "$lesson_expand_building_why_1$"
+ lesson_expand_building_why_4_desc:0 "Burada, bu $concept_building$nın Giderlerine etki eden faktörleri görebilirsin. $concept_building$nın çalışanlarına, yani [Concept('concept_pop', 'Toplumlara')] ödenen ücretler Giderlere her zaman dahil edilir. Ayrıca [Concept('concept_good', 'Mal')] ve [Concept('concept_infrastructure_usage', 'Altyapı')] kullanımı gibi diğer Giderler ve değişkenler de buna dahil edilebilir."
+
+ lesson_expand_building_why_5:0 "$lesson_expand_building_why_1$"
+ lesson_expand_building_why_5_desc:0 "Burada, bu $concept_building$nın Gelirlerine etki eden faktörleri görebilirsin.\n\n[GetTutorialJournalEntry.GetTarget.GetBuilding.GetName], ana [concept_good] olarak [GetTutorialJournalEntry.GetBuildingTarget.GetDefaultOutputGoods.GetTextIcon] [GetTutorialJournalEntry.GetBuildingTarget.GetDefaultOutputGoods.GetName] üretir. Bazı [Concept('concept_building', 'Binalar')] farklı [Concept('concept_good', 'Mallar')] üretebilir. Üretilen $concept_goods$ belli bir fiyattan satılır (bu fiyatlar değişebilir)."
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_5k1_desc`
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_5k2_desc`
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_5k3_desc`
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_5k_desc_Grain`
+
+ lesson_expand_building_why_6:0 "$lesson_expand_building_why_1$"
+ lesson_expand_building_why_6_desc:0 "Ancak [Concept('concept_building', 'Binalar')] üzerinden doğrudan gelir elde edemezsin. Binalar, [Concept('concept_pop', 'Toplumlarına')] iş ve ücret sağlar. #v İşgücü#! sekmesine giderek burada kimlerin çalıştığını görebilirsin."
+ lesson_expand_building_why_6_continue:0 "[GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] panelindeki İşgücü sekmesine tıkla"
+ 
+ lesson_expand_building_why_7:0 "$lesson_expand_building_why_1$"
+ lesson_expand_building_why_7_desc:0 "Çalışan [Concept('concept_pop', 'Toplumlardan')] vergi toplamak, gelir elde etmenin bir yoludur. Ne kadar vergi toplayacağına sen karar verirsin. Vergi miktarını Bütçe panelinden değiştirebilirsin."
+
+ lesson_expand_building_why_8:0 "$lesson_expand_building_why_1$"
+ lesson_expand_building_why_8_desc:0 "[GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] gibi bir [Concept('concept_building', 'Binayı')] genişletirsen, orada çalışabilecek [Concept('concept_pop', 'Toplum')] sayısını yükseltebilir ve [GetTutorialJournalEntry.GetBuildingTarget.GetDefaultOutputGoods.GetTextIcon] [GetTutorialJournalEntry.GetBuildingTarget.GetDefaultOutputGoods.GetName] erişimini daha ucuz hale getirerek [Concept('concept_country_possessive', 'Ülkendeki')] diğer insanları da zenginleştirebilirsin."
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_8k_desc`
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_8k_desc_Building`
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_8k_desc_Workforce`
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_8k_desc_Grain`
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_8k_desc_Country_Pops`
+
+ lesson_expand_building_why_9:0 "$lesson_expand_building_why_1$"
+ lesson_expand_building_why_9_desc:0 "[Concept('concept_building', 'Binaları')] genişletmeye başlamadan önce bunun bir #v ücretinin#! olduğunu ve tüm [Concept('concept_building', 'Binaların')] genişletilemeyeceğini aklında bulundur. Bunu ilerideki Öğreticilerde göreceksin. Şimdilik fazla risk almamanı ve [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] gibi Tarım [Concept('concept_building', 'Binalarını')] genişletmeni öneririz."
+
+ lesson_expand_basic_building_started_1:0 "[concept_building] Genişletiliyor"
+ lesson_expand_basic_building_started_1_desc:0 "[GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetinde bulunan [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] binasının genişletilmesi emrini verdin!\n\n[Concept('concept_building', 'Binaların')] genişletilmesi biraz zaman alan bir süreçtir. [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName], [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetinin [Concept('concept_construction_queue', 'İnşa Sırasına')] eklendi ve [Concept('concept_state_possessive', 'Vilayetin')] [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetBuilding('building_construction_camp').GetName] kısmında bulunan [concept_workforce] tarafından zaman içinde inşa edilecek.\n\nBu işlemin tamamlanmasını beklerken oyunu oynamaya devam et! Yeni [Concept('concept_journal_entry', 'Günlük Girdileri')] sana Victoria 3'ün farklı mekaniklerini öğretmeye devam edecek." # [LocEditor:AwaitingBatchUpdate]
+ 
+ lesson_expand_basic_building_complete_1:0 "[concept_building] Genişletildi"
+ lesson_expand_basic_building_complete_1_desc:0 "Bir süre önce emrettiğin üzere, [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetinde bulunan [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] binasının genişletilme işlemi tamamlandı! [concept_building] artık daha büyük bir [Concept('concept_workforce', 'İşgücünü')] destekleyebilir ve daha fazla [Concept('concept_good', 'Mal')] üretebilir. Artık haftalık genişletme bedelini ödemen de gerekmeyecek.\n\n$concept_state$in [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetBuilding('building_construction_camp').GetName] kısmı tarafından kullanılan [Concept('concept_production_method', 'Üretim Yöntemini')] değiştirerek [Concept('concept_building', 'Binaların')] genişletilme hızını arttırabilir ya da azaltabilirsin. Hız arttıkça daha çok [Concept('concept_pop', 'Topluma')] ödeme yapılması gerekir ve kullanılan inşaat malzemeleri daha pahalı hale gelir." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_expand_productive_building_how_1:0 "[Concept('concept_productivity', 'Üretken')] [Concept('concept_building', 'Binalar')] Nasıl Genişletilir?"
+ lesson_expand_productive_building_how_1_desc:0 "[concept_state] panelinden seçtikten sonra + butonuna basarak ya da #v Üretim#! görünümünü kullanarak [Concept('concept_building', 'Binaları')] genişletebileceğini öğrendin. İstersen bu [Concept('concept_journal_entry', 'Günlük Girdisini')] de aynı şekilde tamamlayabilirsin.\n\nFakat şimdilik $concept_buildings$a Genel Bakış paneline giderek belirli bir [Concept('concept_productivity', 'Üretken')] $concept_building$yı bulup genişletmen daha iyi olacaktır."
+ lesson_expand_productive_building_how_1_continue:0 "$concept_buildings$ panelini aç"
+
+ lesson_expand_productive_building_how_2:0 "$lesson_expand_building_how_1$"
+ lesson_expand_productive_building_how_2_desc:0 "[GetPlayer.GetName] ülkesinin tüm [Concept('concept_building', 'Binaları')] burada kullanışlı bir liste halinde görünür. $concept_buildings$a doğrudan bu liste üzerinden ulaşabilir ve Genişletme, [Concept('concept_subsidies', 'Sübvanse Etme')] ve [Concept('concept_production_method', 'Üretim Yöntemlerini')] değiştirme gibi işlemleri yapabilirsin. Daha da önemlisi, bu panel aracılığıyla ülkenin belli türdeki tüm $concept_buildings$ı için bu işlemleri tek seferde gerçekleştirebilirsin.\n\nİnşa etmek istediğimiz [GetTutorialJournalEntry.GetTarget.GetBuilding.GetBuildingType.GetName], #v [GetTutorialJournalEntry.GetTarget.GetBuilding.GetBuildingType.GetTabName]#! sekmesinde yer alıyor. #v [GetTutorialJournalEntry.GetTarget.GetBuilding.GetBuildingType.GetName]#! açılır menüsünden $concept_building$yı bul." # [LocEditor:AwaitingBatchUpdate]
+ lesson_expand_productive_building_how_2_continue:0 "[GetTutorialJournalEntry.GetTarget.GetBuilding.GetBuildingType.GetTabName] sekmesinde yer alan [GetTutorialJournalEntry.GetTarget.GetBuilding.GetBuildingType.GetName] açılır menüsünü açarak [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetindeki [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] binasını bul."
+ 
+ lesson_expand_productive_building_how_3:0 "$lesson_expand_building_how_1$"
+ lesson_expand_productive_building_how_3_desc:0 "Bir [Concept('concept_building', 'Binanın')] en önemli özelliklerinden biri, diğer Binalara oranla sahip olduğu [Concept('concept_productivity', 'Üretkenliktir')]. Genişletme için [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetini seçmemizin sebebi, burada sahip olunan yüksek $concept_productivity$ oranı. $concept_productivity$, $concept_building$ların değerini ölçmede kâr oranından daha faydalıdır çünkü binadan binaya çok büyük değişkenlik gösterebilen [Concept('concept_building_wage', 'Ücret')], [Concept('concept_taxes', 'Vergi')], [Concept('concept_subsidies', 'Sübvansiyon')] ve [Concept('concept_budget_dividends_taxes', 'Temettü Vergisi')] gibi özellikleri değerlendirmeden binaların ekonomiye yaptığı katkıyı hesaplar."
+
+ lesson_expand_productive_building_how_4:0 "$lesson_expand_building_how_1$"
+ lesson_expand_productive_building_how_4_desc:0 "Şimdi bu binayı genişletmeye başlayabiliriz. Daha önce yaptığın gibi + butonuna tıkla ya da *sağ tıklayarak* uygun seçeneği seç."
+ lesson_expand_productive_building_how_4_continue:0 "[GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] binasını genişletmeye başla"
+
+ lesson_expand_productive_building_how_5:0 "$lesson_expand_building_how_1$"
+ lesson_expand_productive_building_how_5_desc:0 "Harika! Genişletme işleminin tamamlanmasını beklerken oyunu keşfetmeye devam et. [Concept('concept_journal_entry', 'Günlük Girdisindeki')] #v Neden?#! butonuna tıklayarak [Concept('concept_productivity', 'Üretken')] [Concept('concept_building', 'Binaları')] #v neden#! genişletmen gerektiğini öğrenebilirsin."
+
+ lesson_expand_productive_building_why_1:0 "[Concept('concept_productivity', 'Üretken')] [Concept('concept_building', 'Binalar')] Neden Genişletilir?"
+ lesson_expand_productive_building_why_1_desc:0 "Genişletme çalışmalarını yüksek oranda [Concept('concept_productivity', 'Üretken')] [Concept('concept_building', 'Binalara')] odaklarsan [Concept('concept_workforce', 'İşgücünün')] ekonomiye kattığı değeri en üst seviyeye çıkarmış olursun. #v Aletler#! gibi hammadde ürünlerine az [concept_money] harcayıp #v Tahıl#! gibi düşük değerli [Concept('concept_good', 'Mallar')] üreterek bu işten düşük [Concept('concept_building_wage', 'Ücret')] kazanan [Concept('concept_pop', 'Toplumların')] karnını doyurabilirsin. Fakat talep olduğu sürece bu işgücünü #v Şarap#! ve #v Kesici#! gibi yüksek değerli $concept_goods$ın üretimine yönlendirebilirsen bu $concept_pops$, $concept_building_wages$i aynı kalsa bile birilerine daha çok $concept_money$ kazandırır."
+ lesson_expand_productive_building_why_1_continue:0 "[GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetindeki [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] binası için Bina Ayrıntıları panelini aç"
+
+ lesson_expand_productive_building_why_2:0 "$lesson_expand_building_why_1$"
+ lesson_expand_productive_building_why_2_desc:0 "Dişli simgesiyle gösterildiği gibi, bu [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] binasının [Concept('concept_productivity', 'Üretkenliği')] epey yüksek. Ayrıntılı bilgi için imleci üzerine getir."
+
+ lesson_expand_productive_building_why_3:0 "$lesson_expand_building_why_1$"
+ lesson_expand_productive_building_why_3_desc:0 "[concept_productivity], üretilen $concept_goods$dan elde edilen gelir ile hammadde [Concept('concept_good', 'Mallarının')] gideri arasındaki farkın [Concept('concept_building', 'Binadaki')] toplam [Concept('concept_workforce', 'İşgücüne')] bölünmesiyle hesaplanır. Bunu "her bir çalışanın yıllık bazda $concept_building$ ekonomisine yaptığı katkı" olarak da düşünebilirsin."
+
+ lesson_expand_productive_building_why_4:0 "$lesson_expand_building_why_1$"
+ lesson_expand_productive_building_why_4_desc:0 "[concept_productivity] değeri, Ortalama [Concept('concept_building_wage', 'Ücretlerden')] çok daha yüksek olsa bile aradaki fark boşa gitmez; [Concept('concept_ownership_share', 'Mülkiyet Paylarıyla')] [Concept('concept_pop', 'Toplumlara')] ödenen [Concept('concept_budget_dividends_taxes', 'Temettü Vergileri')] ve $concept_building$nın [Concept('concept_cash_reserves', 'Nakit Rezervi')] arasında bölüştürülür. Öte yandan $concept_productivity$, $concept_building$nın zorunlu $concept_building_wages$i ödemesi için yetersiz kalıyorsa aradaki fark kısa vadede $concept_cash_reserves$nden karşılanır, uzun vadedeyse $concept_building_wages$ düşürülür, hatta [concept_throughput] de bundan payını alabilir." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_expand_productive_building_why_5:0 "$lesson_expand_building_why_1$"
+ lesson_expand_productive_building_why_5_desc:0 "Ekonomini yalnızca [Concept('concept_productivity', 'Üretken')] [Concept('concept_building', 'Binaları')] genişleterek büyütme fikri her zaman akıllıca bir plan olmayabilir. Aşırı doygunluğa ulaşan [Concept('concept_market', 'Pazarlarda')], üretilen [Concept('concept_good', 'Malların')] [Concept('concept_market_price', 'Pazar Fiyatı')] düşer ve mal talebinde ciddi sıkıntılar doğar, bu da zamanla üretkenliği düşürür.\n\nDaha da önemlisi, ihraca yönelik #v Kesici#! üretimi, [Concept('concept_ownership_share', 'Mülkiyet Payına')] sahip olan #v Tersaneler#! [Concept('concept_pop', 'Toplumlarını')] epey [Concept('concept_wealth', 'Varlıklı')] hale getirse de bunun [Concept('concept_lower_strata', 'Alt Tabakanın')] durumuna hiçbir yardımı dokunmayabilir!" # [LocEditor:AwaitingBatchUpdate]
+
+ # [LocEditor:UntranslatedKey] `lesson_export_goods_how_1_continue`
+ # [LocEditor:UntranslatedKey] `lesson_export_goods_why_1_continue`
+ 
+
+ ###The Journal
+ lesson_journal_1:0 "Günlük"
+ lesson_journal_1_desc_short:0 "İlk öğretici mücadelene başladın! Sana okuma fırsatı sunmak için #v oyunu durdurduk#!. Devam etmeye hazır olduğunda hız kontrollerini ya da #v Space#! tuşunu kullanarak #v oyunu devam ettirmeyi#! unutma.\n\nBaşlamak için solda gösterilen butona basarak #v günlüğü aç#!."
+ lesson_journal_1_desc:0 "İlk öğretici mücadelene başladın! Tüm öğretici mücadeleler günlüğünde girdi şeklinde görünür. Bunları istediğin kadar yardım alarak, istediğin hızda tamamlayabilirsin.\n\nSana okuma fırsatı sunmak için #v oyunu durdurduk#! ve yeni şeyler öğretirken bunu yapmaya devam edeceğiz. Devam etmeye hazır olduğunda hız kontrollerini ya da #v Space#! tuşunu kullanarak #v oyunu devam ettirmeyi#! unutma.\n\nBaşlamak için solda gösterilen butona basarak #v günlüğü aç#!."
+ lesson_journal_1_continue:0 "Gösterilen butona basarak Günlük panelini aç"
+ 
+ lesson_journal_2:0 "$lesson_journal_1$"
+ lesson_journal_2_desc:0 "Bu senin günlüğün. Sana verilen tüm öğretici mücadeleleri burada bulabilirsin. Ülkende meydana gelen önemli olayları da zaman zaman buradan görebilirsin.\n\nŞimdi sana verilen öğretici mücadeleyi incele. Devam etmek için #v $je_tutorial_expand_basic_building$#! [Concept('concept_journal_entry', 'Günlük Girdisini')] aç."
+ lesson_journal_2_back:0 "Geri gitmek için günlük panelinin kapalı olması gerekir"
+ lesson_journal_2_continue:0 "İlerlemek için #v $je_tutorial_expand_basic_building$#! öğreticisini seç"
+ 
+ lesson_journal_3:0 "$lesson_journal_1$"
+ lesson_journal_3_desc_short:0 "[Concept('concept_state', 'Vilayetlerinden')] birinde bulunan basit bir Tarım [Concept('concept_building', 'Binasını')] genişletmekle görevlendirildin. Oynamaya devam ettikçe bu tür öğretici mücadeleler #v Günlüğüne#! eklenmeye devam eder.\n\nMücadeleyi herhangi bir yardım almadan, tek başına tamamlamayı deneyebilir ya da #v Nasıl?#! butonuna basarak nasıl tamamlayabileceğini öğrenebilirsin.\n\nİyi şanslar!" # [LocEditor:AwaitingBatchUpdate]
+ lesson_journal_3_desc:0 "[Concept('concept_state', 'Vilayetlerinden')] birinde bulunan basit bir Tarım [Concept('concept_building', 'Binasını')] genişletmekle görevlendirildin.\n\nHayallerindeki ülkeyi şekillendirme yolunda öğretici mücadeleleri tamamladıkça #b nasıl#! ve #b neden#! sorularının cevaplarını da bulacaksın. Bu görevleri yalnızca [Concept('concept_journal_entry', 'Günlük Girdisinde')] verilen bilgilerden yola çıkarak tamamlamayı deneyebilir ya da "Rehber" butonuna tıklayarak adım adım nasıl bir yol izlemen gerektiğini öğrenebilirsin.\n\nOyunda ilerledikçe karşına yeni öğretici mücadeleler çıkmaya devam edecek. Atılacak yeni adımları görmek için düzenli olarak Günlüğünü kontrol etmeyi unutma!" # [LocEditor:AwaitingBatchUpdate]
+ lesson_journal_3_back:0 "Geri gitmek için [concept_journal_entry] panelinin kapalı olması gerekir"
+ 
+
+ ###Budget Deficit
+ lesson_budget_balance_1:0 "Bütçe Dengesi"
+ lesson_budget_balance_1_desc:0 "Şu anda sabit giderlere harcadığın para, kazandığın paradan daha fazla. Bu durum, bütçe açığına yol açarak eğer varsa [Concept('concept_gold_reserves', 'Altın Rezervlerini')] tüketir ve [Concept('concept_national_debt', 'Ulusal Borcunu')] arttırır. Bu sorunu çözmeye başlamak için öncelikle Bütçe panelini aç."
+ lesson_budget_balance_1_continue:0 "Bütçe panelini aç"
+ 
+ lesson_budget_balance_2:0 "$lesson_budget_balance_1$"
+ lesson_budget_balance_2_desc:0 "Bu panelde tüm gelir kaynaklarını ve giderlerini görebilir, vergileri ve kamu çalışanı ücretlerini ayarlayabilirsin. Bütçe açığı sorununu çözmenin en kolay yolu genellikle [Concept('concept_pop', 'Toplumlardan')] aldığın vergileri arttırmak ya da yeni [Concept('concept_consumption_tax', 'Tüketim Vergileri')] getirmekten geçer. Fakat bunun sonucunda [Concept('concept_wealth', 'Varlıkların')] azalabileceğini ve [Concept('concept_turmoil', 'Kargaşa')] çıkabileceğini unutma. Kışlalar ve Deniz Üsleri gibi [Concept('concept_government_building', 'Devlet Binalarının')] seviyelerini düşürerek veya devletin ödediği ücretlerde kesinti uygulayarak giderlerini azaltmayı da deneyebilirsin.\n\nBunlar kadar sağlıklı bir yöntem olmasa da, [Concept('concept_building', 'Binalarının')] verimliliğini arttırmak, hatta kâr eden [Concept('concept_building', 'Binaları')] genişletmek adına diğer harcamaları kısmak suretiyle GSYİH'ni yükselterek de gelirini arttırabilirsin. Ancak bu hamle yeni oyunculara önerilmez." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_budget_balance_how_1:0 "Bütçe nasıl dengelenir?"
+ lesson_budget_balance_how_1_desc:0 "Bütçe açığını azaltmak ve borçlarını ödemek için ya gelirini arttırman, ya giderlerini azaltman, ya da ikisini birden yapman gerekir."
+ lesson_budget_balance_how_1_continue:0 "Bütçe panelini aç"
+
+ lesson_budget_balance_how_2:0 "$lesson_budget_balance_how_1$"
+ lesson_budget_balance_how_2_desc:0 "Gelirlerin, [Concept('concept_budget_minting', 'Basılan Para')] ve [Concept('concept_taxes', 'Toplanan Vergilerden')] oluşur. Büyüyen ekonomiye ayak uydurmak için otomatik olarak yeni paralar basılır fakat güçlü bir hükümet için [concept_taxes] şarttır.\n\nBuna şunlar dahil olabilir:\n - [concept_budget_income_taxes]\n - [concept_budget_poll_taxes]\n - [Concept('concept_consumption_tax', 'Tüketim Vergileri')]\n - [concept_budget_dividends_taxes]\nve daha fazlası.\n\nYenilerini çıkarmak ya da mevcut [Concept('concept_taxes', 'Vergileri')] arttırmak, gelirlerini de anında arttırır." # [LocEditor:AwaitingBatchUpdate]
+ lesson_budget_balance_how_2_continue:0 "Devam etmek için herhangi bir Verginin seviyesini yükselt ya da yeni bir [concept_consumption_tax] çıkar"
+
+ lesson_budget_balance_how_3:0 "$lesson_budget_balance_how_1$"
+ lesson_budget_balance_how_3_desc:0 "İnşaat giderleri, sabit giderlere dahil değildir çünkü inşaat tamamlandıktan sonra inşaat gideri de sonlanır. Ancak inşaat devam ederken [Concept('concept_treasury', 'Hazineye')] yük olmayı sürdürürler. İnşaatları şimdilik durdur; bu sorunu çözdükten sonra yeniden başlatabilirsin."
+ lesson_budget_balance_how_3_continue:0 "Tüm [Concept('concept_state', 'Vilayetlerde')] inşaat giderlerini sonlandırmak için tüm inşaatları durdur" # [LocEditor:AwaitingBatchUpdate]
+ 
+ lesson_budget_balance_how_4:0 "$lesson_budget_balance_how_1$"
+ lesson_budget_balance_how_4_desc:0 "Sabit giderler, [Concept('concept_government_administration', 'Devlet Yönetimleri')] ve [Concept('concept_barrack', 'Kışlalar')] gibi [Concept('concept_government_building', 'Devlet Binalarından')] kaynaklanır ve hem kullanılan [Concept('concept_good', 'Mallar')] hem de bu binaların ödediği [concept_budget_wages] bu giderlere dahildir. [Concept('concept_country', 'Ülkende')] ödenen $concept_budget_wages$i değiştirerek giderlerini kontrol altına alabilirsin.\n\nİstersen [Concept('concept_budget_government_wages', 'Kamu Çalışanı Ücretlerini')] veya [Concept('concept_budget_military_wages', 'Asker Ücretlerini')] şimdi azaltabilirsin. Ücret değişikliklerini her zaman geri alabilirsin. Bilgi kutusunda yazan sonuçları da göz önünde bulundurmayı unutma!" # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_budget_balance_how_5:0 "$lesson_budget_balance_how_1$"
+ lesson_budget_balance_how_5_desc:0 "Giderlerini kontrol etmenin bir diğer yoluysa belli başlı [Concept('concept_state', 'Vilayetlerde')] [Concept('concept_government_building', 'Devlet Binalarını')] küçültmektir. Böylece hem ödenen [Concept('concept_budget_wages', 'Ücretleri')] düşürmüş hem de kullanılan [Concept('concept_good', 'Malları')] azaltmış olursun, ancak [concept_building] seviyelerinden sağladığın faydaları da kaybedersin." # [LocEditor:AwaitingBatchUpdate]
+ lesson_budget_balance_how_5_continue:0 "Devam etmek için [Concept('concept_state', 'Vilayetler')] sekmesine tıkla" # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_budget_balance_how_6:0 "$lesson_budget_balance_how_1$"
+ lesson_budget_balance_how_6_desc:0 "[Concept('concept_state', 'Vilayetler')] sekmesi, [Concept('concept_state', 'Vilayetin')] [concept_treasury] gelir ve giderlerini toplu halde göstererek küçültmeye gidebileceğin en uygun yerleri kolayca bulmanı sağlar. Giderler kısmını sıralayıp imlecini üzerlerine getirerek en büyük masrafı hangi [Concept('concept_building', 'Binaların')] yaptığını hızlıca öğrenebilirsin.\n\nİstersen [Concept('concept_government_building', 'Devlet Binalarını')] şimdi küçülterek giderlerini kısabilirsin. Bu işlemi geri almak için söz konusu binaları tekrar genişletmen gerekir ki bunun için [concept_money] ve zaman şarttır." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_budget_balance_how_7:0 "$lesson_budget_balance_how_1$"
+ lesson_budget_balance_how_7_desc:0 "[Concept('concept_domestic_loans', 'İç Borçlar')] için ödenen [Concept('concept_budget_interest_rate', 'Faiz Oranları')] da sabit giderlerini ciddi anlamda arttırıyor olabilir."
+ lesson_budget_balance_how_7_continue:0 "Devam etmek için Servet sekmesine tıkla"
+
+ lesson_budget_balance_how_8:0 "$lesson_budget_balance_how_1$"
+ lesson_budget_balance_how_8_desc:0 "[Concept('concept_budget_interest_rate', 'Faiz')] ödemelerini yalnızca [Concept('concept_principal', 'Ana Parayı')] ödeyerek azaltabilirsin zira [concept_treasury] bilançon negatif olduğu sürece $concept_principal$ borcun artar, dolayısıyla $concept_budget_interest_rate$ da yükselir. $concept_treasury$ bilançon pozitif olunca $concept_principal$ ve $concept_budget_interest_rate$ ödemelerin otomatik olarak azalır.\n\n[Concept('concept_budget_interest_rate', 'Faiz Oranını')] düşürerek kısır döngüye girmeden çok daha büyük miktarlarda [Concept('concept_domestic_loans', 'İç Borç')] alabilirsin fakat bu fırsatı her zaman bulamazsın." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_budget_balance_how_9:0 "$lesson_budget_balance_how_1$"
+ lesson_budget_balance_how_9_desc:0 "Bilançon negatif kalmaya devam ederse, pozitife dönene kadar [Concept('concept_taxes', 'Vergileri')] yükseltmeye veya yeni Vergiler çıkarmaya ve [Concept('concept_government_building', 'Devlet Binalarını')] küçültmeye devam et." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_budget_balance_why_1:0 "Bütçe Neden Dengelenmelidir?"
+ lesson_budget_balance_why_1_desc:0 "Gelir ve gidere etki eden birçok farklı etmen vardır. Bütçe paneli, sana bunu ayrıntılı bir şekilde gösterir."
+ lesson_budget_balance_why_1_continue:0 "Bütçe panelindeki Genel Bakış sekmesini aç"
+
+ lesson_budget_balance_why_2:0 "$lesson_budget_balance_why_1$"
+ lesson_budget_balance_why_2_desc:0 "Giderlerin, gelirlerini aşarsa [Concept('concept_gold_reserves', 'Altın Rezervlerin')] her hafta negatif #v Haftalık Bilanço#! halinde azalmaya başlar. [Concept('concept_gold_reserves', 'Altın Rezervlerin')] tükenirse [Concept('concept_national_debt', 'Ulusal Borcun')] her hafta artar. Bunun bir sorun olup olmaması tamamen paranın nereye gittiğine bağlıdır."
+
+ lesson_budget_balance_why_3:0 "$lesson_budget_balance_why_1$"
+ lesson_budget_balance_why_3_desc:0 "Giderlerin çoğu #v sabittir#!. Sabit bir giderin tam boyutu, ekonomik koşullara bağlı olarak zamanla değişebilir fakat sen giderleri kısmak adına önlemler alana dek bu giderler her hafta mevcut olur.\n\nİnşaat masrafları ve diğer #v geçici#! giderler, belli bir süre sonra #v sonlandırılır#!. Bilançonun negatif olmasının nedeni bu tür geçici giderlerse endişelenmene gerek olmaz çünkü bu yolla ekonomini de büyütürsün ve inşaat giderlerini istediğin zaman durdurabilirsin."
+
+ lesson_budget_balance_why_4:0 "$lesson_budget_balance_why_1$"
+ lesson_budget_balance_why_4_desc:0 "Ancak [Concept('concept_treasury', 'Hazinendeki')] #v sabit#! giderlerin gelir kaynaklarını aştığı bir mali durum, uzun süre sürdürülemez. [Concept('concept_gold_reserves', 'Altın Rezervlerine')] sahip olsan bile eninde sonunda ülke içinden [Concept('concept_domestic_loans', 'Borç')] alman gerekir."
+ lesson_budget_balance_why_4_continue:0 "Servet sekmesini aç"
+
+ lesson_budget_balance_why_5:0 "$lesson_budget_balance_why_1$"
+ lesson_budget_balance_why_5_desc:0 "Maddi ilerleme sağlamak için [Concept('concept_domestic_loans', 'Borç')] almaktan korkma, zaten harcadığın çoğu @money! [Concept('concept_pop', 'Toplumların')] cebine geri döner! Unutma; satın alınan her [concept_good] ve [Concept('concept_budget_wages', 'Ücret')] olarak ödenen her @money! ya bir üreticiyi, ya bir tüketiciyi, ya da her ikisini birden zenginleştirir. [concept_treasury] harcaması yapmak her zaman ortalama [concept_wealth] düzeyini yükseltir ki bu da toplumun [Concept('concept_pop_needs', 'İhtiyaç')] taleplerini arttırır. İşte tüm bunlar ekonomide çarkların dönmesini sağlar."
+ # [LocEditor:UntranslatedKey] `lesson_budget_balance_why_5_continue`
+ # [LocEditor:UntranslatedKey] `lesson_budget_balance_why_5_k_desc`
+ # [LocEditor:UntranslatedKey] `lesson_budget_balance_why_5_k2_desc`
+ # [LocEditor:UntranslatedKey] `lesson_budget_balance_why_5_k_Pop_Wealth`
+ # [LocEditor:UntranslatedKey] `lesson_budget_balance_why_5_k_Taxes`
+ # [LocEditor:UntranslatedKey] `lesson_budget_balance_why_5_k_Interest`
+ # [LocEditor:UntranslatedKey] `lesson_budget_balance_why_5_k_Treasury`
+ # [LocEditor:UntranslatedKey] `lesson_budget_balance_why_5_k_Expand_industry`
+ # [LocEditor:UntranslatedKey] `lesson_budget_balance_why_5_k_Take_Loans`
+ # [LocEditor:UntranslatedKey] `lesson_budget_balance_why_5_k_Demand_Increase`
+
+ lesson_budget_balance_why_6:0 "$lesson_budget_balance_why_1$"
+ lesson_budget_balance_why_6_desc:0 "[concept_credit_limit], tüm binaların [Concept('concept_cash_reserves', 'Nakit Rezervlerinin')] toplamıdır. Ne kadar büyük ve başarılı sektörlere sahip olursan, o kadar çok borç alabilirsin. Kalan [concept_credit] miktarını aşağıdan görebilirsin:\n\n#variable [GetPlayer.GetMaxCredit|2*]#! ([concept_credit_limit]) - #variable [GetPlayer.GetPrincipal|K]#! ([concept_principal]) = #variable [GetPlayer.GetRemainingCredit|2*]#! Kalan [concept_credit]\n\nİmlecini $concept_credit_limit$ değerine getirerek sektörlerinin $concept_cash_reserves$ni ayrıntılı bir şekilde görebilirsin."
+ lesson_budget_balance_why_6_encyclopedia_desc:0 "[concept_credit_limit], tüm binaların [Concept('concept_cash_reserves', 'Nakit Rezervlerinin')] toplamıdır. Ne kadar büyük ve başarılı sektörlere sahip olursan, o kadar çok borç alabilirsin. Kalan [concept_credit] miktarını aşağıdan görebilirsin:\n\n ([concept_credit_limit]) - ([concept_principal]) = Kalan [concept_credit]\n\nİmlecini $concept_credit_limit$ değerine getirerek sektörlerinin $concept_cash_reserves$ni ayrıntılı bir şekilde görebilirsin."
+
+ lesson_budget_balance_why_7:0 "$lesson_budget_balance_why_1$"
+ lesson_budget_balance_why_7_desc:0 "[concept_principal] borcun [Concept('concept_credit_limit', 'Kredi Limitine')] ulaşırsa borçlarını ödeyemediğin için ülken [Concept('concept_default', 'Temerrüde')] düşer. Bu durumda tüm inşaatlar durdurulur ve ülkede [Concept('concept_ownership_share', 'Mülkiyet Payına')] sahip olan [Concept('concept_pop', 'Toplumlar')] [Concept('concept_radicalization', 'Radikalleşir')]. Bu, siyasi istikrar için felaket anlamına gelir." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_budget_balance_why_8:0 "$lesson_budget_balance_why_1$"
+ lesson_budget_balance_why_8_desc:0 "Ekonomide yaptığın her değişikliğin hem olumlu hem de olumsuz anlamda geniş kapsamlı ve dolaylı etkileri olur."
+ lesson_budget_balance_why_8_continue:0 "Genel Bakış sekmesini tekrar aç"
+
+
+ lesson_budget_balance_why_9:0 "$lesson_budget_balance_why_1$"
+ lesson_budget_balance_why_9_desc:0 "Tüm [concept_taxes] doğrudan [Concept('concept_pop', 'Toplumlardan')] toplansa da farklı Vergi [Concept('concept_law', 'Kanunları')], fertlerin mali durumunu farklı şekilde etkiler. Benzer şekilde, tüm giderler de hem ekonomini hem de ekonomi sayesinde geçimini sağlayan herkesi etkiler. Giderleri karşılamak için vergilere zam yapmak ya da [Concept('concept_budget_government_wages', 'Kamu Çalışanı Ücretlerini')] değiştirmek gibi basit bir eylem bile ülkendeki [Concept('concept_wealth', 'Varlığın')] $concept_pops$ arasında el değiştirmesine sebep olabilir. Yaptığın her şeyin [concept_pop_growth] ve [concept_turmoil] gibi dinamiklere etki eden sonuçları olur."
+
+
+###Trade Routes
+ lesson_trade_routes_1:0 "Ticaret Yolları"
+ lesson_trade_routes_1_desc:0 "[concept_trade_route], malların bir [Concept('concept_market', 'Pazardan')] diğerine taşındığı yoldur. İhracat pazarında [Concept('concept_buy_orders', 'Alış Emirlerinin')] oluşturulmasını (böylece [concept_good] fiyatı arttırılır), ithalat pazarındaysa [Concept('concept_sell_orders', 'Satış Emirlerinin')] oluşturulmasını (böylece [concept_good] fiyatı düşürülür) sağlar.\n\nBir [concept_trade_route] genellikle [Concept('concept_building', 'Binaların')] kârlılığını arttırmak ya da [Concept('concept_government_good', 'Devlet Mallarının')] masraflarını azaltmak için kullanılır. Örneğin, ülkende $furniture$ fiyatları düştüğü için Mobilya İmalathaneleri maddi açıdan zorluk yaşamaya başladıysa, $furniture$ için bir İhracat rotası oluşturarak fiyatları yükseltebilir ve böylece söz konusu $building_furniture_manufacturies$nin gelirini arttırabilirsin." # [LocEditor:AwaitingBatchUpdate]
+ lesson_trade_routes_1_continue:0 "Ticari Görünümü aç"
+ 
+ lesson_trade_routes_2:0 "$lesson_trade_routes_1$"
+ lesson_trade_routes_2_desc:0 "[concept_trade_route] oluşturmanın en kolay yolu Ticari Görünümden geçer. "İthalat Rotası Oluşturma" veya "İhracat Rotası Oluşturma" seçeneklerine tıklayıp ithal ya da ihraç etmek istediğin [Concept('concept_good', 'Malı')] seçmen, sonrasında da [concept_trade_route] oluşturmak istediğin pazarları belirlemen yeterlidir.\n\nTicaret Yollarının seviyeleri vardır; yüksek seviyeli [Concept('concept_trade_route', 'Ticaret Yollarında')] ihracat pazarından ithalat [Concept('concept_market', 'Pazarına')] çok daha fazla miktarda mal taşınabilir. Oluşturduğun bir [Concept('concept_trade_route', 'Ticaret Yolunun')] seviyesini, asıl pazarın maksimum Ticaret Yolu Kapasitesi ölçüsünde hedef pazara tıklamaya devam ederek arttırabilirsin."
+ 
+ lesson_trade_routes_3:0 "$lesson_trade_routes_1$"
+ lesson_trade_routes_3_desc:0 "[Concept('concept_market', 'Pazarında')] yeni [Concept('concept_trade_route', 'Ticaret Yolları')] oluşturacak kapasite kalmadıysa [concept_market] paneli üzerinden mevcut Ticaret Yollarını kaldırarak, [GetBuildingType('building_trade_center').GetName] binasını genişleterek ya da [GetBuildingType('building_trade_center').GetName] için daha gelişmiş [Concept('concept_production_method', 'Üretim Yöntemleri')] kullanarak yeni rotalar oluşturabilirsin."
+
+ lesson_import_goods_how_1:0 "Nasıl İthalat Yapılır?"
+ lesson_import_goods_how_1_desc:0 "[GetTutorialJournalEntry.GetTarget.GetMarketGoods.GetMarket.GetName] pazarındaki yüksek [GetTutorialJournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName] fiyatlarını, başka bir [concept_market] ile ithalat rotası kurarak düşürebilirsin.\n\n[Concept('concept_trade_route', 'Ticaret Yollarını')], $trade_lens$ üzerinden ya da [Concept('concept_market', 'Pazar')] paneli aracılığıyla oluşturabilirsin." # [LocEditor:AwaitingBatchUpdate]
+ lesson_import_goods_how_1_continue:0 "Pazar panelinde bulunan #v $NEW_IMPORT_ROUTE$#! butonuna tıkla ve [GetTutorialJournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName] malını seç\n\n#v ya da#!\n\n$trade_lens$ü aç, ardından #v $trade_route_import_lens_option$#! seçeneğine tıkla ve [GetTutorialJournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName] malını seç."
+
+ lesson_import_goods_how_2:0 "$lesson_import_goods_how_1$"
+ lesson_import_goods_how_2_desc:0 "$trade_lens$ üzerinden farklı [Concept('concept_trade_route', 'Ticaret Yolları')] oluşturulabilir ya da [Concept('concept_market', 'Pazarlar')], kullanılan her bir [concept_trade_route] için farklı miktarda ithal mal tedarik edebilir. Malların miktarı birden çok faktöre bağlıdır. İmlecini $mm_market_interaction$ Harita Listesi panelinde listelenen miktarın üzerine getirerek bu faktörleri ayrıntılı bir şekilde görebilirsin." # [LocEditor:AwaitingBatchUpdate]
+ lesson_import_goods_how_2_continue:0 "İthal edilecek pazarı seç"
+
+ lesson_import_goods_how_3:0 "$lesson_import_goods_how_1$"
+ lesson_import_goods_how_3_desc:0 "Artık [GetTutorialJournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName] ithal ediyorsun! İthal edilen miktar sınıra ulaşana dek zamanla artar. Hedefin pazara [GetTutorialJournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName] ithalatı yapmak için [GetTutorialJournalEntry.CalcCurrentGoalValue] [Concept('concept_sell_orders', 'Satış Emrinden')] daha fazlasını gerçekleştirmek. Hedefine ulaşmak için daha fazla [Concept('concept_trade_route', 'Ticaret Yolu')] kurabilirsin."
+
+ lesson_import_goods_why_1:0 "Neden İthalat Yapılır?"
+ lesson_import_goods_why_1_desc:0 "Çok az sayıda [Concept('concept_country', 'Ülke')] tam anlamıyla kendine yetecek kapasiteye sahiptir. Temel [Concept('concept_good', 'Malları')] kendi ülkende üretmek genelde akıllıcadır fakat bazen bunu yapacak [Concept('concept_potentials', 'Potansiyele')] sahip olamazsın. Ayrıca sanayini belli başlı ürünlere yoğunlaştırarak sınırlı [Concept('concept_workforce', 'İşgücünü')] daha verimli kullanmak ya da [Concept('concept_economy_of_scale', 'Ölçek Ekonomisinden')] yararlanmak isteyebilirsin. Öte yandan acil ihtiyaçlar da doğabilir ve bu ihtiyaçları gidermek için kendi sanayini kuracak vaktin olmayabilir. Böyle durumlarda ithalat yapılan [Concept('concept_trade_route', 'Ticaret Yolları')] imdadına yetişir." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_import_goods_why_2:0 "$lesson_import_goods_why_1$"
+ lesson_import_goods_why_2_desc:0 "[Concept('concept_trade_route', 'Ticaret Yollarında')] yapabileceğin ticaret miktarı, kendi [Concept('concept_market', 'Pazarındaki')] talebe ve ithalat yaptığın uzak $concept_market$ın ihracata ayırdığı mal miktarına bağlıdır. Bu miktar, söz konusu pazarın diğer [Concept('concept_country', 'Ülkelere')] yaptığı ihracata ve senin [Concept('concept_trade_route_competitiveness', 'Ticaret Yolu Rekabetçiliğine')] göre değişir. Ülkendeki mevcut [GetPlayer.GetActiveLawFromGroup('lawgroup_economic_system').GetGroup.GetName] ayrıca (şu anda [GetPlayer.GetActiveLawFromGroup('lawgroup_economic_system').GetName]) buna etki edebilir." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_import_goods_why_3:0 "$lesson_import_goods_why_1$"
+ lesson_import_goods_why_3_desc:0 "Denizaşırı [Concept('concept_market', 'Pazarlardan')] ithalat yapmak [Concept('concept_supply_network', 'İkmal Ağını')] zora sokabilir. Bu pazarlara daha rahat ulaşmak için yükseltme yapman ya da daha fazla [Concept('concept_port', 'Liman')] inşa etmen gerekir." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_import_goods_why_4:0 "$lesson_import_goods_why_1$"
+ lesson_import_goods_why_4_desc:0 "[concept_trade_route] için en çok mal alınabilecek [Concept('concept_market', 'Pazarı')] tercih etmek iyi bir fikirdir fakat alınan ürünlerin #v her iki#! taraftaki [Concept('concept_market_price', 'Pazar Fiyatının')] bundan etkilenebileceği unutulmamalıdır. Bir rakip [Concept('concept_country', 'Ülkeden')] ithalat yaparak ülkendeki mal eksikliğini giderebilirsin fakat bu sırada rakibinin üretim sektörünü zenginleştirmiş olursun."
+ 
+ lesson_select_target_building_to_continue:0 "[GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] simgesine tıkla"
+ lesson_select_state_and_building_tab_to_continue:0 "Haritada [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] [Concept('concept_state', 'Vilayetine')] tıkla, ardından [Concept('concept_building', 'Binalar')] sekmesine git"
+
+### Production Methods
+ lesson_production_methods_how_1:0 "[Concept('concept_production_method', 'Üretim Yöntemleri')] Nasıl Değiştirilir?"
+ lesson_production_methods_how_1_desc:0 "[Concept('concept_production_method', '$concept_production_methods$')], [concept_building] Ayrıntıları panelinden değiştirilebilir. Örnek olarak [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetindeki [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] binasını kullanmaya devam edeceğiz."
+ lesson_production_methods_how_1_continue:0 "[GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetindeki [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] binasının panelini aç"
+
+ lesson_production_methods_how_2:0 "$lesson_production_methods_how_1$"
+ lesson_production_methods_how_2_desc:0 "Şu anda bu [Concept('concept_building', 'Binada')] etkin olan [Concept('concept_production_method', '$concept_production_methods$')] bunlar. Herhangi birine tıklayıp alternatif seçenekleri görebilirsin. #g Yeşil #! sayı, şu anda sahip olduğun alternatifleri gösterir."
+ lesson_production_methods_how_2_continue:0 "Herhangi bir [concept_production_method] seç"
+
+ lesson_production_methods_how_3:0 "$lesson_production_methods_how_1$"
+ lesson_production_methods_how_3_desc:0 "İmleci seçmek istediğin [Concept('concept_production_method', 'Üretim Yönteminin')] üzerine getirerek o yöntemin [Concept('concept_building', 'Binada')] ne gibi değişikliklere yol açacağını görebilirsin."
+ lesson_production_methods_how_3_continue:0 "Herhangi bir [Concept('concept_production_method', 'Üretim Yöntemini')] değiştir"
+
+ lesson_production_methods_how_4:0 "$lesson_production_methods_how_1$"
+ lesson_production_methods_how_4_desc:0 "Çok güzel! Etkilerini görmek için bu [Concept('concept_production_method', 'Üretim Yöntemini')] en az [GetTutorialJournalEntry.GetTotalGoalValue|0] hafta boyunca etkin bırak."
+ 
+ lesson_production_methods_why_1:0 "[Concept('concept_production_method', 'Üretim Yöntemleri')] Neden Değiştirilir?"
+ lesson_production_methods_why_1_desc:0 "[Concept('concept_production_method', 'Üretim Yöntemleri')], [Concept('concept_building', 'Binaların')] işlevlerini belirleyip değiştirebilir. Örnek olarak [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetindeki [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] binasına bakacağız."
+ lesson_production_methods_why_1_continue:0 "[GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetindeki [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] binasının panelini aç"
+
+ lesson_production_methods_why_2:0 "[Concept('concept_production_method', 'Üretim Yöntemleri')] Neden Değiştirilir?"
+ lesson_production_methods_why_2_desc:0 "İmleci etkin [Concept('concept_production_method', 'Üretim Yöntemlerinden')] herhangi birinin üzerine getirirsen, açılan bilgi kutusunda o $concept_production_method$nin [Concept('concept_good', 'Mal')] tüketimini ve üretimini öğrenebilirsin. Ayrıca [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] binasının bu yöntemle çalışması için [Concept('concept_workforce', 'İşgücünde')] hangi [Concept('concept_profession', 'Meslekten')] ne kadar çalışana ihtiyaç duyduğunu da görebilirsin."
+
+ lesson_production_methods_why_3:0 "$lesson_production_methods_why_1$"
+ lesson_production_methods_why_3_desc:0 "[Concept('concept_production_method', 'Üretim Yöntemlerinin')] türleri farklı renklerle gösterilir:\n\n#b Temel#! $concept_production_methods$, farklı [Concept('concept_profession', 'Meslek')] [Concept('concept_pop', 'Toplumlarından')] gelen üretken bir [concept_workforce] kullanarak bir ürün ya da etki üretir ve bu sırada genellikle bir veya birden çok [Concept('concept_good', 'Mal')] tüketir. Her zaman en az bir temel tür mevcuttur.\n\n#b Rafine#! $concept_production_methods$, üretilen temel $concept_goods$ın miktarını azaltarak daha gelişmiş veya lüks $concept_goods$ üretir. Bu süreçte genellikle başka hammadde $concept_goods$ını da kullanır.\n\n#b Otomasyonlu#! $concept_production_methods$, endüstriyel $concept_goods$ tüketir ve $concept_building$yı vasıfsız $concept_workforce$ yükünden kurtarır.\n\n#b Mülkiyetli#! $concept_production_methods$, $concept_building$ya kimin sahip olacağını belirler ve [Concept('concept_dividends', 'Temettüleri')] toplar. Mevcut olanları genellikle [Concept('concept_law', '$concept_laws$')] belirler."
+ 
+ lesson_production_methods_why_4:0 "$lesson_production_methods_why_1$"
+ lesson_production_methods_why_4_desc:0 "Etkin [Concept('concept_production_method', 'Üretim Yöntemlerinden')] birine tıklarsan, her bir türün farklı $concept_production_methods$ barındırdığını görebilirsin. Fakat aynı anda birden fazlası etkinleştirilemez. Bazıları, kendi türlerinde önceki yöntemlerin yükseltilmiş halleri olarak düşünülebilir. Bunları genellikle [Concept('concept_technology', 'Teknolojilerle')] açabilirsin. Diğerleri yalnızca birer alternatiftir; onları daha iyi veya daha kötü olarak değerlendirmemek gerekir. [Concept('concept_country', 'Ülken')] için en iyisini düşünerek hangi [Concept('concept_good', 'Mallara')] ve [Concept('concept_profession', 'Mesleklere')] sahip olduğuna ve ileride hangilerini istediğini göz önünde bulundurarak kararı sen vermelisin."
+
+ lesson_production_methods_why_5:0 "$lesson_production_methods_why_1$"
+ lesson_production_methods_why_5_desc:0 "Bazen yükseltme yaparak daha modern bir [Concept('concept_production_method', 'Üretim Yöntemine')] geçmek çok ideal olmayabilir, özellikle de hammadde [Concept('concept_good', 'Mallarının')] [concept_market_price] çok yüksekse veya bir [concept_input_goods_shortage] yaşanıyorsa. Ayrıca $concept_production_method$, [Concept('concept_pop', 'Toplumlarının')] yeterince [Concept('concept_pop_qualifications', 'Nitelikli')] olmadığı [Concept('concept_profession', 'Mesleklere')] ihtiyaç duyurabilir ki bu da yöntemlerini hemen modernleştirmemek için iyi bir nedendir. Öte yandan yeni $concept_professions$, senin hoşuna gitmeyen siyasi ittifaklara meyilli olabileceğinden, yükseltmeleri biraz ertelemek bile isteyebilirsin."
+
+
+
+
+
+ ### Unprofitable Building
+ lesson_fix_unprofitable_building_1:0 "Bina Kazancını Arttırmak"
+ lesson_fix_unprofitable_building_1_desc:0 "Maddi açıdan zorluk yaşayan bir [Concept('concept_building', 'Binanın')] kazancını arttırmanın çeşitli yolları vardır. Öncelikle [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetindeki [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] binası için [concept_building] Ayrıntıları panelini aç."
+
+ lesson_fix_unprofitable_building_2:0 "$lesson_fix_unprofitable_building_1$"
+ lesson_fix_unprofitable_building_2_desc:0 "Bir [Concept('concept_building', 'Binanın')] kazancını arttırmak için başvurabileceğin ilk yol, söz konusu binanın [Concept('concept_production_method', 'Üretim Yöntemlerini')] inceleyerek [Concept('concept_good', 'Mal')] tüketiminde veya üretiminde bir verimsizlik (pahalı mal tüketip ucuz mal üretmek gibi) olup olmadığını kontrol etmektir. Eğer böyle bir durum varsa, mevcut [concept_market] koşullarına daha uygun bir yöntemi benimsemeyi dene."
+
+ lesson_fix_unprofitable_building_3:0 "$lesson_fix_unprofitable_building_1$"
+ lesson_fix_unprofitable_building_3_desc:0 "[Concept('concept_building', 'Binalarda')] kârlılığı arttırmanın bir diğer yoluysa [Concept('concept_trade_route', 'Ticaret Yolları')] kurarak tüketilen [Concept('concept_good', 'Malları')] ithal etmek ya da üretilen $concept_goods$ı ihraç etmektir. Böylece binalarda malzeme masraflarını düşürebilir ya da satış gelirlerini arttırabilirsin. Bu işlemi Ticari Görünüm aracılığıyla yapabilir ve başka bir [Concept('concept_production_method', 'Üretim Yöntemi')] değişikliğiyle birleştirerek etkisini arttırabilirsin."
+ 
+ lesson_fix_unprofitable_building_4:0 "$lesson_fix_unprofitable_building_1$"
+ lesson_fix_unprofitable_building_4_desc:0 "[Concept('concept_production_method', 'Üretim Yöntemlerini')] değiştirerek ya da [Concept('concept_trade_route', 'Ticaret Yolları')] kurarak [Concept('concept_building_possessive', 'Binalarının')] kazancını arttıramıyorsan, [Concept('concept_building', 'Binaları')] [Concept('concept_subsidies', 'Sübvanse Etmeyi')] deneyebilirsin. Bu biraz verimsiz bir yöntemdir fakat ekonomi için hayati öneme sahip [Concept('concept_building', 'Binaların')] olumsuz pazar koşullarında çalışmasını sağlar." # [LocEditor:AwaitingBatchUpdate]
+
+ ### Promote an IG
+ lesson_promote_ig_how_0:0 "Henüz [Concept('concept_interest_group', 'Çıkar Gruplarına')] [Concept('concept_promote', 'Arka Çıkamazsın')]"
+ lesson_promote_ig_how_0_desc:0 "Ülkende $modifier_country_promotion_ig_attraction_mult$ ([GetPlayer.GetModifier.GetDescFor('country_promotion_ig_attraction_mult')]) yok ve bu nedenle [Concept('concept_interest_group', 'Çıkar Gruplarına')] [Concept('concept_promote', 'Arka Çıkamıyorsun')]. Öncelikle buna izin veren bir [concept_law] çıkarmalısın."
+ lesson_promote_ig_how_0_continue:0 "Siyaset panelini aç, Kanunlar sekmesine git ve olası seçenekler için [GetPlayer.GetActiveLawFromGroup('lawgroup_free_speech').GetName] [Concept('concept_law', 'Kanununa')] tıkla. Yeni $concept_law$ çıkarıldıktan sonra bu dersi tekrar başlat!"
+
+ lesson_promote_ig_how_1:0 "[Concept('concept_interest_group', 'Çıkar Gruplarına')] Nasıl [Concept('concept_promote', 'Arka Çıkılır')]?"
+ lesson_promote_ig_how_1_desc:0 "Bir [Concept('concept_interest_group', 'Çıkar Grubuna')] [Concept('concept_promote', 'Arka Çıkmak')] için öncelikle buna izin veren bir [concept_law] çıkarmalısın. Bu durum, çoğunlukla [GetPlayer.GetActiveLawFromGroup('lawgroup_free_speech').GetGroup.GetName] grubuna (şu anda [GetPlayer.GetActiveLawFromGroup('lawgroup_free_speech').GetName]) nasıl baktığına göre değişir. Farklı [Concept('concept_law', 'Kanunlar')] çıkararak bu duruma ne kadar etki edebileceğini belirleyebilirsin."
+
+ lesson_promote_ig_how_2:0 "$lesson_promote_ig_how_1$"
+ lesson_promote_ig_how_2_desc:0 "Şu anda etkin olan [Concept('concept_interest_group', 'Çıkar Gruplarını')] $politics$ panelinden görebilirsin."
+ lesson_promote_ig_how_2_continue:0 "$overview$ sekmesindeki $politics$ panelini aç"
+
+ lesson_promote_ig_how_3:0 "$lesson_promote_ig_how_1$"
+ lesson_promote_ig_how_3_desc:0 "[Concept('concept_government', 'Devlete')] dahil olan veya onun dışında yer alan farklı [Concept('concept_interest_group', 'Çıkar Gruplarına')] [Concept('concept_promote', 'Arka Çıkılabilir')]."
+ lesson_promote_ig_how_3_continue:0 "İlgini çeken bir [Concept('concept_interest_group', 'Çıkar Grubuna')] tıkla"
+ lesson_promote_ig_how_3_continue_close:0 "[concept_interest_group] panelini kapat"
+ # [LocEditor:UntranslatedKey] `lesson_promote_ig_why_3_continue_close`
+
+ lesson_promote_ig_how_4:0 "$lesson_promote_ig_how_1$"
+ lesson_promote_ig_how_4_desc:0 "[Concept('concept_interest_group', 'Çıkar Gruplarına')] [Concept('concept_promote', 'Arka Çıkmak')], [Concept('concept_authority', 'Otoriteye')] mal olur ve şu anda bu işe harcayacak otoriteye sahip değilsin. $concept_authority$ kullanımını gözden geçir ve en az [GetDefine('NPolitics','IG_PROMOTION_COST')|0v] @aut! $concept_authority$ye sahip olana kadar bazılarını iptal et."
+ lesson_promote_ig_how_4_continue:0 "En az [GetDefine('NPolitics','IG_PROMOTION_COST')|0v] @aut! [Concept('concept_authority', 'Otoriteye')] sahip ol"
+
+ lesson_promote_ig_how_5:0 "$lesson_promote_ig_how_1$"
+ lesson_promote_ig_how_5_desc:0 "İstediğin [Concept('concept_interest_group', 'Çıkar Grubuna')] [Concept('concept_promote', 'Arka Çıkabilirsin')] ancak bunun [concept_authority] açısından bir bedeli vardır. Çıkar Gruplarının panellerinin üst kısmında yer alan $concept_promote$ butonunu kullanarak bir $concept_interest_group$na [Concept('concept_promote', 'Arka Çıkmaya')] başlayabilirsin."
+ lesson_promote_ig_how_5_continue:0 "Herhangi bir [Concept('concept_interest_group', 'Çıkar Grubuna')] [Concept('concept_promote', 'Arka Çık')]"
+
+ lesson_promote_ig_how_6:0 "$lesson_promote_ig_how_1$"
+ lesson_promote_ig_how_6_desc:0 "[Concept('concept_promote', 'Arka Çıkılan')] bir [concept_interest_group], hemen radikal bir değişim göstermez. Yalnızca [concept_interest_group_attraction] değişir ve böylece grup, zamanla daha çok seçkin [Concept('concept_pop', 'Toplumun')] desteğini almaya başlar. Bir süre beklersen $concept_interest_group$nun [concept_clout] ve üyelik değişimini görebilirsin."
+ 
+ lesson_promote_ig_why_1:0 "[Concept('concept_interest_group', 'Çıkar Gruplarına')] Neden [Concept('concept_promote', 'Arka Çıkılır')]?"
+ lesson_promote_ig_why_1_desc:0 "[Concept('concept_interest_group', 'Çıkar Grupları')], [Concept('concept_country', 'Ülkendeki')] siyaseti şekillendirirken çok işine yarar. $concept_interest_groups$ öğretici dersini henüz okumadıysan, bu derse başlamadan önce onu okumanı öneririz.\n\nİmlecini [Concept('concept_interest_group', 'Çıkar Grupları')] [Concept('concept_concept', 'Konseptinin')] üzerine getirip #v $GUIDE_ME$#! butonuna basarak dersi başlatabilirsin."
+ lesson_promote_ig_why_1_continue:0 "Devam etmek için herhangi bir $concept_interest_group$nun panelini aç"
+ lesson_promote_ig_why_1_continue_close:0 "$concept_interest_group$nun panelini kapat"
+
+ lesson_promote_ig_why_2:0 "$lesson_promote_ig_why_1$"
+ lesson_promote_ig_why_2_desc:0 "[Concept('concept_interest_group', 'Çıkar Gruplarının')] [Concept('concept_political_strength', 'Siyasi Gücü')] zamanla azalır ya da artar (ayrıntılı bilgi için: [concept_clout]). [Concept('concept_country', 'Ülkenin')] değişen koşullarından etkilenen [Concept('concept_pop', 'Toplumlarla')] beraber grupların Siyasi Gücü de değişir. Değişen siyasi ortam, karşına bazı sürprizler çıkarabilir ve planlarını altüst edebilir.\n\n$concept_interest_groups$nı destekleme konusuna yeterince önem verirsen ülkenin gidişatına etki edebilirsin ve öngörülerde bulunurken zorlanmazsın."
+
+ lesson_promote_ig_why_3:0 "$lesson_promote_ig_why_1$"
+ lesson_promote_ig_why_3_desc:0 "[Concept('concept_promote', 'Arka Çıkılan')] bir [Concept('concept_interest_group', 'Çıkar Grubunun')] hem [concept_pop] üyeliği hem de [Concept('concept_political_strength', 'Siyasi Gücü')] zamanla artar. Devletin desteğini alan grubun [concept_ig_approval] düzeyi de yükselir.\n\n[Concept('concept_interest_group_trait', 'Özelliklerinden')] faydalanmak istediğin ya da çıkarmak istediğin [Concept('concept_law', 'Kanunları')] destekleyen $concept_interest_groups$nı desteklersen $concept_country$nin $concept_laws$ını değiştirirken veya korurken daha az direnişle karşılaşırsın." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_promote_ig_why_4:0 "$lesson_promote_ig_why_1$"
+ lesson_promote_ig_why_4_desc:0 "[Concept('concept_interest_group', 'Çıkar Gruplarına')] [Concept('concept_promote', 'Arka Çıkmakla')] birlikte, karşı çıktığın grupları [Concept('concept_suppress', 'Baskılama')] imkânına da sahipsin. Bu eylemlerin her biri belli oranda @aut! [concept_authority] gerektirir."
+ lesson_promote_ig_why_4_continue:0 "$politics$ panelindeki [Concept('concept_law', 'Kanunlar')] sekmesine git."
+
+ lesson_promote_ig_why_5:0 "$lesson_promote_ig_why_1$"
+ lesson_promote_ig_why_5_desc:0 "[Concept('concept_interest_group', 'Çıkar Gruplarına')] [Concept('concept_promote', 'Arka Çıkma')] ve onları [Concept('concept_suppress', 'Baskılama')] becerilerini iki özellik belirler:\n\n* @aut! [concept_authority] kapasiten\n* $modifier_country_promotion_ig_attraction_mult$ (şu anda [GetTutorialJournalEntry.GetCountry.GetModifier.GetValueWithBreakdownFor('country_promotion_ig_attraction_mult')]) ve $modifier_country_suppression_ig_attraction_mult$ (şu anda [GetTutorialJournalEntry.GetCountry.GetModifier.GetValueWithBreakdownFor('country_suppression_ig_attraction_mult')]) değerlerin\n\nBu iki değer için en önemli kaynak, [GetPlayer.GetActiveLawFromGroup('lawgroup_free_speech').GetName] [Concept('concept_law_group', 'Kanun Grubuna')] dair mevcut [Concept('concept_law', 'Kanunundur')]."
+
+
+ ### Interest Group Concept Lesson
+ lesson_interest_group_1:0 "[Concept('concept_interest_group', 'Çıkar Grupları')] Nedir?"
+ lesson_interest_group_1_desc:0 "Çıkar Grupları, $overview$ sekmesindeki $politics$ panelinden görülebilir."
+ lesson_interest_group_1_continue:0 "$overview$ sekmesindeki $politics$ panelini aç"
+
+ lesson_interest_group_2:0 "$lesson_interest_group_1$"
+ lesson_interest_group_2_desc:0 "Ülkende ortak siyasi çıkarlara sahip [Concept('concept_pop', 'Toplumların')] desteklediği gruplara [concept_interest_group] denir. $concept_interest_groups$, ülkende üç farklı statüye sahip olabilir.\n\n[Concept('concept_in_government', 'Devlet Yönetimindekiler')]: Özgür seçimlerle, kutsal haklarla, kaba kuvvetle ya da başka yöntemlerle yönetici sınıfın bir parçası olurlar.\n\n[Concept('concept_in_opposition', 'Muhalefettekiler')]: Nüfuzlarını iktidarın sahip olduğu alanların dışında kullanırlar.\n\n[Concept('concept_marginalized', 'Ötekileştirilenler')]: Kayda değer bir güçleri yoktur. Faal sayılmazlar.\n\nBütün ülkelerde aynı türden $concept_interest_groups$ bulunur fakat bunların birçoğu tarihsel, kültürel ve dinsel koşullara göre özel varyasyonlara sahiptir."
+
+ lesson_interest_group_3:0 "$lesson_interest_group_1$"
+ lesson_interest_group_3_desc:0 "[Concept('concept_in_government', 'Devlete')] hangi $concept_interest_groups$nı dahil edeceğine #b sen#! karar verirsin. Ancak mevcut [Concept('concept_law', 'Kanunların')] bunu ne kadar [Concept('concept_legitimacy', 'Meşru')] gördüğünü de hesaba katman gerekir. Yüksek oranda meşru görülen bir hükümet yeni $concept_laws$ı daha rahat bir şekilde çıkarabilirken, meşruluk oranı düşük olan bir hükümet istediklerini daha uzun sürede elde eder ve [Concept('concept_revolution', 'Devrimlere')] yenik düşme ihtimali daha yüksektir." # [LocEditor:AwaitingBatchUpdate]
+ lesson_interest_group_3_continue:0 "Herhangi bir $concept_interest_group$nu seç"
+
+ lesson_interest_group_4:0 "$lesson_interest_group_1$"
+ lesson_interest_group_4_desc:0 "[Concept('concept_interest_group', 'Çıkar Gruplarının')] en temel özelliği [Concept('concept_ideology', 'İdeolojileridir')]. Bu özellik, bir $concept_interest_group$nun [Concept('concept_law', 'Kanunlara')] olan yaklaşımını etkiler ve grubun hangi $concept_laws$ı tercih edeceğini belirler.\n\nİmlecini bir $concept_ideology$nin üzerine getirerek önem verdikleri $concept_laws$a olan yaklaşımlarını görebilirsin."
+
+ lesson_interest_group_5:0 "$lesson_interest_group_1$"
+ lesson_interest_group_5_desc:0 "$concept_ideologies$ listesinin zirvesinde yer alan [concept_ideology], ilhamını [Concept('concept_leader', 'Liderinden')] alır. Oyun devam ederken $concept_leaders$ ve Lider $concept_ideology$leri değişim geçirir. Fakat bazen $concept_leaders$, bir $concept_interest_group$nun hedefini kalıcı olarak, dramatik bir şekilde değiştirebilir.\n\n$concept_leaders$in, [Concept('concept_character_trait', 'Karakter Özelliklerine')] ya da sahip oldukları [Concept('concept_popularity', 'Şöhrete')] göre $concept_interest_group$ üzerinde başka etkileri de olabilir." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_interest_group_6:0 "$lesson_interest_group_1$"
+ lesson_interest_group_6_desc:0 "[Concept('concept_interest_group', 'Çıkar Gruplarının')] da ülke boyunca doğrudan etkisi olan kendi [Concept('concept_interest_group_trait', 'Özellikleri')] vardır. $concept_interest_group_traits$, farklı [concept_ig_approval] seviyelerinde etkinleşip devre dışı kalır. $concept_interest_group$ [concept_powerful] hale gelebilir.\n\nBir $concept_interest_group$nu memnun edersen halk, bunun faydalarını görür. Fakat bir grubu kızdırırsan, yöntemlerini değiştirene kadar sana tepki gösterirler." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_interest_group_7:0 "$lesson_interest_group_1$"
+ lesson_interest_group_7_desc:0 "[Concept('concept_interest_group', 'Çıkar Gruplarının')] gücü, sahip oldukları [concept_clout] ile ölçülür. Bu oran, grubun ülkendeki toplam [concept_political_strength] içindeki payına eşittir. $concept_political_strength$ ise [Concept('concept_pop', 'Toplumlardan')] gelir. Toplumlar, ülkenin çıkarlarına uyacak şekilde yönetilmesi konusunda kendilerini en iyi şekilde temsil ettiğini düşündüğü $concept_interest_groups$nı destekler."
+
+ lesson_interest_group_8:0 "$lesson_interest_group_1$"
+ lesson_interest_group_8_desc:0 "Bir [Concept('concept_interest_group', 'Çıkar Grubunu')] destekleyen tüm [Concept('concept_pop', 'Toplumlar')], grubun panelinden görülebilir. Bir $concept_pop$daki her bir fert, desteklemek istediği [Concept('concept_interest_group', 'Çıkar Grubuna')] kendisi karar verir, yani bir $concept_pop$un desteği genellikle iki ila dört Çıkar Grubu arasında dağılır."
+
+ lesson_interest_group_9:0 "$lesson_interest_group_1$"
+ lesson_interest_group_9_desc:0 "[Concept('concept_interest_group', 'Çıkar Grubunun')] desteklediği [Concept('concept_law', 'Kanunlar')], ayrıca en çok istenenden en az istenene doğru bir liste biçiminde de sıralanır. $enact$ butonunun üzerine gelerek $concept_law$un ülkedeki bu $concept_interest_group$ ve diğerleri tarafından [concept_ig_approval] oranını görebilirsin."
+
+
+
+
+ ### Journal Entries
+ JOURNAL_ENTRY_IN_PROGRESS:0 "@green_checkmark! #bold Tamamlanıyor#!"
+ 
+ je_tutorial_expand_basic_building:0 "Basit bir [Concept('concept_building', 'Binayı')] genişlet"
+ je_tutorial_expand_basic_building_status:0 "[JournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetindeki [JournalEntry.GetTarget.GetBuilding.GetName] binasını genişlet"
+ je_tutorial_expand_basic_building_reason:0 "Ekonomini büyütmenin bir yolu da [Concept('concept_building', 'Binaları')] inşa etmek ya da genişletmektir. Bir [Concept('concept_building', 'Binanın')] kâr edip etmeyeceğini anlamak zordur fakat [JournalEntry.GetTarget.GetBuilding.GetBuildingType.GetName] gibi basit bir Tarım [Concept('concept_building', 'Binasını')] genişletmek nispeten güvenli bir yatırımdır."
+ je_tutorial_expand_basic_building_header:0 ""
+ je_tutorial_expand_basic_building_reason_long:0 "[Concept('concept_building', 'Binalar')], [Country.GetName] ülkesinin refahı için hayati önemdedir. [JournalEntry.GetTarget.GetBuilding.GetBuildingType.GetName] gibi basit bir Tarım [Concept('concept_building', 'Binasını')] genişletmek nispeten güvenli bir yatırımdır. Malzeme gideri düşüktür ve ülkendeki herkes tarafından tüketildiği için epey talep gören temel gıdaları üretir. Bu nedenle çok az risk alarak buradan ufak bir kâr elde edebilirsin.\n\n@information! [JournalEntry.GetTarget.GetBuilding.GetBuildingType.GetName], [Concept('concept_government_building', 'Devlet Binası')] değildir ve geliri doğrudan ülke gelirine katkı sunmaz. Burada elde edilen gelir, binada çalışan [Concept('concept_pop', 'Toplumlara')] [Concept('concept_building_wage', 'Ücret')] olarak ödenir. Bu Toplumlar da bu [Concept('concept_money', 'Paranın')] bir kısmını [Concept('concept_budget_income_taxes', 'Gelir Vergisi')] olarak vilayete öderler." # [LocEditor:AwaitingBatchUpdate]
+ je_tutorial_expand_basic_building_complete_tooltip:0 "[JournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetindeki [JournalEntry.GetTarget.GetBuilding.GetName] binası başarıyla genişletildi"
+ je_tutorial_expand_basic_building_invalid_tooltip:0 "[JournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetindeki [JournalEntry.GetTarget.GetBuilding.GetName] binasının sahibi artık [GetPlayer.GetName] değil"
+  
+ je_tutorial_expand_basic_building_goal:0 "[JournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetinde [JournalEntry.GetTotalGoalValue|v0]. seviye [JournalEntry.GetTarget.GetBuilding.GetName] (şu anda [JournalEntry.CalcCurrentGoalValue|v0]. seviye)"
+ 
+ je_tutorial_fix_budget_deficit:0 "Bütçe Açığı Sorununu Çöz"
+ je_tutorial_fix_budget_deficit_status:0 "Sabit giderden daha fazla sabit gelir var"
+ je_tutorial_fix_budget_deficit_reason:0 "Sabit giderimiz, gelirimizi aşarak haftalık bütçe açığına sebep olduğu için ekonomimiz şu anda iyi durumda değil. Bu sorunu çözmek için vergileri yükseltmek, devlet/asker ücretlerini kısmak ve devlet tarafından fonlanan binaların seviyelerini düşürmek gibi birden çok çözüm yolu vardır."
+ 
+ je_tutorial_increase_trade_capacity:0 "Ticaret Kapasitesini Arttır"
+ je_tutorial_increase_trade_capacity_status:0 "[JournalEntry.GetCountry.GetCapital.GetMarket.GetName] pazarındaki [Concept('concept_trade_route', 'Ticaret Yollarının')] sayısını arttır"
+ je_tutorial_increase_trade_capacity_reason:0 "[Country.GetCapital.GetMarket.GetName] pazarında uygun bir [Concept('concept_trade_route', 'Ticaret Yolu')] yok. Bir [GetBuildingType('building_trade_center').GetName] inşa ederek, mevcut olanı genişleterek ya da [Concept('concept_production_method', 'Üretim Yöntemlerini')] değiştirerek uygun $concept_trade_routes$nın sayısını arttırabilirsin."
+  
+ je_tutorial_export_goods:0 "İhracat Yap"
+ je_tutorial_export_goods_status:0 "[JournalEntry.GetTarget.GetMarketGoods.GetMarket.GetName] pazarına [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName] ihraç et"
+ je_tutorial_export_goods_reason:0 "[JournalEntry.GetTarget.GetMarketGoods.GetMarket.GetName] pazarındaki [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName] fiyatları, [Concept('concept_market', 'Pazarda')] [Concept('concept_sell_orders', 'Satış Emirlerinin')] [Concept('concept_buy_orders', 'Alış Emirlerini')] aşması nedeniyle düştü. Bu durum, [Concept('concept_building', 'Binalar')] ve [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName] tüketen [Concept('concept_pop', 'Toplumlar')] için yararlı olabilir ancak fiyatların düşmesi, [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName] üreten [Concept('concept_building', 'Binaların')] kazancının azalmasına yol açar.\n\n[Concept('concept_market', 'Pazardaki')] [Concept('concept_buy_orders', 'Alış Emirlerini')] arttırmanın (ve dolayısıyla [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName] fiyatlarını yükseltmenin) bir yolu, [JournalEntry.GetTarget.GetMarketGoods.GetMarket.GetName] pazarından başka bir [Concept('concept_market', 'Pazara')] [concept_good] ihraç etmek için bir [concept_trade_route] oluşturmaktır."
+  
+ je_tutorial_import_goods:0 "İthalat Yap"
+ je_tutorial_import_goods_status:0 "[JournalEntry.GetTarget.GetMarketGoods.GetMarket.GetName] pazarına [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName] ithal et"
+ je_tutorial_import_goods_reason:0 "[JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName] pazarındaki [JournalEntry.GetTarget.GetMarketGoods.GetMarket.GetName] fiyatları, [Concept('concept_market', 'Pazarda')] [Concept('concept_buy_orders', 'Alış Emirlerinin ')] [Concept('concept_sell_orders', 'Satış Emirlerini')] aşması nedeniyle yükseldi. Bu durum, [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName] üreten [Concept('concept_building', 'Binalar')] için yararlı olabilir ancak fiyatların yükselmesi, bu Malı tüketen [Concept('concept_building', 'Binaları')] ciddi anlamda zora sokabilir ve [Concept('concept_pop_needs', 'İhtiyaçları')] arasında [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName] olan [Concept('concept_pop', 'Toplumları')] yoksullaştırabilir.\n\n[Concept('concept_market', 'Pazardaki')] [Concept('concept_sell_orders', 'Satış Emirlerini')] arttırmanın (ve dolayısıyla [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName]) fiyatlarını düşürmenin) bir yolu, [JournalEntry.GetTarget.GetMarketGoods.GetMarket.GetName] pazarına başka bir [Concept('concept_market', 'Pazardan')] [concept_good] ithal etmek için bir [concept_trade_route] oluşturmaktır."
+  
+ je_tutorial_change_production_method:0 "[Concept('concept_production_method', 'Üretim Yöntemini')] değiştir"
+ je_tutorial_change_production_method_status:0 "[JournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetindeki [JournalEntry.GetTarget.GetBuilding.GetName] binasında herhangi bir [Concept('concept_production_method', 'Üretim Yöntemini')] değiştir"
+ je_tutorial_change_production_method_reason:0 "[JournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetindeki [JournalEntry.GetTarget.GetBuilding.GetName] binasının kazancı, [concept_production_method] değiştirilerek arttırılabilir.\n\nBu ders için bir tarlanın meyve/içki üretimini veya bir çiftliğin alet kullanımını etkinleştirmek gibi nispeten güvenli bir [concept_production_method] değişikliği yapman daha iyi olabilir."
+ je_tutorial_change_production_method_invalid_tooltip:0 "[JournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetindeki [JournalEntry.GetTarget.GetBuilding.GetName] binasının sahibi artık [GetPlayer.GetName] değil"
+ je_tutorial_change_production_method_goal:0 "[JournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetindeki [JournalEntry.GetTarget.GetBuilding.GetName] binasının yeni [concept_production_method] #variable [JournalEntry.GetGoalProgressValue|0]/[JournalEntry.GetTotalGoalValue|0]#! haftadır etkin."
+    
+ je_tutorial_expand_productive_building:0 "[Concept('concept_productivity', 'Üretken')] bir [Concept('concept_building', 'Binayı')] genişlet"
+ je_tutorial_expand_productive_building_status:0 "[JournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetindeki [JournalEntry.GetTarget.GetBuilding.GetName] binasını genişlet"
+ je_tutorial_expand_productive_building_reason:0 "[JournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetindeki [JournalEntry.GetTarget.GetBuilding.GetName] binası, giderlerine kıyasla epey fazla gelir getiren, son derece üretken bir [Concept('concept_building', 'Bina')]. Burası genişletme için ideal bir yer. [concept_gdp] miktarını yükseltmek ve vergi tabanını büyütmek için bu [Concept('concept_building', 'Binayı')] genişlet."
+ je_tutorial_expand_productive_building_complete_tooltip:0 "[JournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetindeki [JournalEntry.GetTarget.GetBuilding.GetName] binası başarıyla genişletildi"
+ je_tutorial_expand_productive_building_invalid_tooltip:0 "[JournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetindeki [JournalEntry.GetTarget.GetBuilding.GetName] binasının sahibi artık [GetPlayer.GetName] değil"
+ je_tutorial_expand_productive_building_goal:0 "[JournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetinde [JournalEntry.GetTotalGoalValue|v0]. seviye [JournalEntry.GetTarget.GetBuilding.GetName] (şu anda [JournalEntry.CalcCurrentGoalValue|v0]. seviye)"
+  
+ je_tutorial_fix_unprofitable_building:0 "Kâr Etmeyen [Concept('concept_building', 'Binayı')] Düzelt"
+ je_tutorial_fix_unprofitable_building_status:0 "[JournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetindeki [JournalEntry.GetTarget.GetBuilding.GetName] binasının kazancını arttır"
+ je_tutorial_fix_unprofitable_building_reason:0 "[JournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetindeki [JournalEntry.GetTarget.GetBuilding.GetName] binası, giderlerine kıyasla rekabeti sürdürebilmesine yetecek kadar gelir elde edemiyor.\n\nTicaret yolları ve üretim yöntemleriyle ilgili öğrendiklerini pratiğe dökerek bu sorunu çözmelisin."
+ je_tutorial_fix_unprofitable_building_invalid_tooltip:0 "[JournalEntry.GetTarget.GetBuilding.GetState.GetName] vilayetindeki [JournalEntry.GetTarget.GetBuilding.GetName] binasının sahibi artık [GetPlayer.GetName] değil"
+   
+ je_tutorial_promote_ig:0 "Bir [Concept('concept_interest_group', 'Çıkar Grubuna')] [Concept('concept_promote', 'Arka Çık')]"
+ je_tutorial_promote_ig_goal:0 "Bir [Concept('concept_interest_group', 'Çıkar Grubuna')] [JournalEntry.GetTotalGoalValue|v0] hafta boyunca [Concept('concept_promote', 'Arka Çıktın')]"
+ je_tutorial_promote_ig_reason:0 "Ülken için bir siyasi vizyon seçme vaktin geldi. Etkin [Concept('concept_interest_group', 'Çıkar Gruplarına')] göz at ve seni bekleyen zorlu yolda yanında yer almasını istediğin bir ya da birden fazla gruba [Concept('concept_promote', 'Arka Çık')]."
+ je_tutorial_promote_ig_progress:0 "[Concept('concept_interest_group', 'Çıkar Grubuna')] [JournalEntry.CalcCurrentGoalValue] / [JournalEntry.GetTotalGoalValue] haftadır Arka Çıkıyorsun"
+
+ je_tutorial_grow_gdp:0 "GSYİH Miktarını Arttır"
+ je_tutorial_grow_gdp_goal:0 "[concept_gdp] miktarını arttır (#variable @money![JournalEntry.GetGoalProgressValue|K] / @money![JournalEntry.GetGoalAddValue|K]#!)"
+ je_tutorial_grow_gdp_reason:0 "Bu görev, ülkendeki [concept_gdp] miktarını arttırmak için [Concept('concept_building', 'Binalar')], [Concept('concept_market', 'Pazarlar')] ve [Concept('concept_trade_route', 'Ticaret Yolları')] ile ilgili öğrendiğin her şeyi pratiğe dökmeni sağlayacak açık uçlu bir görevdir.\n\n[concept_gdp] miktarını [Concept('concept_building', 'Binalar')] inşa ederek, [Concept('concept_population', 'Nüfusunu')] arttırarak, [Concept('concept_production_method', 'Üretim Yöntemlerini')] ayarlayarak ve [concept_market] fiyatlarını yöneterek arttırabilirsin." # [LocEditor:AwaitingBatchUpdate]
+
+ je_tutorial_increase_market_access_by_decree:0 "[concept_decree] ile [Concept('concept_market_access', 'Pazar Erişimini')] geliştir"
+ je_tutorial_increase_market_access_by_decree_goal:0 "12 hafta boyunca Yol Bakımı [Concept('concept_decree', 'Hükmü')] bulunan herhangi bir [concept_state]"
+ je_tutorial_increase_market_access_by_decree_reason:0 "[JournalEntry.GetTarget.GetState.GetName] vilayetindeki [concept_market_access] %100'ün altına düştü ve fiyatlar bundan olumsuz etkilendi. [JournalEntry.GetTarget.GetState.GetName] vilayetinde Yol Bakımı [Concept('concept_decree', 'Hükmü')] çıkararak bu sorunu çözebilirsin."
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ lesson_expand_building_why_1_desc:0 "Ekonomiyi büyütmek için başvurabileceğin en iyi yöntemlerden biri [Concept('concept_building', 'Binaları')] genişletmektir. Bu durum, genellikle [Concept('concept_pop', 'Toplumunu')] zenginleştirdiğin ve onlardan vergi toplayıp gelir elde ettiğin anlamına gelir. $concept_pops$ ne kadar varlık sahibi olursa sen de o kadar vergi toplarsın.\n\n[GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] konumundaki [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] binasını ele alalım. İmlecini [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] konumunun üzerine getirirsen [concept_state], [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetCountry.GetName] haritasında gösterilecektir."

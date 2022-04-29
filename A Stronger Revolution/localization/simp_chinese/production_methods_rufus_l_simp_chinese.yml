@@ -1,0 +1,73 @@
+﻿l_simp_chinese:
+  # DELETE:
+    # pm_disabled_gin
+    # pm_disabled_elastics
+    # pm_masticators
+    # pm_rubber_bands
+    # pm_luxury_clothes
+
+  # Agriculture Buildings
+ # [LocEditor:UntranslatedKey] `pm_primary`
+ # [LocEditor:UntranslatedKey] `pmg_secondary_building_rye_farm`
+ # [LocEditor:UntranslatedKey] `pmg_secondary_building_wheat_farm`
+ # [LocEditor:UntranslatedKey] `pmg_secondary_building_rice_farm`
+ # [LocEditor:UntranslatedKey] `pmg_secondary_building_maize_farm`
+ # [LocEditor:UntranslatedKey] `pmg_secondary_building_millet_farm`
+ # [LocEditor:UntranslatedKey] `pm_no_secondary`
+ # [LocEditor:UntranslatedKey] `pm_potatoes`
+ # [LocEditor:UntranslatedKey] `pm_vineyards`
+ # [LocEditor:UntranslatedKey] `pm_vineyards_building_maize_farm`
+ # [LocEditor:UntranslatedKey] `pm_apple_orchards`
+ # [LocEditor:UntranslatedKey] `pm_citrus_orchards`
+ # [LocEditor:UntranslatedKey] `pm_fig_orchards`
+ # [LocEditor:UntranslatedKey] `pm_mulberry_groves`
+
+ # [LocEditor:UntranslatedKey] `pmg_automation`
+ # [LocEditor:UntranslatedKey] `pmg_automation_building_food_industry`
+ # [LocEditor:UntranslatedKey] `pmg_automation_building_textile_mills`
+ # [LocEditor:UntranslatedKey] `pmg_automation_building_furniture_manufacturies`
+ # [LocEditor:UntranslatedKey] `pmg_automation_building_tooling_workshops`
+ # [LocEditor:UntranslatedKey] `pmg_automation_building_paper_mills`
+ # [LocEditor:UntranslatedKey] `pmg_automation_building_steel_mills`
+ # [LocEditor:UntranslatedKey] `pmg_automation_building_motor_industry`
+ # [LocEditor:UntranslatedKey] `pm_civilian_priority`
+ # [LocEditor:UntranslatedKey] `pm_military_priority`
+
+  # Textile Mills
+ # [LocEditor:UntranslatedKey] `pm_craftsman_sewing`
+ # [LocEditor:UntranslatedKey] `pm_sewing_machines`
+ # [LocEditor:UntranslatedKey] `pm_electric_sewing_machines`
+ # [LocEditor:UntranslatedKey] `pm_traditional_looms`
+ # [LocEditor:UntranslatedKey] `pm_mechanized_looms`
+ # [LocEditor:UntranslatedKey] `pm_automatic_power_looms`
+
+  # Glassworks
+ # [LocEditor:UntranslatedKey] `pm_leaded_glass`
+ # [LocEditor:UntranslatedKey] `pm_manual_glassblowing`
+
+  # Chemical Plants
+ # [LocEditor:UntranslatedKey] `pm_leblanc_process`
+ # [LocEditor:UntranslatedKey] `pm_no_explosives_production`
+ # [LocEditor:UntranslatedKey] `pm_ammonia-soda_process`
+ # [LocEditor:UntranslatedKey] `pm_vacuum_evaporation`
+ # [LocEditor:UntranslatedKey] `pm_brine_electrolysis`
+ # [LocEditor:UntranslatedKey] `pmg_fertilizer_production`
+ # [LocEditor:UntranslatedKey] `pm_no_artificial_fertilizers`
+ # [LocEditor:UntranslatedKey] `pm_artificial_fertilizers`
+ # [LocEditor:UntranslatedKey] `pm_improved_fertilizer`
+ # [LocEditor:UntranslatedKey] `pm_nitrogen_fixation`
+ # [LocEditor:UntranslatedKey] `pm_dyes_production`
+ # [LocEditor:UntranslatedKey] `pm_no_synthetic_dyes`
+ # [LocEditor:UntranslatedKey] `pmg_synthetic_dyes`
+ # [LocEditor:UntranslatedKey] `pm_silk_production`
+ # [LocEditor:UntranslatedKey] `pm_no_artificial_fibers`
+ # [LocEditor:UntranslatedKey] `pm_rayon`
+
+  # Foundries
+ # [LocEditor:UntranslatedKey] `pm_steamworks`
+ # [LocEditor:UntranslatedKey] `pm_no_artillery_production`
+ # [LocEditor:UntranslatedKey] `pm_artillery_production`
+
+  # Motor Industries
+ # [LocEditor:UntranslatedKey] `pmg_automobile_production`
+ # [LocEditor:UntranslatedKey] `pm_automobile_production`

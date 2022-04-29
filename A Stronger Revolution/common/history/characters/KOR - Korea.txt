@@ -1,0 +1,32 @@
+﻿CHARACTERS = {
+	c:KOR = {
+		create_character = {
+			# Heonjong of Joseon
+			#role = politician # Remove this line
+			first_name = "Heonjong"
+			last_name = "Yi"
+			ruler = yes
+			age = 9
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				reserved
+			}
+		}	
+
+		create_character = {
+			# Cheoljong of Joseon
+			#role = politician # Remove this line
+			first_name = "Cheoljong"
+			last_name = "Yi"
+			heir = yes
+			age = 5
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				reserved
+				# TODO: not the sharpest tool in the shed
+			}
+		}
+	}
+}

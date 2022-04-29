@@ -1,0 +1,69 @@
+﻿CHARACTERS = {
+	c:BEL = {
+		create_character = {
+			# Leopold I
+			#role = politician # Remove this line
+			first_name = "Leopold"
+			last_name = "of_Saxe-Coburg-Gotha"
+			ruler = yes
+			age = 46
+			interest_group = ig_intelligentsia
+			traits = {
+				tactful
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			# Leopold II
+			#role = politician # Remove this line
+			first_name = "Leopold"
+			last_name = "of_Saxe-Coburg-Gotha"
+			heir = yes
+			age = 1
+			interest_group = ig_petty_bourgeoisie
+			traits = {
+				ambitious # yes, even as a one-year-old
+			}
+		}	
+
+		create_character = {
+			#role = politician # Remove this line
+			first_name = Hippolyte
+			last_name = Metdepenningen
+			age = 37
+			ig_leader = yes
+			interest_group = ig_petty_bourgeoisie
+			traits = {
+				cautious
+			}
+		}
+
+		create_character = {
+			is_general = yes
+			first_name = Andre_Lambert
+			last_name = Nypels
+			age = 50
+			traits = {
+				plains_commander
+				cautious
+			}
+
+		}
+		
+		create_character = {
+			is_general = yes
+			first_name = Louis
+			last_name = Evain
+			age = 61
+			culture = cu:french
+			traits = {
+				trench_rat
+				meticulous
+			}
+
+		}
+	}
+}
