@@ -1,0 +1,171 @@
+﻿tributary = {
+	requires_approval = yes
+	should_notify_third_parties = yes
+
+	possible = {
+		is_at_war = no
+		scope:target_country = { is_at_war = no }
+		scope:target_country = {
+			NOT = {
+				has_diplomatic_pact = {
+					who = root
+					type = rivalry
+				}					
+			}					
+		}
+		root = {
+			NOT = {
+				has_diplomatic_pact = {
+					who = scope:target_country
+					type = rivalry
+				}					
+			}					
+		}
+		is_revolutionary = no
+		scope:target_country = {
+			is_revolutionary = no
+		}
+	}
+
+	pact = {	
+		cost = 25
+		is_customs_union = yes
+		has_junior_participant = yes
+		recipient_pays_maintenance = no
+		income_transfer = 0.1
+
+		target_requires_approval_to_break = yes	
+		
+		subject_type = subject_type_tributary
+		
+		break_effect = {
+			change_relations = { country = scope:target_country value = 30 }
+		}
+	}
+	
+	ai = {
+		check_acceptance_for_will_break = no
+		check_acceptance_for_will_propose = no
+		
+		will_propose = { 
+			always = no
+		}
+	
+		will_break = {
+			always = no
+		}
+		
+		propose_score = {
+			value = 1
+		}
+		
+		# TODO PRCAL-11193
+		accept_score = {
+			value = 0
+	
+			add = {
+				desc = "DIPLOMATIC_ACCEPTANCE_BASE"
+				value = -50
+			}
+
+			add = {
+				desc = "DIPLOMATIC_ACCEPTANCE_ATTITUDE"
+				if = {
+					limit = {
+						OR = {
+							has_attitude = {
+								who = scope:target_country
+								attitude = cooperative
+							}
+							has_attitude = {
+								who = scope:target_country
+								attitude = genial
+							}							
+							has_attitude = {
+								who = scope:target_country
+								attitude = protective
+							}
+							has_attitude = {
+								who = scope:target_country
+								attitude = domineering
+							}
+							has_attitude = {
+								who = scope:target_country
+								attitude = belligerent
+							}							
+						}
+					}
+					value = 100
+				}
+			}			
+		}
+
+		# TODO PRCAL-11193
+		junior_accept_score = {
+			value = 0
+	
+			add = {
+				desc = "DIPLOMATIC_ACCEPTANCE_BASE"
+				value = -50
+			}
+		}		
+		
+		# TODO PRCAL-11193
+		accept_break_score = {
+			value = 0
+
+			add = {
+				desc = "DIPLOMATIC_ACCEPTANCE_BASE"
+				value = -50
+			}		
+		}		
+	}
+}
+
+become_tributary = {
+	requires_approval = yes
+	should_notify_third_parties = yes
+
+	potential = {
+		is_country_type = unrecognized	
+		scope:target_country = { is_country_type = unrecognized }
+		is_subject = no		
+	}
+
+	possible = {
+		is_at_war = no
+		scope:target_country = { is_at_war = no }
+		scope:target_country = {
+			NOT = {
+				has_diplomatic_pact = {
+					who = root
+					type = rivalry
+				}					
+			}					
+		}
+		root = {
+			NOT = {
+				has_diplomatic_pact = {
+					who = scope:target_country
+					type = rivalry
+				}					
+			}					
+		}
+		is_revolutionary = no
+		scope:target_country = {
+			is_revolutionary = no
+		}
+	}
+	
+	reverse_pact = tributary
+	
+	ai = {
+		will_propose = { 
+			always = no
+		}
+		
+		propose_score = {
+			value = 1
+		}
+	}
+}

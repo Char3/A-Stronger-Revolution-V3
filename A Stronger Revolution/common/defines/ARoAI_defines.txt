@@ -1,0 +1,305 @@
+NAI = {
+	BASE_AGGRESSION = 275 # Base chance that AI will consider starting a diplo play each time the goal is checked #def 10
+	AGGRESSION_SCALING = 100000 # Dice roll that aggression is compared against to determine if AI wants to consider starting a diplomatic play
+	UNIFICATION_AGRESSION_MULT = 2 # AI aggression is multiplied by this for calculating whether they should try to start a unification/leadership play #def 20
+
+	#DEFAULT_STRATEGY_STRING = "ai_strategy_default"
+	
+	#STRATEGY_RANDOM_FACTOR = 10.0 # The higher this is, the more random AI strategy selection will be
+
+	CHANGE_STRATEGY_THRESHOLD = 52	# At this threshold of 'change points', the AI will roll a new strategy
+	CHANGE_STRATEGY_INCREASE_WEEKLY_CHANCE = 20 # Chance per week of AI gaining a point of progress towards rolling a new strategy (1 = 1%)
+	CHANGE_STRATEGY_NEW_RULER_INCREASE = 52
+	
+	#GENERAL_WANTED_RANK = 3	# AI will promote all generals up to at least this rank
+	#COMBAT_UNITS_PER_GENERAL = 60
+	#ADMIRAL_WANTED_RANK = 3	# AI will promote all admirals up to at least this rank
+	#COMBAT_UNITS_PER_ADMIRAL = 60
+	
+	COMBAT_UNIT_ASSIGNMENT_THRESHOLD = 1.00		# If combat units assigned to a HQ is at least this of wanted amount, don't try to assign more units
+	COMBAT_UNIT_ASSIGNMENT_STICKYNESS = 0.05		# If moving a commander makes a HQ's unit ratio worse than the ratio of target HQ + this, don't do the move
+	
+	#MIN_GOVERNMENT_LEGITIMACY = 50				# If legitimacy is below this, consider adding IGs we don't really like to the government
+	#DESIRED_GOVERNMENT_LEGITIMACY = 75			# If legitimacy is below this, add more IGs we like to the government
+	#REFORM_GOVERNMENT_MONTHS_BETWEEN_CHANGES = 30 		# If the AI doesn't have elections, it won't consider changing government composition more often than this to avoid lots of radicals
+	#REFORM_GOVERNMENT_PRO_IG_CLOUT_FACTOR = 1.0			# When scoring IGs for putting in government, each point of clout for an IG the AI's strategy approves of is multiplied by this
+	#REFORM_GOVERNMENT_ANTI_IG_CLOUT_FACTOR = -0.75		# When scoring IGs for putting in government, each point of clout for an IG the AI's strategy is opposed to is multiplied by this
+	#REFORM_GOVERNMENT_NEUTRAL_IG_CLOUT_FACTOR = 0.25	# When scoring IGs for putting in government, each point of clout for an IG the AI's strategy is neutral towards is multiplied by this
+	#REFORM_GOVERNMENT_DESIRED_PARTY_SCORE = 0.25 		# A party with at least this score is considered to be desired in government even if legitimacy is above MIN_GOVERNMENT_LEGITIMACY
+	
+	UNIFICATION_MIN_SUPPORT_SCORE = 80	# Support for one country-formation candidate needs to be at least this much above all competitors to support unification
+	#UNIFICATION_BASE_VALUE = 0
+	#UNIFICATION_SUPPORTER_DEFAULT_RANK_VALUE = 4 # Rank value is compared to this value for computing supporter rank factor
+	#UNIFICATION_SUPPORTER_RANK_FACTOR = -10 # Multiplied by rank value delta to supporter default rank
+	#UNIFICATION_CANDIDATE_DEFAULT_RANK_VALUE = 6 # Rank value is compared to this value for computing candidate rank factor
+	#UNIFICATION_CANDIDATE_RANK_FACTOR = 10 # Multiplied by rank value delta to candidate default rank
+	#UNIFICATION_RELATIONS_HOSTILE_FACTOR = -50
+	#UNIFICATION_RELATIONS_COLD_FACTOR = -25
+	#UNIFICATION_RELATIONS_POOR_FACTOR = -10
+	#UNIFICATION_RELATIONS_CORDIAL_FACTOR = 10
+	#UNIFICATION_RELATIONS_AMICABLE_FACTOR = 25
+	#UNIFICATION_RELATIONS_FRIENDLY_FACTOR = 50	
+	#UNIFICATION_ATTITUDE_DISINTERESTED_FACTOR = -25
+	#UNIFICATION_ATTITUDE_CAUTIOUS_FACTOR = -25
+	#UNIFICATION_ATTITUDE_CONCILIATORY_FACTOR = 0
+	#UNIFICATION_ATTITUDE_COOPERATIVE_FACTOR = 25
+	#UNIFICATION_ATTITUDE_GENIAL_FACTOR = 50
+	#UNIFICATION_ATTITUDE_WARY_FACTOR = -50
+	#UNIFICATION_ATTITUDE_BELLIGERENT_FACTOR = -100
+	#UNIFICATION_ATTITUDE_ANTAGONISTIC_FACTOR = -100
+	#UNIFICATION_ATTITUDE_LOYAL_FACTOR = 100
+	#UNIFICATION_ATTITUDE_REBELLIOUS_FACTOR = -100
+	#UNIFICATION_ATTITUDE_PROTECTIVE_FACTOR = -50
+	#UNIFICATION_ATTITUDE_DOMINEERING_FACTOR = -100
+
+	# Below data is for evaluating Commander Orders
+	#STRENGTH_ADVANTAGE_FACTOR_TO_INVADE = 1.15
+	#MAX_STRENGTH_ADVANTAGE_FACTOR = 10.0
+	
+	#START_DIPLO_PLAY_RANDOM_FACTOR = 2.0 # The higher this is, the more random AI will be on where to target when starting diplo plays
+	START_DIPLO_PLAY_ALLY_STRENGTH_WEIGHT = 0.80 # Consider participants that will for sure join a side with this amount of their forces # def 0.75
+	START_DIPLO_PLAY_LIKELY_ALLY_STRENGTH_WEIGHT = 0.30 # Consider participants that will likely to join a side with this amount of their forces # def 0.5
+	START_DIPLO_PLAY_POTENTIAL_ALLY_STRENGTH_WEIGHT = 0.00 # Consider participants that might be swayed to our side with with this amount of their forces # def 0.33
+	
+	#DIPLO_PLAY_BACK_DOWN_THRESHOLD = 0.75 # If AI has this little military strength compared to enemy, consider backing down
+	#DIPLO_PLAY_BACK_DOWN_BASE_CHANCE = 0.05 # 1.0 = 1%
+	#DIPLO_PLAY_BACK_DOWN_SCALED_CHANCE = 0.95 # Scales to military strength ratio below threshold
+	#DIPLO_PLAY_SWAY_THRESHOLD = 2.0 # If AI has this much military strength compared to enemy, don't bother trying to sway anyone
+	#DIPLO_PLAY_TAKE_SIDES_ESCALATION = 30 # Above this escalation, AI will potentially start taking sides (or declare neutrality) even if not swayed
+	#DIPLO_PLAY_TAKE_SIDES_CHANCE = 0.1 # Per point of escalation above threshold (note that an AI is not guaranteed to take a side even if this roll evaluates to true)
+	#DIPLO_PLAY_ABANDON_SUPPORT_CHANCE = 0.1 # Multiplied with negative support score
+	#DIPLO_PLAY_SWAY_COUNTRIES_ESCALATION = 20 # Above this escalation, AI will potentially start swaying countries
+	#DIPLO_PLAY_SWAY_COUNTRIES_CHANCE = 0.1 # Per point of escalation above threshold
+	#DIPLO_PLAY_TIMED_WEIGHT_DURATION = 12 # When AI randomly determines sympathy for one side of a diplo play, how long does that weight stay
+	#DIPLO_PLAY_WEAK_PREFERENCE_THRESHOLD = 25 # At this delta, an AI country is considered to have a weak preference for that side of the diplo play
+	#DIPLO_PLAY_STRONG_PREFERENCE_THRESHOLD = 50 # At this delta, an AI country is considered to have a preference for that side of the diplo play
+	#DIPLO_PLAY_WEAK_ABANDON_SUPPORT_THRESHOLD = -25 # If support for the side an AI country is backing drops below this, consider abandoning it
+	#DIPLO_PLAY_STRONG_ABANDON_SUPPORT_THRESHOLD = -50 # If support for the side an AI country is backing drops below this, abandon it immediately
+	#DIPLO_PLAY_SWAY_DAYS_LEFT_MAX = 5  # AI will not answer a sway offer when it has more than this amount of days left (should map to SWAY_OFFER_TIMEOUT_DAYS)
+	#DIPLO_PLAY_SWAY_DAYS_LEFT_MIN = 2	# AI will always answer a sway offer when it has this or less amount of days left (should map to SWAY_OFFER_TIMEOUT_DAYS)
+	#DIPLO_PLAY_SWAY_ANSWER_CHANCE = 33 # Chance per tick of AI answering a sway offer (1 = 1%)
+	
+	# Below data is used to determine which side the AI wants to join a diplo play
+	#DIPLO_PLAY_RANDOM_RANGE = 100 # The higher this is, the more random AI diplo play join logic will be
+	#DIPLO_PLAY_DEFENDER_FACTOR = 25 # Added to defending side's score
+	#DIPLO_PLAY_SWITCH_SIDES_FACTOR = -10 # If AI has already picked a side, add reluctance to accept further sway offers
+	
+	# Diplo play scoring for relations levels
+	#DIPLO_PLAY_RELATIONS_HOSTILE_FACTOR = -50
+	#DIPLO_PLAY_RELATIONS_COLD_FACTOR = -25
+	#DIPLO_PLAY_RELATIONS_POOR_FACTOR = -10
+	#DIPLO_PLAY_RELATIONS_CORDIAL_FACTOR = 10
+	#DIPLO_PLAY_RELATIONS_AMICABLE_FACTOR = 25
+	#DIPLO_PLAY_RELATIONS_FRIENDLY_FACTOR = 50
+	
+	# Diplo play scoring for infamy levels 	
+	#DIPLO_PLAY_INFAMY_INFAMOUS_FACTOR = -25
+	#DIPLO_PLAY_INFAMY_NOTORIOUS_FACTOR = -50
+	#DIPLO_PLAY_INFAMY_PARIAH_FACTOR = -200
+
+	# Diplo play scoring for attitudes (with scoring against both primary and backers)
+	#DIPLO_PLAY_ATTITUDE_DISINTERESTED_FACTOR = -10
+	#DIPLO_PLAY_ATTITUDE_DISINTERESTED_BACKER_FACTOR = 0
+	#DIPLO_PLAY_ATTITUDE_CAUTIOUS_FACTOR = -20
+	#DIPLO_PLAY_ATTITUDE_CAUTIOUS_BACKER_FACTOR = -10
+	#DIPLO_PLAY_ATTITUDE_CONCILIATORY_FACTOR = 0
+	#DIPLO_PLAY_ATTITUDE_CONCILIATORY_BACKER_FACTOR = 0
+	#DIPLO_PLAY_ATTITUDE_COOPERATIVE_FACTOR = 10
+	#DIPLO_PLAY_ATTITUDE_COOPERATIVE_BACKER_FACTOR = 5
+	#DIPLO_PLAY_ATTITUDE_GENIAL_FACTOR = 50
+	#DIPLO_PLAY_ATTITUDE_GENIAL_BACKER_FACTOR = 25
+	#DIPLO_PLAY_ATTITUDE_WARY_FACTOR = -20
+	#DIPLO_PLAY_ATTITUDE_WARY_BACKER_FACTOR = -10
+	#DIPLO_PLAY_ATTITUDE_BELLIGERENT_FACTOR = -50
+	#DIPLO_PLAY_ATTITUDE_BELLIGERENT_BACKER_FACTOR = -25
+	#DIPLO_PLAY_ATTITUDE_ANTAGONISTIC_FACTOR = -50
+	#DIPLO_PLAY_ATTITUDE_ANTAGONISTIC_BACKER_FACTOR = -25
+	#DIPLO_PLAY_ATTITUDE_LOYAL_FACTOR = 100
+	#DIPLO_PLAY_ATTITUDE_LOYAL_BACKER_FACTOR = 25
+	#DIPLO_PLAY_ATTITUDE_REBELLIOUS_FACTOR = -100
+	#DIPLO_PLAY_ATTITUDE_REBELLIOUS_BACKER_FACTOR = -50
+	#DIPLO_PLAY_ATTITUDE_PROTECTIVE_FACTOR = 50
+	#DIPLO_PLAY_ATTITUDE_PROTECTIVE_BACKER_FACTOR = 10
+	#DIPLO_PLAY_ATTITUDE_DOMINEERING_FACTOR = -20
+	#DIPLO_PLAY_ATTITUDE_DOMINEERING_BACKER_FACTOR = 0
+	
+	#DIPLO_PLAY_SWAY_RANDOM_FACTOR = 1.0 # The higher this is, the more random the AI will be about which countries it tries to sway first
+	#DIPLO_PLAY_SWAY_CALL_IN_OBLIGATION = 1000 # When calling in an obligation
+	#DIPLO_PLAY_SWAY_OFFER_OBLIGATION = 30 # For being offered an obligation
+	#DIPLO_PLAY_SWAY_WARGOAL_FACTOR = 1.0 # Multiplied by wargoal value
+	#DIPLO_PLAY_SWAY_WARGOAL_THRESHOLD = 20 # A wargoal needs at least this value to be wanted as part of sway offer
+	#DIPLO_PLAY_SWAY_UNWANTED_WARGOAL = -1000 # For being offered unwanted wargoal
+	
+	#DEFAULT_UNDESIRABLE_INFAMY_LEVEL = 50 # The default amount of infamy that the AI will be reluctant to be at or exceed if not specified in any of their strategies
+	#DEFAULT_UNACCEPTABLE_INFAMY_LEVEL = 100 # The default amount of infamy that the AI will refuse to be at or exceed if not specified in any of their strategies	
+	
+	#LOW_AGGRESSION_BASE_EFFECT_MULT = 0.5 # The impact of low ai aggression game rule on how often the AI starts diplomatic plays
+	#HIGH_AGGRESSION_BASE_EFFECT_MULT = 1.5 # The impact of high ai aggression game rule on how often the AI starts diplomatic plays
+	#LOW_AGGRESSION_INFAMY_ACCEPTANCE_MULT = 0.5 # The amount of infamy the AI considers undesirable/unacceptable is multiplied by this for low aggression AI
+	#HIGH_AGGRESSION_INFAMY_ACCEPTANCE_MULT = 1.5 # The amount of infamy the AI considers undesirable/unacceptable is multiplied by this for low aggression AI
+	#AI_AGGRESSION_MAX_ACCEPTABLE_INFAMY = 100 # Undesirable/unacceptable infamy will not be set above this from high aggression
+	
+	# Below data is used to determine which wargoals the AI will pick
+	#WAR_GOAL_RANDOM_FACTOR = 2.0 					# The higher this is, the more random AI wargoal selection will be
+	#WAR_GOAL_UNDESIRABLE_INFAMY_FACTOR = 0.5 		# Wargoal value is multiplied by this if it would bring the country above undesirable infamy levels
+	#WAR_GOAL_UNACCEPTABLE_INFAMY_FACTOR = 0			# Wargoal value is multiplied by this if it would bring the country above unacceptable infamy levels
+	
+	# Below data is used to determine which states are most important to assign commanders to
+	STATE_BASE_WEIGHT = 60
+	STATE_POPULATION_WEIGHT = 0.1 # Per 10000 pops
+	STATE_ARABLE_LAND_WEIGHT = 0.5
+	STATE_POPULATION_MAX_WEIGHT = 30	
+	STATE_ARABLE_LAND_MAX_WEIGHT = 30
+	STATE_INCORPORATED_WEIGHT_MULT = 2.0
+	STATE_BORDER_WEIGHT_MULT = 3.0
+	STATE_OWN_STATE_WEIGHT_MULT = 4.0
+	STATE_CAPITAL_WEIGHT_MULT = 5.0	
+	STATE_WAR_BORDER_WEIGHT_MULT = 8000.0
+	
+	# Below data is used to determine which states are most important to invade
+	INVADE_STATE_RANDOM_FACTOR = 1.0 # The higher this is, the more random AI invasion orders will be
+	INVADE_STATE_BASE_WEIGHT = 60
+	INVADE_STATE_POPULATION_WEIGHT = 0.1 # Per 10000 pops
+	INVADE_STATE_ARABLE_LAND_WEIGHT = 0.5
+	INVADE_STATE_POPULATION_MAX_WEIGHT = 30
+	INVADE_STATE_ARABLE_LAND_MAX_WEIGHT = 30
+	INVADE_STATE_INCORPORATED_WEIGHT_MULT = 2.0
+	INVADE_STATE_BORDER_WEIGHT_MULT = 3.0
+	INVADE_STATE_CAPITAL_WEIGHT_MULT = 4.0	
+	INVADE_STATE_WARGOAL_WEIGHT_MULT = 5.0
+	STATE_INVADE_MULT = 250.0 # Use invade state score * this on enemy states
+
+    # Below data is used for General Orders:
+
+	# If the AI has less units than its enemy on a front, this weight is applied to the importance that front has when deciding to attack/defend it.
+	# Use a value >= 1.0. Example: 1.2 means: add 20% importance to a front when in disadvantage.
+	FRONT_IMPORTANCE_WHEN_IN_DISADVANTAGE_WEIGHT_MULT = 1.50 # def 1.2
+
+	# A percentage [0.0, 1.0] representing how many AI units are on a front out of the total (AI's + Enemy's) units, used to
+	# determine when to start applying FRONT_IMPORTANCE_WEIGHT_WHEN_IN_DISADVANTAGE.
+    UNITS_PERCENTAGE_TO_BE_CONSIDERED_IN_DISADVANTAGE = 0.50 # def 0.40
+
+	# Below data is used to determine which regions are most important to declare an interest in
+	#DECLARE_INTEREST_RANDOM_FACTOR = 1.0 # The higher this is, the more random AI declare interest will be
+	#DECLARE_INTEREST_STICKYNESS_FACTOR = 3.0
+	#DECLARE_INTEREST_BASE_SCORE = 10
+	#DECLARE_INTEREST_GDP_DIVISOR = 100000
+	#DECLARE_INTEREST_GDP_WEIGHT = 10 # Per DECLARE_INTEREST_GDP_DIVISOR GDP
+	#DECLARE_INTEREST_GDP_MAX_WEIGHT = 100
+	#DECLARE_INTEREST_COLONIZABLE_WEIGHT = 300
+
+	# Below data is used to determine which seazones are most important to assign supply chains and admirals to
+	#SEAZONE_BASE_WEIGHT = 50
+	SEAZONE_COASTAL_STATE_BASE_WEIGHT = 1000 # def 10
+	#SEAZONE_COASTAL_STATE_POPULATION_WEIGHT = 1 # Per 10000 pops in adjacent owned land states
+	#SEAZONE_COASTAL_STATE_ARABLE_LAND_WEIGHT = 5 # For adjacent owned land states
+	#SEAZONE_COASTAL_STATE_POPULATION_MAX_WEIGHT = 100
+	#SEAZONE_COASTAL_STATE_ARABLE_LAND_MAX_WEIGHT = 100
+	#SEAZONE_COASTAL_STATE_INCORPORATED_WEIGHT_MULT = 2.0
+	#SEAZONE_COASTAL_STATE_CAPITAL_WEIGHT_MULT = 2.0
+	#SEAZONE_ADJACENT_ASSIGNMENT_WEIGHT_MULT = 2.0 # Per adjacent existing admiral assignment, when NOT deciding on first assignment for admirals
+	#SEAZONE_HAS_ASSIGNMENT_FIRST_ASSIGNMENT_WEIGHT_MULT = 0.1 # If the seazone has another admiral assigned to it, when deciding on first assignment for admirals
+	#SEAZONE_ADJACENT_ASSIGNMENT_FIRST_ASSIGNMENT_WEIGHT_MULT = 0.2 # Per adjacent existing admiral assignment, when deciding on first assignment for admirals
+	#SEAZONE_ADJACENT_TO_ADJACENT_ASSIGNMENT_FIRST_ASSIGNMENT_WEIGHT_MULT = 0.5 # Per adjacent-to-adjacent existing admiral assignment, when deciding on first assignment for admirals
+	#SEAZONE_INVASION_SCORE_MULT = 2.0 # Use invade state score * this when at war
+	#SEAZONE_DESIRED_PROTECTION_FLOTILLAS = 5
+	#SEAZONE_DESIRED_PROTECTION_FLOTILLAS_AT_WAR = 5
+
+	# Below data is used to determine which states should be colonized first
+	#NUM_GROWING_COLONIES_BASE = 1 # How many colonies will the AI keep growing at once (base amount)
+	#NUM_GROWING_COLONIES_SCALED = 3 # 1 extra colony at once per this amount of colonial growth points
+	#NUM_GROWING_COLONIES_MAX = 3 # No more than this amount of growing colonies at once, regardless of amount of colonial growth points
+	#COLONY_BASE_WEIGHT = 50
+	#COLONY_POPULATION_WEIGHT = 0.2	# Per 10000 pops
+	#COLONY_ARABLE_LAND_WEIGHT = 10
+	#COLONY_ADJACENT_WEIGHT_MULT = 10.0
+	#COLONY_UNCONTESTED_WEIGHT_MULT = 3.0	
+	#COLONY_RANDOM_FACTOR = 2
+	
+	# Below data is used to calculate how much weight the AI places on enacting/revoking a law
+	#CHANGE_LAW_RANDOM_FACTOR = 1.0 # The higher this is, the more random AI law enactment will be
+	#CHANGE_LAW_BASE_VALUE = 100
+	#CHANGE_LAW_PRO_IDEOLOGIES = 100 # For enacting laws, per matching ideology score
+	#CHANGE_LAW_ANTI_IDEOLOGIES = 100 # For revoking laws, per opposed ideology score
+	#CHANGE_LAW_APPROVAL_CIVIL_WAR_THRESOLD = -8 # If a law change would cause an IG to get to this level of disapproval, be careful about the change as it might spark a civil war
+	
+	# Below data is used to calculate how much weight the AI places on investing into a law
+	#INVEST_IN_LAW_RANDOM_FACTOR = 1.0 # The higher this is, the more random AI law investment will be
+	#INVEST_IN_LAW_BASE_VALUE = 500
+	
+	# Below data is used to calculate AI's desire for peace
+	AI_PEACE_AGREEMENT_BASE_VALUE = 0
+	AI_PEACE_AGREEMENT_WHITE_PEACE = 5 # If no wargoals are being enforced on either side
+	AI_PEACE_AGREEMENT_WAR_SUPPORT_FACTOR = -1	
+	AI_PEACE_AGREEMENT_ALLY_WARGOAL_FACTOR = 10 # For each wargoal that our allies are pressing
+	AI_PEACE_AGREEMENT_SELF_WARGOAL_FACTOR = 30 # For each wargoal we have that's being pressed
+	AI_PEACE_AGREEMENT_ENEMY_WARGOAL_SELF_FACTOR = -60 # For each wargoal that the enemy is pressing against us
+	AI_PEACE_AGREEMENT_ENEMY_WARGOAL_ALLY_FACTOR = -20 # For each wargoal that's being pressed against our allies
+	
+	#AI_CAPITULATE_BASE_VALUE = -25
+	#AI_CAPITULATE_WAR_LEADER_FACTOR = -25 # If warleader
+	#AI_CAPITULATE_WAR_SUPPORT_FACTOR = -1	
+	#AI_CAPITULATE_SELF_WARGOAL_FACTOR = -10 # For each wargoal we hold in the war
+	#AI_CAPITULATE_ENEMY_WARGOAL_FACTOR = -30 # For each wargoal targeting us in the war
+	
+	#AI_WAR_SUPPORT_DROP_WAR_GOAL = 20 # For each this amount of war support below 0, remove a war goal on our side
+	#AI_MONTHS_PASSED_BEFORE_DROPPING_WAR_GOALS = 12 # After this amount of months since war start, start considering dropping war goals to end stalemate wars
+	#AI_MONTHS_PASSED_DROP_WAR_GOAL = 6 # For each this amount of months that have passed in addition to the above, remove a war goal on our side
+	
+
+	# AI country-specific goal data
+	#SECRET_GOAL_STICKYNESS = 2.0 # The higher this is, the less likely the AI is to change an established secret goal during recalculation
+	#SECRET_GOAL_SAME_GOAL_BONUS = 1.5
+	#ATTITUDE_STRONG_GOAL_SCORE_THRESHOLD = 100
+	#ATTITUDE_WEAK_GOAL_SCORE_THRESHOLD = 50
+
+	GOAL_THREAT_INFAMOUS_FACTOR = 10
+	GOAL_THREAT_NOTORIOUS_FACTOR = 20
+	GOAL_THREAT_PARIAH_FACTOR = 200
+	GOAL_THREAT_NEIGHBOR_FACTOR = 10
+	#GOAL_THREAT_SP_MAX_MULT = 2
+	#GOAL_THREAT_SP_RECALC_DELAY = 40
+	#GOAL_THREAT_SP_RECALC_VAR_RANGE = 10
+	
+	#GOAL_ANTAGONIZE_POOR_RELATIONS_FACTOR = 25
+	#GOAL_ANTAGONIZE_COLD_RELATIONS_FACTOR = 50
+	#GOAL_ANTAGONIZE_HOSTILE_RELATIONS_FACTOR = 100
+	#GOAL_ANTAGONIZE_CONQUER_SCORE_MULT = 1.0 # Multiplied by the total score of the territory we want to take from them
+	#GOAL_ANTAGONIZE_CONQUER_SCORE_MAX = 200
+	#GOAL_ANTAGONIZE_DOMINATE_SCORE_MULT = 1.0 # Multiplied by the total score of make-subject wargoals we want to enforce on them
+	#GOAL_ANTAGONIZE_DOMINATE_SCORE_MAX = 200
+	#GOAL_ANTAGONIZE_RIVAL_FACTOR = 100
+	#GOAL_ANTAGONIZE_WAR_FACTOR = 50
+	#GOAL_ANTAGONIZE_NATURAL_ENEMY_FACTOR = 75
+	
+	#GOAL_BEFRIEND_CORDIAL_RELATIONS_FACTOR = 25
+	#GOAL_BEFRIEND_AMICABLE_RELATIONS_FACTOR = 50
+	#GOAL_BEFRIEND_FRIENDLY_RELATIONS_FACTOR = 100
+	#GOAL_BEFRIEND_PROTECTOR_THRESHOLD = 25
+	#GOAL_BEFRIEND_PROTECTOR_FACTOR = 1.0
+	#GOAL_BEFRIEND_PROTECTOR_RIVAL_MULT = 2.0 # Score multiplied by this if they can protect against our rival
+	#GOAL_BEFRIEND_PROTECTOR_MAX_FACTOR = 100
+	#GOAL_BEFRIEND_PROTECTOR_SP_MAX_MULT = 2
+	#GOAL_BEFRIEND_SUBJECT_FACTOR = 25
+	#GOAL_BEFRIEND_ALLIANCE_FACTOR = 50
+	#GOAL_BEFRIEND_NATURAL_ALLY_FACTOR = 75
+	#GOAL_BEFRIEND_RECONCILE_FACTOR = 500
+	#GOAL_BEFRIEND_WANTS_TO_PROTECT_FACTOR = 100
+	
+	#FRIENDLY_AI_JOIN_DIPLO_PLAY_FACTOR = 100
+	
+	#VIOLATE_SOVEREIGNTY_ACTION_NAME = "violate_sovereignty"
+	#VIOLATE_SOVEREIGNTY_MIN_RELATIVE_STRENGTH = 4.0 # We must have their army x this in SP to want to violate their sovereignty
+	#VIOLATE_SOVEREIGNTY_BASE_SCORE = 10
+	#VIOLATE_SOVEREIGNTY_RANDOM_FACTOR = 2.0 # The higher this is, the more random the AI will be about who it violates the sovereignty of
+	#VIOLATE_SOVEREIGNTY_SCORE_PER_THEATER = 5 # Per allied theater we would connect to the enemy
+	#VIOLATE_SOVEREIGNTY_HOME_THEATER_FACTOR = 10.0 # Multiply score by this if we would connect to the enemy home theater
+
+	#EXPEL_DIPLOMATS_ACTION_NAME = "expel_diplomats"
+	
+}
+
+NMilitary = {
+    GENERAL_TRAVEL_PIXELS_TO_DAYS_SCALE = 0.10      # Used to convert a travel distance from pixels to days. Example: a travel of 500px becomes 500 * 0.05 = 25 days # def 0.05
+    GENERAL_TRAVEL_OVERSEAS_SCALE = 1.25            # Used if a general is traveling overseas. So the total duration of the travel becomes Duration * GENERAL_TRAVEL_OVERSEAS_SCALE
+}

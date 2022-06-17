@@ -1,0 +1,54 @@
+﻿kill_character = {
+	third = KILL_CHARACTER
+	third_neg = KILL_CHARACTER_NEG
+}
+
+add_commander_rank = {
+	third = ADD_COMMANDER_RANK
+}
+
+set_commander_rank = {
+	third = SET_COMMANDER_RANK
+}
+
+add_character_role = {
+	third = ADD_CHARACTER_ROLE
+}
+
+add_experience = {
+	third = ADD_EXPERIENCE
+}
+
+add_trait = {
+	third = ADD_TRAIT
+}
+
+remove_trait = {
+	third = REMOVE_TRAIT
+}
+
+transfer_character = {
+	third = TRANSFER_CHARACTER
+}
+
+set_character_busy = {
+	third = SET_CHARACTER_BUSY
+	third_neg = SET_CHARACTER_BUSY_NEG
+}
+
+set_next_election_date = {
+	third = SET_NEXT_ELECTION_DATE
+}
+
+place_character_in_void = {
+	third = PLACE_CHARACTER_IN_VOID
+}
+
+free_character_from_void = {
+	third = FREE_CHARACTER_FROM_VOID
+	third_neg = FREE_CHARACTER_FROM_VOID_NEG	
+}
+
+change_character_religion = {
+	third = CHANGE_CHARACTER_RELIGION
+}

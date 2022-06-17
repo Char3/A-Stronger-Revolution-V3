@@ -1,0 +1,38 @@
+﻿flotilla_prefix = {
+	type = country
+	random_valid = no
+
+	text = {
+		trigger = {
+			exists = c:GBR
+			this = c:GBR
+		}
+		localization_key = flotilla_prefix_hms_sv
+	}
+    text = {
+		trigger = {
+			exists = c:USA
+			this = c:USA
+		}
+		localization_key = flotilla_prefix_uss
+	}
+    #[etc...] TODO: PRCAL-16524 more prefixes
+}
+
+troop_name = {
+	type = building
+	random_valid = no
+	
+	text = {
+		trigger = {
+			is_building_type = building_barracks
+		}
+		localization_key = troop_name_regular
+	}
+	text = {
+		trigger = {
+			is_building_type = building_conscription_center
+		}
+		localization_key = troop_name_conscript
+	}
+}

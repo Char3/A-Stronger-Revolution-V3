@@ -1,0 +1,296 @@
+﻿je_acw_countdown = {
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	# TODO we could make these fail conditions
+		# and have complete conditions about abolishing slavery peacefully. but that's a nice to have
+
+	complete = {
+		custom_tooltip = {
+			text = csa_spawned_text
+			any_country = {
+				has_war_with = ROOT
+				OR = {
+					c:CSA = THIS
+					c:FSA = THIS
+				}
+			}
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = acw_je_events.1 }
+	}
+
+	on_monthly_pulse = {
+		random_events = {
+			# American Civil War buildup
+			20 = acw_events.1 # The Abolitionist's Martyrdom
+			20 = acw_events.3 # The Wilmot Proviso
+			20 = acw_events.4 # Proliferating Slave Narratives
+		}
+	}
+	on_yearly_pulse = {
+		random_events = {
+			40 = 0
+			20 = acw_events.2 # The Fugitive Slave
+			20 = acw_events.5 # Bleeding Kansas
+			20 = acw_events.6 # The Caning of Charles Sumner
+		}
+	}
+
+	weight = 100
+
+	should_be_pinned_by_default = yes
+}
+
+je_acw_war = {
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	immediate = {
+		if = {
+			limit = { exists = c:CSA }
+			c:CSA = {
+				every_scope_state = {
+					state_region = {
+						set_variable = {
+							name = confederate_state
+							value = yes
+						}
+					}
+				}
+			}
+		}
+	}
+
+	complete = {
+		scope:target = { is_country_alive = no }
+	}
+
+	on_complete = {
+		trigger_event = { id = acw_je_events.2 }
+		if = {
+			limit = { 
+				NOT = { exists = c:CSA }
+				any_scope_state = { state_region = { has_variable = confederate_state } } # this basically serves as a check that it was the CSA, not the FSA, who seceded
+			}
+			ruler = {
+				set_variable = {
+					name = abraham_lincoln
+					value = yes
+				}
+			}
+		}
+	}
+
+	on_monthly_pulse = {
+		random_events = {
+			50 = 0
+			20 = acw_je_events.4
+		}
+	}
+
+	should_be_pinned_by_default = yes
+
+	# acw_events.7 fires for the FSA or CSA, but requires the je_acw_war journal to be active
+	# acw_events.8 fires for the USA, FSA or CSA, but requires the je_acw_war journal to be active
+}
+
+je_acw_reconstruction = {
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = acw_je_events.3 }
+		hidden_effect = { # sanity check just in case something somehow falls through the cracks
+			every_scope_state = {
+				limit = { has_modifier = unreconstructed_state }
+				remove_modifier = unreconstructed_state
+			}
+		}
+	}
+
+	current_value = {
+		value = var:reconstruction_var
+	}
+
+	goal_add_value = {
+		add = 3
+	}
+
+	timeout = 4380
+
+	should_be_pinned_by_default = yes
+
+	on_timeout = {
+		trigger_event = { id = acw_je_events.3 }
+	}
+}
+
+je_acw_reincorporate = {
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	complete = {
+		NOT = {
+			any_scope_state = {
+				state_region = {
+					is_homeland = cu:dixie
+					has_variable = confederate_state
+				}
+				loyalist_fraction = {
+					value < 0.5
+					culture = cu:dixie
+				}
+			}
+		}
+	}
+
+	on_complete = {
+		custom_tooltip = {
+			text = dont_lose_dixie_culture
+			set_variable = acw_keep_dixie
+		}
+		custom_tooltip = {
+			text = reconstruction_progress
+			change_variable = {
+				name = reconstruction_var
+				add = 1
+			}
+		}
+	}
+
+	on_monthly_pulse = {
+		random_events = {
+			50 = 0
+			20 = acw_followup_events.6
+			20 = acw_followup_events.7
+			20 = acw_followup_events.8
+		}
+	}
+
+	invalid = {
+		NOT = {
+			any_scope_state = {
+				state_region = {
+					is_homeland = cu:dixie
+				}
+			}
+		}
+	}
+
+	timeout = 4380
+}
+
+je_acw_equality = {
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	complete = {
+		cu:afro_american = {
+			NOT = { culture_is_discriminated_in = ROOT }
+		}
+		NOT = { # No state that is a former Confederate state should have any African-American pops with a SoL of less than 10
+			any_scope_state = {
+				state_region = { has_variable = confederate_state }
+				any_scope_pop = {
+					culture = cu:afro_american
+					standard_of_living < 10
+				}
+			}
+		}
+	}
+
+	on_complete = {
+		custom_tooltip = {
+			text = acw_african_american_culture
+			set_variable = acw_gain_african_american
+		}
+		custom_tooltip = {
+			text = reconstruction_progress
+			change_variable = {
+				name = reconstruction_var
+				add = 1
+			}
+		}
+	}
+
+	on_monthly_pulse = {
+		random_events = {
+			20 = acw_followup_events.4 # Forty Acres and a Mule
+			20 = acw_followup_events.5 # Supremacist Violence
+			20 = acw_followup_events.6 # Redeemers
+		}
+	}
+
+	timeout = 4380
+
+	invalid = {
+		NOT = {
+			any_scope_state = {
+				state_region = {
+					is_homeland = cu:afro_american
+				}
+			}
+		}
+	}
+}
+
+je_acw_wild_wild_west = {
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	complete = {
+		NOT = {
+			any_scope_state = {
+				state_region = {
+					OR = {
+						is_homeland = cu:dixie
+						is_homeland = cu:yankee
+					}
+				}
+				devastation > 0.1
+				turmoil > 0.1
+			}
+		}
+	}
+
+	on_complete = {
+		custom_tooltip = {
+			text = acw_no_outlaw_crisis
+		}
+		custom_tooltip = {
+			text = reconstruction_progress
+			change_variable = {
+				name = reconstruction_var
+				add = 1
+			}
+		}
+	}
+
+	on_monthly_pulse = {
+		random_events = {
+			100 = 0
+			10 = crime_events.1 # train robbery
+			10 = wild_west.1 # bank robberies
+			10 = wild_west.2 # Raids on the Iron Horse
+			10 = wild_west.3 # Gunfight at the Corral
+		}
+	}
+
+	invalid = {
+		NOT = {
+			any_scope_state = {
+				state_region = {
+					OR = {
+						is_homeland = cu:dixie
+						is_homeland = cu:yankee
+					}
+				}
+			}
+		}
+	}
+
+	timeout = 4380
+}

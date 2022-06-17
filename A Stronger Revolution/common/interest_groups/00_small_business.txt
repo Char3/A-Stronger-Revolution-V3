@@ -10,7 +10,8 @@
 	}
 
 	enable = {
-		tag = c:USA
+		exists = c:USA
+		THIS = c:USA
 	}
 	
 	traits = {

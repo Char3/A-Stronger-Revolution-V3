@@ -1,0 +1,34 @@
+﻿british_raj_decision = {
+	is_shown = {
+		exists = c:GBR
+		exists = c:BIC
+		c:GBR = ROOT
+		c:BIC = {
+			is_subject_of = ROOT
+		}
+		NOT = { has_variable = british_raj_var }
+	}
+
+
+	possible = {
+		OR = {
+			institution_investment_level = {
+				institution = institution_colonial_affairs
+				value >= 4
+			}
+			#custom_tooltip = {
+				#text = sepoy_mutiny_happened
+				#hidden_trigger = {
+					#has_global_variable = sepoy_mutiny_has_happened
+				#}
+			#}
+		}
+	}
+
+	when_taken = {
+		set_variable = {
+			name = british_raj_var
+		}
+		trigger_event = { id = raj.1 days = 0 popup = yes }
+	}
+}

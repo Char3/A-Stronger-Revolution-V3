@@ -1,0 +1,1013 @@
+﻿concept_concept = {}
+
+concept_sol = {
+	texture = "gfx/interface/icons/generic_icons/sol_icon.dds"
+}
+
+concept_unit = {}
+
+concept_kill_rate = {}
+
+concept_recovery_rate = {}
+
+concept_casualties = {}
+
+concept_offense = {}
+
+concept_defense = {}
+
+concept_building = {
+	texture = "gfx/interface/icons/notification_icons/buildings.dds"
+}
+
+concept_pop_needs = {}
+
+concept_pop_growth = {}
+
+concept_individual = {}
+
+concept_opinion = {}
+
+concept_colonize = {
+	texture = "gfx/interface/icons/lens_toolbar_icons/establish_colony.dds"
+}
+
+concept_diplomatic_play = {
+	texture = "gfx/interface/icons/lens_toolbar_icons/lens_tabs/icon_diplomatic_lens_diplomatic_plays.dds"
+}
+
+concept_diplomatic_action = {
+	texture = "gfx/interface/icons/lens_toolbar_icons/lens_tabs/icon_diplomatic_lens_diplomatic_actions.dds"
+}
+
+concept_maneuver = {
+	texture = "gfx/interface/icons/generic_icons/maneuvers.dds"
+}
+
+concept_bureaucracy = {
+	texture = "gfx/interface/icons/topbar/bureaucracy_icon.dds"
+}
+
+concept_influence = {
+	texture = "gfx/interface/icons/topbar/influence_icon.dds"
+}
+
+concept_authority = {
+	texture = "gfx/interface/icons/topbar/authority_icon.dds"
+}
+
+concept_potentials = {
+	texture = "gfx/interface/icons/map_mode_icons/potentials.dds"
+}
+
+concept_assimilation = {
+	texture = "gfx/interface/icons/generic_icons/assimilation.dds"
+}
+
+concept_conversion = {
+	texture = "gfx/interface/icons/generic_icons/conversion.dds"
+}
+
+concept_money = {
+	texture = "gfx/interface/icons/topbar/income_power_icon.dds"
+}
+
+concept_timed_modifier = {}
+
+concept_taxation = {}
+
+concept_tariffs = {}
+
+concept_national_debt = {}
+
+concept_credit_limit = {}
+
+concept_interest_group_trait = {
+	texture = "gfx/interface/icons/ig_trait_icons/unknown.dds"
+}
+
+concept_clout = {}
+
+concept_status = {}
+
+concept_profession = {}
+
+concept_local_price = {} 
+
+concept_market_capital = {
+	texture = "gfx/interface/icons/state_status_icons/state_market_capital_icon.dds"
+}
+
+concept_trade_route = {
+	texture = "gfx/interface/main_hud/trade_overview_btn.dds"
+}
+
+concept_trade_route_value = {}
+
+concept_trade_agreement = {}
+
+concept_interest_group = {
+
+    alias = { concept_interest_group_possessive }
+	tutorial_lesson = lesson_interest_group
+}
+
+concept_party = {}
+
+concept_subsistence_output = {}
+
+concept_good_production = {
+	texture = "gfx/interface/icons/map_mode_icons/production.dds"
+}
+
+concept_good_consumption = {
+	texture = "gfx/interface/icons/map_mode_icons/consumption.dds"
+}
+
+concept_investment_level = {}
+
+concept_split_state = {
+	texture = "gfx/interface/icons/state_status_icons/split_state_icon.dds"
+}
+
+concept_colonial_state = {
+	texture = "gfx/interface/icons/state_status_icons/colony.dds"
+}
+
+concept_unincorporated_state = {
+	texture = "gfx/interface/icons/state_status_icons/unincorporated_state.dds"
+}
+
+concept_decentralized_nation = {}
+
+concept_arable_land = {
+	texture = "gfx/interface/icons/generic_icons/arable_land_icon.dds"
+}
+
+concept_occupancy = {}
+
+concept_votes = {}
+
+concept_ig_population = {}
+
+concept_ig_approval = {
+	texture = "gfx/interface/icons/generic_icons/approval_icon.dds"
+}
+
+concept_pol_str = {}
+
+concept_marginalized = {}
+
+concept_politically_inactive = {
+	texture = "gfx/interface/icons/ig_icons/politically_inactive.dds"
+}
+
+concept_trade_lens = {
+	texture = "gfx/interface/icons/lens_toolbar_icons/trade_lens_button.dds"
+}
+
+concept_production_lens = {
+	texture = "gfx/interface/icons/lens_toolbar_icons/production_lens_button.dds"
+}
+
+concept_political_lens = {
+	texture = "gfx/interface/icons/lens_toolbar_icons/political_lens_button.dds"
+}
+
+concept_diplomatic_lens = {
+	texture = "gfx/interface/icons/lens_toolbar_icons/diplomatic_lens_button.dds"
+}
+
+concept_military_lens = {
+	texture = "gfx/interface/icons/lens_toolbar_icons/military_lens_button.dds"
+}
+
+concept_country = {
+    alias = { concept_country_possessive }
+}
+
+concept_decree = {
+	texture = "gfx/interface/icons/lens_toolbar_icons/lens_tabs/icon_political_lens_decrees.dds"
+}
+
+concept_population = {
+	texture = "gfx/interface/icons/generic_icons/population.dds"
+}
+
+concept_army_budget = {}
+
+concept_battalion = {
+	texture = "gfx/interface/icons/generic_icons/battalions_60.dds"
+}
+
+concept_fully_mobilized_battalions = {
+	texture = "gfx/interface/icons/generic_icons/battalions_60.dds"
+}
+
+concept_available_battalions = {
+	texture = "gfx/interface/icons/generic_icons/battalions_60.dds"
+}
+
+concept_potential_battalions = {
+	texture = "gfx/interface/icons/generic_icons/battalions_60.dds"
+}
+
+concept_warship = {
+	texture = "gfx/interface/icons/generic_icons/flotillas.dds"
+}
+
+concept_flotilla = {
+	texture = "gfx/interface/icons/generic_icons/flotillas.dds"
+}
+
+concept_in_government = {
+	texture = "gfx/interface/icons/generic_icons/in_government_icon.dds"
+}
+
+concept_default = {}
+
+concept_bankruptcy = {}
+
+concept_civil_war = {}
+
+concept_in_opposition = {
+	texture = "gfx/interface/icons/generic_icons/in_opposition_icon.dds"
+}
+
+concept_legitimacy = {
+	texture = "gfx/interface/icons/generic_icons/legitimacy.dds"
+}
+
+concept_embargo = {
+	texture = "gfx/interface/icons/generic_icons/embargo_icon.dds"
+}
+
+concept_encourage_consumption = {}
+
+concept_discourage_consumption = {}
+
+concept_consumption_tax = {}
+
+concept_market_controller = {
+	alias = { concept_market_controller_possessive }
+}
+
+concept_market_share = {}
+
+concept_radical = {
+	texture = "gfx/interface/icons/generic_icons/population_radical.dds"
+}
+
+concept_loyalist = {
+	texture = "gfx/interface/icons/generic_icons/population_loyalist.dds"
+}
+
+concept_radicalized = {
+	texture = "gfx/interface/icons/politics_icons/radicalized.dds"
+}
+
+concept_de_radicalize = {
+	texture = "gfx/interface/icons/generic_icons/population_radical.dds"
+}
+
+concept_rivalry = {}
+
+concept_colony = {
+	texture = "gfx/interface/icons/state_status_icons/colony.dds"
+}
+
+concept_innovation = {
+	texture = "gfx/interface/icons/generic_icons/innovation.dds"
+}
+
+concept_technology_spread = {}
+
+concept_technology_era = {}
+
+concept_prestige = {}
+
+concept_morale = {}
+
+concept_command = {}
+
+concept_escalation = {}
+
+concept_oppose = {}
+
+concept_support = {
+	texture = "gfx/interface/icons/diplo_play_icons/stance_supports.dds"
+}
+
+concept_yield = {}
+
+concept_abstain = {}
+
+concept_gold_reserves = {}
+
+concept_cash_reserves = {}
+
+concept_command_prio = {}
+
+concept_supply = {
+	texture = "gfx/interface/icons/military_icons/overseas_supply.dds"
+}
+
+concept_organization_tooltip = {}
+
+concept_construction_sector = {}
+
+concept_barrack = {}
+
+concept_naval_base = {
+	texture = "gfx/interface/icons/building_icons/naval_base.dds"
+}
+
+concept_battle_summary_warsupport = {}
+
+concept_defend = {
+	texture = "gfx/interface/icons/commander_order_icons/defend.dds"
+}
+
+concept_patrol = {
+	texture = "gfx/interface/icons/commander_order_icons/patrol.dds"
+}
+
+concept_defend_state = {}
+
+concept_conquer_state = {
+	texture = "gfx/interface/icons/war_goals/conquer_state.dds"
+}
+
+concept_set_objective = {}
+
+concept_manage_character = {}
+
+concept_manpower = {}
+
+concept_rank = {
+	texture = "gfx/interface/icons/commander_rank_icons/commander_rank_5.dds"
+}
+
+concept_power_projection = {
+	texture = "gfx/interface/icons/commander_order_icons/power_projection.dds"
+}
+
+concept_credit = {}
+
+concept_principal = {}
+
+concept_domestic_loans = {}
+
+concept_interest = {}
+
+concept_literacy = {
+	texture = "gfx/interface/icons/generic_icons/literacy.dds"
+}
+
+concept_navy = {
+	texture = "gfx/interface/icons/generic_icons/flotillas.dds"
+}
+
+concept_military = {
+	texture = "gfx/interface/icons/generic_icons/flotillas.dds"
+}
+
+concept_construction_queue = {}
+
+concept_political_strength = {}
+
+concept_sea_lane = {}
+
+concept_port = {}
+
+concept_politician = {
+	texture = "gfx/interface/icons/character_role_icons/politician.dds"
+}
+
+concept_character = {}
+
+concept_theater = {}
+
+concept_discrimination = {
+	texture = "gfx/interface/icons/generic_icons/discriminated_icon.dds"
+}
+
+concept_urbanization = {}
+
+concept_urban_center = {}
+
+concept_treaty_port = {
+	texture = "gfx/interface/icons/state_status_icons/treaty_port_icon.dds"
+}
+
+concept_unemployed = {
+	texture = "gfx/interface/icons/pops_icons/unemployed.dds"
+}
+
+concept_peasants = {}
+
+concept_disenfranchised = {}
+
+concept_modifier = {}
+
+concept_ruler = {
+	alias = { concept_ruler_possessive }
+	texture = "gfx/interface/icons/character_role_icons/ruler.dds"
+}
+
+concept_heir = {
+	texture = "gfx/interface/icons/character_role_icons/heir.dds"
+}
+
+concept_homeland = {
+	texture = "gfx/interface/icons/state_status_icons/state_homelands.dds"
+}
+
+concept_conscription_center = {
+	texture = "gfx/interface/icons/building_icons/building_conscription_center.dds"
+}
+
+concept_mobilize_general = {
+	texture = "gfx/interface/icons/generic_icons/mobilize_icon_single.dds"
+}
+
+concept_mobilize_battalion = {
+	texture = "gfx/interface/icons/generic_icons/mobilize_icon_single.dds"
+}
+
+concept_conscript_battalion = {
+	texture = "gfx/interface/icons/generic_icons/battalions_60.dds"
+}
+
+concept_character_trait = {}
+
+concept_migration = {}
+
+concept_migration_target = {}
+
+concept_mass_migration_target = {
+	texture = "gfx/interface/icons/state_status_icons/mass_migration_target.dds"
+}
+
+concept_input_mult = {}
+
+concept_throughput = {}
+
+concept_inactive_interest = {
+	texture = "gfx/interface/icons/generic_icons/inactive_interest.dds"
+}
+
+concept_active_interest = {
+	texture = "gfx/interface/icons/generic_icons/active_interest.dds"
+}
+
+concept_declared_interest = {
+	texture = "gfx/interface/icons/generic_icons/declared_interest.dds"
+}
+
+concept_capital_state = {
+	texture = "gfx/interface/icons/state_status_icons/state_capital_icon.dds"
+}
+
+concept_combat_effectiveness = {}
+
+concept_offensive_combat_effectiveness = {}
+
+concept_defensive_combat_effectiveness = {}
+
+concept_slavery = {
+	texture = "gfx/interface/icons/pops_icons/slaves.dds"
+}
+
+concept_state_region = {}
+
+concept_powerful = {}
+
+concept_influential = {}
+
+concept_base_price = {
+	texture = "gfx/interface/icons/generic_icons/coin_icon_09.dds"
+}
+
+concept_leader = {}
+
+concept_ideology = {}
+
+concept_subsistence_building = {}
+
+concept_non_government_building = {}
+
+concept_workforce = {}
+
+concept_turmoil = {
+	texture = "gfx/interface/icons/state_status_icons/has_turmoil.dds"
+}
+
+concept_cultural_turmoil = {}
+
+concept_taxes = {
+	texture = "gfx/interface/main_hud/budget_btn.dds"
+}
+
+concept_general = {
+	texture = "gfx/interface/icons/character_role_icons/general.dds"
+}
+
+concept_admiral = {
+	texture = "gfx/interface/icons/character_role_icons/admiral.dds"
+}
+
+concept_working_adults = {}
+
+concept_dependents = {}
+
+concept_peace_deal = {}
+
+concept_war = {}
+
+concept_war_goal = {}
+
+concept_resource_potential = {
+	texture = "gfx/interface/icons/state_status_icons/resources.dds"
+}
+
+concept_subject = {}
+
+concept_great_power = {}
+
+concept_major_power = {}
+
+concept_minor_power = {}
+
+concept_insignificant_power = {}
+
+concept_subject_power = {}
+
+concept_unrecognized_power = {}
+
+concept_obligation = {
+	texture = "gfx/interface/icons/generic_icons/obligation.dds"
+}
+
+concept_government_administration = {
+	texture = "gfx/interface/icons/generic_icons/government_building_icon.dds"
+}
+
+concept_radicalization = {
+	texture = "gfx/interface/icons/generic_icons/population_radical.dds"
+}
+
+concept_native_uprising = {}
+
+concept_infamy = {
+	texture = "gfx/interface/icons/map_mode_icons/infamy.dds"
+}
+
+concept_diplomatic_incident = {}
+
+concept_tension = {}
+
+concept_relation = {
+	texture = "gfx/interface/icons/map_mode_icons/relations.dds"
+}
+
+concept_instant_diplomatic_action = {}
+
+concept_ongoing_diplomatic_action = {}
+
+concept_diplomatic_pact = {}
+
+concept_war_reparations = {}
+
+concept_humiliation = {}
+
+concept_open_market = {}
+
+concept_customs_union = {}
+
+concept_senior_partner = {}
+
+concept_junior_partner = {}
+
+concept_defensive_pact = {}
+
+concept_alliance = {}
+
+concept_protectorate = {}
+
+concept_puppet = {}
+
+concept_personal_union = {}
+
+concept_dominion = {}
+
+concept_vassal = {}
+
+concept_tributary = {}
+
+concept_revolution = {
+	texture = "gfx/interface/icons/politics_icons/revolution.dds"
+}
+
+concept_secession = {}
+
+concept_profitability = {}
+
+concept_expeditionary_force = {
+	texture = "gfx/interface/icons/generic_icons/expeditionary_force.dds"
+}
+
+concept_commander_of_front = {}
+
+concept_construction = {
+	texture = "gfx/interface/icons/state_status_icons/has_construction.dds"
+}
+
+concept_gdp = {
+	texture = "gfx/interface/icons/generic_icons/gdp.dds"
+}
+
+concept_education_access = {}
+
+concept_isolated_state = {
+	texture = "gfx/interface/icons/generic_icons/market_isolated.dds"
+}
+
+concept_input_goods_shortage = {
+	texture = "gfx/interface/icons/generic_icons/goods_shortage.dds"
+}
+
+concept_market = {
+    alias = { concept_market_possessive }
+}
+
+concept_market_access = {}
+
+concept_infrastructure = {
+	texture = "gfx/interface/icons/state_status_icons/state_infrastructure.dds"
+}
+
+concept_infrastructure_usage = {
+	texture = "gfx/interface/icons/state_status_icons/state_infrastructure.dds"
+}
+
+concept_infrastructure_connection = {
+	texture = "gfx/interface/icons/state_status_icons/state_infrastructure.dds"
+}
+
+concept_good = {
+	texture = "gfx/interface/icons/generic_icons/generic_goods.dds"
+}
+
+concept_government_good = {}
+
+concept_military_good = {}
+
+concept_state = {
+    alias = { concept_state_possessive }
+    texture = "gfx/interface/icons/lens_toolbar_icons/lens_tabs/icon_political_lens_state_actions.dds"
+}
+
+concept_pop = {
+    alias = { concept_pop_possessive concept_pops }
+	tutorial_lesson = lesson_pops
+}
+
+concept_production_method = {}
+
+concept_culture = {
+    alias = { concept_culture_possessive }
+    texture = "gfx/interface/main_hud/culture_overview_btn.dds"
+}
+
+concept_accepted_culture = {
+	texture = "gfx/interface/icons/generic_icons/accepted_icon.dds"
+}
+
+concept_primary_cultures = {}
+
+concept_investment_pool = {}
+
+concept_religion = {}
+
+concept_accepted_religion = {
+	texture = "gfx/interface/icons/generic_icons/accepted_icon.dds"
+}
+
+concept_state_religion = {}
+
+concept_discrimination_trait = {}
+
+concept_wealth = {}
+
+concept_technology = {}
+
+concept_sway = {
+	texture = "gfx/interface/icons/proposal_icons/proposal_sway.dds"
+}
+
+concept_strategic_region = {}
+
+concept_incorporated_state = {}
+
+concept_government_building = {}
+
+concept_military_building = {}
+
+concept_government = {}
+
+concept_law = {
+	alias = { concept_laws }
+}
+
+concept_law_group = {}
+
+concept_institution = {}
+
+concept_canal = {}
+
+concept_monument = {}
+
+concept_productivity = {}
+
+concept_goods_substitution = {}
+
+concept_taboo = {}
+
+concept_obsession = {}
+
+concept_buy_orders = {}
+
+concept_sell_orders = {}
+
+concept_election = {
+	texture = "gfx/interface/icons/event_icons/event_election.dds"
+}
+
+concept_protected_export_share = {}
+
+concept_dividends = {}
+
+concept_budget_land_taxes = {
+	 texture = "gfx/interface/main_hud/budget_btn.dds"
+}
+
+concept_budget_heathen_taxes = {
+	texture = "gfx/interface/main_hud/budget_btn.dds"
+}
+
+concept_budget_poll_taxes = {
+	texture = "gfx/interface/main_hud/budget_btn.dds"
+}
+
+concept_budget_per_capita_taxes = {
+	texture = "gfx/interface/main_hud/budget_btn.dds"
+}
+
+concept_budget_income_taxes = {
+	texture = "gfx/interface/main_hud/budget_btn.dds"
+}
+
+concept_budget_consumption_taxes = {
+	texture = "gfx/interface/main_hud/budget_btn.dds"
+}
+
+concept_budget_dividends_taxes = {
+	texture = "gfx/interface/main_hud/budget_btn.dds"
+}
+
+concept_budget_additional_income = {
+	texture = "gfx/interface/main_hud/budget_btn.dds"
+}
+
+concept_budget_minting = {
+	texture = "gfx/interface/main_hud/budget_btn.dds"
+}
+
+concept_budget_investment_income = {
+	texture = "gfx/interface/main_hud/budget_btn.dds"
+}
+
+concept_budget_additional_expenses = {
+	texture = "gfx/interface/main_hud/budget_btn.dds"
+}
+
+concept_budget_diplomatic_pacts = {}
+
+concept_budget_construction_goods = {}
+
+concept_budget_construction_wages = {
+	texture = "gfx/interface/main_hud/budget_btn.dds"
+}
+
+concept_budget_construction_slaves = {}
+
+concept_budget_government_wages = {
+	texture = "gfx/interface/main_hud/budget_btn.dds"
+}
+
+concept_budget_wages = {
+	texture = "gfx/interface/main_hud/budget_btn.dds"
+}
+
+concept_budget_goods_for_government_buildings = {}
+
+concept_budget_government_slaves = {}
+
+concept_budget_military_wages = {
+	texture = "gfx/interface/main_hud/budget_btn.dds"
+}
+
+concept_budget_goods_for_military_buildings = {}
+
+concept_budget_military_slaves = {}
+
+concept_subsidies = {}
+
+concept_budget_interest_rate = {
+	texture = "gfx/interface/main_hud/budget_btn.dds"
+}
+
+concept_devastation = {
+	texture = "gfx/interface/icons/state_status_icons/has_devastation.dds"
+}
+
+concept_command_limit = {}
+
+concept_front = {}
+
+concept_garrison = {}
+
+concept_advancement_progress = {}
+
+concept_advancement_speed = {}
+
+concept_province = {}
+
+concept_battle_condition = {}
+
+concept_battle = {
+	texture = "gfx/interface/map_markers/battle_icon.dds"
+}
+
+concept_terrain = {}
+
+concept_claim = {
+	texture = "gfx/interface/icons/state_status_icons/has_claims.dds"
+}
+
+concept_country_tier = {}
+
+concept_market_price = {
+	texture = "gfx/interface/main_hud/budget_btn.dds"
+}
+
+concept_commander = {}
+
+concept_war_support = {}
+
+concept_war_exhaustion = {}
+
+concept_pop_qualifications = {}
+
+concept_ownership_share = {}
+
+concept_hq = {
+	texture = "gfx/interface/icons/generic_icons/home_hq.dds"
+}
+
+concept_combat_width = {}
+
+concept_tax_waste = {}
+
+concept_ai_strategy = {}
+
+concept_strategic_desire = {}
+
+concept_attitude = {
+	texture = "gfx/interface/icons/map_mode_icons/attitude.dds"
+}
+
+concept_life_experience = {}
+
+concept_supply_network = {}
+
+concept_convoys = {
+	texture = "gfx/interface/icons/generic_icons/convoys.dds"
+}
+
+concept_shipping_lane = {}
+
+concept_shipping_lane_effectiveness = {}
+
+concept_port_connection = {}
+
+concept_supply_route = {}
+
+concept_government_expenses = {}
+
+concept_sovereignty = {}
+
+concept_normal_wage = {
+	texture = "gfx/interface/main_hud/budget_btn.dds"
+}
+
+concept_in_reserve = {}
+
+concept_popularity = {
+	texture = "gfx/interface/icons/generic_icons/popularity.dds"
+}
+
+concept_momentum = {}
+
+concept_cultural_trait = {}
+
+concept_cultural_heritage_trait = {}
+
+concept_religious_trait = {}
+
+concept_dead = {}
+
+concept_wounded = {}
+
+concept_attrition = {
+	texture = "gfx/interface/icons/military_icons/attrition.dds"
+}
+
+concept_character_role = {}
+
+concept_building_wage = {
+	texture = "gfx/interface/main_hud/budget_btn.dds"
+}
+
+concept_building_balance = {
+	texture = "gfx/interface/main_hud/budget_btn.dds"
+}
+
+concept_head_of_state = {}
+
+concept_lower_strata = {
+	texture = "gfx/interface/icons/pops_icons/sol_poor_icon.dds"
+}
+
+concept_middle_strata = {
+	texture = "gfx/interface/icons/pops_icons/sol_middle_icon.dds"
+}
+
+concept_upper_strata = {
+	texture = "gfx/interface/icons/pops_icons/sol_upper_icon.dds"
+}
+
+concept_enactment_success = {}
+
+concept_enactment_advance = {}
+
+concept_enactment_debate = {}
+
+concept_enactment_stall = {}
+
+concept_migration_pull = {}
+
+concept_political_movement = {}
+
+concept_political_movement_support = {}
+
+concept_political_movement_radicalism = {}
+
+concept_political_movement_placated = {}
+
+concept_economy_of_scale = {}
+
+concept_trade_route_competitiveness = {}
+
+concept_journal_entry = {
+	texture = "gfx/interface/main_hud/journal_btn.dds"
+}
+
+concept_promote = {
+	texture = "gfx/interface/icons/generic_icons/ig_promote.dds"
+}
+
+concept_interest_group_attraction = {}
+
+concept_treasury = {
+	texture = "gfx/interface/icons/topbar/income_power_icon.dds"
+}
+
+concept_suppress = {
+	texture = "gfx/interface/icons/generic_icons/ig_suppress.dds"
+}
+
+concept_order = {}
+
+concept_unification_candidate = {
+	texture = "gfx/interface/icons/war_goals/unification.dds"
+}
+
+concept_unification_supporter = {}
+
+concept_under_construction = {
+	texture = "gfx/interface/icons/state_status_icons/has_construction.dds"
+}
+
+concept_observer_mode = {}

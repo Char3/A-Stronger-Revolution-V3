@@ -1,0 +1,691 @@
+﻿# possible - filters out achivements on game start so we dont have to check everything all the time
+# happened - checks if achivement happened
+
+peccavi = {
+	possible = {
+		exists = c:BIC
+		this = c:BIC
+	}
+	happened = {
+		exists = c:BIC
+		this = c:BIC
+		owns_entire_state_region = STATE_SINDH
+		owns_entire_state_region = STATE_PUNJAB
+	}
+}
+
+perkeletankki = { 
+	possible = {
+		exists = c:FIN
+		this = c:FIN
+	}
+	happened = {
+		exists = c:FIN
+		this = c:FIN
+		mg:tanks = {
+			market_goods_production >= 100
+		}
+	}
+}
+
+
+
+luxurious_luxembourg = {
+	possible = {
+		exists = c:LUX
+		this = c:LUX
+	}
+	happened = {
+		exists = c:LUX
+		c:LUX = {
+			leading_producer_of = g:luxury_clothes
+			leading_producer_of = g:luxury_furniture
+			leading_producer_of = g:porcelain
+		}
+	}
+}
+
+anarchy_in_the_uk = {
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	happened = {
+		exists = c:GBR
+		this = c:GBR
+		has_law = law_type:law_anarchy
+	}
+}
+
+muhammed_alis_ambition = {
+	possible = {
+		exists = c:EGY
+		this = c:EGY
+	}
+	happened = {
+		exists = c:ARA
+		this = c:ARA
+		owns_entire_state_region = STATE_THRACE
+	}
+}
+
+an_empire_under_the_pun = {
+	possible = {
+		exists = c:PAN
+		this = c:PAN
+	}
+	happened = {
+		exists = c:PAN
+		this = c:PAN
+		c:PAN = {
+			is_subject = c:GBR
+		}
+	}
+}
+
+i_didnt_vote_for_pedro = {
+	possible = {
+		exists = c:BRZ
+		this = c:BRZ
+	}
+	happened = {
+		exists = c:BRZ
+		this = c:BRZ
+		OR = {
+			has_law = law_type:law_presidential_republic
+			has_law = law_type:law_parliamentary_republic
+		}
+		has_law = law_type:law_universal_suffrage
+	}
+}
+
+go_west_young_man = {
+	possible = {
+		exists = c:USA
+		this = c:USA
+	}
+	happened = {
+		exists = c:USA
+		this = c:USA
+		s:STATE_CALIFORNIA= {
+			exists = region_state:USA
+			region_state:USA = {
+				is_split_state = no
+				state_population >= 250000
+			}
+		}
+		s:STATE_OREGON= {
+			exists = region_state:USA
+			region_state:USA = {
+				is_split_state = no
+				state_population >= 250000
+			}
+		}
+		s:STATE_WASHINGTON= {
+			exists = region_state:USA
+			region_state:USA = {
+				is_split_state = no
+				state_population >= 250000
+			}
+		}
+	}
+}
+
+the_western_protectorate = {
+	possible = {
+		exists = c:CHI
+		this = c:CHI
+	}
+	happened = {
+		exists = c:CHI
+		c:CHI = {
+			french_treaty_ports = yes
+			german_treaty_ports = yes
+			british_treaty_ports = yes
+			italian_treaty_ports = yes
+			iberian_treaty_ports = yes
+		}
+	}
+}
+
+the_paris_commune = {
+	possible = {
+		exists = c:FRA
+		this = c:FRA
+	}
+	happened = {
+		exists = c:FRA
+		this = c:FRA
+		c:FRA = {
+			has_law = law_type:law_command_economy
+			has_law = law_type:law_council_republic
+		}
+	}
+}
+
+barbarys_back = {
+	possible = {
+		exists = c:ALD
+		this = c:ALD
+	}
+	happened = {
+		exists = c:ALD
+		this = c:ALD
+		c:ALD = {
+			owns_entire_state_region = STATE_ALGIERS
+			country_rank >= rank_value:major_power
+		}
+	}
+}
+
+miners_and_minors = {
+	possible = {
+		exists = c:LAN
+		this = c:LAN
+	}
+	happened = {
+		exists = c:LAN
+		this = c:LAN
+		c:LAN = {
+			owns_entire_state_region = STATE_EAST_BORNEO
+			any_scope_state = {
+				state_region = s:STATE_EAST_BORNEO
+				is_incorporated = yes
+			}
+			owns_entire_state_region = STATE_NORTH_BORNEO
+			any_scope_state = {
+				state_region = s:STATE_NORTH_BORNEO
+				is_incorporated = yes
+			}
+			owns_entire_state_region = STATE_WEST_BORNEO
+			any_scope_state = {
+				state_region = s:STATE_WEST_BORNEO
+				is_incorporated = yes
+			}
+			has_law = law_type:law_compulsory_primary_school
+		}
+	}
+}
+
+healthy_man_of_europe = {
+	possible = {
+		exists = c:TUR
+		this = c:TUR
+	}
+	happened = {
+		exists = c:TUR
+		c:TUR = {
+			institution_investment_level = {
+				institution = institution_health_system
+				value = 5
+			}
+			global_country_ranking = 1
+		}
+	}
+}
+
+habsburg_resurgence = {
+	possible = {
+		exists = c:AUS
+		this = c:AUS
+	}
+	happened = {
+		exists = c:AUS
+		this = c:AUS
+		c:AUS = {
+			owns_entire_state_region = STATE_SILESIA
+		}
+		or = {
+			not = {
+				exists = c:PRU
+			}
+			c:PRU = {
+				country_rank < rank_value:major_power
+			}
+		}
+	}
+}
+
+great_game = {
+	possible = {
+		exists = c:RUS
+		this = c:RUS
+	}
+	happened = {
+		exists = c:RUS
+		this = c:RUS
+		owned_central_asia_region_states = yes
+	}
+}
+
+bourbon_for_everyone = {
+	possible = {
+		exists = c:SPA
+		this = c:SPA
+	}
+	happened = {
+		exists = c:SPA
+		c:SPA = {
+			root.average_sol >= 20
+			has_law = law_type:law_monarchy
+		}
+	}
+}
+
+manifest_mexico = {
+	possible = {
+		exists = c:MEX
+		this = c:MEX
+	}
+	happened = {
+		exists = c:MEX
+		this = c:MEX
+		c:MEX = {
+			owned_great_plains_region_states = yes
+			owned_pacific_coast_region_states = yes
+			country_rank >= rank_value:great_power
+		}
+		OR = {
+			NOT = { exists = c:USA }
+			c:USA = {
+				country_rank <= rank_value:minor_power
+			}
+		}
+	}
+}
+
+american_territory = {
+	possible = {
+		exists = c:SEQ
+		this = c:SEQ
+	}
+	happened = {
+		exists = c:SEQ
+		this = c:SEQ
+		exists = c:USA
+		c:USA ={
+			is_subject = c:SEQ
+			any_scope_state = {
+				count <=3
+			}
+		}
+	}
+}
+
+broken_promises = {
+	possible = {
+		can_form_nation = ITA
+	}
+	happened = {
+		exists = c:ITA
+		this = c:ITA
+		is_diplomatic_play_committed_participant = yes
+		any_diplomatic_play = {
+			NOT = {
+				OR = {
+					initiator_is = c:ITA
+					target_is = c:ITA
+				}
+			}
+			OR = {
+				AND = {
+					any_scope_initiator_ally = {
+						this = c:ITA
+					}
+					any_scope_target_ally = {
+						count >= 2
+						any_scope_ally = {
+							this = c:ITA
+						}
+					}
+				}
+				AND = {
+					any_scope_target_ally = {
+						this = c:ITA
+					}
+					any_scope_initiator_ally = {
+						count >= 2
+						any_scope_ally = {
+							this = c:ITA
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+the_berlin_conference = {
+	possible = {
+		exists = c:PRU
+		this = c:PRU
+	}
+	happened = {
+		exists = c:GER
+		c:GER = {
+			any_scope_state = {
+				OR = {
+					european_colonies_north_africa = yes
+					european_colonies_west_africa = yes
+					european_colonies_nile_basin = yes
+					european_colonies_central_africa = yes
+					european_colonies_east_africa = yes
+					european_colonies_south_africa = yes
+				}
+				count = 10
+				is_incorporated = no
+			}
+		}
+	}
+}
+
+belle_epoque = {
+	possible = {
+		exists = c:FRA
+		this = c:FRA
+	}
+	happened = {
+		exists = c:FRA
+		this = c:FRA
+		c:FRA = {
+			is_player = yes
+			has_global_highest_gdp = yes			
+			has_global_highest_innovation = yes
+		}
+	}
+}
+
+deeds_not_words = {
+	possible = {
+	}
+	happened = {
+		has_law = law_type:law_womens_suffrage
+	}
+}
+
+first_flight = {
+	possible = {
+	}
+	happened = {
+		has_variable = first_flight_achievement_check
+	}
+}
+
+victorian_century = {
+	possible = {
+	}
+	happened = {
+		game_date >= 1935.12.30
+	}
+}
+
+poor_huddled_masses = {
+	possible = {
+	}
+	happened = {
+		is_player = yes
+		any_scope_state = {	
+			is_mass_migration_target = yes 
+		}
+	}
+}
+
+billionare = { 
+	possible = {
+	}
+	happened = {
+		GDP >= 1000000000 
+	}
+}
+
+serfs_up = { 
+	possible = {
+		has_law = law_type:law_serfdom
+	}
+	happened = {
+		has_law = law_type:law_worker_protections
+	}
+}
+
+risorgimento = {
+	possible = {
+		can_form_nation = ITA
+	}
+	happened = {
+		exists = c:ITA
+		this = c:ITA
+	}
+}
+
+three_hurrahs = {
+	possible = {
+		can_form_nation = GER
+	}
+	happened = {
+		exists = c:GER
+		this = c:GER
+	}
+}
+
+solomons_quest = {
+	possible = {
+		can_form_nation = ETH
+	}
+	happened = {
+		exists = c:ETH
+		this = c:ETH
+	}
+}
+
+i_am_a_scandinavian = {
+	possible = {
+		can_form_nation = SCA
+	}
+	happened = {
+		exists = c:SCA
+		this = c:SCA
+	}
+}
+
+enlightened_despot = {
+	possible = {
+	}
+	happened = {
+		has_law = law_type:law_autocracy 
+		any_scope_state = {
+			percent = 1
+			is_production_method_active = {
+				building_type = building_urban_center
+				production_method = pm_electric_streetlights
+			}
+		}
+	}
+}
+
+mightier_than_the_sword = {
+	possible = {
+		NOT = { has_global_variable = achievement_mightier_than_the_sword }
+	}
+	happened = {
+		has_global_variable = achievement_mightier_than_the_sword
+	}
+}
+
+revolutionary = {
+	possible = {
+		NOT = { has_global_variable = achievement_revolutionary }
+	}
+	happened = {
+		has_global_variable = achievement_revolutionary
+	}
+}
+
+reading_campaign = {
+	possible = {
+		any_country = {
+			is_player = yes
+			literacy_rate <= 0.2
+		}
+	}
+	happened = {
+		any_country = {
+			is_player = yes
+			literacy_rate = 1
+		}
+	}
+}
+
+we_are_not_amused = {
+	possible = {
+		exists = c:GBR
+		this = c:GBR
+	}
+	happened = {
+		exists = c:GBR
+		this = c:GBR
+		any_country = {
+			is_player = no
+			root = { has_diplomats_expelled = prev }
+			relations:root >= relations_threshold:cordial
+			country_rank >= rank_value:great_power
+		}
+	}
+}
+
+institutional = {
+	possible = {
+	}
+	happened = {
+		is_player = yes
+		or = {
+			institution_investment_level = {
+				institution = institution_police
+				value = 5
+			}
+			institution_investment_level = {
+				institution = institution_colonial_affairs
+				value = 5
+			}
+			institution_investment_level = {
+				institution = institution_social_security
+				value = 5
+			}
+			institution_investment_level = {
+				institution = institution_workplace_safety
+				value = 5 
+			}
+			institution_investment_level = {
+				institution = institution_schools
+				value = 5
+			}
+			institution_investment_level = {
+				institution = institution_health_system
+				value = 5
+			}
+			institution_investment_level = {
+				institution = institution_home_affairs
+				value = 5
+			}
+		}
+	}
+}
+
+poppydock = {
+	possible = {
+	}
+	happened = {
+		any_scope_state = {
+			has_building = building_port
+			count >= 5
+		}
+		mg:opium = {
+			market_goods_exports >= 1000
+		}
+	}
+}
+
+grander_colombia = {
+	possible = {
+	}
+	happened = { 
+		exists = c:GCO
+		this = c:GCO
+		owned_gran_colombia_region_states = yes
+		owned_andes_region_states = yes
+		owned_la_plata_region_states = yes
+	}
+}
+
+inventive = {
+	possible = {
+	}
+	happened = {
+		any_country = {
+			is_player = yes
+			NOT = { 
+				has_researchable_technology = yes 
+			}
+		}
+	}
+}
+
+educated = { 
+	possible = {
+		NOT = { has_global_variable = achievement_educated }
+	}
+	happened = {
+		has_global_variable = achievement_educated 	
+	}
+}
+
+tycoon = { 
+	possible = {
+		NOT = { has_global_variable = achievement_tycoon }
+	}
+	happened = {
+		has_global_variable = achievement_tycoon
+	}
+}
+
+hegemon = {
+	possible = {
+		NOT = { has_global_variable = achievement_hegemon }
+	}
+	happened = {
+		has_global_variable = achievement_hegemon
+	}
+}
+
+caretaker = {
+	possible = {
+		NOT = { has_global_variable = achievement_caretaker }
+	}
+	happened = {
+		has_global_variable = achievement_caretaker
+	}
+}
+
+star_swarmed_banner = {
+	possible = {
+		exists = c:USA
+		this = c:USA
+	}
+	happened = {
+		exists = c:USA
+		this = c:USA
+		c:USA = {
+			any_scope_state = {
+				hidden_trigger = {
+					state_region = { NOT = { has_variable = usa_state_flag_block } }
+				}
+				is_incorporated = yes
+				count = 100
+			}
+			has_law = law_type:law_presidential_republic
+			NOT = { has_law = law_type:law_autocracy }
+		}
+		custom_tooltip = {
+			text = star_swarmed_banner_tt
+		}
+	}
+}

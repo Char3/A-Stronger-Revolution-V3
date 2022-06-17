@@ -1,0 +1,111 @@
+﻿is_accepted_culture_and_religion = {
+	if = {
+		limit = {
+			is_accepted_culture = no
+		}
+		factor = 0.20
+	}
+	if = {
+		limit = {
+			is_state_religion = no
+		}
+		factor = 0.20
+	}
+}
+
+standard_weekly_profit = {
+	if = {
+		limit = {
+			scope:workplace = { weekly_profit > 0.5 }
+		}
+		factor = 2
+	}
+	if = {
+		limit = {
+			scope:workplace = { weekly_profit > 1.0 }
+		}
+		factor = 2
+	}
+	if = {
+		limit = {
+			scope:workplace = { weekly_profit > 2.0 }
+		}
+		factor = 2
+	}
+	if = {
+		limit = {
+			scope:workplace = { weekly_profit > 5.0 }			
+		}
+		factor = 2
+	}
+}
+
+workplace_slots_filled = {
+	if = {
+		limit = {
+			scope:workplace = {
+				has_employee_slots_filled = {
+					pop_type = $POP_TYPE$
+					percent < 0.2
+				}
+			}			
+		}
+		factor = 5
+	}
+	if = {
+		limit = {
+			scope:workplace = {
+				has_employee_slots_filled = {
+					pop_type = $POP_TYPE$
+					percent < 0.4
+				}
+			}			
+		}
+		factor = 2
+	}
+	if = {
+		limit = {
+			scope:workplace = {
+				has_employee_slots_filled = {
+					pop_type = $POP_TYPE$
+					percent > 0.4
+				}
+			}		
+		}
+		factor = 1
+	}
+	if = {
+		limit = {
+			scope:workplace = {
+				has_employee_slots_filled = {
+					pop_type = $POP_TYPE$
+					percent > 0.6
+				}
+			}			
+		}
+		factor = 0.5
+	}
+	if = {
+		limit = {
+			scope:workplace = {
+				has_employee_slots_filled = {
+					pop_type = $POP_TYPE$
+					percent > 0.8
+				}
+			}
+		}
+		factor = 0.25
+	}
+}
+
+
+subsistence_laborer_increase = {
+	if = {
+		limit = {
+			scope:workplace = {
+				has_modifier = subsistence_building
+			}
+		}
+		factor = 2.0
+	}
+}

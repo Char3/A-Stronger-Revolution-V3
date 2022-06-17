@@ -1,0 +1,68 @@
+﻿# Brazil - BRZ
+general_brz_alves_de_lima_e_silva = {
+	first_name = Luis_2
+	last_name = Alves_de_Lima_e_Silva
+	culture = cu:brazilian
+	female = no
+	religion = catholic
+	commander_rank = default
+	interest_group = ig_landowners
+	ideology = ideology_royalist
+	birth_date = 1803.8.25
+	traits = {
+		surveyor
+		charismatic
+	}
+	commander_usage = {
+		country_trigger = {
+			this = c:BRZ
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1870.1.1	
+		chance = 75
+	}
+}
+# USA - United States of America
+general_usa_jesup = {
+	first_name = Thomas
+	last_name = Jesup
+	culture = cu:dixie
+	female = no
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1788.12.16
+	traits = {
+		meticulous
+	}
+	commander_usage = {
+		country_trigger = {
+			this = c:USA
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1860.1.1	
+		chance = 75
+	}
+}
+admiral_usa_shubrick = {
+	first_name = William
+	last_name = Shubrick
+	culture = cu:dixie # Stayed loyal to the union during civil war, but from S.Car
+	female = no
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1790.10.31
+	traits = {
+		experienced_naval_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			this = c:USA
+		}
+		role = general
+		earliest_usage_date = 1836.1.1
+		latest_usage_date = 1862.1.1	
+		chance = 75
+	}
+}

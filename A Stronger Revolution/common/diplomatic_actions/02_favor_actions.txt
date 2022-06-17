@@ -1,0 +1,116 @@
+﻿take_on_debt = {
+	requires_approval = no
+	should_notify_third_parties = yes
+	show_effect_in_tooltip = yes
+
+	unlocking_technologies = {
+		central_banking
+	}
+	
+	potential = {
+		NOT = { is_country_type = decentralized }
+		scope:target_country = {
+			NOT = { is_country_type = decentralized }
+		}
+	}
+	
+	possible = {	
+		NOT = { has_war_with = scope:target_country }
+		scope:target_country = {
+			NOT = {
+				has_diplomatic_pact = {
+					who = root
+					type = rivalry
+				}					
+			}					
+		}
+		root = {
+			NOT = {
+				has_diplomatic_pact = {
+					who = scope:target_country
+					type = rivalry
+				}					
+			}					
+		}
+		scope:target_country = {
+			has_scaled_debt >= define:NEconomy|CREDIT_RATIO_HEALTH_THRESHOLD
+		}
+		can_take_on_scaled_debt = {
+			who = scope:target_country
+			value = define:NEconomy|CREDIT_RATIO_HEALTH_THRESHOLD
+		}
+		is_revolutionary = no
+	}
+	
+	accept_effect = {
+		take_on_scaled_debt = {
+			who = scope:target_country
+			value = define:NEconomy|CREDIT_RATIO_HEALTH_THRESHOLD
+		}	
+		if = {
+			limit = {
+				root = {
+					owes_obligation_to = scope:target_country			
+				}			
+			}
+			root = { set_owes_obligation_to = { country = scope:target_country setting = no } }
+		}		
+		else_if = {
+			limit = {
+				scope:target_country = {
+					NOT = { owes_obligation_to = root }					
+				}			
+			}
+			scope:target_country = { set_owes_obligation_to = { country = root setting = yes } }
+		}
+		else = {
+			change_relations = { country = scope:target_country value = 3 }
+		}
+	}
+	
+	ai = {
+		will_propose = { 
+			scope:target_country = { country_rank < root.country_rank }
+			has_attitude = {
+				who = scope:target_country
+				attitude = protective
+			}
+		}
+	}
+}
+
+redeem_obligation = {
+	requires_approval = no
+	
+	potential = {
+		NOT = { is_country_type = decentralized }
+		scope:target_country = {
+			NOT = { is_country_type = decentralized }
+		}
+		scope:target_country = {
+			owes_obligation_to = root			
+		}	
+	}
+	
+	possible = {
+		is_revolutionary = no
+		scope:target_country = {
+			is_revolutionary = no
+		}
+	}
+
+	accept_effect = {
+		change_relations = { country = scope:target_country value = 30 }
+		scope:target_country = { set_owes_obligation_to = { country = root setting = no } }
+	}
+	
+	ai = {
+		propose_score = {
+			value = 10
+		}	
+	
+		will_propose = { 
+			always = no
+		}
+	}
+}

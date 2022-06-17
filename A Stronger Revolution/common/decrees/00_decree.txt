@@ -1,0 +1,205 @@
+﻿# texture = filename								The icon that will show up in the Lens and on the map when this Focus is deployed
+# modifier											The effects this Decree has on its state
+# cost												The cost in AUT to set this Decree on a state (scales with Power Rank)
+# unlocking_technologies							A list of technologies, at least one of which must be known to the country to use this Focus
+# unlocking_laws									A list of laws, at least one which must be active in the country to use this Focus. If the country switches away from all unlocking laws the Focus will be removed
+# valid												A trigger in state context that determines if the Decree is permitted or not; should invalidate the Decree on a weekly basis if found invalid 
+# ai_weight											Scripted value which determines the chance of getting the Decree by AI
+
+decree_road_maintenance = {
+	texture = "gfx/interface/icons/decree/decree_road_maintenance.dds"
+	valid = {
+		error_check = {
+			severity = fail
+			is_largest_state_in_region = yes
+		}
+	}
+	modifier = {
+		state_infrastructure_add = 25
+		state_construction_mult = 0.10
+	}
+	unlocking_technologies = { 
+		centralization
+	}
+	cost = 200
+
+	ai_weight = {
+		value = 1000
+	}
+}
+
+decree_greener_grass_campaign = {
+	texture = "gfx/interface/icons/decree/decree_greener_grass_campaign.dds"
+	valid = {
+		is_isolated_from_market = no
+	}
+	modifier = {
+		state_migration_pull_mult = 0.5
+	}
+	unlocking_technologies = { 
+		romanticism
+	}
+	cost = 200
+
+	ai_weight = {
+		value = 1000
+	}
+}
+
+decree_promote_social_mobility = {
+	texture = "gfx/interface/icons/decree/decree_promote_social_mobility.dds"
+	modifier = {
+		state_education_access_add = 0.25
+		state_pop_qualifications_mult = 0.25
+	}
+	unlocking_laws = {
+		law_religious_schools
+		law_private_schools
+		law_public_schools
+	}
+	cost = 200
+	
+	ai_weight = {
+		value = 1000
+	}
+}
+
+decree_promote_national_values = {
+	texture = "gfx/interface/icons/decree/decree_promote_national_values.dds"
+	valid = {
+		OR = {
+			has_assimilating_pops = yes
+			has_converting_pops = yes
+		}	
+	}
+	modifier = {
+		state_assimilation_mult = 1
+		state_conversion_mult = 1
+	}
+	cost = 200
+	
+	ai_weight = {
+		value = 1000
+	}
+}
+
+decree_emergency_relief = {
+	texture = "gfx/interface/icons/decree/decree_emergency_relief.dds"
+	unlocking_technologies = {
+		centralization
+	}
+	modifier = {
+		state_minimum_wealth_add = 5
+	}
+	cost = 200
+	
+	ai_weight = {
+		value = 1000
+	}
+}
+
+decree_encourage_manufacturing_industry = {
+	texture = "gfx/interface/icons/decree/decree_encourage_manufacturing_industry.dds"
+	valid = {
+		NOR = { 
+			has_decree = decree_encourage_agricultural_industry
+			has_decree = decree_encourage_resource_industry
+		}
+	}	
+	modifier = {
+		building_group_bg_manufacturing_throughput_mult = 0.1
+		building_group_bg_service_throughput_mult = 0.1
+	}
+	cost = 200
+	
+	ai_weight = {
+		value = 1000
+	}
+}
+
+decree_encourage_agricultural_industry = {
+	texture = "gfx/interface/icons/decree/decree_encourage_agricultural_industry.dds"
+	valid = {
+		NOR = { 
+			has_decree = decree_encourage_manufacturing_industry 
+			has_decree = decree_encourage_resource_industry
+		}
+	}		
+	modifier = {
+		building_group_bg_agriculture_throughput_mult = 0.1
+		building_group_bg_ranching_throughput_mult = 0.1
+		building_group_bg_plantations_throughput_mult = 0.1
+	}
+	cost = 200
+	
+	ai_weight = {
+		value = 1000
+	}
+}
+
+decree_encourage_resource_industry = {
+	texture = "gfx/interface/icons/decree/decree_encourage_resource_industry.dds"
+	valid = {
+		NOR = { 
+			has_decree = decree_encourage_manufacturing_industry 
+			has_decree = decree_encourage_agricultural_industry
+		}
+	}		
+	modifier = {
+		building_group_bg_mining_throughput_mult = 0.1
+		building_group_bg_logging_throughput_mult = 0.1
+		building_group_bg_fishing_throughput_mult = 0.1
+		building_group_bg_whaling_throughput_mult = 0.1
+		building_group_bg_oil_extraction_throughput_mult = 0.1
+	}
+	cost = 200
+	
+	ai_weight = {
+		value = 1000
+	}
+}
+
+decree_elite_guard_training = {
+	texture = "gfx/interface/icons/decree/decree_elite_guard_training.dds"	
+	valid = {
+		has_building = building_barracks
+	}		
+	modifier = {
+		# this should filter down to barracks and conscription centers in the state
+		unit_army_offense_mult = 0.2
+		unit_army_defense_mult = 0.2
+	}
+	unlocking_technologies = {
+		general_staff
+	}
+	cost = 200
+	
+	ai_weight = {
+		value = 1000
+	}
+}
+
+decree_violent_suppression = {
+	texture = "gfx/interface/icons/decree/decree_violent_suppression.dds"
+	valid = {
+		has_building = building_barracks
+	}		
+	
+	unlocking_laws = {
+		law_national_guard
+	}
+	
+	modifier = {
+		state_radicals_from_discrimination_mult = -0.5
+		state_radicals_from_sol_change_mult = -0.5
+		state_turmoil_effects_mult = -0.5
+		state_mortality_turmoil_mult = 0.02
+	}
+	cost = 200
+	
+	ai_weight = {
+		value = 1000
+	}
+}
+
+

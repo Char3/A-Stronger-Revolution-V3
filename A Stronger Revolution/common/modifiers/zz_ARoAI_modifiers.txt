@@ -1,0 +1,32 @@
+uprising_conscription = {
+	#state_conscription_rate_add = -0.00
+	#state_conscription_rate_mult = -0.0
+}
+
+peasant_unrest = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
+	building_group_bg_agriculture_tax_mult = -0.40
+	state_conscription_rate_mult = -0.50
+}
+
+cizye_tax = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	country_tax_income_add = 20 # TODO replace when code support
+	state_conscription_rate_mult = -0.4
+}
+
+draft_excemption_tax = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	country_tax_income_add = 15 # TODO replace when code support
+	state_conscription_rate_mult = -0.3
+}
+
+weakened_by_mutiny = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
+	state_conscription_rate_mult = -0.25
+}
+
+war_for_independence = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	state_conscription_rate_mult = 0.25
+}

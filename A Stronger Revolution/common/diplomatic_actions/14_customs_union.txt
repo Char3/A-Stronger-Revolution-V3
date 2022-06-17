@@ -1,0 +1,583 @@
+﻿customs_union = {
+	requires_approval = yes
+	can_use_obligations = yes
+
+	unlocking_technologies = {
+		international_trade
+	}
+
+	potential = {
+		NOT = { is_country_type = decentralized }
+		scope:target_country = {
+			NOT = { is_country_type = decentralized }
+		}
+	}
+
+	possible = {
+		NOT = { has_war_with = scope:target_country }
+		scope:target_country = {
+			NOT = {
+				has_diplomatic_pact = {
+					who = root
+					type = rivalry
+				}
+			}
+		}
+		root = {
+			NOT = {
+				has_diplomatic_pact = {
+					who = scope:target_country
+					type = rivalry
+				}
+			}
+		}
+		NOT = {
+			has_diplomatic_pact = {
+				who = scope:target_country
+				type = trade_agreement
+			}
+		}
+		NOT = { is_subject_of = scope:target_country }
+		NAND = {
+			is_in_customs_union = yes
+			leads_customs_union = no
+		}
+		custom_tooltip = {
+			text = DIPLO_ACTION_RELATIONS_CORDIAL_OR_GREATER
+			scope:target_country.relations:root >= relations_threshold:cordial
+		}
+		is_revolutionary = no
+		scope:target_country = {
+			is_revolutionary = no
+		}
+	}
+
+	accept_effect = {
+		change_relations = { country = scope:target_country value = 10 }
+	}
+
+	pact = {
+		cost = 25
+		has_junior_participant = yes
+		recipient_pays_maintenance = no
+		is_customs_union = yes
+		
+		subject_type = subject_type_customs_union # A customs union is technically a type of fully autonomous subject
+
+		should_auto_break = {
+			custom_tooltip = {
+				text = DIPLO_ACTION_RELATIONS_CORDIAL_OR_GREATER_NOT
+				scope:target_country.relations:root < relations_threshold:cordial
+			}
+		}
+
+		should_invalidate = {
+			OR = {
+				has_war_with = scope:target_country
+				is_country_type = decentralized
+				scope:target_country = { is_country_type = decentralized }
+				is_subject_of = scope:target_country
+			}
+		}
+
+		break_effect = {
+			change_relations = { country = scope:target_country value = -10 }
+		}
+	}
+
+	ai = {
+		check_acceptance_for_will_break = yes
+		check_acceptance_for_will_propose = yes
+
+		# This is the acceptance score for the senior part of the customs union (used for 'join customs union' action and checking )
+		accept_score = {
+			value = 0
+
+			add = {
+				desc = "DIPLOMATIC_ACCEPTANCE_BASE"
+				value = -50
+			}
+
+			if = {
+				limit = {
+					NOT = { has_strategic_adjacency = scope:target_country }
+					NOT = {
+						scope:target_country = {
+							has_diplomatic_pact = { who = root type = customs_union }
+						}
+					}
+				}
+				add = {
+					desc = "DIPLOMATIC_ACCEPTANCE_NOT_NEIGHBORS"
+					value = -1000
+				}
+			}
+
+			add = {
+				desc = "DIPLOMATIC_ACCEPTANCE_SENIOR_PART"
+				value = 10
+			}
+
+			add = {
+				desc = "DIPLOMATIC_ACCEPTANCE_GDP"
+				value = "scope:target_country.ai_gdp_comparison(root)"
+				multiply = 2
+				min = -10
+				max = 10
+			}
+
+			add = {
+				desc = "DIPLOMATIC_ACCEPTANCE_IDEOLOGICAL_OPINION"
+				value = "scope:target_country.ai_ideological_opinion(root)"
+				multiply = 3
+				min = -15
+				max = 15
+			}
+
+			add = {
+				desc = "DIPLOMATIC_ACCEPTANCE_ATTITUDE"
+				if = {
+					limit = {
+						OR = {
+							has_attitude = {
+								who = scope:target_country
+								attitude = genial
+							}
+							has_attitude = {
+								who = scope:target_country
+								attitude = conciliatory
+							}
+							has_attitude = {
+								who = scope:target_country
+								attitude = loyal
+							}
+							has_attitude = {
+								who = scope:target_country
+								attitude = protective
+							}
+						}
+					}
+					value = 20
+				}
+				if = {
+					limit = {
+						has_attitude = {
+							who = scope:target_country
+							attitude = cooperative
+						}
+					}
+					value = 10
+				}
+				if = {
+					limit = {
+						has_attitude = {
+							who = scope:target_country
+							attitude = cautious
+						}
+					}
+					value = -25
+				}
+				if = {
+					limit = {
+						OR = {
+							has_attitude = {
+								who = scope:target_country
+								attitude = antagonistic
+							}
+							has_attitude = {
+								who = scope:target_country
+								attitude = domineering
+							}
+							has_attitude = {
+								who = scope:target_country
+								attitude = belligerent
+							}
+							has_attitude = {
+								who = scope:target_country
+								attitude = rebellious
+							}
+						}
+					}
+					value = -1000
+				}
+			}
+
+			add = {
+				desc = "DIPLOMATIC_ACCEPTANCE_RELATIONS"
+				if = {
+					limit = {
+						"relations(scope:target_country)" <= relations_threshold:hostile
+					}
+					value = -100
+				}
+				if = {
+					limit = {
+						"relations(scope:target_country)" > relations_threshold:hostile
+						"relations(scope:target_country)" <= relations_threshold:cold
+					}
+					value = -50
+				}
+				if = {
+					limit = {
+						"relations(scope:target_country)" > relations_threshold:cold
+						"relations(scope:target_country)" <= relations_threshold:poor
+					}
+					value = -25
+				}
+				if = {
+					limit = {
+						"relations(scope:target_country)" > relations_threshold:poor
+						"relations(scope:target_country)" < relations_threshold:cordial
+					}
+					value = 0
+				}
+				if = {
+					limit = {
+						"relations(scope:target_country)" >= relations_threshold:cordial
+						"relations(scope:target_country)" < relations_threshold:friendly
+					}
+					value = 10
+				}
+				if = {
+					limit = {
+						"relations(scope:target_country)" >= relations_threshold:amicable
+						"relations(scope:target_country)" < relations_threshold:friendly
+					}
+					value = 20
+				}
+				if = {
+					limit = {
+						"relations(scope:target_country)" >= relations_threshold:friendly
+					}
+					value = 30
+				}
+			}
+
+			add = {
+				desc = "DIPLOMATIC_ACCEPTANCE_INFAMY"
+				if = {
+					limit = {
+						"scope:target_country.infamy" >= infamy_threshold:infamous
+						"scope:target_country.infamy" < infamy_threshold:notorious
+					}
+					value = -10
+				}
+				if = {
+					limit = {
+						"scope:target_country.infamy" >= infamy_threshold:notorious
+						"scope:target_country.infamy" < infamy_threshold:pariah
+					}
+					value = -20
+				}
+				if = {
+					limit = {
+						"scope:target_country.infamy" >= infamy_threshold:pariah
+					}
+					value = -30
+				}
+			}
+		}
+
+		# This is the acceptance score for the junior part of the customs union
+		junior_accept_score = {
+			value = 0
+
+			add = {
+				desc = "DIPLOMATIC_ACCEPTANCE_BASE"
+				value = -50
+			}
+
+			if = {
+				limit = {
+					NOT = { has_strategic_adjacency = scope:target_country }
+					NOT = {
+						scope:target_country = {
+							has_diplomatic_pact = { who = root type = customs_union }
+						}
+					}
+				}
+				add = {
+					desc = "DIPLOMATIC_ACCEPTANCE_NOT_NEIGHBORS"
+					value = -1000
+				}
+			}
+
+			add = {
+				desc = "DIPLOMATIC_ACCEPTANCE_GDP"
+				value = "scope:target_country.ai_gdp_comparison(root)"
+				multiply = 3
+				min = -15
+				max = 15
+			}
+
+			add = {
+				desc = "DIPLOMATIC_ACCEPTANCE_IDEOLOGICAL_OPINION"
+				value = "scope:target_country.ai_ideological_opinion(root)"
+				multiply = 3
+				min = -15
+				max = 15
+			}
+
+			add = {
+				desc = "DIPLOMATIC_ACCEPTANCE_ATTITUDE"
+				if = {
+					limit = {
+						OR = {
+							has_attitude = {
+								who = scope:target_country
+								attitude = genial
+							}
+							has_attitude = {
+								who = scope:target_country
+								attitude = conciliatory
+							}
+							has_attitude = {
+								who = scope:target_country
+								attitude = loyal
+							}
+							has_attitude = {
+								who = scope:target_country
+								attitude = protective
+							}
+						}
+					}
+					value = 20
+				}
+				if = {
+					limit = {
+						has_attitude = {
+							who = scope:target_country
+							attitude = cooperative
+						}
+					}
+					value = 10
+				}
+				if = {
+					limit = {
+						has_attitude = {
+							who = scope:target_country
+							attitude = cautious
+						}
+					}
+					value = -25
+				}
+				if = {
+					limit = {
+						OR = {
+							has_attitude = {
+								who = scope:target_country
+								attitude = antagonistic
+							}
+							has_attitude = {
+								who = scope:target_country
+								attitude = domineering
+							}
+							has_attitude = {
+								who = scope:target_country
+								attitude = belligerent
+							}
+							has_attitude = {
+								who = scope:target_country
+								attitude = rebellious
+							}
+						}
+					}
+					value = -1000
+				}
+			}
+
+			add = {
+				desc = "DIPLOMATIC_ACCEPTANCE_RELATIONS"
+				if = {
+					limit = {
+						"relations(scope:target_country)" <= relations_threshold:hostile
+					}
+					value = -100
+				}
+				if = {
+					limit = {
+						"relations(scope:target_country)" > relations_threshold:hostile
+						"relations(scope:target_country)" <= relations_threshold:cold
+					}
+					value = -50
+				}
+				if = {
+					limit = {
+						"relations(scope:target_country)" > relations_threshold:cold
+						"relations(scope:target_country)" <= relations_threshold:poor
+					}
+					value = -25
+				}
+				if = {
+					limit = {
+						"relations(scope:target_country)" > relations_threshold:poor
+						"relations(scope:target_country)" < relations_threshold:cordial
+					}
+					value = 0
+				}
+				if = {
+					limit = {
+						"relations(scope:target_country)" >= relations_threshold:cordial
+						"relations(scope:target_country)" < relations_threshold:friendly
+					}
+					value = 10
+				}
+				if = {
+					limit = {
+						"relations(scope:target_country)" >= relations_threshold:amicable
+						"relations(scope:target_country)" < relations_threshold:friendly
+					}
+					value = 20
+				}
+				if = {
+					limit = {
+						"relations(scope:target_country)" >= relations_threshold:friendly
+					}
+					value = 30
+				}
+			}
+
+			add = {
+				desc = "DIPLOMATIC_ACCEPTANCE_INFAMY"
+				if = {
+					limit = {
+						"scope:target_country.infamy" >= infamy_threshold:infamous
+						"scope:target_country.infamy" < infamy_threshold:notorious
+					}
+					value = -10
+				}
+				if = {
+					limit = {
+						"scope:target_country.infamy" >= infamy_threshold:notorious
+						"scope:target_country.infamy" < infamy_threshold:pariah
+					}
+					value = -20
+				}
+				if = {
+					limit = {
+						"scope:target_country.infamy" >= infamy_threshold:pariah
+					}
+					value = -30
+				}
+			}
+
+			add = {
+				desc = "DIPLOMATIC_ACCEPTANCE_RANK"
+
+				if = {
+					limit = { scope:target_country = { country_rank = root.country_rank } }
+					value = -10
+				}
+
+				if = {
+					limit = { scope:target_country = { country_rank < root.country_rank } }
+					value = -1000
+				}
+			}
+		}
+
+		propose_score = {
+			value = 10
+		}
+
+		propose_break_score = {
+			value = 10
+		}
+
+		use_obligation_chance = {
+			value = 10
+		}
+
+		owe_obligation_chance = {
+			value = 0
+		}
+	}
+}
+
+join_customs_union = {
+	requires_approval = yes
+	can_use_obligations = yes
+
+	potential = {
+		NOT = { is_country_type = decentralized }
+
+		scope:target_country = {
+			NOT = { is_country_type = decentralized }
+		}
+	}
+
+	possible = {
+		NOT = { has_war_with = scope:target_country }
+
+		scope:target_country = {
+			NOT = {
+				has_diplomatic_pact = {
+					who = root
+					type = rivalry
+				}
+			}
+		}
+
+		root = {
+			NOT = {
+				has_diplomatic_pact = {
+					who = scope:target_country
+					type = rivalry
+				}
+			}
+		}
+
+		NOT = {
+			has_diplomatic_pact = {
+				who = scope:target_country
+				type = trade_agreement
+			}
+		}
+
+		NOT = {
+			scope:target_country = {
+				is_subject_of = root
+			}
+		}
+
+		# if we are the senior partner in an existing customs union,
+		# we don't want to join someone else's union
+		# if we are the junior partner in an existin customs union,
+		# we cannot join another union anyways
+		is_in_customs_union = no
+
+		scope:target_country.relations:root >= relations_threshold:cordial
+
+		is_revolutionary = no
+
+		scope:target_country = {
+			is_revolutionary = no
+		}
+	}
+
+	reverse_pact = customs_union
+
+	accept_effect = {
+		change_relations = { country = scope:target_country value = 1 }
+	}
+
+	ai = {
+		check_acceptance_for_will_propose = yes
+
+		propose_score = {
+			value = 10
+		}
+
+		propose_break_score = {
+			value = 10
+		}
+
+		use_obligation_chance = {
+			value = 0
+		}
+
+		owe_obligation_chance = {
+			value = 0
+		}
+	}
+}

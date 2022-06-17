@@ -1,0 +1,4 @@
+#ARoAI_uprising_conscription = {
+#	state_conscription_rate_add = 0.03
+#	state_conscription_rate_mult = 0.3
+#}

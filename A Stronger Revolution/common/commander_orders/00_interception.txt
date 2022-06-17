@@ -1,0 +1,15 @@
+﻿interception = {
+    texture = "gfx/interface/icons/commander_order_icons/interception.dds"
+
+    possible = {
+        error_check = {
+			severity = invalid
+			has_role = admiral
+		}
+    }
+
+	experience = 0 # No additional experience gained with this Order
+	
+    map_interaction = interception
+	clicksound = "event:/SFX/UI/Military/order_admiral_intercept"
+}

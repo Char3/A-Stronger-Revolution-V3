@@ -65,3 +65,9 @@ pmg_ownership_capital_building_power_plant = {
 		pm_worker_cooperative_industry
 	}
 }
+
+pmg_base_building_estate= {
+	production_methods = {
+		pm_aristocratic_estate
+	}
+}

@@ -1,0 +1,63 @@
+﻿je_indian_removal = {
+
+	complete = {
+		custom_tooltip = je_indian_removal_resolve_the_chain
+		hidden_trigger = {
+			has_variable = trail_of_tears_completed
+		}
+	}
+	
+	on_complete = {
+		trigger_event = { id = native_resettlement.5 }
+	}
+	
+	fail = {
+		# if you do not own STATE_GEORGIA or SEQ is not a puppet of USA
+
+		OR = {
+			NOT = { owns_entire_state_region = STATE_GEORGIA }
+			NOT = {
+				AND = {
+					exists = c:SEQ
+					exists = c:USA
+					c:SEQ = { is_subject_of = c:USA }
+				}
+			}
+		}
+	}
+	
+	on_timeout = {
+		# any IG led by a bigot is hella upset
+
+		every_interest_group = {
+			limit = { 
+				leader = { 
+					OR = {
+						has_variable = is_andrew_jackson 
+						has_trait = bigoted
+					}
+				}
+			}
+			add_modifier = {
+				name = USA_removal_not_followed_through
+				months = normal_modifier_time
+			}
+		}
+	}
+	
+	timeout = 3650
+	
+	current_value = {
+	
+	}
+	
+	goal_add_value = {
+	
+	}
+	
+	weight = 200
+	
+	should_be_pinned_by_default = yes
+	
+	inheritable = no
+}

@@ -1,0 +1,21 @@
+﻿objective_tutorial = {
+	texture = "gfx/interface/icons/placeholder_icons/objective.png"
+	
+	recommended_tags = { SWE USA }	
+	
+	objective_subgoals = {
+		sg_expand_basic_building
+		sg_fix_budget_deficit
+		sg_import_goods
+		sg_export_goods
+		sg_change_production_method
+		sg_expand_productive_building
+		sg_fix_unprofitable_building
+		sg_grow_gdp
+		sg_promote_ig
+	}
+	
+	on_start = {
+		start_tutorial_lesson = { tutorial_lesson = lesson_basics }
+	}
+}

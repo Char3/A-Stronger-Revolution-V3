@@ -450,3 +450,33 @@ pm_publicly_traded_building_power_plant = {
 		}
 	}
 }
+
+pm_aristocratic_estate = {
+	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
+	
+	disallowing_laws = {
+		law_command_economy
+		law_council_republic
+	}
+
+	unlocking_technologies = {
+		centralization
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_luxury_clothes_add = 10
+			building_output_luxury_furniture_add = 10
+			building_output_services_add = 10
+			building_output_porcelain_add = 10
+			building_output_wine_add = 10
+		}
+		
+		level_scaled = {
+			building_employment_aristocrats_add = 250
+			building_employment_laborers_add = 750
+		}
+		
+	}
+}
+	

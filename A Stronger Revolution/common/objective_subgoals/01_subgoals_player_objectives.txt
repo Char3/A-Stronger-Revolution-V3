@@ -1,0 +1,598 @@
+﻿sg_expand_goods_production = {
+	category = sgcat_economic_dominance
+
+	trigger = {
+		any_scope_building = {
+			is_under_construction = no
+			or = {
+				is_raw_industries_building = yes
+				is_plantation_building = yes
+			} 
+		}
+	}
+	
+	on_start = { #Add chance that will pick random plantation types if possible
+		if = {
+			limit = {
+				any_scope_building = {
+					is_building_type = building_iron_mine
+				}
+			}
+			random_scope_building = {
+				limit = { 
+					is_building_type = building_iron_mine
+				}
+				save_scope_as = economic_building_target
+			}				
+			set_variable = iron_goods_production
+		}
+		
+		else_if = {
+			limit = {
+				any_scope_building = {
+					is_building_type = building_coffee_plantation
+				}
+			}
+			random_scope_building = {
+				limit = { 
+					is_building_type = building_coffee_plantation
+				}
+				save_scope_as = economic_building_target
+			}
+			set_variable = coffee_goods_production
+		}
+			
+		else_if = {
+			limit = {
+				any_scope_building = {
+					is_building_type = building_cotton_plantation
+				}
+			}
+			random_scope_building = {
+				limit = { 
+					is_building_type = building_cotton_plantation
+				}
+				save_scope_as = economic_building_target
+			}
+			set_variable = cotton_goods_production
+		}
+		
+		else_if = {
+			limit = {
+				any_scope_building = {
+					is_building_type = building_dye_plantation
+				}
+			}
+			random_scope_building = {
+				limit = {
+					is_building_type = building_dye_plantation
+				}
+				save_scope_as = economic_building_target
+			}
+			set_variable = dye_goods_production
+		}
+		
+		else_if = {
+			limit = {
+				any_scope_building = {
+					is_building_type = building_opium_plantation
+				}
+			}
+			random_scope_building = {
+				limit = {
+					is_building_type = building_opium_plantation
+				}
+				save_scope_as = economic_building_target
+			}
+			set_variable = opium_goods_production
+		}
+		
+		else_if = {
+			limit = {
+				any_scope_building = {
+					is_building_type = building_tea_plantation
+				}
+			}
+			random_scope_building = {
+				limit = {
+					is_building_type = building_tea_plantation
+				}
+				save_scope_as = economic_building_target
+			}
+			set_variable = tea_goods_production
+		}
+		
+		else_if = {
+			limit = {
+				any_scope_building = {
+					is_building_type = building_tobacco_plantation
+				}
+			}
+			random_scope_building = {
+				limit = {
+					is_building_type = building_tobacco_plantation
+				}
+				save_scope_as = economic_building_target
+			}
+			set_variable = tobacco_goods_production
+		}
+		
+		else_if = {
+			limit = {
+				any_scope_building = {
+					is_building_type = building_sugar_plantation
+				}
+			}
+			random_scope_building = {
+				limit = {
+					is_building_type = building_sugar_plantation
+				}
+				save_scope_as = economic_building_target
+			}
+			set_variable = sugar_goods_production
+		}
+		
+		else_if = {
+			limit = {
+				any_scope_building = {
+					is_building_type = building_rubber_plantation
+				}
+			}
+			random_scope_building = {
+				limit = {
+					is_building_type = building_rubber_plantation
+				}
+				save_scope_as = economic_building_target
+			}
+			set_variable = rubber_goods_production
+		}
+		
+		else_if = {
+			limit = {
+				any_scope_building = {
+					is_building_type = building_banana_plantation
+				}
+			}
+			random_scope_building = {
+				limit = {
+					is_building_type = building_banana_plantation
+				}
+				save_scope_as = economic_building_target
+			}
+			set_variable = banana_goods_production
+		}
+		
+		else_if = {
+			limit = {
+				any_scope_building = {
+					is_building_type = building_silk_plantation
+				}
+			}
+			random_scope_building = {
+				limit = {
+					is_building_type = building_silk_plantation
+				}
+				save_scope_as = economic_building_target
+			}
+			set_variable = silk_goods_production
+		}
+#TODO implement potential goods a
+#		if = {
+#			limit = {
+#				any_scope_state = {
+#					resource_potential_for:building_iron_mine > 50
+#				}
+#			}
+#			random_scope_building = {
+#				any_scope_building = {
+#					is_building_type = building_iron_mine
+#				}
+#				save_scope_as = economic_building_target
+#			}	
+#			set_variable = iron_goods_production			
+#		}
+#
+#		else_if = {
+#			limit = {
+#				any_scope_state = {
+#					resource_potential_for:building_coffee_plantation > 50
+#				}
+#			}
+#			random_scope_building = {
+#				any_scope_building = {
+#					is_building_type = building_coffee_plantation
+#				}
+#				save_scope_as = economic_building_target
+#			}
+#			set_variable = coffee_goods_production
+#		}
+
+		add_journal_entry = {
+			type = je_objective_expand_goods_production
+			objective_subgoal = sg_expand_goods_production
+			target = scope:economic_building_target
+		}
+	}
+}
+
+sg_increase_gdp = {
+	category = sgcat_economic_dominance
+	is_repeatable = no
+
+	unlocking_subgoals_all = {
+		sg_expand_goods_production
+	}
+
+	trigger = {
+	}
+	
+	on_start = {
+		add_journal_entry = {
+			type = je_increase_gdp
+			objective_subgoal = sg_increase_gdp
+		}	
+	}
+}
+
+sg_refining_goods = {
+	category = sgcat_economic_dominance
+	is_repeatable = no
+
+	unlocking_subgoals_all = {
+		sg_expand_goods_production
+	}
+
+	trigger = {
+		has_variable = iron_goods_production
+	}
+	
+	on_start = {
+#	if = {
+#		limit = {
+#			any_scope_building = {		
+#				is_buildable = building_steel_mills
+#			}
+#		}
+#		random_scope_building = {
+#			limit = { 
+#				is_buildable = building_steel_mills
+#			}
+#			save_scope_as = steel_building_target
+#		}				
+#	}
+
+		add_journal_entry = {
+			type = je_refining_goods
+			objective_subgoal = sg_refining_goods
+			target = scope:steel_building_target
+		}	
+	}
+}
+
+sg_specialized_goods = {
+	category = sgcat_economic_dominance
+	is_repeatable = no
+
+	unlocking_subgoals_all = {
+		sg_refining_goods
+	}
+
+	trigger = { 
+#		if = {
+#			limit = {
+#				any_scope_building = {
+#					is_buildable = building_motor_industry
+#				}
+#			}
+#			random_scope_building = {
+#				limit = { 
+#					is_buildable = building_motor_industry
+#				}
+#				save_scope_as = motor_industry_target
+#			}
+#		}
+	}
+	
+	on_start = {
+		add_journal_entry = {
+			type = je_specialized_goods
+			objective_subgoal = sg_specialized_goods
+			target = scope:motor_industry_target
+		}
+	}
+}
+
+sg_home_market = {
+	category = sgcat_economic_dominance
+	is_repeatable = no
+
+	unlocking_subgoals_all = {
+		sg_specialized_goods
+		sg_increase_gdp
+	}
+
+	trigger = {
+		ROOT = {
+			NOT = {
+				leads_customs_union = yes
+			}
+		}
+	}
+	
+	on_start = {
+		ROOT = {
+			save_scope_as = customs_union_obj
+		}
+
+		add_journal_entry = {
+			type = je_home_market
+			objective_subgoal = sg_home_market
+			target = scope:customs_union_obj
+		}
+	}
+}
+
+sg_expanding_the_market = {
+	category = sgcat_economic_dominance
+	is_repeatable = no
+
+	unlocking_subgoals_all = {
+		sg_home_market
+	}
+
+	trigger = {
+		ROOT = {
+			leads_customs_union = yes
+		}
+	}
+	
+	on_start = {
+		add_journal_entry = {
+			type = je_expanding_the_market
+			objective_subgoal = sg_expanding_the_market
+		}
+	}
+}
+
+sg_strong_market = {
+	category = sgcat_economic_dominance
+	is_repeatable = no
+
+	unlocking_subgoals_any = {
+		sg_expanding_the_market
+		sg_break_the_isolationists
+	}
+
+	trigger = {
+	}
+	
+	on_start = {
+		add_journal_entry = {
+			type = je_strong_market
+			objective_subgoal = sg_strong_market
+		}
+	}
+}
+
+sg_expand_trading_potential = {
+	category = sgcat_economic_dominance
+	is_repeatable = no
+
+	unlocking_subgoals_all = {
+		sg_expand_goods_production
+	}
+	
+	trigger = {
+		or = {
+			has_variable = coffee_goods_production
+			has_variable = cotton_goods_production
+			has_variable = dye_goods_production
+			has_variable = opium_goods_production
+			has_variable = tea_goods_production
+			has_variable = tobacco_goods_production
+			has_variable = sugar_goods_production
+			has_variable = rubber_goods_production
+			has_variable = banana_goods_production
+			has_variable = silk_goods_production
+		}
+	}
+
+	on_start = {
+		add_journal_entry = {
+			type = je_expand_trading_potential
+			objective_subgoal = sg_expand_trading_potential
+		}
+	}
+}
+
+sg_export_focus = {
+	category = sgcat_economic_dominance
+	is_repeatable = no
+
+	unlocking_subgoals_all = {
+		sg_expand_trading_potential
+	}
+
+	trigger = {
+	}
+	
+	on_start = {
+		market_capital.market = {
+			if = {
+				limit = {
+					mg:coffee = {
+						market_goods_exports <= 0
+					}
+					ROOT = {
+						has_variable = coffee_goods_production
+					}
+				}
+				mg:coffee = { save_scope_as = increase_exports }
+			}
+			
+			else_if = {
+				limit = {
+					mg:fabric = {
+						market_goods_exports <= 0
+					}
+					has_variable = cotton_goods_production
+				}
+				mg:fabric = { save_scope_as = increase_exports }
+			}
+			
+			else_if = {
+				limit = {
+					mg:dye = {
+						market_goods_exports <= 0
+					}
+					has_variable = dye_goods_production
+				}
+				mg:dye = { save_scope_as = increase_exports }
+			}
+			
+			else_if = {
+				limit = {
+					mg:opium = {
+						market_goods_exports <= 0
+					}
+					has_variable = opium_goods_production
+				}
+				mg:opium = { save_scope_as = increase_exports }
+			}
+			
+			else_if = {
+				limit = {
+					mg:tea = {
+						market_goods_exports <= 0
+					}
+					has_variable = tea_goods_production
+				}
+				mg:tea = { save_scope_as = increase_exports }
+			}
+			
+			else_if = {
+				limit = {
+					mg:tobacco = {
+						market_goods_exports <= 0
+					}
+					has_variable = tobacco_goods_production
+				}
+				mg:tobacco = { save_scope_as = increase_exports }
+			}
+			
+			else_if = {
+				limit = {
+					mg:sugar = {
+						market_goods_exports <= 0
+					}
+					has_variable = sugar_goods_production
+				}
+				mg:sugar = { save_scope_as = increase_exports }
+			}
+			
+			else_if = {
+				limit = {
+					mg:rubber = {
+						market_goods_exports <= 0
+					}
+					has_variable = rubber_goods_production
+				}
+				mg:rubber = { save_scope_as = increase_exports }
+			}
+			
+			else_if = {
+				limit = {
+					mg:fruit = {
+						market_goods_exports <= 0
+					}
+					has_variable = banana_goods_production
+				}
+				mg:fruit = { save_scope_as = increase_exports }
+			}
+			
+			else_if = {
+				limit = {
+					mg:silk = {
+						market_goods_exports <= 0
+					}
+					has_variable = silk_goods_production
+				}
+				mg:silk = { save_scope_as = increase_exports }
+			}
+		}
+		add_journal_entry = {
+			type = je_export_focus
+			objective_subgoal = sg_export_focus
+			target = scope:increase_exports
+		}
+	}	
+}
+
+sg_join_another_market = {
+	category = sgcat_economic_dominance
+	is_repeatable = no
+
+	unlocking_subgoals_all = {
+		sg_export_focus
+	}
+
+	trigger = {
+	}
+	
+	on_start = {
+		add_journal_entry = {
+			type = je_join_another_market
+			objective_subgoal = sg_join_another_market
+		}
+	}
+}
+
+sg_break_the_isolationists = {
+	category = sgcat_economic_dominance
+	is_repeatable = no
+
+	unlocking_subgoals_all = {
+		sg_join_another_market
+		sg_increase_gdp
+	}
+
+	trigger = {
+		any_country = {
+			NOT = { THIS = ROOT }
+			has_law = law_type:law_isolationism
+		}
+	}
+
+	on_start = {
+		if = {
+			limit = {
+				any_country = {
+					NOT = { THIS = ROOT }
+					has_law = law_type:law_isolationism
+				}
+			}
+			random_country = {
+				limit = {
+					NOT = { THIS = ROOT }
+					has_law = law_type:law_isolationism
+				}
+				save_scope_as = isolationist_objective_target
+			}
+		}
+#		skip_if = {
+#			limit = {
+#				every_country = {
+#					NOT = { 
+#						has_law = law_type:law_isolationism
+#					}
+#				}
+#			}
+#		}
+
+		add_journal_entry = {
+			type = je_break_the_isolationists
+			objective_subgoal = sg_break_the_isolationists
+			target = scope:isolationist_objective_target
+		}
+	}
+}

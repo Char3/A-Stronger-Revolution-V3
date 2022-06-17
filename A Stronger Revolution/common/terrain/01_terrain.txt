@@ -1,0 +1,366 @@
+﻿#The materials referenced in this file are the materials in the file gfx\map\terrain\materials.settings and
+#are used when regenerating the province terrain based on what terrain materials have been painted where.
+
+#The materials referenced in this file are the materials in the file gfx\map\terrain\materials.settings and
+#are used when regenerating the province terrain based on what terrain materials have been painted where.
+
+#example = {											# Terrain type name
+#	texture = "gfx/state_pictures/example.dds"			# Default terrain texture file
+#	texture_weight = 0.5								# Terrain weight for strategic region (for example 2 provinces of plain with 0.5 weight (1.0 total) and 3 mountain provinces with 0.2 weight (0.6 total) will make plain strategic region)
+#	textures = {										# Extra textures that could be used in specific cases
+#		{																				
+#			weight = {									# Scripted value in a state region template scope, by default 0, if more than zero the highest scoring texture will override the default one
+#				value = 0
+#				scope:region = {
+#					#blabla
+#				}
+#			}
+#			path = "gfx/state_pictures/asia_example.dds" # Path to additional texture
+#		}
+#		{
+#			weight = {
+#				value = 0
+#				
+#			}
+#			path = "gfx/state_pictures/europe_example.dds"
+#		}
+#	}
+#	combat_width = 0.8									# Combat width in a region
+#	risk = 0.1											# Risk of casualties in a terrain
+#	materials = { 										# Materials and weights used to determine if province belongs to terrain type
+#		Material_01 = 1									# Material with weight
+#		Material_02 = 1
+#	}
+#	debug_color = hsv { 0.1 0.5 0.8 }					# Color used in a debug mode
+#	generate_modifiers = <yes/no>						# Generates battle_<terrain_type>_combat_effectiveness_mult modifier
+#	pollution_mask_strength = 0.5						# Polution mask strength
+#	devastation_mask_strength = 1.0						# Devastation mask strength
+#}
+
+plains = {
+	texture = "gfx/state_pictures/plains.dds"
+	texture_weight = 1
+	combat_width = 0.8
+
+	risk = 0.1
+	materials = { 
+		Gravel_01 = 0.5
+		Grasslands_01 = 0.5
+		Grasslands_02 = 0.5
+		Grasslands_05 = 0.3
+		Grasslands_06 = 0.5
+		Grasslands_07 = 0.5
+		Grasslands_08 = 0.5
+	}
+	debug_color = hsv { 0.1 0.5 0.8 }
+	
+	pollution_mask_strength = 1.0
+	devastation_mask_strength = 1.0
+}
+
+ocean = {
+	texture = "gfx/state_pictures/unused.dds"
+	texture_weight = 2
+	combat_width = 1
+	generate_modifiers = no # TODO do we want these for naval?
+	
+
+	materials = {
+		Beach_01 = 0.5
+		Beach_02 = 0.5
+		Beach_03 = 0.5
+	}
+	debug_color = { 0.3 0.3 1.0 }
+	pollution_mask_strength = 0.1
+	devastation_mask_strength = 0.0
+}
+
+lakes = {
+	texture = "gfx/state_pictures/unused.dds"
+	texture_weight = 2
+	generate_modifiers = no # TODO do we want these for naval?
+	debug_color = { 0.5 0.5 1.0 }
+	
+	pollution_mask_strength = 0.25
+	devastation_mask_strength = 0.0
+}
+
+river = {
+	texture = "gfx/state_pictures/unused.dds"
+	texture_weight = 2
+	generate_modifiers = no
+	debug_color = { 0.0 0.5 1.0 }
+	
+	pollution_mask_strength = 0.5
+	devastation_mask_strength = 0.0
+	
+}	
+
+forest = {
+	texture = "gfx/state_pictures/forest.dds"
+	texture_weight = 2.5
+	combat_width = 0.1
+	risk = 0.5
+	materials = { 
+		Woodlands_01 = 5
+		Woodlands_02 = 4
+	}
+	debug_color = hsv { 0.3 0.75 0.7 }
+	
+	pollution_mask_strength = 1.0
+	devastation_mask_strength = 1.0
+}
+
+hills = {
+	texture = "gfx/state_pictures/hills.dds"
+	texture_weight = 1
+	combat_width = 0.4
+	risk = 0.2
+	materials = { 
+		Cliff_Granite_01 = 2.5
+		Cliff_Limestone_03 = 2.5
+		Rocks_01 = 0.5
+	}
+	debug_color = hsv { 29 0.867 0.353 }
+	
+	pollution_mask_strength = 1.0
+	devastation_mask_strength = 1.0
+}
+
+mountain = {
+	texture = "gfx/state_pictures/mountain.dds"
+	texture_weight = 3
+	combat_width = 0.2
+	risk = 0.2
+	materials = { 
+		Mountains_NonDirectional_01 = 5
+		Cliff_Granite_02 = 2.5
+		Cliff_Granite_03 = 2.5
+		Cliff_Granite_05 = 2.5
+		Cliff_Granite_06 = 2.5
+		Cliff_Granite_07 = 2.5
+		Cliff_Limestone_02 = 2.5
+		Cliff_Sandstone_01 = 2.5
+		Cliff_Sandstone_03 = 2.5
+		Cliff_Sandstone_04 = 2.5
+		Cliff_Sandstone_05 = 2.5
+	}
+	debug_color = hsv { 0 0 0.392 }
+	
+	pollution_mask_strength = 1.0
+	devastation_mask_strength = 1.0
+}
+
+jungle = {
+	texture = "gfx/state_pictures/jungle.dds"
+	texture_weight = 2
+	combat_width = 0.1
+	risk = 0.6
+	materials = { 
+		Woodlands_03 = 4
+	}
+	debug_color = hsv { 0.45 1 1 }
+	
+	pollution_mask_strength = 1.0
+	devastation_mask_strength = 1.0
+}	
+
+wetland = {
+	texture = "gfx/state_pictures/wetland.dds"
+	texture_weight = 3
+	combat_width = 0.3
+	risk = 0.3
+	materials = { 
+		Marchlands_01 = 7
+		Marchlands_02 = 7
+		Marchlands_03 = 7
+		Marchlands_04 = 7
+	}
+	debug_color = hsv { 0.5 0.5 0.6 }
+	
+	pollution_mask_strength = 1.0
+	devastation_mask_strength = 1.0
+}
+
+desert = {
+	texture = "gfx/state_pictures/desert.dds"
+	texture_weight = 2
+	combat_width = 0.7
+	risk = 0.2
+	materials = { 
+		Desert_01 = 0.5
+		Desert_03 = 0.5
+		Desert_04 = 0.5
+		Desert_05 = 0.5
+		Desert_06 = 0.5
+	}
+	debug_color = hsv { 0.15 1 1 }
+	
+	pollution_mask_strength = 1.0
+	devastation_mask_strength = 1.0
+}
+
+tundra = {
+	texture = "gfx/state_pictures/tundra.dds"
+	texture_weight = 2
+	combat_width = 0.7
+	risk = 0.15
+	materials = { 
+		Permafrost_01 = 3
+		Permafrost_03 = 3
+	}
+	debug_color = { 200 100 25 }
+	
+	pollution_mask_strength = 1.0
+	devastation_mask_strength = 1.0
+}
+
+savanna = {
+	texture = "gfx/state_pictures/savanna.dds"
+	texture_weight = 3
+	combat_width = 0.2
+	risk = 0.2
+	materials = { 
+		Savanna_01 = 2.5
+		Savanna_03 = 2.5
+	}
+	debug_color = { 200 170 80 }
+	
+	pollution_mask_strength = 1.0
+	devastation_mask_strength = 1.0
+}
+
+snow = {
+	texture = "gfx/state_pictures/arctic.dds"
+	texture_weight = 1
+	combat_width = 0.8
+
+	risk = 0.2
+	materials = { 
+		Snow_02 = 0.5
+	}
+	debug_color = hsv { 0.8 0.8 0.8 }
+	
+	pollution_mask_strength = 1.0
+	devastation_mask_strength = 1.0
+}
+
+farmland_rye = {
+	texture = "gfx/state_pictures/farmland.dds"
+	texture_weight = 1
+	combat_width = 0.8
+	risk = 0.1
+	created_material = DYNAMIC-Farmlands_01
+	debug_color = hsv { 0 1 1 }
+	
+	pollution_mask_strength = 1.0
+	devastation_mask_strength = 1.0
+}
+
+pasture = {
+	texture = "gfx/state_pictures/pasture.dds"
+	texture_weight = 1
+	combat_width = 0.8
+	risk = 0.1
+	created_material = DYNAMIC-Farmlands_01
+	debug_color = hsv { 0.7 0.8 0.6 }
+	
+	pollution_mask_strength = 1.0
+	devastation_mask_strength = 1.0
+}
+
+farmland_rice = {
+	texture = "gfx/state_pictures/farmland.dds"
+	texture_weight = 1
+	combat_width = 0.8
+	risk = 0.1
+	created_material = DYNAMIC-Farmlands_02
+	debug_color = hsv { 0.7 0.8 0.6 }
+	
+	pollution_mask_strength = 1.0
+	devastation_mask_strength = 1.0
+}
+
+farmland_millet = {
+	texture = "gfx/state_pictures/farmland.dds"
+	texture_weight = 1
+	combat_width = 0.8
+	risk = 0.1
+	created_material = DYNAMIC-Farmlands_03
+	debug_color = hsv { 0.7 0.8 0.6 }
+	
+	pollution_mask_strength = 1.0
+	devastation_mask_strength = 1.0
+}
+
+plantation = {
+	texture = "gfx/state_pictures/plantation.dds"
+	texture_weight = 1
+	combat_width = 0.8
+	risk = 0.1
+	created_material = DYNAMIC-Farmlands_01
+	debug_color = hsv { 0.4 0.7 0.6 }
+	
+	pollution_mask_strength = 1.0
+	devastation_mask_strength = 1.0
+}
+
+farmland_wheat = {
+	texture = "gfx/state_pictures/farmland.dds"
+	texture_weight = 1
+	combat_width = 0.8
+	risk = 0.1
+	created_material = DYNAMIC-Farmlands_05
+	debug_color = hsv { 0.7 0.8 0.6 }
+	
+	pollution_mask_strength = 1.0
+	devastation_mask_strength = 1.0
+}
+
+farmland_maize = {
+	texture = "gfx/state_pictures/farmland.dds"
+	texture_weight = 1
+	combat_width = 0.8
+	risk = 0.1
+	created_material = DYNAMIC-Farmlands_06
+	debug_color = hsv { 0.7 0.8 0.6 }
+	
+	pollution_mask_strength = 1.0
+	devastation_mask_strength = 1.0
+}
+
+cleared_land = {
+	texture = "gfx/state_pictures/cleared_land.dds"
+	texture_weight = 1
+	combat_width = 0.8
+	risk = 0.1
+	created_material = Grasslands_02
+	debug_color = hsv { 0.3 0.3 0.3 }
+	
+	pollution_mask_strength = 1.0
+	devastation_mask_strength = 1.0
+}
+
+mining = {
+	texture = "gfx/state_pictures/mining.dds"
+	texture_weight = 1
+	combat_width = 0.1
+	risk = 0.5
+	created_material = DYNAMIC-Mining_01
+	debug_color = hsv { 0.7 0.5 0.15 }
+	
+	pollution_mask_strength = 1.0
+	devastation_mask_strength = 1.0
+}
+
+forestry = {
+	texture = "gfx/state_pictures/forestry.dds"
+	texture_weight = 1
+	combat_width = 0.1
+	risk = 0.5
+	created_material = DYNAMIC-Forestry_01
+	debug_color = hsv { 0.7 0.3 0.8 }
+	
+	pollution_mask_strength = 1.0
+	devastation_mask_strength = 1.0
+}

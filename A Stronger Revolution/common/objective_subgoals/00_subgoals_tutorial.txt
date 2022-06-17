@@ -1,0 +1,888 @@
+﻿sg_expand_basic_building = {
+	category = sgcat_tutorial
+
+	trigger = {
+		any_scope_building = {
+			is_under_construction = no
+			is_farm_building = yes
+		}
+	}
+	
+	on_start = {
+		start_tutorial_lesson = { tutorial_lesson = lesson_journal }
+		
+		if = {
+			limit = {
+				market_capital = {
+					any_scope_building = {
+						is_under_construction = no
+						is_farm_building = yes
+					}					
+				}
+			}
+			market_capital = {
+				random_scope_building = {
+					limit = {	
+						is_under_construction = no
+						is_farm_building = yes
+					}
+					save_scope_as = tutorial_building_target
+				}				
+			}
+		}
+		else_if = {
+			limit = {
+				any_scope_state = {
+					is_incorporated = yes
+					any_scope_building = {
+						is_under_construction = no
+						is_farm_building = yes
+					}					
+				}				
+			}
+			
+			random_scope_state = {
+				limit = { 
+					is_incorporated = yes
+					any_scope_building = {
+						is_under_construction = no
+						is_farm_building = yes
+					}
+				}
+				
+				random_scope_building = {
+					limit = {	
+						is_under_construction = no
+						is_farm_building = yes
+					}
+					save_scope_as = tutorial_building_target
+				}					
+			}			
+		}
+		else = {
+			random_scope_building = {
+				limit = {	
+					is_under_construction = no
+					is_farm_building = yes
+				}
+				save_scope_as = tutorial_building_target
+			}		
+		}			
+		
+		add_journal_entry = {
+			type = je_tutorial_expand_basic_building
+			objective_subgoal = sg_expand_basic_building
+			target = scope:tutorial_building_target
+		}			
+	}
+}
+
+# Fix Budget Deficit
+sg_fix_budget_deficit = {
+	category = sgcat_tutorial
+	is_repeatable = no
+
+	unlocking_subgoals_all = {
+		sg_expand_productive_building
+	}
+
+	trigger = {
+		treasury <= 0
+		weekly_net_fixed_income <= -1000 # Don't trigger this based on a tiny deficit that will self-correct
+	}
+	
+	on_start = {
+		add_journal_entry = {
+			type = je_tutorial_fix_budget_deficit
+			objective_subgoal = sg_fix_budget_deficit
+		}	
+	}
+	
+	chance = {
+		value = 0.5
+	}
+}
+
+# Import Goods
+sg_import_goods = {
+	category = sgcat_tutorial
+
+	trigger = {
+		market_capital.market = {
+			OR = {
+				mg:tools = { 
+					is_market_goods_expensive = yes
+					market_goods_imports <= 0
+				}				
+				mg:paper = { 
+					is_market_goods_expensive = yes
+					market_goods_imports <= 0
+				}
+				mg:wood = { 
+					is_market_goods_expensive = yes
+					market_goods_imports <= 0
+				}
+				mg:coal = { 
+					is_market_goods_expensive = yes
+					market_goods_imports <= 0
+				}
+				mg:glass = { 
+					is_market_goods_expensive = yes
+					market_goods_imports <= 0
+				}
+				mg:lead = { 
+					is_market_goods_expensive = yes
+					market_goods_imports <= 0
+				}					
+				mg:iron = { 
+					is_market_goods_expensive = yes
+					market_goods_imports <= 0
+				}
+				mg:fabric = { 
+					is_market_goods_expensive = yes
+					market_goods_imports <= 0
+				}
+			}
+		}
+	}
+	
+	on_start = {
+		market_capital.market = {			
+			if = {
+				limit = {
+					mg:tools = { 
+						is_market_goods_expensive = yes
+						market_goods_imports <= 0
+					}
+				}		
+				mg:tools = { save_scope_as = expensive_goods }
+			}
+			else_if = {
+				limit = {
+					mg:wood = { 
+						is_market_goods_expensive = yes
+						market_goods_imports <= 0
+					}
+				}		
+				mg:wood = { save_scope_as = expensive_goods }
+			}					
+			else_if = {
+				limit = {
+					mg:paper = { 
+						is_market_goods_expensive = yes
+						market_goods_imports <= 0
+					}
+				}		
+				mg:paper = { save_scope_as = expensive_goods }
+			}
+			else_if = {
+				limit = {
+					mg:coal = { 
+						is_market_goods_expensive = yes
+						market_goods_imports <= 0
+					}
+				}		
+				mg:coal = { save_scope_as = expensive_goods }
+			}
+			else_if = {
+				limit = {
+					mg:glass = { 
+						is_market_goods_expensive = yes
+						market_goods_imports <= 0
+					}
+				}		
+				mg:glass = { save_scope_as = expensive_goods }
+			}
+			else_if = {
+				limit = {
+					mg:lead = { 
+						is_market_goods_expensive = yes
+						market_goods_imports <= 0
+					}
+				}		
+				mg:lead = { save_scope_as = expensive_goods }
+			}
+			else_if = {
+				limit = {
+					mg:fabric = { 
+						is_market_goods_expensive = yes
+						market_goods_imports <= 0
+					}
+				}		
+				mg:lead = { save_scope_as = expensive_goods }
+			}				
+			else_if = {	
+				limit = {
+					mg:iron = {
+						is_market_goods_expensive = yes
+						market_goods_imports <= 0
+					}
+				}		
+				mg:iron = { save_scope_as = expensive_goods }
+			}				
+		}
+		
+		add_journal_entry = {
+			type = je_tutorial_import_goods
+			objective_subgoal = sg_import_goods
+			target = scope:expensive_goods
+		}
+	}
+	
+	chance = {
+		value = 1
+	}
+}	
+
+# Export Goods
+sg_export_goods = {
+	category = sgcat_tutorial
+	
+	unlocking_subgoals_all = {
+		sg_expand_basic_building
+	}
+
+	trigger = {
+		market_capital.market = {	
+			OR = {
+				mg:liquor = { 
+					is_market_goods_cheap = yes 
+					market_goods_exports <= 0
+				}
+				mg:iron = { 
+					is_market_goods_cheap = yes 
+					market_goods_exports <= 0
+				}
+				mg:meat = { 
+					is_market_goods_cheap = yes 
+					market_goods_exports <= 0
+				}
+				mg:fruit = { 
+					is_market_goods_cheap = yes 
+					market_goods_exports <= 0
+				}
+				mg:furniture = { 
+					is_market_goods_cheap = yes 
+					market_goods_exports <= 0
+				}
+				mg:clothes = { 
+					is_market_goods_cheap = yes 
+					market_goods_exports <= 0
+				}					
+				mg:fabric = { 
+					is_market_goods_cheap = yes 
+					market_goods_exports <= 0
+				}
+			}
+		}
+	}
+	
+	on_start = {
+		market_capital.market = {			
+			if = {
+				limit = {
+					mg:liquor = { 
+						is_market_goods_cheap = yes 
+						market_goods_exports <= 0
+					}
+				}		
+				mg:liquor = { save_scope_as = cheap_goods }
+			}
+			else_if = {
+				limit = {
+					mg:meat = { 
+						is_market_goods_cheap = yes
+						market_goods_exports <= 0
+					}
+				}		
+				mg:meat = { save_scope_as = cheap_goods }
+			}	
+			else_if = {
+				limit = {
+					mg:fruit = { 
+						is_market_goods_cheap = yes
+						market_goods_exports <= 0
+					}
+				}		
+				mg:fruit = { save_scope_as = cheap_goods }
+			}
+			else_if = {
+				limit = {
+					mg:furniture = { 
+						is_market_goods_cheap = yes 
+						market_goods_exports <= 0
+					}
+				}		
+				mg:furniture = { save_scope_as = cheap_goods }
+			}
+			else_if = {
+				limit = {
+					mg:clothes = { 
+						is_market_goods_cheap = yes 
+						market_goods_exports <= 0
+					}
+				}		
+				mg:clothes = { save_scope_as = cheap_goods }
+			}				
+			else_if = {
+				limit = {
+					mg:iron = { 
+						is_market_goods_cheap = yes 
+						market_goods_exports <= 0
+					}
+				}		
+				mg:iron = { save_scope_as = cheap_goods }
+			}					
+			else = {		
+				mg:fabric = { save_scope_as = cheap_goods }
+			}				
+		}
+		
+		add_journal_entry = {
+			type = je_tutorial_export_goods
+			objective_subgoal = sg_export_goods
+			target = scope:cheap_goods
+		}
+	}
+	
+	chance = {
+		value = 1
+	}
+}	
+
+# Change Production Method
+sg_change_production_method = {
+	category = sgcat_tutorial
+	
+	unlocking_subgoals_all = {
+		sg_expand_basic_building
+	}
+
+	trigger = {
+		any_scope_state = {
+			OR = {
+				AND = {
+					can_activate_production_method = {
+						building_type = building_rye_farm	
+						production_method = pm_apple_orchards
+					}	
+				}
+				AND = {
+					can_activate_production_method = {
+						building_type = building_wheat_farm	
+						production_method = pm_citrus_orchards
+					}
+				}
+				AND = {	
+					can_activate_production_method = {
+						building_type = building_rice_farm	
+						production_method = pm_fig_orchards
+					}
+				}
+				AND = {
+					can_activate_production_method = {
+						building_type = building_maize_farm	
+						production_method = pm_citrus_orchards
+					}
+				}
+				AND = {	
+					can_activate_production_method = {
+						building_type = building_millet_farm	
+						production_method = pm_fig_orchards
+					}
+				}					
+				AND = {
+					can_activate_production_method = {
+						building_type = building_logging_camp
+						production_method = pm_saw_mills
+					}
+					market = { 
+						mg:tools = { market_goods_delta >= 20 } 
+					}	
+				}
+				AND = {
+					can_activate_production_method = {
+						building_type = building_livestock_ranch
+						production_method = pm_butchering_tools
+					}
+					market = { 
+						mg:tools = { market_goods_delta >= 10 } 
+					}	
+				}					
+			}
+		}			
+	}
+	
+	on_start = {
+		if = {
+			limit = {
+				market_capital = {
+					can_activate_production_method = {
+						building_type = building_rye_farm	
+						production_method = pm_apple_orchards
+					}						
+				}
+			}
+			
+			market_capital = {
+				b:building_rye_farm = { save_scope_as = tutorial_building_target }
+			}					
+		}	
+		else_if = {
+			limit = {
+				market_capital = {
+					can_activate_production_method = {
+						building_type = building_wheat_farm	
+						production_method = pm_citrus_orchards
+					}					
+				}
+			}
+			
+			market_capital = {
+				b:building_wheat_farm = { save_scope_as = tutorial_building_target }
+			}				
+		}
+		else_if = {
+			limit = {
+				market_capital = {
+					can_activate_production_method = {
+						building_type = building_maize_farm	
+						production_method = pm_citrus_orchards
+					}						
+				}
+			}
+			
+			market_capital = {
+				b:building_maize_farm = { save_scope_as = tutorial_building_target }
+			}			
+		}	
+		else_if = {
+			limit = {
+				market_capital = {
+					can_activate_production_method = {
+						building_type = building_rice_farm	
+						production_method = pm_fig_orchards
+					}					
+				}
+			}
+			
+			market_capital = {
+				b:building_rice_farm = { save_scope_as = tutorial_building_target }
+			}					
+		}
+		else_if = {
+			limit = {
+				market_capital = {
+					can_activate_production_method = {
+						building_type = building_millet_farm	
+						production_method = pm_fig_orchards
+					}					
+				}
+			}
+			
+			market_capital = {
+				b:building_millet_farm = { save_scope_as = tutorial_building_target }
+			}					
+		}			
+		else_if = {
+			limit = {
+				market_capital = {
+					can_activate_production_method = {
+						building_type = building_livestock_ranch
+						production_method = pm_butchering_tools
+					}
+					market = { mg:tools = { market_goods_delta >= 10 } }						
+				}
+			}
+			
+			market_capital = {
+				b:building_livestock_ranch = { save_scope_as = tutorial_building_target }
+			}					
+		}	
+		else_if = {
+			limit = {
+				market_capital = {
+					can_activate_production_method = {
+						building_type = building_logging_camp
+						production_method = pm_saw_mills
+					}
+					market = { mg:tools = { market_goods_delta >= 20 } }						
+				}
+			}
+			
+			market_capital = {
+				b:building_logging_camp = { save_scope_as = tutorial_building_target }
+			}					
+		}	
+		else_if = {
+			limit = {
+				any_scope_state = {
+					can_activate_production_method = {
+						building_type = building_rye_farm	
+						production_method = pm_apple_orchards 
+					}					
+				}
+			}
+			
+			random_scope_state = {
+				limit = {
+					can_activate_production_method = {
+						building_type = building_rye_farm	
+						production_method = pm_apple_orchards 
+					}					
+				}
+				
+				b:building_rye_farm = { save_scope_as = tutorial_building_target }
+			}					
+		}	
+		else_if = {
+			limit = {
+				any_scope_state = {
+					can_activate_production_method = {
+						building_type = building_wheat_farm	
+						production_method = pm_citrus_orchards 
+					}					
+				}
+			}
+			
+			random_scope_state = {
+				limit = {
+					can_activate_production_method = {
+						building_type = building_wheat_farm	
+						production_method = pm_citrus_orchards 
+					}						
+				}
+				
+				b:building_wheat_farm = { save_scope_as = tutorial_building_target }
+			}				
+		}
+		else_if = {
+			limit = {
+				any_scope_state = {
+					can_activate_production_method = {
+						building_type = building_maize_farm	
+						production_method = pm_citrus_orchards 
+					}						
+				}
+			}
+			
+			random_scope_state = {
+				limit = {
+					can_activate_production_method = {
+						building_type = building_maize_farm	
+						production_method = pm_citrus_orchards 
+					}					
+				}
+				
+				b:building_maize_farm = { save_scope_as = tutorial_building_target }
+			}			
+		}	
+		else_if = {
+			limit = {
+				any_scope_state = {
+					can_activate_production_method = {
+						building_type = building_rice_farm	
+						production_method = pm_fig_orchards 
+					}					
+				}
+			}
+			
+			random_scope_state = {
+				limit = {
+					can_activate_production_method = {
+						building_type = building_rice_farm	
+						production_method = pm_fig_orchards 
+					}						
+				}
+				
+				b:building_rice_farm = { save_scope_as = tutorial_building_target }
+			}					
+		}
+		else_if = {
+			limit = {
+				any_scope_state = {
+					can_activate_production_method = {
+						building_type = building_millet_farm	
+						production_method = pm_fig_orchards 
+					}					
+				}
+			}
+			
+			random_scope_state = {
+				limit = {
+					can_activate_production_method = {
+						building_type = building_millet_farm	
+						production_method = pm_fig_orchards 
+					}						
+				}
+				
+				b:building_millet_farm = { save_scope_as = tutorial_building_target }
+			}					
+		}			
+		else_if = {
+			limit = {
+				any_scope_state = {
+					can_activate_production_method = {
+						building_type = building_livestock_ranch
+						production_method = pm_butchering_tools
+					}
+					market = { mg:tools = { market_goods_delta >= 10 } }						
+				}
+			}
+			
+			random_scope_state = {
+				limit = {
+					can_activate_production_method = {
+						building_type = building_livestock_ranch
+						production_method = pm_butchering_tools
+					}
+					market = { mg:tools = { market_goods_delta >= 10 } }						
+				}
+				
+				b:building_livestock_ranch = { save_scope_as = tutorial_building_target }
+			}					
+		}	
+		else_if = {
+			limit = {
+				any_scope_state = {
+					can_activate_production_method = {
+						building_type = building_logging_camp
+						production_method = pm_saw_mills
+					}
+					market = { mg:tools = { market_goods_delta >= 20 } }						
+				}
+			}
+			
+			random_scope_state = {
+				limit = {
+					can_activate_production_method = {
+						building_type = building_logging_camp
+						production_method = pm_saw_mills
+					}
+					market = { mg:tools = { market_goods_delta >= 20 } }						
+				}
+				
+				b:building_logging_camp = { save_scope_as = tutorial_building_target }
+			}					
+		}			
+		
+		add_journal_entry = {
+			type = je_tutorial_change_production_method
+			objective_subgoal = sg_change_production_method
+			target = scope:tutorial_building_target
+		}	
+	}
+	
+	chance = {
+		value = 1
+	}
+}
+
+# Expand Productive Building
+sg_expand_productive_building = {
+	category = sgcat_tutorial
+	
+	unlocking_subgoals_all = {
+		sg_expand_basic_building
+	}
+	
+	trigger = {
+		any_scope_building = {
+			is_buildable = yes
+			is_under_construction = no
+			is_government_funded = no
+			is_subsidized = no
+			earnings >= 8.0
+		}
+	}
+	
+	on_start = {
+		if = {
+			limit = {
+				market_capital = {
+					any_scope_building = {
+						is_buildable = yes
+						is_under_construction = no
+						is_government_funded = no
+						is_subsidized = no
+						earnings >= 8.0
+					}
+				}
+			}
+			
+			market_capital = {
+				random_scope_building = {
+					limit = {
+						is_buildable = yes
+						is_under_construction = no
+						is_government_funded = no
+						is_subsidized = no
+						earnings >= 8.0
+					}
+					
+					save_scope_as = tutorial_building_target 
+				}				
+			}				
+		}				
+		else_if = {
+			limit = {
+				any_scope_building = {
+					is_buildable = yes
+					is_under_construction = no
+					is_government_funded = no
+					is_subsidized = no
+					earnings >= 8.0
+				}
+			}
+			
+			random_scope_building = {
+				limit = {
+					is_buildable = yes
+					is_under_construction = no
+					is_government_funded = no
+					is_subsidized = no
+					earnings >= 8.0
+				}
+				
+				save_scope_as = tutorial_building_target 
+			}				
+		}		
+		
+		add_journal_entry = {
+			type = je_tutorial_expand_productive_building
+			objective_subgoal = sg_expand_productive_building
+			target = scope:tutorial_building_target
+		}	
+	}
+	
+	chance = {
+		value = 0.2
+	}
+}
+
+# Fix Unprofitable Building
+sg_fix_unprofitable_building = {
+	category = sgcat_tutorial
+	
+	unlocking_subgoals_all = {
+		sg_expand_basic_building
+	}
+	
+	unlocking_subgoals_any = {
+		sg_import_goods
+		sg_export_goods
+	}	
+
+	trigger = {
+		any_scope_building = {
+			is_government_funded = no
+			is_subsidized = no
+			is_subsistence_building = no
+			earnings < 4.5
+		}			
+	}
+	
+	on_start = {
+		if = {
+			limit = {
+				market_capital = {
+					any_scope_building = {
+						is_government_funded = no
+						is_subsidized = no
+						is_subsistence_building = no
+						earnings < 4.5
+					}
+				}
+			}
+			
+			market_capital = {
+				random_scope_building = {
+					limit = {
+						is_government_funded = no
+						is_subsidized = no
+						is_subsistence_building = no
+						earnings < 4.5
+					}
+					
+					save_scope_as = tutorial_building_target 
+				}				
+			}				
+		}				
+		else_if = {
+			limit = {
+				any_scope_building = {
+					is_government_funded = no
+					is_subsidized = no
+					is_subsistence_building = no
+					earnings < 4.5
+				}
+			}
+			
+			random_scope_building = {
+				limit = {
+					is_government_funded = no
+					is_subsidized = no
+					is_subsistence_building = no
+					earnings < 4.5
+				}
+				
+				save_scope_as = tutorial_building_target 
+			}				
+		}
+		
+		add_journal_entry = {
+			type = je_tutorial_fix_unprofitable_building
+			objective_subgoal = sg_fix_unprofitable_building
+			target = scope:tutorial_building_target
+		}	
+	}
+	
+	chance = {
+		value = 0.05
+	}
+}
+
+# Promote an Interest Group
+sg_promote_ig = {
+	category = sgcat_tutorial
+	
+	unlocking_subgoals_any = {
+		sg_import_goods
+	}
+
+	on_start = {
+		add_journal_entry = {
+			type = je_tutorial_promote_ig
+			objective_subgoal = sg_promote_ig
+		}	
+	}
+	
+	chance = {
+		value = 0.3
+	}
+}
+
+# Grow GDP
+sg_grow_gdp = {
+	category = sgcat_tutorial
+	
+	unlocking_subgoals_all = {
+		sg_fix_unprofitable_building
+		sg_expand_productive_building
+	}
+	
+	on_start = {
+		add_journal_entry = {
+			type = je_tutorial_grow_gdp
+			objective_subgoal = sg_grow_gdp
+		}	
+	}
+	
+	chance = {
+		value = 0.05
+	}
+}
+
+sg_start_diplomatic_play = {
+	category = sgcat_tutorial
+}

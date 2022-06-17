@@ -1,0 +1,5 @@
+﻿# Root = War
+# scope:target = target of violate sovereignty
+violate_sovereignty_war_check_rule = {
+	violate_sovereignty_war_check = yes
+}
