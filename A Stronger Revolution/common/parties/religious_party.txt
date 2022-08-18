@@ -203,9 +203,11 @@ religious_party = {
 						is_powerful = yes
 					}
 				}
-				OR = {
-					has_ideology = ideology_traditionalist
-					has_ideology = ideology_theocrat
+				leader = {
+					OR = {
+						has_ideology = ideology_traditionalist
+						has_ideology = ideology_theocrat
+					}
 				}
 			}
 			add = 10

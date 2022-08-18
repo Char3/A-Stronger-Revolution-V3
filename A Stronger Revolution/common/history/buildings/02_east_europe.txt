@@ -744,6 +744,12 @@
 	s:STATE_WEST_PRUSSIA={
 		region_state:PRU={
 			create_building={
+				building="building_aristocrat_estate"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_aristocratic_estate" }
+			}
+			create_building={
 				building="building_fishing_wharf"
 				level=1
 				reserves=1
@@ -771,6 +777,12 @@
 	}
 	s:STATE_EAST_PRUSSIA={
 		region_state:PRU={
+			create_building={
+				building="building_aristocrat_estate"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_aristocratic_estate" }
+			}
 			create_building={
 				building="building_textile_mills"
 				level=2
@@ -828,6 +840,12 @@
 	s:STATE_WEST_GALICIA={
 		region_state:AUS={
 			create_building={
+				building="building_aristocrat_estate"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_aristocratic_estate" }
+			}
+			create_building={
 				building="building_government_administration"
 				level=5
 				reserves=1
@@ -875,6 +893,12 @@
 	}
 	s:STATE_EAST_GALICIA={
 		region_state:AUS={
+			create_building={
+				building="building_aristocrat_estate"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_aristocratic_estate" }
+			}
 			create_building={
 				building="building_wheat_farm"
 				level=3

@@ -247,11 +247,12 @@ ai_strategy_manifest_destiny = {
 	undesirable_infamy_level = 50
 	unacceptable_infamy_level = 100
 	
-	aggression = 3.0
+	aggression = 4.0
 
 	building_group_weights = {
 		bg_army = 1.5
 		bg_arts = 0.75
+		bg_construction = 0.15
 	}
 	
 	goods_stances = {
@@ -263,12 +264,12 @@ ai_strategy_manifest_destiny = {
 	
 	secret_goal_weights = {
 		protect = 0.5
-		conquer = 2.0
+		conquer = 3.0
 	}
 
 	wargoal_weights = {
 		conquer_state = 1.5
-		return_state = 2.5
+		return_state = 5.5
 	}	
 		
 	possible = {
@@ -276,11 +277,11 @@ ai_strategy_manifest_destiny = {
 	}
 
 	weight = {
-		value = 0
+		value = -200
 		
 		if = {
 			limit = { tag = USA }
-			add = 40
+			add = 300
 		}
 	}
 }

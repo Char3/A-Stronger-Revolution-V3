@@ -1,0 +1,41 @@
+﻿CHARACTERS = {
+	c:POR = {
+		create_character = {
+			# Maria II of Portugal, second reign
+			#role = politician # Remove this line
+			first_name = "Maria"
+			last_name = "de_Braganca"
+			ruler = yes
+			female = yes
+			age = 17
+			interest_group = ig_intelligentsia # Maria II was a Constitutionalist
+			traits = {
+				persistent
+			}
+		}
+
+		# No heir, Pedro V wasn't born until 1837
+
+		create_character = {
+			is_general = yes
+			first_name = Miguel_Nunes
+			last_name = Vidigal
+			age = 91
+			traits = {
+				cruel
+			}
+		}
+		# TODO: Consider moving to Brazil?
+		
+		create_character = {
+			is_general = yes
+			first_name = Luis_2
+			last_name = do_Rego_Barreto
+			age = 59
+			traits = {
+				experienced_colonial_administrator
+				cruel
+			}
+		}
+	}
+}

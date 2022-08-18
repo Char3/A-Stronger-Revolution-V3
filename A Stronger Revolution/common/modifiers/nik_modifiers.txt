@@ -35,10 +35,16 @@ nf_manufacturing_trade_attraction = {
 	interest_group_ig_trade_unions_pop_attraction_mult = 0.1
 }
 
+nf_manufacturing_proletarian_attraction = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	interest_group_ig_proletarian_pop_attraction_mult = 0.1
+}
+
 nf_manufacturing_petty_bourgeoisie_attraction = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
-	interest_group_ig_petty_bourgeoisie_pop_attraction_mult = 0.1
+	interest_group_ig_petty_bourgeoisie_pop_attraction_mult = 0.1 interest_group_ig_small_business_pop_attraction_mult = 0.1
 	interest_group_ig_trade_unions_approval_add = -1
+	interest_group_ig_proletarians_approval_add = -1
 	interest_group_ig_industrialists_approval_add = -1
 }
 
@@ -55,6 +61,13 @@ nf_agricultural_rural_folk_attraction = {
 nf_agricultural_devout_attraction = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	interest_group_ig_devout_pop_attraction_mult = 0.1
+	interest_group_ig_landowners_approval_add = -1
+	interest_group_ig_rural_folk_approval_add = -1
+}
+
+nf_agricultural_catholic_attraction = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	interest_group_ig_catholic_church_pop_attraction_mult = 0.1
 	interest_group_ig_landowners_approval_add = -1
 	interest_group_ig_rural_folk_approval_add = -1
 }

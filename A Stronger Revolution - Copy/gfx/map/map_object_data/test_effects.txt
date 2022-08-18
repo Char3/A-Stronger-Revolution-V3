@@ -1,0 +1,18 @@
+﻿object={
+	name="env_explosion_pe"
+	clamp_to_water_level=no
+	render_under_water=yes
+	generated_content=no
+	layer="static"
+	entity="explosion_parent"
+	count=0
+}
+object={
+	name="env_muzzle_flashes"
+	clamp_to_water_level=no
+	render_under_water=yes
+	generated_content=no
+	layer="static"
+	entity="muzzle_flashes"
+	count=0
+}

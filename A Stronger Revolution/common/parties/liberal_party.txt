@@ -158,8 +158,16 @@ liberal_party = {
 			triggered_desc = {
 				desc = party_english_party
 				trigger = {
-					exists = c:GRE
-					THIS = c:GRE
+					OR = {
+						AND = {
+							exists = c:GRE
+							THIS = c:GRE
+						}
+						AND = {
+							exists = c:BYZ
+							THIS = c:BYZ
+						}
+					}
 				}
 			}
 			triggered_desc = {
@@ -269,6 +277,14 @@ liberal_party = {
 			}
 			add = 6
 		}
+		if = { # evangelicals love evangelism
+			limit = {
+				OR = {
+					has_ideology = ideology_evangelical
+				}
+			}
+			add = 4
+		}
 		if = { # various progressives are inclined towards liberalism
 			limit = {
 				leader = {
@@ -295,6 +311,12 @@ liberal_party = {
 				}
 			}
 			add = -5
+		}
+		if = { # various organized churches are incilined towards conservatism
+			limit = {
+				has_ideology = ideology_pious
+			}
+			add = -3
 		}
 		if = {
 			limit = { # particularists will join in when their issues are relevant
@@ -333,7 +355,13 @@ liberal_party = {
 			limit = {
 				has_ideology = ideology_individualist
 			}
-			add = 6
+			add = 5
 		}
 	}
+	if = { # Americans LOVE Liberty
+			limit = {
+				has_ideology = american_patriotic
+			}
+			add = 2
+		}
 }

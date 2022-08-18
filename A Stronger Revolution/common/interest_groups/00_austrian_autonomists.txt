@@ -1,0 +1,237 @@
+ig_austrian_autonomists = {
+	color = { 160 160 160 }
+	texture = "gfx/interface/icons/ig_icons/austrian_autonomists.dds"
+	
+	ideologies = {
+		ideology_minority_interests
+		ideology_republican
+	}
+
+	enable = {
+		exists = c:AUS
+		THIS = c:AUS
+	}
+	
+	traits = {
+		ig_trait_international_ties
+		ig_trait_community_integration
+		ig_trait_oppressed_minorities
+	}		
+	on_enable = {}
+	on_disable = {}	
+	
+	pop_potential = {
+		pop_has_primary_culture = no
+		NOT = {
+			is_pop_type = aristocrats
+		}
+	}
+
+	pop_weight = {
+		value = 5
+	
+		add = {
+			desc = "POP_MINORITY_CULTURE"
+			if = {
+				limit = { 
+					pop_has_primary_culture = no
+				}
+				value = 175
+			}
+		}
+		
+		add = {
+			desc = "POP_MINORITY_RELIGION"
+			if = {
+				limit = { 
+					NOT = {
+						religion = owner.religion
+					}
+				}
+				value = 45
+			}
+		}
+		
+		add = {
+			desc = "POP_CLERGYMEN"
+			if = {
+				limit = { 
+					NOT = {
+						religion = owner.religion
+					}
+					is_pop_type = clergymen
+				}
+				value = 30
+			}
+		}
+	
+		add = {
+			desc = "POP_SHOPKEEPERS"
+			if = {
+				limit = { 
+					is_pop_type = shopkeepers
+				}
+				value = 40
+			}
+		}	
+		
+		add = {
+			desc = "POP_SERVICEMEN"
+			if = {
+				limit = { 
+					is_pop_type = servicemem
+				}
+				value = 55
+			}
+		}	
+		
+		add = {
+			desc = "POP_BUREAUCRATS"
+			if = {
+				limit = { 
+					is_pop_type = bureaucrats
+				}
+				value = 40
+			}
+		}
+		
+		add = {
+			desc = "POP_ARISTOCRATS"
+			if = {
+				limit = { 
+					is_pop_type = bureaucrats
+				}
+				value = 10
+			}
+		}
+		
+		add = {
+			desc = "POP_OFFICERS"
+			if = {
+				limit = { 
+					is_pop_type = officers
+				}
+				value = 15
+			}
+		}
+		
+		add = {
+			desc = "POP_FARMERS"
+			if = {
+				limit = { 
+					is_pop_type = farmers
+				}
+				value = 30
+			}
+		}
+		
+		add = {
+			desc = "POP_PEASANTS"
+			if = {
+				limit = { 
+					is_pop_type = peasants 
+				}
+				value = 15
+			}
+		}
+		
+		add = {
+			desc = "POP_MACHINISTS"
+			if = {
+				limit = { 
+					is_pop_type = machinists
+				}
+				value = 25
+			}
+		}
+		
+		add = {
+			desc = "HUNGARIAN_SECESSION"
+			if = {
+				limit = { 
+					owner = {
+						has_journal_entry = je_dual_monarchy
+					}
+					pop_culture = c:hungarian
+				}
+				value = 100
+			}
+		}
+		
+
+		multiply = {
+			desc = "decentralized_power"	
+			value = 1.0
+			
+			if = {
+				limit = { 
+					owner = {
+						is_country_type = decentralized
+					}
+				}
+				value = 0.0
+			}		
+		}		
+	}
+
+	monarch_weight = {
+		value = 0.0
+	}	
+	
+	commander_weight = {
+		value = 1.0
+	}	
+	
+	noble_chance = {
+		value = 0.1
+	}
+	
+	female_commander_chance = {	
+		value = 0.0
+	}
+	
+	female_politician_chance = {
+		value = 0.0
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_own_property
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_in_the_workplace
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_womens_suffrage
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
+	}
+	
+	# The chance that a commander belonging to this IG takes over leadership when it changes
+	commander_leader_chance = {
+		value = 0.25
+	}	
+}

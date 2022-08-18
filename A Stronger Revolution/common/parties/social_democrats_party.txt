@@ -127,8 +127,16 @@ social_democrat_party = {
 			triggered_desc = {
 				desc = party_seke
 				trigger = {
-					exists = c:GRE
-					THIS = c:GRE
+					OR = {
+						AND = {
+							exists = c:GRE
+							THIS = c:GRE
+						}
+						AND = {
+							exists = c:BYZ
+							THIS = c:BYZ
+						}
+					}
 				}
 			}
 			triggered_desc = {
@@ -331,7 +339,7 @@ social_democrat_party = {
 			limit = {
 				is_interest_group_type = ig_trade_unions
 			}
-			add = 2
+			add = 3
 		}
 	}
 }

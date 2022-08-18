@@ -106,6 +106,19 @@
 							has_diplomatic_pact = { who = root type = customs_union }
 						}
 					}
+					NOT = {
+						any_neighbouring_state = {
+							owner = {
+								OR = {
+									has_diplomatic_pact = {
+										who = scope:target_country
+										type = customs_union
+									}
+									is_subject_of = scope:target_country
+								}
+							}
+						}
+					}
 				}
 				add = {
 					desc = "DIPLOMATIC_ACCEPTANCE_NOT_NEIGHBORS"
@@ -293,6 +306,19 @@
 					NOT = {
 						scope:target_country = {
 							has_diplomatic_pact = { who = root type = customs_union }
+						}
+					}
+					NOT = {
+						any_neighbouring_state = {
+							owner = {
+								OR = {
+									has_diplomatic_pact = {
+										who = scope:target_country
+										type = customs_union
+									}
+									is_subject_of = scope:target_country
+								}
+							}
 						}
 					}
 				}

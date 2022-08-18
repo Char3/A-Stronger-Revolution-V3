@@ -142,6 +142,13 @@
 				}
 			}
 			triggered_desc = {
+				desc = party_national_union_of_byzantium
+				trigger = {
+					exists = c:BYZ
+					THIS = c:BYZ
+				}
+			}
+			triggered_desc = {
 				desc = party_nazis
 				trigger = {
 					OR = {

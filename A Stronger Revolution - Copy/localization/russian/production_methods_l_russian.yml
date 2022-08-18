@@ -1,0 +1,758 @@
+﻿l_russian:
+  
+  # Common
+ pm_base:0 "Основа"
+ pmg_base_building_food_industry:0 "Основа"
+ pmg_base_building_textile_mills:0 "Основа"
+ pmg_base_building_furniture_manufacturies:0 "Основа"
+ pmg_base_building_glassworks:0 "Основа"
+ pmg_base_building_tooling_workshops:0 "Основа"
+ pmg_base_building_paper_mills:0 "Основа"
+ pmg_base_building_motor_industry:0 "Основа"
+ pmg_base_building_shipyards:0 "Основа"
+ pmg_base_building_munition_plants:0 "Основа"
+ pmg_base_building_power_plant:0 "Основа"
+ pmg_base_building_rye_farm:0 "Основа"
+ pmg_base_building_wheat_farm:0 "Основа"
+ pmg_base_building_rice_farm:0 "Основа"
+ pmg_base_building_maize_farm:0 "Основа"
+ pmg_base_building_millet_farm:0 "Основа"
+ pmg_base_building_livestock_ranch:0 "Основа"
+ pmg_base_building_gold_fields:0 "Основа"
+ pmg_base_building_coffee_plantation:0 "Основа"
+ pmg_base_building_cotton_plantation:0 "Основа"
+ pmg_base_building_dye_plantation:0 "Основа"
+ pmg_base_building_opium_plantation:0 "Основа"
+ pmg_base_building_tea_plantation:0 "Основа"
+ pmg_base_building_tobacco_plantation:0 "Основа"
+ pmg_base_building_sugar_plantation:0 "Основа"
+ pmg_base_building_banana_plantation:0 "Основа"
+ pmg_base_building_silk_plantation:0 "Основа"
+ pmg_base_building_rubber_plantation:0 "Основа"
+ # [LocEditor:UntranslatedKey] `pmg_base_building_construction_sector`
+ pmg_base_building_port:0 "Основа"
+ pmg_base_building_trade_center:0 "Основа"
+ pmg_base_building_government_administration:0 "Основа"
+ pmg_base_building_arts_academy:0 "Основа"
+ pmg_base_building_university:0 "Основа"
+ pmg_base_building_eiffel_tower:0 "Основа"
+ pmg_base_building_logging_camp:0 "Основа"
+ pmg_base_building_fishing_wharf:0 "Основа"
+ pmg_base_building_whaling_station:0 "Основа"
+ pmg_base_building_oil_rig:0 "Основа"
+ pmg_base_building_suez_canal:0 "Основа"
+ pmg_base_building_panama_canal:0 "Основа"
+ pmg_base_building_railway:0 "Основа"
+ pmg_base_building_subsistence_farms:0 "Основа"
+ pmg_base_building_subsistence_orchards:0 "Основа"
+ pmg_base_building_subsistence_pastures:0 "Основа"
+
+ pm_default_building_eiffel_tower:0 "Стандартное производство"
+ pmg_luxury_building_textile_mills:0 "Производство предметов роскоши"
+ pmg_luxury_building_furniture_manufacturies:0 "Производство предметов роскоши"
+ pmg_luxury_building_glassworks:0 "Производство предметов роскоши"
+
+ pm_disabled:0 "Выкл."
+ pm_paused:0 "Строительство приостановлено"
+  
+ pm_pharmacies:0 "Аптеки"
+ pm_no_pharmacies:0 "Нет медицинского производства"
+ pm_apothecaries:0 "Фармацевты"
+ pm_no_amenities:0 "Нет благ"
+ pm_market_stalls:0 "Ларьки"
+ pm_market_squares:0 "Рыночные площади"
+ pm_covered_markets:0 "Крытые рынки"
+ pm_arcades:0 "Пассажи"
+ pm_no_maintenance:0 "Минимальное содержание"
+ pm_no_street_lighting:0 "Неосвещённые улицы"
+ pm_maintained_sewers:0 "Поддерживаемая канализация"
+ pm_gas_streetlights:0 "Газовое освещение улиц"
+ pm_electric_streetlights:0 "Электрическое освещение улиц"
+ pm_public_parks:0 "Общественные парки"
+ pm_no_public_transport:0 "Только личный транспорт"
+ pm_public_trams:0 "Общественные трамваи"
+ pm_public_motor_carriages:0 "Общественные автобусы"
+ # [LocEditor:UntranslatedKey] `pmg_urban_clergy`
+ # [LocEditor:UntranslatedKey] `pm_state_urban_clergy`
+ # [LocEditor:UntranslatedKey] `pm_free_urban_clergy`
+  
+ pm_steam_power:0 "Паровой двигатель"
+ pm_disabled_steam_power:0 "Нет парового двигателя"
+ pm_watertube_boiler_building_furniture_manufacturies:0 "Водотрубный котёл"
+ pm_watertube_boiler_building_tooling_workshops:0 "Водотрубный котёл"
+ pm_watertube_boiler_building_paper_mills:0 "Водотрубный котёл"
+ pm_watertube_boiler_building_steel_mills:0 "Водотрубный котёл"
+ pm_watertube_boiler_building_motor_industry:0 "Водотрубный котёл"
+ pm_rotary_valve_engine_building_furniture_manufacturies:0 "Ротативный двигатель"
+ pm_rotary_valve_engine_building_tooling_workshops:0 "Ротативный двигатель"
+ pm_rotary_valve_engine_building_paper_mills:0 "Ротативный двигатель"
+ pm_rotary_valve_engine_building_steel_mills:0 "Ротативный двигатель"
+ pm_rotary_valve_engine_building_motor_industry:0 "Ротативный двигатель"
+
+  # Trains
+ pm_no_passenger_trains:0 "Приоритет на грузы"
+ pm_wooden_passenger_carriages:0 "Деревянные пассажирские вагоны"
+ pm_steel_passenger_carriages:0 "Стальные пассажирские вагоны"
+ pm_steam_trains:0 "Паровозы"
+ pm_electric_trains:0 "Электровозы"
+ pm_diesel_trains:0 "Тепловозы"
+ pm_non_standardized_gauges:0 "Нет стандарта колеи"
+ pm_broad_gauges:0 "Ширококолейные рельсы"
+ pm_narrow_gauges:0 "Узкоколейные рельсы"
+ pm_no_military_trains:0 "Гражданские поезда"
+ pmg_armored_trains:0 "Бронепоезда"
+ pm_armored_trains:0 "Бронепоезда"
+ pm_railway_guns:0 "Железнодорожная артиллерия"
+  
+  # Food Industry
+ pmg_canning:0 "Консервирование"
+ pm_disabled_canning:0 "Кувшины"
+ pm_cannery:0 "Консервные заводы"
+ pm_disabled_cannery:0 "Нет консервных заводов"
+ pm_vacuum_canning:0 "Вакуумное консервирование"
+  
+ pmg_distillery:0 "Перегонка"
+ pm_disabled_distillery:0 "Приоритет на производство продуктов"
+ pm_pot_stills:0 "Перегонные кубы"
+ pm_patent_stills:0 "Рефракционные колонны"
+ pm_bakery:0 "Хлебопекарни"
+ pm_sweeteners:0 "Кондитерские"
+  
+  # Textile Mills
+ pm_cotton_gin:0 "Коттон-джин"
+ pm_disabled_gin:0 "Нет механических машин"
+ pm_system_gin:0 "Система машин"
+  
+ pm_elastics:0 "Эластичные волокна"
+ pm_disabled_elastics:0 "Нет эластичных волокон"
+ pm_masticators:0 "Пластификаторы"
+ pm_rubber_bands:0 "Резинки"
+  
+ pm_no_luxury_clothes:0 "Приоритет на обычную одежду"
+ pm_luxury_clothes:0 "Производство роскошной одежды"
+  
+  # Furniture Manufacturies
+ pm_textile_looms:0 "Ткацкие станки"
+ pm_handcrafted_furniture:0 "Ручная мебель"
+ pm_machine_tools:0 "Станки"
+ pm_disabled_machine_tools:0 "Нет станков"
+ pm_lathe:0 "Токарные станки"
+ pm_mechanized_workshops:0 "Механизированные мастерские"
+ pm_assembly_lines_building_furniture_manufacturies:0 "Конвейерное производство"
+ pm_assembly_lines_building_tooling_workshops:0 "Конвейерное производство"
+ pm_assembly_lines_building_motor_industry:0 "Конвейерное производство"
+ pm_no_luxuries:0 "Приоритет на обычную мебель"
+ pm_luxury_furniture:0 "Производство роскошной мебели"
+  
+  # Glassworks
+ pm_forest_glass:0 "Лесное стекло"
+ pmg_glassblowing:0 "Выдувание стекла"
+ pm_disabled_glassblowing:0 "Нет выдувания стекла"
+ pm_crystal_glass:0 "Хрустальное стекло"
+ pm_automatic_bottle_blowers:0 "Автоматические воздуходувки"
+  
+ pm_ceramics:0 "Керамика"
+ pm_disabled_ceramics:0 "Приоритет на производство стекла"
+ pm_bone_china:0 "Костяной фарфор"
+  
+  # Tooling Workshops
+ pm_crude_tools:0 "Простые инструменты"
+ pm_pig_iron:0 "Инструменты из передельного чугуна"
+ pm_steel:0 "Стальные инструменты"
+ pm_muskets:0 "Мушкеты"
+ pm_rifles:0 "Винтовки"
+ pm_repeaters:0 "Магазинные винтовки"
+ pm_bolt_action_rifles:0 "Винтовки со скользящим затвором"
+  
+  # Paper Mills
+ pm_pulp_pressing:0 "Целлюлозный пресс"
+ pm_crude_paper:0 "Простая бумага"
+ pm_sulfite_pulping:0 "Сульфитный процесс"
+ pm_bleached_paper:0 "Отбеливание бумаги"
+ pm_no_publishing:0 "Нет печатного дела"
+ pm_newspapers:0 "Газеты"
+ pm_printing_presses:0 "Печатный станок"
+  
+  # Steel Mills
+ pmg_steelmaking_process:0 "Процесс сталеварения"
+ pm_blister_steel_process:0 "Цементация стали"
+ pm_bessemer_process:0 "Бессемеровский процесс"
+ pm_open_hearth_process:0 "Мартеновская печь"
+ pm_electric_arc_process:0 "Дуговая сталеплавильная печь"
+  
+ pm_munitions_plants:0 "Заводы боеприпасов"
+ pm_disabled_munitions_plants:0 "Нет заводов боеприпасов"
+ pm_cartridge_crafting:0 "Создание патронов"
+ pm_percussion_caps:0 "Капсюли"
+ pm_explosive_shells:0 "Снаряды"
+  
+  # Motor Industry
+ pm_steam_engines:0 "Паровые двигатели"
+ pm_electric_engines:0 "Электрические двигатели"
+ pm_diesel_engines:0 "Дизельные двигатели"
+
+  # War Machine Industry
+ pmg_aeroplanes:0 "Аэропланы"
+ pm_no_aeroplane_production:0 "Нет производства аэропланов"
+ pm_aeroplane_production:0 "Производство аэропланов"
+ pmg_tanks:0 "Танки"
+ pm_no_tank_production:0 "Приоритет на производство аэропланов"
+ pm_tank_production:0 "Производство танков"
+  
+  # Foundries
+ pm_civilian:0 "Гражданское"
+ pm_wartime:0 "Военное"
+
+  # Arts Academy
+ pmg_schools_of_art:0 "Школы искусства"
+ pm_traditional_art:0 "Традиционное искусство"
+ pm_realist_art:0 "Реалистическое искусство"
+ pm_photographic_art:0 "Фотографическое искусство"
+ pm_film_art:0 "Киноискусство"
+ # [LocEditor:UntranslatedKey] `pmg_ownership_building_arts_academy`
+ # [LocEditor:UntranslatedKey] `pm_traditional_patronage`
+ # [LocEditor:UntranslatedKey] `pm_bourgeoisie_patronage`
+ # [LocEditor:UntranslatedKey] `pm_independent_artists`
+
+  # University
+ pm_analytical_philosophy_department:0 "Факультет аналитической философии"
+ pm_philosophy_department:0 "Факультет философии"
+ # [LocEditor:UntranslatedKey] `pm_scholastic_education`
+ 
+ # [LocEditor:UntranslatedKey] `pmg_university_academia`
+ # [LocEditor:UntranslatedKey] `pm_secular_academia`
+ # [LocEditor:UntranslatedKey] `pm_religious_academia`
+  
+  # Fishing Wharf
+ pm_fish_oil:0 "Рыбий жир"
+ pm_disabled_fish_oil:0 "Приоритет на производство рыбы"
+ pm_oil_extraction:0 "Извлечение жира"
+ pm_cod_liver_oil:0 "Жир из печени трески"
+ pm_simple_fishing:0 "Простая рыбалка"
+ pm_fishing_trawlers:0 "Рыболовецкие траулеры"
+ pm_steam_trawlers:0 "Паровые траулеры"
+ pmg_refrigeration_building_livestock_ranch:0 "Охлаждение"
+ pmg_refrigeration_building_fishing_wharf:0 "Охлаждение"
+ pmg_refrigeration_building_whaling_station:0 "Охлаждение"
+ pm_unrefrigerated:0 "Без охлаждения"
+ pm_refrigerated_storage_building_fishing_wharf:0 "Хранение в холодильнике"
+ pm_refrigerated_storage_building_whaling_station:0 "Хранение в холодильнике"
+ pm_refrigerated_storage_building_livestock_ranch:0 "Хранение в холодильнике"
+ pm_refrigerated_rail_cars_building_fishing_wharf:0 "Вагоны-рефрижераторы"
+ pm_refrigerated_rail_cars_building_whaling_station:0 "Вагоны-рефрижераторы"
+ pm_refrigerated_rail_cars_building_livestock_ranch:0 "Вагоны-рефрижераторы"
+ pm_flash_freezing_building_fishing_wharf:0 "Сверхбыстрое замораживание"
+ pm_flash_freezing_building_whaling_station:0 "Сверхбыстрое замораживание"
+ pm_wooden_whaling_ships:0 "Китобойный флот"
+ pm_steam_whaling_ships:0 "Паровые китобойные суда"
+ 
+  # Grain Farms
+ pm_simple_farming:0 "Простое земледелие"
+ pm_simple_farming_building_rice_farm:0 "Простое земледелие"
+ pm_intensive_farming:0 "Интенсивное земледелие"
+ pm_soil_enriching_farming:0 "Земледелие с использованием удобрений"
+ pm_soil_enriching_farming_building_rice_farm:0 "Земледелие с использованием удобрений"
+ pm_fertilization:0 "Удобрения"
+ pm_fertilization_building_rice_farm:0 "Удобрения"
+ pm_chemical_fertilizer:0 "Химические удобрения"
+ pm_chemical_fertilizer_building_rice_farm:0 "Химические удобрения"
+ pm_chemical_fertilizer_building_maize_farm:0 "Химические удобрения"
+ pm_tools_disabled:0 "Плуги, запряжённые быками"
+ pm_hand_tools:0 "Использование ручных инструментов"
+ pm_ox_ploughs:0 "Плуги, запряжённые быками"
+ pm_tools:0 "Инструменты для сбора урожая"
+ pm_steam_threshers_building_wheat_farm:0 "Паровые молотилки"
+ pm_steam_threshers:0 "Паровые молотилки"
+ pm_tractors_building_rye_farm:0 "Тракторы"
+ pm_tractors_building_wheat_farm:0 "Тракторы"
+ pm_tractors_building_maize_farm:0 "Тракторы"
+ pm_compression_ignition_tractors_building_rye_farm:0 "Дизельные тракторы"
+ pm_compression_ignition_tractors_building_wheat_farm:0 "Дизельные тракторы"
+ pm_compression_ignition_tractors_building_maize_farm:0 "Дизельные тракторы"
+
+  # Ranches
+ pm_simple_ranch:0 "Простые ранчо"
+ pm_intensive_grazing_ranch:0 "Ранчо с интенсивным выпасом"
+ pm_butchering_tools:0 "Инструменты скотобойни"
+ pm_open_air_stockyards:0 "Скотные дворы под открытым воздухом"
+ pm_slaughterhouses:0 "Скотобойни"
+ pm_mechanized_slaughtering:0 "Механизированные скотобойни"
+ pm_standard_fences:0 "Стандартные изгороди"
+ pm_barbed_wire_fences:0 "Изгороди с колючей проволокой"
+ pm_electric_fencing:0 "Электрические изгороди"
+ pm_orchards:0 "Фруктовые сады"
+ pm_orchards_no:0 "Нет фруктовых садов"
+  
+  # Mines
+ pmg_mining_equipment_building_coal_mine:0 "Горнодобывающее оборудование"
+ pmg_mining_equipment_building_iron_mine:0 "Горнодобывающее оборудование"
+ pmg_mining_equipment_building_lead_mine:0 "Горнодобывающее оборудование"
+ pmg_mining_equipment_building_sulfur_mine:0 "Горнодобывающее оборудование"
+ # [LocEditor:UntranslatedKey] `pmg_mining_equipment_building_gold_mine`
+
+ pm_no_mining_equipment:0 "Нет оборудования"
+
+ pm_picks_and_shovels_building_coal_mine:0 "Кирки и лопаты"
+ pm_picks_and_shovels_building_iron_mine:0 "Кирки и лопаты"
+ pm_picks_and_shovels_building_lead_mine:0 "Кирки и лопаты"
+ pm_picks_and_shovels_building_sulfur_mine:0 "Кирки и лопаты"
+ # [LocEditor:UntranslatedKey] `pm_picks_and_shovels_building_gold_mine`
+
+ pm_atmospheric_engine_pump_building_coal_mine:0 "Пароатмосферный насос"
+ pm_atmospheric_engine_pump_building_iron_mine:0 "Пароатмосферный насос"
+ pm_atmospheric_engine_pump_building_lead_mine:0 "Пароатмосферный насос"
+ pm_atmospheric_engine_pump_building_sulfur_mine:0 "Пароатмосферный насос"
+ # [LocEditor:UntranslatedKey] `pm_atmospheric_engine_pump_building_gold_mine`
+
+ pm_steam_donkey_mine:0 "Паровик"
+ pm_steam_donkey_building_logging_camp:0 "Паровик"
+ pm_steam_donkey_building_coal_mine:0 "Паровик"
+ pmg_explosives_building_chemical_plants:0 "Взрывчатка"
+
+ pmg_explosives_building_coal_mine:0 "Взрывчатка"
+ pmg_explosives_building_iron_mine:0 "Взрывчатка"
+ pmg_explosives_building_lead_mine:0 "Взрывчатка"
+ pmg_explosives_building_sulfur_mine:0 "Взрывчатка"
+ # [LocEditor:UntranslatedKey] `pmg_explosives_building_gold_mine`
+
+ pm_no_explosives:0 "Ручное бурение"
+
+ pm_nitroglycerin_building_coal_mine:0 "Нитроглицерин"
+ pm_nitroglycerin_building_iron_mine:0 "Нитроглицерин"
+ pm_nitroglycerin_building_lead_mine:0 "Нитроглицерин"
+ pm_nitroglycerin_building_sulfur_mine:0 "Нитроглицерин"
+ # [LocEditor:UntranslatedKey] `pm_nitroglycerin_building_gold_mine`
+
+ pm_dynamite_building_coal_mine:0 "Динамит"
+ pm_dynamite_building_iron_mine:0 "Динамит"
+ pm_dynamite_building_lead_mine:0 "Динамит"
+ pm_dynamite_building_sulfur_mine:0 "Динамит"
+ # [LocEditor:UntranslatedKey] `pm_dynamite_building_gold_mine`
+
+ pm_no_steam_automation:0 "Передвижной кран с ручным приводом"
+ pm_steam_rail_transport:0 "Перевозка по рельсам"
+
+ pm_condensing_engine_pump_building_coal_mine:0 "Паровой насос с конденсатором"
+ pm_condensing_engine_pump_building_iron_mine:0 "Паровой насос с конденсатором"
+ pm_condensing_engine_pump_building_lead_mine:0 "Паровой насос с конденсатором"
+ pm_condensing_engine_pump_building_sulfur_mine:0 "Паровой насос с конденсатором"
+ # [LocEditor:UntranslatedKey] `pm_condensing_engine_pump_building_gold_mine`
+
+ pm_diesel_pump_building_coal_mine:0 "Дизельный насос"
+ pm_diesel_pump_building_iron_mine:0 "Дизельный насос"
+ pm_diesel_pump_building_lead_mine:0 "Дизельный насос"
+ pm_diesel_pump_building_sulfur_mine:0 "Дизельный насос"
+ # [LocEditor:UntranslatedKey] `pm_diesel_pump_building_gold_mine`
+
+  # Government Administration
+ # [LocEditor:UntranslatedKey] `pm_simple_organization`
+ pm_horizontal_drawer_cabinets:0 "Шкафы с горизонтальными ящиками"
+ pm_vertical_filing_cabinets:0 "Вертикально заполняемые картотеки"
+ pm_switch_boards:0 "Телефонные коммутаторы"
+ pm_census:0 "Регулярные переписи"
+ pm_identification_documents:0 "Обязательные удостоверения личности"
+ pm_personal_files:0 "Личные дела персонала"
+ 
+ # [LocEditor:UntranslatedKey] `pmg_government_administration_bureaucrat_professionalism`
+ # [LocEditor:UntranslatedKey] `pm_hereditary_bureaucrats`
+ # [LocEditor:UntranslatedKey] `pm_professional_bureaucrats`
+ 
+ # [LocEditor:UntranslatedKey] `pmg_government_administration_religious_administration`
+ # [LocEditor:UntranslatedKey] `pm_secular_bureaucrats`
+ # [LocEditor:UntranslatedKey] `pm_religious_bureaucrats`
+  
+  # Barracks
+  
+ pmg_organization:0 "Организация"
+ pm_irregular_infantry:0 "Иррегулярная пехота"
+ pm_line_infantry:0 "Линейная пехота"
+ pm_skirmish_infantry:0 "Пехота застрельщиков"
+ pm_trench_infantry:0 "Траншейная пехота"
+ pm_squad_infantry:0 "Пехотные отделения"
+
+ pmg_artillery:0 "Артиллерийская поддержка"
+ pm_no_artillery:0 "Упор на пехоту"
+ pm_cannon_artillery:0 "Ствольная артиллерия"
+ pm_mobile_artillery:0 "Мобильная артиллерия"
+ pm_shrapnel_artillery:0 "Осколочная артиллерия"
+ pm_siege_artillery:0 "Осадная артиллерия"
+
+ # [LocEditor:UntranslatedKey] `pmg_reconaissance`
+ # [LocEditor:UntranslatedKey] `pm_cavalry_scouts`
+ pm_bicycle_messengers:0 "Гонцы на велосипедах"
+ pm_aerial_recon:0 "Разведка с воздуха"
+
+ pmg_specialist_companies:0 "Отряды специалистов"
+ pm_no_specialists:0 "Стандартная пехота"
+ pm_machine_gunners:0 "Пулемётчики"
+ pm_infiltrators:0 "Лазутчики"
+ pm_flamethrower_company:0 "Отряды огнемётчиков"
+ pm_chemical_weapons_specialists:0 "Специалисты по химическому оружию"
+  
+ pmg_medical_aid:0 "Медицинская помощь"
+ pm_wound_dressing:0 "Перевязывание ран"
+ pm_first_aid:0 "Первая помощь"
+ pm_field_hospitals:0 "Полевые госпитали"
+
+  # Electrics
+ pm_no_radios:0 "Приоритет на производство телефонов"
+ pm_radios:0 "Производство радио"
+ pm_telephones:0 "Производство телефонов"
+
+  #Textile Mills
+ pm_dye_workshops:0 "Красильные мастерские"
+ pm_handsewn_clothes:0 "Одежда ручной вышивки"
+  
+  # Logging
+ pm_no_equipment:0 "Тягловые лошади"
+ pm_simple_forestry:0 "Простая вырубка"
+ pm_saw_mills:0 "Лесопилки"
+ pm_chainsaws:0 "Цепные пилы"
+ pm_no_hardwood:0 "Приоритет на производство мягкой древесины"
+ pmg_hardwood:0 "Производство твёрдой древесины"
+ pm_hardwood:0 "Производство твёрдой древесины"
+
+  #Shipbuilding
+
+ pm_basic_shipbuilding:0 "Деревянные корабли"
+ pm_complex_shipbuilding:0 "Усиленные деревянные корабли"
+ pm_metal_shipbuilding:0 "Пароходы"
+ pm_arc_welding_shipbuilding:0 "Сварные пароходы"
+ pm_no_military_shipbuilding:0 "Гражданское кораблестроение"
+ pm_military_shipbuilding_wooden:0 "Военное кораблестроение"
+ pm_military_shipbuilding_wooden_2:0 "Расширенное военное кораблестроение"
+ pm_military_shipbuilding_steam:0 "Военное кораблестроение"
+ pm_military_shipbuilding_steam_2:0 "Расширенное военное кораблестроение"
+
+  #Port
+ pm_anchorage:0 "Якорная стоянка"
+ pm_basic_port:0 "Грузовой порт"
+ pm_basic_port_canal:0 "Грузовой порт"
+ pm_industrial_port:0 "Промышленный порт"
+ pm_industrial_port_canal:0 "Промышленный порт"
+ pm_modern_port:0 "Современный порт"
+ pm_modern_port_canal:0 "Современный порт"
+
+ pm_trade_center:0 "Центр торговли"
+ pm_stock_exchange:0 "Фондовая биржа"
+ pm_financial_district:0 "Финансовый район"
+
+  #Naval Base
+ pm_man_o_wars:0 "Мановары" # [LocEditor:AwaitingBatchUpdate]
+ pm_ironclads:0 "Броненосцы" # [LocEditor:AwaitingBatchUpdate]
+ pm_monitors:0 "Мониторы" # [LocEditor:AwaitingBatchUpdate]
+ pm_dreadnoughts:0 "Дредноуты" # [LocEditor:AwaitingBatchUpdate]
+ pm_battleships:0 "Линкоры" # [LocEditor:AwaitingBatchUpdate]
+ pm_no_secondary_vessels:0 "Неспециализированные корабли"
+ pm_submarine:0 "Подводные лодки"
+ pm_carriers:0 "Авианосцы"
+ pm_no_naval_theory:0 "Морские традиции"
+ pm_power_of_the_purse:0 "Власть кошелька"
+ pm_jeune_ecole:0 "Молодая школа"
+ pm_sea_lane_strategies:0 "Стратегии морских путей"
+ pm_battlefleet_tactics:0 "Тактика военного флота"
+
+  # Unsorted
+ pmg_amenities:0 "Блага"
+ pm_publishing:0 "Издательское дело"
+ pm_maintenance:0 "Содержание"
+ pmg_street_lighting:0 "Уличное освещение"
+ pmg_public_transport:0 "Общественный транспорт"
+ pm_organisation:0 "Организация"
+ pm_citizen_information:0 "Информация для граждан"
+ pm_railway_gauges:0 "Железнодорожная колея"
+ pmg_passenger_trains:0 "Пассажирские поезда"
+ pmg_secondary_vessels:0 "Вторичные корабли"
+ pmg_ship_class:0 "Класс корабля"
+ pmg_naval_theory:0 "Морская теория"
+ pmg_military_base:0 "Военная база"
+ pmg_lightbulbs_category:0 "Лампочки"
+ pm_best_lightbulbs:0 "Лучшие лампочки"
+ pmg_telephones_category:0 "Телефоны"
+ pmg_radios_category:0 "Радио"
+ pmg_harvesting_process_building_rye_farm:0 "Процесс сбора урожая"
+ pmg_harvesting_process_building_wheat_farm:0 "Процесс сбора урожая"
+ pmg_harvesting_process_building_rice_farm:0 "Процесс сбора урожая"
+ pmg_harvesting_process_building_maize_farm:0 "Процесс сбора урожая"
+ pmg_harvesting_process_building_millet_farm:0 "Процесс сбора урожая"
+ pmg_slaughtering:0 "Забой"
+ pmg_fencing:0 "Ограждение"
+
+ pmg_steam_automation_building_coal_mine:0 "Паровая автоматизация"
+ pmg_steam_automation_building_iron_mine:0 "Паровая автоматизация"
+ pmg_steam_automation_building_lead_mine:0 "Паровая автоматизация"
+ pmg_steam_automation_building_sulfur_mine:0 "Паровая автоматизация"
+ # [LocEditor:UntranslatedKey] `pmg_steam_automation_building_gold_mine`
+
+ pmg_train_automation_building_coal_mine:0 "Использование поездов"
+ pmg_train_automation_building_iron_mine:0 "Использование поездов"
+ pmg_train_automation_building_lead_mine:0 "Использование поездов"
+ pmg_train_automation_building_sulfur_mine:0 "Использование поездов"
+ # [LocEditor:UntranslatedKey] `pmg_train_automation_building_gold_mine`
+ pmg_train_automation_building_coffee_plantation:0 "Использование поездов"
+ pmg_train_automation_building_cotton_plantation:0 "Использование поездов"
+ pmg_train_automation_building_dye_plantation:0 "Использование поездов"
+ pmg_train_automation_building_opium_plantation:0 "Использование поездов"
+ pmg_train_automation_building_tea_plantation:0 "Использование поездов"
+ pmg_train_automation_building_tobacco_plantation:0 "Использование поездов"
+ pmg_train_automation_building_sugar_plantation:0 "Использование поездов"
+ pmg_train_automation_building_banana_plantation:0 "Использование поездов"
+ pmg_train_automation_building_silk_plantation:0 "Использование поездов"
+ pmg_train_automation_building_rubber_plantation:0 "Использование поездов"
+
+ pm_electric_saw_mills:0 "Электрические лесопилки"
+ pmg_equipment:0 "Специальное снаряжение"
+ pmg_transportation_building_logging_camp:0 "Перевозка"
+ pmg_transportation_building_oil_rig:0 "Перевозка"
+ pm_road_carts:0 "Повозки"
+ pm_rail_transport_mine:0 "Перевозка по рельсам"
+ pm_rail_transport_building_logging_camp:0 "Перевозка по рельсам"
+ pm_rail_transport_building_oil_rig:0 "Перевозка по рельсам"
+ pm_rail_transport_building_lead_mine:0 "Перевозка по рельсам"
+ pm_rail_transport_building_coal_mine:0 "Перевозка по рельсам"
+ pm_log_carts:0 "Вагоны для перевозки брёвен"
+ pm_fish_press:0 "Пресс для рыбы"
+ pm_steam_derricks:0 "Вышки с паровым двигателем"
+ pm_combustion_derricks:0 "Вышки с двигателем внутреннего сгорания"
+ pm_tanker_cars:0 "Цистерны"
+ pm_dye_production:0 "#todo Synthetic Dye#!"
+ pmg_synthetic_silk:0 "#todo Synthetic Silk#!"
+ pm_cannons:0 "Пушки"
+ pm_smoothbores:0 "Гладкоствольные орудия"
+ pm_breech_loaders:0 "Казнозарядные орудия"
+ pm_automation_disabled:0 "Ручная сборка"
+ pm_automobiles_disabled:0 "Приоритет на производство двигателей"
+ pm_hydroelectric_plant:0 "Гидроэлектростанция"
+ pm_coal-fired_plant:0 "Угольная электростанция"
+ pm_oil-fired_plant:0 "Мазутная электростанция"
+ pm_houseware_plastics:0 "Пищевые пластики"
+ pm_baking_powder:0 "Пекарный порошок"
+ pm_manual_dough_processing:0 "Ручная обработка теста"
+ pm_automated_bakery:0 "Автоматические пекарни"
+ pm_precision_tools:0 "Точные инструменты"
+ 
+ pm_munition_plants:0 "Заводы боеприпасов"
+ pm_no_munitions:0 "Нет производства боеприпасов"
+ pm_synthetics:0 "Синтетика"
+ pm_no_synthetics:0 "Нет производства синтетики"
+ pmg_firearms_manufacturing:0 "Производство огнестрельного оружия"
+ pmg_foundries:0 "Литейные"
+  
+  # Home Workshops
+ pmg_home_workshops_building_subsistence_farms:0 "Домашние мастерские"
+ pmg_home_workshops_building_subsistence_orchards:0 "Домашние мастерские"
+ pmg_home_workshops_building_subsistence_pastures:0 "Домашние мастерские"
+
+ pm_home_workshops_building_subsistence_farms:0 "Домашние мастерские"
+ pm_home_workshops_building_subsistence_orchards:0 "Домашние мастерские"
+ pm_home_workshops_building_subsistence_pastures:0 "Домашние мастерские"
+
+ pm_home_workshops_no_building_subsistence_farms:0 "Нет домашних мастерских"
+ pm_home_workshops_no_building_subsistence_orchards:0 "Нет домашних мастерских"
+ pm_home_workshops_no_building_subsistence_pastures:0 "Нет домашних мастерских"
+
+  # Serfdom
+ pm_serfdom:0 "Крепостное право"
+ pmg_serfdom_building_subsistence_farms:0 "Крепостное право"
+ pmg_serfdom_building_subsistence_orchards:0 "Крепостное право"
+ pmg_serfdom_building_subsistence_pastures:0 "Крепостное право"
+ pm_serfdom_building_subsistence_pastures:0 "Крепостное право"
+ pm_serfdom_pastures:0 "Крепостное право"
+ pm_serfdom_no:0 "Вольные крестьяне"
+ pm_slavery:0 "Рабство"
+ default:0 "$pm_default$"
+ default_building_gold_fields:0 "$pm_default$"
+ default_building_coffee_plantation:0 "$pm_default$"
+ default_building_cotton_plantation:0 "$pm_default$"
+ default_building_dye_plantation:0 "$pm_default$"
+ default_building_opium_plantation:0 "$pm_default$"
+ default_building_tea_plantation:0 "$pm_default$"
+ default_building_tobacco_plantation:0 "$pm_default$"
+ default_building_sugar_plantation:0 "$pm_default$"
+ default_building_banana_plantation:0 "$pm_default$"
+ default_building_silk_plantation:0 "$pm_default$"
+ default_building_rubber_plantation:0 "$pm_default$"
+ default_building_subsistence_farms:0 "$pm_default$"
+ default_building_subsistence_orchards:0 "$pm_default$"
+ default_building_subsistence_pastures:0 "$pm_default$"
+
+  # Construction Camp
+ # [LocEditor:UntranslatedKey] `pm_wooden_buildings`
+ # [LocEditor:UntranslatedKey] `pm_iron_frame_buildings`
+ # [LocEditor:UntranslatedKey] `pm_steel_frame_buildings`
+ # [LocEditor:UntranslatedKey] `pm_arc_welded_buildings`
+
+ pm_basic_canal:0 "Обычный канал"
+ pm_industrial_canal:0 "Промышленный канал"
+ pm_modern_canal:0 "Современный канал"
+
+  # Ownership
+ pm_ownership_capital:0 "Собственность"
+ pmg_ownership_capital_building_food_industry:0 "Собственность"
+ pmg_ownership_capital_building_textile_mills:0 "Собственность"
+ pmg_ownership_capital_building_furniture_manufacturies:0 "Собственность"
+ pmg_ownership_capital_building_glassworks:0 "Собственность"
+ pmg_ownership_capital_building_tooling_workshops:0 "Собственность"
+ pmg_ownership_capital_building_paper_mills:0 "Собственность"
+ pmg_ownership_capital_building_chemical_plants:0 "Собственность"
+ pmg_ownership_capital_building_synthetics_plants:0 "Собственность"
+ pmg_ownership_capital_building_motor_industry:0 "Собственность"
+ pmg_ownership_capital_building_steel_mills:0 "Собственность"
+ pmg_ownership_capital_building_shipyards:0 "Собственность"
+ pmg_ownership_capital_building_war_machine_industry:0 "Собственность"
+ pmg_ownership_capital_building_electrics_industry:0 "Собственность"
+ pmg_ownership_capital_building_arms_industry:0 "Собственность"
+ pmg_ownership_capital_building_munition_plants:0 "Собственность"
+ pmg_ownership_capital_building_power_plant:0 "Собственность"
+ pmg_ownership_capital_building_coal_mine:0 "Собственность"
+ pmg_ownership_capital_building_iron_mine:0 "Собственность"
+ pmg_ownership_capital_building_lead_mine:0 "Собственность"
+ pmg_ownership_capital_building_sulfur_mine:0 "Собственность"
+ # [LocEditor:UntranslatedKey] `pmg_ownership_capital_building_gold_mine`
+ pmg_ownership_capital_building_logging_camp:0 "Собственность"
+ pmg_ownership_capital_building_fishing_wharf:0 "Собственность"
+ pmg_ownership_capital_building_whaling_station:0 "Собственность"
+ pmg_ownership_capital_building_oil_rig:0 "Собственность"
+
+ pmg_ownership_land_building_rye_farm:0 "Собственность"
+ pmg_ownership_land_building_rubber_plantation:0 "Собственность"
+ pmg_ownership_land_building_coffee_plantation:0 "Собственность"
+ pmg_ownership_land_building_cotton_plantation:0 "Собственность"
+ pmg_ownership_land_building_tobacco_plantation:0 "Собственность"
+ pmg_ownership_land_building_wheat_farm:0 "Собственность"
+ pmg_ownership_land_building_sugar_plantation:0 "Собственность"
+ pmg_ownership_land_building_livestock_ranch:0 "Собственность"
+ pmg_ownership_land_building_opium_plantation:0 "Собственность"
+ pmg_ownership_land_building_tea_plantation:0 "Собственность"
+ pmg_ownership_land_building_banana_plantation:0 "Собственность"
+ pmg_ownership_land_building_rice_farm:0 "Собственность"
+ pmg_ownership_land_building_maize_farm:0 "Собственность"
+ pmg_ownership_land_building_millet_farm:0 "Собственность"
+ pmg_ownership_land_building_dye_plantation:0 "Собственность"
+ pmg_ownership_land_building_silk_plantation:0 "Собственность"
+
+ pm_merchant_guilds_building_food_industry:0 "Купеческие гильдии"
+ pm_merchant_guilds_building_textile_mills:0 "Купеческие гильдии"
+ pm_merchant_guilds_building_furniture_manufacturies:0 "Купеческие гильдии"
+ pm_merchant_guilds_building_glassworks:0 "Купеческие гильдии"
+ pm_merchant_guilds_building_tooling_workshops:0 "Купеческие гильдии"
+ pm_merchant_guilds_building_paper_mills:0 "Купеческие гильдии"
+ pm_merchant_guilds_building_shipyards:0 "Купеческие гильдии"
+ pm_merchant_guilds_building_arms_industry:0 "Купеческие гильдии"
+ pm_merchant_guilds_building_logging_camp:0 "Купеческие гильдии"
+ pm_merchant_guilds_building_fishing_wharf:0 "Купеческие гильдии"
+ pm_merchant_guilds_building_whaling_station:0 "Купеческие гильдии"
+ pm_merchant_guilds_building_coal_mine:0 "Купеческие гильдии"
+ pm_merchant_guilds_building_iron_mine:0 "Купеческие гильдии"
+ pm_merchant_guilds_building_lead_mine:0 "Купеческие гильдии"
+ pm_merchant_guilds_building_sulfur_mine:0 "Купеческие гильдии"
+ # [LocEditor:UntranslatedKey] `pm_merchant_guilds_building_gold_mine`
+
+ pm_privately_owned_building_coal_mine:0 "Частная собственность"
+ pm_privately_owned_building_iron_mine:0 "Частная собственность"
+ pm_privately_owned_building_lead_mine:0 "Частная собственность"
+ pm_privately_owned_building_sulfur_mine:0 "Частная собственность"
+ # [LocEditor:UntranslatedKey] `pm_privately_owned_building_gold_mine`
+ pm_privately_owned_building_food_industry:0 "Частная собственность"
+ pm_privately_owned_building_textile_mills:0 "Частная собственность"
+ pm_privately_owned_building_furniture_manufacturies:0 "Частная собственность"
+ pm_privately_owned_building_glassworks:0 "Частная собственность"
+ pm_privately_owned_building_tooling_workshops:0 "Частная собственность"
+ pm_privately_owned_building_paper_mills:0 "Частная собственность"
+ pm_privately_owned_building_shipyards:0 "Частная собственность"
+ pm_privately_owned_building_arms_industry:0 "Частная собственность"
+ pm_privately_owned:0 "Частная собственность"
+ pm_privately_owned_industry:0 "Частная собственность"
+ pm_privately_owned_building_fishing_wharf:0 "Частная собственность"
+ pm_privately_owned_building_logging_camp:0 "Частная собственность"
+ pm_privately_owned_building_rice_farm:0 "Частная собственность"
+ pm_privately_owned_building_whaling_station:0 "Частная собственность"
+
+ pm_publicly_traded_building_textile_mills:0 "Публичная компания"
+ pm_publicly_traded_building_furniture_manufacturies:0 "Публичная компания"
+ pm_publicly_traded_building_glassworks:0 "Публичная компания"
+ pm_publicly_traded_building_tooling_workshops:0 "Публичная компания"
+ pm_publicly_traded_building_paper_mills:0 "Публичная компания"
+ pm_publicly_traded_building_shipyards:0 "Публичная компания"
+ pm_publicly_traded_building_arms_industry:0 "Публичная компания"
+ pm_publicly_traded:0 "Публичная компания"
+ pm_publicly_traded_building_logging_camp:0 "Публичная компания"
+ pm_publicly_traded_building_rice_farm:0 "Публичная компания"
+ pm_publicly_traded_building_fishing_wharf:0 "Публичная компания"
+ pm_publicly_traded_building_whaling_station:0 "Публичная компания"
+ pm_publicly_traded_building_oil_rig:0 "Публичная компания"
+ pm_publicly_traded_industry:0 "Публичная компания"
+ pm_publicly_traded_building_coal_mine:0 "Публичная компания"
+ pm_publicly_traded_building_iron_mine:0 "Публичная компания"
+ pm_publicly_traded_building_lead_mine:0 "Публичная компания"
+ pm_publicly_traded_building_sulfur_mine:0 "Публичная компания"
+ # [LocEditor:UntranslatedKey] `pm_publicly_traded_building_gold_mine`
+
+ pm_government_run_building_food_industry:0 "Государственное управление"
+ pm_government_run_building_textile_mills:0 "Государственное управление"
+ pm_government_run_building_furniture_manufacturies:0 "Государственное управление"
+ pm_government_run_building_glassworks:0 "Государственное управление"
+ pm_government_run_building_tooling_workshops:0 "Государственное управление"
+ pm_government_run_building_paper_mills:0 "Государственное управление"
+ pm_government_run_building_shipyards:0 "Государственное управление"
+ pm_government_run_building_arms_industry:0 "Государственное управление"
+ pm_government_run_building_logging_camp:0 "Государственное управление"
+ pm_government_run_building_fishing_wharf:0 "Государственное управление"
+ pm_government_run_building_whaling_station:0 "Государственное управление"
+ pm_government_run:0 "Государственное управление"
+ pm_government_run_building_rice_farm:0 "Государственное управление"
+ pm_government_run_industry:0 "Государственное управление"
+ pm_government_run_building_coal_mine:0 "Государственное управление"
+ pm_government_run_building_iron_mine:0 "Государственное управление"
+ pm_government_run_building_lead_mine:0 "Государственное управление"
+ pm_government_run_building_sulfur_mine:0 "Государственное управление"
+ # [LocEditor:UntranslatedKey] `pm_government_run_building_gold_mine`
+
+ pm_worker_cooperative_building_food_industry:0 "Производственный кооператив"
+ pm_worker_cooperative_building_textile_mills:0 "Производственный кооператив"
+ pm_worker_cooperative_building_furniture_manufacturies:0 "Производственный кооператив"
+ pm_worker_cooperative_building_glassworks:0 "Производственный кооператив"
+ pm_worker_cooperative_building_tooling_workshops:0 "Производственный кооператив"
+ pm_worker_cooperative_building_paper_mills:0 "Производственный кооператив"
+ pm_worker_cooperative_building_shipyards:0 "Производственный кооператив"
+ pm_worker_cooperative_building_arms_industry:0 "Производственный кооператив"
+ pm_worker_cooperative_farm:0 "Производственный кооператив"
+ pm_worker_cooperative_building_rice_farm:0 "Производственный кооператив"
+ pm_worker_cooperative_building_logging_camp:0 "Производственный кооператив"
+ pm_worker_cooperative_building_fishing_wharf:0 "Производственный кооператив"
+ pm_worker_cooperative_building_whaling_station:0 "Производственный кооператив"
+ pm_worker_cooperative_plantation:0 "Производственный кооператив"
+ pm_worker_cooperative_industry:0 "Производственный кооператив"
+
+ pm_worker_cooperative_building_coal_mine:0 "Производственный кооператив"
+ pm_worker_cooperative_building_iron_mine:0 "Производственный кооператив"
+ pm_worker_cooperative_building_lead_mine:0 "Производственный кооператив"
+ pm_worker_cooperative_building_sulfur_mine:0 "Производственный кооператив"
+ # [LocEditor:UntranslatedKey] `pm_worker_cooperative_building_gold_mine`
+
+ # [LocEditor:UntranslatedKey] `pmg_base_building_skyscraper`
+ # [LocEditor:UntranslatedKey] `pm_skyscraper_bureaucratic_nexus`
+ # [LocEditor:UntranslatedKey] `pmg_airship_mooring_post`
+ # [LocEditor:UntranslatedKey] `pm_no_airships`
+ # [LocEditor:UntranslatedKey] `pm_airship_mooring_post`
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ pm_art_school:0 "Художественная школа"
+ pm_propaganda_center:0 "Пропагандистские постеры"
+ pm_improved_propaganda_center:0 "Фотопропаганда"
+ pm_film_propaganda_center:0 "Кинопропаганда"
+ pmg_philosophy_department:0 "Факультет философии"
+ pm_philosophy_department_disabled:0 "Университетское образование"
+ pm_university:0 "Университет"
+ pm_engineering_university:0 "Инженерный университет"
+ pm_social_science_university:0 "Гуманитарный университет"
+ pm_military_academy:0 "Военная академия"
+ pm_hierarchical_rule:0 "Иерархические правила"
+ pmg_mobility:0 "Мобильность"
+ pm_cavalry:0 "Кавалерия"
+ pm_armored_division:0 "Бронетанковая дивизия"
+ pmg_base_building_construction_camp:0 "Основа"
+ pm_slow:0 "Деревянные сооружения"
+ pm_normal:0 "Сооружения с чугунными рамами"
+ pm_fast:0 "Сооружения со стальными рамами"
+ pm_very_fast:0 "Сварные сооружения"

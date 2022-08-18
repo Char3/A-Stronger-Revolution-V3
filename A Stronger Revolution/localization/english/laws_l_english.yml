@@ -53,7 +53,7 @@
  ideology_vanguardist_desc:0 "#lore This leader believes in achieving a socialist society through a vanguard party of dedicated radicals. #!"
 
  ideology_fascist:0 "Fascist"
- ideology_fascist_desc:0 "#lore This leader is an ultranationalist who espouses the revival of perceived traditional, authoritarian values in a modern context. #!"
+ ideology_fascist_desc:0 "#lore This leader is an ultranationalist who espouses the reinvigoration of perceived traditional, collectivist, and authoritarian values in a modern context. #!"
 
  ideology_anarchist:0 "Anarchist"
  ideology_anarchist_desc:0 "#lore This leader seeks the abolishment of hierarchy, authority and the state, leaving people to govern themselves. #!"
@@ -66,6 +66,9 @@
 
  ideology_market_liberal:0 "Market Liberal"
  ideology_market_liberal_desc:0 "#lore This leader believes that the invisible hand of the free market should be the guiding force of the nation's economy."
+ 
+ ideology_reformist_clergy:0 "Reformist Clergy"
+ ideology_reformist_clergy_desc:0 "#lore This clergy member reflects the more reformist members of the clergy, allowing governance to be less asociated with religion and yet still seeking to keep it relevant in politics."
 
   # Interest Group Ideologies
 
@@ -148,6 +151,9 @@
 
  ideology_republican_paternalistic:0 "Elitist"
  ideology_republican_paternalistic_desc:0 "#lore This group favors rule by the landed elite, but still supports a republican form of government.#!"
+ 
+ ideology_american_industrialism:0 "American Industrialist"
+ ideology_american_industrialism_desc:0 "#lore This group drives the industrialization of the United States, and being a new class, have inherited their former American ideals and, inspired by their rise to power due to good work ethic, promote social equality and mobility.#"
 
  ideology_scholar_paternalistic:0 "Scholar-Gentry"
  ideology_scholar_paternalistic_desc:0 "#lore This group would prefer to see the country ruled by a monarch advised by the wise and educated.#!"
@@ -461,3 +467,5 @@
  law_migration_controls_desc:0 "Only people of cultures and religions not discriminated against may migrate."
  law_closed_borders:0 "Closed Borders"
  law_closed_borders_desc:0 "No internal or external migration is permitted."
+ law_encourage_migration:0 "Encouraged Migration"
+ law_encourage_migration_desc:0 "The country actively attempts to open the floodgates and invite people into the country."

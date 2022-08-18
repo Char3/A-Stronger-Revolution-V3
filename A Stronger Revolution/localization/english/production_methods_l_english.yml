@@ -117,6 +117,9 @@
  pm_patent_stills:0 "Patent Stills"
  pm_bakery:0 "Bakeries"
  pm_sweeteners:0 "Sweeteners"
+ pm_no_oil_production:0 "No Oil Production"
+ pm_biofuel_production:0 "Biofuel Production"
+ pm_mass_oil_production:0 "Mass Oil Production"
   
   # Textile Mills
  pm_cotton_gin:0 "Cotton Gins"
@@ -520,6 +523,8 @@
  pm_tanker_cars:0 "Tanker Cars"
  pm_dye_production:0 "#todo Synthetic Dye#!"
  pmg_synthetic_silk:0 "#todo Synthetic Silk#!"
+ pm_synthetic_oil:0 "Synthetic Oil"
+ pmg_synthetic_oil:0 "Synthetic Oil"
  pm_cannons:0 "Cannons"
  pm_smoothbores:0 "Smoothbores"
  pm_breech_loaders:0 "Breech Loaders"

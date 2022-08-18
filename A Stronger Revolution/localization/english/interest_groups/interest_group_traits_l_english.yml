@@ -63,6 +63,16 @@
  ig_trait_divine_right_desc:0 "We believe that there is an order to our lives. Society can reflect that order better or worse. As long as the rulers are virtuous and their decrees just, we can ensure the people know why."
  ig_trait_pious_fiction:0 "Pious Fiction"
  ig_trait_pious_fiction_desc:0 "The values of today are so poisoned and the literature so corrupting that education itself has an eroding effect on morals. Better than teaching people whatever the current establishment considers 'true' is to teach them what ought to be true."
+
   # Small Business Owner IG Traits
  ig_trait_patriotic_business:0 "Patriotic Business"
  ig_trait_patriotic_business_desc:0 "As members of the Great American nation, all must watch out for their neighbor and fellow countrymen, as small business owners our way of contributing in our patriotic duty is to provide for our fellow man and our country."
+ 
+  # Austrian Minoritity IG Traits
+ ig_trait_international_ties:0 "International Ties"
+ ig_trait_international_ties_desc:0 "The minorities have many friends in other countries, such as the Poles in Russia and Prussia and the South Slavs in Serbia and Montenegro as well as the Ottoman Empire, and as their government we can harness their ties to help our cause."
+ ig_trait_community_integration:0 "Community Integration"
+ ig_trait_community_integration_desc:0 "The various minority officials, sufficiently placated by the Austrians, have opened their arms to the government and allowed cooperation to effectively administer minority communities."
+ ig_trait_oppressed_minorities:0 "Oppressed Minorities"
+ ig_trait_oppressed_minorities_desc:0 "The Minorities, seeing their interests be trampled upon by the ruling Austrians, have ventured towards the point of complete rebellion and the amount of radicals is exponentially increasing for each day their interests are ignored."
+ 

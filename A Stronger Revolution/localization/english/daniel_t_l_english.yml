@@ -25,6 +25,7 @@
  african_settler:0 "African Settler"
  finnic:0 "Finnic"
  francophone:0 "Francophone"
+ dutchophone:0 "Dutchophone"
  hispanophone:0 "Hispanophone"
  lusophone:0 "Lusophone"
  anglophone:0 "Anglophone"
@@ -1613,3 +1614,7 @@
  
  state_sanctioned_paramilitaries: "State-Sanctioned Paramilitaries"
  paramilitaries_opposed: "Opposed Fascist Paramilitaries"
+ 
+ je_quebec_usa:0 "Quebecois Statehood"
+ je_quebec_usa_reason:0 "Since joining the American Revolution, Quebec and the USA have worked together closely to better ourselves and our continent. With our close relations and somewhat already integrated political systems they should easily join us."
+ quebec_je_tt:0 "Quebec will decide whether to accept US statehood"

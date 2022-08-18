@@ -1,0 +1,426 @@
+﻿communist_party = {
+	name = {
+		first_valid = {
+			triggered_desc = {
+				desc = party_bolsheviks
+				trigger = {
+					country_has_primary_culture = cu:russian
+					any_interest_group = {
+						is_powerful = yes
+						leader = {
+							has_ideology = ideology_vanguardist
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_british_socialist_party
+				trigger = {
+					exists = c:GBR
+					THIS = c:GBR
+					any_interest_group = {
+						is_powerful = yes
+						leader = {
+							has_ideology = ideology_vanguardist
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_pcf
+				trigger = {
+					exists = c:FRA
+					THIS = c:FRA
+					any_interest_group = {
+						is_powerful = yes
+						leader = {
+							has_ideology = ideology_vanguardist
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_kps
+				trigger = {
+					exists = c:SWI
+					THIS = c:SWI
+					any_interest_group = {
+						is_powerful = yes
+						leader = {
+							has_ideology = ideology_vanguardist
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_nkp
+				trigger = {
+					exists = c:NOR
+					THIS = c:NOR
+					any_interest_group = {
+						is_powerful = yes
+						leader = {
+							has_ideology = ideology_vanguardist
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_dkp
+				trigger = {
+					exists = c:DEN
+					THIS = c:DEN
+					any_interest_group = {
+						is_powerful = yes
+						leader = {
+							has_ideology = ideology_vanguardist
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_skp
+				trigger = {
+					exists = c:SWE
+					THIS = c:SWE
+					any_interest_group = {
+						is_powerful = yes
+						leader = {
+							has_ideology = ideology_vanguardist
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_skp
+				trigger = {
+					exists = c:FIN
+					THIS = c:FIN
+					any_interest_group = {
+						is_powerful = yes
+						leader = {
+							has_ideology = ideology_vanguardist
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_kpl
+				trigger = {
+					exists = c:LUX
+					THIS = c:LUX
+					any_interest_group = {
+						is_powerful = yes
+						leader = {
+							has_ideology = ideology_vanguardist
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_bkp
+				trigger = {
+					exists = c:BUL
+					THIS = c:BUL
+					any_interest_group = {
+						is_powerful = yes
+						leader = {
+							has_ideology = ideology_vanguardist
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_mkp
+				trigger = {
+					exists = c:HUN
+					THIS = c:HUN
+					any_interest_group = {
+						is_powerful = yes
+						leader = {
+							has_ideology = ideology_vanguardist
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_kpo
+				trigger = {
+					exists = c:AUS
+					THIS = c:AUS
+					any_interest_group = {
+						is_powerful = yes
+						leader = {
+							has_ideology = ideology_vanguardist
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_jcp
+				trigger = {
+					exists = c:JAP
+					THIS = c:JAP
+					any_interest_group = {
+						is_powerful = yes
+						leader = {
+							has_ideology = ideology_vanguardist
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_justice_party
+				trigger = {
+					exists = c:PER
+					THIS = c:PER
+					any_interest_group = {
+						is_powerful = yes
+						leader = {
+							has_ideology = ideology_vanguardist
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_socialist_workers_party
+				trigger = {
+					exists = c:MEX
+					THIS = c:MEX
+					any_interest_group = {
+						is_powerful = yes
+						leader = {
+							has_ideology = ideology_vanguardist
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_kke
+				trigger = {
+					exists = c:GRE
+					THIS = c:GRE
+					any_interest_group = {
+						is_powerful = yes
+						leader = {
+							has_ideology = ideology_vanguardist
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_kpd
+				trigger = {
+					AND = {
+						OR = {
+							country_has_primary_culture = cu:north_german
+							country_has_primary_culture = cu:south_german
+						}
+						any_interest_group = {
+							is_powerful = yes
+							leader = {
+								has_ideology = ideology_vanguardist
+							}
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_workingmens_party
+				trigger = {
+					AND = {
+						OR = {
+							country_has_primary_culture = cu:yankee
+							country_has_primary_culture = cu:dixie
+						}
+						any_interest_group = {
+							is_powerful = yes
+							leader = {
+								has_ideology = ideology_vanguardist
+							}
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_cpc
+				trigger = {
+					AND = {
+						OR = {
+							country_has_primary_culture = cu:han
+							country_has_primary_culture = cu:hakka
+							country_has_primary_culture = cu:miao
+							country_has_primary_culture = cu:min
+							country_has_primary_culture = cu:zhuang
+							country_has_primary_culture = cu:yi
+							country_has_primary_culture = cu:yue
+						}
+						any_interest_group = {
+							is_powerful = yes
+							leader = {
+								has_ideology = ideology_vanguardist
+							}
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_communist
+				trigger = {
+					always = yes
+				}
+			}
+		}
+	}
+	icon = {
+		default = "/gfx/interface/icons/political_parties/communists.dds"
+	}
+	unlocking_technologies = {
+		socialism
+	}
+	# THIS IS RUN ONLY ONCE AT GAME START
+	valid_for_country = {
+		always = yes
+	}
+	available_for_interest_group = {
+		owner = {
+			country_has_voting_franchise = yes
+			any_interest_group = {
+				has_ideology = ideology_socialist
+				leader = {
+					OR = {
+						has_ideology = ideology_communist
+						has_ideology = ideology_vanguardist
+						has_ideology = ideology_anarchist
+					}
+				}
+			}
+		}
+		NOR = {
+			is_interest_group_type = ig_industrialists
+			is_interest_group_type = ig_landowners
+		}
+		leader = { # fascists, conservatives, and capitalists hate communism
+			NOR = {
+				has_ideology = ideology_fascist
+				has_ideology = ideology_ethno_nationalist
+				has_ideology = ideology_market_liberal
+				has_ideology = ideology_traditionalist
+				has_ideology = ideology_royalist
+				has_ideology = ideology_theocrat
+			}
+		}
+	}
+	join_weight = {
+		value = -5
+		if = { # communists love communism
+			limit = {
+				leader = {
+					OR = {
+						has_ideology = ideology_communist
+						has_ideology = ideology_vanguardist
+						has_ideology = ideology_anarchist
+					}
+				}
+			}
+			add = 10
+		}
+		if = { # communists love communism
+			limit = {
+				is_powerful = yes
+				leader = {
+					OR = {
+						has_ideology = ideology_communist
+						has_ideology = ideology_vanguardist
+						has_ideology = ideology_anarchist
+					}
+				}
+			}
+			add = 10
+		}
+		if = { # associated communist characters tend an IG toward communism
+			limit = {
+				any_scope_character = {
+					OR = {
+						has_ideology = ideology_communist
+						has_ideology = ideology_vanguardist
+						has_ideology = ideology_anarchist
+					}
+				}
+			}
+			add = 2
+		}
+		if = { # social democrats will consider collaboration with communists
+			limit = {
+				leader = {
+					has_ideology = ideology_social_democrat
+				}
+			}
+			add = 2
+		}
+		if = { # social democrats will consider collaboration with communists
+			limit = {
+				has_ideology = ideology_socialist
+			}
+			add = 5
+		}
+		if = { # weak social democrats and radicals may side with strong communists
+			limit = {
+				is_powerful = no
+				leader = {
+					OR = {
+						has_ideology = ideology_social_democrat
+						has_ideology = ideology_radical
+					}
+				}
+				owner = {
+					any_interest_group = {
+						is_powerful = yes
+						leader = {
+							OR = {
+								has_ideology = ideology_communist
+								has_ideology = ideology_vanguardist
+								has_ideology = ideology_anarchist
+							}
+						}
+					}
+				}
+			}
+			add = 3
+		}
+		if = { # post-revolution anarchists not excited about vanguard party
+			limit = {
+				leader = {
+					has_ideology = ideology_anarchist
+				}
+				owner = {
+					has_law = law_type:law_council_republic
+					ruler = {
+						has_ideology = ideology_vanguardist
+					}
+				}
+			}
+			add = -15
+		}
+		if = { # reactionary ig's don't like communism
+			limit = {
+				has_ideology = ideology_reactionary
+			}
+			add = -3
+		}
+		if = { # trade unions often enjoy communism
+			limit = {
+				is_interest_group_type = ig_trade_unions
+			}
+			add = 2
+		}
+		if = { # moderates are scared of radical politics
+			limit = {
+				leader = {
+					has_ideology = ideology_moderate
+				}
+			}
+			add = -3
+		}
+	}
+}

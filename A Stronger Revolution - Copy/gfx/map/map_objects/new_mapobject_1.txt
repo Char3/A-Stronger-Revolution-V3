@@ -1,0 +1,10 @@
+﻿object={
+	name="train"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="static"
+	pdxmesh="european_train_locomotive_01_mesh"
+	count=1
+	transform="4295.568848 0.000000 2917.756592 0.000000 -0.820427 0.000000 0.571751 3.747294 3.747294 3.747294
+"}

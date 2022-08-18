@@ -697,7 +697,7 @@ SAR = {
 
 	tier = kingdom
 	
-	cultures = { north_italian }
+	cultures = { north_italian corsican }
 	capital = STATE_PIEDMONT
 	is_named_from_capital = yes
 }

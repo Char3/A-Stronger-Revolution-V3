@@ -1,0 +1,347 @@
+﻿l_russian:
+ ALREADY_STARTED_DIPLO_PLAY:0 "#N Государство уже вовлечено в [Concept('concept_diplomatic_play', 'дипломатическую игру')]!#!"
+ WAR_CANNOT_YIELD_IN_DIPLOMATIC_PLAY:0 "#N Эта [concept_diplomatic_play|l] привела к войне#!"
+ ACTOR_CANNOT_YIELD_IN_DIPLOMATIC_PLAY:0 "#N Государство [COUNTRY.GetName] не может уступить в этой [Concept('concept_diplomatic_play', 'дипломатической игре')]#!"
+ ACTOR_CANNOT_DECLARE_NEUTRALITY_IN_DIPLOMATIC_PLAY:0 "#N Государство [COUNTRY.GetName] не может объявить о своём нейтралитете в этой [Concept('concept_diplomatic_play', 'дипломатической игре')], так как оно уже поддержало одну из сторон#!"
+ ACTOR_NOT_INVOLVED_IN_DIPLOMATIC_PLAY:0 "#N Государство [COUNTRY.GetName] не вовлечено в [Concept('concept_diplomatic_play', 'дипломатическую игру')]#!"
+ ACTOR_ALREADY_HAS_THIS_STANCE_IN_DIPLOMATIC_PLAY:0 "#N Государство [COUNTRY.GetName] уже занимает эту позицию#!"
+ ACTOR_CIVIL_WAR_DIPLOMATIC_PLAY:0 "#N Государства, охваченные гражданской войной, не могут участвовать в [Concept('concept_diplomatic_play', 'дипломатических играх')]#!"
+ TARGET_CIVIL_WAR_DIPLOMATIC_PLAY:0 "#N Государство, охваченное гражданской войной, не может быть объектом [Concept('concept_diplomatic_play', 'дипломатической игры')]#!"
+ ACTOR_IS_TARGETED_BY_ENEMY_WARGOAL:0 "#N Мы не можем прекратить поддержку государства [COUNTRY.GetName], так как наша страна является объектом [Concept('concept_war_goal', 'цели войны')] «[WAR_GOAL.GetName]»#!"
+ TRUCE_WITH_TARGET:0 "#N У государства [COUNTRY.GetName] есть перемирие с государством [TARGET_COUNTRY.GetName]. Оно продлится до #variable [COUNTRY.GetTruceDate(TARGET_COUNTRY.Self)]#!#!"
+ CORDIAL_RELATIONS_WITH_TARGET:0 "#N [concept_relations] между государствами [COUNTRY.GetName] и [TARGET_COUNTRY.GetName] радушные или лучше#!" # [LocEditor:AwaitingBatchUpdate]
+ ALLIANCE_WITH_TARGET:0 "#N Государство [COUNTRY.GetName] состоит в [Concept('concept_alliance', 'союзе')] с государством [TARGET_COUNTRY.GetName|v]#!"
+ HUMILIATED_BY_TARGET:0 "#N Государство [COUNTRY.GetName] недавно подверглось [Concept('concept_humiliation', 'унижению')] со стороны государства [TARGET_COUNTRY.GetName|v]#!" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `OWES_OBLIGATION_TO_TARGET`
+ RIVALS_WITH_TARGET:0 "#N Государство [COUNTRY.GetName] [Concept('concept_rivalry', 'соперничает')] с государством [TARGET_COUNTRY.GetName|v]#!"
+ TARGET_IS_OUR_SUBJECT:0 "#N Государство [TARGET_COUNTRY.GetName|v] является [Concept('concept_subject', 'субъектом')] государства [COUNTRY.GetName]#!"
+ COUNTRY_IS_TARGETING_YOU:0 "#N Государство [COUNTRY.GetName|v] уже выбрало вас объектом [Concept('concept_diplomatic_play', 'дипломатической игры')]#!"
+ DIPLO_PLAY_SWITCH_COUNTRY_NOT_TARGET:0 "#N Только объект [Concept('concept_diplomatic_play', 'дипломатической игры')] может сменить страну#!"
+ DIPLO_PLAY_SWITCH_COUNTRY_ESCALATION:0 "#N Сменить страну можно, только пока эскалация ниже #variable $VALUE$#!#!"
+ DIPLO_PLAY_SWITCH_COUNTRY_NOT_AI:0 "#N Сменить страну можно только на страну под управлением ИИ#!"
+ DIPLO_PLAY_CANNOT_TARGET_SELF:0 "#N Объектом [Concept('concept_diplomatic_play', 'дипломатической игры')] нельзя выбрать собственную страну#!"
+ DIPLO_PLAY_ALREADY_AT_WAR:0 "#N Мы уже находимся в состоянии войны#!"
+ DIPLO_PLAY_AT_WAR_WITH:0 "#N Государство [COUNTRY.GetName] находится в состоянии войны с государством [TARGET_COUNTRY.GetName|v]#!"
+ DIPLO_PLAY_ALLIED_WITH:0 "#N Государство [COUNTRY.GetName] состоит в союзе с государством [TARGET_COUNTRY.GetName|v]#!"
+ DIPLO_PLAY_WAR_ALLIED_WITH:0 "#N Государство [COUNTRY.GetName] участвует в войне на одной стороне с государством [TARGET_COUNTRY.GetName|v]#!"
+ DIPLO_PLAY_OPPOSING_SIDES:0 "#N Государство [COUNTRY.GetName] противостоит государству [TARGET_COUNTRY.GetName] в другой дипломатической игре#!"
+ DIPLO_PLAY_SAME_SIDES:0 "#N Государство [COUNTRY.GetName] поддерживает государство [TARGET_COUNTRY.GetName] в другой дипломатической игре#!"
+ ALREADY_IN_DIPLO_PLAY:0 "#N Оба государства, [COUNTRY.GetName] и [TARGET_COUNTRY.GetName], уже вовлечены в другую дипломатическую игру#!"
+ DIPLO_PLAY_ADD_WARGOAL:0 "Добавить [Concept('concept_war_goal', 'цель войны')]"
+ DIPLO_PLAY_DECLARE_NEUTRALITY:0 "Объявить нейтралитет"
+ DIPLO_PLAY_BACK_DOWN:0 "Отступить"
+ DIPLO_PLAY_GIVE_IN:0 "Сдаться"
+ DIPLO_PLAY_SUPPORT:0 "Поддержать"
+ DIPLO_PLAY_OPPOSE:0 "Выступить против"
+ DIPLO_PLAY_NOT_NOW:0 "Не сейчас"
+ ADD_WARGOAL_HEADER:0 "#bold Добавить [Concept('concept_war_goal', 'цель войны')]#!"
+ SWAY_COUNTRY:0 "[Concept('concept_sway', 'Убеждение')]"
+ SWAY_COUNTRY_HEADER:0 "#bold [concept_sway] страны [SwayCountryPanel.GetCountry.GetName]#!"
+ DIPLO_PLAY_MANEUVERS_INITIATOR_TOOLTIP:0 "#header [Concept('concept_maneuver', 'Манёвры')] инициатора игры#!\n[Concept('concept_maneuvers', 'Манёвры')], доступные государству [DiplomaticPlay.GetInitiator.GetName|v]: [DiplomaticPlay.GetNumInitiatorManeuversRemaining|v]." # [LocEditor:AwaitingBatchUpdate]
+ DIPLO_PLAY_MANEUVERS_TARGET_TOOLTIP:0 "#header [Concept('concept_maneuver', 'Манёвры')] объекта игры#!\n[Concept('concept_maneuvers', 'Манёвры')], доступные государству [DiplomaticPlay.GetTarget.GetName|v]: [DiplomaticPlay.GetNumInitiatorManeuversRemaining|v]." # [LocEditor:AwaitingBatchUpdate]
+ DIPLO_PLAY_JOIN_WRONG_PHASE:0 "#N Выбрать сторону в [Concept('concept_diplomatic_play', 'дипломатической игре')] можно только на этапе «#variable $DIPLO_PLAY_MIDDLE_PHASE$#!»#!"
+ DIPLO_PLAY_SWAY_WRONG_PHASE:0 "#N Убеждать третьи стороны в [Concept('concept_diplomatic_play', 'дипломатической игре')] можно только на этапе «#variable $DIPLO_PLAY_MIDDLE_PHASE$#!»#!"
+ DIPLO_PLAY_OVERLORD_JOIN_WRONG_PHASE:0 "#N Сюзерен одного из ведущих участников [Concept('concept_diplomatic_play', 'дипломатической игры')] может выбрать сторону только на этапе «#variable $DIPLO_PLAY_OPENING_PHASE$#!»#!"
+ DIPLO_PLAY_YIELD_WRONG_PHASE:0 "#N В [Concept('concept_diplomatic_play', 'дипломатической игре')] нельзя отступить на этапе «#variable $DIPLO_PLAY_OPENING_PHASE$#!»#!"
+ DIPLO_PLAY_ADD_WARGOAL_WRONG_PHASE:0 "#N В [Concept('concept_diplomatic_play', 'дипломатической игре')] нельзя добавлять новые [Concept('concept_war_goal', 'цели войны')] на этапе «#variable $DIPLO_PLAY_CLOSING_PHASE$#!»#!" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `DIPLO_PLAY_BACKER_PROMISED_INITIATOR_OBLIGATION`
+ # [LocEditor:UntranslatedKey] `DIPLO_PLAY_BACKER_PROMISED_TARGET_OBLIGATION`
+ DIPLOMATIC_PLAY_ESCALATION_PAUSE:0 "Эскалация остановлена на [DiplomaticPlay.GetEscalationPause|v] д."
+ DIPLOMATIC_PLAY_ESCALATION_NO_PAUSE:0 "Эскалация развивается…"
+  
+ DIPLO_PLAY_OPENING_PHASE:0 "Первые шаги"
+ DIPLO_PLAY_MIDDLE_PHASE:0 "Дипломатические манёвры"
+ DIPLO_PLAY_CLOSING_PHASE:0 "Подготовка к войне"
+
+ # [LocEditor:UntranslatedKey] `DIPLO_PLAY_SWAY_OFFER_OBLIGATION_DESC`
+ DIPLO_PLAY_SWAY_OFFER_WAR_GOAL_DESC:0 "[WAR_GOAL.GetSwayDesc][ConcatIfNeitherEmpty( '\n$TOOLTIP_DELIMITER$\n', '$ERRORS$' )]"
+
+ texan_war_of_independence:0 "Война за независимость Техаса"
+  
+ WARGOAL_NO_TREATY_PORT:0 "#bold #N В выбранной области нет провинций с [Concept('concept_treaty_port', 'договорным портом')]#!#!"
+ WARGOAL_IS_TREATY_PORT:0 "#bold #N В выбранной области есть [Concept('concept_treaty_port', 'договорный порт')]#!#!"
+ WARGOAL_NOT_SUBJECT_OF:0 "#bold #N Государство [COUNTRY.GetName] не является субъектом государства [TARGET_COUNTRY.GetName]#!#!"
+ WARGOAL_IS_SUBJECT_OF:0 "#bold #N Государство [COUNTRY.GetName] является субъектом государства [TARGET_COUNTRY.GetName]#!#!"
+ WARGOAL_WRONG_COUNTRY_RANK:0 "#bold #N $COUNTRY_NAME|v$ — не $RANK|vl$#!#!"
+ WARGOAL_WRONG_COUNTRY_TYPE:0 "#bold #N $COUNTRY_NAME|v$ — не $TYPE|vl$#!#!"
+ WARGOAL_HOLDER_DOES_NOT_EXIST:0 "#bold #N Нет [Concept('concept_country', 'страны')], которая была бы вправе выдвинуть данную [Concept('concept_war_goal', 'цель войны')]#!#!"
+ WARGOAL_TARGET_DOES_NOT_EXIST:0 "#bold #N Нет [Concept('concept_country', 'страны')], которая была бы подходящим объектом для данной [Concept('concept_war_goal', 'цели войны')]#!#!"
+ WARGOAL_TARGET_IG_DOES_NOT_EXIST:0 "#bold #N Нет [Concept('concept_interest_group', 'заинтересованной группы')], которая была бы подходящим объектом для данной [Concept('concept_war_goal', 'цели войны')]#!#!"
+ WARGOAL_IG_NOT_RADICAL:0 "#bold #N [INTEREST_GROUP.GetName] — не [Concept('concept_radicalized', 'радикализованная')] [Concept('concept_interest_group', 'заинтересованная группа')]#!#!"
+ WARGOAL_IG_TYPE_NOT_IN_GOVERNMENT:0 "#bold #N #v $IG_TYPE$#! — не в правительстве государства [COUNTRY.GetName]#!#!"
+ WARGOAL_TARGET_WILL_NOT_EXIST:0 "#bold #N При достижении выбранных целей войны государство [COUNTRY.GetName] окажется аннексировано#!#!"
+ WARGOAL_TARGET_WILL_NOT_EXIST_AFTER_WARGOAL:0 "#bold #N При достижении этой цели войны государство [COUNTRY.GetName] окажется аннексировано, что противоречит ранее выбранным целям войны#!#!"
+ WARGOAL_TARGET_NOT_RIVAL:0 "#bold #N Государство [COUNTRY.GetName] не [Concept('concept_rivalry', 'соперничает')] с государством [TARGET_COUNTRY.GetName]#!#!" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `WARGOAL_NOT_UNIFICATION_CANDIDATE`
+ # [LocEditor:UntranslatedKey] `WARGOAL_NOT_SOLE_UNIFICATION_CANDIDATE`
+ WARGOAL_COUNTRY_HAS_SLAVERY:0 "#bold #N Государство [COUNTRY.GetName] практикует ту или иную форму [Concept('concept_slavery', 'рабовладения')]#!#!"
+ WARGOAL_COUNTRY_NO_SLAVERY:0 "#bold #N Государство [COUNTRY.GetName] не практикует никакие формы [Concept('concept_slavery', 'рабовладения')]#!#!"
+ WARGOAL_STAKEHOLDER_DOES_NOT_EXIST:0 "#bold #N Для этой [Concept('concept_war_goal', 'цели войны')] нет подходящих заинтересованных лиц!#!#!"
+ WARGOAL_TARGET_DOES_NOT_OWN_STATE:0 "#bold #N Государство #variable $COUNTRY_NAME$#! не владеет областью #variable $STATE_NAME$#!#!#!"
+ WARGOAL_NO_INTEREST_MARKER_IN_REGION:0 "#bold #N Государство #variable $COUNTRY_NAME$#! не имеет [Concept('concept_interest', 'интересов')] в регионе #variable $REGION_NAME$#!#!#!"
+ OTHER_WARGOAL_ON_SAME_TARGET:0 "#bold #N Государство #variable $COUNTRY_NAME$#! имеет иную [Concept('concept_war_goal', 'цель войны')], исключающую эту и также затрагивающую государство #variable $TARGET_NAME$#!#!#!"
+ WARGOAL_TOO_LOW_RANK:0 "#bold #N Рейтинг страны [Country.GetName] недостаточно высок!#!#!"
+ WARGOAL_TOO_HIGH_RANK:0 "#bold #N Рейтинг страны [Country.GetName] слишком высок!#!#!"
+ WARGOAL_HOLDER_HAS_NO_CLAIM:0 "#bold #N У государства #variable $COUNTRY_NAME$#! отсутствуют [Concept('concept_claim', 'претензии')] на регион #variable $STATE_REGION_NAME$#!#!#!"
+ WARGOAL_HOLDER_HAS_CLAIM:0 "#bold #N У государства #variable $COUNTRY_NAME$#! есть [Concept('concept_claim', 'претензии')] на регион #variable $STATE_REGION_NAME$#!#!#!"
+ WARGOAL_HOLDER_HAS_NO_COLONIAL_CONQUEST:0 "#bold #N Государство #variable $COUNTRY_NAME$#! не может устроить колониальное завоевание области #variable $STATE_NAME$#!#!#!"
+ WARGOAL_HOLDER_HAS_COLONIAL_CONQUEST:0 "#bold #N Государство #variable $COUNTRY_NAME$#! может устроить колониальное завоевание области #variable $STATE_NAME$#!#!#!"
+ WARGOAL_COUNTRY_CREATION_INVALID:0 "#bold #N Государство #variable $TARGET_NAME$#! не владеет областями, необходимыми для образования государства #variable $COUNTRY_NAME$#!#!#!"
+ WARGOAL_TARGET_HAS_NOTHING_TO_RELEASE:0 "#bold #N В последнее время государство #variable $TARGET_NAME$#! не присоединяло области или субъекты, которые можно было бы освободить#!#!"
+  
+ YESMEN_ALWAYS_ACCEPT:0 "Будет принято из-за чита «Yesmen»"
+ JOIN_DIPLO_PLAY_DESC:0 "#header Попытка [Concept('concept_sway', 'убеждения')]#!\n$WILL_ACCEPT$\n$TOOLTIP_DELIMITER$\n$DETAILS$"
+ JOIN_DIPLO_PLAY_SCORE_DESC:0 "Расчёт принятия: #bold $VALUE|+$#!"
+ JOIN_DIPLO_PLAY_FACTOR_RELATIONS:0 "Отношения с государством [COUNTRY.GetName|v]: #bold $VALUE|+=$#!"
+ JOIN_DIPLO_PLAY_FACTOR_TUTORIAL_ASSISTANCE:0 "Помощь в режиме обучения: #bold $VALUE|+=$#!"
+ JOIN_DIPLO_PLAY_FACTOR_DEFENDER:0 "Государство [COUNTRY.GetName|v] обороняется: #bold $VALUE|+=$#!"
+ JOIN_DIPLO_PLAY_FACTOR_ALREADY_BACKER:0 "Государство [COUNTRY_THIRD_PARTY.GetName] уже поддерживает противоположную сторону: #bold $VALUE|+=$#!"
+ JOIN_DIPLO_PLAY_FACTOR_INFAMY:0 "[COUNTRY.GetAdjective]ая [Concept('concept_infamy', 'дурная слава')]: #bold $VALUE|+=$#!" # [LocEditor:AwaitingBatchUpdate]
+ JOIN_DIPLO_PLAY_FACTOR_SUBJECT_RELATIONSHIP:0 "Субъектные отношения с государством #bold [COUNTRY.GetName|v]: $VALUE|+=$#!"
+ JOIN_DIPLO_PLAY_FACTOR_ATTITUDE:0 "[concept_attitude] государства [COUNTRY_THIRD_PARTY.GetAttitudeTowards(COUNTRY.Self).GetName] по отношению к государству [COUNTRY.GetName|v]: #bold $VALUE|+=$#!"
+ JOIN_DIPLO_PLAY_FACTOR_ATTITUDE_BACKER:0 "[concept_attitude] государства [COUNTRY_THIRD_PARTY.GetAttitudeTowards(COUNTRY.Self).GetName] по отношению к государству [COUNTRY.GetName|v], выступающему в поддержку: #bold $VALUE|+=$#!"
+ JOIN_DIPLO_PLAY_FACTOR_OFFERED_WARGOAL:0 "Предложена [Concept('concept_war_goal', 'цель войны')]: #bold $VALUE|+=$#!"
+ # [LocEditor:UntranslatedKey] `JOIN_DIPLO_PLAY_FACTOR_OFFERED_OBLIGATION`
+ JOIN_DIPLO_PLAY_FACTOR_CURRENT_OFFERED_WARGOAL:0 "Противоположная сторона предложила [Concept('concept_war_goal', 'цель войны')]: #bold $VALUE|+=$#!"
+ # [LocEditor:UntranslatedKey] `JOIN_DIPLO_PLAY_FACTOR_CURRENT_OFFERED_OBLIGATION`
+  
+ WAR_NO_NEGOTIATED_PEACE:0 "В [Concept('concept_diplomatic_play', 'дипломатической игре')] типа «$TYPE|v$» невозможны мирные договорённости."
+ WAR_PEACE_BOTH_SIDES_CLAIM_STATE:0 "Мирное предложение невозможно, обе стороны имеют претензии на [Concept('concept_state', 'области')] в регионе [STATE.GetStateRegion.GetName]" # [LocEditor:AwaitingBatchUpdate]
+ WAR_PEACE_INVALID_WARGOAL:0 "Мирное предложение невозможно, так как цель войны «[WAR_GOAL.GetName|v]» недействительна"
+ WAR_NAME_FORMAT_DEFAULT:0 "$INITIATOR$ — $TARGET$"
+  
+ dp_open_market:0 "$war_goal_open_market_type_name$"
+ dp_open_market_tooltip:0 "Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_open_market$»"
+    
+ dp_regime_change:0 "$war_goal_regime_change_type_name$"
+ dp_regime_change_tooltip:0 "Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_regime_change$»"
+ 
+ dp_ban_slavery:0 "$war_goal_ban_slavery_type_name$"
+ dp_ban_slavery_tooltip:0 "Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_ban_slavery$»"
+  
+ dp_conquer_state:0 "$war_goal_conquer_state_type_name$"
+ dp_conquer_state_tooltip:0 "Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_conquer_state$»"
+  
+ dp_return_state:0 "$war_goal_return_state_type_name$"
+ dp_return_state_tooltip:0 "Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_return_state$»"
+
+ dp_independence:0 "$war_goal_independence_type_name$"
+ dp_independence_tooltip:0 "Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_independence$»"
+   
+ dp_liberate_subject:0 "$war_goal_liberate_subject_type_name$"
+ dp_liberate_subject_tooltip:0 "Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_liberate_subject$»"
+   
+ dp_take_treaty_port:0 "$war_goal_take_treaty_port_type_name$"
+ dp_take_treaty_port_tooltip:0 "Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_take_treaty_port$»"
+   
+ dp_force_recognition:0 "$war_goal_force_recognition_type_name$"
+ dp_force_recognition_tooltip:0 "Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_force_recognition$»"
+   
+ dp_contain_threat:0 "$war_goal_contain_threat_type_name$"
+ dp_contain_threat_tooltip:0 "Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_contain_threat$»"
+  
+ dp_transfer_subject:0 "$war_goal_transfer_subject_type_name$"
+ dp_transfer_subject_tooltip:0 "Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_transfer_subject$»"
+  
+ dp_make_puppet:0 "$war_goal_make_puppet_type_name$"
+ dp_make_puppet_tooltip:0 "Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_make_puppet$»"
+   
+ dp_make_dominion:0 "$war_goal_make_dominion_type_name$"
+ dp_make_dominion_tooltip:0 "Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_make_dominion$»"
+   
+ dp_make_vassal:0 "$war_goal_make_vassal_type_name$"
+ dp_make_vassal_tooltip:0 "Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_make_vassal$»"
+   
+ dp_annex_subject:0 "Аннексия субъекта"
+ dp_annex_subject_tooltip:0 "Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_annex_subject$»"
+   
+ dp_revolution:0 "$war_goal_revolution_type_name$"
+ dp_revolution_tooltip:0 "Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_revolution$»"
+   
+ dp_secession:0 "$war_goal_secession_type_name$"
+ dp_secession_tooltip:0 "Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_secession$»"
+  
+ dp_unify_germany:0 "Объединение Германии"
+ dp_unify_germany_tooltip:0 "Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_unify_germany$»"
+   
+ dp_unify_italy:0 "Объединение Италии"
+ dp_unify_italy_tooltip:0 "Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_unify_italy$»"
+ 
+ # [LocEditor:UntranslatedKey] `dp_unify_scandinavia`
+ # [LocEditor:UntranslatedKey] `dp_unify_scandinavia_tooltip`
+   
+ dp_unify_ethiopia:0 "Объединение Эфиопии"
+ dp_unify_ethiopia_tooltip:0 "Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_unify_ethiopia$»"
+
+ dp_unify_china:0 "Объединение Китая"
+ dp_unify_china_tooltip:0 "Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_unify_china$»"
+
+ dp_unify_arabia:0 "Объединение Аравии"
+ dp_unify_arabia_tooltip:0 "Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_unify_arabia$»"
+
+ # [LocEditor:UntranslatedKey] `dp_unify_india`
+ # [LocEditor:UntranslatedKey] `dp_unify_india_tooltip`
+
+ # [LocEditor:UntranslatedKey] `dp_unify_indonesia`
+ # [LocEditor:UntranslatedKey] `dp_unify_indonesia_tooltip`
+
+ dp_southern_secession:0 "Отделение Юга"
+ dp_southern_secession_tooltip:0 "Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_southern_secession$»"
+ 
+ # [LocEditor:UntranslatedKey] `dp_humiliation`
+ # [LocEditor:UntranslatedKey] `dp_humiliation_desc`
+
+ # [LocEditor:UntranslatedKey] `dp_leadership_germany`
+ # [LocEditor:UntranslatedKey] `dp_leadership_germany_desc`
+ 
+ # [LocEditor:UntranslatedKey] `dp_leadership_italy`
+ # [LocEditor:UntranslatedKey] `dp_leadership_italy_desc`
+ 
+ # [LocEditor:UntranslatedKey] `dp_leadership_scandinavia`
+ # [LocEditor:UntranslatedKey] `dp_leadership_scandinavia_desc`
+ 
+ war_goal_conquer_state_type_name:0 "Завоевание области"
+ war_goal_conquer_state_type_desc:0 "Завоевать область, принадлежащую другой стране."
+ war_goal_conquer_state:0 "Завоевание области [WAR_GOAL.GetTargetState.GetName]"
+ war_goal_conquer_state_desc:0 "Государство [WAR_GOAL.GetHolder.GetName] захватывает область [WAR_GOAL.GetTargetState.GetName], принадлежавшую государству [WAR_GOAL.GetTarget.GetName]"
+ war_goal_conquer_state_sway_desc:0 "Чтобы попытаться привлечь государство [WAR_GOAL.GetHolder.GetName] на вашу сторону, заставьте государство [WAR_GOAL.GetWarGoalStakeholder.GetName] передать им область [WAR_GOAL.GetTargetState.GetName]."
+ 
+ war_goal_return_state_type_name:0 "Возвращение области"
+ war_goal_return_state_type_desc:0 "Принудить страну к возвращению области, принадлежащей нам по праву."
+ war_goal_return_state:0 "Возвращение области [WAR_GOAL.GetTargetState.GetName]"
+ war_goal_return_state_desc:0 "Государство [WAR_GOAL.GetTarget.GetName] возвращает область [WAR_GOAL.GetTargetState.GetName] государству [WAR_GOAL.GetHolder.GetName]"
+ war_goal_return_state_sway_desc:0 "Чтобы попытаться привлечь государство [WAR_GOAL.GetHolder.GetName] на вашу сторону, заставьте государство [WAR_GOAL.GetWarGoalStakeholder.GetName] вернуть им область [WAR_GOAL.GetTargetState.GetName]."
+ 
+ war_goal_revoke_claim_type_name:0 "Отказ от претензий"
+ war_goal_revoke_claim_type_desc:0 "Принудить страну отказаться от претензий на регион."
+ war_goal_revoke_claim:0 "Отказ от претензий на регион [WAR_GOAL.GetTargetState.GetStateRegion.GetName]"
+ war_goal_revoke_claim_desc:0 "Государство [WAR_GOAL.GetHolder.GetName] принуждает государство [WAR_GOAL.GetTarget.GetName] отказаться от претензий на регион [WAR_GOAL.GetTargetState.GetStateRegion.GetName]."
+ war_goal_revoke_claim_sway_desc:0 "Чтобы попытаться привлечь государство [WAR_GOAL.GetHolder.GetName] на вашу сторону, заставьте государство [WAR_GOAL.GetWarGoalStakeholder.GetName] отказаться от претензий на регион [WAR_GOAL.GetTargetState.GetStateRegion.GetName]."
+ 
+ war_goal_annex_country_type_name:0 "Аннексия страны"
+ war_goal_annex_country_type_desc:0 "Полностью аннексировать другую страну."
+ war_goal_annex_country:0 "Аннексия страны [WAR_GOAL.GetTarget.GetName]"
+ war_goal_annex_country_desc:0 "Государство [WAR_GOAL.GetHolder.GetName] аннексирует государство [WAR_GOAL.GetTarget.GetName]."
+ war_goal_annex_country_sway_desc:0 "Чтобы попытаться привлечь государство [WAR_GOAL.GetHolder.GetName] на вашу сторону, позвольте им аннексировать государство [WAR_GOAL.GetTarget.GetName]."
+
+ war_goal_annex_native_type_name:0 "Аннексия коренных народов"
+ war_goal_annex_native_type_desc:0 "Полностью аннексировать [Concept('concept_decentralized_nation', 'децентрализованное государство')]."
+ war_goal_annex_native:0 "Аннексия страны [WAR_GOAL.GetTarget.GetName]"
+ war_goal_annex_native_desc:0 "Государство [WAR_GOAL.GetHolder.GetName] аннексирует [Concept('concept_decentralized_nation', 'децентрализованное государство')] [WAR_GOAL.GetTarget.GetName]."
+
+ war_goal_secession_type_name:0 "Подавление восстания"
+ war_goal_secession_type_desc:0 "Подавить движение за отделение."
+ war_goal_secession:0 "Подавление [WAR_GOAL.GetTarget.GetAdjective|l]ого движения за отделение." # [LocEditor:AwaitingBatchUpdate]
+ war_goal_secession_desc:0 "#TODO TODO#!"
+ war_goal_secession_sway_desc:0 "Чтобы попытаться привлечь государство [WAR_GOAL.GetHolder.GetName] на вашу сторону, помогите им подавить [WAR_GOAL.GetTarget.GetAdjective|l]ое движение за отделение." # [LocEditor:AwaitingBatchUpdate]
+  
+ war_goal_contain_threat_type_name:0 "Сокращение территории"
+ war_goal_contain_threat_type_desc:0 "Принудить представляющую угрозу страну к оставлению недавно завоёванных территорий."
+ war_goal_contain_threat:0 "Сокращение территории страны [WAR_GOAL.GetTarget.GetName]"
+ war_goal_contain_threat_desc:0 "Государство [WAR_GOAL.GetHolder.GetName] принуждает государство [WAR_GOAL.GetTarget.GetName] дать независимость всем областям и субъектам, завоёванным ими за последние #v [GetDefine('NDiplomacy', 'WAR_GOAL_CONTAIN_THREAT_YEARS_SINCE_CONQUEST')]#! лет."
+ war_goal_contain_threat_sway_desc:0 "Чтобы попытаться привлечь государство [WAR_GOAL.GetHolder.GetName] на вашу сторону, заставьте государство [WAR_GOAL.GetWarGoalStakeholder.GetName] дать независимость всем территориям, завоёванным ими за последнее время."
+  
+ war_goal_war_reparations_type_name:0 "Военные репарации"
+ war_goal_war_reparations_type_desc:0 "Принудить другую страну к выплате репараций."
+ war_goal_war_reparations:0 "[WAR_GOAL.GetTarget.GetAdjective]ие военные репарации" # [LocEditor:AwaitingBatchUpdate]
+ war_goal_war_reparations_desc:0 "Государство [WAR_GOAL.GetHolder.GetName] принуждает государство [WAR_GOAL.GetTarget.GetName] выплачивать военные репарации в виде #variable 10%#! от их налоговых сборов в течение 5 лет."
+ war_goal_war_reparations_sway_desc:0 "Чтобы попытаться привлечь государство [WAR_GOAL.GetHolder.GetName] на вашу сторону, заставьте государство [WAR_GOAL.GetWarGoalStakeholder.GetName] выплачивать им военные репарации в виде #variable 10%#! от налоговых сборов в течение 5 лет."
+ 
+ # [LocEditor:UntranslatedKey] `war_goal_unification_leadership_type_name`
+ # [LocEditor:UntranslatedKey] `war_goal_unification_leadership_type_desc`
+ # [LocEditor:UntranslatedKey] `war_goal_unification_leadership`
+ # [LocEditor:UntranslatedKey] `war_goal_unification_leadership_desc`
+ # [LocEditor:UntranslatedKey] `war_goal_unification_leadership_sway_desc`
+ 
+ war_goal_humiliation_type_name:0 "Унижение"
+ war_goal_humiliation_type_desc:0 "[Concept('concept_humiliation', 'Унизить')] другую страну." # [LocEditor:AwaitingBatchUpdate]
+ war_goal_humiliation:0 "Унижение страны [WAR_GOAL.GetTarget.GetName]"
+ war_goal_humiliation_desc:0 "Подрывает престиж государства [WAR_GOAL.GetTarget.GetName] и не позволяет им противостоять государству [WAR_GOAL.GetHolder.GetName] в [Concept('concept_diplomatic_play', 'дипломатических играх')] в течение 5 лет."
+ war_goal_humiliation_sway_desc:0 "Чтобы попытаться привлечь государство [WAR_GOAL.GetHolder.GetName] на вашу сторону, подорвите престиж государства [WAR_GOAL.GetTarget.GetName], чтобы оно не могло противостоять государству [WAR_GOAL.GetHolder.GetName] в [Concept('concept_diplomatic_play', 'дипломатических играх')] в течение 5 лет."
+  
+ war_goal_open_market_type_name:0 "Открытие рынков"
+ war_goal_open_market_type_desc:0 "Принудить другую страну [Concept('concept_open_market', 'открыть рынки')]."
+ war_goal_open_market:0 "Открытие [WAR_GOAL.GetTarget.GetAdjective|l]их рынков" # [LocEditor:AwaitingBatchUpdate]
+ war_goal_open_market_desc:0 "Государство [WAR_GOAL.GetHolder.GetName] принуждает государство [WAR_GOAL.GetTarget.GetName] принять закон о свободной торговле и открыть свои рынки для иностранных товаров."
+ war_goal_open_market_sway_desc:0 "Чтобы попытаться привлечь государство [WAR_GOAL.GetHolder.GetName] на вашу сторону, заставьте государство [WAR_GOAL.GetTarget.GetName] принять закон о свободной торговле и открыть свои рынки для иностранных товаров."
+
+ war_goal_regime_change_type_name:0 "Смена режима"
+ war_goal_regime_change_type_desc:0 "Принудить другую страну к смене правительства и изменению законов в интересах определённой [Concept('concept_interest_group', 'заинтересованной группы')]."
+ war_goal_regime_change:0 "Смена режима в стране [WAR_GOAL.GetTarget.GetName] ([WAR_GOAL.GetTargetIG.GetName])"
+ war_goal_regime_change_desc:0 "Государство [WAR_GOAL.GetHolder.GetName] принуждает государство [WAR_GOAL.GetTarget.GetName] к смене правительства и изменению законов в интересах заинтересованной группы [WAR_GOAL.GetTargetIG.GetName]."
+ war_goal_regime_change_sway_desc:0 "Чтобы попытаться привлечь государство [WAR_GOAL.GetHolder.GetName] на вашу сторону, заставьте государство [WAR_GOAL.GetTarget.GetName] сменить правительство и изменить законы в интересах заинтересованной группы [WAR_GOAL.GetTargetIG.GetName]."
+  
+ war_goal_ban_slavery_type_name:0 "Отмена рабства"
+ war_goal_ban_slavery_type_desc:0 "Принудить другую страну к отказу от отсталого и бесчеловечного института рабства."
+ war_goal_ban_slavery:0 "Отмена рабства в стране [WAR_GOAL.GetTarget.GetName]"
+ war_goal_ban_slavery_desc:0 "Государство [WAR_GOAL.GetHolder.GetName] принуждает государство [WAR_GOAL.GetTarget.GetName] запретить рабство."
+ war_goal_ban_slavery_sway_desc:0 "Чтобы попытаться привлечь государство [WAR_GOAL.GetHolder.GetName] на вашу сторону, заставьте государство [WAR_GOAL.GetTarget.GetName] запретить рабство."
+  
+ war_goal_take_treaty_port_type_name:0 "Передача договорного порта"
+ war_goal_take_treaty_port_type_desc:0 "Принудить другую страну к передаче договорного порта, расположенного в её области."
+ war_goal_take_treaty_port:0 "Договорной порт в регионе [WAR_GOAL.GetTargetState.GetStateRegion.GetName]"
+ war_goal_take_treaty_port_desc:0 "Государство [WAR_GOAL.GetHolder.GetName] принуждает государство [WAR_GOAL.GetTarget.GetName] передать договорной порт в регионе [WAR_GOAL.GetTargetState.GetStateRegion.GetName]."
+ war_goal_take_treaty_port_sway_desc:0 "Чтобы попытаться привлечь государство [WAR_GOAL.GetHolder.GetName] на вашу сторону, заставьте государство [WAR_GOAL.GetWarGoalStakeholder.GetName] передать ему договорной порт в регионе [WAR_GOAL.GetTargetState.GetStateRegion.GetName]."
+  
+ war_goal_independence_type_name:0 "Независимость"
+ war_goal_independence_type_desc:0 "Принудить сюзерена дать вашей стране независимость."
+ war_goal_independence:0 "Независимость"
+ war_goal_independence_desc:0 "Государство [WAR_GOAL.GetHolder.GetName] принуждает государство [WAR_GOAL.GetWarGoalStakeholder.GetName] дать ему независимость [WAR_GOAL.GetHolder.GetName]."
+ war_goal_independence_sway_desc:0 "Чтобы попытаться привлечь государство [WAR_GOAL.GetHolder.GetName] на вашу сторону, заставьте государство [WAR_GOAL.GetWarGoalStakeholder.GetName] дать ему независимость."
+  
+ war_goal_liberate_subject_type_name:0 "Освобождение субъекта"
+ war_goal_liberate_subject_type_desc:0 "Принудить страну дать независимость одному из её субъектов."
+ war_goal_liberate_subject:0 "Освобождение страны [WAR_GOAL.GetTarget.GetName]"
+ war_goal_liberate_subject_desc:0 "Государство [WAR_GOAL.GetHolder.GetName] принуждает государство [WAR_GOAL.GetWarGoalStakeholder.GetName] дать независимость государству [WAR_GOAL.GetTarget.GetName]."
+ war_goal_liberate_subject_sway_desc:0 "Чтобы попытаться привлечь государство [WAR_GOAL.GetHolder.GetName] на вашу сторону, заставьте государство [WAR_GOAL.GetWarGoalStakeholder.GetName] дать независимость государству [WAR_GOAL.GetTarget.GetName]."
+  
+ war_goal_liberate_country_type_name:0 "Освобождение страны"
+ war_goal_liberate_country_type_desc:0 "Принудить государство дать независимость другому народу."
+ war_goal_liberate_country:0 "Освобождение страны [WAR_GOAL.GetCountryCreation.GetName]"
+ war_goal_liberate_country_desc:0 "Государство [WAR_GOAL.GetHolder.GetName] принуждает государство [WAR_GOAL.GetTarget.GetName] дать независимость государству [WAR_GOAL.GetCountryCreation.GetName]."
+ war_goal_liberate_country_sway_desc:0 "Чтобы попытаться привлечь государство [WAR_GOAL.GetHolder.GetName] на вашу сторону, заставьте государство [WAR_GOAL.GetWarGoalStakeholder.GetName] дать независимость государству [WAR_GOAL.GetCountryCreation.GetName]."
+  
+ war_goal_force_recognition_type_name:0 "Принуждение к признанию"
+ war_goal_force_recognition_type_desc:0 "Принудить великую державу признать непризнанное государство."
+ war_goal_force_recognition:0 "Признание страны [WAR_GOAL.GetHolder.GetName]"
+ war_goal_force_recognition_desc:0 "Государство [WAR_GOAL.GetHolder.GetName] принуждает государство [WAR_GOAL.GetTarget.GetName] признать его."
+ war_goal_force_recognition_sway_desc:0 "Чтобы попытаться привлечь государство [WAR_GOAL.GetHolder.GetName] на вашу сторону, заставьте государство [WAR_GOAL.GetWarGoalStakeholder.GetName] признать его."
+  
+ war_goal_transfer_subject_type_name:0 "Передача субъекта"
+ war_goal_transfer_subject_type_desc:0 "Стать новым сюзереном одного из субъектов другой страны."
+ war_goal_transfer_subject:0 "Передача страны [WAR_GOAL.GetTarget.GetName] в качестве субъекта"
+ war_goal_transfer_subject_desc:0 "Сюзеренитет над государством [WAR_GOAL.GetTarget.GetName] переходит к государству [WAR_GOAL.GetHolder.GetName]."
+ war_goal_transfer_subject_sway_desc:0 "Чтобы попытаться привлечь государство [WAR_GOAL.GetHolder.GetName] на вашу сторону, заставьте государство [WAR_GOAL.GetWarGoalStakeholder.GetName] передать ему сюзеренитет над государством [WAR_GOAL.GetTarget.GetName]."
+   
+ war_goal_make_puppet_type_name:0 "Превращение в марионетку"
+ war_goal_make_puppet_type_desc:0 "Принудить другую страну стать марионеткой."
+ war_goal_make_puppet:0 "Превращение страны [WAR_GOAL.GetTarget.GetName] в марионетку"
+ war_goal_make_puppet_desc:0 "Государство [WAR_GOAL.GetHolder.GetName] принуждает государство [WAR_GOAL.GetTarget.GetName] стать его марионеткой."
+ war_goal_make_pupped_sway_desc:0 "Чтобы попытаться привлечь государство [WAR_GOAL.GetHolder.GetName] на вашу сторону, заставьте государство [WAR_GOAL.GetTarget.GetName] стать его марионеткой."
+ 
+ war_goal_make_dominion_type_name:0 "Превращение в доминион"
+ war_goal_make_dominion_type_desc:0 "Принудить другую страну стать доминионом."
+ war_goal_make_dominion:0 "Подчинение страны [WAR_GOAL.GetTarget.GetName]"
+ war_goal_make_dominion_desc:0 "Государство [WAR_GOAL.GetHolder.GetName] принуждает государство [WAR_GOAL.GetTarget.GetName] стать его доминионом."
+ war_goal_make_dominion_sway_desc:0 "Чтобы попытаться привлечь государство [WAR_GOAL.GetHolder.GetName] на вашу сторону, заставьте государство [WAR_GOAL.GetTarget.GetName] стать его доминионом."
+  
+ war_goal_make_vassal_type_name:0 "Превращение в вассала"
+ war_goal_make_vassal_type_desc:0 "Принудить другую страну стать вассалом."
+ war_goal_make_vassal:0 "Подчинение страны [WAR_GOAL.GetTarget.GetName]"
+ war_goal_make_vassal_desc:0 "Государство [WAR_GOAL.GetHolder.GetName] принуждает государство [WAR_GOAL.GetTarget.GetName] стать его вассалом."
+ war_goal_make_vassal_sway_desc:0 "Чтобы попытаться привлечь государство [WAR_GOAL.GetHolder.GetName] на вашу сторону, заставьте государство [WAR_GOAL.GetTarget.GetName] стать его вассалом."
+  
+ war_goal_unification_type_name:0 "Объединение"
+ war_goal_unification_type_desc:0 "Аннексировать другую страну с целью объединения нации." # [LocEditor:AwaitingBatchUpdate]
+ war_goal_unification:0 "Аннексия страны [WAR_GOAL.GetTarget.GetName]" # [LocEditor:AwaitingBatchUpdate]
+ war_goal_unification_desc:0 "Государство [WAR_GOAL.GetHolder.GetName] аннексирует государство [WAR_GOAL.GetTarget.GetName] для объединения нации." # [LocEditor:AwaitingBatchUpdate]
+ war_goal_unification_sway_desc:0 "Чтобы попытаться привлечь государство [WAR_GOAL.GetHolder.GetName] на вашу сторону, позвольте ему аннексировать государство [WAR_GOAL.GetTarget.GetName] ради объединения нации." # [LocEditor:AwaitingBatchUpdate]
+  
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ OWES_FAVOR_TO_TARGET:0 "#N У государства [COUNTRY.GetName] есть [Concept('concept_favor', 'обязательство')] перед государством [TARGET_COUNTRY.GetName|v]#!"
+ DIPLO_PLAY_BACKER_PROMISED_INITIATOR_FAVOR:0 "Государство [Country.GetName] может рассчитывать на [Concept('concept_favor', 'обязательство')], если поддержит инициатора этой [Concept('concept_diplomatic_play', 'дипломатической игры')]"
+ DIPLO_PLAY_BACKER_PROMISED_TARGET_FAVOR:0 "Государство [Country.GetName] может рассчитывать на [Concept('concept_favor', 'обязательство')], если поддержит объект этой [Concept('concept_diplomatic_play', 'дипломатической игры')]"
+ DIPLO_PLAY_SWAY_OFFER_FAVOR_DESC:0 "Чтобы попытаться привлечь государство [COUNTRY.GetName] на вашу сторону, согласитесь взять на себя [Concept('concept_favor', 'обязательство')] перед ними.[ConcatIfNeitherEmpty( '\n$TOOLTIP_DELIMITER$\n', '$ERRORS$' )]"
+ JOIN_DIPLO_PLAY_FACTOR_OFFERED_FAVOR:0 "Предложено [Concept('concept_favor', 'обязательство')]: #bold $VALUE|+=$#!"
+ JOIN_DIPLO_PLAY_FACTOR_CURRENT_OFFERED_FAVOR:0 "Противоположная сторона предложила [Concept('concept_favor', 'обязательство')]: #bold $VALUE|+=$#!"

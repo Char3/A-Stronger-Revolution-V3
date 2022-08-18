@@ -1,0 +1,44 @@
+﻿CHARACTERS = {
+	c:SWI = {
+		create_character = {
+			# Karl Friedrich Tscharner, sometimes recorded as Karl Friedrich von Tscharner
+			#role = politician # Remove this line
+			first_name = "Karl_Friedrich"
+			last_name = "Tscharner"
+			age = 64
+			ig_leader = yes
+			ruler=yes
+			interest_group = ig_petty_bourgeoisie # mayor of Bern
+			traits = {
+			}
+		}
+
+		create_character = {
+			# Guillaume Henri Dufour, one of Switzerland's foremost generals from the 1810s through to the 1860s
+			#role = politician # Remove this line
+			first_name = "Guillaume_Henri"
+			last_name = "Dufour"
+			age = 49
+			ig_leader = yes
+			interest_group = ig_armed_forces
+			traits = {
+			}
+		}
+
+		create_character = {
+			# Jozef Franz Karl Amrhyn
+			#role = politician # Remove this line
+			first_name = "Jozef_Franz_Karl"
+			last_name = "Amrhyn"
+			age = 35
+			ig_leader = yes
+			interest_group = ig_devout
+			traits = {
+				reserved #TODO look for a better one
+			}
+
+		}
+		
+	}
+
+}

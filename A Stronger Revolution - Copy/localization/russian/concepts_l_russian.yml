@@ -1,0 +1,1263 @@
+﻿l_russian:
+  
+ concept_concept:0 "Понятие"
+ concept_concepts:0 "Понятия"
+ concept_concept_desc:0 "Это подсказка к игровому понятию, в которой содержится другое [Concept('concept_concept', 'понятие')]."
+
+ concept_sol:0 "Уровень жизни"
+ concept_sol_desc:0 "Уровень жизни отражает накопленное материальное [Concept('concept_wealth', 'благосостояние')] [Concept('concept_pop_possessive', 'группы населения')] в сочетании с более эфемерным улучшением жизненных условий. Он определяет рождаемость и смертность, а его изменение может привести к тому, что [Concept('concept_pop', 'население')] в данной группе станет более [Concept('concept_radical', 'радикальным')] или [Concept('concept_loyalist', 'лояльным')]. Уровень жизни меняется вместе с покупательной способностью группы населения и доступностью услуг."
+
+ concept_pop_growth:0 "Прирост населения"
+ concept_pop_growth_desc:0 "Ежегодно каждая [Concept('concept_pop', 'группа населения')] получает или теряет некоторое количество людей в зависимости от соотношения рождаемости и смертности. Эти два показателя зависят от [Concept('concept_sol', 'уровня жизни')] и ряда факторов, вроде болезней, опасных условий труда, существующих [Concept('concept_institution', 'институтов')] и доступного жизненного пространства.\n\n@information! В данном случае не учитываются внешние факторы, например [Concept('concept_migration', 'миграция')] или потери во время войны." # [LocEditor:AwaitingBatchUpdate]
+ 
+ # [LocEditor:UntranslatedKey] `concept_individual`
+ # [LocEditor:UntranslatedKey] `concept_individuals`
+ # [LocEditor:UntranslatedKey] `concept_individual_desc`
+
+ concept_building:0 "Сооружение"
+ concept_buildings:0 "Сооружения"
+ concept_building_possessive:0 "Сооружения"
+ concept_building_desc:0 "[Concept('concept_pop', 'Население')] работает в сооружениях. Сооружения могут использовать природные ресурсы [Concept('concept_state', 'области')] или использовать одни [Concept('concept_good', 'товары')] для производства других [Concept('concept_good', 'товаров')] или иных эффектов, вроде [Concept('concept_infrastructure', 'инфраструктуры')]. [Concept('concept_production_method', 'Производственные методы')] позволяют определять, что именно производит сооружение и кто в нём работает."
+  
+ concept_opinion:0 "Мнение"
+ concept_opinion_desc:0 "Мнение вашего народа о другой стране и мнение другой [Concept('concept_country', 'страны')] о вас играют важную роль в дипломатических отношениях." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_colonize:0 "Колонизация"
+ concept_colonizes:0 "Колонизация" # [LocEditor:AwaitingBatchUpdate]
+ concept_colonize_desc:0 "Если вы принадлежите к числу крупных или великих держав, и у вас есть [Concept('concept_interest', 'интерес')] в данном [Concept('concept_strategic_region', 'стратегическом регионе')], то вы можете колонизировать [Concept('concept_state', 'область')], принадлежащую [Concept('concept_decentralized_nation', 'децентрализованной стране')]."
+
+ concept_potentials:0 "Потенциал"
+ concept_potentials_desc:0 "Потенциал показывает максимальное количество товаров, которое может обеспечить данная область."
+
+ concept_diplomatic_play:0 "Дипломатическая игра"
+ # [LocEditor:UntranslatedKey] `concept_diplomatic_play_short`
+ concept_diplomatic_plays:0 "Дипломатические игры"
+ concept_diplomatic_play_desc:0 "Если у вас есть [Concept('concept_interest', 'интерес')] в [Concept('concept_strategic_region', 'стратегическом регионе')], вы можете начать дипломатическую игру с требованием каких-либо уступок. Такая дипломатическая игра может разрешиться мирно или перерасти в войну. Любая другая страна с [Concept('concept_interest', 'интересом')] в [Concept('concept_strategic_region', 'стратегическом регионе')] может поддержать вас, поддержать цель вашей игры или воздержаться от вмешательства."
+  
+ concept_maneuver:0 "Манёвр"
+ concept_maneuvers:0 "Манёвры" # [LocEditor:AwaitingBatchUpdate]
+ concept_maneuver_desc:0 "Во время [Concept('concept_diplomatic_play', 'дипломатической игры')] вам доступны манёвры, которые можно тратить на добавление новых [Concept('concept_war_goal', 'целей войны')] или на попытки [Concept('concept_sway', 'убедить')] другие [Concept('concept_country', 'страны')] поддержать вас. Манёвры доступны только инициатору и цели дипломатической игры." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_modifier:0 "Модификатор"
+ concept_modifiers:0 "Модификаторы" # [LocEditor:AwaitingBatchUpdate]
+ concept_modifier_desc:0 "#todo What exactly is a Modifier and should we really explain it to the Player as a Game Concept like this?#!"
+
+ concept_ruler:0 "Правитель"
+ concept_rulers:0 "Правители"
+ concept_ruler_possessive:0 "Правителя"
+ concept_ruler_desc:0 "Правителем [Concept('concept_country', 'страны')] является [Concept('concept_character', 'персонаж')]. Он может обладать [Concept('concept_character_trait', 'чертами характера')], накладывающими на вашу [Concept('concept_country', 'страну')] бонусы или штрафы." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_heir:0 "Наследник"
+ concept_heir_desc:0 "Наследником [Concept('concept_country', 'страны')] является [Concept('concept_character', 'персонаж')]. Это будущий [Concept('concept_ruler', 'правитель')] [Concept('concept_country', 'страны')], который примет бразды правления после смерти нынешнего [Concept('concept_ruler', 'правителя')]."
+
+ concept_homeland:0 "Родина"
+ concept_homelands:0 "Родины" # [LocEditor:AwaitingBatchUpdate]
+ concept_homeland_desc:0 "Родиной [Concept('concept_culture_possessive', 'культуры')] считается [Concept('concept_state_region', 'регион')], который [Concept('concept_pop', 'представители')] данной культуры считают своим домом. Население часто мигрирует на родину, а завоевание утраченной родины в глазах международного сообщества выглядит более легитимным, чем агрессивное расширение."
+
+ concept_mobilize_general:0 "Мобилизовать генерала"
+ concept_mobilize_general_mobilize:0 "Мобилизовать"
+ concept_mobilize_general_mobilizing:0 "Мобилизация"
+ concept_mobilize_general_mobilized:0 "Мобилизован"
+ concept_mobilize_general_mobilization:0 "Мобилизация"
+ concept_mobilize_general_desc:0 "#todo Mobilizing a [concept_general] begins mobilizing the [Concept('concept_battalion', $concept_battalions$)] assigned to them. Note that a $concept_mobilize_general_mobilized$ $concept_general$ cannot be demobilized manually and will only demobilize once the country is at peace.#!" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_mobilize_battalion:0 "Мобилизовать батальон"
+ concept_mobilize_battalion_demobilized:0 "Демобилизован"
+ concept_mobilize_battalion_mobilizing:0 "Мобилизация"
+ concept_mobilize_battalion_mobilized:0 "Мобилизован"
+ # [LocEditor:UntranslatedKey] `concept_mobilize_battalions_mobilized`
+ concept_mobilize_battalion_desc:0 "#todo [Concept('concept_battalion', $concept_battalions$)] assigned to a [Concept('concept_mobilize_general', '$concept_mobilize_general_mobilized$')] [concept_general] immediately begin mobilizing based on [concept_infrastructure] in their [concept_state]. Once mobilized, [Concept('concept_battalion', $concept_battalions$)] consume more resources but are ready to fight!#!" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_conscription_center:0 "Призывной пункт"
+ concept_conscription_centers:0 "Призывные пункты"
+ concept_conscription_center_conscription:0 "Воинский призыв"
+ # [LocEditor:UntranslatedKey] `concept_conscripted`
+ # [LocEditor:UntranslatedKey] `concept_conscription`
+ concept_conscription_center_desc:0 "#todo A Conscription Center is an auto placed building that can be activated to draft citizens to military service based on the conscription laws of the [concept_country].#!"
+
+ concept_conscript_battalion:0 "Батальон призывников"
+ concept_conscript_battalions:0 "Батальоны призывников"
+ # [LocEditor:UntranslatedKey] `concept_conscript_battalion_drafting`
+ concept_conscript_battalion_desc:0 "#todo A Conscript Battalion is a temporary [concept_battalion] trained in a [concept_conscription_center].#!" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_front:0 "Фронт"
+ concept_fronts:0 "Фронты" # [LocEditor:AwaitingBatchUpdate]
+ concept_front_desc:0 "Фронтом называется ряд [Concept('concept_province', 'провинций')] на границе между двумя [Concept('concept_country', 'странами')], которые находятся в состоянии [Concept('concept_war', 'войны')] друг с другом. [Concept('concept_commander', 'Командиры')], приписанные к [Concept('concept_strategic_region', 'стратегическим регионам')], через который проходит фронт, отправят на него войска. На одном фронте может находиться сразу несколько [Concept('concept_commander', 'командиров')], и старший по званию среди них возглавит фронт. Если [Concept('concept_commander', 'командир')] получит приказ начать вторжение и имеет в распоряжении достаточно войск, он начнёт прорабатывать [Concept('concept_battle_plan', 'план кампании')], который в конечном счёте приведёт к [Concept('concept_battle', 'сражению')]." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_garrison:0 "Гарнизон"
+ concept_garrison_desc:0 "#TODO Garrison is ..."
+
+ concept_advancement_progress:0 "Прогресс наступления"
+ concept_advancement_progress_desc:0 "#TODO In order for a [concept_front] to launch a new [concept_battle] it first needs to accumulate enough Advancement Progress.#!"
+ concept_advancement_speed:0 "Скорость наступления"
+ concept_advancement_speed_desc:0 "#TODO A Commanders Advancement Speed is his [concept_advancement_progress] contribution to the [concept_front].\nA commander with no available troops has zero Advancement Speed.#!"
+
+ concept_province:0 "Провинция"
+ concept_provinces:0 "Провинции" # [LocEditor:AwaitingBatchUpdate]
+ concept_province_desc:0 "Провинции входят в состав [Concept('concept_state', 'областей')]. Каждая провинция обладает своим [Concept('concept_terrain', 'типом местности')]. В ходе [Concept('concept_battle', 'сражений')] [Concept('concept_general', 'генералы')] продвигаются через провинции и захватывают их." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_commander:0 "Командир"
+ concept_commanders:0 "Командиры" # [LocEditor:AwaitingBatchUpdate]
+ concept_commander_desc:0 "Командиром называется [Concept('concept_character', 'персонаж')], возглавляющий войска."
+
+ concept_battle:0 "Сражение"
+ concept_battle_desc:0 "Сражение происходит, когда противоположные стороны [Concept('concept_war', 'конфликта')] сталкиваются на [Concept('concept_front', 'фронте')], что приводит к потерям с обеих сторон. Сражение происходит в [Concept('concept_province', 'провинции')], [Concept('concept_terrain', 'тип местности')] которой повлияет на исход сражения. Когда сражение заканчивается, победитель получает контроль над провинцией."
+
+ concept_terrain:0 "Тип местности"
+ concept_terrain_desc:0 "The terrain of a [concept_province] controls... #todo something#!, if a [concept_battle] would break out in the [concept_province]" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_strategic_region:0 "Стратегический регион"
+ concept_strategic_regions:0 "Стратегические регионы" # [LocEditor:AwaitingBatchUpdate]
+ concept_strategic_region_desc:0 "Стратегический регион — это совокупность [Concept('concept_state_region', 'регионов')], в которых можно вести [Concept('concept_diplomatic_play', 'дипломатические игры')]. [concept_country] может участвовать только в одной [Concept('concept_diplomatic_play', 'дипломатической игре')], если вооружённые силы обладают [Concept('concept_interest', 'интересом')] в стратегическом регионе."
+
+ concept_sway:0 "Убеждение"
+ concept_sway_desc:0 "[concept_country], выступающая инициатором или целью [Concept('concept_diplomatic_play', 'дипломатической игры“)], может попытаться склонить на свою сторону другую [Concept('concept_country', 'страну')] с [Concept('concept_interest', 'интересом')] в данном [Concept('concept_strategic_region', 'стратегическом регионе')], которая ещё не выбрала сторону в конфликте."
+  
+ concept_diplomatic_action:0 "Дипломатическое действие"
+ concept_diplomatic_actions:0 "Дипломатические действия"
+ concept_diplomatic_action_desc:0 "[concept_country] может предпринимать дипломатические действия в отношении другой [Concept('concept_country', 'страны')] с целью заключить [Concept('concept_alliance', 'союз')], начать [Concept('concept_rivalry', 'соперничества')] и так далее." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_bureaucracy:0 "Бюрократия"
+ concept_bureaucracy_desc:0 "Бюрократия (@bur!) используется для поддержания целостности вашей страны. Затраты увеличиваются с ростом населения во [Concept('concept_incorporated_state', 'включённых областях')] и в зависимости от затрат на существующие [Concept('concept_institution', 'институты')]. Производством @bur! занимаются [Concept('concept_pop', 'группы населения')], работающие в [Concept('concept_government_building', 'правительственных сооружениях')]." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_government_building:0 "Правительственное сооружение"
+ concept_government_buildings:0 "Правительственные сооружения" # [LocEditor:AwaitingBatchUpdate]
+ concept_government_building_desc:0 "Правительственное сооружение — это сооружение, в котором [Concept('concept_country', 'страна')] платит зарплату работающим в нём [Concept('concept_pop', 'группам населения')], а также оплачивает [Concept('concept_good', 'товары')], используемые в производственной цепочке."
+
+ concept_military_building:0 "Военное сооружение"
+ concept_military_buildings:0 "Военные сооружения" # [LocEditor:AwaitingBatchUpdate]
+ concept_military_building_desc:0 "#todo A Military Building is... #!" # [LocEditor:AwaitingBatchUpdate]
+
+ # [LocEditor:UntranslatedKey] `concept_incorporate`
+ # [LocEditor:UntranslatedKey] `concept_incorporated`
+ # [LocEditor:UntranslatedKey] `concept_incorporating`
+ concept_incorporated_state:0 "Включённая область"
+ concept_incorporated_states:0 "Включённые области" # [LocEditor:AwaitingBatchUpdate]
+ concept_incorporated_state_desc:0 "[Concept('concept_pop', 'Население')] включённых областей получает доступ к благам [Concept('concept_institution', 'институтов')], платит налоги и полноценно участвует в политической жизни страны." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_influence:0 "Влияние"
+ concept_influence_desc:0 "Влияние (@inf!) используется в [Concept('concept_diplomatic_action', 'дипломатических действиях')] в отношении других [Concept('concept_country', 'стран')]. Вы получаете @inf! за [Concept('concept_rank', 'ранг')], а также за наличие [Concept('concept_rivalry', 'соперников')]." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_authority:0 "Авторитет"
+ concept_authority_desc:0 "Авторитет (@aut!) используется для проведения преобразований внутри страны, например для издания [Concept('concept_decree', 'указов')] или для управления [Concept('concept_interest_group', 'заинтересованными группами')]. Вы получаете @aut! от принятых [Concept('concept_law', 'законов')]." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_institution:0 "Институт"
+ concept_institutions:0 "Институты" # [LocEditor:AwaitingBatchUpdate]
+ concept_institution_desc:0 "Институты выгодны [Concept('concept_incorporated_state', 'включённым областям')] вашей [Concept('concept_country', 'страны')]. На содержание институтов расходуется [Concept('concept_bureaucracy', 'бюрократия')] в зависимости от численности [Concept('concept_pop', 'населения')] ваших [Concept('concept_incorporated_state', 'включённых областей')] и размера самих институтов." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_law:0 "Закон"
+ concept_laws:0 "Законы"
+ concept_law_desc:0 "Законы определяют принципы управления вашей страной. Некоторые законы открывают доступ к [Concept('concept_institution', 'институтам')]. Для принятия закона необходимо, чтобы его поддержала хотя бы одна [Concept('concept_interest_group', 'заинтересованная группа')] [Concept('concept_in_government', 'в правительстве')]." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_law_group:0 "Конституционные законы"
+ concept_law_group_desc:0 "#todo [Concept('concept_law', '$concept_laws$')] come in groups..#!" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_money:0 "@money! Деньги"
+ concept_money_desc:0 "Деньги движут миром. Они расходуются на зарплату государственным служащим, закупку строительных материалов, субсидирование промышленности и покупку военного снаряжения. Вы получаете [Concept('concept_money', 'деньги')] посредством [Concept('concept_taxation', 'налогообложения')] вашего [Concept('concept_pop', 'населения')] и [Concept('concept_building', 'сооружений')]. Излишки [Concept('concept_money', 'денег')] расходуются на выплату [Concept('concept_national_debt', 'национального долга')] или накопление [Concept('concept_gold_reserves', 'золотого запаса')]. Дефицит [Concept('concept_money', 'денег')] увеличит ваш [Concept('concept_national_debt', 'национальный долг')] вплоть до [Concept('concept_credit_limit', 'лимита кредитования')], определяемого вашим [Concept('concept_gdp', 'ВВП')]."
+
+ concept_taxation:0 "Налогообложение"
+ concept_taxation_desc:0 "Налоги поступают в виде [Concept('concept_money', 'денег')], вычитаемых из зарплат вашего [Concept('concept_pop', 'населения')], или в виде потребительского налога, увеличивающего стоимость [Concept('concept_good', 'товаров')]."
+
+ concept_workforce:0 "Рабочая сила"
+ concept_workforce_desc:0 "Рабочая сила [Concept('concept_building', 'сооружения')] представлена [Concept('concept_pop', 'населением')] обладающим различными [Concept('concept_profession', 'профессиями')]. Статус [Concept('concept_pop', 'групп населения')] может повышаться или понижаться, чтобы заполнить [Concept('concept_profession', 'профессии')], необходимые для данного [Concept('concept_production_method', 'производственного метода')]."
+
+ concept_national_debt:0 "Национальный долг"
+ concept_national_debt_desc:0 "Национальный долг — это [Concept('concept_money', 'деньги')], которые вы должны… кому-нибудь. Вы выплачиваете [Concept('concept_budget_interest_rate', 'проценты')] в зависимости от величины национального долга. Вы накапливаете долг при дефиците бюджета."
+
+ concept_gold_reserves:0 "Золотой запас"
+ concept_gold_reserves_desc:0 "Золотой запас — это количество [Concept('concept_money', 'денег')], накопленных вашей [Concept('concept_country', 'страной')]. При профиците бюджета вы увеличиваете свой золотой запас, и наоборот."
+
+ concept_cash_reserves:0 "Финансовый резерв"
+ concept_cash_reserves_desc:0 "Владелец [Concept('concept_building', 'сооружения')] хранит свои деньги в финансовом резерве. При положительном недельном балансе часть денег попадает в финансовый резерв, а остальные распределяются между владельцами сооружения (которые те могут использовать для повышения [Concept('concept_sol', 'уровня жизни')] или в качестве [Concept('concept_investment_pool', 'инвестиций')])."
+
+ concept_credit_limit:0 "Лимит кредитования"
+ concept_credit_limit_desc:0 "Лимит кредитования определяется вашим [Concept('concept_gdp', 'ВВП')] и ограничивает максимальный размер вашего [Concept('concept_national_debt', 'национального долга')]."
+  
+ concept_obsession:0 "Тяга"
+ concept_obsession_desc:0 "[concept_culture] может испытывать тягу к определённому [Concept('concept_good', 'товару')]. [Concept('concept_pop', 'Представители')] данной культуры будут тратить куда больше денег на товары, к которым они испытывают тягу, по сравнению с другими товарами той же категории [Concept('concept_pop_needs', 'востребованности')]."
+  
+ concept_taboo:0 "Табу"
+ concept_taboo_desc:0 "[concept_religion] может накладывать табу на определённые [Concept('concept_good', 'товары')]. [Concept('concept_pop', 'Последователи')] данной религии будут тратить куда меньше денег на табуированные товары по сравнению с другими товарами той же категории [Concept('concept_pop_needs', 'востребованности')]."
+  
+ concept_goods_substitution:0 "Товары-заменители"
+ concept_goods_substitution_desc:0 "Товары из одной категории [Concept('concept_pop_needs', 'востребованности')] взаимозаменяемы с точки зрения потребления группой населения в зависимости от доступности. Например, в категорию базовых продуктов питания входят мясо и зерно, и население будет потреблять больше зерна и меньше мяса. Но если в дальнейшем мясо станет более доступным на рынке, население увеличит его потребление (снижая потребление зерна). В некоторых случаях один товар может полностью заменить другой, если на [Concept('concept_market', 'рынке')] нет [Concept('concept_sell_orders', 'приказов о продаже')] данного товара. Количество покупаемого населением товара по сравнению с прочими товарами данной категории будет значительно меняться, если товар является [Concept('concept_taboo', 'табу')] или [Concept('concept_obsession', 'предметом вожделения')]. Товары с большей самостоятельной ценностью лучше удовлетворяют потребности группы населения в соответствующей категории, поэтому, например, одна единица продуктов равняется нескольким единицам зерна."
+
+ concept_sell_orders:0 "Приказы о продаже"
+ concept_sell_orders_desc:0 "Приказы о продаже товара на центральном [Concept('concept_market', 'рынке')] определяют его [Concept('concept_market_price', 'рыночную цену')]. Приказы о продаже задаются потреблением и производством в области, и их количество тем выше, чем выше [Concept('concept_market_access', 'доступ')] [Concept('concept_state', 'области')] к [Concept('concept_market', 'рынку')]."
+
+ concept_buy_orders:0 "Приказы о покупке"
+ concept_buy_orders_desc:0 "Приказы о покупке товара на центральном [Concept('concept_market', 'рынке')] определяют его [Concept('concept_market_price', 'рыночную цену')]. Приказы о покупке задаются потреблением и производством в области, и их количество тем выше, чем выше [Concept('concept_market_access', 'доступ')] [Concept('concept_state', 'области')] к [Concept('concept_market', 'рынку')]."
+
+ concept_market_price:0 "Рыночная цена"
+ concept_market_price_desc:0 "Цена [Concept('concept_good', 'товара')] на [Concept('concept_market', 'рынке')]. Она зависит от [Concept('concept_sell_orders', 'приказов о продаже')] и [Concept('concept_buy_orders', 'приказов о покупке')]. Она также влияет на [Concept('concept_local_price', 'местную цену')], которая зависит от [Concept('concept_market_access', 'доступа')] [Concept('concept_state_possessive', 'области')] к [Concept('concept_market', 'рынку')]."
+
+ concept_local_price:0 "Местная цена"
+ concept_local_price_desc:0 "Цена [Concept('concept_good', 'товара')] в [Concept('concept_state', 'области')]. Она зависит от местного потребления и производства, а также [Concept('concept_market_price', 'рыночной цены')], которая зависит от [Concept('concept_market_access', 'доступа')] [Concept('concept_state_possessive', 'области')] к [Concept('concept_market', 'рынку')]. Местная цена будет создавать [Concept('concept_sell_orders', 'приказы о продаже')] и [Concept('concept_buy_orders', 'приказы о покупке')]."
+
+ concept_subsistence_building:0 "Сооружение натурального хозяйства"
+ concept_subsistence_buildings:0 "Сооружения натурального хозяйства" # [LocEditor:AwaitingBatchUpdate]
+ concept_subsistence_building_desc:0 "Сооружения натурального хозяйства — это категория [Concept('concept_building', 'сооружений')], которые уступают в эффективности обычным сооружениям. Они автоматически создаются и уничтожаются при избытке [Concept('concept_urbanization', 'урбанизации')] или [Concept('concept_arable_land', 'пахотных земель')]."
+
+ concept_non_government_building:0 "Производственные сооружения"
+ concept_non_government_building_desc:0 "Производственные сооружения производят какой-либо товар и не находятся на содержании у государства."
+  
+ concept_trade_route:0 "Торговый путь"
+ concept_trade_routes:0 "Торговые пути"
+ concept_trade_route_desc:0 "Торговые пути перемещают доступные [Concept('concept_good', 'товары')] между [Concept('concept_market', 'рынками')], что увеличивает цену в стране-экспортёре и снижает цену в стране-импортёре. Количество [Concept('concept_good', 'товаров')], которые можно перемещать по торговому пути, зависит от качества [Concept('concept_infrastructure', 'инфраструктуры')], связующей два [Concept('concept_market', 'рынка')]." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_trade_agreement:0 "Торговое соглашение"
+ concept_trade_agreement_desc:0 "Торговое соглашение — это дипломатическая договорённость между двумя [Concept('concept_country', 'странами')], которая увеличивает эффективность всех [Concept('concept_trade_route', 'торговых путей')] между контролируемыми ими [Concept('concept_market', 'рынками')]." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_trade_route_competitiveness:0 "Конкурентоспособность торгового пути"
+ concept_trade_route_competitiveness_desc:0 "#todo Trade Route Competitiveness is ...#!"
+
+ concept_economy_of_scale:0 "Эффект масштаба"
+ concept_economy_of_scale_desc:0 "#todo Economy of Scale is ...#!"
+  
+ concept_interest_group:0 "Заинтересованная группа"
+ concept_interest_groups:0 "Заинтересованные группы"
+ concept_interest_group_possessive:0 "Заинтересованной группы"
+ concept_interest_group_desc:0 "Заинтересованная группа — это политическая фракция в вашей [Concept('concept_country', 'стране')], объединённая общими интересами. Такие группы привлекают к себе [Concept('concept_pop', 'группы населения')] в зависимости от того, насколько хорошо они соответствуют положению дел среди данного населения. Группы придерживаются ряда [Concept('concept_ideology', 'идеологий')], определяющих их отношение к тем или иным [Concept('concept_law', 'законам')]. Такие группы также обладают рядом [Concept('concept_interest_group_trait', 'черт')], проявляющихся при различных уровнях [Concept('concept_ig_approval', 'одобрения')]. Каждую заинтересованную группу возглавляет [Concept('concept_politician', 'политик')], личная [Concept('concept_ideology', 'идеология')] которого также влияет на заинтересованную группу."
+
+ concept_interest_group_attraction:0 "Привлекательность заинтересованной группы"
+ concept_interest_group_attractions:0 "Привлекательность заинтересованных групп" # [LocEditor:AwaitingBatchUpdate]
+ concept_attracted:0 "Привлекает"
+ concept_interest_group_attraction_desc:0 "#todo Interest Group Attraction is ...#!" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_politician:0 "Политик"
+ concept_politicians:0 "Политики" # [LocEditor:AwaitingBatchUpdate]
+ concept_politician_desc:0 "Политик — это [Concept('concept_character', 'персонаж')]. Он может обладать [Concept('concept_character_trait', 'чертами характера')]." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_leader:0 "Лидер"
+ concept_leaders:0 "Лидеры"
+ concept_leader_desc:0 "Лидер [Concept('concept_interest_group', 'заинтересованной группы')] — это [Concept('concept_character', 'персонаж')]. Лидер может обладать [Concept('concept_character_trait', 'чертами характера')] и [Concept('concept_ideology', 'идеологией')], которая добавляется к [Concept('concept_ideology', 'идеологии')] [Concept('concept_interest_group_possessive', 'заинтересованной группы')]." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_character:0 "Персонаж"
+ concept_characters:0 "Персонажи" # [LocEditor:AwaitingBatchUpdate]
+ concept_character_desc:0 "Персонаж — это, собственно, персонаж. В зависимости от контекста персонаж может быть [Concept('concept_politician', 'политиком')], [Concept('concept_commander', 'командиром')] и так далее." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_interest_group_trait:0 "Особенность заинтересованной группы"
+ concept_interest_group_traits:0 "Особенности заинтересованной группы" # [LocEditor:AwaitingBatchUpdate]
+ concept_interest_group_trait_desc:0 "Активные особенности заинтересованной группы предоставляют [Concept('concept_country', 'стране')] бонусы или штрафы. Они включаются и отключаются в зависимости от [Concept('concept_ig_approval', 'одобрения заинтересованной группы')]."
+
+ concept_character_trait:0 "Черта характера персонажа"
+ concept_character_traits:0 "Черты характера персонажа" # [LocEditor:AwaitingBatchUpdate]
+ concept_character_trait_desc:0 "Черты характера персонажа — это активируемые бонусы или штрафы. "
+
+ concept_military:0 "Армия"
+ concept_military_desc:0 "Ваша армия…" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_construction_queue:0 "Очередь строительства"
+ concept_construction_queue_desc:0 "Одновременно в каждой [Concept('concept_state', 'области')] можно расширять только одно [Concept('concept_building', 'сооружение')], а остальные попадут в очередь строительства."
+
+ # [LocEditor:UntranslatedKey] `concept_under_construction`
+ # [LocEditor:UntranslatedKey] `concept_under_construction_desc`
+
+ concept_political_strength:0 "Политическая сила"
+ concept_political_strength_desc:0 "#todo Political Strength is the total amount of Political Strength a group of [Concept('concept_pop', '$concept_pops$')] get from their [concept_status], their [concept_wealth] and the amount of [concept_votes] they cast.#!" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_urban_center:0 "Городской центр"
+ concept_urban_centers:0 "Городские центры" # [LocEditor:AwaitingBatchUpdate]
+ concept_urban_center_desc:0 "Городской центр — это особый тип [Concept('concept_building', 'сооружения')], создающий [Concept('concept_urbanization', 'урбанизацию')]."
+
+ concept_urbanization:0 "Урбанизация"
+ concept_urbanization_desc:0 "Большинство [Concept('concept_building', 'сооружений')] в [Concept('concept_state', 'области')] создают урбанизацию. За каждые [GetDefine('NEconomy','URBANIZATION_PER_BUILDING')|v] единиц урбанизации в [Concept('concept_state', 'области')] будет создан один уровень [Concept('concept_urban_center', 'городского центра')]."
+  
+ concept_ideology:0 "Идеология"
+ concept_ideologies:0 "Идеологии"
+ concept_ideology_desc:0 "Идеология определяет отношение [Concept('concept_interest_group', 'заинтересованной группы')] к [Concept('concept_law', 'законам')]. Для принятия [Concept('concept_law', 'закона')] хотя бы одна из [Concept('concept_interest_group', 'заинтересованных групп')] в правительстве должна одобрять его."
+
+ concept_subsistence_output:0 "Доходы от натурального хозяйства"
+ concept_subsistence_output_desc:0 "Это дополнительные доходы [Concept('concept_peasants', '@peasants! крестьян')], занятых в натуральном хозяйстве, которые производят товары для себя.\n\nВ отличие от зарплат, [Concept('concept_subsistence_output', 'доходы от натурального хозяйства')] выплачиваются не из доходов [Concept('concept_building', 'сооружения')] и не облагаются [Concept('concept_budget_income_taxes', 'подоходными налогами')]."
+  
+ concept_good_production:0 "Производство"
+ concept_good_production_desc:0 "Объём товара, производимый [Concept('concept_building', 'сооружениями')] или [Concept('concept_pop', 'группами населения')]."
+  
+ concept_good_consumption:0 "Потребление"
+ concept_good_consumption_desc:0 "Объём данного товара, потребляемый [Concept('concept_building', 'сооружениями')] или [Concept('concept_pop', 'группами населения')]."
+  
+  
+ concept_split_state:0 "Разделённая область"
+ # [LocEditor:UntranslatedKey] `concept_split_state_short`
+ concept_split_state_desc:0 "Разделённой областью называется [Concept('concept_state_region', 'регион')], разбитый на меньшие [Concept('concept_state', 'области')]. Если одна [Concept('concept_country', 'страна')] возьмёт под контроль несколько частей разделённой области, они объединятся в одну область." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_unincorporated_state:0 "Невключённая область"
+ concept_unincorporated_states:0 "Невключённые области"
+ concept_unincorporated_state_desc:0 "Невключённая область входит в состав [Concept('concept_country', 'страны')], но считается территорией или фронтиром, а не частью метрополии. [Concept('concept_pop', 'Группы населения')], проживающие в таких областях, не имеют прав и почти не влияют на [Concept('concept_political_strength', 'политическую силу')] своих [Concept('concept_interest_group', 'заинтересованных групп')]. Невключённую область можно превратить во [Concept('concept_incorporated_state', 'включённую')] и передать под прямое управление центральных властей [Concept('concept_country_possessive', 'страны')].#!"
+  
+ concept_colonial_state:0 "Колониальная область"
+ concept_colonial_states:0 "Колониальные области" # [LocEditor:AwaitingBatchUpdate]
+ concept_colonial_state_desc:0 "Колониальная область — это особый тип [Concept('concept_unincorporated_state', 'невключённой области')], который обычно возникает в результате основания [Concept('concept_colony', 'колонии')] в землях [Concept('concept_decentralized_nation', 'децентрализованного государства')] или захвата территории у [Concept('concept_unrecognized_power', 'непризнанной державы')]. Колониальная область, граничащая с неколониальной областью, принадлежащей той же [Concept('concept_country', 'стране')], потеряет статус колонии и станет просто [Concept('concept_unincorporated_state', 'невключённой областью')].\n\nКолониальные области получают бонус к привлекательности миграции и модификаторы от колониальных [Concept('concept_law', 'законов')] и [Concept('concept_institution', 'институтов')]." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_decentralized_nation:0 "Децентрализованное государство"
+ concept_decentralized_nations:0 "Децентрализованные государства" # [LocEditor:AwaitingBatchUpdate]
+ concept_decentralized_nation_desc:0 "Колонизаторы могут заселить земли децентрализованного государства."
+  
+ concept_arable_land:0 "Пахотные земли"
+ concept_arable_land_desc:0 "Пахотные земли — это такой же ресурс, как и любой другой. Ряд ресурсодобывающих отраслей использует пахотные земли для производства разнообразных [Concept('concept_good', 'товаров')]. Если пахотные земли не используются в промышленности, их занимают фермы [Concept('concept_subsistence_building', 'натурального хозяйства')]."
+  
+ concept_state_resource:0 "Ресурс области"
+ concept_state_resource_desc:0 "Этот ресурс могут использовать ваши ресурсодобывающие отрасли, производя [Concept('concept_good', 'товары')] для обрабатывающей промышленности или торговли."
+
+ concept_state_region:0 "Регион"
+ concept_state_regions:0 "Регионы"
+ concept_state_region_desc:0 "Регион обычно соответствует одной [Concept('concept_state', 'области')], но может включать в себя несколько [Concept('concept_state', 'областей')] в случае [Concept('concept_split_state', 'разделённой области')]." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_occupancy:0 "Заполненность"
+ concept_occupancy_desc:0 "Заполненность работниками и производительность сооружения. Сооружения будут нанимать и повышать сотрудников с ростом доходов и спроса."
+  
+ concept_votes:0 "Голоса"
+ concept_votes_desc:0 "Ваши [Concept('concept_law', 'законы')] определяют количество голосов в различных [Concept('concept_pop', 'группах населения')]. Голоса в основном отдаются за [Concept('concept_interest_group', 'заинтересованную группу')], пользующуюся поддержкой группы населения, в зависимости от её [Concept('concept_momentum', 'мотивации')] на текущих [Concept('concept_election', 'выборах')]. В день выборов количество отданных голосов фиксируется и остаётся неизменным до следующих выборов."
+  
+ concept_ig_population:0 "Население в заинтересованной группе"
+ concept_ig_population_desc:0 "Количество [Concept('concept_pop', 'групп населения')], входящих в эту заинтересованную группу."
+  
+ concept_ig_approval:0 "Одобрение"
+ concept_ig_approves:0 "Одобряет"
+ concept_ig_approve:0 "Одобряет"
+ concept_ig_approving:0 "Одобрение"
+ concept_ig_disapproval:0 "Неодобрение"
+ concept_ig_disapproves:0 "Не одобряет"
+ concept_ig_disapprove:0 "Не одобряет"
+ concept_ig_disapproving:0 "Неодобрение"
+ concept_ig_indifferent:0 "Безразличие"
+ concept_ig_approval_desc:0 "Одобрение или неодобрение [Concept('concept_interest_group', 'заинтересованной группы')] зависит от того, насколько [Concept('concept_law', 'законы')] [Concept('concept_country', 'страны')] соответствуют её [Concept('concept_ideology', 'идеологии')], а также от верности [Concept('concept_pop', 'населения')], входящего в эту [Concept('concept_interest_group', 'заинтересованную группу')]. От одобрения зависит, какие из [Concept('concept_interest_group_trait', 'особенностей заинтересованной группы')] активируются. Если [Concept('concept_interest_group', 'заинтересованная группа')] не испытывает ни одобрения, ни неодобрения, она будет безразличной." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_pol_str:0 "Политическая сила"
+ concept_pol_str_desc:0 "Степень влияния [Concept('concept_pop', 'группы населения')] (и её [Concept('concept_interest_group', 'заинтересованной группы')]) на политику страны. Политическая сила определяет [Concept('concept_clout', 'уровень влияния')] [Concept('concept_interest_group', 'группы')], исходя из [Concept('concept_status', 'статуса')] и [Concept('concept_wealth', 'благосостояния')] поддерживающих её [Concept('concept_pop', 'групп населения')], в дополнение к [Concept('concept_votes', 'голосам')], полученным на последних [Concept('concept_election', 'выборах')]."
+
+ concept_clout:0 "Уровень влияния"
+ concept_clout_desc:0 "Уровень влияния — это доля от общей [Concept('concept_pol_str', 'политической силы')] в стране, которую [Concept('concept_interest_group', 'заинтересованная группа')] получает от поддерживающего её [Concept('concept_pop', 'населения')]. Высокий уровень влияния положительно сказывается на вашей [Concept('concept_legitimacy', 'легитимности')], если [Concept('concept_interest_group', 'заинтересованная группа')] входит в состав [Concept('concept_in_government', 'правительства')]. Группы с низким [Concept('concept_clout', 'уровнем влияния')] считаются [Concept('concept_marginalized', 'отчуждёнными')]."
+
+ concept_powerful:0 "Могущественная"
+ concept_powerful_desc:0 "[concept_clout] [Concept('concept_interest_group', 'заинтересованной группы')] определяет, является ли она могущественной или влиятельной. Если [Concept('concept_clout', 'уровень влияния')] превышает #variable [GetDefine('NPolitics', 'POWERFUL_IG_THRESHOLD')|%0]#!, заинтересованная группа считается могущественной. Это означает, что эффекты от [Concept('concept_interest_group_trait', 'особенностей заинтересованной группы')] становятся сильнее на #variable [GetDefine('NPolitics', 'POWERFUL_IG_TRAIT_BONUS')|=%0]#!."
+
+ concept_influential:0 "Влиятельная"
+ concept_influential_desc:0 "[concept_clout] [Concept('concept_interest_group', 'заинтересованной группы')] определяет, является ли она могущественной или влиятельной. Если группа влиятельна, то эффекты от [Concept('concept_interest_group_trait', 'особенностей заинтересованной группы')] слабее, чем если бы она была [Concept('concept_powerful', 'могущественной')]."
+
+ concept_status:0 "Статус"
+ concept_status_desc:0 "Статус определяет положение [Concept('concept_pop', 'группы населения')] в вашей [Concept('concept_country', 'стране')]. Ваши [Concept('concept_law', 'законы')] определяют статус [Concept('concept_pop', 'групп населения')] различных [Concept('concept_profession', 'профессий')]."
+  
+ concept_marginalized:0 "Отчуждённая"
+ concept_marginalized_desc:0 "Отчуждённые [Concept('concept_interest_group', 'заинтересованные группы')] обладают слишком незначительной поддержкой, чтобы играть заметную роль в политике. Они не могут занимать места в правительстве и не в состоянии создать хоть сколько-нибудь заметные проблемы."
+  
+ concept_politically_inactive:0 "Политически неактивные"
+ concept_politically_inactive_desc:0 "Политически неактивными называются группы населения, не являющиеся частью [Concept('concept_interest_group', 'заинтересованной группы')]. Причинами могут быть низкий [Concept('concept_sol', 'уровень жизни')] или недостаточная [Concept('concept_literacy', 'грамотность')]. Они не участвуют в политической жизни страны и не вносят вклад в [Concept('concept_clout', 'уровень влияния')] какой-либо [Concept('concept_interest_group_possessive', 'заинтересованной группы')]."
+
+ concept_investment_level:0 "Уровень инвестиций"
+ concept_investment_levels:0 "Уровни инвестиций" # [LocEditor:AwaitingBatchUpdate]
+ concept_investment_level_desc:0 "Уровень инвестиций — это…" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_trade_lens:0 "Линза торговли"
+ concept_trade_lens_desc:0 "Через линзу торговли можно видеть торговые аспекты вашей страны и управлять ими."
+  
+ concept_production_lens:0 "Линза производства"
+ concept_production_lens_desc:0 "Через линзу производства можно видеть производственные аспекты вашей страны и управлять ими."
+  
+ concept_political_lens:0 "Линза политики"
+ concept_political_lens_desc:0 "Через линзу политики можно видеть политические аспекты вашей страны и управлять ими."
+  
+ concept_diplomatic_lens:0 "Линза дипломатии"
+ concept_diplomatic_lens_desc:0 "Через линзу дипломатии можно видеть дипломатические аспекты вашей страны и управлять ими."
+  
+ concept_military_lens:0 "Линза армии"
+ concept_military_lens_desc:0 "Через линзу армии можно видеть военные аспекты вашей страны и управлять ими."
+  
+ concept_country:0 "Страна"
+ concept_countries:0 "Страны" # [LocEditor:AwaitingBatchUpdate]
+ concept_country_possessive:0 "Страны"
+ concept_country_desc:0 "Страна — это… \n\nВы играете роль незримого лидера, меняя и направляя свою страну на протяжении Викторианской эпохи." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_decree:0 "Указ"
+ # [LocEditor:UntranslatedKey] `concept_decrees`
+ concept_decree_desc:0 "Указ — это…" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_population:0 "Население"
+ concept_population_desc:0 "Население вашей страны представлено её жителями, которые работают на предприятиях, в правительстве и служат в армии. [Concept('concept_taxation', 'Налоги')] населения являются вашим основным источником доходов. Верность населения и его требования могут играть вам на руку или обернуться против вас."
+  
+ concept_pop_needs:0 "Потребности"
+ concept_pop_needs_desc:0 "[Concept('concept_pop', Группы населения')] тратят свои доходы на [Concept('concept_good', 'товары')] для удовлетворения потребностей. Чем выше [Concept('concept_wealth', 'благосостояние')] группы населения, тем больше [Concept('concept_good', 'товаров')] она будет покупать. С ростом благосостояния потребности группы становятся более разнообразными и тяготеют к роскоши. Любую потребность можно удовлетворить несколькими товарами, благодаря наличию [Concept('concept_goods_substitution', 'товаров-заменителей')]. Если у группы населения останутся деньги после удовлетворения потребностей, её благосостояние вырастет, и наоборот."
+  
+ concept_army_budget:0 "Военный бюджет"
+ concept_army_budget_desc:0 "Бюджет ваших армии и флота каждую неделю расходуется на закупку [Concept('concept_good', 'товаров')] в казарме, которые затем потребляются развёрнутыми [Concept('concept_battalion', 'батальонами')]."
+
+ concept_battalion:0 "Батальон"
+ concept_battalions:0 "Батальоны" # [LocEditor:AwaitingBatchUpdate]
+ concept_battalion_desc:0 "Батальоны являются единицей измерения людских ресурсов в армии. Один батальон равен 1000 человек, работающих в [Concept('concept_barrack', 'казарме')]." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_warship:0 "Военный корабль"
+ concept_warships:0 "Военные корабли" # [LocEditor:AwaitingBatchUpdate]
+ concept_warship_desc:0 "Военные корабли являются единицей измерения людских ресурсов на флоте. Один военный корабль равен 1000 человек, работающих на [Concept('concept_naval_base', 'военно-морских базах')]." # [LocEditor:AwaitingBatchUpdate]
+  
+ # [LocEditor:UntranslatedKey] `concept_construction_sector`
+ # [LocEditor:UntranslatedKey] `concept_construction_sector_desc`
+
+ concept_barrack:0 "Казарма"
+ concept_barracks:0 "Казармы" # [LocEditor:AwaitingBatchUpdate]
+ concept_barrack_desc:0 "Казармы создают [Concept('concept_battalion', 'батальоны')]." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_naval_base:0 "Военно-морская база"
+ concept_naval_bases:0 "Военно-морские базы" # [LocEditor:AwaitingBatchUpdate]
+ concept_naval_base_desc:0 "Военно-морские базы создают [Concept('concept_warship', 'военные корабли')]." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_in_government:0 "В правительстве"
+ concept_in_government_desc:0 "Если [Concept('concept_interest_group', 'заинтересованная группа')] входит в состав правительства, её [Concept('concept_clout', 'уровень влияния')] обеспечивает [Concept('concept_legitimacy', 'легитимность')], которая, в свою очередь, влияет на скорость принятия [Concept('concept_law', 'законов')]. Для принятия [Concept('concept_law', 'закона')] хотя бы одна из [Concept('concept_interest_group', 'заинтересованных групп')] в правительстве должна одобрять его."
+
+ concept_in_opposition:0 "В оппозиции"
+ concept_in_opposition_desc:0 "Если [Concept('concept_interest_group', 'заинтересованная группа')] находится в оппозиции, то она не входит в состав правительства и получит штраф к одобрению."
+  
+ concept_legitimacy:0 "Легитимность правительства"
+ concept_legitimate:0 "Легитимно"
+ concept_legitimacy_desc:0 "Легитимность правительства показывает, насколько хорошо состав [Concept('concept_interest_group', 'заинтересованных групп')] [Concept('concept_in_government', 'в правительстве')] соответствует [Concept('concept_law', 'законам')] страны. Легитимность влияет на эффективность принятия [Concept('concept_law', 'законов')]."
+  
+ concept_market_capital:0 "Рыночная столица"
+ concept_market_capital_desc:0 "Рыночная столица является торговым центром [Concept('concept_market', 'рынка')] и перекрёстком [Concept('concept_trade_route', 'торговых путей')]. [Concept('concept_market_access', 'Доступность рынка')] в отдельном [Concept('concept_state_region', 'регионе')] в пределах [Concept('concept_market', 'рынка')] зависит от [Concept('concept_infrastructure', 'инфраструктуры')], связывающей его с [Concept('concept_market_capital', 'рыночной столицей')].\n\nРыночная столица обычно находится в [Concept('concept_state_region', 'регионе')] [Concept('concept_capital_state', 'столичной области')] [Concept('concept_market_controller_possessive', 'владельца рынка')]."
+  
+ concept_market_controller:0 "Владелец рынка"
+ concept_market_controller_possessive:0 "Владельца рынка"
+ concept_market_controller_desc:0 "Владелец рынка владеет рынком…"
+
+ concept_ownership_share:0 "Доля собственности"
+ concept_ownership_shares:0 "Доли собственности" # [LocEditor:AwaitingBatchUpdate]
+ concept_ownership_share_desc:0 "[Concept('concept_pop', 'Группа населения')], владеющая долей [Concept('concept_building', 'сооружения')], получает часть его доходов. Эта доля соответствует доле группы во владении сооружением. Кроме того, ей формально принадлежит часть [Concept('concept_cash_reserves', 'финансового резерва')] сооружения. Владеть долями собственности могут только группы населения, работающие в сооружении. Доли собственности главным образом зависят от [Concept('concept_production_method', 'производственного метода')], но учитываются и другие факторы, например [Concept('concept_law', 'законы')] и [Concept('concept_technology', 'технологии')]."
+  
+ concept_market_share:0 "Доля рынка"
+ concept_market_share_desc:0 "Доля [Concept('concept_country', 'страны')] на [Concept('concept_market', 'рынке')] определяется количеством создаваемых ею [Concept('concept_buy_orders', 'приказов о покупке')] и [Concept('concept_sell_orders', 'продаже')] на [Concept('concept_market', 'рынке')]. Доля увеличивается, если страна является [Concept('concept_market_controller', 'владельцем рынка')]. Чем выше доля рынка у [Concept('concept_country_possessive', 'страны')], тем больше [Concept('concept_consumption_tax', 'потребительского налога')] она собирает на [Concept('concept_market', 'рынке')]." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_default:0 "Дефолт"
+ concept_default_desc:0 "Состояние дефолта:" # [LocEditor:AwaitingBatchUpdate]
+ 
+ # [LocEditor:UntranslatedKey] `concept_bankruptcy`
+ # [LocEditor:UntranslatedKey] `concept_bankruptcy_desc`
+
+ concept_embargo:0 "Эмбарго"
+ concept_embargoed:0 "Под эмбарго" # [LocEditor:AwaitingBatchUpdate]
+ concept_embargos:0 "Эмбарго" # [LocEditor:AwaitingBatchUpdate]
+ concept_embargoing:0 "Эмбарго" # [LocEditor:AwaitingBatchUpdate]
+ concept_embargo_desc:0 "Concept('concept_market_controller', 'Владелец рынка')] может наложить [Concept('concept_embargo', 'эмбарго')] на [Concept('concept_good', 'товар')]. Это значит… хмм. Что-то." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_encourage_consumption:0 "Поощрить потребление"
+ concept_encouraging_consumption:0 "Поощрение потребления" # [LocEditor:AwaitingBatchUpdate]
+ concept_encourage_consumption_desc:0 "Поощрение потребления…" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_discourage_consumption:0 "Препятствовать потреблению"
+ concept_discouraging_consumption:0 "Препятствование потреблению" # [LocEditor:AwaitingBatchUpdate]
+ concept_discourage_consumption_desc:0 "Препятствование потреблению…" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_consumption_tax:0 "Потребительский налог"
+ concept_consumption_taxes:0 "Потребительские налоги" # [LocEditor:AwaitingBatchUpdate]
+ concept_consumption_tax_desc:0 "Потребительские налоги…" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_loyalist:0 "Лоялист"
+ concept_loyalists:0 "Лоялисты" # [LocEditor:AwaitingBatchUpdate]
+ concept_loyalist_desc:0 "Группа населения, верная стране…"
+  
+ concept_radical:0 "Радикал"
+ concept_radicals:0 "Радикалы" # [LocEditor:AwaitingBatchUpdate]
+ concept_radical_desc:0 "Группа населения, не лояльная к стране…"
+  
+ concept_radicalized:0 "Радикализация"
+ concept_radicalized_desc:0 "Может стать революционерами, набрав сил, может перестать быть радикалами, если требования будут удовлетворены."
+  
+ concept_de_radicalize:0 "Дерадикализация"
+ concept_de_radicalize_desc:0 "Может перестать быть радикалами, если удовлетворить часть требований."
+  
+ concept_rivalry:0 "Соперничество"
+ concept_rivals:0 "Соперники" # [LocEditor:AwaitingBatchUpdate]
+ concept_rival:0 "Соперник" # [LocEditor:AwaitingBatchUpdate]
+ concept_rivalries:0 "Соперничества" # [LocEditor:AwaitingBatchUpdate]
+ concept_rivalry_desc:0 "Соперничество позволяет вам вмешиваться в дипломатические игры другой [Concept('concept_country', 'страны')], а также даёт вам влияние за каждое столкновение [Concept('concept_interest', 'интересов')] между вами." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_colony:0 "Колония"
+ concept_colonys:0 "Колонии" # [LocEditor:AwaitingBatchUpdate]
+ concept_colonies:0 "Колонии" # [LocEditor:AwaitingBatchUpdate]
+ concept_colony_desc:0 "Колонии — это крупные поселения на землях [Concept('concept_decentralized_nation', 'децентрализованного государства')], организованные великой или крупной державой. Поначалу колония занимает небольшой участок территории, и темпы её роста зависят от колониального роста страны.\n\nСозданная колония обычно начинает в статусе [Concept('concept_colonial_state', 'колониальной области')], если не граничит с неколониальной областью, принадлежащей тому же [Concept('concept_country', 'государству')]."
+  
+ # [LocEditor:UntranslatedKey] `concept_innovation`
+ # [LocEditor:UntranslatedKey] `concept_innovation_desc`
+  
+ concept_technology_spread:0 "Распространение технологий"
+ concept_technology_spread_desc:0 "Распространение технологий:"
+  
+ concept_technology_era:0 "Технологическая эпоха"
+ concept_technology_era_desc:0 "Каждая игровая эпоха открывает доступ к нескольким технологиям и определяет способы их получения."
+  
+ concept_escalation:0 "Эскалация"
+ concept_escalation_desc:0 "[Concept('concept_diplomatic_play', 'Дипломатическая игра')] проходит три стадии эскалации: #b Подготовка переговоров#!, #b Дипломатические манёвры#! и #b Готовность к войне#!. В каждой фазе дипломатической игры участникам доступен ограниченный набор действий. Если эскалация достигает 100, начинается война."
+
+ concept_combat_width:0 "Масштаб сражения"
+ concept_combat_width_desc:0 "Масштаб сражения на местности определяет максимальное численное превосходство, которое большая армия может получить над меньшей в бою."
+
+ concept_infamy:0 "Дурная слава"
+ concept_infamy_desc:0 "Дурная слава:"
+  
+ concept_diplomatic_incident:0 "Дипломатический инцидент"
+ concept_diplomatic_incidents:0 "Дипломатические инциденты"
+ concept_diplomatic_incident_desc:0 "Дипломатический инцидент:"
+  
+ concept_tension:0 "Напряжение"
+ concept_tensions:0 "Напряжение" # [LocEditor:AwaitingBatchUpdate]
+ concept_tension_desc:0 "Напряжение — мера силы конфликта между страной-колонизатором и [Concept('concept_decentralized_nation', 'децентрализованным народом')]. Напряжённость в отношениях с ближайшим [Concept('concept_decentralized_nation', 'децентрализованным государством')] усиливается всякий раз, когда [Concept('concept_country', 'страна')] [Concept('concept_colonize', 'колонизирует')] [Concept('concept_province', 'провинцию')] и со временем постепенно снижается.\n\nУровень напряжения #b $TENSION_VOLATILE$#! означает, что продолжение колонизации может привести к [Concept('concept_native_uprising', 'бунту коренного населения')]." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_relation:0 "Отношения"
+ concept_relations:0 "Отношения" # [LocEditor:AwaitingBatchUpdate]
+ concept_relation_desc:0 "Уровень официальных взаимоотношений между [Concept('concept_country', 'странами')]" # [LocEditor:AwaitingBatchUpdate]
+  
+ # [LocEditor:UntranslatedKey] `concept_ai_strategy`
+ # [LocEditor:UntranslatedKey] `concept_ai_strategies`
+ # [LocEditor:UntranslatedKey] `concept_ai_strategy_desc`
+  
+ concept_strategic_desire:0 "Стратегический интерес"
+ concept_strategic_desire_desc:0 "[Concept('concept_country', '$concept_countries$')] под управлением ИИ могут испытывать стратегический интерес к [Concept('concept_country', 'государствам')], характеристики которых соответствуют [Concept('concept_objective', 'целям')] этих стран. Стратегическим интересом определяется [concept_attitude], а также некоторые другие факторы — например, [Concept('concept_relation', 'отношения')] и [Concept('concept_infamy', 'дурная слава')]." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_attitude:0 "Намерения"
+ concept_attitude_desc:0 "Намерения — это планы страны под управлением ИИ относительно вас, которые могут меняться под влиянием различных факторов"
+
+ concept_instant_diplomatic_action:0 "Мгновенное дипломатическое действие"
+ concept_instant_diplomatic_action_desc:0 "Мгновенное дипломатическое действие:" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_ongoing_diplomatic_action:0 "Продолжительное дипломатическое действие"
+ concept_ongoing_diplomatic_action_desc:0 "Продолжительное дипломатическое действие:" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_diplomatic_pact:0 "Дипломатический пакт"
+ concept_diplomatic_pact_desc:0 "Дипломатический пакт:" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_oppose:0 "Несогласие"
+ concept_oppose_desc:0 "Если [Concept('concept_diplomatic_play', 'дипломатическая игра')] ведёт к войне, все, кто её не поддерживает, склонны объединяться."
+  
+ concept_support:0 "Поддержка"
+ concept_support_desc:0 "Если [Concept('concept_diplomatic_play', 'дипломатическая игра')] ведёт к войне, все, кто поддерживает её, склонны объединяться."
+
+ concept_war_reparations:0 "Военные репарации"
+ concept_war_reparations_desc:0 "Военные репарации:" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_open_market:0 "Открытый рынок"
+ concept_open_market_desc:0 "Открытый рынок:"
+  
+ concept_humiliation:0 "Унижение"
+ concept_humiliated:0 "Унижение" # [LocEditor:AwaitingBatchUpdate]
+ concept_humiliate:0 "Унижать" # [LocEditor:AwaitingBatchUpdate]
+ concept_humiliation_desc:0 "Униженные:"
+
+ concept_customs_union:0 "Таможенный союз"
+ concept_customs_union_desc:0 "Таможенный союз:"
+
+ concept_senior_partner:0 "Старший партнёр"
+ concept_senior_partner_desc:0 "#todo The Senior Partner in a [concept_customs_union] gains control of the [concept_junior_partner]'s [concept_market].#!"
+
+ concept_junior_partner:0 "Младший партнёр"
+ concept_junior_partner_desc:0 "#todo The Junior Partner in a [concept_customs_union] yields control of their [concept_market] to the [concept_senior_partner].#!"
+
+ concept_alliance:0 "Союз"
+ concept_alliances:0 "Союзы" # [LocEditor:AwaitingBatchUpdate]
+ concept_alliance_desc:0 "Союз:"
+
+ concept_protectorate:0 "Протекторат"
+ concept_protectorate_desc:0 "Протекторат:" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_puppet:0 "Марионетка"
+ concept_puppet_desc:0 "Марионетка:" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_personal_union:0 "Личный союз"
+ concept_personal_union_desc:0 "Личный союз:" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_dominion:0 "Доминион"
+ concept_dominion_desc:0 "Доминион:"
+  
+ concept_tributary:0 "Данник" #remove
+ concept_tributary_desc:0 "Данник:" #remove
+  
+ concept_vassal:0 "Вассал"
+ concept_vassal_desc:0 "Вассал:"
+  
+ concept_yield:0 "Сдаться"
+ concept_yield_desc:0 "TODO concept_yield_desc"
+  
+ concept_abstain:0 "Воздержаться"
+ concept_abstain_desc:0 "Если [Concept('concept_diplomatic_play', 'дипломатическая игра')] ведёт к войне, все, кто не выступает против и не поддерживает её, не участвуют в конфликте и теряют [Concept('concept_interest', 'интерес')]."
+  
+ concept_command_prio:0 "Приоритетная часть"
+ concept_command_prio_desc:0 "В первую очередь войсковая часть строит казармы в стратегических регионах вверенной ей области, затем отправляет оставшиеся войска в части с более высоким приоритетом."
+  
+ concept_supply:0 "Снабжение"
+ concept_supply_desc:0 "Текущий уровень снабжения командира. Постепенно приближается к среднему показателю всех командиров.\nУровень снабжения командира влияет на боевой дух всех его войск."
+  
+ concept_organization_tooltip:0 "Организация (подсказка)"
+ concept_organization_tooltip_desc:0 "Уровень организации определяет организованность войсковой части и влияет на [Concept('concept_combat_effectiveness', 'боевую эффективность')]. Чем ниже этот показатель, тем реже персонаж развязывает войны. Хорошее снабжение приводит к постепенному росту организованности."
+  
+ concept_battle_summary_warsupport:0 "Боевая сводка: воинственность"
+ concept_battle_summary_warsupport_desc:0 "Собственные успехи в бою и потери противника повышают воинственность."
+  
+ concept_defend:0 "Защищать"
+ concept_defend_desc:0 "Отдать персонажу приказ собрать войска."
+  
+ concept_patrol:0 "Патрулировать"
+ concept_patrol_desc:0 "Искать вражеские корабли на маршруте патрулирования."
+  
+ concept_defend_state:0 "Защищать область"
+ concept_defend_state_desc:0 "Отдать персонажу приказ защищать определённую область."
+  
+ concept_conquer_state:0 "Завоевать область"
+ concept_conquer_state_desc:0 "Отдать персонажу приказ о вторжении в определённую область."
+  
+ concept_set_objective:0 "Поставить цель"
+ concept_set_objective_desc:0 "Сообщить персонажу, что вам нужно, и предоставить ему самостоятельно искать способы достижения этой цели."
+  
+ concept_manage_character:0 "Назначить персонажа"
+ concept_manage_character_desc:0 "Размещение персонажей в регионах может повлиять на исход войны и отношение к вам важных персон."
+  
+ concept_manpower:0 "Личный состав"
+ concept_manpower_desc:0 "Количество людей в этой части. Их число, [Concept('concept_morale', 'боевой дух')] и казарма, обеспечивающая снабжение подразделения, определяют боевую эффективность личного состава."
+
+ concept_morale:0 "Боевой дух"
+ concept_morale_desc:0 "Боевой дух:"
+  
+ concept_rank:0 "Рейтинг"
+ concept_rank_desc:0 "Ваш рейтинг зависит от уровня [Concept('concept_prestige', 'престижа')] относительно прочих [Concept('concept_country', 'стран')] мира. Он определяет доступные вам действия на международной арене, влияет на требования, которые предъявляют вам другие государства и собственный народ, а также ваш вес на мировой политической арене." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_migration:0 "Миграция"
+ concept_migrating:0 "Мигрирует" # [LocEditor:AwaitingBatchUpdate]
+ concept_immigration:0 "Иммиграция" # [LocEditor:AwaitingBatchUpdate]
+ concept_immigrating:0 "Иммигрирует" # [LocEditor:AwaitingBatchUpdate]
+ concept_emigration:0 "Эмиграция" # [LocEditor:AwaitingBatchUpdate]
+ concept_emigrating:0 "Эмигрирует" # [LocEditor:AwaitingBatchUpdate]
+ concept_migration_desc:0 "Миграция: (описание обоих типов миграции, в рамках внутреннего рынка и между государствами при помощи целей миграции)"
+
+ concept_migration_target:0 "Цель миграции"
+ concept_migration_target_desc:0 "Цель миграции:"
+
+ concept_mass_migration_target:0 "Цель массовой миграции"
+ concept_mass_migration_target_desc:0 "#todo A Mass Migration Target is...#!"
+
+ concept_base_price:0 "Базовая цена"
+ concept_base_price_desc:0 "Базовая цена:"
+
+ concept_capital_state:0 "Столица государства"
+ concept_capital_state_desc:0 "В столице государства размещаются центральная власть и самые влиятельные группы населения. Одна из первостепенных задач во время войны — не допустить захвата столицы."
+
+ concept_treaty_port:0 "Договорной порт"
+ concept_treaty_port_desc:0 "Договорной порт:"
+
+ concept_prestige:0 "Престиж"
+ concept_prestige_desc:0 "На уровень престижа влияют [Concept('concept_building', 'сооружения')], ваш [Concept('concept_gdp', 'ВВП')] и количество ваших глобальных [Concept('concept_interest', 'интересов')]." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_power_projection:0 "Демонстрация силы"
+ concept_power_projection_desc:0 "Демонстрируя силу в [Concept('concept_strategic_region', 'стратегическом регионе')], вы превращаете его в объект [Concept('concept_interest', 'интереса')] и получаете возможность включаться в местные [Concept('concept_diplomatic_play', 'дипломатические игры')]. С повышением уровня интереса открываются новые возможности — например, основание [Concept('concept_colony', 'колоний')]." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_dividends:0 "Дивиденды"
+ concept_dividends_desc:0 "Если [Concept('concept_building', 'сооружение')] приносит больше денег, чем требуется для его содержания, часть прибыли [Concept('concept_pop', 'население')] получает [Concept('concept_ownership_share', 'долю в капитале')] в виде [Concept('concept_dividends', 'дивидендов')]."
+  
+ concept_credit:0 "Кредит"
+ concept_credit_desc:0 "Государственный кредит — средства, которые государство может занять из внутренних ресурсов — сумма всех внутренних [Concept('concept_cash_reserves', 'финансовых резервов')]."
+  
+ concept_principal:0 "Тело кредита"
+ concept_principal_desc:0 "Сумма внутреннего долга без учёта процентов."
+  
+ concept_domestic_loans:0 "Внутренние займы"
+ concept_loans:0 "Займы"
+ concept_domestic_loans_desc:0 "Внутренние займы — средства, которые [Concept('concept_country', 'страна')] занимает у внутренних ресурсов."
+  
+ concept_interest:0 "Интерес"
+ concept_interests:0 "Интересы"
+ concept_interest_desc:0 "Заинтересованность в [Concept('concept_strategic_region', 'стратегическом регионе')] говорит о вашем намерении участвовать в любых [Concept('concept_diplomatic_play', 'дипломатических играх')], которые так или иначе его затрагивают."
+
+ concept_command:0 "Войсковая часть"
+ concept_commands:0 "Войсковые части" # [LocEditor:AwaitingBatchUpdate]
+ concept_command_desc:0 "Войсковая часть — ставка [Concept('concept_commander', 'командира')] в [Concept('concept_theater', 'театре военных действий')]. В неё входит несколько [Concept('concept_battalion', 'батальонов')] или морских батальонов, снабжение которых обеспечивают [Concept('concept_barrack', 'казармы')] или [Concept('concept_naval_base', 'военно-морские базы')]. Максимальное количество батальонов, которые может содержать войсковая часть, зависит от рейтинга командира." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_war_support:0 "Воинственность"
+ concept_war_support_desc:0 "Шкала от +100 до -100, отражающая готовность населения вашей [Concept('concept_country', 'страны')] продолжать текущую войну."
+
+ concept_war_exhaustion:0 "Утомление войной"
+ concept_war_exhaustion_desc:0 "#todo War exhaustion is...#!"
+
+ concept_theater:0 "Театр военных действий"
+ concept_theaters:0 "Театры военных действий"
+ concept_theater_desc:0 "Общая территория провинций под управлением одной [Concept('concept_country', 'страны')] и её союзников."
+  
+ concept_literacy:0 "Грамотность"
+ concept_literacy_desc:0 "Доля [Concept('concept_pop', 'населения')], способная читать и писать. Для овладения определёнными [Concept('concept_profession', 'профессиями')] требуется более высокий уровень грамотности, поэтому они недоступны людям с низкой [Concept('concept_pop_qualifications', 'квалификацией')]. Чтобы повысить грамотность населения, развивайте систему образования."
+  
+ concept_discrimination:0 "Дискриминация"
+ concept_discriminated:0 "Дискриминация" # [LocEditor:AwaitingBatchUpdate]
+ concept_discrimination_desc:0 "Дискриминация определённых [Concept('concept_pop', 'групп населения')] возникает, когда их [Concept('concept_culture', 'культура')] и/или [Concept('concept_religion', 'религия')] вызывает отторжение в [Concept('concept_country', 'стране')] проживания. Ущемлённые группы населения не имеют доступа к некоторым профессиям, их труд ниже оплачивается, их [Concept('concept_political_strength', 'политическая сила')] меньше, и они чаще эмигрируют. Некоторые [Concept('concept_law', 'законы')] повышают терпимость населения к иным культурам и религиям." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_turmoil:0 "Беспорядки"
+ concept_turmoil_desc:0 "[Concept('concept_state', '$concept_states$')] и [Concept('concept_culture', 'культуры')], склонные к беспорядкам, порождают [Concept('concept_radical', 'радикалов')], недовольных текущим положением дел. Уровень беспорядков равен количеству представителей [Concept('concept_workforce', 'рабочей силы')] этой [Concept('concept_state_possessive', 'области')] или [Concept('concept_culture_possessive', 'культуры')] с характеристикой «радикал»." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_unemployed:0 "Безработные"
+ concept_unemployed_desc:0 "Отсутствие работы:"
+  
+ concept_peasants:0 "@peasants! Крестьяне"
+ concept_peasant:0 "Крестьянин" # [LocEditor:AwaitingBatchUpdate]
+ concept_peasants_desc:0 "Крестьяне — особая [Concept('concept_pop', 'группа населения')], которая обитает только в [Concept('concept_subsistence_building', 'постройках натурального хозяйства')]. [Concept('concept_subsistence_output', 'Доходы от натурального хозяйства')] позволяют им обеспечивать себя, и только часть их [Concept('concept_pop_needs', 'потребностей')] учитывается в [Concept('concept_buy_orders', 'приказах о покупке')] на местных [Concept('concept_market', 'рынках')]." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_cultural_turmoil:0 "Культурная революция"
+ concept_cultural_turmoil_desc:0 "[Concept('concept_culture', '$concept_cultures$')], склонные к беспорядкам, обычно меняют страну проживания, однако иногда они могут попытаться создать себе комфортные условия в пределах собственной [Concept('concept_country', 'страны')]. Когда показатель «Беспорядки» в [Concept('concept_culture_possessive', 'культуре')] [Concept('concept_pop_possessive', 'группы населения')] превышает #variable [GetDefine( 'NPolitics', 'SECESSION_TURMOIL_CUTOFF')]#!, они могут устроить бунт. За каждые #variable [GetDefine('NPops','MIGRATION_CULTURE_TARGET_TURMOIL')]#! ед. беспорядков они могут создать цель массовой эмиграции." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_taxes:0 "Налоги"
+ concept_taxes_desc:0 "[Concept('concept_country', '$concept_countries$')] взаимодействуют с рыночной экономикой по-разному. Самый распространённый способ — это налогообложение доходов частного сектора или установление пошлин на покупку и продажу [Concept('concept_good', 'товаров')]." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_general:0 "Генерал"
+ concept_generals:0 "Генералы" # [LocEditor:AwaitingBatchUpdate]
+ concept_general_desc:0 "Этот персонаж командует наземными армиями."
+  
+ concept_admiral:0 "Адмирал"
+ concept_admirals:0 "Адмиралы" # [LocEditor:AwaitingBatchUpdate]
+ concept_admiral_desc:0 "Этот персонаж командует военно-морскими силами."
+  
+ concept_working_adults:0 "Взрослые работники"
+ concept_working_adult:0 "Взрослый работник" # [LocEditor:AwaitingBatchUpdate]
+ concept_working_adults_desc:0 "Взрослыми работниками называются представители [Concept('concept_population', 'населения')], которые работают в [Concept('concept_building', 'сооружениях')] и являются основным источником дохода и [Concept('concept_political_strength', 'политической силы')] группы населения."
+  
+ concept_dependents:0 "Иждивенцы"
+ concept_dependents_desc:0 "Иждивенцами называются неработающие представители [Concept('concept_population', 'населения')]. Обычно ими являются члены семейств [Concept('concept_working_adults', 'взрослых работников')]. Некоторые [Concept('concept_law', 'законы')] и поддержка определённых [Concept('concept_institution', 'институтов')] позволяют превращать иждивенцев во взрослых работников, а также способствовать усилению их влияния на [Concept('concept_political_strength', 'политическую силу')]." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_disenfranchised:0 "Бесправные"
+ concept_disenfranchised_desc:0 "Бесправие:"
+
+ concept_input_mult:0 "Норма потребления" # [LocEditor:AwaitingBatchUpdate]
+ concept_input_mult_desc:0 "Норма потребления:" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_throughput:0 "Товарооборот"
+ concept_throughput_desc:0 "Товарооборот:"
+
+ concept_combat_effectiveness:0 "Атака и защита"
+ concept_combat_effectiveness_desc:0 "Эффективность атаки и защиты ваших подразделений"
+ 
+ concept_offensive_combat_effectiveness:0 "Атака"
+ concept_offensive_combat_effectiveness_desc:0 "Атака:"
+
+ concept_defensive_combat_effectiveness:0 "Защита"
+ concept_defensive_combat_effectiveness_desc:0 "Защита:"
+
+ concept_slavery:0 "Рабство"
+ concept_enslaved:0 "В рабстве" # [LocEditor:AwaitingBatchUpdate]
+ concept_slavery_desc:0 "Рабство:"
+  
+ concept_native_uprising:0 "Бунт коренного населения"
+ concept_native_uprising_desc:0 "Бунт коренного населения — разновидность [Concept('concept_diplomatic_play', 'дипломатической игры')], которая начинается при достижении #b $TENSION_VOLATILE$#! уровня [Concept('concept_tension', 'напряжения')] между колонизатором и [Concept('concept_decentralized_nation', 'децентрализованным народом')]. Децентрализованный народ мобилизует войска и пытается отбить пограничные [Concept('concept_state', 'области')] у колонизатора." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_radicalization:0 "Радикализация"
+ concept_radicalize:0 "Радикализовать" # [LocEditor:AwaitingBatchUpdate]
+ concept_radicalization_desc:0 "TODO concept_radicalization_desc"
+  
+ concept_revolution:0 "Революция"
+ concept_revolutions:0 "Революции" # [LocEditor:AwaitingBatchUpdate]
+ concept_revolution_desc:0 "TODO concept_revolution_desc"
+
+ concept_civil_war:0 "Гражданская война"
+ concept_civil_wars:0 "Гражданские войны"
+ concept_civil_war_desc:0 "Гражданская война:"
+
+ concept_war:0 "Война"
+ concept_wars:0 "Войны" # [LocEditor:AwaitingBatchUpdate]
+ concept_war_desc:0 "Война:"
+
+ concept_war_goal:0 "Цель войны"
+ concept_war_goals:0 "Цели войны" # [LocEditor:AwaitingBatchUpdate]
+ concept_war_goal_desc:0 "Цель войны:"
+
+ concept_resource_potential:0 "Ресурсный потенциал"
+ concept_resource_potentials:0 "Ресурсные потенциалы" # [LocEditor:AwaitingBatchUpdate]
+ concept_resource_potential_desc:0 "Ресурсный потенциал:"
+
+ concept_government_administration:0 "Правительственное ведомство"
+ concept_government_administrations:0 "Правительственные ведомства" # [LocEditor:AwaitingBatchUpdate]
+ concept_government_administration_desc:0 "Правительственное ведомство:"
+
+ concept_government:0 "Правительство"
+ concept_government_desc:0 "Правительство:"
+
+ concept_subject:0 "Субъект"
+ concept_subjects:0 "Субъекты" # [LocEditor:AwaitingBatchUpdate]
+ concept_subject_desc:0 "Субъект:"
+  
+ concept_inactive_interest:0 "Вялый интерес"
+ concept_inactive_interest_desc:0 "Вялый [Concept('concept_interest', 'интерес')]:"
+
+ concept_active_interest:0 "Активный интерес"
+ concept_active_interest_desc:0 "Активный [Concept('concept_interest', 'интерес')]:"
+  
+ concept_declared_interest:0 "Открытый интерес"
+ concept_declared_interest_desc:0 "[concept_country] открыто выражает свою [Concept('concept_active_interest', 'активную заинтересованность')] в [Concept('concept_strategic_region', 'стратегическом регионе')], где не имеет территорий."
+
+ concept_great_power:0 "Великая держава"
+ concept_great_powers:0 "Великие державы" # [LocEditor:AwaitingBatchUpdate]
+ concept_great_power_desc:0 "Great Powers are those few [Concept('concept_country', $concept_countries$)] that run the world through global empires or total local dominance. They are in a constant standoff with other Great Powers for an edge and always wary of plucky Major Powers trying to ascend to greatness at their expense.\n#todo TODO rewrite this#!\n#todo Add list of current Great Powers if in-game#!" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_major_power:0 "Крупная держава"
+ concept_major_power_desc:0 "Major Powers have established themselves as notable through their regional presence. While they are not yet strong enough to establish a truly global empire they can be a major local force to be reckoned with, and the best among them may aspire to ascend to Great Power status.\n#todo TODO rewrite this#!"
+  
+ concept_minor_power:0 "Малая держава"
+ concept_minor_power_desc:0 "Minor Powers are pawns in the imperialist games of higher ranked powers, who often use them as buffer [Concept('concept_country', $concept_countries$)], puppets, or captive markets.\n#todo TODO rewrite this#!" # [LocEditor:AwaitingBatchUpdate]
+ 
+ concept_insignificant_power:0 "Ничтожная держава"
+ concept_insignificant_power_desc:0 "Insignicant Powers are even weaker than Minor Powers#todo TODO rewrite this#!"
+  
+ concept_subject_power:0 "Подчинённая держава"
+ concept_subject_power_desc:0 "Subject Powers are subservient to other, more powerful polities and are largely unable to conduct independent diplomacy.\n#todo TODO rewrite this#!"
+  
+ concept_unrecognized_power:0 "Непризнанная держава"
+ concept_unrecognized_power_desc:0 "Unrecognized Powers are polities that are perceived as inferior and uncivilized by the reigning Great Powers, who regard them as little more than potential future conquests. To advance to a higher rank, they must receive recognition from a Great Power through diplomacy or war.\n#todo TODO rewrite this#!"
+
+ # [LocEditor:UntranslatedKey] `concept_obligation`
+ # [LocEditor:UntranslatedKey] `concept_obligations`
+ # [LocEditor:UntranslatedKey] `concept_obligation_desc`
+  
+ concept_secession:0 "Отделение"
+ concept_secessions:0 "Отделения"
+ concept_secession_desc:0 "#todo concept_secession_desc #!"
+  
+ concept_profitability:0 "Рентабельность"
+ concept_profitability_desc:0 "Рентабельность — это относительная доходность сооружения на одного работника по сравнению с прочими сооружениями мира."
+  
+ concept_expeditionary_force:0 "Экспедиционные войска"
+ concept_expeditionary_force_desc:0 "#todo concept_expeditionary_force_desc #!"
+
+ concept_commander_of_front:0 "Фронтовое командование"
+ concept_commander_of_front_desc:0 "#todo concept_commander_of_front_desc #!"
+
+ # [LocEditor:UntranslatedKey] `concept_construction`
+ # [LocEditor:UntranslatedKey] `concept_construction_desc`
+ 
+ concept_gdp:0 "Валовой внутренний продукт"
+ concept_gdp_short:0 "ВВП" # [LocEditor:AwaitingBatchUpdate]
+ concept_gdp_desc:0 "ВВП — это общая [Concept('concept_market', 'рыночная')] стоимость всех конечных [Concept('concept_good', 'товаров')] вашей [Concept('concept_country', 'страны')]."
+
+ concept_education_access:0 "Доступность образования"
+ concept_education_access_desc:0 "Доступность образования для детей среди вашего [Concept('concept_pop', 'населения')]. Со сменой поколений [Concept('concept_literacy', 'грамотность')] населения меняется в зависимости от доступности образования."
+
+ concept_isolated_state:0 "Эксклав"
+ concept_isolated_states:0 "Эксклавы" # [LocEditor:AwaitingBatchUpdate]
+ concept_isolated_state_adj:0 "Изоляция" # [LocEditor:AwaitingBatchUpdate]
+ concept_isolated_state_desc:0 "[concept_state_region] изолирован от [Concept('concept_market', 'рынка')] своего государства и не может торговать с прочими [Concept('concept_state_regions', 'регионами')] из-за сильно ограниченного торгового потенциала. Это приводит к сильному росту цен на [Concept('concept_good', 'товары')], которые не производятся в этом регионе. Чтобы установить связь с его рынком, необходимо создать [Concept('concept_infrastructure_connection', 'инфраструктурную связь')] между регионом и его [Concept('concept_market_capital', 'рыночной столицей')]."
+
+ concept_input_goods_shortage:0 "Дефицит потребляемых продуктов"
+ concept_input_goods_shortages:0 "Дефицит потребляемых товаров" # [LocEditor:AwaitingBatchUpdate]
+ concept_input_goods_shortage_desc:0 "[Concept('concept_building', '$concept_buildings$')], которые потребляют [Concept('concept_good', 'товары')], снизят выработку, если получат менее [GetDefine('NEconomy', 'GOODS_SHORTAGE_PENALTY_THRESHOLD')|v%0] от перечисленного в [Concept('concept_buy_orders', 'приказе о покупке')]. Обычно это вызвано недостаточным количеством доступных товаров на [Concept('concept_market', 'рынке')] [Concept('concept_building_possessive', 'сооружения')], но также к этому приводит низкая [Concept('concept_market_access', 'доступность рынка')] в сооружениях [Concept('concept_state_region', 'региона')]."
+
+ concept_market:0 "Рынок"
+ concept_markets:0 "Рынки" # [LocEditor:AwaitingBatchUpdate]
+ concept_market_possessive:0 "Рыночный"
+ concept_market_desc:0 "Все [Concept('concept_state', 'области')] на одном рынке обмениваются [Concept('concept_good', 'товарами')]. Прочность торговых связей этих государств зависит от [Concept('concept_market_access', 'доступа')] каждого из них к рынку." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_market_access:0 "Доступность рынка"
+ concept_market_access_desc:0 "Доступность рынка определяется [Concept('concept_infrastructure_usage', 'масштабами инфраструктуры')] в сравнении с количеством объектов [Concept('concept_infrastructure', 'инфраструктуры')] в [Concept('concept_state_region', 'регионе')]."
+
+ concept_infrastructure:0 "Инфраструктура"
+ concept_infrastructure_desc:0 "В инфраструктуру входят сооружения (например, железные дороги), которые обеспечивают связь [Concept('concept_state', 'области')] и её [Concept('concept_market', 'рынка')]."
+
+ concept_infrastructure_usage:0 "Масштабы инфраструктуры"
+ concept_infrastructure_usage_desc:0 "Масштабы инфраструктуры:"
+  
+ concept_infrastructure_connection:0 "Инфраструктурная связь"
+ concept_infrastructure_connection_desc:0 "Масштабы [Concept('concept_infrastructure', 'инфраструктуры')], которая связывает два [Concept('concept_state_region', 'региона')]. При расчёте инфраструктуры регион с наиболее низким показателем обеспечивает сообщение по морю."
+
+ concept_good:0 "Товар"
+ concept_goods:0 "Товары"
+ concept_good_desc:0 "Товары производятся сооружениями или группами населения. Цена товара зависит от его стоимости на [Concept('concept_state_possessive', 'государственном')] [Concept('concept_market', 'рынке')] и [Concept('concept_market_access', 'доступности рынка')]."
+
+ concept_government_good:0 "Правительственный товар"
+ concept_government_goods:0 "Правительственные товары" # [LocEditor:AwaitingBatchUpdate]
+ concept_government_good_desc:0 "Правительственные [Concept('concept_good', 'товары')] потребляют сооружения, которые находятся на полном обеспечении [Concept('concept_government', 'правительства')] и необходимы для его бесперебойной работы."
+
+ concept_military_good:0 "Военный товар"
+ concept_military_goods:0 "Военные товары" # [LocEditor:AwaitingBatchUpdate]
+ concept_military_good_desc:0 "Военные [Concept('concept_good', 'товары')] потребляют сооружения, которые обеспечивают боевую мощь на море и на суше."
+
+ concept_state:0 "Область"
+ concept_states:0 "Области"
+ # [LocEditor:UntranslatedKey] `concept_state_or_states`
+ concept_state_possessive:0 "Области"
+ concept_state_desc:0 "Географическая область в составе [Concept('concept_country', 'государства')]. [Concept('concept_pop', '$concept_pops$')] живут и работают в областных [Concept('concept_building', 'сооружениях')]. Чаще всего [Concept('concept_state_region', 'регион')] связан только с одной областью, но в [Concept('concept_split_state', 'разделённой области')] их может быть несколько, если дополнительными областями управляют иные [Concept('concept_country', 'государства')]. Если область не является [Concept('concept_isolated_state', 'эксклавом')], она будет торговать с прочими областями на своём [Concept('concept_market', 'рынке')] в соответствии с его [Concept('concept_market_access', 'доступностью')]." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_pop:0 "Группа населения"
+ concept_pops:0 "Группы населения"
+ concept_pop_possessive:0 "Группы населения"
+ concept_pop_desc:0 "Группа представителей одной [Concept('concept_culture', 'культуры')] или [Concept('concept_religion', 'религии')], которые работают в одном [Concept('concept_building', 'сооружении')] и в одной [Concept('concept_state', 'области')], а также в одном поле [Concept('concept_profession', 'профессиональной')] деятельности. Заработанные [Concept('concept_money', 'деньги')] они тратят на покупку [Concept('concept_good', 'товаров')]. Количество покупок зависит от [Concept('concept_wealth', 'благосостояния')] группы, которое, вкупе с другими факторами, определяет её [Concept('concept_sol', 'уровень жизни')]. Она может поддерживать [Concept('concept_interest_group', 'заинтересованные группы')] или оставаться [Concept('concept_politically_inactive', 'политически неактивной')]. В группу населения входят [Concept('concept_working_adults', 'взрослые работники')] и [Concept('concept_dependents', 'иждивенцы')]."
+
+ concept_profession:0 "Профессия"
+ concept_professions:0 "Профессии"
+ concept_profession_desc:0 "Профессия:"
+
+ concept_production_method:0 "Производственный метод"
+ concept_production_methods:0 "Производственные методы"
+ concept_production_method_desc:0 "Включая и отключая производственные методы, можно изменять объёмы потребления и/или производства [Concept('concept_good', 'товаров')] и эффектов в [Concept('concept_building', 'сооружении')]. Также от них зависит, какие [Concept('concept_pop', 'группы населения')] могут работать в сооружении. С развитием [Concept('concept_technology', 'технологий')] появляются новые производственные методы."
+
+ concept_culture:0 "Культура"
+ concept_cultures:0 "Культуры" # [LocEditor:AwaitingBatchUpdate]
+ concept_culture_possessive:0 "Культуры"
+ concept_culture_desc:0 "Культура — один из факторов, отличающих [Concept('concept_pop', 'группы населения')] друг от друга. В разных государствах к определённым культурам могут относиться по-разному: принимать или подвергать дискриминации."
+
+ concept_accepted_culture:0 "Приемлемая культура"
+ concept_accepted_culture_desc:0 "Приемлемыми считаются [Concept('concept_primary_cultures', 'основные')] и прочие культуры, которые не противоречат [Concept('concept_laws', 'законам')] государства."
+
+ concept_primary_cultures:0 "Основные культуры"
+ concept_primary_culture:0 "Основная культура"
+ concept_primary_cultures_desc:0 "Основных государственных [Concept('concept_culture', 'культур')] может быть несколько.[AddLocalizationIf(HasGameState, 'concept_primary_cultures_ingame_added')]" # [LocEditor:AwaitingBatchUpdate]
+ concept_primary_cultures_ingame_added:0 "\n\nОсновные культуры государства [GetPlayer.GetName] — [GetPlayer.GetPrimaryCulturesDesc]."
+
+ concept_cultural_trait:0 "Культурная особенность"
+ concept_cultural_traits:0 "Культурные особенности" # [LocEditor:AwaitingBatchUpdate]
+ concept_cultural_trait_desc:0 "Культурные особенности:"
+
+ concept_cultural_heritage_trait:0 "Культурное наследие"
+ concept_cultural_heritage_trait_desc:0 "Культурные наследия:"
+
+ concept_religion:0 "Религия"
+ concept_religions:0 "Религии" # [LocEditor:AwaitingBatchUpdate]
+ concept_religion_desc:0 "Религия — один из факторов, отличающих [Concept('concept_pop', 'группы населения')] друг от друга. В разных государствах к определённым религиям могут относиться по-разному: принимать или подвергать дискриминации."
+
+ concept_accepted_religion:0 "Приемлемая религия"
+ concept_accepted_religion_desc:0 "Приемлемыми считаются [Concept('concept_state_religion', 'государственные')] и прочие религии, которые не противоречат [Concept('concept_laws', 'законам')] государства."
+
+ concept_state_religion:0 "Государственная религия"
+ concept_state_religion_desc:0 "Государственной называется основная, преобладающая религия, которую исповедует большинство групп населения страны."
+
+ concept_religious_trait:0 "Религиозная особенность"
+ concept_religious_traits:0 "Религиозные особенности" # [LocEditor:AwaitingBatchUpdate]
+ concept_religious_trait_desc:0 "Религиозные особенности:"
+
+ concept_discrimination_trait:0 "Дискриминационная особенность"
+ concept_discrimination_traits:0 "Дискриминационные особенности" # [LocEditor:AwaitingBatchUpdate]
+ concept_discrimination_trait_desc:0 "Дискриминационные особенности:"
+
+ concept_investment_pool:0 "Инвестиционный пул"
+ concept_investment_pool_desc:0 "Когда доходы @aristocrats! аристократов и капиталистов превышают их собственные фантазии, они вкладывают излишки в инвестиционный пул. Сооружение, в котором он будет располагаться, выбирается в соответствии с вашими [Concept('concept_law', 'законами')]."
+
+ concept_wealth:0 "Благосостояние"
+ concept_wealthy:0 "Состоятельность"
+ concept_wealth_desc:0 "Мерой благосостояния [Concept('concept_pop', 'группы населения')] считается количество [Concept('concept_good', 'товаров')], которое она может приобрести за деньги, заработанные в [Concept('concept_building', 'сооружениях')]. Благосостояние — основной фактор, влияющий на [Concept('concept_sol', 'уровень жизни')]."
+
+ concept_technology:0 "Технология"
+ concept_technologies:0 "Технологии"
+ concept_technology_desc:0 "Технология:"
+
+ concept_navy:0 "Военно-морской флот"
+ concept_navy_desc:0 "ВМФ:"
+
+ concept_sea_lane:0 "Морской путь"
+ concept_sea_lanes:0 "Морские пути" # [LocEditor:AwaitingBatchUpdate]
+ concept_sea_lane_desc:0 "Морские пути:"
+
+ concept_port:0 "Порт"
+ concept_ports:0 "Порты" # [LocEditor:AwaitingBatchUpdate]
+ concept_port_desc:0 "Порты:"
+
+ concept_canal:0 "Канал"
+ concept_canals:0 "Каналы" # [LocEditor:AwaitingBatchUpdate]
+ concept_canal_desc:0 "Каналы:"
+
+ concept_monument:0 "Монумент"
+ concept_monuments:0 "Монументы" # [LocEditor:AwaitingBatchUpdate]
+ concept_monument_desc:0 "Монументы:"
+
+ concept_productivity:0 "Годовая производительность на сотрудника"
+ concept_productivity_short:0 "Производительность"
+ concept_productive:0 "Продуктивность"
+ concept_unproductive:0 "Непродуктивность"
+ concept_productivity_desc:0 "Объём продукции, который один сотрудник производит за год, рассчитывается по формуле: (доход от проданных товаров - материальные затраты) / количество сотрудников."
+
+ concept_election:0 "Выборы"
+ concept_election_desc:0 "Результаты выборов подтасованы…"
+
+ concept_trade_power:0 "Торговый потенциал"
+ concept_trade_power_desc:0 "Потенциал [Concept('concept_trade_route', 'торгового пути')] определяется наименьшим из потенциалов рынков [Concept('concept_import_power', 'импорта')] и [Concept('concept_export_power', 'экспорта')]."
+
+ concept_import_power:0 "Импортный потенциал"
+ concept_import_power_desc:0 "Импортный потенциал [Concept('concept_good', 'товара')] на [Concept('concept_market', 'рынке')] рассчитывается по его минимальной партии на уровень согласно [Concept('concept_buy_orders', 'приказам о покупке')]."
+
+ concept_export_power:0 "Экспортный потенциал"
+ concept_export_power_desc:0 "Экспортный потенциал [Concept('concept_good', 'товара')] на [Concept('concept_market', 'рынке')] рассчитывается по его минимальной партии на уровень согласно [Concept('concept_sell_orders', 'приказам о продаже')]."
+  
+ concept_budget_minting:0 "Денежное производство"
+ concept_budget_minting_desc:0 "Форма дохода, который [Concept('concept_country', 'страны')] получают при печати или чеканке новых [Concept('concept_money', 'денег')]. Доход от денежного производства не может быть ниже #v @money!1000#! и увеличивается на #v @money!500#! с каждым #v @money!миллионом#! единиц [concept_gdp] [Concept('concept_country_possessive', 'страны')]." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_budget_poll_taxes:0 "Подушные налоги"
+ concept_budget_poll_tax:0 "Подушный налог" # [LocEditor:AwaitingBatchUpdate]
+ concept_budget_poll_taxes_desc:0 "Еженедельный налог в виде фиксированной суммы [Concept('concept_money', 'денег')], которую должен заплатить каждый [Concept('concept_working_adults', 'взрослый работник')] в соответствии с принятым типом подушного налога." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_budget_land_taxes:0 "Земельные налоги"
+ concept_budget_land_taxes_desc:0 "Вид [Concept('concept_budget_poll_taxes', 'подушного налога')], взимаемый только с [Concept('concept_peasants', '@peasants! крестьян')]." # [LocEditor:AwaitingBatchUpdate]
+  
+ # [LocEditor:UntranslatedKey] `concept_budget_heathen_taxes`
+ # [LocEditor:UntranslatedKey] `concept_budget_heathen_taxes_desc`
+ 
+ concept_budget_per_capita_taxes:0 "Среднедушевые налоги"
+ concept_budget_per_capita_taxes_desc:0 "Вид [Concept('concept_budget_poll_taxes', 'подушного налога')], взимаемый со всех [Concept('concept_pop', 'групп населения')]." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_budget_income_taxes:0 "Подоходные налоги"
+ concept_budget_income_taxes_desc:0 "income_taxes_desc"
+  
+ concept_budget_investment_income:0 "Деньги из инвестиционного фонда"
+ concept_budget_investment_income_desc:0 "investment_income_desc"
+
+ concept_budget_consumption_taxes:0 "Потребительские налоги"
+ concept_budget_consumption_taxes_desc:0 "consumption_taxes_desc"
+
+ concept_budget_dividends_taxes:0 "Налоги на дивиденды"
+ concept_budget_dividends_taxes_desc:0 "dividends_taxes_desc"
+
+ concept_budget_additional_income:0 "Дополнительный доход"
+ concept_budget_additional_income_desc:0 "Дополнительный доход:"
+  
+ concept_budget_additional_expenses:0 "Дополнительные расходы"
+ concept_budget_additional_expenses_desc:0 "Дополнительные расходы:"
+
+ concept_budget_diplomatic_pacts:0 "Дипломатические пакты"
+ concept_budget_diplomatic_pacts_desc:0 "diplomatic_pacts_desc"
+
+ # [LocEditor:UntranslatedKey] `concept_budget_construction_goods`
+ # [LocEditor:UntranslatedKey] `concept_budget_construction_goods_desc`
+ 
+ # [LocEditor:UntranslatedKey] `concept_budget_construction_wages`
+ # [LocEditor:UntranslatedKey] `concept_budget_construction_wages_desc`
+ 
+ # [LocEditor:UntranslatedKey] `concept_budget_construction_slaves`
+ # [LocEditor:UntranslatedKey] `concept_budget_construction_slaves_desc`
+  
+ concept_budget_government_wages:0 "Государственные зарплаты"
+ concept_budget_government_wages_desc:0 "government_wages_desc"
+
+ concept_budget_wages:0 "Зарплаты"
+ concept_budget_wage:0 "Зарплата"
+ concept_budget_wages_desc:0 "[Concept('concept_building', '$concept_buildings$')] выплачивают заработную плату [Concept('concept_pop', 'группам населения')], которые входят в их [Concept('concept_workforce', 'рабочую силу')]. Есть три вида зарплат, которые зависят от типов выплачивающих их сооружений: [Concept('concept_budget_government_wages', 'государственные')], которые выплачивает правительство, [Concept('concept_budget_military_wages', 'военные')], которые также относятся к сооружениям на государственном бюджете, и прочие [Concept('concept_building_wage', 'зарплаты')]."
+
+ concept_budget_goods_for_government_buildings:0 "Товары для правительственных сооружений"
+ concept_budget_goods_for_government_buildings_desc:0 "goods_for_government_buildings_desc"
+
+ concept_budget_government_slaves:0 "Государственные рабы"
+ concept_budget_government_slaves_desc:0 "government_slaves_desc"
+
+ concept_budget_military_wages:0 "Военные зарплаты"
+ concept_budget_military_wages_desc:0 "military_wages_desc"
+
+ concept_budget_goods_for_military_buildings:0 "Товары для военных сооружений"
+ concept_budget_goods_for_military_buildings_desc:0 "goods_for_military_buildings_desc"
+
+ concept_budget_military_slaves:0 "Военные рабы"
+ concept_budget_military_slaves_desc:0 "military_slaves_desc"
+
+ concept_subsidies:0 "Субсидии"
+ concept_subsidize:0 "Субсидировать" # [LocEditor:AwaitingBatchUpdate]
+ concept_subsidized:0 "На субсидировании" # [LocEditor:AwaitingBatchUpdate]
+ concept_subsidizing:0 "Субсидирование" # [LocEditor:AwaitingBatchUpdate]
+ concept_subsidies_desc:0 "Правительство обеспечивает субсидируемое сооружение кадрами и гарантирует своевременную выплату зарплат размером не ниже государственных. Если сооружение не может выплатить хотя бы государственную зарплату, правительство покрывает недостачу."
+
+ concept_budget_interest_rate:0 "Процентная ставка"
+ # [LocEditor:UntranslatedKey] `concept_budget_interest`
+ concept_budget_interest_rates:0 "Процентные ставки" # [LocEditor:AwaitingBatchUpdate]
+ concept_budget_interest_rate_desc:0 "interest_desc"
+  
+ concept_country_tier:0 "Уровень государства"
+ concept_country_tier_desc:0 "Уровень государства — переходящий статус и [Concept('concept_prestige', 'престиж')] [Concept('concept_country', 'государства')] в соответствии с его историей и значимостью. Чем выше уровень [Concept('concept_country_possessive', 'страны')], тем больше престижа оно получает. Для формирования нации уровень государства должен расти."
+  
+ concept_claim:0 "Претензия"
+ concept_claims:0 "Претензии" # [LocEditor:AwaitingBatchUpdate]
+ concept_claimed:0 "Оспариваемый" # [LocEditor:AwaitingBatchUpdate]
+ concept_claim_desc:0 "Претензия, которую [Concept('concept_country', 'государство')] предъявляет на [Concept('concept_state_region', 'регион')], чаще всего потому, что некогда этот регион принадлежал ему. Претензия позволяет государству ставить [Concept('concept_war_goal', 'цель войны')] «#v $war_goal_return_state_type_name$#!», которая производит гораздо меньше [Concept('concept_infamy', 'дурной славы')], чем обычная цель «#v $war_goal_conquer_state_type_name$#!.\n\nЕсли государство лишается Concept('concept_incorporated_state', 'включённой области')], оно получает претензию на этот регион."
+  
+ concept_devastation:0 "Опустошение"
+ concept_devastation_desc:0 "Опустошение — урон, понесённый [Concept('concept_state_region', 'регионом')] во время военных столкновений и конфликтов. Вражеская оккупация и сражения, проходящие в регионе, усиливают этот урон, но со временем он снижается. Опустошение ослабляет [Concept('concept_infrastructure', 'инфраструктуру')] региона и повышает смертность среди [Concept('concept_pop', 'групп населения')]."
+
+ concept_command_limit:0 "Боевой авторитет"
+ concept_command_limit_desc:0 "Боевой авторитет определяет количество [Concept('concept_battalion', 'батальонов')] или [Concept('concept_warship', 'военных кораблей')], которые могут быть под началом определённого командира. Для усиления боевого авторитета командиров повышайте их в звании." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_pop_qualifications:0 "Квалификации"
+ concept_qualifying:0 "Квалификация" # [LocEditor:AwaitingBatchUpdate]
+ concept_pop_qualifications_desc:0 "Со временем группы населения получают достаточную квалификацию для овладения определёнными [Concept('concept_profession', 'профессиями')]. Если их характеристики соответствуют требованиям или они занимаются близкой деятельностью, квалификация приобретается быстрее. Чаще всего определяющими факторами являются [Concept('concept_literacy', 'грамотность')], [Concept('concept_wealth', 'благосостояние')] и [Concept('concept_discrimination', 'дискриминация')]."
+
+ concept_hq:0 "Штаб-квартира"
+ concept_hq_desc:0 "#TODO A Commander has a Home HQ and a Location HQ. If the Home HQ is destroyed the character is removed.#!"
+  
+ concept_tax_waste:0 "Налоговые потери"
+ concept_tax_waste_desc:0 "Часть налогов, которая теряется до попадания в государственный бюджет из-за неэффективной работы или коррупции."
+  
+ concept_assimilation:0 "Ассимиляция"
+ concept_assimilating:0 "Ассимиляция" # [LocEditor:AwaitingBatchUpdate]
+ concept_assimilation_desc:0 "Зарубежные группы населения, проживающие в государстве, где их культуры считаются приемлемыми, могут стать частью его [Concept('concept_primary_cultures', 'основной культуры')]."
+  
+ concept_conversion:0 "Обращение"
+ concept_converting:0 "Обращение" # [LocEditor:AwaitingBatchUpdate]
+ concept_conversion_desc:0 "Группы населения, исповедующие притесняемые в государстве религии, могут обратиться в [Concept('concept_accepted_religion', 'приемлемую религию')]."
+  
+ concept_life_experience:0 "Жизненный опыт"
+ concept_life_experience_desc:0 "[Concept('concept_character', '$concept_characters$')] приобретают опыт в течение жизни и в определённых ситуациях. От него зависит появление новых [Concept('concept_character_trait', 'черт характера')]." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_supply_network:0 "Сеть снабжения"
+ concept_supply_network_desc:0 "Важнейший элемент [Concept('concept_trade_route', 'торговых путей')] и системы снабжения [Concept('concept_commander', 'командиров')] за рубежом. Для работы сети снабжения необходимо обеспечить [Concept('concept_convoys', 'конвои')]." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_convoys:0 "Конвои"
+ # [LocEditor:UntranslatedKey] `concept_convoy`
+ concept_convoys_desc:0 "Необходимы для снабжения войск за рубежом и поддержки [Concept('concept_supply_network', 'сети снабжения')]."
+
+ # [LocEditor:UntranslatedKey] `concept_shipping_lane`
+ # [LocEditor:UntranslatedKey] `concept_shipping_lanes`
+ # [LocEditor:UntranslatedKey] `concept_shipping_lane_desc`
+
+ # [LocEditor:UntranslatedKey] `concept_shipping_lane_effectiveness`
+ # [LocEditor:UntranslatedKey] `concept_shipping_lane_effectiveness_desc`
+
+ # [LocEditor:UntranslatedKey] `concept_port_connection`
+ # [LocEditor:UntranslatedKey] `concept_port_connections`
+ # [LocEditor:UntranslatedKey] `concept_port_connection_desc`
+
+ # [LocEditor:UntranslatedKey] `concept_supply_route`
+ # [LocEditor:UntranslatedKey] `concept_supply_routes`
+ # [LocEditor:UntranslatedKey] `concept_supply_route_desc`
+
+ concept_popularity:0 "Популярность"
+ concept_popularity_desc:0 "Доверие [Concept('concept_pop', 'групп населения')] к персонажу зависит от его популярности."
+  
+ concept_momentum:0 "Мотивация"
+ concept_momentum_desc:0 "Мотивация повышает вероятность того, что [Concept('concept_interest_group', 'заинтересованная группа')] получит [Concept('concept_votes', 'голоса')] на [Concept('concept_election', 'выборах')]. Обнуляется после выборов."
+  
+ concept_government_expenses:0 "Правительственные расходы"
+ concept_government_expenses_short:0 "Расходы" # [LocEditor:AwaitingBatchUpdate]
+ concept_government_expenses_desc:0 "Правительственные расходы:"
+
+ concept_sovereignty:0 "Суверенитет"
+ concept_sovereignty_desc:0 "#todo Sovereignty is...#!"
+
+ concept_normal_wage:0 "Средняя зарплата"
+ concept_normal_wage_desc:0 "$concept_normal_wage$ по стране зависит от среднего уровня оплаты в государственных отраслях промышленности [Concept('concept_incorporated_state', 'включённых областей')]." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_in_reserve:0 "В запасе"
+ concept_in_reserve_desc:0 "У войска в запасе нет [Concept('concept_commander', 'командира')]. Ему нельзя отдать приказ, но оно участвует в защите."
+  
+ concept_dead:0 "Погибшие"
+ concept_dead_desc:0 "Количество погибших в бою или от [Concept('concept_attrition', 'истощения')]."
+
+ concept_wounded:0 "Раненые"
+ concept_wounded_desc:0 "Количество раненых в бою или от [Concept('concept_attrition', 'истощения')]. Раненые бойцы покидают свои аванпосты."
+
+ concept_attrition:0 "Истощение"
+ concept_attrition_desc:0 "#todo Attrition is...#!"
+
+ concept_character_role:0 "Роль"
+ concept_character_role_desc:0 "Определяет характер деятельности персонажа."
+  
+ concept_building_wage:0 "Зарплата"
+ concept_building_wages:0 "Зарплаты"
+ concept_building_wage_desc:0 "Зарплата в сооружении зависит от экономической ситуации. Для привлечения к работе новых [Concept('concept_pop', 'групп населения')] можно улучшить [Concept('concept_building_balance', 'баланс сооружения')]. Для этого можно или снизить стоимость [Concept('concept_good', 'товаров')], которые потребляет сооружение, или повысить стоимость товаров, которые оно производит. Для этого нужно повышать или понижать спрос и предложение на соответствующем [Concept('concept_market', 'рынке')]. Чтобы гарантировать работникам привлекательную зарплату, можно предоставить сооружению [Concept('concept_subsidies', 'субсидию')]. Таким образом оно получит резерв [Concept('concept_money', 'денег')], к которому сможет прибегать при необходимости." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_building_balance:0 "Баланс"
+ concept_building_balance_desc:0 "Баланс сооружения — запас денег, который остаётся на его счету после оплаты всех расходов из полученной прибыли."
+
+ concept_treasury:0 "Казна"
+ concept_treasury_desc:0 "Ваши деньги."
+
+ concept_head_of_state:0 "Глава государства"
+ concept_head_of_state_desc:0 "Правитель или верховный представитель государства. Критерии главы государства определяются его [Concept('concept_law', 'законами')]."
+
+ concept_lower_strata:0 "Низший класс"
+ concept_lower_strata_desc:0 "The Lower Strata is the group of [Concept('concept_pop', '$concept_pops$')] who have nothing to sell but their labour.\n\n#todo PRCAL-13648 rewrite and make the description of this Strata concept better#![AddLocalizationIf(HasGameState, 'concept_lower_strata_ingame_added')]"
+ concept_lower_strata_ingame_added:0 "\n\nВ эту категорию входят представители следующих [Concept('concept_profession', 'профессий')]:\n[GetPopTypesInLowerStrataDesc]"
+
+ concept_middle_strata:0 "Средний класс"
+ concept_middle_strata_desc:0 "The Middle Strata is the group of [Concept('concept_pop', '$concept_pops$')] who have good jobs and are neither poor or rich.\n\n#todo PRCAL-13648 rewrite and make the description of this Strata concept better#![AddLocalizationIf(HasGameState, 'concept_middle_strata_ingame_added')]"
+ concept_middle_strata_ingame_added:0 "\n\nВ эту категорию входят представители следующих [Concept('concept_profession', 'профессий')]:\n[GetPopTypesInMiddleStrataDesc]"
+
+ concept_upper_strata:0 "Высший класс"
+ concept_upper_strata_desc:0 "The Upper Strata is the group of [Concept('concept_pop', '$concept_pops$')] who occupy the highest place and status in society. Individuals who make up the Upper Strata have higher levels of disposable income and exert more control over the use of natural resources. This Strata makes up a small percentage of the overall population but controls a disproportionately large amount of the overall wealth.\n\n#todo PRCAL-13648 rewrite and make the description of this Strata concept better#![AddLocalizationIf(HasGameState, 'concept_upper_strata_ingame_added')]"
+ concept_upper_strata_ingame_added:0 "\n\nВ эту категорию входят представители следующих [Concept('concept_profession', 'профессий')]:\n[GetPopTypesInUpperStrataDesc]"
+
+ concept_migration_pull:0 "Миграционная привлекательность"
+ concept_migration_pull_desc:0 "Способность [Concept('concept_state', 'области')] привлекать мигрантов."
+
+ concept_enactment_success:0 "Успех"
+ concept_enactment_success_desc:0 "Успех:"
+
+ concept_enactment_advance:0 "Рост"
+ concept_enactment_advance_desc:0 "Рост:"
+
+ concept_enactment_debate:0 "Дебаты"
+ concept_enactment_debate_desc:0 "Дебаты:"
+
+ concept_enactment_stall:0 "Затягивание"
+ concept_enactment_stall_desc:0 "Затягивание:"
+
+ concept_political_movement:0 "Политическое движение"
+ # [LocEditor:UntranslatedKey] `concept_political_movement_short`
+ concept_political_movements:0 "Политические движения" # [LocEditor:AwaitingBatchUpdate]
+ concept_political_movement_desc:0 "Политическое движение:"
+  
+ concept_political_movement_support:0 "Поддержка политического движения"
+ concept_political_movement_support_short:0 "Поддержка" # [LocEditor:AwaitingBatchUpdate]
+ concept_political_movement_support_desc:0 "Поддержка политического движения:"
+  
+ concept_political_movement_radicalism:0 "Радикализм политического движения"
+ concept_political_movement_radicalism_short:0 "Радикализм" # [LocEditor:AwaitingBatchUpdate]
+ concept_political_movement_radicalism_desc:0 "Радикализм политического движения:"
+  
+ concept_political_movement_placated:0 "Умиротворение"
+ concept_political_movement_placated_desc:0 "Умиротворение политического движения:"
+
+ concept_journal_entry:0 "Запись в дневнике"
+ concept_journal_entries:0 "Записи в дневнике" # [LocEditor:AwaitingBatchUpdate]
+ concept_journal_entry_desc:0 "В дневник заносятся события, происходящие в вашем государстве. Одни открывают новые возможности, другие сообщают о трудностях, напоминают о ваших обязательствах или предупреждают о возможных кризисах.\n\nОбычно записи удаляются из дневника после выполнения описанных в них задач. Не все задачи можно выполнить — некоторые завершаются только провалом, устаревают со временем или удаляются при особых условиях."
+
+ concept_promote:0 "Повысить"
+ concept_promoted:0 "Повышение"
+ concept_promotes:0 "Повышает"
+ concept_promoting:0 "Повышение"
+ concept_promotion:0 "Повышение"
+ concept_promote_desc:0 "#todo Promote ...#!"
+
+ concept_suppress:0 "Подавить"
+ concept_suppressed:0 "Подавление"
+ concept_suppressing:0 "Подавляет"
+ concept_suppression:0 "Подавление"
+ concept_suppress_desc:0 "#todo Suppress is...#!"
+
+ concept_party:0 "Партия"
+ # [LocEditor:UntranslatedKey] `concept_parties`
+ concept_party_desc:0 "TODO: HURR DURR PARTY BEFORE COUNTRY"
+
+ # [LocEditor:UntranslatedKey] `concept_order`
+ # [LocEditor:UntranslatedKey] `concept_orders`
+ # [LocEditor:UntranslatedKey] `concept_order_desc`
+ 
+ # [LocEditor:UntranslatedKey] `concept_unification_candidate`
+ # [LocEditor:UntranslatedKey] `concept_unification_candidate_short`
+ # [LocEditor:UntranslatedKey] `concept_unification_candidates`
+ # [LocEditor:UntranslatedKey] `concept_unification_candidate_desc`
+ 
+ # [LocEditor:UntranslatedKey] `concept_unification_supporter`
+ # [LocEditor:UntranslatedKey] `concept_unification_support`
+ # [LocEditor:UntranslatedKey] `concept_unification_supporting`
+ # [LocEditor:UntranslatedKey] `concept_unification_supporter_desc`
+
+ # [LocEditor:UntranslatedKey] `concept_recognized_power`
+ # [LocEditor:UntranslatedKey] `concept_recognized_power_desc`
+
+ # [LocEditor:UntranslatedKey] `concept_observer_mode`
+ # [LocEditor:UntranslatedKey] `concept_observer`
+ # [LocEditor:UntranslatedKey] `concept_observer_mode_desc`
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ concept_objective:0 "Цель"
+ concept_objectives:0 "Цели"
+ concept_objective_desc:0 "AI-controlled countries have a set of Objectives that governs their strategy\n#todo TODO MORE INFO#!"
+ concept_favor:0 "Обязательство"
+ concept_favors:0 "Обязательства"
+ concept_favor_desc:0 "#todo A Favor is... #!"
+ concept_reinforcements:0 "Подкрепления"
+ concept_reinforcements_desc:0 "Подкреплением называется [Concept('concept_battalion', 'батальон')] или [Concept('concept_warship', 'военный корабль')], перемещающийся куда-либо в данный момент времени."
+ concept_travel_queue:0 "Очередь перемещения"
+ concept_travel_queue_desc:0 "Когда [Concept('concept_battalion', 'батальон')] или [Concept('concept_warship', 'военный корабль')] получает приказ переместиться куда-либо, они попадают в очередь перемещения. Перемещения возможны между [Concept('concept_barrack', 'казармами')], [Concept('concept_commander', 'командирами')] и [Concept('concept_front', 'фронтами')]."
+ concept_battle_plan:0 "План кампании"
+ concept_battle_plan_desc:0 "План компании составляет [Concept('concept_commander', 'командир')] [Concept('concept_front', 'фронта')], получивший приказ начать вторжение. Когда план кампании получает достаточно войск, начинается [Concept('concept_battle', 'сражение')]."
+ concept_good_net:0 "Сальдо товара"
+ concept_good_net_desc:0 "Количество данного товара, которое остаётся на [Concept('concept_market', 'рынке')] после торговли."
+ concept_decreees:0 "Указы"
+ concept_construction_camp:0 "Строительный лагерь"
+ concept_construction_camps:0 "Строительные лагеря"
+ concept_construction_camp_desc:0 "Строительный лагерь — это…"
+ concept_innovation_points:0 "Очки инновации"
+ concept_innovation_points_desc:0 "Очки инновации производятся в университетах. Их можно расходовать на изучение изобретений."
+ concept_construction_points:0 "Очки строительства"
+ concept_construction_points_desc:0 "@construction! [Concept('concept_construction_camp', 'Строительный лагерь')] производит очки строительства, которые можно тратить на возведение [Concept('concept_building', 'сооружений')]."
+ concept_budget_new_construction:0 "Новое строительство"
+ concept_budget_new_construction_desc:0 "new_construction_desc"

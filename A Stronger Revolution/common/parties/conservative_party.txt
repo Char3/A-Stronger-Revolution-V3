@@ -129,8 +129,16 @@ conservative_party = {
 			triggered_desc = {
 				desc = party_russian_party
 				trigger = {
-					exists = c:GRE
-					THIS = c:GRE
+					OR = {
+						AND = {
+							exists = c:GRE
+							THIS = c:GRE
+						}
+						AND = {
+							exists = c:BYZ
+							THIS = c:BYZ
+						}
+					}
 				}
 			}
 			triggered_desc = {
@@ -247,6 +255,22 @@ conservative_party = {
 				}
 			}
 			add = 5
+		}
+		if = { # loyalists appreciate conservative values
+			limit = {
+				OR = {
+					has_ideology = ideology_loyalist
+				}
+			}
+			add = 3
+		}
+		if = { # american aristocrats love democrat party
+			limit = {
+				OR = {
+					has_ideology = ideology_republican_paternalistic
+				}
+			}
+			add = 2
 		}
 		if = { # various progressives dislike conservativism
 			limit = {

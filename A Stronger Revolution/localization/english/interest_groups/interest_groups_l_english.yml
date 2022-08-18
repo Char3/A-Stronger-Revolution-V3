@@ -93,6 +93,8 @@
  ig_northern_gentry_desc:0 "The Northern Gentry are the landowners and the northern counterparts of the southern planters, these are more bureaucratically inclined than their southern counterparts, valuing elected political power and positions over the more aristocratic tendancies of the south."
  ig_small_business:0 "Small Business Owners"
  ig_small_business_desc:0 "Unlike the rest of the world, Small business owners are the heart of American society and the producer of the majority of the goods any one man in America consumes. The Small Business Owners encourage fraternity within the American nation and are vital to the economy."
+ ig_austrian_autonomists:0 "Austrian Autonomists"
+ ig_small_business_desc:0 "A coalition of minorities within the Austrian empire have come together to encourage the creation of a multicultural Austrian empire that accepts their religions and traditions."
 
   # Turkey IGs
  ig_imperial_harem:0 "Imperial Harem"

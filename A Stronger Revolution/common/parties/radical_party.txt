@@ -116,8 +116,16 @@ radical_party = {
 			triggered_desc = {
 				desc = party_french_party
 				trigger = {
-					exists = c:GRE
-					THIS = c:GRE
+					OR = {
+						AND = {
+							exists = c:GRE
+							THIS = c:GRE
+						}
+						AND = {
+							exists = c:BYZ
+							THIS = c:BYZ
+						}
+					}
 				}
 			}
 			triggered_desc = {

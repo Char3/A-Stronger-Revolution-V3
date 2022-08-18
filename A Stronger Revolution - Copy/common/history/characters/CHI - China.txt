@@ -1,0 +1,157 @@
+﻿CHARACTERS = {
+	c:CHI = {
+		create_character = {
+			# The Daoguang Emperor
+			#role = politician # Remove this line
+			first_name = Daoguang
+			last_name = "Aisin_Gioro" # Not used by the emperor himself but there's got to be something here
+			ruler = yes
+			age = 54
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				cautious
+			}
+		}
+
+		create_character = {
+			# Prince Yizhu, the future Xianfeng Emperor
+			#role = politician # Remove this line
+			first_name = "Yizhu"
+			last_name = "Aisin_Gioro"
+			heir = yes
+			age = 5
+			interest_group = ig_landowners
+			traits = {
+				arrogant
+			}
+		}
+
+		create_character = {
+			# Keying, also known as Qiying and Kiyeng
+			#role = politician # Remove this line
+			first_name = "Qiying"
+			last_name = "Aisin_Gioro"
+			age = 51
+			ig_leader = yes
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				reckless
+				expensive_tastes # INCREDIBLY corrupt
+			}
+		}
+
+		create_character = {
+			#role = politician # Remove this line
+			first_name = Zexu
+			last_name = Lin
+			age = 51
+			ig_leader = yes
+			interest_group = ig_petty_bourgeoisie
+			ideology = ideology_traditionalist
+			traits = {
+				imperious
+			}
+		}
+
+		create_character = {
+			#role = politician # Remove this line
+			first_name = Zizhen
+			last_name = Gong
+			age = 44
+			ig_leader = yes
+			interest_group = ig_trade_unions
+			ideology = ideology_traditionalist
+			traits = {
+				reckless
+			}
+		}
+
+		create_character = {
+			#role = politician # Remove this line
+			first_name = Changling
+			last_name = He
+			age = 51
+			ig_leader = yes
+			interest_group = ig_intelligentsia
+			ideology = ideology_moderate
+			traits = {
+				meticulous
+			}
+		}
+
+		create_character = {
+			#role = politician # Remove this line
+			first_name = Yuan
+			last_name = Ruan
+			age = 72
+			ig_leader = yes
+			interest_group = ig_industrialists
+			ideology = ideology_moderate
+			traits = {
+				meticulous
+			}
+		}
+
+		create_character = {
+			#role = politician # Remove this line
+			first_name = Lexing
+			last_name = Zhang
+			age = 24
+			ig_leader = yes
+			interest_group = ig_rural_folk
+			ideology = ideology_traditionalist
+			traits = {
+				ambitious
+			}
+		}
+
+		create_character = {
+			#role = politician # Remove this line
+			first_name = Yupian
+			last_name = Huang
+			age = 52 # age unknown, arbitrarily picking an age instead
+			ig_leader = yes
+			interest_group = ig_devout
+			ideology = ideology_royalist
+			traits = {
+				persistent
+			}
+		}
+
+		create_character = {
+			is_admiral = yes
+			first_name = Tianpei
+			last_name = Guan
+			age = 55
+			traits = {
+				expert_naval_commander
+				brave
+			}
+		}
+
+
+		create_character = {
+			is_admiral = yes
+			first_name = Huacheng
+			last_name = Chen
+			age = 60
+			traits = {
+				experienced_naval_commander
+				ambitious
+			}
+		}
+
+		create_character = {
+			is_general = yes
+			first_name = Fang
+			last_name = Yang
+			age = 66
+			traits = {
+				persistent
+				cautious
+			}
+		}
+	}
+}

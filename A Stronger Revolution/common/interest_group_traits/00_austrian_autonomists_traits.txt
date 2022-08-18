@@ -1,0 +1,39 @@
+ig_trait_international_ties = {
+	icon = "gfx/interface/icons/ig_trait_icons/treasury_bonds.dds"
+
+	# type is for display order
+	type = in_government
+
+	min_approval = loyal
+	
+	modifier = {
+		country_loan_interest_rate_mult = -0.1
+		state_radicals_from_discrimination_mult = -0.2
+	}
+}
+
+ig_trait_community_integration = {
+	icon = "gfx/interface/icons/ig_trait_icons/middle_managers.dds"
+
+	# type is for display order
+	type = happy
+
+	min_approval = happy
+	
+	modifier = {
+		country_bureaucracy_mult = 0.05
+	}
+}
+
+ig_trait_oppressed_minorities = {
+	icon = "gfx/interface/icons/ig_trait_icons/xenophobia.dds"
+
+	# type is for display order
+	type = unhappy
+
+	max_approval = unhappy
+	
+	modifier = {
+		state_radicals_from_discrimination_mult = 3.0
+	}
+}

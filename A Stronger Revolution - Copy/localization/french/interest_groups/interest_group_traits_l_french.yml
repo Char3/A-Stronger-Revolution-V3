@@ -1,0 +1,65 @@
+﻿l_french:
+
+  # Landowners IG Traits
+ # [LocEditor:UntranslatedKey] `ig_trait_noblesse_oblige`
+ # [LocEditor:UntranslatedKey] `ig_trait_noblesse_oblige_desc`
+ # [LocEditor:UntranslatedKey] `ig_trait_family_ties`
+ # [LocEditor:UntranslatedKey] `ig_trait_family_ties_desc`
+ # [LocEditor:UntranslatedKey] `ig_trait_noble_privileges`
+ # [LocEditor:UntranslatedKey] `ig_trait_noble_privileges_desc`
+
+  # Industrialists IG Traits
+ # [LocEditor:UntranslatedKey] `ig_trait_job_creators`
+ # [LocEditor:UntranslatedKey] `ig_trait_job_creators_desc`
+ # [LocEditor:UntranslatedKey] `ig_trait_engines_of_progress`
+ # [LocEditor:UntranslatedKey] `ig_trait_engines_of_progress_desc`
+ # [LocEditor:UntranslatedKey] `ig_trait_tax_avoidance`
+ # [LocEditor:UntranslatedKey] `ig_trait_tax_avoidance_desc`
+
+  # Armed Forces IG Traits
+ # [LocEditor:UntranslatedKey] `ig_trait_patriotic_fervor`
+ # [LocEditor:UntranslatedKey] `ig_trait_patriotic_fervor_desc`
+ # [LocEditor:UntranslatedKey] `ig_trait_veteran_consultation`
+ # [LocEditor:UntranslatedKey] `ig_trait_veteran_consultation_desc`
+ # [LocEditor:UntranslatedKey] `ig_trait_materiel_waste`
+ # [LocEditor:UntranslatedKey] `ig_trait_materiel_waste_desc`
+
+  # Rural Folk IG Traits
+ # [LocEditor:UntranslatedKey] `ig_trait_farmers_markets`
+ # [LocEditor:UntranslatedKey] `ig_trait_farmers_markets_desc`
+ # [LocEditor:UntranslatedKey] `ig_trait_honest_work`
+ # [LocEditor:UntranslatedKey] `ig_trait_honest_work_desc`
+ # [LocEditor:UntranslatedKey] `ig_trait_old_ways`
+ # [LocEditor:UntranslatedKey] `ig_trait_old_ways_desc`
+
+  # Trade Unions IG Traits
+ # [LocEditor:UntranslatedKey] `ig_trait_solidarity`
+ # [LocEditor:UntranslatedKey] `ig_trait_solidarity_desc`
+ # [LocEditor:UntranslatedKey] `ig_trait_industrial_organizers`
+ # [LocEditor:UntranslatedKey] `ig_trait_industrial_organizers_desc`
+ # [LocEditor:UntranslatedKey] `ig_trait_work_to_rule`
+ # [LocEditor:UntranslatedKey] `ig_trait_work_to_rule_desc`
+
+  # Intelligentsia IG Traits
+ # [LocEditor:UntranslatedKey] `ig_trait_propagandists`
+ # [LocEditor:UntranslatedKey] `ig_trait_propagandists_desc`
+ # [LocEditor:UntranslatedKey] `ig_trait_avant_garde`
+ # [LocEditor:UntranslatedKey] `ig_trait_avant_garde_desc`
+ # [LocEditor:UntranslatedKey] `ig_trait_social_criticism`
+ # [LocEditor:UntranslatedKey] `ig_trait_social_criticism_desc`
+
+  # Petite-Bourgeoisie IG Traits
+ # [LocEditor:UntranslatedKey] `ig_trait_treasury_bonds`
+ # [LocEditor:UntranslatedKey] `ig_trait_treasury_bonds_desc`
+ # [LocEditor:UntranslatedKey] `ig_trait_middle_managers`
+ # [LocEditor:UntranslatedKey] `ig_trait_middle_managers_desc`
+ # [LocEditor:UntranslatedKey] `ig_trait_xenophobia`
+ # [LocEditor:UntranslatedKey] `ig_trait_xenophobia_desc`
+
+  # Devout IG Traits
+ # [LocEditor:UntranslatedKey] `ig_trait_be_fruitful_and_multiply`
+ # [LocEditor:UntranslatedKey] `ig_trait_be_fruitful_and_multiply_desc`
+ # [LocEditor:UntranslatedKey] `ig_trait_divine_right`
+ # [LocEditor:UntranslatedKey] `ig_trait_divine_right_desc`
+ # [LocEditor:UntranslatedKey] `ig_trait_pious_fiction`
+ # [LocEditor:UntranslatedKey] `ig_trait_pious_fiction_desc`

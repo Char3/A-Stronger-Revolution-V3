@@ -169,7 +169,7 @@ pm_public_motor_carriages = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_transportation_add = 10
+			building_input_automobiles_add = 6
 		}
 
 		level_scaled = {
@@ -470,11 +470,15 @@ pm_aristocratic_estate = {
 			building_output_services_add = 10
 			building_output_porcelain_add = 10
 			building_output_wine_add = 10
+			building_output_liquor_add = 10 
+			building_input_tools_add = 25
+			building_input_fruit_add = 5
+			building_input_fabric_add = 5
 		}
 		
 		level_scaled = {
-			building_employment_aristocrats_add = 250
-			building_employment_laborers_add = 750
+			building_employment_aristocrats_add = 750
+			building_employment_laborers_add = 1750
 		}
 		
 	}

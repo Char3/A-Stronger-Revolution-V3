@@ -524,6 +524,12 @@
 	s:STATE_HOME_COUNTIES={
 		region_state:GBR={
 			create_building={
+				building="building_aristocrat_estate"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_aristocratic_estate" }
+			}
+			create_building={
 				building="building_government_administration"
 				level=15
 				reserves=1
@@ -2316,6 +2322,12 @@
 	s:STATE_AUSTRIA={
 		region_state:AUS={
 			create_building={
+				building="building_aristocrat_estate"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_aristocratic_estate" }
+			}
+			create_building={
 				building="building_government_administration"
 				level=10
 				reserves=1
@@ -2891,6 +2903,12 @@
 	}
 	s:STATE_BRANDENBURG={
 		region_state:PRU={
+			create_building={
+				building="building_aristocrat_estate"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_aristocratic_estate" }
+			}
 			create_building={
 				building="building_government_administration"
 				level=13

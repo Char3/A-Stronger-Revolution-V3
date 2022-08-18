@@ -12,6 +12,7 @@
 
 	on_complete = {
 		trigger_event = { id = manifest_destiny.1 }
+		trigger_event = { id = manifest_destiny.4 }
 	}
 
 	weight = 100
@@ -45,4 +46,23 @@ je_manifest_destiny_frontier_wars = {
 	weight = 100
 	
 	inheritable = no
+}
+
+je_manifest_destiny_north_american_destiny = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	# note that if you change this, also update the decision
+	complete = {
+		owns_entire_state_region = STATE_SONORA
+		owns_entire_state_region = STATE_BAJA_CALIFORNIA
+		owns_entire_state_region = STATE_NUEVO_LEON
+		owns_entire_state_region = STATE_CHIHUAHUA
+		owns_entire_state_region = STATE_YUCATAN
+		owns_entire_state_region = STATE_CHIAPAS
+	}
+
+	on_complete = {
+		trigger_event = { id = manifest_destiny.5 }
+	}
+
+	weight = 100
 }

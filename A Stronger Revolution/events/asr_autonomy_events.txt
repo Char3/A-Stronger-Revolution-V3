@@ -1,0 +1,60 @@
+autonomy_law.1 = {
+	type = country_event
+	placement = scope:minority_opposition_state_scope
+	title = autonomy.1.t
+	desc = autonomy.1.d
+	flavor = autonomy.1.f
+
+	event_image = {
+		video = "gfx/event_pictures/africa_leader_arguing.bk2"
+	}
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/africa/leader_arguing"
+
+	duration = 3
+
+	trigger = {
+		has_law = law_type:law_elected_bureaucrats
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_pop = { pop_is_discriminated = yes }
+			any_scope_pop = { pop_is_discriminated = no }
+		}
+	}
+
+	immediate = {
+		random_scope_state = {
+			limit = {
+				any_scope_pop = { pop_is_discriminated = yes }
+				any_scope_pop = { pop_is_discriminated = no }
+			}
+			random_scope_pop = {
+				limit = { pop_is_discriminated = yes }
+				save_scope_as = non_accepted_culture_pop_scope
+			}
+			random_scope_pop = {
+				limit = { pop_is_discriminated = no }
+				save_scope_as = primary_culture_pop_scope
+			}
+			save_scope_as = minority_opposition_state_scope
+		}
+	}
+
+	option = { # allow them their rights
+		name = autonomy.1.a
+		default_option = yes
+		add_modifier = {
+			name = localized_opposition
+		}
+	}
+	
+	option = { # override it
+		name = autonomy.1.b
+		add_modifier = {
+			name = suppressed_local_dissent
+		}
+	}
+}

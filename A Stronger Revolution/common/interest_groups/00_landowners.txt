@@ -79,6 +79,47 @@
 				value = -20
 			}
 		}
+		add = {
+			desc = "Is African American"
+			if = {
+				limit = { 
+					pop_culture = yankee
+				}
+				value = -100
+			}
+		}
+		add = {
+			desc = "Is Dixie"
+			if = {
+				limit = { 
+					pop_culture = dixie
+				}
+				value = 15
+			}
+		}
+		add = {
+			desc = "Dixie Aristocrats"
+			if = {
+				limit = { 
+					is_pop_type = aristocrats
+					pop_culture = dixie
+				}
+				value = 75
+			}
+		}
+		add = {
+			desc = "Native Americans in USA"	
+			if = {
+				limit = { 
+					owner = {
+						has_primary_culture = yankee
+						has_primary_culture = dixie
+					}
+					pop_religion = animist
+				}
+				value = 0.1
+			}		
+		}
 	}
 	
 	monarch_weight = {

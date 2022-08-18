@@ -249,3 +249,11 @@ state_trait_great_lakes = {
 		state_infrastructure_add = 20
 	}	
 }
+
+state_trait_south_atlantic_plain = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+	
+	modifier = {
+		building_group_bg_agriculture_throughput_mult = 0.10
+	}
+}

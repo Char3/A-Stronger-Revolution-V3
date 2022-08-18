@@ -2,7 +2,7 @@
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 
 	complete = {
-		cu:hungarian = {
+		c:hungarian = {
 			NOT = { culture_is_discriminated_in = ROOT }
 		}
 	}
@@ -14,7 +14,7 @@
 	}
 
 	fail = {
-		cu:hungarian = {
+		c:hungarian = {
 			culture_secession_progress = {
 				target = ROOT
 				value > 0.5
@@ -31,11 +31,11 @@
 
 	invalid = {
 		custom_tooltip = {
-			text = austria_hunary_invalid
+			text = austria_hungary_invalid
 			NOT = {
 				any_scope_state = {
 					state_region = {
-						is_homeland = cu:hungarian
+						is_homeland = c:hungarian
 					}
 				}
 			}

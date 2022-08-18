@@ -1,0 +1,1171 @@
+﻿l_russian:
+ # [LocEditor:UntranslatedKey] `ANY_TRIGGER_FILTER_TEXT`
+ TRIGGER_PASSED:0 "@green_checkmark! $TEXT$"
+ TRIGGER_FAILED:0 "@red_cross! $TEXT$"
+ TRIGGER_RESULT_UNDEFINED:0 "  •  $TEXT$"
+ TRIGGER_NAND:0 "Любое из перечисленного:"
+ TRIGGER_OR_NOT:0 "Ничего из перечисленного:"
+ TRIGGER_ALWAYS:0 "Всегда"
+ TRIGGER_HAS_STATE_TRAIT:0 "Есть особенность [STATE_TRAIT.GetName]"
+ TRIGGER_HAS_STATE_TRAIT_NOT:0 "Нет особенности [STATE_TRAIT.GetName]"
+ TRIGGER_IS_HOMELAND:0 "[STATE_REGION.GetName] — родина [TARGET_CULTURE.GetName]ой культуры"
+ TRIGGER_IS_HOMELAND_NOT:0 "[STATE_REGION.GetName] — НЕ родина [TARGET_CULTURE.GetName]ой культуры"
+ TRIGGER_HAS_HOMELAND:0 "[CULTURE.GetName]ий народ считает регион [TARGET_STATE_REGION.GetName] своей родиной"
+ TRIGGER_HAS_HOMELAND_NOT:0 "[CULTURE.GetName]ий народ НЕ считает регион [TARGET_STATE_REGION.GetName] своей родиной"
+ TRIGGER_IS_PLAYER:0 "Под управлением игрока"
+ TRIGGER_IS_PLAYER_NOT:0 "НЕ под управлением игрока"
+ TRIGGER_IS_LOCAL_PLAYER:0 "Под управлением локального игрока"
+ TRIGGER_IS_LOCAL_PLAYER_NOT:0 "НЕ под управлением локального игрока"
+ TRIGGER_IS_AI:0 "Под управлением ИИ"
+ TRIGGER_IS_AI_NOT:0 "НЕ под управлением ИИ"
+ TRIGGER_IS_INTEREST_GROUP_TYPE:0 "Относится к типу #variable $TARGET_TYPE$#!"
+ TRIGGER_IS_INTEREST_GROUP_TYPE_NOT:0 "НЕ относится к типу #variable $TARGET_TYPE$#!"
+ TRIGGER_IS_SAME_INTEREST_GROUP_TYPE:0 "Относится к тому же типу, что и [TARGET_INTEREST_GROUP.GetName]"
+ TRIGGER_IS_SAME_INTEREST_GROUP_TYPE_NOT:0 "НЕ относится к тому же типу, что и [TARGET_INTEREST_GROUP.GetName]"
+ TRIGGER_IS_STATE_RELIGION:0 "Является [Concept('concept_state_religion', 'государственной религией')] государства [TARGET_COUNTRY.GetName]"
+ TRIGGER_IS_STATE_RELIGION_NOT:0 "НЕ является [Concept('concept_state_religion', 'государственной религией')] государства [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_COAST:0 "Есть побережье"
+ TRIGGER_HAS_COAST_NOT:0 "Нет побережья"
+ TRIGGER_IS_STATE_REGION_LAND:0 "[STATE_REGION.GetName] — суша"
+ TRIGGER_IS_STATE_REGION_LAND_NOT:0 "[STATE_REGION.GetName] — НЕ суша"
+ TRIGGER_IS_PROVINCE_LAND:0 "Провинция области [PROVINCE.GetState.GetName] является наземной"
+ TRIGGER_IS_PROVINCE_LAND_NOT:0 "Провинция области [PROVINCE.GetState.GetName] НЕ является наземной"
+ TRIGGER_HAS_BUILDING:0 "Имеется [BuildingType.GetName]"
+ TRIGGER_HAS_BUILDING_NOT:0 "Отсутствует [BuildingType.GetName]"
+ TRIGGER_HAS_ACTIVE_BUILDING:0 "Есть активное сооружение [BuildingType.GetName]"
+ TRIGGER_HAS_ACTIVE_BUILDING_NOT:0 "Нет активного сооружения [BuildingType.GetName]"
+ EVENT_TARGET_NO_CUSTOM_NAME:0 "$SPECIFIC|v$"
+ EVENT_TARGET_CUSTOM_NAME:0 "$GENERAL|v$ ($SPECIFIC|V$)"
+ EVENT_TARGET_NOT_COMPARISON_TRIGGER:0 "$LEFT|v$ НЕ $RIGHT|v$"
+ EVENT_TARGET_COMPARISON_TRIGGER:0 "$LEFT|v$ — это $RIGHT|v$"
+ TRIGGER_HAS_DECREE:0 "Есть [Concept('concept_decree', 'указ')] [DECREE_TYPE.GetName]"
+ TRIGGER_HAS_DECREE_NOT:0 "Нет [Concept('concept_decree', 'указа')] [DECREE_TYPE.GetName]"
+ TRIGGER_HAS_INTEREST_MARKER_IN_REGION:0 "Есть [Concept('concept_interest', 'интерес')] в регионе [TARGET_STRATEGIC_REGION.GetName]"
+ TRIGGER_HAS_INTEREST_MARKER_IN_REGION_NOT:0 "Нет [Concept('concept_interest', 'интереса')] в регионе [TARGET_STRATEGIC_REGION.GetName]"
+ TRIGGER_HAS_TECHNOLOGY_RESEARCHED:0 "Исследована технология «[TECHNOLOGY.GetName]»"
+ TRIGGER_HAS_TECHNOLOGY_RESEARCHED_NOT:0 "НЕ исследована технология «[TECHNOLOGY.GetName]»"
+ TRIGGER_CAN_RESEARCH:0 "Можно исследовать технологию «[TECHNOLOGY.GetName]»"
+ TRIGGER_CAN_RESEARCH_NOT:0 "Нельзя исследовать технологию «[TECHNOLOGY.GetName]»"
+ TRIGGER_IS_WAR_PARTICIPANT:0 "Государство [TARGET_COUNTRY.GetName] участвует"
+ TRIGGER_IS_WAR_PARTICIPANT_NOT:0 "Государство [TARGET_COUNTRY.GetName] НЕ участвует"
+ TRIGGER_CAN_FORM_NATION:0 "Можно создать государство [COUNTRY_FORMATION.GetName]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_CAN_FORM_NATION_NOT:0 "Нельзя создать государство [COUNTRY_FORMATION.GetName]" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_UNIFICATION_CANDIDATE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_UNIFICATION_CANDIDATE_NOT`
+ TRIGGER_HAS_JOURNAL_ENTRY:0 "Есть активная [Concept('concept_journal_entry', 'запись в дневнике')] «[JOURNAL_ENTRY_TYPE.GetName]»"
+ TRIGGER_HAS_JOURNAL_ENTRY_NOT:0 "Нет активной [Concept('concept_journal_entry', 'записи в дневнике')] «[JOURNAL_ENTRY_TYPE.GetName]»"
+ TRIGGER_HAS_VARIABLE:0 "#variable The Country#! has #variable the variable in question#! #todo (remember to make a custom desc for this)#!"
+ TRIGGER_HAS_VARIABLE_NOT:0 "#variable The Country#! does NOT have #variable the variable in question#! #todo (remember to make a custom desc for this)#!"
+ TRIGGER_TAKING_LOANS:0 "Берёт займы"
+ TRIGGER_TAKING_LOANS_NOT:0 "НЕ берёт займы"
+ TRIGGER_COUNTRY_THIS_EQUAL:0 "Государство — [OBJECT_SCOPE.GetCountry.GetName]"
+ TRIGGER_COUNTRY_THIS_EQUAL_NOT:0 "Государство — НЕ [OBJECT_SCOPE.GetCountry.GetName]"
+ TRIGGER_INITIATOR_IS:0 "Государство [TARGET_COUNTRY.GetName] является инициатором"
+ TRIGGER_INITIATOR_IS_NOT:0 "Государство [TARGET_COUNTRY.GetName] НЕ является инициатором"
+ TRIGGER_TARGET_IS:0 "Государство [TARGET_COUNTRY.GetName] является целью"
+ TRIGGER_TARGET_IS_NOT:0 "Государство [TARGET_COUNTRY.GetName] НЕ является целью"
+ TRIGGER_IS_DIPLOMATIC_PLAY_COMMITTED_PARTICIPANT:0 "Является активным участником [Concept('concept_diplomatic_play', 'дипломатической игры')]"
+ TRIGGER_IS_DIPLOMATIC_PLAY_COMMITTED_PARTICIPANT_NOT:0 "НЕ является активным участником [Concept('concept_diplomatic_play', 'дипломатической игры')]"
+ TRIGGER_IS_DIPLOMATIC_PLAY_UNDECIDED_PARTICIPANT:0 "Является колеблющимся участником [Concept('concept_diplomatic_play', 'дипломатической игры')]"
+ TRIGGER_IS_DIPLOMATIC_PLAY_UNDECIDED_PARTICIPANT_NOT:0 "НЕ является колеблющимся участником [Concept('concept_diplomatic_play', 'дипломатической игры')]"
+ TRIGGER_IS_DIPLOMATIC_PLAY_TARGET:0 "Является целью дипломатической игры"
+ TRIGGER_IS_DIPLOMATIC_PLAY_TARGET_NOT:0 "НЕ является целью дипломатической игры"
+ TRIGGER_IS_DIPLOMATIC_PLAY_TYPE:0 "Дипломатическая игра — [DIPLOMATIC_PLAY_TYPE.GetName]"
+ TRIGGER_IS_DIPLOMATIC_PLAY_TYPE_NOT:0 "Дипломатическая игра НЕ [DIPLOMATIC_PLAY_TYPE.GetName]"
+ TRIGGER_HAS_PLAY_GOAL:0 "Цель войны — [WAR_GOAL_TYPE.GetName]"
+ TRIGGER_HAS_PLAY_GOAL_NOT:0 "Цель войны НЕ [WAR_GOAL_TYPE.GetName]"
+ TRIGGER_HAS_WAR_GOAL:0 "Есть цель войны [WAR_GOAL_TYPE.GetName]"
+ TRIGGER_HAS_WAR_GOAL_NOT:0 "Нет цели войны [WAR_GOAL_TYPE.GetName]"
+ TRIGGER_IS_SUBJECT:0 "Является субъектом другой страны"
+ TRIGGER_IS_SUBJECT_NOT:0 "НЕ является субъектом другой страны"
+ TRIGGER_AGGRESSIVE_DIPLOMATIC_PLAYS_PERMITTED:0 "Договор субъекта позволяет государству начинать собственные дипломатические игры (или же государство не является субъектом)"
+ TRIGGER_AGGRESSIVE_DIPLOMATIC_PLAYS_PERMITTED_NOT:0 "Договор субъекта НЕ позволяет государству начинать собственные дипломатические игры"
+ TRIGGER_AVERAGE_COUNTRY_INFRASTRUCTURE:0 "Среднее значение [Concept('concept_infrastructure', 'инфраструктуры')] в областях, принадлежащих стране, $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_AVERAGE_COUNTRY_INFRASTRUCTURE_NOT:0 "Среднее значение [Concept('concept_infrastructure', 'инфраструктуры')] в областях, принадлежащих стране, НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_AVERAGE_INCORPORATED_COUNTRY_INFRASTRUCTURE:0 "Среднее значение [Concept('concept_infrastructure', 'инфраструктуры')] во [Concept('concept_incorporated_state', 'включённых областях')] страны $COMPARATOR$ #variable $NUM$#!" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_AVERAGE_INCORPORATED_COUNTRY_INFRASTRUCTURE_NOT:0 "Среднее значение [Concept('concept_infrastructure', 'инфраструктуры')] во [Concept('concept_incorporated_state', 'включённых областях')] страны НЕ $COMPARATOR$ #variable $NUM$#!" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_WAR:0 "Переросла в войну"
+ TRIGGER_IS_WAR_NOT:0 "НЕ переросла в войну"
+ TRIGGER_IS_COUNTRY_TYPE:0 "#variable $COUNTRY_TYPE$#!"
+ TRIGGER_IS_COUNTRY_TYPE_NOT:0 "НЕ #variable $COUNTRY_TYPE$#!"
+ TRIGGER_IS_SUBJECT_TYPE:0 "Является [Concept('concept_subject', 'субъектом')] типа $SUBJECT_TYPE|v$"
+ TRIGGER_IS_SUBJECT_TYPE_NOT:0 "НЕ является [Concept('concept_subject', 'субъектом')] типа $SUBJECT_TYPE|v$"
+ TRIGGER_CONTEXT_MARKET:0 "$NAME|v$"
+ TRIGGER_CONTEXT_STATE:0 "$NAME|v$"
+ TRIGGER_CONTEXT_COUNTRY:0 "$NAME|v$"
+ TRIGGER_CONTEXT_DEFAULT:0 "$NAME|v$"
+ TRIGGER_HAS_CULTURE:0 "Культура [CULTURE.GetName]ая"
+ TRIGGER_HAS_CULTURE_NOT:0 "Культура НЕ [CULTURE.GetName]ая"
+ TRIGGER_HAS_RELIGION:0 "Исповедует [TARGET_RELIGION.GetName]"
+ TRIGGER_HAS_RELIGION_NOT:0 "НЕ исповедует [TARGET_RELIGION.GetName]"
+ TRIGGER_IS_EMPLOYED:0 "Имеет работу"
+ TRIGGER_IS_EMPLOYED_NOT:0 "НЕ имеет работы"
+ TRIGGER_IS_POP_TYPE:0 "Тип группы населения — [POP_TYPE.GetName]"
+ TRIGGER_IS_POP_TYPE_NOT:0 "Тип группы населения НЕ [POP_TYPE.GetName]"
+ TRIGGER_HAS_TRAIT:0 "Есть черта характера [CHARACTER_TRAIT.GetName]"
+ TRIGGER_HAS_TRAIT_NOT:0 "Нет черты характера [CHARACTER_TRAIT.GetName]"
+ TRIGGER_IS_FEMALE:0 "Женщина"
+ TRIGGER_IS_FEMALE_NOT:0 "НЕ женщина"
+ TRIGGER_IS_CHARACTER_ALIVE:0 "[CHARACTER.GetFullName] живёт"
+ TRIGGER_IS_CHARACTER_ALIVE_NOT:0 "[CHARACTER.GetFullName] НЕ живёт"
+ TRIGGER_IS_BUSY:0 "Имеет занятие"
+ TRIGGER_IS_BUSY_NOT:0 "НЕ имеет занятия"
+ TRIGGER_IS_IN_VOID:0 "Отсутствует"
+ TRIGGER_IS_IN_VOID_NOT:0 "НЕ отсутствует"
+ TRIGGER_IS_BUILDING_TYPE:0 "Сооружение — [BUILDING_TYPE.GetName]"
+ TRIGGER_IS_BUILDING_TYPE_NOT:0 "Сооружение НЕ [BUILDING_TYPE.GetName]"
+ TRIGGER_EXPECTED_QUALITY_OF_LIFE:0 "Ожидаемый уровень жизни $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_EXPECTED_QUALITY_OF_LIFE_NOT:0 "Ожидаемый уровень жизни НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_HAS_MODIFIER:0 "Есть модификатор #variable $MODIFIER$#!"
+ TRIGGER_HAS_MODIFIER_NOT:0 "Нет модификатора #variable $MODIFIER$#!"
+ TRIGGER_HAS_EMPLOYEE_SLOTS_FILLED:0 "Заполнены вакансии"
+ TRIGGER_HAS_EMPLOYEE_SLOTS_FILLED_NOT:0 "НЕ заполнены вакансии"
+ TRIGGER_IS_DIPLOMATIC_PLAY_INITIATOR:0 "Является инициатором дипломатической игры"
+ TRIGGER_IS_DIPLOMATIC_PLAY_INITIATOR_NOT:0 "НЕ является инициатором дипломатической игры"
+ TRIGGER_IN_DEFAULT:0 "Находится в дефолте"
+ TRIGGER_IN_DEFAULT_NOT:0 "НЕ находится в дефолте"
+ TRIGGER_IN_ELECTION_CAMPAIGN:0 "Находится в состоянии предвыборной кампании"
+ TRIGGER_IN_ELECTION_CAMPAIGN_NOT:0 "НЕ находится в состоянии предвыборной кампании"
+ TRIGGER_HAS_WAR_WITH:0 "Находится в состоянии войны с государством [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_WAR_WITH_NOT:0 "НЕ находится в состоянии войны с государством [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_DIPLOMATS_EXPELLED:0 "Недавняя высылка дипломатов государства [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_DIPLOMATS_EXPELLED_NOT:0 "НЕ было недавней высылки дипломатов государства [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_STRATEGIC_ADJACENCY:0 "Есть стратегическая граница с государством $TARGET$"
+ TRIGGER_HAS_STRATEGIC_ADJACENCY_NOT:0 "Нет стратегической границы с государством $TARGET$"
+ TRIGGER_HAS_OVERLAPPING_INTERESTS:0 "Есть столкновение [Concept('concept_interest', 'интересов')] с государством [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_OVERLAPPING_INTERESTS_NOT:0 "Нет столкновения [Concept('concept_interest', 'интересов')] с государством [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_DIPLOMATIC_RELEVANCE:0 "Имеет дипломатическое значение для государства [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_DIPLOMATIC_RELEVANCE_NOT:0 "НЕ имеет дипломатического значения для государства [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_CLAIM:0 "Есть [Concept('concept_claim', 'претензия')] на регион [TARGET_STATE_REGION.GetName]"
+ TRIGGER_HAS_CLAIM_NOT:0 "Нет [Concept('concept_claim', 'претензии')] на регион [TARGET_STATE_REGION.GetName]"
+ TRIGGER_HAS_CLAIM_BY:0 "[Concept('concept_claim', 'Оспаривается')] государством [Country.GetName]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_CLAIM_BY_NOT:0 "НЕ [Concept('concept_claim', 'оспаривается')] государством [Country.GetName]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_IN_WAR_TOGETHER:0 "Является военным союзником государства [TARGET_COUNTRY.GetName]"
+ TRIGGER_IS_IN_WAR_TOGETHER_NOT:0 "НЕ является военным союзником государства [TARGET_COUNTRY.GetName]"
+ TRIGGER_IS_WARLEADER:0 "[TARGET_COUNTRY.GetName|v] — лидер войны"
+ TRIGGER_IS_WARLEADER_NOT:0 "[TARGET_COUNTRY.GetName|v] НЕ лидер войны"
+ TRIGGER_IS_UNDER_CONSTRUCTION:0 "Строится"
+ TRIGGER_IS_UNDER_CONSTRUCTION_NOT:0 "НЕ строится"
+ # [LocEditor:UntranslatedKey] `TRIGGER_OWES_OBLIGATION_TO`
+ # [LocEditor:UntranslatedKey] `TRIGGER_OWES_OBLIGATION_TO_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_OWED_OBLIGATION_BY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_OWED_OBLIGATION_BY_NOT`
+ TRIGGER_HAS_SUBJECT_RELATION_WITH:0 "Есть субъектные отношения с государством [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_SUBJECT_RELATION_WITH_NOT:0 "Нет субъектных отношений с государством [TARGET_COUNTRY.GetName]"
+ TRIGGER_IS_SUBJECT_OF:0 "Является субъектом государства [TARGET_COUNTRY.GetName]"
+ TRIGGER_IS_SUBJECT_OF_NOT:0 "НЕ является субъектом государства [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_DIPLOMATIC_PACT:0 "Есть дипломатические отношения «[DIPLOMATIC_ACTION_TYPE.GetName]» с государством [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_DIPLOMATIC_PACT_NOT:0 "Нет дипломатических отношений «[DIPLOMATIC_ACTION_TYPE.GetName]» с государством [TARGET_COUNTRY.GetName]"
+ TRIGGER_CAN_HAVE_AS_SUBJECT:0 "Страна [TARGET_COUNTRY.GetName] может стать [Concept('concept_subject', 'субъектом')] государства [COUNTRY.GetName] типа $SUBJECT_TYPE|v$"
+ TRIGGER_CAN_HAVE_AS_SUBJECT_NOT:0 "Страна [TARGET_COUNTRY.GetName] НЕ может стать [Concept('concept_subject', 'субъектом')] государства [COUNTRY.GetName] типа $SUBJECT_TYPE|v$"
+ TRIGGER_HAS_STRATEGY:0 "Есть стратегия «#variable [AIStrategy.GetName]»#!"
+ TRIGGER_HAS_STRATEGY_NOT:0 "Нет стратегии «#variable [AIStrategy.GetName]»#!"
+ TRIGGER_HAS_ATTITUDE:0 "Есть намерения #variable $ATTITUDE$#! по отношению к государству [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_ATTITUDE_NOT:0 "Нет намерений #variable $ATTITUDE$#! по отношению к государству [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_SECRET_GOAL:0 "Есть тайная цель «#variable $SECRET_GOAL$#!» в отношении государства [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_SECRET_GOAL_NOT:0 "Нет тайной цели «#variable $SECRET_GOAL$#!» в отношении государства [TARGET_COUNTRY.GetName]"
+ TRIGGER_MODIFIER_EQUAL:0 "Значение модификатора #variable $MODIFIER_NAME$#! равно #variable $VALUE$#!"
+ TRIGGER_CAN_TAKE_ON_SCALED_DEBT:0 "Можно принять на себя [TARGET_COUNTRY.GetAdjective|v]ий долг в размере @money!#variable $VALUE|K0$#!" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_CAN_TAKE_ON_SCALED_DEBT_NOT:0 "Нельзя принять на себя [TARGET_COUNTRY.GetAdjective|v]ий долг в размере @money!#variable $VALUE|K0$#!" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_CAN_HAVE_SUBJECTS:0 "У государства [COUNTRY.GetName] могут быть субъекты"
+ TRIGGER_CAN_HAVE_SUBJECTS_NOT:0 "У государства [COUNTRY.GetName] НЕ может быть субъектов"
+ TRIGGER_IS_IN_CUSTOMS_UNION:0 "Государство [Country.GetName] является частью таможенного союза"
+ TRIGGER_IS_IN_CUSTOMS_UNION_NOT:0 "Государство [Country.GetName] НЕ является частью таможенного союза"
+ TRIGGER_LEADS_CUSTOMS_UNION:0 "Государство [Country.GetName] возглавляет таможенный союз"
+ TRIGGER_LEADS_CUSTOMS_UNION_NOT:0 "Государство [Country.GetName] НЕ возглавляет таможенный союз"
+ TRIGGER_LITERACY_RATE:0 "Государство $SUBJECT$ имеет уровень грамотности $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_LITERACY_RATE_NOT:0 "Государство $SUBJECT$ НЕ имеет уровня грамотности $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_HAS_SCALED_DEBT:0 "Имеется долг $COMPARATOR$ @money!#variable $VALUE|K0$#!"
+ TRIGGER_HAS_SCALED_DEBT_NOT:0 "НЕ имеется долга $COMPARATOR$ @money!#variable $VALUE|K0$#!"
+ TRIGGER_RELATIONS:0 "Отношения между государствами #variable $COUNTRY_ADJ$#! и #variable $TARGET_COUNTRY$#! $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_RELATIONS_NOT:0 "Отношения между государствами #variable $COUNTRY_ADJ$#! и #variable $TARGET_COUNTRY$#! НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_ARABLE_LAND:0 "Пахотных земель $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_ARABLE_LAND_NOT:0 "Пахотных земель НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_FREE_ARABLE_LAND:0 "Доступных пахотных земель $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_FREE_ARABLE_LAND_NOT:0 "Доступных пахотных земель НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_TREASURY:0 "Казна $COMPARATOR$ @money!#variable $NUM$#!"
+ TRIGGER_TREASURY_NOT:0 "Казна НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_INTEREST_GROUP_POPULATION:0 "Население $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_INTEREST_GROUP_POPULATION_NOT:0 "Население НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_WEEKLY_PROFIT:0 "Прибыль за неделю $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_WEEKLY_PROFIT_NOT:0 "Прибыль за неделю НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_OCCUPANCY:0 "Заполненность сооружения [BUILDING.GetName] рабочей силой $COMPARATOR$ #variable $NUM|%0v$#!"
+ TRIGGER_OCCUPANCY_NOT:0 "Заполненность сооружения [BUILDING.GetName] рабочей силой НЕ $COMPARATOR$ #variable $NUM|%0v$#!"
+ TRIGGER_INTEREST_GROUP_POPULATION_PERCENTAGE:0 "Доля населения страны $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_INTEREST_GROUP_POPULATION_PERCENTAGE_NOT:0 "Доля населения страны НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_HAS_TECHNOLOGY_PROGRESS:0 "Прогресс технологии «[TECHNOLOGY.GetName]» $COMPARATOR$ #variable $NUM|%$#!"
+ TRIGGER_HAS_TECHNOLOGY_PROGRESS_NOT:0 "Прогресс технологии «[TECHNOLOGY.GetName]» НЕ $COMPARATOR$ #variable $NUM|%$#!"
+ TRIGGER_ESCALATION:0 "Эскалация $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_ESCALATION_NOT:0 "Эскалация НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_STRATA:0 "Класс $COMPARATOR$ $STRATA$"
+ TRIGGER_STRATA_NOT:0 "Класс НЕ $COMPARATOR$ $STRATA$"
+ TRIGGER_AGE:0 "Возраст $COMPARATOR$ $NUM|v$"
+ TRIGGER_AGE_NOT:0 "Возраст НЕ $COMPARATOR$ $NUM|v$"
+ TRIGGER_COMMANDER_RANK:0 "Звание командира $COMPARATOR$ $NUM|v$"
+ TRIGGER_COMMANDER_RANK_NOT:0 "Звание командира НЕ $COMPARATOR$ $NUM|v$"
+ TRIGGER_ARMY_RESERVES:0 "Армейские резервы $COMPARATOR$ $NUM|v$"
+ TRIGGER_ARMY_RESERVES_NOT:0 "Армейские резервы НЕ $COMPARATOR$ $NUM|v$"
+ TRIGGER_NAVY_RESERVES:0 "Флотские резервы $COMPARATOR$ $NUM|v$"
+ TRIGGER_NAVY_RESERVES_NOT:0 "Флотские резервы НЕ $COMPARATOR$ $NUM|v$"
+ TRIGGER_QUALITY_OF_LIFE:0 "Уровень жизни $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_QUALITY_OF_LIFE_NOT:0 "Уровень жизни НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_STANDARD_OF_LIVING:0 "Уровень жизни $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_STANDARD_OF_LIVING_NOT:0 "Уровень жизни НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_FULLFILLMENT:0 "Удовлетворённость $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_FULLFILLMENT_NOT:0 "Удовлетворённость НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_TURMOIL:0 "Беспорядки $COMPARATOR$ #variable $NUM|%$#!"
+ TRIGGER_TURMOIL_NOT:0 "Беспорядки НЕ $COMPARATOR$ #variable $NUM|%$#!"
+ TRIGGER_LOYALTY:0 "Лоялистов $COMPARATOR$ #variable $NUM|%$#!"
+ TRIGGER_LOYALTY_NOT:0 "Лоялистов НЕ $COMPARATOR$ #variable $NUM|%$#!"
+ TRIGGER_POLLUTION_GENERATION:0 "Общий уровень загрязнения $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_POLLUTION_GENERATION_NOT:0 "Общий уровень загрязнения НЕ $COMPARATOR$ #variable $NUM$#!"
+ # [LocEditor:UntranslatedKey] `TRIGGER_INCORPORATION_PROGRESS`
+ # [LocEditor:UntranslatedKey] `TRIGGER_INCORPORATION_PROGRESS_NOT`
+ TRIGGER_IS_IN_REVOLT:0 "Лоялистов $COMPARATOR$ #variable $NUM|%$#!"
+ TRIGGER_IS_IN_REVOLT_NOT:0 "Лоялистов НЕ $COMPARATOR$ #variable $NUM|%$#!"
+ TRIGGER_INFRASTRUCTURE:0 "Инфраструктура $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_INFRASTRUCTURE_NOT:0 "Инфраструктура НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_INFRASTRUCTURE_USAGE:0 "Масштабы инфраструктуры $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_INFRASTRUCTURE_USAGE_NOT:0 "Масштабы инфраструктуры НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_DEVASTATION:0 "Опустошение $COMPARATOR$ #variable $NUM|%$#!"
+ TRIGGER_DEVASTATION_NOT:0 "Опустошение НЕ $COMPARATOR$ #variable $NUM|%$#!"
+ TRIGGER_TOTAL_URBANIZATION:0 "Общая урбанизация $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_TOTAL_URBANIZATION_NOT:0 "Общая урбанизация НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_TOTAL_POPULATION:0 "Общее население $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_TOTAL_POPULATION_NOT:0 "Общее население НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_INVESTMENT_POOL:0 "Инвестиционный пул $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_INVESTMENT_POOL_NOT:0 "Инвестиционный пул НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_HIGHEST_SECESSION_PROGRESS:0 "Максимальный прогресс движения за отделение $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_HIGHEST_SECESSION_PROGRESS_NOT:0 "Максимальный прогресс движения за отделение НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_REVOLUTION_PROGRESS:0 "Прогресс революции $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_REVOLUTION_PROGRESS_NOT:0 "Прогресс революции НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_IS_INTEREST_ACTIVE:0 "[concept_interest] является [Concept('concept_active_interest', 'активным')]"
+ TRIGGER_IS_INTEREST_ACTIVE_NOT:0 "[concept_interest] НЕ является [Concept('concept_active_interest', 'активным')]"
+ CHECK_AREA_TRIGGER_ADJACENT:0 "Граничит с областью $TARGET$"
+ CHECK_AREA_TRIGGER_ADJACENT_NOT:0 "НЕ граничит с областью $TARGET$"
+ CHECK_AREA_TRIGGER_INTERSECTING:0 "Пересекает область $TARGET$"
+ CHECK_AREA_TRIGGER_INTERSECTING_NOT:0 "НЕ пересекает область $TARGET$"
+ CHECK_AREA_TRIGGER_ADJACENT_INTERSECTING:0 "Граничит с областью $TARGET$ или пересекает её"
+ CHECK_AREA_TRIGGER_ADJACENT_INTERSECTING_NOT:0 "НЕ граничит с областью $TARGET$ и НЕ пересекает её"
+ TRIGGER_DIP_POWER:0 "#variable Дипломатический вес#! (@inf!) $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_DIP_POWER_NOT:0 "#variable Дипломатический вес#! (@inf!) НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_COUNTRY_RANK:0 "Рейтинг страны #variable $NAME_ADJ$#! $COMPARATOR$ $RANK|v$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_COUNTRY_RANK_NOT:0 "Рейтинг страны #variable $NAME_ADJ$#! НЕ $COMPARATOR$ $RANK|v$" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_RANK_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_RANK_THIRD_NOT`
+ TRIGGER_GLOBAL_COUNTRY_RANKING:0 "Рейтинг страны #variable $NAME_ADJ$#! $COMPARATOR$ $NUM|v$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_GLOBAL_COUNTRY_RANKING_NOT:0 "Рейтинг страны #variable $NAME_ADJ$#! НЕ $COMPARATOR$ $NUM|v$" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_GLOBAL_COUNTRY_RANKING_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_GLOBAL_COUNTRY_RANKING_THIRD_NOT`
+ TRIGGER_GOVERNMENT_LEGITIMACY:0 "[concept_legitimacy] государства #variable $NAME_ADJ$#! $COMPARATOR$ #variable $NUM$#!" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_GOVERNMENT_LEGITIMACY_NOT:0 "[concept_legitimacy] государства #variable $NAME_ADJ$#! НЕ $COMPARATOR$ #variable $NUM$#!" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_GOVERNMENT_LEGITIMACY_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_GOVERNMENT_LEGITIMACY_THIRD_NOT`
+ TRIGGER_COUNTRY_TIER:0 "#variable [Concept('concept_country_tier', 'Уровень государства')] [COUNTRY.GetName] — $TIER|v$"
+ TRIGGER_COUNTRY_TIER_NOT:0 "#variable [Concept('concept_country_tier', 'Уровень государства')] [COUNTRY.GetName] НЕ $TIER|v$"
+ CONTEXT_TRIGGER_SCOPE_NAME:0 "$NAME|V$:"
+ CONTEXT_SWITCH_CHARACTER:0 "$NAME|v$"
+ CONTEXT_SWITCH_DIPLOMATIC_PLAY:0 "$NAME|v$"
+ TRIGGER_HAS_DIPLOMATIC_PLAY:0 "В регионе [STRATEGIC_REGION.GetName] происходит дипломатическая игра"
+ TRIGGER_HAS_DIPLOMATIC_PLAY_NOT:0 "В регионе [STRATEGIC_REGION.GetName] НЕ происходит дипломатическая игра"
+ ANY_KEY:0 "любая"
+ COLONY_KEY:0 "колония"
+ TRIGGER_IS_BUILDING_CATEGORY:0 "$CATEGORY$"
+ TRIGGER_IS_BUILDING_CATEGORY_NOT:0 "НЕ $CATEGORY$"
+ TRIGGER_IS_MARGINAL:0 "Заинтересованная группа является [Concept('concept_marginalized', 'отчуждённой')]"
+ TRIGGER_IS_MARGINAL_NOT:0 "Заинтересованная группа НЕ является [Concept('concept_marginalized', 'отчуждённой')]"
+ TRIGGER_IS_POWERFUL:0 "Заинтересованная группа является [Concept('concept_powerful', 'могущественной')]"
+ TRIGGER_IS_POWERFUL_NOT:0 "Заинтересованная группа НЕ является [Concept('concept_powerful', 'могущественной')]"
+ TRIGGER_POP_EMPLOYMENT_BUILDING_GROUP:0 "Работает в сооружении типа #variable $BUILDING_GROUP$#!"
+ TRIGGER_POP_EMPLOYMENT_BUILDING_GROUP_NOT:0 "НЕ работает в сооружении типа #variable $BUILDING_GROUP$#!"
+ TRIGGER_POP_EMPLOYMENT_BUILDING:0 "Работает в сооружении [BUILDING.GetName]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_POP_EMPLOYMENT_BUILDING_NOT:0 "НЕ работает в сооружении [BUILDING.GetName]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_POP_CULTURE:0 "Имеет [CULTURE.GetName]ую культуру"
+ TRIGGER_HAS_POP_CULTURE_NOT:0 "НЕ имеет [CULTURE.GetName]ой культуры"
+ TRIGGER_HAS_POP_RELIGION:0 "Исповедует [RELIGION.GetName]"
+ TRIGGER_HAS_POP_RELIGION_NOT:0 "НЕ исповедует [RELIGION.GetName]"
+ TRIGGER_STATE_RELIGION:0 "[Concept('concept_state_religion', 'Государственной религией')] является [RELIGION.GetName]"
+ TRIGGER_STATE_RELIGION_NOT:0 "[Concept('concept_state_religion', 'Государственной религией')] НЕ является [RELIGION.GetName]"
+ TRIGGER_POP_IS_DISCRIMINATED:0 "Подвергается ущемлению в родной стране"
+ TRIGGER_POP_IS_DISCRIMINATED_NOT:0 "НЕ подвергается ущемлению в родной стране"
+ TRIGGER_POP_HAS_PRIMARY_CULTURE:0 "Принадлежит к основной культуре родной страны"
+ TRIGGER_POP_HAS_PRIMARY_CULTURE_NOT:0 "НЕ принадлежит к основной культуре родной страны"
+ TRIGGER_CULTURE_ACCEPTED:0 "Принадлежит к культуре, считающейся приемлемой в родной стране"
+ TRIGGER_CULTURE_ACCEPTED_NOT:0 "НЕ принадлежит к культуре, считающейся приемлемой в родной стране"
+ TRIGGER_RELIGION_ACCEPTED:0 "Принадлежит к религии, считающейся приемлемой в родной стране"
+ TRIGGER_RELIGION_ACCEPTED_NOT:0 "НЕ принадлежит к религии, считающейся приемлемой в родной стране"
+ TRIGGER_WEALTH:0 "Обладает благосостоянием $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_WEALTH_NOT:0 "НЕ обладает благосостоянием $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_IS_PRIMARY_CULTURE_OF:0 "[CULTURE.GetName]ая культура является основной"
+ TRIGGER_IS_PRIMARY_CULTURE_OF_NOT:0 "[CULTURE.GetName]ая культура НЕ является основной"
+ TRIGGER_SHARES_TRAIT_WITH_ANY_PRIMARY_CULTURE:0 "[CULTURE.GetName]ая культура обладает той же особенностью, что и основная культура государства [TARGET_COUNTRY.GetName]"
+ TRIGGER_SHARES_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOT:0 "[CULTURE.GetName]ая культура НЕ обладает той же особенностью, что и основная культура государства [TARGET_COUNTRY.GetName]"
+ TRIGGER_SHARES_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE:0 "[CULTURE.GetName]ая культура обладает тем же наследием, что и основная культура государства [TARGET_COUNTRY.GetName]"
+ TRIGGER_SHARES_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOT:0 "[CULTURE.GetName]ая культура НЕ обладает тем же наследием, что и основная культура государства [TARGET_COUNTRY.GetName]"
+ TRIGGER_SHARES_NON_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE:0 "[CULTURE.GetName]ая культура обладает той же ненаследной особенностью, что и основная культура государства [TARGET_COUNTRY.GetName]"
+ TRIGGER_SHARES_NON_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOT:0 "[CULTURE.GetName]ая культура НЕ обладает той же ненаследной особенностью, что и основная культура государства [TARGET_COUNTRY.GetName]"
+ # [LocEditor:UntranslatedKey] `TRIGGER_SHARES_HERITAGE_AND_OTHER_TRAIT_WITH_ANY_PRIMARY_CULTURE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_SHARES_HERITAGE_AND_OTHER_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOT`
+ TRIGGER_SHARES_TRAIT_WITH_STATE_RELIGION:0 "[RELIGION.GetName] обладает той же особенностью, что и [Concept('concept_state_religion', 'государственная религия')] государства [TARGET_COUNTRY.GetName]"
+ TRIGGER_SHARES_TRAIT_WITH_STATE_RELIGION_NOT:0 "[RELIGION.GetName] НЕ обладает той же особенностью, что и [Concept('concept_state_religion', 'государственная религия')] государства [TARGET_COUNTRY.GetName]"
+ TRIGGER_SHARES_HERITAGE_TRAIT_WITH_STATE_RELIGION:0 "[RELIGION.GetName] обладает той же особенностью, что и [Concept('concept_state_religion', 'государственная религия')] государства [TARGET_COUNTRY.GetName]"
+ TRIGGER_SHARES_HERITAGE_TRAIT_WITH_STATE_RELIGION_NOT:0 "[RELIGION.GetName] НЕ обладает той же особенностью, что и [Concept('concept_state_religion', 'государственная религия')] государства [TARGET_COUNTRY.GetName]"
+ TRIGGER_MOST_POWERFUL_STRATA:0 "#variable $TYPE$#! обладает наибольшей политической властью"
+ TRIGGER_MOST_POWERFUL_STRATA_NOT:0 "#variable $TYPE$#! НЕ обладает наибольшей политической властью"
+ TRIGGER_IS_INCORPORATED:0 "Является включённой областью"
+ TRIGGER_IS_INCORPORATED_NOT:0 "НЕ является включённой областью"
+ TRIGGER_IS_MASS_MIGRATION_TARGET:0 "[concept_state] [STATE.GetName] является [Concept('concept_mass_migration_target', 'целью массовой миграции')]"
+ TRIGGER_IS_MASS_MIGRATION_TARGET_NOT:0 "[concept_state] [STATE.GetName] НЕ является [Concept('concept_mass_migration_target', 'целью массовой миграции')]"
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_SPLIT_STATE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_SPLIT_STATE_NOT`
+ TRIGGER_IS_LARGEST_STATE_IN_REGION:0 "Является самой крупной [Concept('concept_state', 'областью')] [Concept('concept_state_region', 'региона')]"
+ TRIGGER_IS_LARGEST_STATE_IN_REGION_NOT:0 "НЕ является самой крупной [Concept('concept_state', 'областью')] [Concept('concept_state_region', 'региона')]"
+ TRIGGER_IS_COASTAL:0 "Побережье"
+ TRIGGER_IS_COASTAL_NOT:0 "НЕ побережье"
+ TRIGGER_HAS_PORT:0 "Имеет действующий порт"
+ TRIGGER_HAS_PORT_NOT:0 "НЕ имеет действующего порта"
+ TRIGGER_IS_AT_WAR:0 "Воюет" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_AT_WAR_NOT:0 "НЕ воюет" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_AT_WAR_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_AT_WAR_THIRD_NOT`
+ TRIGGER_IS_RESEARCHING_TECHNOLOGY:0 "Исследует технологию $TECHNOLOGY|v$"
+ TRIGGER_IS_RESEARCHING_TECHNOLOGY_NOT:0 "НЕ исследует технологию $TECHNOLOGY|v$"
+ TRIGGER_IS_RESEARCHING_TECHNOLOGY_CATEGORY:0 "Исследует технологию из категории $TECHNOLOGY_CAT|v$"
+ TRIGGER_IS_RESEARCHING_TECHNOLOGY_CATEGORY_NOT:0 "НЕ исследует технологию из категории $TECHNOLOGY_CAT|v$"
+ TRIGGER_HAS_RESEARCHABLE_TECHNOLOGY:0 "Имеет доступные для изучения технологии"
+ TRIGGER_HAS_RESEARCHABLE_TECHNOLOGY_NOT:0 "НЕ имеет доступных для изучения технологий"
+ TRIGGER_SHOULD_SET_WARGOAL:0 "Отсутствует основная цель дипломатической игры"
+ TRIGGER_SHOULD_SET_WARGOAL_NOT:0 "НЕ отсутствует основная цель дипломатической игры"
+ TRIGGER_IS_LOSING_POWER_RANK:0 "Теряет текущий рейтинг державы"
+ TRIGGER_IS_LOSING_POWER_RANK_NOT:0 "НЕ теряет текущий рейтинг державы"
+ TRIGGER_HAS_DECREASING_INTERESTS:0 "Есть спадающие интересы"
+ TRIGGER_HAS_DECREASING_INTERESTS_NOT:0 "Нет спадающих интересов"
+ TRIGGER_IS_IN_GOVERNMENT:0 "Входит в состав правительства"
+ TRIGGER_IS_IN_GOVERNMENT_NOT:0 "НЕ входит в состав правительства"
+ TRIGGER_IG_APPROVAL:0 "Одобрение $COMPARATOR$ #variable $NUM|0+=$#!"
+ TRIGGER_IG_APPROVAL_NOT:0 "Одобрение НЕ $COMPARATOR$ #variable $NUM|0+=$#!"
+ TRIGGER_IG_CLOUT:0 "Уровень влияния $COMPARATOR$ #variable $NUM|0%$#!"
+ TRIGGER_IG_CLOUT_NOT:0 "Уровень влияния НЕ $COMPARATOR$ #variable $NUM|0%$#!"
+ TRIGGER_IG_GOVERNMENT_POWER_SHARE:0 "Политическая сила в государстве [INTEREST_GROUP.GetCountry.GetName] $COMPARATOR$ #variable $NUM|0%$#! от политической силы правительства"
+ TRIGGER_IG_GOVERNMENT_POWER_SHARE_NOT:0 "Политическая сила в государстве [INTEREST_GROUP.GetCountry.GetName] НЕ $COMPARATOR$ #variable $NUM|0%$#! от политической силы правительства"
+ TRIGGER_IG_STATE_POL_STRENGTH_SHARE:0 "Политическая сила группы [TARGET_INTEREST_GROUP.GetName] $COMPARATOR$ $NUM|%$"
+ TRIGGER_IG_STATE_POL_STRENGTH_SHARE_NOT:0 "Политическая сила группы [TARGET_INTEREST_GROUP.GetName] НЕ $COMPARATOR$ $NUM|%$"
+ TRIGGER_HAS_LAW:0 "Принят закон «[TARGET_LAW_TYPE.GetName]»"
+ TRIGGER_HAS_LAW_NOT:0 "НЕ принят закон «[TARGET_LAW_TYPE.GetName]»"
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_LAW_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_LAW_THIRD_NOT`
+ TRIGGER_HAS_GOVERNMENT_CLOUT:0 "Уровень влияния правительства $COMPARATOR$ #variable $NUM|0%$#!"
+ TRIGGER_HAS_GOVERNMENT_CLOUT_NOT:0 "Уровень влияния правительства НЕ $COMPARATOR$ #variable $NUM|0%$#!"
+ TRIGGER_HAS_RULING_INTEREST_GROUP:0 "В правительство входят #variable $INTEREST_GROUP_TYPE$#!"
+ TRIGGER_HAS_RULING_INTEREST_GROUP_NOT:0 "В правительство НЕ входят #variable $INTEREST_GROUP_TYPE$#!"
+ TRIGGER_HAS_RULING_INTEREST_GROUP_COUNT:0 "Правительство включает в себя $COMPARATOR$ #variable $NUM|0$#! заинтересованных групп"
+ TRIGGER_HAS_RULING_INTEREST_GROUP_COUNT_NOT:0 "Правительство НЕ включает в себя $COMPARATOR$ #variable $NUM|0$#! заинтересованных групп"
+ TRIGGER_HAS_IDEOLOGY:0 "Обладает [Concept('concept_ideology', 'идеологией')] [IDEOLOGY.GetName]"
+ TRIGGER_HAS_IDEOLOGY_NOT:0 "НЕ обладает [Concept('concept_ideology', 'идеологией')] [IDEOLOGY.GetName]"
+ TRIGGER_LAW_STANCE:0 "Отношение к закону «[TARGET_LAW_TYPE.GetName]» $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_LAW_STANCE_NOT:0 "Отношение к закону «[TARGET_LAW_TYPE.GetName]» НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_IS_GOAL_COMPLETE:0 "[JOURNAL_ENTRY.GetGoalDesc]"
+ TRIGGER_IS_GOAL_COMPLETE_NOT:0 "[JOURNAL_ENTRY.GetGoalDesc]"
+ TRIGGER_COUNTRY_HAS_PRIMARY_CULTURE:0 "[TARGET_CULTURE.GetName]ая культура является основной в стране"
+ TRIGGER_COUNTRY_HAS_PRIMARY_CULTURE_NOT:0 "[TARGET_CULTURE.GetName]ая культура НЕ является основной в стране"
+ TRIGGER_COUNTRY_HAS_STATE_RELIGION:0 "[TARGET_RELIGION.GetName] является [Concept('concept_state_religion', 'государственной религией')]"
+ TRIGGER_COUNTRY_HAS_STATE_RELIGION_NOT:0 "[TARGET_RELIGION.GetName] НЕ является [Concept('concept_state_religion', 'государственной религией')]"
+ TRIGGER_HAS_ROLE:0 "Исполняет роль #variable $ROLE$#!"
+ TRIGGER_HAS_ROLE_NOT:0 "НЕ исполняет роль #variable $ROLE$#!"
+ TRIGGER_IS_MONARCH:0 "Является монархом"
+ TRIGGER_IS_MONARCH_NOT:0 "НЕ является монархом"
+ TRIGGER_IS_RULER:0 "Является правителем"
+ TRIGGER_IS_RULER_NOT:0 "НЕ является правителем"
+ TRIGGER_IS_MOBILIZED:0 "Генерал [Concept('concept_mobilize_battalion', 'мобилизован')]"
+ TRIGGER_IS_MOBILIZED_NOT:0 "Генерал НЕ [Concept('concept_mobilize_general', 'мобилизован')]"
+ TRIGGER_HAS_GOVERNMENT_TYPE:0 "Имеет форму правления [GOVERNMENT_TYPE.GetName]"
+ TRIGGER_HAS_GOVERNMENT_TYPE_NOT:0 "НЕ имеет формы правления [GOVERNMENT_TYPE.GetName]"
+ TRIGGER_HAS_RADICALIZED_INTEREST_GROUPS:0 "Есть радикализованные заинтересованные группы"
+ TRIGGER_HAS_RADICALIZED_INTEREST_GROUPS_NOT:0 "Нет радикализованных заинтересованных групп"
+ TRIGGER_HAS_INSURRECTIONARY_INTEREST_GROUPS:0 "Есть мятежные заинтересованные группы"
+ TRIGGER_HAS_INSURRECTIONARY_INTEREST_GROUPS_NOT:0 "Нет мятежных заинтересованных групп"
+ TRIGGER_HAS_RADICALIZING_INTEREST_GROUPS:0 "Есть радикализующиеся заинтересованные группы"
+ TRIGGER_HAS_RADICALIZING_INTEREST_GROUPS_NOT:0 "Нет радикализующихся заинтересованных групп"
+ TRIGGER_HAS_HEALTHY_ECONOMY:0 "Обладает здоровой экономикой"
+ TRIGGER_HAS_HEALTHY_ECONOMY_NOT:0 "НЕ обладает здоровой экономикой"
+ TRIGGER_UNUSED_TRADE_ROUTES:0 "Имеет $COMPARATOR$ #variable $NUM|0$#! неиспользуемых [Concept('concept_trade_route', 'торговых путей')]"
+ TRIGGER_UNUSED_TRADE_ROUTES_NOT:0 "НЕ имеет $COMPARATOR$ #variable $NUM|0$#! неиспользуемых [Concept('concept_trade_route', 'торговых путей')]"
+ TRIGGER_UNUSED_TRADE_ROUTES_IN_MARKET:0 "Неиспользуемых [Concept('concept_trade_route', 'торговых путей')] на [Market.GetName|l]ом рынке $COMPARATOR$ $NUM|0$"
+ TRIGGER_UNUSED_TRADE_ROUTES_IN_MARKET_NOT:0 "Неиспользуемых [Concept('concept_trade_route', 'торговых путей')] на [Market.GetName|l]ом рынке НЕ $COMPARATOR$ $NUM|0$"
+ TRIGGER_ISOLATED_STATES:0 "Имеет [Concept('concept_isolated_state', 'эксклавов')] $COMPARATOR$ #variable $NUM|0$#!" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ISOLATED_STATES_NOT:0 "Имеет [Concept('concept_isolated_state', 'эксклавов')] НЕ $COMPARATOR$ #variable $NUM|0$#!" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_ISOLATED_FROM_MARKET:0 "Область [STATE.GetName] является [Concept('concept_isolated_state', 'эксклавом')]"
+ TRIGGER_IS_ISOLATED_FROM_MARKET_NOT:0 "Область [STATE.GetName] НЕ является [Concept('concept_isolated_state', 'эксклавом')]"
+ TRIGGER_HAS_REVOLUTION:0 "В состоянии революции"
+ TRIGGER_HAS_REVOLUTION_NOT:0 "НЕ в состоянии революции"
+ TRIGGER_IS_REVOLUTIONARY:0 "Является революционным"
+ TRIGGER_IS_REVOLUTIONARY_NOT:0 "НЕ является революционным"
+ # [LocEditor:UntranslatedKey] `TRIGGER_CIVIL_WAR_PROGRESS_GAIN`
+ # [LocEditor:UntranslatedKey] `TRIGGER_CIVIL_WAR_PROGRESS_GAIN_NOT`
+ TRIGGER_HAS_ANY_SECESSIONISTS_POSSIBLE:0 "Есть возможные движения за отделение"
+ TRIGGER_HAS_ANY_SECESSIONISTS_POSSIBLE_NOT:0 "Нет возможных движений за отделение"
+ TRIGGER_HAS_ANY_SECESSIONISTS_GROWING:0 "Есть растущие движения за отделение"
+ TRIGGER_HAS_ANY_SECESSIONISTS_GROWING_NOT:0 "Нет растущих движений за отделение"
+ TRIGGER_HAS_ANY_SECESSIONISTS_BROKEN_OUT:0 "Есть отделившиеся страны"
+ TRIGGER_HAS_ANY_SECESSIONISTS_BROKEN_OUT_NOT:0 "Нет отделившихся стран"
+ TRIGGER_ACTIVE_LENS:0 "$LENS$ активна"
+ TRIGGER_ACTIVE_LENS_NOT:0 "$LENS$ НЕ активна"
+ TRIGGER_IS_PANEL_OPEN:0 "Вкладка $TAB_NAME$ панели $PANEL$ открыта"
+ TRIGGER_IS_PANEL_OPEN_NOT:0 "Вкладка $TAB_NAME$ панели $PANEL$ НЕ открыта"
+ TRIGGER_IS_PRODUCTION_METHOD_ACTIVE:0 "Есть сооружение типа «[BUILDING_TYPE.GetName]», использующее производственный метод [PRODUCTION_METHOD.GetName]"
+ TRIGGER_IS_PRODUCTION_METHOD_ACTIVE_NOT:0 "Нет сооружения типа «[BUILDING_TYPE.GetName]», использующего производственный метод [PRODUCTION_METHOD.GetName]"
+ TRIGGER_CAN_ACTIVATE_PRODUCTION_METHOD:0 "Есть сооружение типа «[BUILDING_TYPE.GetName]», способное выбрать производственный метод [PRODUCTION_METHOD.GetName]"
+ TRIGGER_CAN_ACTIVATE_PRODUCTION_METHOD_NOT:0 "Нет сооружения типа «[BUILDING_TYPE.GetName]», способного выбрать производственный метод [PRODUCTION_METHOD.GetName]"
+ TRIGGER_EXPERIENCE_LEVEL:0 "Уровень опыта $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_EXPERIENCE_LEVEL_NOT:0 "Уровень опыта НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_OWNS_TREATY_PORT_IN:0 "Владеет договорным портом в регионе [STATE_REGION.GetName]"
+ TRIGGER_OWNS_TREATY_PORT_IN_NOT:0 "НЕ владеет договорным портом в регионе [STATE_REGION.GetName]"
+ TRIGGER_COUNTRY_DEFINITION_HAS_CULTURE:0 "Имеет [TARGET_CULTURE.GetName]ую культуру"
+ TRIGGER_COUNTRY_DEFINITION_HAS_CULTURE_NOT:0 "НЕ имеет [TARGET_CULTURE.GetName]ой культуры"
+ TRIGGER_IS_HOME_COUNTRY_FOR:0 "Является родиной государства [TARGET_COUNTRY.GetName]"
+ TRIGGER_IS_HOME_COUNTRY_FOR_NOT:0 "НЕ является родиной государства [TARGET_COUNTRY.GetName]"
+ TRIGGER_ANY_SCOPE_STATE_PERCENT_GREATER_THAN:0 "Выполняется указанная доля требований"
+ TRIGGER_IS_LAND_THEATER:0 "Является сухопутным ТВД"
+ TRIGGER_IS_LAND_THEATER_NOT:0 "НЕ является сухопутным ТВД"
+ violate_sovereignty_trigger_not:0 "Необходим наземный театр военных действий, граничащий с лидерами обеих воюющих сторон"
+ TRIGGER_IS_SLAVE_STATE:0 "[STATE.GetName] — рабовладельческая область"
+ TRIGGER_IS_SLAVE_STATE_NOT:0 "[STATE.GetName] НЕ рабовладельческая область"
+ TRIGGER_HAS_DLC:0 "Обладает дополнением #variable $DLC$#!"
+ TRIGGER_HAS_DLC_NOT:0 "Не обладает дополнением #variable $DLC$#!"
+ TRIGGER_OWNS_ENTIRE_STATE_REGION:0 "Контролирует весь регион [StateRegion.GetName]"
+ TRIGGER_OWNS_ENTIRE_STATE_REGION_NOT:0 "Не контролирует весь регион [StateRegion.GetName]"
+ TRIGGER_COUNTRY_OR_SUBJECT_OWNS_ENTIRE_STATE_REGION:0 "Регион [StateRegion.GetName] принадлежит государству или его субъектам"
+ TRIGGER_COUNTRY_OR_SUBJECT_OWNS_ENTIRE_STATE_REGION_NOT:0 "Регион [StateRegion.GetName] НЕ принадлежит государству или его субъектам"
+ TRIGGER_HAS_STATE_IN_STATE_REGION:0 "Владеет областью в регионе [STATE_REGION.GetName]"
+ TRIGGER_HAS_STATE_IN_STATE_REGION_NOT:0 "Не владеет областью в регионе [STATE_REGION.GetName]"
+ TRIGGER_HAS_ASSIMILATING_POPS:0 "В области [STATE.GetName] идёт [Concept('concept_assimilation', 'ассимиляция')] [Concept('concept_pop', 'групп населения')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_ASSIMILATING_POPS_NOT:0 "В области [STATE.GetName] НЕ идёт [Concept('concept_assimilation', 'ассимиляция')] [Concept('concept_pop', 'групп населения')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_CONVERTING_POPS:0 "В области [STATE.GetName] идёт [Concept('concept_conversion', 'обращение')] [Concept('concept_pop', 'групп населения')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_CONVERTING_POPS_NOT:0 "В области [STATE.GetName] НЕ идёт [Concept('concept_conversion', 'обращение')] [Concept('concept_pop', 'групп населения')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_APPROACHING_BUREAUCRACY_SHORTAGE:0 "$BUREAUCRACY$ в государстве приближается к дефициту"
+ TRIGGER_APPROACHING_BUREAUCRACY_SHORTAGE_NOT:0 "$BUREAUCRACY$ в государстве НЕ приближается к дефициту"
+ TRIGGER_IS_CONSTRUCTION_PAUSED:0 "Строительство приостановлено"
+ TRIGGER_IS_CONSTRUCTION_PAUSED_NOT:0 "Строительство НЕ приостановлено."
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_WASTED_CONSTRUCTION`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_WASTED_CONSTRUCTION_NOT`
+ TRIGGER_HAS_DISCRIMINATION_TRAIT:0 "$SUBJECT$ имеет особенность $TRAIT|v$"
+ TRIGGER_HAS_DISCRIMINATION_TRAIT_NOT:0 "$SUBJECT$ НЕ имеет особенности $TRAIT|v$"
+ TRIGGER_IS_INSURRECTIONARY:0 "Группа «[INTEREST_GROUP.GetName]» мятежная" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_INSURRECTIONARY_NOT:0 "Группа «[INTEREST_GROUP.GetName]» НЕ мятежная" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_INSURRECTIONARY_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_INSURRECTIONARY_THIRD_NOT`
+ TRIGGER_IS_BEING_SUPPRESSED:0 "Группа «[INTEREST_GROUP.GetName]» подавляется"
+ TRIGGER_IS_BEING_SUPPRESSED_NOT:0 "Группа «[INTEREST_GROUP.GetName]» НЕ подавляется"
+ TRIGGER_IS_BEING_PROMOTED:0 "Группа «[INTEREST_GROUP.GetName]» продвигается" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_BEING_PROMOTED_NOT:0 "Группа «[INTEREST_GROUP.GetName]» НЕ продвигается" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_BEING_PROMOTED_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_BEING_PROMOTED_THIRD_NOT`
+ TRIGGER_SHARES_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOCONTEXT:0 "Имеет общую [Concept('concept_cultural_trait', 'особенность')] с любой из [Concept('concept_primary_cultures', 'основных культур')] ([GetPlayer.GetPrimaryCulturesDesc] в государстве [GetPlayer.GetName])" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_SHARES_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOCONTEXT_NOT`
+ TRIGGER_SHARES_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOCONTEXT:0 "Имеет общее [Concept('concept_cultural_heritage_trait', 'наследие')] с любой из [Concept('concept_primary_cultures', 'основных культур')] ([GetPlayer.GetPrimaryCulturesDesc] в государстве [GetPlayer.GetName])"
+ # [LocEditor:UntranslatedKey] `TRIGGER_SHARES_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOCONTEXT_NOT`
+ TRIGGER_SHARES_NON_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOCONTEXT:0 "Имеет общую [Concept('concept_cultural_trait', 'особенность')], но не [Concept('concept_cultural_heritage_trait', 'наследие')], с любой из [Concept('concept_primary_cultures', 'основных культур')] ([GetPlayer.GetPrimaryCulturesDesc] в государстве [GetPlayer.GetName])"
+ # [LocEditor:UntranslatedKey] `TRIGGER_SHARES_NON_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOCONTEXT_NOT`
+ TRIGGER_SCOPE_COUNTRY_NOCONTEXT:0 "Страна"
+ TRIGGER_SHARES_HERITAGE_TRAIT_WITH_STATE_RELIGION_NOCONTEXT:0 "Обладает той же особенностью, что и [Concept('concept_state_religion', 'государственная религия')] ([GetPlayer.GetStateReligion.GetName] в государстве [GetPlayer.GetName])"
+ # [LocEditor:UntranslatedKey] `TRIGGER_SHARES_HERITAGE_TRAIT_WITH_STATE_RELIGION_NOCONTEXT_NOT`
+ TRIGGER_IS_STATE_RELIGION_NOCONTEXT:0 "[concept_state_religion]" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_STATE_RELIGION_NOCONTEXT_NOT`
+ TRIGGER_IS_PRIMARY_CULTURE_OF_NOCONTEXT:0 "[concept_primary_cultures]" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PRIMARY_CULTURE_OF_NOCONTEXT_NOT`
+ TRIGGER_IS_COUNTRY_TYPE_NOCONTEXT_NOT:0 "НЕ #variable $COUNTRY_TYPE$#!"
+ TRIGGER_ALWAYS_NOCONTEXT:0 "Всегда"
+ TRIGGER_POLLUTION_AMOUNT:0 "Загрязнение в регионе [STATE_REGION.GetName] $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_POLLUTION_AMOUNT_NOT:0 "Загрязнение в регионе [STATE_REGION.GetName] НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_IS_CAPITAL:0 "[STATE.GetName] — столица государства [STATE.GetOwner.GetName]"
+ TRIGGER_IS_CAPITAL_NOT:0 "[STATE.GetName] НЕ столица государства [STATE.GetOwner.GetName]"
+ TRIGGER_CONTAINS_CAPITAL_OF:0 "Регион [STATE_REGION.GetName] включает в себя столицу государства [TARGET_COUNTRY.GetName]"
+ TRIGGER_CONTAINS_CAPITAL_OF_NOT:0 "Регион [STATE_REGION.GetName] НЕ включает в себя столицу государства [TARGET_COUNTRY.GetName]"
+ TRIGGER_REMAINING_UNDEPLETED:0 "В регионе [STATE_REGION.GetName] осталось $COMPARATOR$ #variable $NUM$#! ресурсов с сооружениях #variable $BUILDING_GROUP$#!"
+ TRIGGER_REMAINING_UNDEPLETED_NOT:0 "В регионе [STATE_REGION.GetName] осталось НЕ $COMPARATOR$ #variable $NUM$#! ресурсов с сооружениях #variable $BUILDING_GROUP$#!"
+ TRIGGER_IS_MARKET_GOODS_EXPENSIVE:0 "Товар «[GOODS.GetName]» дорог на [Market.GetName|l]ом рынке"
+ TRIGGER_IS_MARKET_GOODS_EXPENSIVE_NOT:0 "Товар «[GOODS.GetName]» НЕ дорог на [Market.GetName|l]ом рынке"
+ TRIGGER_IS_MARKET_GOODS_CHEAP:0 "Товар «[GOODS.GetName]» дешёв на [Market.GetName|l]ом рынке"
+ TRIGGER_IS_MARKET_GOODS_CHEAP_NOT:0 "Товар «[GOODS.GetName]» НЕ дешёв на [Market.GetName|l]ом рынке"
+ TRIGGER_IS_CONSUMED_BY_GOVERNMENT_BUILDINGS:0 "Товар «[GOODS.GetName]» является [Concept('concept_government_good', 'правительственным товаром')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_CONSUMED_BY_GOVERNMENT_BUILDINGS_NOT:0 "Товар «[GOODS.GetName]» НЕ является [Concept('concept_government_good', 'правительственным товаром')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_CONSUMED_BY_MILITARY_BUILDINGS:0 "Товар «[GOODS.GetName]» является [Concept('concept_military_good', 'военным товаром')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_CONSUMED_BY_MILITARY_BUILDINGS_NOT:0 "Товар «[GOODS.GetName]» НЕ является [Concept('concept_military_good', 'военным товаром')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_MARKET_ACCESS_AMOUNT:0 "[concept_market_access] $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_ACCESS_AMOUNT_NOT:0 "[concept_market_access] НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_BUY_ORDERS:0 "Приказы о покупке товара «[GOODS.GetName]» на [Market.GetName|l]ом рынке $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_BUY_ORDERS_NOT:0 "Приказы о покупке товара «[GOODS.GetName]» на [Market.GetName|l]ом рынке НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_SELL_ORDERS:0 "Приказы о продаже товара «[GOODS.GetName]» на [Market.GetName|l]ом рынке $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_SELL_ORDERS_NOT:0 "Приказы о продаже товара «[GOODS.GetName]» на [Market.GetName|l]ом рынке НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_CONSUMPTION:0 "Потребление товара «[GOODS.GetName]» на [Market.GetName|l]ом рынке $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_CONSUMPTION_NOT:0 "Потребление товара «[GOODS.GetName]» на [Market.GetName|l]ом рынке НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_PRODUCTION:0 "Производство товара «[GOODS.GetName]» на [Market.GetName|l]ом рынке $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_PRODUCTION_NOT:0 "Производство товара «[GOODS.GetName]» на [Market.GetName|l]ом рынке НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_LEADING_PRODUCER_OF:0 "Государство [COUNTRY.GetName] является ведущим производителем товара [TARGET_GOODS.GetName]"
+ TRIGGER_LEADING_PRODUCER_OF_NOT:0 "Государство [COUNTRY.GetName] НЕ является ведущим производителем товара [TARGET_GOODS.GetName]"
+ TRIGGER_MARKET_GOODS_IMPORTS:0 "Импорт товара «[GOODS.GetName]» на [Market.GetName|l]ом рынке $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_IMPORTS_NOT:0 "Импорт товара «[GOODS.GetName]» на [Market.GetName|l]ом рынке НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_EXPORTS:0 "Экспорт товара «[GOODS.GetName]» на [Market.GetName|l]ом рынке $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_EXPORTS_NOT:0 "Экспорт товара «[GOODS.GetName]» на [Market.GetName|l]ом рынке НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_DELTA:0 "Дельта товара «[GOODS.GetName]» на [Market.GetName|l]ом рынке $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_DELTA_NOT:0 "Дельта товара «[GOODS.GetName]» на [Market.GetName|l]ом рынке НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_WEEKLY_NET_FIXED_INCOME:0 "Еженедельный постоянный доход государства [COUNTRY.GetName] $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_WEEKLY_NET_FIXED_INCOME_NOT:0 "Еженедельный постоянный доход государства [COUNTRY.GetName] НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_IS_EMBARGOING_GOODS:0 "Государство [COUNTRY.GetName] наложило эмбарго на товар «[TARGET_GOODS.GetName]»"
+ TRIGGER_IS_EMBARGOING_GOODS_NOT:0 "Государство [COUNTRY.GetName] НЕ наложило эмбарго на товар «[TARGET_GOODS.GetName]»"
+ TRIGGER_IS_PROMOTING_GOODS:0 "Государство [COUNTRY.GetName] продвигает товар «[GOODS.GetName]»"
+ TRIGGER_IS_PROMOTING_GOODS_NOT:0 "Государство [COUNTRY.GetName] НЕ продвигает товар «[GOODS.GetName]»"
+ TRIGGER_IS_SUPPRESSING_GOODS:0 "Государство [COUNTRY.GetName] запрещает товар «[GOODS.GetName]»"
+ TRIGGER_IS_SUPPRESSING_GOODS_NOT:0 "Государство [COUNTRY.GetName] НЕ запрещает товар «[GOODS.GetName]»"
+ TRIGGER_IS_TAXING_GOODS:0 "Государство [COUNTRY.GetName] облагает товар «[GOODS.GetName]» налогом"
+ TRIGGER_IS_TAXING_GOODS_NOT:0 "Государство [COUNTRY.GetName] НЕ облагает товар «[GOODS.GetName]» налогом"
+ TRIGGER_INSTITUTION_INVESTMENT_LEVEL:0 "Уровень инвестиций в институт [INSTITUTION_TYPE.GetName] $COMPARATOR$ $NUM$"
+ TRIGGER_INSTITUTION_INVESTMENT_LEVEL_NOT:0 "Уровень инвестиций в институт [INSTITUTION_TYPE.GetName] НЕ $COMPARATOR$ $NUM$"
+ # [LocEditor:UntranslatedKey] `TRIGGER_INSTITUTION_INVESTMENT_LEVEL_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_INSTITUTION_INVESTMENT_LEVEL_THIRD_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_TAX_LEVEL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_TAX_LEVEL_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_TAX_LEVEL_VALUE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_TAX_LEVEL_VALUE_NOT`
+ TRIGGER_NUM_TAXED_GOODS:0 "Количество товаров, облагаемых налогом, $COMPARATOR$ $NUM$"
+ TRIGGER_NUM_TAXED_GOODS_NOT:0 "Количество товаров, облагаемых налогом, НЕ $COMPARATOR$ $NUM$"
+ TRIGGER_IS_GOVERNMENT_FUNDED:0 "[concept_government_building]"
+ TRIGGER_IS_GOVERNMENT_FUNDED_NOT:0 "НЕ [concept_government_building]"
+ TRIGGER_BUILDING_HAS_GOODS_SHORTAGE:0 "Имеется [Concept('concept_input_goods_shortage', 'дефицит потребляемых продуктов')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_BUILDING_HAS_GOODS_SHORTAGE_NOT:0 "Отсутствует [Concept('concept_input_goods_shortage', 'дефицит потребляемых продуктов')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_MARKET_HAS_GOODS_SHORTAGE:0 "Имеется [Concept('concept_input_goods_shortage', 'дефицит потребляемых продуктов')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_MARKET_HAS_GOODS_SHORTAGE_NOT:0 "Отсутствует [Concept('concept_input_goods_shortage', 'дефицит потребляемых продуктов')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_MARKET_GOODS_HAS_GOODS_SHORTAGE:0 "Имеется [Concept('concept_input_goods_shortage', 'дефицит потребляемых продуктов')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_MARKET_GOODS_HAS_GOODS_SHORTAGE_NOT:0 "Отсутствует [Concept('concept_input_goods_shortage', 'дефицит потребляемых продуктов')]" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_CONSUMPTION_TAX`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_CONSUMPTION_TAX_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_DESIRED_LAW_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_DESIRED_LAW_EQUAL_NOT`
+ TRIGGER_STATE_REGION_HAS_GOODS_SHORTAGE:0 "Имеется [Concept('concept_input_goods_shortage', 'дефицит потребляемых продуктов')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_STATE_REGION_HAS_GOODS_SHORTAGE_NOT:0 "Отсутствует [Concept('concept_input_goods_shortage', 'дефицит потребляемых продуктов')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_SUBSISTENCE_BUILDING:0 "[concept_subsistence_building]"
+ TRIGGER_IS_SUBSISTENCE_BUILDING_NOT:0 "НЕ [concept_subsistence_building]"
+ TRIGGER_EARNINGS:0 "Доход сооружения [BUILDING.GetName] $COMPARATOR$ $NUM$"
+ TRIGGER_EARNINGS_NOT:0 "Доход сооружения [BUILDING.GetName] НЕ $COMPARATOR$ $NUM$"
+ TRIGGER_IS_PROGRESSING:0 "Задача «[JournalEntry.GetName]» продвигается"
+ TRIGGER_IS_PROGRESSING_NOT:0 "Задача «[JournalEntry.GetName]» НЕ продвигается"
+ TRIGGER_HAS_OBJECTIVE:0 "У государства [Country.GetName] есть цель «[Objective.GetName]»"
+ TRIGGER_HAS_OBJECTIVE_NOT:0 "У государства [Country.GetName] нет цели «[Objective.GetName]»"
+ TRIGGER_HAS_COMPLETED_SUBGOAL:0 "Государство [Country.GetName] выполнило вторичную цель $SUBGOAL$"
+ TRIGGER_HAS_COMPLETED_SUBGOAL_NOT:0 "Государство [Country.GetName] НЕ выполнило вторичную цель $SUBGOAL$"
+ TRIGGER_IT_IS_WINTER:0 "Зима"
+ TRIGGER_IT_IS_WINTER_NOT:0 "Не зима"
+ TRIGGER_IT_IS_SPRING:0 "Весна"
+ TRIGGER_IT_IS_SPRING_NOT:0 "Не весна"
+ TRIGGER_IT_IS_SUMMER:0 "Лето"
+ TRIGGER_IT_IS_SUMMER_NOT:0 "Не лето"
+ TRIGGER_IT_IS_AUTUMN:0 "Осень"
+ TRIGGER_IT_IS_AUTUMN_NOT:0 "Не осень"
+ TRIGGER_HAS_CULTURAL_OBSESSION:0 "[CULTURE.GetName]ая культура испытывает тягу к товару «[GOODS.GetName]»"
+ TRIGGER_HAS_CULTURAL_OBSESSION_NOT:0 "[CULTURE.GetName]ая культура НЕ испытывает тягу к товару «[GOODS.GetName]»"
+ TRIGGER_HAS_RELIGIOUS_TABOO:0 "В религии [RELIGION.GetName] есть табу на товар «[GOODS.GetName]»"
+ TRIGGER_HAS_RELIGIOUS_TABOO_NOT:0 "В религии [RELIGION.GetName] нет табу на товар «[GOODS.GetName]»"
+ TRIGGER_RADICAL_FRACTION:0 "Доля [Concept('concept_radical', 'радикалов')] среди всех [Concept('concept_pop', 'групп населения')] ($FILTER$) $COMPARATOR$ $NUM$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_RADICAL_FRACTION_NOT:0 "Доля [Concept('concept_radical', 'радикалов')] среди всех [Concept('concept_pop', 'групп населения')] ($FILTER$) НЕ $COMPARATOR$ $NUM$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_LOYALIST_FRACTION:0 "Доля [Concept('concept_loyalist', 'лоялистов')] среди всех [Concept('concept_pop', 'групп населения')] ($FILTER$) $COMPARATOR$ $NUM$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_LOYALIST_FRACTION_NOT:0 "Доля [Concept('concept_loyalist', 'лоялистов')] среди всех [Concept('concept_pop', 'групп населения')] ($FILTER$) НЕ $COMPARATOR$ $NUM$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_COMMANDER_ORDER:0 "Приказ командира — [COMMANDER_ORDER_TYPE.GetName]"
+ TRIGGER_HAS_COMMANDER_ORDER_NOT:0 "Приказ командира НЕ [COMMANDER_ORDER_TYPE.GetName]"
+ TRIGGER_GAME_DATE:0 "Текущая дата $COMPARATOR$ $DATE$"
+ TRIGGER_GAME_DATE_NOT:0 "Текущая дата НЕ $COMPARATOR$ $DATE$"
+ TRIGGER_ENACTING_ANY_LAW:0 "Принимает закон"
+ TRIGGER_ENACTING_ANY_LAW_NOT:0 "НЕ принимает закон"
+ TRIGGER_IS_ENACTING_LAW:0 "Принимает закон [TARGET_LAW_TYPE.GetName]"
+ TRIGGER_IS_ENACTING_LAW_NOT:0 "НЕ принимает закон [TARGET_LAW_TYPE.GetName]"
+ TRIGGER_IS_EXPANDING_INSTITUTION:0 "Расширяет институт"
+ TRIGGER_IS_EXPANDING_INSTITUTION_NOT:0 "НЕ расширяет институт"
+ TRIGGER_EXPANDING_INSTITUTION:0 "Расширяет институт [InstitutionType.GetName]"
+ TRIGGER_EXPANDING_INSTITUTION_NOT:0 "НЕ расширяет институт [InstitutionType.GetName]"
+ TRIGGER_CULTURE_IS_DISCRIMINATED_IN:0 "Подвергается ущемлению в государстве [Country.GetName]"
+ TRIGGER_CULTURE_IS_DISCRIMINATED_IN_NOT:0 "НЕ подвергается ущемлению в государстве [Country.GetName]"
+ TRIGGER_CULTURE_SECESSION_PROGRESS:0 "[CULTURE.GetName]ая культура в государстве [TARGET_COUNTRY.GetName]: прогресс [Concept('concept_secession', 'отделения')] ($CURRENT_VALUE$) $COMPARATOR$ $NUM|v$"
+ TRIGGER_CULTURE_SECESSION_PROGRESS_NOT:0 "[CULTURE.GetName]ая культура в государстве [TARGET_COUNTRY.GetName]: прогресс [Concept('concept_secession', 'отделения')] ($CURRENT_VALUE$) НЕ $COMPARATOR$ $NUM|v$"
+ TRIGGER_HAS_ONGOING_CONVERSION:0 "В группе [Pop.GetName] идёт религиозное обращение"
+ TRIGGER_HAS_ONGOING_CONVERSION_NOT:0 "В группе [Pop.GetName] НЕ идёт религиозное обращение"
+ TRIGGER_HAS_ONGOING_ASSIMILATION:0 "В группе [Pop.GetName] идёт культурная ассимиляция"
+ TRIGGER_HAS_ONGOING_ASSIMILATION_NOT:0 "В группе [Pop.GetName] НЕ идёт культурная ассимиляция"
+ TRIGGER_LAW_APPROVED_BY:0 "Закон [Law.GetName] одобряется заинтересованной группой [InterestGroup.GetName]"
+ TRIGGER_LAW_APPROVED_BY_NOT:0 "Закон [Law.GetName] НЕ одобряется заинтересованной группой [InterestGroup.GetName]"
+ TRIGGER_HAS_WAR_SUPPORT:0 "[Country.GetAdjective]ая [Concept('concept_war_support', 'воинственность')] ($CURRENT_VALUE$) $COMPARATOR$ $NUM|v$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_WAR_SUPPORT_NOT:0 "[Country.GetAdjective]ая [Concept('concept_war_support', 'воинственность')] НЕ $COMPARATOR$ $NUM|v$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_WAR_EXHAUSTION:0 "[Country.GetAdjective]ое [Concept('concept_war_exhaustion', 'утомление войной')] $COMPARATOR$ $NUM|v$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_WAR_EXHAUSTION_NOT:0 "[Country.GetAdjective]ое [Concept('concept_war_exhaustion', 'утомление войной')] НЕ $COMPARATOR$ $NUM|v$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_TRUCE_WITH:0 "У государства [COUNTRY.GetName] есть перемирие со страной [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_TRUCE_WITH_NOT:0 "У государства [COUNTRY.GetName] нет перемирия со страной [TARGET_COUNTRY.GetName]"
+ TRIGGER_IS_BEING_CONVOY_RAIDED:0 "Конвои государства [Country.GetName] подвергаются налётам"
+ TRIGGER_IS_BEING_CONVOY_RAIDED_NOT:0 "Конвои государства [Country.GetName] НЕ подвергаются налётам"
+ TRIGGER_IS_VIOLATING_SOVEREIGNTY_OF:0 "Государство [COUNTRY.GetName] нарушает [TARGET_COUNTRY.GetAdjective]ий [Concept('concept_sovereignty', 'суверенитет')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_VIOLATING_SOVEREIGNTY_OF_NOT:0 "Государство [COUNTRY.GetName] НЕ нарушает [TARGET_COUNTRY.GetAdjective]ий [Concept('concept_sovereignty', 'суверенитет')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_SUBSIDIZED:0 "Сооружение [Building.GetName] получает [Concept('concept_subsidies', 'субсидии')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_SUBSIDIZED_NOT:0 "Сооружение [Building.GetName] НЕ получает [Concept('concept_subsidies', 'субсидии')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_REPAIRING:0 "[Character.GetFullName] производит ремонт после проигранного морского сражения"
+ TRIGGER_IS_REPAIRING_NOT:0 "Персонаж [Character.GetFullName] в последнее время не проигрывал морских сражений"
+ TRIGGER_IS_ADVANCING_ON_FRONT:0 "[CHARACTER.GetFullName] ведёт наступление на фронте [TARGET_FRONT.GetName]"
+ TRIGGER_IS_ADVANCING_ON_FRONT_NOT:0 "[CHARACTER.GetFullName] НЕ ведёт наступление на фронте [TARGET_FRONT.GetName]"
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_HIGH_ATTRITION`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_HIGH_ATTRITION_NOT`
+ TRIGGER_HAS_ACTIVE_PRODUCTION_METHOD:0 "В сооружении [BUILDING.GetName] выбран производственный метод «[PRODUCTION_METHOD.GetName]»"
+ TRIGGER_HAS_ACTIVE_PRODUCTION_METHOD_NOT:0 "В сооружении [BUILDING.GetName] НЕ выбран производственный метод «[PRODUCTION_METHOD.GetName]»"
+ TRIGGER_CASH_RESERVES_AVAILABLE:0 "[concept_cash_reserves] сооружения [BUILDING.GetName] $COMPARATOR$ @money!$NUM|vD$"
+ TRIGGER_CASH_RESERVES_AVAILABLE_NOT:0 "[concept_cash_reserves] сооружения [BUILDING.GetName] НЕ $COMPARATOR$ @money!$NUM|vD$"
+ TRIGGER_CASH_RESERVES_RATIO:0 "[concept_cash_reserves] сооружения [BUILDING.GetName] $COMPARATOR$ $NUM|%0v$"
+ TRIGGER_CASH_RESERVES_RATIO_NOT:0 "[concept_cash_reserves] сооружения [BUILDING.GetName] НЕ $COMPARATOR$ $NUM|%0v$"
+ TRIGGER_IS_TRADE_ROUTE_ACTIVE:0 "[concept_trade_route] используется"
+ TRIGGER_IS_TRADE_ROUTE_ACTIVE_NOT:0 "[concept_trade_route] не используется"
+ TRIGGER_IS_CONSTRUCTION_EXPENSIVE:0 "Строительство сооружения [BuildingType.GetName] в области [State.GetName] дорого"
+ TRIGGER_IS_CONSTRUCTION_EXPENSIVE_NOT:0 "Строительство сооружения [BuildingType.GetName] в области [State.GetName] НЕ дорого"
+ TRIGGER_IS_BUILDABLE:0 "Сооружение [BuildingType.GetName] можно строить вручную"
+ TRIGGER_IS_BUILDABLE_NOT:0 "Сооружение [BuildingType.GetName] нельзя строить вручную"
+ TRIGGER_NUM_CASUALTIES:0 "Общее количество потерь в войне «[War.GetName]» $COMPARATOR$ #variable $NUM|0+=$#!"
+ TRIGGER_NUM_CASUALTIES_NOT:0 "Общее количество потерь в войне «[War.GetName]» НЕ $COMPARATOR$ #variable $NUM|0+=$#!"
+ TRIGGER_NUM_WOUNDED:0 "Общее количество раненых в войне «[War.GetName]» $COMPARATOR$ #variable $NUM|0+=$#!"
+ TRIGGER_NUM_WOUNDED_NOT:0 "Общее количество раненых в войне «[War.GetName]» НЕ $COMPARATOR$ #variable $NUM|0+=$#!"
+ TRIGGER_NUM_DEAD:0 "Общее количество убитых в войне «[War.GetName]» $COMPARATOR$ #variable $NUM|0+=$#!"
+ TRIGGER_NUM_DEAD_NOT:0 "Общее количество убитых в войне «[War.GetName]» НЕ $COMPARATOR$ #variable $NUM|0+=$#!"
+ TRIGGER_NUM_COUNTRY_CASUALTIES:0 "Общее количество #v [Country.GetAdjective]их#! потерь в войне «[War.GetName]» $COMPARATOR$ #variable $NUM|0+=$#!" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_NUM_COUNTRY_CASUALTIES_NOT:0 "Общее количество #v [Country.GetAdjective]их#! потерь в войне «[War.GetName]» НЕ $COMPARATOR$ #variable $NUM|0+=$#!" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_NUM_COUNTRY_WOUNDED:0 "Общее количество #v [Country.GetAdjective]их#! раненых в войне «[War.GetName]» $COMPARATOR$ #variable $NUM|0+=$#!" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_NUM_COUNTRY_WOUNDED_NOT:0 "Общее количество #v [Country.GetAdjective]их#! раненых в войне «[War.GetName]» НЕ $COMPARATOR$ #variable $NUM|0+=$#!" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_NUM_COUNTRY_DEAD:0 "Общее количество #v [Country.GetAdjective]их#! убитых в войне «[War.GetName]» $COMPARATOR$ #variable $NUM|0+=$#!" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_NUM_COUNTRY_DEAD_NOT:0 "Общее количество #v [Country.GetAdjective]их#! убитых в войне «[War.GetName]» НЕ $COMPARATOR$ #variable $NUM|0+=$#!" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_POLITICAL_MOVEMENT_SUPPORT:0 "Поддержка $COMPARATOR$ #variable $NUM|0+=$#!"
+ TRIGGER_POLITICAL_MOVEMENT_SUPPORT_NOT:0 "Поддержка НЕ $COMPARATOR$ #variable $NUM|%0$#!"
+ TRIGGER_POLITICAL_MOVEMENT_RADICALISM:0 "Радикализм $COMPARATOR$ #variable $NUM|0+=$#!"
+ TRIGGER_POLITICAL_MOVEMENT_RADICALISM_NOT:0 "Радикализм НЕ $COMPARATOR$ #variable $NUM|%0$#!"
+ TRIGGER_IS_POLITICAL_MOVEMENT_TYPE:0 "Тип — $MOVEMENT_TYPE|v$"
+ TRIGGER_IS_POLITICAL_MOVEMENT_TYPE_NOT:0 "Тип НЕ $MOVEMENT_TYPE|v$"
+ TRIGGER_IS_COUNTRY_ALIVE:0 "Государство [Country.GetName] существует"
+ TRIGGER_IS_COUNTRY_ALIVE_NOT:0 "Государство [Country.GetName] уничтожено"
+ TRIGGER_CIVIL_WAR_PROGRESS:0 "Прогресс [Concept('concept_civil_war', 'гражданской войны')] $COMPARATOR$ #variable $NUM|0$#!"
+ TRIGGER_CIVIL_WAR_PROGRESS_NOT:0 "Прогресс [Concept('concept_civil_war', 'гражданской войны')] НЕ $COMPARATOR$ #variable $NUM|0$#!"
+ TRIGGER_IS_CIVIL_WAR_TYPE:0 "[concept_civil_war] относится к типу #v $CIVIL_WAR_TYPE$#!"
+ TRIGGER_IS_CIVIL_WAR_TYPE_NOT:0 "[concept_civil_war] НЕ относится к типу #v $CIVIL_WAR_TYPE$#!"
+ TRIGGER_IS_TREATY_PORT:0 "Область [State.GetName] является [Concept('concept_treaty_port', 'договорным портом')]"
+ TRIGGER_IS_TREATY_PORT_NOT:0 "Область [State.GetName] НЕ является [Concept('concept_treaty_port', 'договорным портом')]"
+ TRIGGER_STATE_UNEMPLOYMENT_RATE:0 "Безработица в области [State.GetName] $COMPARATOR$ #v $NUM|0%$#!"
+ TRIGGER_STATE_UNEMPLOYMENT_RATE_NOT:0 "Безработица в области [State.GetName] НЕ $COMPARATOR$ #v $NUM|0%$#!"
+ TRIGGER_STATE_POPULATION:0 "Общее население области [State.GetName] $COMPARATOR$ #v $NUM|K$#!"
+ TRIGGER_STATE_POPULATION_NOT:0 "Общее население области [State.GetName] НЕ $COMPARATOR$ #v $NUM|K$#!"
+ TRIGGER_IS_HEIR:0 "[concept_heir]"
+ TRIGGER_IS_HEIR_NOT:0 "НЕ [Concept('concept_heir', 'наследник')]"
+ TRIGGER_HAS_POTENTIAL_RESOURCE:0 "Можно строить сооружения категории #v $BUILDING_GROUP$#! в области [STATE.GetName]"
+ TRIGGER_HAS_POTENTIAL_RESOURCE_NOT:0 "Нельзя строить сооружения категории #v $BUILDING_GROUP$#! в области [STATE.GetName]"
+ TRIGGER_IS_ENCOURAGING_CONSUMPTION:0 "Государство [COUNTRY.GetName] поощряет потребление товара «[TARGET_GOODS.GetName]»"
+ TRIGGER_IS_ENCOURAGING_CONSUMPTION_NOT:0 "Государство [COUNTRY.GetName] НЕ поощряет потребление товара «[TARGET_GOODS.GetName]»"
+ TRIGGER_IS_DISCOURAGING_CONSUMPTION:0 "Государство [COUNTRY.GetName] препятствует потреблению товара «[TARGET_GOODS.GetName]»"
+ TRIGGER_IS_DISCOURAGING_CONSUMPTION_NOT:0 "Государство [COUNTRY.GetName] НЕ препятствует потреблению товара «[TARGET_GOODS.GetName]»"
+ TRIGGER_AUTHORITY:0 "Количество [Concept('concept_authority', 'авторитета')] @aut! $COMPARATOR$ #variable $NUM|0$#!"
+ TRIGGER_AUTHORITY_NOT:0 "Количество [Concept('concept_authority', 'авторитета')] @aut! НЕ $COMPARATOR$ #variable $NUM|0$#!"
+ TRIGGER_BUREAUCRACY:0 "Количество [Concept('concept_bureaucracy', 'бюрократии')] @bur! $COMPARATOR$ #variable $NUM|0$#!"
+ TRIGGER_BUREAUCRACY_NOT:0 "Количество [Concept('concept_bureaucracy', 'бюрократии')] @bur! НЕ $COMPARATOR$ #variable $NUM|0$#!"
+ TRIGGER_INFLUENCE:0 "Количество [Concept('concept_influence', 'влияния')] @inf! $COMPARATOR$ #variable $NUM|0$#!"
+ TRIGGER_INFLUENCE_NOT:0 "Количество [Concept('concept_influence', 'влияния')] @inf! НЕ $COMPARATOR$ #variable $NUM|0$#!"
+ TRIGGER_ELECTION_MOMENTUM:0 "Количество [Concept('concept_momentum', 'мотивации')] $COMPARATOR$ $NUM|%v$ ($CURRENT_VALUE$)"
+ TRIGGER_ELECTION_MOMENTUM_NOT:0 "Количество [Concept('concept_momentum', 'мотивации')] НЕ $COMPARATOR$ $NUM|%v$ ($CURRENT_VALUE$)"
+ TRIGGER_IS_HOMELAND_OF_COUNTRY_CULTURES:0 "Государство [TARGET_COUNTRY.GetName] считает область [STATE.GetName] своей родиной"
+ TRIGGER_IS_HOMELAND_OF_COUNTRY_CULTURES_NOT:0 "Государство [TARGET_COUNTRY.GetName] не считает область [STATE.GetName] своей родиной"
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_PARTY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_PARTY_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_MEMBER_OF_PARTY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_MEMBER_OF_PARTY_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PARTY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PARTY_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PARTY_TYPE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PARTY_TYPE_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PARTY_TYPE_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PARTY_TYPE_THIRD_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_SAME_PARTY_TYPE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_SAME_PARTY_TYPE_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_SAME_PARTY_TYPE_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_SAME_PARTY_TYPE_THIRD_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_PARTY_MEMBER`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_PARTY_MEMBER_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_PARTY_MEMBER_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_PARTY_MEMBER_THIRD_NOT`
+ 
+  #For each script list, we need TRIGGER_<key>, TRIGGER_<key>_ALL, TRIGGER_<key>_PERCENT and TRIGGER_<key>_COUNT
+ TRIGGER_ANY_MARKET:0 "Любой [Concept('concept_market', 'рынок')]:"
+ TRIGGER_ANY_MARKET_ALL:0 "Все [Concept('concept_market', 'рынки')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_MARKET_PERCENT:0 "$PARAMETERS$ [Concept('concept_market', 'рынков')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_MARKET_COUNT:0 "$PARAMETERS$ [Concept('concept_market', 'рынков')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_THEATER:0 "Любой [Concept('concept_theater', 'театр военных действий')]:"
+ TRIGGER_ANY_SCOPE_THEATER_ALL:0 "Все [Concept('concept_theater', 'театры военных действий')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_THEATER_PERCENT:0 "$PARAMETERS$ [Concept('concept_theater', 'театров военных действий')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_THEATER_COUNT:0 "$PARAMETERS$ [Concept('concept_theater', 'театров военных действий')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_POP:0 "Любая [Concept('concept_pop', 'группа населения')]:"
+ TRIGGER_ANY_SCOPE_POP_ALL:0 "Все [Concept('concept_pop', 'группы населения')]:"
+ TRIGGER_ANY_SCOPE_POP_PERCENT:0 "$PARAMETERS$ [Concept('concept_pop', 'групп населения')]:"
+ TRIGGER_ANY_SCOPE_POP_COUNT:0 "$PARAMETERS$ [Concept('concept_pop', 'групп населения')]:"
+ TRIGGER_ANY_SCOPE_BUILDING:0 "Любое [Concept('concept_building', 'сооружение')]:"
+ TRIGGER_ANY_SCOPE_BUILDING_ALL:0 "Все [Concept('concept_building', 'сооружения')]:"
+ TRIGGER_ANY_SCOPE_BUILDING_PERCENT:0 "$PARAMETERS$ [Concept('concept_building', 'сооружений')]:"
+ TRIGGER_ANY_SCOPE_BUILDING_COUNT:0 "$PARAMETERS$ [Concept('concept_building', 'сооружений')]:"
+ TRIGGER_ANY_SCOPE_INTEREST_MARKER:0 "Любая метка интереса:"
+ TRIGGER_ANY_SCOPE_INTEREST_MARKER_ALL:0 "Все метки интереса:"
+ TRIGGER_ANY_SCOPE_INTEREST_MARKER_PERCENT:0 "$PARAMETERS$ меток интереса:"
+ TRIGGER_ANY_SCOPE_INTEREST_MARKER_COUNT:0 "$PARAMETERS$ меток интереса:"
+ 
+ TRIGGER_ANY_INTEREST_GROUP:0 "Любая [Concept('concept_interest_group', 'заинтересованная группа')]:"
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_INTEREST_GROUP_FIRST`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_INTEREST_GROUP_THIRD`
+ TRIGGER_ANY_INTEREST_GROUP_ALL:0 "Все [Concept('concept_interest_group', 'заинтересованные группы')]:"
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_INTEREST_GROUP_ALL_THIRD`
+ TRIGGER_ANY_INTEREST_GROUP_PERCENT:0 "$PARAMETERS$ [Concept('concept_interest_group', 'заинтересованных групп')]:"
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_INTEREST_GROUP_PERCENT_THIRD`
+ TRIGGER_ANY_INTEREST_GROUP_COUNT:0 "$PARAMETERS$ [Concept('concept_interest_group', 'заинтересованных групп')]:"
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_INTEREST_GROUP_COUNT_THIRD`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_ALL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_ALL_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_PERCENT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_PERCENT_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_COUNT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_COUNT_THIRD`
+ 
+ TRIGGER_ANY_SUPPORTING_INTEREST_GROUP:0 "Любая поддерживающая [Concept('concept_interest_group', 'заинтересованная группа')]:"
+ TRIGGER_ANY_SUPPORTING_INTEREST_GROUP_ALL:0 "Все поддерживающие [Concept('concept_interest_group', 'заинтересованные группы')]:"
+ TRIGGER_ANY_SUPPORTING_INTEREST_GROUP_PERCENT:0 "$PARAMETERS$ поддерживающих [Concept('concept_interest_group', 'заинтересованных групп')]:"
+ TRIGGER_ANY_SUPPORTING_INTEREST_GROUP_COUNT:0 "$PARAMETERS$ поддерживающих [Concept('concept_interest_group', 'заинтересованных групп')]:"
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_ALL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_ALL_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_PERCENT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_PERCENT_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_COUNT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_COUNT_THIRD`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_ALL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_ALL_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_PERCENT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_PERCENT_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_COUNT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_COUNT_THIRD`
+ 
+ TRIGGER_ANY_POLITICAL_MOVEMENT:0 "Любое [Concept('concept_political_movement', 'политическое движение')]:"
+ TRIGGER_ANY_POLITICAL_MOVEMENT_ALL:0 "Все [Concept('concept_political_movement', 'политические движения')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_POLITICAL_MOVEMENT_PERCENT:0 "$PARAMETERS$ [Concept('concept_political_movement', 'политических движений')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_POLITICAL_MOVEMENT_COUNT:0 "$PARAMETERS$ [Concept('concept_political_movement', 'политических движений')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_DIPLOMATIC_PLAY:0 "Любая [Concept('concept_diplomatic_play', 'дипломатическая игра')]:"
+ TRIGGER_ANY_DIPLOMATIC_PLAY_ALL:0 "Все [Concept('concept_diplomatic_play', 'дипломатические игры')]:"
+ TRIGGER_ANY_DIPLOMATIC_PLAY_PERCENT:0 "$PARAMETERS$ [Concept('concept_diplomatic_play', 'дипломатических игр')]:"
+ TRIGGER_ANY_DIPLOMATIC_PLAY_COUNT:0 "$PARAMETERS$ [Concept('concept_diplomatic_play', 'дипломатических игр')]:"
+ TRIGGER_ANY_SCOPE_PLAY_PARTICIPANT:0 "Любой участник [Concept('concept_diplomatic_play', 'дипломатической игры')]:"
+ TRIGGER_ANY_SCOPE_PLAY_PARTICIPANT_ALL:0 "Все участники [Concept('concept_diplomatic_play', 'дипломатической игры')]:"
+ TRIGGER_ANY_SCOPE_PLAY_PARTICIPANT_PERCENT:0 "$PARAMETERS$ участников [Concept('concept_diplomatic_play', 'дипломатической игры')]:"
+ TRIGGER_ANY_SCOPE_PLAY_PARTICIPANT_COUNT:0 "$PARAMETERS$ участников [Concept('concept_diplomatic_play', 'дипломатической игры')]:"
+ TRIGGER_ANY_STATE_REGION:0 "Любой [Concept('concept_state_region', 'регион')]:"
+ TRIGGER_ANY_STATE_REGION_ALL:0 "Все [Concept('concept_state_region', 'регионы')]:"
+ TRIGGER_ANY_STATE_REGION_PERCENT:0 "$PARAMETERS$ [Concept('concept_state_region', 'регионов')]:"
+ TRIGGER_ANY_STATE_REGION_COUNT:0 "$PARAMETERS$ [Concept('concept_state_region', 'регионов')]:"
+ TRIGGER_ANY_TRADE_ROUTE:0 "Любой [Concept('concept_trade_route', 'торговый путь')]:"
+ TRIGGER_ANY_TRADE_ROUTE_ALL:0 "Все [Concept('concept_trade_route', 'торговые пути')]:"
+ TRIGGER_ANY_TRADE_ROUTE_PERCENT:0 "$PARAMETERS$ [Concept('concept_trade_route', 'торговых путей')]:"
+ TRIGGER_ANY_TRADE_ROUTE_COUNT:0 "$PARAMETERS$ [Concept('concept_trade_route', 'торговых путей')]:"
+ TRIGGER_ANY_LAW:0 "Любой закон:"
+ TRIGGER_ANY_LAW_ALL:0 "Все законы:"
+ TRIGGER_ANY_LAW_PERCENT:0 "$PARAMETERS$ законов:"
+ TRIGGER_ANY_LAW_COUNT:0 "$PARAMETERS$ законов:"
+ TRIGGER_ANY_SCOPE_CHARACTER:0 "Любой [Concept('concept_character', 'персонаж')]:"
+ TRIGGER_ANY_SCOPE_CHARACTER_ALL:0 "Все [Concept('concept_character', 'персонажи')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_CHARACTER_PERCENT:0 "$PARAMETERS$ [Concept('concept_character', 'персонажей')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_CHARACTER_COUNT:0 "$PARAMETERS$ [Concept('concept_character', 'персонажей')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CHARACTER:0 "Любой [Concept('concept_character', 'персонаж')] в мире:"
+ TRIGGER_ANY_CHARACTER_ALL:0 "Все [Concept('concept_character', 'персонажи')] в мире:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CHARACTER_PERCENT:0 "$PARAMETERS$ [Concept('concept_character', 'персонажей')] в мире:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CHARACTER_COUNT:0 "$PARAMETERS$ [Concept('concept_character', 'персонажей')] в мире:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CHARACTER_IN_VOID:0 "Любой [Concept('concept_character', 'персонаж')] в небытии:"
+ TRIGGER_ANY_CHARACTER_IN_VOID_ALL:0 "Все [Concept('concept_character', 'персонажи')] в небытии:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CHARACTER_IN_VOID_PERCENT:0 "$PARAMETERS$ [Concept('concept_character', 'персонажей')] в небытии:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CHARACTER_IN_VOID_COUNT:0 "$PARAMETERS$ [Concept('concept_character', 'персонажей')] в небытии:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_COUNTRY:0 "Любая [Concept('concept_country', 'страна')]:"
+ TRIGGER_ANY_COUNTRY_ALL:0 "Все [Concept('concept_country', 'страны')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_COUNTRY_PERCENT:0 "$PARAMETERS$ [Concept('concept_country', 'стран')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_COUNTRY_COUNT:0 "$PARAMETERS$ [Concept('concept_country', 'стран')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_ALLY:0 "Любой союзник:"
+ TRIGGER_ANY_SCOPE_ALLY_ALL:0 "Все союзники:"
+ TRIGGER_ANY_SCOPE_ALLY_PERCENT:0 "$PARAMETERS$ союзников:"
+ TRIGGER_ANY_SCOPE_ALLY_COUNT:0 "$PARAMETERS$ союзников:"
+ TRIGGER_ANY_SCOPE_INITIATOR_ALLY:0 "Любой союзник инициатора:"
+ TRIGGER_ANY_SCOPE_INITIATOR_ALLY_ALL:0 "Все союзники инициатора:"
+ TRIGGER_ANY_SCOPE_INITIATOR_ALLY_PERCENT:0 "$PARAMETERS$ союзников инициатора:"
+ TRIGGER_ANY_SCOPE_INITIATOR_ALLY_COUNT:0 "$PARAMETERS$ союзников инициатора:"
+ TRIGGER_ANY_SCOPE_TARGET_ALLY:0 "Любой союзник цели:"
+ TRIGGER_ANY_SCOPE_TARGET_ALLY_ALL:0 "Все союзники цели:"
+ TRIGGER_ANY_SCOPE_TARGET_ALLY_PERCENT:0 "$PARAMETERS$ союзников цели:"
+ TRIGGER_ANY_SCOPE_TARGET_ALLY_COUNT:0 "$PARAMETERS$ союзников цели:"
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_INTERESTED_PARTIES:0 "Любое государство, которое проявит интерес при нарушении суверенитета:" #hmmm
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_INTERESTED_PARTIES_ALL:0 "Все государства, которые проявят интерес при нарушении суверенитета:"
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_INTERESTED_PARTIES_PERCENT:0 "$PARAMETERS$ государств, которые проявят интерес при нарушении суверенитета:"
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_INTERESTED_PARTIES_COUNT:0 "$PARAMETERS$ государств, которые проявят интерес при нарушении суверенитета:"
+ TRIGGER_ANY_OVERLORD_OR_ABOVE:0 "Любой сюзерен или вышестоящее государство:"
+ TRIGGER_ANY_OVERLORD_OR_ABOVE_ALL:0 "Все сюзерены или вышестоящие государства:"
+ TRIGGER_ANY_OVERLORD_OR_ABOVE_PERCENT:0 "$PARAMETERS$ сюзеренов или вышестоящих государств:"
+ TRIGGER_ANY_OVERLORD_OR_ABOVE_COUNT:0 "$PARAMETERS$ сюзеренов или вышестоящих государств:"
+ TRIGGER_ANY_SUBJECT_OR_BELOW:0 "Любой субъект или нижестоящее государство:"
+ TRIGGER_ANY_SUBJECT_OR_BELOW_ALL:0 "Все субъекты или нижестоящие государства:"
+ TRIGGER_ANY_SUBJECT_OR_BELOW_PERCENT:0 "$PARAMETERS$ субъектов или нижестоящих государств:"
+ TRIGGER_ANY_SUBJECT_OR_BELOW_COUNT:0 "$PARAMETERS$ субъектов или нижестоящих государств:"
+ TRIGGER_ANY_IN_HIERARCHY:0 "Любая [Concept('concept_country', 'страна')] в иерархии сюзерена:"
+ TRIGGER_ANY_IN_HIERARCHY_ALL:0 "Все [Concept('concept_country', 'страны')] в иерархии сюзерена:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_IN_HIERARCHY_PERCENT:0 "$PARAMETERS$ [Concept('concept_country', 'стран')] в иерархии сюзерена:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_IN_HIERARCHY_COUNT:0 "$PARAMETERS$ [Concept('concept_country', 'стран')] в иерархии сюзерена:" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_RIVAL_COUNTRY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_RIVAL_COUNTRY_ALL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_RIVAL_COUNTRY_PERCENT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_RIVAL_COUNTRY_COUNT`
+ TRIGGER_ANY_SCOPE_CULTURE:0 "Любая [Concept('concept_culture', 'культура')]:"
+ TRIGGER_ANY_SCOPE_CULTURE_ALL:0 "Все [Concept('concept_culture', 'культуры')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_CULTURE_PERCENT:0 "$PARAMETERS$ [Concept('concept_culture', 'культур')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_CULTURE_COUNT:0 "$PARAMETERS$ [Concept('concept_culture', 'культур')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_PRIMARY_CULTURE:0 "Любые [Concept('concept_primary_cultures', 'основные культуры')]:"
+ TRIGGER_ANY_PRIMARY_CULTURE_ALL:0 "Все [Concept('concept_primary_cultures', 'основные культуры')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_PRIMARY_CULTURE_PERCENT:0 "$PARAMETERS$ [Concept('concept_primary_cultures', 'основных культур')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_PRIMARY_CULTURE_COUNT:0 "$PARAMETERS$ [Concept('concept_primary_cultures', 'основных культур')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_STATE:0 "Любая [Concept('concept_state', 'область')] в мире:"
+ TRIGGER_ANY_STATE_ALL:0 "Все [Concept('concept_state', 'области')] в мире:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_STATE_PERCENT:0 "$PARAMETERS$ [Concept('concept_state', 'областей')] в мире:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_STATE_COUNT:0 "$PARAMETERS$ [Concept('concept_state', 'областей')] в мире:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_STATE:0 "Любая [Concept('concept_state', 'область')]:"
+ TRIGGER_ANY_SCOPE_STATE_ALL:0 "Все [Concept('concept_state', 'области')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_STATE_PERCENT:0 "$PARAMETERS$ [Concept('concept_state', 'областей')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_STATE_COUNT:0 "$PARAMETERS$ [Concept('concept_state', 'областей')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_NEIGHBOURING_STATE:0 "Любая соседняя [Concept('concept_state', 'область')]:"
+ TRIGGER_ANY_NEIGHBOURING_STATE_ALL:0 "Все соседние [Concept('concept_state', 'области')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_NEIGHBOURING_STATE_PERCENT:0 "$PARAMETERS$ соседних [Concept('concept_state', 'областей')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_NEIGHBOURING_STATE_COUNT:0 "$PARAMETERS$ соседних [Concept('concept_state', 'областей')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_WAR:0 "Любая [Concept('concept_war', 'война')]:"
+ TRIGGER_ANY_SCOPE_WAR_ALL:0 "Все [Concept('concept_war', 'войны')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_WAR_PERCENT:0 "$PARAMETERS$ [Concept('concept_war', 'войн')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_WAR_COUNT:0 "$PARAMETERS$ [Concept('concept_war', 'войн')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_WARS:0 "Любая война при нарушении суверенитета:" #hmmm
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_WARS_ALL:0 "Все войны при нарушении суверенитета:"
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_WARS_PERCENT:0 "$PARAMETERS$ войн при нарушении суверенитета:"
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_WARS_COUNT:0 "$PARAMETERS$ войн при нарушении суверенитета:"
+ TRIGGER_ANY_CIVIL_WAR:0 "Любая [Concept('concept_civil_war', 'гражданская война')]:"
+ TRIGGER_ANY_CIVIL_WAR_ALL:0 "Все [Concept('concept_civil_war', 'гражданские войны')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CIVIL_WAR_PERCENT:0 "$PARAMETERS$ [Concept('concept_civil_war', 'гражданских войн')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CIVIL_WAR_COUNT:0 "$PARAMETERS$ [Concept('concept_civil_war', 'гражданских войн')]:" # [LocEditor:AwaitingBatchUpdate]
+
+ TRIGGER_BUILDING_LEVEL_GREATER_THAN:0 "Уровень сооружения [BUILDING.GetName] выше $TARGET_VALUE|0v$"
+ TRIGGER_BUILDING_LEVEL_GREATER_OR_EQUAL:0 "Уровень сооружения [BUILDING.GetName] выше или равен $TARGET_VALUE|0v$"
+ TRIGGER_BUILDING_LEVEL_LESS_THAN:0 "Уровень сооружения [BUILDING.GetName] ниже $TARGET_VALUE|0v$"
+ TRIGGER_BUILDING_LEVEL_LESS_OR_EQUAL:0 "Уровень сооружения [BUILDING.GetName] ниже или равен $TARGET_VALUE|0v$"
+ TRIGGER_BUILDING_LEVEL_EQUAL:0 "Уровень сооружения [BUILDING.GetName] равен $TARGET_VALUE|0v$"
+ TRIGGER_BUILDING_LEVEL_NOT_EQUAL:0 "Уровень сооружения [BUILDING.GetName] НЕ равен $TARGET_VALUE|0v$"
+
+ TRIGGER_TRADE_ROUTE_LEVEL_GREATER_THAN:0 "Уровень торгового пути [TRADE_ROUTE.GetName] выше $TARGET_VALUE|0v$"
+ TRIGGER_TRADE_ROUTE_LEVEL_GREATER_OR_EQUAL:0 "Уровень торгового пути [TRADE_ROUTE.GetName] выше или равен $TARGET_VALUE|0v$"
+ TRIGGER_TRADE_ROUTE_LEVEL_LESS_THAN:0 "Уровень торгового пути [TRADE_ROUTE.GetName] ниже $TARGET_VALUE|0v$"
+ TRIGGER_TRADE_ROUTE_LEVEL_LESS_OR_EQUAL:0 "Уровень торгового пути [TRADE_ROUTE.GetName] ниже или равен $TARGET_VALUE|0v$"
+ TRIGGER_TRADE_ROUTE_LEVEL_EQUAL:0 "Уровень торгового пути [TRADE_ROUTE.GetName] равен $TARGET_VALUE|0v$"
+ TRIGGER_TRADE_ROUTE_LEVEL_NOT_EQUAL:0 "Уровень торгового пути [TRADE_ROUTE.GetName] НЕ равен $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_ALLIANCES_TO_RIVALS_GREATER_THAN:0 "Количество союзников государства [TARGET_COUNTRY.GetName], имеющих в соперниках страну [COUNTRY.GetName], больше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_TO_RIVALS_GREATER_OR_EQUAL:0 "Количество союзников государства [TARGET_COUNTRY.GetName], имеющих в соперниках страну [COUNTRY.GetName], больше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_TO_RIVALS_LESS_THAN:0 "Количество союзников государства [TARGET_COUNTRY.GetName], имеющих в соперниках страну [COUNTRY.GetName], меньше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_TO_RIVALS_LESS_OR_EQUAL:0 "Количество союзников государства [TARGET_COUNTRY.GetName], имеющих в соперниках страну [COUNTRY.GetName], меньше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_TO_RIVALS_EQUAL:0 "Количество союзников государства [TARGET_COUNTRY.GetName], имеющих в соперниках страну [COUNTRY.GetName], равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_TO_RIVALS_NOT_EQUAL:0 "Количество союзников государства [TARGET_COUNTRY.GetName], имеющих в соперниках страну [COUNTRY.GetName], НЕ равно $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_ALLIANCES_TO_ALLIES_GREATER_THAN:0 "Количество союзников государства [TARGET_COUNTRY.GetName], имеющих союз со страной [COUNTRY.GetName], больше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_TO_ALLIES_GREATER_OR_EQUAL:0 "Количество союзников государства [TARGET_COUNTRY.GetName], имеющих союз со страной [COUNTRY.GetName], больше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_TO_ALLIES_LESS_THAN:0 "Количество союзников государства [TARGET_COUNTRY.GetName], имеющих союз со страной [COUNTRY.GetName], меньше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_TO_ALLIES_LESS_OR_EQUAL:0 "Количество союзников государства [TARGET_COUNTRY.GetName], имеющих союз со страной [COUNTRY.GetName], меньше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_TO_ALLIES_EQUAL:0 "Количество союзников государства [TARGET_COUNTRY.GetName], имеющих союз со страной [COUNTRY.GetName], равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_TO_ALLIES_NOT_EQUAL:0 "Количество союзников государства [TARGET_COUNTRY.GetName], имеющих союз со страной [COUNTRY.GetName], НЕ равно $TARGET_VALUE|0v$"
+
+ TRIGGER_RELATIONS_GREATER_THAN:0 "Отношения между государствами [COUNTRY.GetName] и [TARGET_COUNTRY.GetName] выше $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_GREATER_OR_EQUAL:0 "Отношения между государствами [COUNTRY.GetName] и [TARGET_COUNTRY.GetName] выше или равны $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_LESS_THAN:0 "Отношения между государствами [COUNTRY.GetName] и [TARGET_COUNTRY.GetName] ниже $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_LESS_OR_EQUAL:0 "Отношения между государствами [COUNTRY.GetName] и [TARGET_COUNTRY.GetName] ниже или равны $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_EQUAL:0 "Отношения между государствами [COUNTRY.GetName] и [TARGET_COUNTRY.GetName] равны $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_NOT_EQUAL:0 "Отношения между государствами [COUNTRY.GetName] и [TARGET_COUNTRY.GetName] НЕ равны $TARGET_VALUE|0v$"
+
+ TRIGGER_RELATIONS_THRESHOLD_GREATER_THAN:0 "Отношения между государствами [COUNTRY.GetName] и [TARGET_COUNTRY.GetName] выше $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_THRESHOLD_GREATER_OR_EQUAL:0 "Отношения между государствами [COUNTRY.GetName] и [TARGET_COUNTRY.GetName] выше или равны $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_THRESHOLD_LESS_THAN:0 "Отношения между государствами [COUNTRY.GetName] и [TARGET_COUNTRY.GetName] ниже $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_THRESHOLD_LESS_OR_EQUAL:0 "Отношения между государствами [COUNTRY.GetName] и [TARGET_COUNTRY.GetName] ниже или равны $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_THRESHOLD_EQUAL:0 "Отношения между государствами [COUNTRY.GetName] и [TARGET_COUNTRY.GetName] равны $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_THRESHOLD_NOT_EQUAL:0 "Отношения между государствами [COUNTRY.GetName] и [TARGET_COUNTRY.GetName] НЕ равны $TARGET_VALUE|0v$"
+
+ TRIGGER_INFAMY_THRESHOLD_GREATER_THAN:0 "Дурная слава государства [COUNTRY.GetName] выше $TARGET_VALUE|0v$"
+ TRIGGER_INFAMY_THRESHOLD_GREATER_OR_EQUAL:0 "Дурная слава государства [COUNTRY.GetName] выше или равна $TARGET_VALUE|0v$"
+ TRIGGER_INFAMY_THRESHOLD_LESS_THAN:0 "Дурная слава государства [COUNTRY.GetName] ниже $TARGET_VALUE|0v$"
+ TRIGGER_INFAMY_THRESHOLD_LESS_OR_EQUAL:0 "Дурная слава государства [COUNTRY.GetName] ниже или равна $TARGET_VALUE|0v$"
+ TRIGGER_INFAMY_THRESHOLD_EQUAL:0 "Дурная слава государства [COUNTRY.GetName] равна $TARGET_VALUE|0v$"
+ TRIGGER_INFAMY_THRESHOLD_NOT_EQUAL:0 "Дурная слава государства [COUNTRY.GetName] НЕ равна $TARGET_VALUE|0v$"
+
+ TRIGGER_TENSION_GREATER_THAN:0 "Напряжение между государствами [COUNTRY.GetName] и [TARGET_COUNTRY.GetName] выше $TARGET_VALUE|0v$"
+ TRIGGER_TENSION_GREATER_OR_EQUAL:0 "Напряжение между государствами [COUNTRY.GetName] и [TARGET_COUNTRY.GetName] выше или равно $TARGET_VALUE|0v$"
+ TRIGGER_TENSION_LESS_THAN:0 "Напряжение между государствами [COUNTRY.GetName] и [TARGET_COUNTRY.GetName] ниже $TARGET_VALUE|0v$"
+ TRIGGER_TENSION_LESS_OR_EQUAL:0 "Напряжение между государствами [COUNTRY.GetName] и [TARGET_COUNTRY.GetName] ниже или равно $TARGET_VALUE|0v$"
+ TRIGGER_TENSION_EQUAL:0 "Напряжение между государствами [COUNTRY.GetName] и [TARGET_COUNTRY.GetName] равно $TARGET_VALUE|0v$"
+ TRIGGER_TENSION_NOT_EQUAL:0 "Напряжение между государствами [COUNTRY.GetName] и [TARGET_COUNTRY.GetName] НЕ равно $TARGET_VALUE|0v$"
+
+ TRIGGER_TENSION_THRESHOLD_GREATER_THAN:0 "Напряжение между государствами [COUNTRY.GetName] и [TARGET_COUNTRY.GetName] выше $TARGET_VALUE|0v$"
+ TRIGGER_TENSION_THRESHOLD_GREATER_OR_EQUAL:0 "Напряжение между государствами [COUNTRY.GetName] и [TARGET_COUNTRY.GetName] выше или равно $TARGET_VALUE|0v$"
+ TRIGGER_TENSION_THRESHOLD_LESS_THAN:0 "Напряжение между государствами [COUNTRY.GetName] и [TARGET_COUNTRY.GetName] ниже $TARGET_VALUE|0v$"
+ TRIGGER_TENSION_THRESHOLD_LESS_OR_EQUAL:0 "Напряжение между государствами [COUNTRY.GetName] и [TARGET_COUNTRY.GetName] ниже или равно $TARGET_VALUE|0v$"
+ TRIGGER_TENSION_THRESHOLD_EQUAL:0 "Напряжение между государствами [COUNTRY.GetName] и [TARGET_COUNTRY.GetName] равно $TARGET_VALUE|0v$"
+ TRIGGER_TENSION_THRESHOLD_NOT_EQUAL:0 "Напряжение между государствами [COUNTRY.GetName] и [TARGET_COUNTRY.GetName] НЕ равно $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_ENEMY_UNITS_GREATER_THAN:0 "Количество вражеских подразделений на фронте [FRONT.GetName] больше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ENEMY_UNITS_GREATER_OR_EQUAL:0 "Количество вражеских подразделений на фронте [FRONT.GetName] больше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ENEMY_UNITS_LESS_THAN:0 "Количество вражеских подразделений на фронте [FRONT.GetName] меньше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ENEMY_UNITS_LESS_OR_EQUAL:0 "Количество вражеских подразделений на фронте [FRONT.GetName] меньше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ENEMY_UNITS_EQUAL:0 "Количество вражеских подразделений на фронте [FRONT.GetName] равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ENEMY_UNITS_NOT_EQUAL:0 "Количество вражеских подразделений на фронте [FRONT.GetName] НЕ равно $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_ALLIANCES_GREATER_THAN:0 "Количество союзов государства [COUNTRY.GetName] больше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_GREATER_OR_EQUAL:0 "Количество союзов государства [COUNTRY.GetName] больше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_LESS_THAN:0 "Количество союзов государства [COUNTRY.GetName] меньше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_LESS_OR_EQUAL:0 "Количество союзов государства [COUNTRY.GetName] меньше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_EQUAL:0 "Количество союзов государства [COUNTRY.GetName] равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_NOT_EQUAL:0 "Количество союзов государства [COUNTRY.GetName] НЕ равно $TARGET_VALUE|0v$"
+
+ TRIGGER_INFAMY_GREATER_THAN:0 "Дурная слава государства [COUNTRY.GetName] выше $TARGET_VALUE|0v$"
+ TRIGGER_INFAMY_GREATER_OR_EQUAL:0 "Дурная слава государства [COUNTRY.GetName] выше или равна $TARGET_VALUE|0v$"
+ TRIGGER_INFAMY_LESS_THAN:0 "Дурная слава государства [COUNTRY.GetName] ниже $TARGET_VALUE|0v$"
+ TRIGGER_INFAMY_LESS_OR_EQUAL:0 "Дурная слава государства [COUNTRY.GetName] ниже или равна $TARGET_VALUE|0v$"
+ TRIGGER_INFAMY_EQUAL:0 "Дурная слава государства [COUNTRY.GetName] равна $TARGET_VALUE|0v$"
+ TRIGGER_INFAMY_NOT_EQUAL:0 "Дурная слава государства [COUNTRY.GetName] НЕ равна $TARGET_VALUE|0v$"
+
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_AVERAGE_SOL_GREATER_THAN`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_AVERAGE_SOL_GREATER_OR_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_AVERAGE_SOL_LESS_THAN`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_AVERAGE_SOL_LESS_OR_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_AVERAGE_SOL_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_AVERAGE_SOL_NOT_EQUAL`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_STATE_AVERAGE_SOL_GREATER_THAN`
+ # [LocEditor:UntranslatedKey] `TRIGGER_STATE_AVERAGE_SOL_GREATER_OR_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_STATE_AVERAGE_SOL_LESS_THAN`
+ # [LocEditor:UntranslatedKey] `TRIGGER_STATE_AVERAGE_SOL_LESS_OR_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_STATE_AVERAGE_SOL_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_STATE_AVERAGE_SOL_NOT_EQUAL`
+
+ TRIGGER_INCOME_GREATER_THAN:0 "Доход государства [COUNTRY.GetName] выше $TARGET_VALUE|0v$"
+ TRIGGER_INCOME_GREATER_OR_EQUAL:0 "Доход государства [COUNTRY.GetName] выше или равен $TARGET_VALUE|0v$"
+ TRIGGER_INCOME_LESS_THAN:0 "Доход государства [COUNTRY.GetName] ниже $TARGET_VALUE|0v$"
+ TRIGGER_INCOME_LESS_OR_EQUAL:0 "Доход государства [COUNTRY.GetName] ниже или равен $TARGET_VALUE|0v$"
+ TRIGGER_INCOME_EQUAL:0 "Доход государства [COUNTRY.GetName] равен $TARGET_VALUE|0v$"
+ TRIGGER_INCOME_NOT_EQUAL:0 "Доход государства [COUNTRY.GetName] НЕ равен $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_TRADE_ROUTES_GREATER_THAN:0 "Количество торговых путей в распоряжении государства [COUNTRY.GetName] больше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_TRADE_ROUTES_GREATER_OR_EQUAL:0 "Количество торговых путей в распоряжении государства [COUNTRY.GetName] больше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_TRADE_ROUTES_LESS_THAN:0 "Количество торговых путей в распоряжении государства [COUNTRY.GetName] меньше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_TRADE_ROUTES_LESS_OR_EQUAL:0 "Количество торговых путей в распоряжении государства [COUNTRY.GetName] меньше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_TRADE_ROUTES_EQUAL:0 "Количество торговых путей в распоряжении государства [COUNTRY.GetName] равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_TRADE_ROUTES_NOT_EQUAL:0 "Количество торговых путей в распоряжении государства [COUNTRY.GetName] НЕ равно $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_RULING_IGS_GREATER_THAN:0 "Количество заинтересованных групп в государстве [COUNTRY.GetName] больше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_RULING_IGS_GREATER_OR_EQUAL:0 "Количество заинтересованных групп в государстве [COUNTRY.GetName] больше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_RULING_IGS_LESS_THAN:0 "Количество заинтересованных групп в государстве [COUNTRY.GetName] меньше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_RULING_IGS_LESS_OR_EQUAL:0 "Количество заинтересованных групп в государстве [COUNTRY.GetName] меньше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_RULING_IGS_EQUAL:0 "Количество заинтересованных групп в государстве [COUNTRY.GetName] равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_RULING_IGS_NOT_EQUAL:0 "Количество заинтересованных групп в государстве [COUNTRY.GetName] НЕ равно $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_POSITIVE_RELATIONS_GREATER_THAN:0 "Количество положительных отношений государства [COUNTRY.GetName] больше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_POSITIVE_RELATIONS_GREATER_OR_EQUAL:0 "Количество положительных отношений государства [COUNTRY.GetName] больше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_POSITIVE_RELATIONS_LESS_THAN:0 "Количество положительных отношений государства [COUNTRY.GetName] меньше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_POSITIVE_RELATIONS_LESS_OR_EQUAL:0 "Количество положительных отношений государства [COUNTRY.GetName] меньше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_POSITIVE_RELATIONS_EQUAL:0 "Количество положительных отношений государства [COUNTRY.GetName] равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_POSITIVE_RELATIONS_NOT_EQUAL:0 "Количество положительных отношений государства [COUNTRY.GetName] НЕ равно $TARGET_VALUE|0v$"
+
+ TRIGGER_ARMY_SIZE_GREATER_THAN:0 "Количество батальонов государства [COUNTRY.GetName] больше $TARGET_VALUE|0v$"
+ TRIGGER_ARMY_SIZE_GREATER_OR_EQUAL:0 "Количество батальонов государства [COUNTRY.GetName] больше или равно $TARGET_VALUE|0v$"
+ TRIGGER_ARMY_SIZE_LESS_THAN:0 "Количество батальонов государства [COUNTRY.GetName] меньше $TARGET_VALUE|0v$"
+ TRIGGER_ARMY_SIZE_LESS_OR_EQUAL:0 "Количество батальонов государства [COUNTRY.GetName] меньше или равно $TARGET_VALUE|0v$"
+ TRIGGER_ARMY_SIZE_EQUAL:0 "Количество батальонов государства [COUNTRY.GetName] равно $TARGET_VALUE|0v$"
+ TRIGGER_ARMY_SIZE_NOT_EQUAL:0 "Количество батальонов государства [COUNTRY.GetName] НЕ равно $TARGET_VALUE|0v$"
+
+ TRIGGER_NAVY_SIZE_GREATER_THAN:0 "Количество военных кораблей государства [COUNTRY.GetName] больше $TARGET_VALUE|0v$"
+ TRIGGER_NAVY_SIZE_GREATER_OR_EQUAL:0 "Количество военных кораблей государства [COUNTRY.GetName] больше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NAVY_SIZE_LESS_THAN:0 "Количество военных кораблей государства [COUNTRY.GetName] меньше $TARGET_VALUE|0v$"
+ TRIGGER_NAVY_SIZE_LESS_OR_EQUAL:0 "Количество военных кораблей государства [COUNTRY.GetName] меньше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NAVY_SIZE_EQUAL:0 "Количество военных кораблей государства [COUNTRY.GetName] равно $TARGET_VALUE|0v$"
+ TRIGGER_NAVY_SIZE_NOT_EQUAL:0 "Количество военных кораблей государства [COUNTRY.GetName] НЕ равно $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_COMMANDERS_GREATER_THAN:0 "Количество командиров государства [COUNTRY.GetName] больше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_COMMANDERS_GREATER_OR_EQUAL:0 "Количество командиров государства [COUNTRY.GetName] больше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_COMMANDERS_LESS_THAN:0 "Количество командиров государства [COUNTRY.GetName] меньше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_COMMANDERS_LESS_OR_EQUAL:0 "Количество командиров государства [COUNTRY.GetName] меньше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_COMMANDERS_EQUAL:0 "Количество командиров государства [COUNTRY.GetName] равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_COMMANDERS_NOT_EQUAL:0 "Количество командиров государства [COUNTRY.GetName] НЕ равно $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_ACTIVE_PLAYS_GREATER_THAN:0 "Количество дипломатических игр государства [COUNTRY.GetName] больше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ACTIVE_PLAYS_GREATER_OR_EQUAL:0 "Количество дипломатических игр государства [COUNTRY.GetName] больше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ACTIVE_PLAYS_LESS_THAN:0 "Количество дипломатических игр государства [COUNTRY.GetName] меньше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ACTIVE_PLAYS_LESS_OR_EQUAL:0 "Количество дипломатических игр государства [COUNTRY.GetName] меньше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ACTIVE_PLAYS_EQUAL:0 "Количество дипломатических игр государства [COUNTRY.GetName] равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ACTIVE_PLAYS_NOT_EQUAL:0 "Количество дипломатических игр государства [COUNTRY.GetName] НЕ равно $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_COLONY_PROJECTS_GREATER_THAN:0 "Количество колониальных проектов государства [COUNTRY.GetName] больше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_COLONY_PROJECTS_GREATER_OR_EQUAL:0 "Количество колониальных проектов государства [COUNTRY.GetName] больше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_COLONY_PROJECTS_LESS_THAN:0 "Количество колониальных проектов государства [COUNTRY.GetName] меньше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_COLONY_PROJECTS_LESS_OR_EQUAL:0 "Количество колониальных проектов государства [COUNTRY.GetName] меньше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_COLONY_PROJECTS_EQUAL:0 "Количество колониальных проектов государства [COUNTRY.GetName] равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_COLONY_PROJECTS_NOT_EQUAL:0 "Количество колониальных проектов государства [COUNTRY.GetName] НЕ равно $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_UNINCORPORATED_STATES_GREATER_THAN:0 "Количество невключённых областей государства [COUNTRY.GetName] больше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_UNINCORPORATED_STATES_GREATER_OR_EQUAL:0 "Количество невключённых областей государства [COUNTRY.GetName] больше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_UNINCORPORATED_STATES_LESS_THAN:0 "Количество невключённых областей государства [COUNTRY.GetName] меньше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_UNINCORPORATED_STATES_LESS_OR_EQUAL:0 "Количество невключённых областей государства [COUNTRY.GetName] меньше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_UNINCORPORATED_STATES_EQUAL:0 "Количество невключённых областей государства [COUNTRY.GetName] равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_UNINCORPORATED_STATES_NOT_EQUAL:0 "Количество невключённых областей государства [COUNTRY.GetName] НЕ равно $TARGET_VALUE|0v$"
+
+ TRIGGER_POPULARITY_GREATER_THAN:0 "Популярность персонажа [CHARACTER.GetName] выше $TARGET_VALUE|0v$"
+ TRIGGER_POPULARITY_GREATER_OR_EQUAL:0 "Популярность персонажа [CHARACTER.GetName] выше или равна $TARGET_VALUE|0v$"
+ TRIGGER_POPULARITY_LESS_THAN:0 "Популярность персонажа [CHARACTER.GetName] ниже $TARGET_VALUE|0v$"
+ TRIGGER_POPULARITY_LESS_OR_EQUAL:0 "Популярность персонажа [CHARACTER.GetName] ниже или равна $TARGET_VALUE|0v$"
+ TRIGGER_POPULARITY_EQUAL:0 "Популярность персонажа [CHARACTER.GetName] равна $TARGET_VALUE|0v$"
+ TRIGGER_POPULARITY_NOT_EQUAL:0 "Популярность персонажа [CHARACTER.GetName] НЕ равна $TARGET_VALUE|0v$"
+
+ TRIGGER_COUNTRY_GDP_GREATER_THAN:0 "$GDP_SHORT$ государства [COUNTRY.GetName] выше @money!$TARGET_VALUE|Dv$"
+ TRIGGER_COUNTRY_GDP_GREATER_OR_EQUAL:0 "$GDP_SHORT$ государства [COUNTRY.GetName] выше или равно @money!$TARGET_VALUE|Dv$"
+ TRIGGER_COUNTRY_GDP_LESS_THAN:0 "$GDP_SHORT$ государства [COUNTRY.GetName] ниже @money!$TARGET_VALUE|Dv$"
+ TRIGGER_COUNTRY_GDP_LESS_OR_EQUAL:0 "$GDP_SHORT$ государства [COUNTRY.GetName] ниже или равно @money!$TARGET_VALUE|Dv$"
+ TRIGGER_COUNTRY_GDP_EQUAL:0 "$GDP_SHORT$ государства [COUNTRY.GetName] равно @money!$TARGET_VALUE|Dv$"
+ TRIGGER_COUNTRY_GDP_NOT_EQUAL:0 "$GDP_SHORT$ государства [COUNTRY.GetName] НЕ равно @money!$TARGET_VALUE|Dv$"
+
+ TRIGGER_PRESTIGE_GREATER_THAN:0 "Престиж государства [COUNTRY.GetName] выше $TARGET_VALUE|0v$"
+ TRIGGER_PRESTIGE_GREATER_OR_EQUAL:0 "Престиж государства [COUNTRY.GetName] выше или равен $TARGET_VALUE|0v$"
+ TRIGGER_PRESTIGE_LESS_THAN:0 "Престиж государства [COUNTRY.GetName] ниже $TARGET_VALUE|0v$"
+ TRIGGER_PRESTIGE_LESS_OR_EQUAL:0 "Престиж государства [COUNTRY.GetName] ниже или равен $TARGET_VALUE|0v$"
+ TRIGGER_PRESTIGE_EQUAL:0 "Престиж государства [COUNTRY.GetName] равен $TARGET_VALUE|0v$"
+ TRIGGER_PRESTIGE_NOT_EQUAL:0 "Престиж государства [COUNTRY.GetName] НЕ равен $TARGET_VALUE|0v$"
+
+ TRIGGER_CREDIT_GREATER_THAN:0 "Кредит государства [COUNTRY.GetName] больше $TARGET_VALUE|0v$"
+ TRIGGER_CREDIT_GREATER_OR_EQUAL:0 "Кредит государства [COUNTRY.GetName] больше или равен $TARGET_VALUE|0v$"
+ TRIGGER_CREDIT_LESS_THAN:0 "Кредит государства [COUNTRY.GetName] меньше $TARGET_VALUE|0v$"
+ TRIGGER_CREDIT_LESS_OR_EQUAL:0 "Кредит государства [COUNTRY.GetName] меньше или равен $TARGET_VALUE|0v$"
+ TRIGGER_CREDIT_EQUAL:0 "Кредит государства [COUNTRY.GetName] равен $TARGET_VALUE|0v$"
+ TRIGGER_CREDIT_NOT_EQUAL:0 "Кредит государства [COUNTRY.GetName] НЕ равен $TARGET_VALUE|0v$"
+
+ TRIGGER_LEGITIMACY_GREATER_THAN:0 "Легитимность правительства государства [COUNTRY.GetName] выше $TARGET_VALUE|0v$"
+ TRIGGER_LEGITIMACY_GREATER_OR_EQUAL:0 "Легитимность правительства государства [COUNTRY.GetName] выше или равна $TARGET_VALUE|0v$"
+ TRIGGER_LEGITIMACY_LESS_THAN:0 "Легитимность правительства государства [COUNTRY.GetName] ниже $TARGET_VALUE|0v$"
+ TRIGGER_LEGITIMACY_LESS_OR_EQUAL:0 "Легитимность правительства государства [COUNTRY.GetName] ниже или равна $TARGET_VALUE|0v$"
+ TRIGGER_LEGITIMACY_EQUAL:0 "Легитимность правительства государства [COUNTRY.GetName] равна $TARGET_VALUE|0v$"
+ TRIGGER_LEGITIMACY_NOT_EQUAL:0 "Легитимность правительства государства [COUNTRY.GetName] НЕ равна $TARGET_VALUE|0v$"
+
+ TRIGGER_TECHS_RESEARCHED_GREATER_THAN:0 "Количество технологий, исследованных государством [COUNTRY.GetName], больше $TARGET_VALUE|0v$"
+ TRIGGER_TECHS_RESEARCHED_GREATER_OR_EQUAL:0 "Количество технологий, исследованных государством [COUNTRY.GetName], больше или равно $TARGET_VALUE|0v$"
+ TRIGGER_TECHS_RESEARCHED_LESS_THAN:0 "Количество технологий, исследованных государством [COUNTRY.GetName], меньше $TARGET_VALUE|0v$"
+ TRIGGER_TECHS_RESEARCHED_LESS_OR_EQUAL:0 "Количество технологий, исследованных государством [COUNTRY.GetName], меньше или равно $TARGET_VALUE|0v$"
+ TRIGGER_TECHS_RESEARCHED_EQUAL:0 "Количество технологий, исследованных государством [COUNTRY.GetName], равно $TARGET_VALUE|0v$"
+ TRIGGER_TECHS_RESEARCHED_NOT_EQUAL:0 "Количество технологий, исследованных государством [COUNTRY.GetName], НЕ равно $TARGET_VALUE|0v$"
+
+ TRIGGER_FRONT_LENGTH_GREATER_THAN:0 "Длина фронта [FRONT.GetName] больше $TARGET_VALUE|0v$"
+ TRIGGER_FRONT_LENGTH_GREATER_OR_EQUAL:0 "Длина фронта [FRONT.GetName] больше или равна $TARGET_VALUE|0v$"
+ TRIGGER_FRONT_LENGTH_LESS_THAN:0 "Длина фронта [FRONT.GetName] меньше $TARGET_VALUE|0v$"
+ TRIGGER_FRONT_LENGTH_LESS_OR_EQUAL:0 "Длина фронта [FRONT.GetName] меньше или равна $TARGET_VALUE|0v$"
+ TRIGGER_FRONT_LENGTH_EQUAL:0 "Длина фронта [FRONT.GetName] равна $TARGET_VALUE|0v$"
+ TRIGGER_FRONT_LENGTH_NOT_EQUAL:0 "Длина фронта [FRONT.GetName] НЕ равна $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_MOBILIZED_BATTALIONS_GREATER_THAN:0 "Количество мобилизованных батальонов персонажа [CHARACTER.GetName] больше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_MOBILIZED_BATTALIONS_GREATER_OR_EQUAL:0 "Количество мобилизованных батальонов персонажа [CHARACTER.GetName] больше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_MOBILIZED_BATTALIONS_LESS_THAN:0 "Количество мобилизованных батальонов персонажа [CHARACTER.GetName] меньше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_MOBILIZED_BATTALIONS_LESS_OR_EQUAL:0 "Количество мобилизованных батальонов персонажа [CHARACTER.GetName] меньше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_MOBILIZED_BATTALIONS_EQUAL:0 "Количество мобилизованных батальонов персонажа [CHARACTER.GetName] равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_MOBILIZED_BATTALIONS_NOT_EQUAL:0 "Количество мобилизованных батальонов персонажа [CHARACTER.GetName] НЕ равно $TARGET_VALUE|0v$"
+
+ TRIGGER_AVERAGE_DEFENSE_GREATER_THAN:0 "Средняя защита на фронте [FRONT.GetName] больше $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_DEFENSE_GREATER_OR_EQUAL:0 "Средняя защита на фронте [FRONT.GetName] больше или равна $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_DEFENSE_LESS_THAN:0 "Средняя защита на фронте [FRONT.GetName] меньше $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_DEFENSE_LESS_OR_EQUAL:0 "Средняя защита на фронте [FRONT.GetName] меньше или равна $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_DEFENSE_EQUAL:0 "Средняя защита на фронте [FRONT.GetName] равна $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_DEFENSE_NOT_EQUAL:0 "Средняя защита на фронте [FRONT.GetName] НЕ равна $TARGET_VALUE|0v$"
+
+ TRIGGER_AVERAGE_OFFENSE_GREATER_THAN:0 "Средняя атака на фронте [FRONT.GetName] больше $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_OFFENSE_GREATER_OR_EQUAL:0 "Средняя атака на фронте [FRONT.GetName] больше или равна $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_OFFENSE_LESS_THAN:0 "Средняя атака на фронте [FRONT.GetName] меньше $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_OFFENSE_LESS_OR_EQUAL:0 "Средняя атака на фронте [FRONT.GetName] меньше или равна $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_OFFENSE_EQUAL:0 "Средняя атака на фронте [FRONT.GetName] равна $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_OFFENSE_NOT_EQUAL:0 "Средняя атака на фронте [FRONT.GetName] НЕ равна $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_TOTAL_BATTALIONS_GREATER_THAN:0 "Количество батальонов на фронте [FRONT.GetName] больше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_TOTAL_BATTALIONS_GREATER_OR_EQUAL:0 "Количество батальонов на фронте [FRONT.GetName] больше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_TOTAL_BATTALIONS_LESS_THAN:0 "Количество батальонов на фронте [FRONT.GetName] меньше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_TOTAL_BATTALIONS_LESS_OR_EQUAL:0 "Количество батальонов на фронте [FRONT.GetName] меньше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_TOTAL_BATTALIONS_EQUAL:0 "Количество батальонов на фронте [FRONT.GetName] равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_TOTAL_BATTALIONS_NOT_EQUAL:0 "Количество батальонов на фронте [FRONT.GetName] НЕ равно $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_DEFENDING_BATTALIONS_GREATER_THAN:0 "Количество обороняющихся батальонов на фронте [FRONT.GetName] больше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_DEFENDING_BATTALIONS_GREATER_OR_EQUAL:0 "Количество обороняющихся батальонов на фронте [FRONT.GetName] больше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_DEFENDING_BATTALIONS_LESS_THAN:0 "Количество обороняющихся батальонов на фронте [FRONT.GetName] меньше $TARGET_VALUE|0v$"
+ TRIGGER_NUM_DEFENDING_BATTALIONS_LESS_OR_EQUAL:0 "Количество обороняющихся батальонов на фронте [FRONT.GetName] меньше или равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_DEFENDING_BATTALIONS_EQUAL:0 "Количество обороняющихся батальонов на фронте [FRONT.GetName] равно $TARGET_VALUE|0v$"
+ TRIGGER_NUM_DEFENDING_BATTALIONS_NOT_EQUAL:0 "Количество обороняющихся батальонов на фронте [FRONT.GetName] НЕ равно $TARGET_VALUE|0v$"
+
+ # [LocEditor:UntranslatedKey] `TRIGGER_COMMANDER_PM_USAGE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COMMANDER_PM_USAGE_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_DIPLOMATIC_PLAY_PM_USAGE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_DIPLOMATIC_PLAY_PM_USAGE_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_FRONT_SIDE_PM_USAGE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_FRONT_SIDE_PM_USAGE_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_PM_USAGE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_PM_USAGE_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_BATTLE_SIDE_PM_USAGE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_BATTLE_SIDE_PM_USAGE_NOT`
+
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_MAJORITY_COMBAT_UNIT_ETHNICITY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_MAJORITY_COMBAT_UNIT_ETHNICITY_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_POP_TYPE_PERCENT_COUNTRY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_POP_TYPE_PERCENT_COUNTRY_NOT`
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ TRIGGER_AND:0 "Всё из перечисленного:"
+ TRIGGER_AND_NOCONTEXT:0 "$TRIGGER_AND$"
+ TRIGGER_OR:0 "Хотя бы одно из перечисленного:"
+ TRIGGER_OWES_FAVOR_TO:0 "Есть обязательство перед государством [TARGET_COUNTRY.GetName]"
+ TRIGGER_OWES_FAVOR_TO_NOT:0 "Нет обязательства перед государством [TARGET_COUNTRY.GetName]"
+ TRIGGER_IS_OWED_FAVOR_BY:0 "Страна [COUNTRY.GetName] имеет обязательство перед государством [TARGET_COUNTRY.GetName]"
+ TRIGGER_IS_OWED_FAVOR_BY_NOT:0 "Страна [COUNTRY.GetName] НЕ имеет обязательств перед государством [TARGET_COUNTRY.GetName]"
+ TRIGGER_PRESTIGE:0 "Престиж государства #variable $NAME_ADJ$#! $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_PRESTIGE_NOT:0 "Престиж государства #variable $NAME_ADJ$#! НЕ $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_OR_NOCONTEXT:0 "или"
+ TRIGGER_IS_AT_WAR_NOCONTEXT:0 "Воюет"
+ TRIGGER_IS_AT_WAR_NOCONTEXT_NOT:0 "НЕ воюет"
+ TRIGGER_IS_PRIMARY_CULTURE_NOCONTEXT:0 "[concept_primary_cultures]"
+ TRIGGER_INCOME_TAX_LEVEL:0 "Уровень подоходного налога $COMPARATOR$ $LEVEL$"
+ TRIGGER_INCOME_TAX_LEVEL_NOT:0 "Уровень подоходного налога НЕ $COMPARATOR$ $LEVEL$"
+ TRIGGER_POLL_TAX_LEVEL:0 "Уровень подушного налога $COMPARATOR$ $LEVEL$"
+ TRIGGER_POLL_TAX_LEVEL_NOT:0 "Уровень подушного налога НЕ $COMPARATOR$ $LEVEL$"
+ TRIGGER_CONSUMPTION_TAX_LEVEL:0 "Уровень потребительского налога $COMPARATOR$ $LEVEL$"
+ TRIGGER_CONSUMPTION_TAX_LEVEL_NOT:0 "Уровень потребительского налога НЕ $COMPARATOR$ $LEVEL$"
+ TRIGGER_INCOME_TAX_LEVEL_VALUE:0 "Уровень подоходного налога $COMPARATOR$ $NUM$"
+ TRIGGER_INCOME_TAX_LEVEL_VALUE_NOT:0 "Уровень подоходного налога НЕ $COMPARATOR$ $NUM$"
+ TRIGGER_POLL_TAX_LEVEL_VALUE:0 "Уровень подушного налога $COMPARATOR$ $NUM$"
+ TRIGGER_POLL_TAX_LEVEL_VALUE_NOT:0 "Уровень подушного налога НЕ $COMPARATOR$ $NUM$"
+ TRIGGER_CONSUMPTION_TAX_LEVEL_VALUE:0 "Уровень потребительского налога $COMPARATOR$ $NUM$"
+ TRIGGER_CONSUMPTION_TAX_LEVEL_VALUE_NOT:0 "Уровень потребительского налога НЕ $COMPARATOR$ $NUM$"
+ TRIGGER_HAS_HIGH_ATTRITION_RISK:0 "[Character.GetFullName] имеет высокий риск [Concept('concept_attrition', 'истощения')]"
+ TRIGGER_HAS_HIGH_ATTRITION_RISK_NOT:0 "[Character.GetFullName] НЕ имеет высокого риска [Concept('concept_attrition', 'истощения')]"
+ TRIGGER_AVERAGE_SOL_GREATER_THAN:0 "Средний уровень жизни в государстве [COUNTRY.GetName] выше $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_SOL_GREATER_OR_EQUAL:0 "Средний уровень жизни в государстве [COUNTRY.GetName] выше или равен $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_SOL_LESS_THAN:0 "Средний уровень жизни в государстве [COUNTRY.GetName] ниже $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_SOL_LESS_OR_EQUAL:0 "Средний уровень жизни в государстве [COUNTRY.GetName] ниже или равен $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_SOL_EQUAL:0 "Средний уровень жизни в государстве [COUNTRY.GetName] равен $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_SOL_NOT_EQUAL:0 "Средний уровень жизни в государстве [COUNTRY.GetName] НЕ равен $TARGET_VALUE|0v$"
+ TRIGGER_IS_ADVANCING:0 "[CHARACTER.GetFullName] ведёт наступление"
+ TRIGGER_IS_ADVANCING_NOT:0 "[CHARACTER.GetFullName] НЕ ведёт наступление"

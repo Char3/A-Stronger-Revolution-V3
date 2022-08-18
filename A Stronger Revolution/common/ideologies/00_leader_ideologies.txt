@@ -134,7 +134,7 @@ ideology_republican_leader = {
 	lawgroup_governance_principles = {
 		law_presidential_republic = approve
 		law_parliamentary_republic = approve
-		law_council_republic = neutral
+		law_council_republic = disapprove
 		law_monarchy = disapprove
 		law_theocracy = disapprove
 	}
@@ -143,6 +143,13 @@ ideology_republican_leader = {
 		law_elected_bureaucrats = approve
 		law_appointed_bureaucrats = neutral
 		law_hereditary_bureaucrats = disapprove
+	}
+	
+	lawgroup_free_speech = {
+		law_protected_speech = approve
+		law_right_of_assembly = approve
+		law_censorship = neutral
+		law_outlawed_dissent = strongly_disapprove
 	}
 	
 	possible = {
@@ -288,6 +295,13 @@ ideology_reformer = {
 		law_child_labor_allowed = disapprove
 		law_restricted_child_labor = neutral
 		law_compulsory_primary_school = approve
+	}
+	
+	lawgroup_free_speech = {
+		law_protected_speech = approve
+		law_right_of_assembly = strongly_approve
+		law_censorship = disapprove
+		law_outlawed_dissent = strongly_disapprove
 	}
 	
 	possible = {
@@ -582,6 +596,7 @@ ideology_jingoist_leader = {
 			NOR = {
 				is_interest_group_type = ig_armed_forces
 				is_interest_group_type = ig_rural_folk
+				is_interest_group_type = ig_proletarians
 			}
 		}
 		scope:interest_group = {
@@ -597,6 +612,14 @@ ideology_jingoist_leader = {
 	
 	leader_weight = {
 		value = 100
+		if = {
+			limit = {
+				scope:interest_group = {
+					is_interest_group_type = ig_proletarians
+				}
+			}
+			multiply = 0.5
+		}
 	}
 }
 
@@ -731,6 +754,12 @@ ideology_social_democrat = {
 		law_proportional_taxation = approve
 		law_graduated_taxation = strongly_approve
 	}	
+	
+	lawgroup_church_and_state = {
+		law_state_religion = neutral
+		law_freedom_of_conscience = approve
+		law_total_separation = neutral
+	}
 
 	possible = {
 		owner = { has_technology_researched = socialism }
@@ -787,6 +816,7 @@ ideology_communist = {
 				is_interest_group_type = ig_intelligentsia
 				is_interest_group_type = ig_trade_unions
 				is_interest_group_type = ig_armed_forces
+				is_interest_group_type = ig_proletarians
 			}
 		}
 		scope:interest_group = {
@@ -814,6 +844,14 @@ ideology_communist = {
 					has_variable = election_communist_support
 				}
 				multiply = 2
+			}
+			if = {
+				limit = {
+					scope:interest_group = {
+						is_interest_group_type = ig_proletarians
+					}
+				}
+				multiply = 1.5
 			}
 		}
 	}
@@ -865,6 +903,7 @@ ideology_vanguardist = {
 				is_interest_group_type = ig_intelligentsia
 				is_interest_group_type = ig_trade_unions
 				is_interest_group_type = ig_armed_forces
+				is_interest_group_type = ig_proletarianss
 			}
 		}
 		scope:interest_group = {
@@ -892,6 +931,14 @@ ideology_vanguardist = {
 					has_variable = election_vanguardist_support
 				}
 				multiply = 2
+			}
+			if = {
+				limit = {
+					scope:interest_group = {
+						is_interest_group_type = ig_proletarians
+					}
+				}
+				multiply = 1.5
 			}
 		}
 	}
@@ -954,6 +1001,14 @@ ideology_fascist = {
 	
 	leader_weight = {
 		value = 100
+		if = {
+				limit = {
+					scope:interest_group = {
+						is_interest_group_type = ig_proletarians
+					}
+				}
+				multiply = 1.25
+		}
 	}
 }
 
@@ -1057,6 +1112,7 @@ ideology_ethno_nationalist = {
 		law_migration_controls = strongly_approve
 		law_closed_borders = approve
 		law_no_migration_controls = disapprove	
+		law_encourage_migration = strongly_disapprove
 	}
 
 	possible = {
@@ -1144,6 +1200,13 @@ ideology_market_liberal = {
 		law_mercantilism = neutral
 		law_isolationism = strongly_disapprove
 	}			
+	
+	lawgroup_migration = {
+		law_migration_controls = neutral
+		law_closed_borders = disapprove
+		law_no_migration_controls = neutral	
+		law_encourage_migration = approve
+	}
 
 	possible = {
 		owner = {
@@ -1170,5 +1233,79 @@ ideology_market_liberal = {
 
 	leader_weight = {
 		value = 100
+	}
+}
+
+ideology_reformist_clergy = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_reformer.dds"
+	
+	leader_ideology = yes
+	
+	lawgroup_free_speech = {
+		law_protected_speech = approve
+		law_right_of_assembly = strongly_approve
+		law_censorship = disapprove
+		law_outlawed_dissent = strongly_disapprove
+	}
+	
+	lawgroup_church_and_state = {
+		law_state_religion = neutral
+		law_freedom_of_conscience = approve
+		law_total_separation = disapprove
+	}
+	
+	lawgroup_citizenship = {
+		law_ethnostate = strongly_disapprove
+		law_national_supremacy = disapprove
+		law_racial_segregation = disapprove
+		law_cultural_exclusion = approve
+		law_multicultural = neutral
+	}
+	
+	possible = {
+		owner = {
+			has_technology_researched = egalitarianism
+		}
+		scope:interest_group = {
+			is_interest_group_type = ig_devout
+		}
+	}
+	
+	leader_weight = {
+		value = 100
+	}
+}
+
+ideology_migrationist = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_reformer.dds"
+	
+	lawgroup_health_system = {
+		law_private_health_insurance = disapprove
+		law_no_health_system = disapprove
+		law_charitable_health_system = approve
+		law_public_health_insurance = disapprove
+	}
+	
+	lawgroup_education_system = {
+		law_private_schools = neutral
+		law_religious_schools = approve
+		law_no_schools = neutral
+		law_public_schools = disapprove
+	}
+	
+	lawgroup_migration = {
+		law_encourage_migration = strongly_approve
+		law_no_migration_controls = approve
+		law_migration_controls = disapprove
+		law_closed_borders = strongly_disapprove
+	}
+	
+	possible = {
+		owner = {
+			has_technology_researched = egalitarianism
+		}
+		scope:interest_group = {
+			is_interest_group_type = ig_catholic_church
+		}
 	}
 }

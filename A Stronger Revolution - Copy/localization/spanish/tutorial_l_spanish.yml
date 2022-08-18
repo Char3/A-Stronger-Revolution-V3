@@ -1,0 +1,637 @@
+﻿l_spanish:
+ tutorial_lesson_button_skip:2 "Omitir lección"
+ tutorial_lesson_button_next:2 "Siguiente"
+ tutorial_lesson_button_continue:1 "¡Adelante!"
+ 
+ tutorial_lesson_button_complete:2 "Entendido"
+ tutorial_lesson_button_read_later:2 "Leer más tarde"
+ tutorial_lesson_button_refuse:2 "¡Nunca!"
+ tutorial_lesson_button_explain:2 "Explícamelo, por favor"
+ tutorial_lesson_button_excellent:2 "Excelente"
+ tutorial_lesson_button_elaborate:2 "Quiero saber más"
+ tutorial_lesson_button_back:2 "Atrás"
+ tutorial_lesson_button_repeat_step:2 "Mostrar de nuevo"
+ tutorial_lesson_button_show_more:0 "Mostrar más"
+ tutorial_lesson_button_show_less:0 "Mostrar menos"
+ tutorial_lesson_button_come_again:2 "Repite, por favor"
+ TUTORIAL_STEP_INSTRUCTIONS:2 "Para continuar:"
+ skip_to_next_topic:2 "Omitir esta lección del tutorial"
+
+ lesson_step_1_of_2:1 "1/2"
+ lesson_step_2_of_2:1 "2/2"
+ lesson_step_1_of_3:1 "1/3"
+ lesson_step_2_of_3:1 "2/3"
+ lesson_step_3_of_3:1 "3/3"
+ lesson_step_1_of_4:1 "1/4"
+ lesson_step_2_of_4:1 "2/4"
+ lesson_step_3_of_4:1 "3/4"
+ lesson_step_4_of_4:1 "4/4"
+ lesson_step_1_of_5:1 "1/5"
+ lesson_step_2_of_5:1 "2/5"
+ lesson_step_3_of_5:1 "3/5"
+ lesson_step_4_of_5:1 "4/5"
+ lesson_step_5_of_5:1 "5/5"
+ lesson_step_1_of_6:1 "1/6"
+ lesson_step_2_of_6:1 "2/6"
+ lesson_step_3_of_6:1 "3/6"
+ lesson_step_4_of_6:1 "4/6"
+ lesson_step_5_of_6:1 "5/6"
+ lesson_step_6_of_6:1 "6/6"
+ lesson_step_1_of_7:1 "1/7"
+ lesson_step_2_of_7:1 "2/7"
+ lesson_step_3_of_7:1 "3/7"
+ lesson_step_4_of_7:1 "4/7"
+ lesson_step_5_of_7:1 "5/7"
+ lesson_step_6_of_7:1 "6/7"
+ lesson_step_7_of_7:1 "7/7"
+ lesson_step_1_of_8:1 "1/8"
+ lesson_step_2_of_8:1 "2/8"
+ lesson_step_3_of_8:1 "3/8"
+ lesson_step_4_of_8:1 "4/8"
+ lesson_step_5_of_8:1 "5/8"
+ lesson_step_6_of_8:1 "6/8"
+ lesson_step_7_of_8:1 "7/8"
+ lesson_step_8_of_8:1 "8/8"
+ lesson_step_1_of_9:1 "1/9"
+ lesson_step_2_of_9:1 "2/9"
+ lesson_step_3_of_9:1 "3/9"
+ lesson_step_4_of_9:1 "4/9"
+ lesson_step_5_of_9:1 "5/9"
+ lesson_step_6_of_9:1 "6/9"
+ lesson_step_7_of_9:1 "7/9"
+ lesson_step_8_of_9:1 "8/9"
+ lesson_step_9_of_9:1 "9/9"
+
+#Lesson names
+
+ lesson_basics:0 "Introducción"
+
+ TRIGGER_LESSON_BASICS_NESTED_TOOLTIPS_CONTINUE:1 "Sitúa el cursor sobre un $tooltip_hinter$ en el interior de una ayuda emergente"
+ TOOLTIPS_EXPLAINER:1 "Esto es una #tooltippable #tooltip:NESTED_TOOLTIPS_EXPLAINER ayuda emergente#!#!"
+ NESTED_TOOLTIPS_EXPLAINER:0 "La ayuda emergente suele ofrecer información detallada sobre aquello que señala el cursor y, a menudo, contiene otras ayudas jerarquizadas como esta."
+ 
+ tooltip_hinter:1 "#tooltippable #tooltip:TOOLTIPS_EXPLAINER texto subrayado#!#!"
+ tooltip_hinter_name:1 "#tooltippable_name #tooltip:TOOLTIPS_EXPLAINER Nombre#!#!"
+ tooltip_hinter_names:1 "#tooltippable_name #tooltip:TOOLTIPS_EXPLAINER Nombres#!#!"
+ tooltip_hinter_concept:0 "[concept_concept]"
+ tooltip_hinter_concepts:0 "[Concept('concept_concept', 'Conceptos')]"
+
+ # Basics
+ lesson_basics_welcome:1 "¡Te damos la bienvenida a la era del progreso!"
+ lesson_basics_welcome_desc:2 "Nos encontramos en 1836. [GetPlayer.GetRuler.GetFullName] es [GetPlayer.GetRuler.GetRoleTitle] de [GetPlayer.GetName]. La Revolución Industrial avanza a toda máquina y conlleva unos cambios sociales sin precedentes. Han transcurrido más de veinte años desde que el Congreso de Viena impusiera en Europa algo parecido al orden y el malestar empieza a gestarse de nuevo entre las [Concept('concept_great_power', 'grandes potencias')]. Tu misión será guiar a [GetPlayer.GetName] hasta la gloria a lo largo de más de un siglo.\n\nEn Victoria 3 no existe una única forma de «ganar». Deberás establecer tus propios objetivos y vivirás diferentes historias conforme trates de alcanzarlos." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_basics_core_gameplay:0 "Juego básico"
+ lesson_basics_core_gameplay_short:0 "En Victoria 3 deberás asumir el control, desarrollar y dar forma a un país de la época victoriana, haciendo hincapié en la #bold economía#! y la #bold política#!. Tu tarea será construir la sociedad de tus sueños al tiempo que haces frente a obstáculos internos y externos."
+ lesson_basics_core_gameplay_show_more:0 "La política, la economía, la diplomacia y la guerra son herramientas para lograr tal fin, pero deben utilizarse con precaución, ya que la población tiene sus propias necesidades y deseos. Las decisiones que tomes afectarán a la población y esta, a su vez, tratará de influir en ti.\n\nVictoria 3 es una simulación dinámica con infinidad de elementos móviles. Toda acción tendrá consecuencias, incluso la que realices de forma involuntaria. Se trata de algo normal y previsible. No tienes que saber cómo funciona todo antes de jugar. Tómatelo con calma y aprende de tus errores. ¡En poco tiempo serás una autoridad en política!"
+ lesson_basics_core_gameplay_desc:0 "En Victoria 3 deberás asumir el control, desarrollar y dar forma a un país de la época victoriana, haciendo hincapié en la #bold economía#! y la #bold política#!. Tu tarea será construir la sociedad de tus sueños al tiempo que haces frente a obstáculos internos y externos.\n\nLa política, la economía, la diplomacia y la guerra son herramientas para lograr tal fin, pero deben utilizarse con precaución, ya que la población tiene sus propias necesidades y deseos. Las decisiones que tomes afectarán a la población y esta, a su vez, tratará de influir en ti.\n\nVictoria 3 es una simulación dinámica con infinidad de elementos móviles. Toda acción tendrá consecuencias, incluso la que realices de forma involuntaria. Se trata de algo normal y previsible. No tienes que saber cómo funciona todo antes de jugar. Tómatelo con calma y aprende de tus errores. ¡En poco tiempo serás una autoridad en política!"
+ # [LocEditor:UntranslatedKey] `lesson_basics_core_gameplay_part_1_desc`
+ # [LocEditor:UntranslatedKey] `lesson_basics_core_gameplay_part_2_desc`
+ # [LocEditor:UntranslatedKey] `lesson_basics_core_gameplay_you`
+ # [LocEditor:UntranslatedKey] `lesson_basics_core_gameplay_politics`
+ # [LocEditor:UntranslatedKey] `lesson_basics_core_gameplay_economics`
+ # [LocEditor:UntranslatedKey] `lesson_basics_core_gameplay_diplomacy`
+ # [LocEditor:UntranslatedKey] `lesson_basics_core_gameplay_war`
+ # [LocEditor:UntranslatedKey] `lesson_basics_core_gameplay_country_and`
+
+ #Camera & Map
+ lesson_basics_camera:1 "Cámara ($lesson_basics$)"
+ lesson_basics_camera_keys:1 "Utiliza las teclas #v W#!, #v A#!, #v S#! y #v D#! para desplazarte por el mapa."
+ lesson_basics_camera_scroll_wheel:1 "Usa la #v rueda de desplazamiento#! para acercar y alejar el zoom. También puedes mantenerla pulsada para desplazarte por el mapa."
+ lesson_basics_camera_map:1 "Además, podrás hacer esto último desplazando el cursor hasta el borde de la pantalla."
+ lesson_basics_camera_tab:1 "Si mantienes pulsada la tecla del #v tabulador#!, tendrás una visión general de todo el mundo al instante. Después, podrás hacer clic en cualquier parte y soltar el #v tabulador#! para desplazarte al momento hasta ese lugar."
+ lesson_basics_camera_desc:1 "Utiliza las teclas #v W#!, #v A#!, #v S#! y #v D#! para echar un vistazo al mapa. También puedes mover el mapa desplazando el cursor hasta el borde de la pantalla o manteniendo pulsada la rueda o el botón central del ratón mientras lo desplazas.\n\nUsa la #v rueda del ratón#! para acercar y alejar el zoom.\n\nSi mantienes pulsada la tecla del #v tabulador#!, tendrás una visión general de todo el mundo al instante. Después, podrás hacer clic en cualquier parte y soltar el #v tabulador#! para desplazarte hasta ese lugar al momento."
+
+ lesson_basics_pausing:1 "Pausar la partida ($lesson_basics$)"
+ lesson_basics_pausing_short:0 "Ajusta la velocidad de la partida y accede a la pausa con los controles de velocidad resaltados. También podrás pausar y reanudar la partida utilizando la #v barra espaciadora#! de tu teclado."
+ lesson_basics_pausing_spacebar:0 "También podrás pausar y reanudar la partida utilizando la #v barra espaciadora#! de tu teclado."
+ lesson_basics_pausing_show_more:0 "Victoria 3 abarca un período de cien años, desde 1836 hasta 1936, pero tendrás la opción de ajustar el ritmo a tu gusto. En este momento, el tiempo no transcurre porque la partida está en pausa. Aunque la acción se haya detenido, podrás seguir interactuando con el juego, pero un buen número de acciones tienen fruto a lo largo del tiempo y es necesario que el reloj avance para que surtan efecto.\n\nPara esta parte del tutorial, vamos a mantener la partida en pausa mientras te explicamos los fundamentos. Observa bien los controles de velocidad resaltados, ya que pronto te devolveremos el control."
+ lesson_basics_pausing_desc:1 "Ahora comienza tu periplo a través del siglo XIX, pero el aprendizaje no acaba aquí.\n\nTras finalizar esta lección, podrás #v reanudar la partida#!, hacer clic en los diferentes elementos y comenzar a explorar por tu cuenta. Tu primer reto comenzará cuando haya transcurrido un día dentro de la partida.\n\nVictoria 3 abarca un período de cien años, desde 1836 hasta 1936, pero tendrás la opción de ajustar el ritmo a tu gusto. En este momento, el tiempo no transcurre porque la partida está en pausa. Aunque la acción se haya detenido, podrás seguir interactuando con el juego, pero un buen número de acciones tienen fruto a lo largo del tiempo y es necesario que el reloj avance para que surtan efecto.\n\nPuedes utilizar los controles de velocidad resaltados para modificar la velocidad de la partida entre 1 y 5.\n\nAdemás de hacer clic en los iconos, puedes utilizar la #v barra espaciadora#! del teclado para pausar y reanudar la partida. Las opciones #v +#! y #v -#! modifican la velocidad."
+ lesson_basics_pausing_continue:0 "Reanuda la partida"
+ 
+ lesson_basics_nested_tooltips:1 "Ayudas emergentes jerarquizadas ($lesson_basics$)"
+ lesson_basics_nested_tooltips_desc:2 "En ocasiones verás $tooltip_hinter$, un $tooltip_hinter_name$ o $tooltip_hinter_concept$ en color. Desplaza el cursor sobre este texto para obtener más información en una nueva ventana, llamada #b ayuda emergente#!.\n\nNo muevas el cursor durante unos instantes y la ayuda emergente mostrará un borde sólido y se bloqueará donde esté. A continuación, podrás acceder a nuevos $tooltip_hinter$, $tooltip_hinter_names$ o $tooltip_hinter_concepts$ sobre los que desplazarte dentro de esa ayuda emergente."
+ lesson_basics_nested_tooltips_hover_word:1 "Place your cursor over #todo #tooltippable underlined text#!#!"
+ lesson_basics_nested_tooltips_complete:1 "$lesson_basics_nested_tooltips$"
+ lesson_basics_nested_tooltips_complete_desc:1 "$lesson_basics_nested_tooltips_desc$"
+ lesson_basics_nested_tooltips_continue:0 "Coloca el cursor sobre una ayuda emergente que esté dentro de otra ayuda emergente"
+ 
+ lesson_basics_capacities:0 "Capacidades ($lesson_basics$)"
+ lesson_basics_capacities_short:0 "Existen tres capacidades que miden diferentes aspectos del poder de tu país.\n\nLa [concept_bureaucracy|l] @bur! es el alcance que posee la burocracia de tu gobierno.\n\nLa [concept_authority|l] @aut! es la capacidad de la persona que posea el cargo de [concept_head_of_state|l] para gobernar mediante decretos.\n\nLa [concept_influence|l] @inf! te permite imponer tu voluntad en asuntos internacionales."
+ lesson_basics_capacities_show_more:0 "Las capacidades se generan mediante ciertos [Concept('concept_government_building', 'edificios gubernamentales')], determinadas [Concept('concept_law', 'leyes')] y tu [concept_rank|l], respectivamente. Tendrás la oportunidad de asignarlas conforme a tus intereses.\n\nToda capacidad no utilizada proporcionará una pequeña mejora a un aspecto del país, mientras que un uso excesivo conllevará una penalización importante." # [LocEditor:AwaitingBatchUpdate]
+ lesson_basics_capacities_desc:0 "Existen tres capacidades que miden diferentes aspectos del poder de tu país.\n\nLa [concept_bureaucracy|l] @bur! es el alcance que posee la burocracia en tu gobierno.\n\nLa [concept_authority|l] @aut! es la capacidad de la persona que posea el cargo de [concept_head_of_state|l] para gobernar mediante decretos.\n\nLa [concept_influence|l] @inf! te permite imponer tu voluntad en asuntos internacionales.\n\nLas capacidades se generan mediante ciertos [Concept('concept_government_building', 'edificios gubernamentales')], determinadas [Concept('concept_law', 'leyes')] y tu [concept_rank|l], respectivamente. Tendrás la oportunidad de asignarlas conforme a tus intereses.\n\nToda capacidad no utilizada proporcionará una pequeña mejora a un aspecto del país, mientras que un uso excesivo conllevará una penalización importante." # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `lesson_basics_capacities_desc_1`
+ # [LocEditor:UntranslatedKey] `lesson_basics_capacities_desc_B`
+ # [LocEditor:UntranslatedKey] `lesson_basics_capacities_desc_A`
+ # [LocEditor:UntranslatedKey] `lesson_basics_capacities_desc_I`
+ # [LocEditor:UntranslatedKey] `lesson_basics_capacities_desc_R`
+ 
+ lesson_basics_treasury:0 "Tesoro ($lesson_basics$)"
+ lesson_basics_treasury_short:0 "El [concept_money|l] del [concept_treasury|l] se utiliza para financiar la maquinaria del estado, ampliar la industria y la infraestructura, pagar a los militares e incluso influir en naciones menos importantes."
+ lesson_basics_treasury_show_more:0 "La mayor parte del dinero del país circula a través de los [Concept('concept_building', 'edificios')] y [Concept('concept_pop', 'colectivos')] y no se encuentra bajo tu control directo. Aumenta los ingresos del tesoro para hacer que la economía crezca y aporte más impuestos. Disminuye los gastos minimizando los costes operativos de los [Concept('concept_government_building', 'edificios gubernamentales')].\n\nEl balance que aparece en la barra superior refleja los cambios semanales. A diferencia de las capacidades, sí podrás ahorrar [concept_money|l] para gastarlo con posterioridad, aunque endeudarse con un balance semanal negativo a menudo puede suponer un mejor rendimiento de la inversión. Los préstamos se pagarán automáticamente siempre que el balance semanal sea positivo." # [LocEditor:AwaitingBatchUpdate]
+ lesson_basics_treasury_desc:0 "El [concept_money|l] del [concept_treasury|l] se utiliza para financiar la maquinaria del estado, ampliar la industria y la infraestructura, pagar a los militares e incluso influir en naciones menos importantes.\n\nLa mayor parte del dinero del país circula a través de los [Concept('concept_building', 'edificios')] y [Concept('concept_pop', 'colectivos')] y no se encuentra bajo tu control directo. Aumenta los ingresos del $concept_treasury$ para hacer que la economía crezca y aporte más impuestos. Disminuye los gastos minimizando los costes operativos de los [Concept('concept_government_building', 'edificios gubernamentales')].\n\nEl balance que aparece en la barra superior refleja los cambios semanales. A diferencia de las capacidades, sí podrás ahorrar [concept_money|l] para gastarlo con posterioridad, aunque endeudarse con un balance semanal negativo a menudo puede suponer un mejor rendimiento de la inversión. Los préstamos se pagarán automáticamente siempre que el balance semanal sea positivo." # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `lesson_basics_treasury_part_1_desc`
+ # [LocEditor:UntranslatedKey] `lesson_basics_treasury_part_2_desc`
+ # [LocEditor:UntranslatedKey] `lesson_basics_treasury_part_3_desc`
+ # [LocEditor:UntranslatedKey] `lesson_basics_treasury_part_4_desc`
+ # [LocEditor:UntranslatedKey] `lesson_basics_treasury_part_5_desc`
+ # [LocEditor:UntranslatedKey] `lesson_basics_treasury_Expand_industry`
+ # [LocEditor:UntranslatedKey] `lesson_basics_treasury_Fund`
+ # [LocEditor:UntranslatedKey] `lesson_basics_treasury_Pay`
+ # [LocEditor:UntranslatedKey] `lesson_basics_treasury_Influence`
+ # [LocEditor:UntranslatedKey] `lesson_basics_treasury_Taxes`
+
+ lesson_basics_info_panels:0 "Paneles informativos ($lesson_basics$)"
+ lesson_basics_info_panels_desc:0 "En la parte izquierda de la pantalla, hay una serie de botones para acceder a otras pantallas que muestran un resumen de los diferentes aspectos de [GetPlayer.GetName].\n\nAlgunos sirven para gestionar el país, mientras que otros son meramente informativos. Échales un vistazo y pulsa Siguiente cuando hayas terminado de curiosear."
+
+ lesson_basics_lenses:0 "Lentes ($lesson_basics$)"
+ lesson_basics_lenses_short:0 "En la parte inferior de la pantalla verás cinco lentes. Con ellas podrás acceder fácilmente a las acciones que sirven para dar forma al país. Además, proporcionan la información necesaria para tomar decisiones acertadas."
+ lesson_basics_lenses_production:0 "#b Producción#! sirve para hacer que la industria crezca y proporciona detalles sobre los resultados económicos."
+ lesson_basics_lenses_politics:0 "#b Política#! sirve para gestionar el gobierno y a tu pueblo. Además, ofrece detalles sobre el equilibrio de poder en tu país."
+ lesson_basics_lenses_diplomacy:0 "#b Diplomacia#! sirve para entablar o incumplir acuerdos con otros países o iniciar [Concept('concept_diplomatic_play', 'jugadas políticas')] contra estos. Da detalles sobre el modo en que te perciben otros países."
+ lesson_basics_lenses_military:0 "#b Ejército#! sirve para ampliar las fuerzas terrestres y navales y obtener detalles sobre las órdenes de un [concept_commander|l] y otros asuntos bélicos."
+ lesson_basics_lenses_trade:0 "#b Comercio#! te permite ampliar las [concept_infrastructure|l] comercial y te proporciona información sobre los [Concept('concept_market', 'mercados')] y las [Concept('concept_trade_route', 'rutas comerciales')]." # [LocEditor:AwaitingBatchUpdate]
+ lesson_basics_lenses_desc:0 "En la parte inferior de la pantalla verás cinco lentes. Con ellas podrás acceder fácilmente a las acciones que sirven para dar forma al país. Además, proporcionan la información necesaria para tomar decisiones acertadas.\n\n#b Producción#! sirve para hacer que la industria crezca y proporciona detalles sobre los resultados económicos.\n\n#b Política#! sirve para gestionar el gobierno y al pueblo. Además, ofrece detalles sobre el equilibrio de poder en tu país.\n\n#b Diplomacia#! sirve para entablar o incumplir acuerdos con otros países o iniciar [Concept('concept_diplomatic_play', 'jugadas políticas')] contra estos. Da detalles sobre el modo en que te perciben otros países.\n\n#b Ejército#! sirve para ampliar las fuerzas terrestres y navales y obtener detalles sobre las órdenes de un [concept_commander|l] y otros asuntos bélicos.\n\n#b Comercio#! te permite ampliar las [concept_infrastructure|l] comerciales y te proporciona información sobre los [Concept('concept_market', 'mercados')] y las [Concept('concept_trade_route', 'rutas comerciales')]." # [LocEditor:AwaitingBatchUpdate]
+ lesson_basics_lenses_continue:0 "Para abrir la interfaz de las lentes, haz clic en cualquiera de sus botones."
+ 
+ lesson_basics_lenses_complete:0 "$lesson_basics_lenses$"
+ lesson_basics_lenses_complete_desc:0 "Aleja el zoom y observa el mapa para ver los detalles que han cambiado. Cuando quieras seguir adelante, cierra la lente y pulsa Siguiente."
+ lesson_basics_lenses_complete_continue:0 "Para cerrar la interfaz de las lentes, haz de nuevo clic en cualquiera de sus botones."
+
+ TRIGGER_LESSON_BASICS_LENSES_CONTINUE:0 "Abre cualquier lente"
+ TRIGGER_LESSON_BASICS_LENSES_COMPLETE_CONTINUE:0 "Cierra cualquier lente"
+
+ lesson_basics_intro_ending:0 "Fin de la introducción ($lesson_basics$)"
+ lesson_basics_intro_ending_desc:0 "Ahora comienza tu periplo a través del siglo XIX, pero el aprendizaje no acaba aquí.\n\nTras finalizar esta lección, podrás #v reanudar la partida#!, hacer clic en los diferentes elementos y comenzar a explorar por tu cuenta. Tu primer reto comenzará cuando haya transcurrido un día dentro de la partida."
+
+ #POPS
+ lesson_pops_intro:0 "Colectivos"
+ lesson_pops_intro_desc:0 "Los colectivos son una forma de dividir la población de un país en agrupaciones de personas que comparten [concept_profession|l], [Concept('concept_building', 'lugar de trabajo')] en un [concept_state|l], [concept_culture|l] y [concept_religion|l]; es decir, un grupo demográfico característico de gente que comparte un papel económico y político en la sociedad.\n\nEn esta lección, veremos primero un #b resumen#! de los colectivos de tu país y luego les echaremos un vistazo a los #b detalles#! de un colectivo concreto.\n\nPara empezar, haz clic en el icono de «Población» que ves resaltado."
+ lesson_pops_intro_continue:0 "Abre el panel Población"
+
+ lesson_pops_summary:0 "Resumen de colectivos"
+ lesson_pops_summary_desc:0 "Aquí puedes ver un resumen desglosado de los tipos de colectivos que habitan en tu país y el grado de [concept_political_strength|l] que poseen. Pero queremos ver más detalles, así que haz clic en la «Lista detallada» resaltada para ver una relación con todos los colectivos individuales de [GetPlayer.GetName]."
+ lesson_pops_summary_continue:0 "Abre la lista detallada"
+ 
+ lesson_pops_country_details:0 "Colectivos de tu país"
+ lesson_pops_country_details_desc:0 "La lista de [Concept('concept_profession', 'profesiones')] indica:\n$TAB$el #v número#! total de individuos,\n$TAB$la [concept_political_strength|l] total,\n$TAB$qué [Concept('concept_interest_group', 'grupos de interés')] prevalecen entre ellos y\n$TAB$el [concept_sol|l] medio.\n\nDesde el panel Resumen del estado se puede acceder a una vista similar de cada estado concreto. Haz clic en cualquiera de tus estados y accede a la pestaña de Resumen."
+ lesson_pops_country_details_continue:0 "Haz clic en cualquiera de tus estados y abre la pestaña Resumen"
+ 
+ lesson_pops_state_population:0 "Colectivos del estado"
+ lesson_pops_state_population_desc:0 "En la parte inferior del panel Resumen del estado encontrarás algunas estadísticas de población básicas. Accede a los detalles de la población de este estado concreto haciendo clic en el botón resaltado."
+ lesson_pops_state_population_continue:0 "Haz clic en el botón Población"
+ 
+ lesson_pops_state_population_details:0 "Detalles sobre los colectivos del estado"
+ lesson_pops_state_population_details_desc:0 "Esta vista se parece a la anterior, pero solo muestra los colectivos del estado que estés visualizando en lugar de todas las personas del país. A lo largo del juego encontrarás vistas similares que permiten agregar y categorizar información sobre los colectivos.\n\nProfundicemos en este aspecto haciendo clic en una de estas categorías para visualizar una lista de todos los colectivos de esa profesión. También podrás hacer clic en estos colectivos individuales para ver detalles más precisos sobre ese grupo demográfico concreto."
+ lesson_pops_state_population_details_continue:0 "Despliega una categoría y, a continuación, haz clic en un colectivo individual"
+ 
+ lesson_pops_stats_1:0 "Propiedades de los colectivos"
+ lesson_pops_stats_1_desc:0 "Aquí podemos ver un colectivo individual en todo su esplendor. Aunque nunca interactuarás directamente con los colectivos, toda acción que realices afectará a las propiedades de los colectivos de tu país. A su vez, el país cambiará conforme lo hagan las capacidades, condiciones, movilidad y deseos de la población.\n\nA continuación, repasaremos las propiedades de un colectivo. Mientras gobiernes el país, casi siempre tendrás acceso a estos valores en forma de promedios o datos agregados, pero a veces será necesario profundizar hasta el nivel individual para ver #b por qué#! un valor es así. Siempre encontrarás una ayuda emergente con una explicación por cada valor."
+
+ lesson_pops_stats_2:0 "Profesión"
+ lesson_pops_stats_2_desc:0 "La [concept_profession|l] de un colectivo establece el tipo de trabajo que la [concept_workforce|l] de un colectivo realiza como medio de vida, lo cual influye en su [concept_building_wage|l] y en los [Concept('concept_interest_group', 'grupos de interés')] que puedan apoyar. Cada profesión se considera parte de los [Concept('concept_lower_strata', 'estratos inferiores')], [Concept('concept_middle_strata', 'medios')] o [Concept('concept_upper_strata', 'superiores')], lo que puede afectar a su [Concept('concept_taxation', 'tipo impositivo')] entre otras cosas.\n\nUn colectivo no puede cambiar de profesión de repente. Cuando se creen puestos de trabajo en un [concept_building|l] del mismo [concept_state|l], los colectivos [Concept('concept_pop_qualifications', 'cualificados')] para el nuevo empleo podrán acceder a un determinado número de puestos. Si el nuevo empleo es mejor que el actual, algunos individuos de la [concept_workforce|l] tomarán a sus [concept_dependents|l] y se unirán a un colectivo existente de la profesión pertinente, o bien crearán un nuevo colectivo si es que este no existe aún.\n\nTodo esto ocurre sin que puedas interferir y rara vez serás consciente de ello, salvo en caso de que no se cubran los nuevos puestos de trabajo en un plazo razonable. Con el tiempo, verás cómo cambian los grupos demográficos junto con las profesiones que se ofrecen en tu país."
+ 
+ lesson_pops_stats_3:0 "Nivel de vida"
+ lesson_pops_stats_3_desc:0 "El [concept_sol|l] de un colectivo es una combinación de su [concept_wealth|l] y de las condiciones en las que vive. Este determina la satisfacción general con su situación e influye en el [Concept('concept_pop_growth', 'crecimiento')].\n\nA medida que el nivel de vida aumente, un cierto número de individuos del colectivo se convertirá en [Concept('concept_loyalist', 'leales')]. Cuando este disminuya, el colectivo desarrollará una actitud más [concept_radical|l], y mientras se mantenga por debajo de un mínimo nacional esperado, cada vez más individuos pasarán a hacerse [Concept('concept_radical', 'radicales')]." # [LocEditor:AwaitingBatchUpdate]
+ 
+ lesson_pops_stats_4:0 "Población e ingresos"
+ lesson_pops_stats_4_desc:0 "Un colectivo está compuesto por [concept_workforce|l] y [concept_dependents|l]. Los primeros trabajan en los [Concept('concept_building', 'edificios')] del país a cambio de un [concept_building_wage|l]. Los últimos no pueden trabajar por edad o por lesiones, o bien se encargan del hogar, la crianza de los hijos, del cuidado de los ancianos o de realizar trabajos ocasionales. Por lo general, tanto la mano de obra como los dependientes contribuyen a los ingresos totales de un colectivo, pero los salarios representan la mayor parte.\n\nTanto la mano de obra como los dependientes tienen [concept_pop_needs|l] que deben satisfacer y gastarán sus ingresos en [Concept('concept_good', 'bienes')] para tal fin. Si sobra dinero, la [concept_wealth|l] del colectivo crecerá con el tiempo. Si los ingresos resultan insuficientes para cubrir gastos, la riqueza disminuirá."
+ 
+ lesson_pops_stats_5:0 "Empleabilidad"
+ lesson_pops_stats_5_desc:0 "En esta sección se indica el [concept_state|l] en el que vive y trabaja un colectivo, su tasa de [concept_literacy|l], así como su [concept_culture|l] y [concept_religion|l], lo que establece el nivel de [concept_discrimination|l].\n\nEstos aspectos son especialmente importantes para determinar la empleabilidad de un colectivo. Los colectivos solo pueden desempeñar los empleos disponibles en el [concept_state|l] en el que residan. Los colectivos [Concept('concept_discrimination', 'discriminados')] tienen más dificultades a la hora de disponer de [Concept('concept_pop_qualifications', 'cualificaciones')] para acceder a mejores [Concept('concept_profession', 'profesiones')]; una tasa de [concept_literacy|l] elevada es fundamental para poder optar a los empleos más técnicos o académicos que surjan con la modernidad."
+ 
+ lesson_pops_stats_6:0 "Política"
+ lesson_pops_stats_6_desc:0 "En esta sección se enumeran los [Concept('concept_interest_group', 'grupos de interés')] que apoya el colectivo, la cantidad de [concept_political_strength|l] con la que pueden respaldarlos y el número de miembros que actualmente son [Concept('concept_radical', 'radicales')] y [Concept('concept_loyalist', 'leales')].\n\nLos grupos de interés favorecerán las distintas [Concept('concept_law', 'leyes')] en función de sus [Concept('concept_ideology', 'ideologías')], y harán uso de la fuerza política que les proporcionan los colectivos para fomentar dichas políticas. Tanto los leales como los radicales contribuyen a la [concept_ig_approval|l] de los grupos de interés a los que respalda un colectivo. Los radicales también crean [concept_turmoil|l] en el [concept_state|l] del colectivo." # [LocEditor:AwaitingBatchUpdate]
+ 
+ lesson_pops_conclusion:0 "Colectivos: conclusión"
+ lesson_pops_conclusion_desc:0 "Los colectivos son la base del país y gestionarlos es fundamental para desarrollar una sociedad con éxito. La creación de puestos de trabajo y la aplicación de políticas que fomenten que los colectivos sean más ricos, más felices y estén más alfabetizados reportarán muchos beneficios, pero también supondrán nuevos retos. Los cambios que realices repercutirán en los colectivos, que a su vez estarán más o menos dispuestos a aceptar cambios en el futuro."
+ 
+ #ECONOMY
+ lesson_expand_building_how_1:0 "Cómo ampliar [Concept('concept_building', 'edificios')]"
+ lesson_expand_building_how_1_desc:0 "Los [Concept('concept_building', 'edificios')] se construyen en los [Concept('concept_state', 'estados')]. Si haces clic en el mapa, verás los [Concept('concept_building', 'edificios')] que hay en un [concept_state|l].\n\nQueremos que busques en el mapa un [concept_state|l] concreto llamado [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName]. Si pasas el ratón por encima del nombre, este debería resaltarse en algún lugar de [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetCountry.GetName]" # [LocEditor:AwaitingBatchUpdate]
+ lesson_expand_building_how_1_continue:0 "En el mapa, haz clic en el [concept_state|l] de [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] y, a continuación, en la pestaña de [Concept('concept_building', 'edificios')]"
+
+ lesson_expand_building_how_2:0 "$lesson_expand_building_how_1$"
+ lesson_expand_building_how_2_desc:0 "En el panel Resumen de edificios tendrás una visión general de los [Concept('concept_building', 'edificios')] que hay en el [concept_state|l] de [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName], agrupados en cuatro categorías: #b urbanos#!, #b recursos#!, #b agricultura#! y #b desarrollo#!."
+ lesson_expand_building_how_2_continue:0 "Haz clic en [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] en el panel del [concept_state|l]"
+ 
+ lesson_expand_building_how_3:0 "$lesson_expand_building_how_1$"
+ lesson_expand_building_how_3_desc:0 "Ya puedes ver información detallada del [concept_building|l] [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] en [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName]. Puede ordenar su ampliación desde el panel haciendo clic en el botón «+» resaltado.\n\nTambién puedes utilizar las lentes para ampliar el edificio [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName].\n\nUtiliza cualquiera de estos dos métodos para empezar a ampliar el edificio [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] en [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName]."
+
+ lesson_expand_building_why_1:0 "Por qué ampliar [Concept('concept_building', 'edificios')]"
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_1K_desc`
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_1K_expand`
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_1K_enrich`
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_1K_taxes`
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_1K_original_desc`
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_1K_p2_desc`
+ lesson_expand_building_why_1_continue:0 "En el mapa, haz clic en el [concept_state|l] de [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] y, a continuación, en la pestaña de [Concept('concept_building', 'edificios')]"
+
+ lesson_expand_building_why_2:0 "$lesson_expand_building_why_1$"
+ lesson_expand_building_why_2_desc:0 "En el panel Resumen de [concept_building|l] tendrás una visión general de los [Concept('concept_building', 'edificios')] que hay en el [concept_state|l] de [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName], agrupados en cuatro categorías: #b urbanos#!, #b recursos#!, #b agricultura#! y #b desarrollo#!."
+ lesson_expand_building_2_icon_text:0 "Busca [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] en el panel del [concept_state|l] de [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName]."
+ lesson_expand_building_why_2_continue:0 "Haz clic en [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] en el panel del [concept_state|l]"
+ 
+ lesson_expand_building_why_3:0 "$lesson_expand_building_why_1$"
+ lesson_expand_building_why_3_desc:0 "En los procesos de este [concept_building|l], vemos que hay #v gastos#! e #v ingresos#!. Si los ingresos superan los gastos, el [concept_building|l] obtendrá beneficios. Los beneficios se muestran por semana como el #v balance semanal#!. Si el #v balance semanal#! es positivo, podrás ver adónde van esos beneficios en la ayuda emergente.\n\nSi el #v balance semanal#! es negativo, por lo general implica una mala situación, pero eso ya lo veremos más adelante en otro reto del tutorial."
+
+ lesson_expand_building_why_4:0 "$lesson_expand_building_why_1$"
+ lesson_expand_building_why_4_desc:0 "Aquí puedes ver los factores que componen los gastos del $concept_building$. Los gastos siempre incluirán los salarios de los empleados del $concept_building$, es decir, tus [Concept('concept_pop', 'colectivos')]. Pero también pueden incluir otros gastos y modificadores como el uso de [Concept('concept_good', 'bienes')] y el [concept_infrastructure_usage|l]."
+
+ lesson_expand_building_why_5:0 "$lesson_expand_building_why_1$"
+ lesson_expand_building_why_5_desc:0 "Aquí puedes ver los factores que componen los ingresos del $concept_building$.\n\nTu [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName|l] produce [GetTutorialJournalEntry.GetBuildingTarget.GetDefaultOutputGoods.GetName|l] [GetTutorialJournalEntry.GetBuildingTarget.GetDefaultOutputGoods.GetTextIcon] como [concept_good|l] principal. Ciertos [Concept('concept_building', 'edificios')] pueden producir diversos tipos de [Concept('concept_good', 'bienes')]. Posteriormente, los $concept_goods$ se venden a un precio variable."
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_5k1_desc`
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_5k2_desc`
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_5k3_desc`
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_5k_desc_Grain`
+
+ lesson_expand_building_why_6:0 "$lesson_expand_building_why_1$"
+ lesson_expand_building_why_6_desc:0 "No obstante, los [Concept('concept_building', 'edificios')] no proporcionan ingresos directos, sino que dan trabajo y salario a los [Concept('concept_pop', 'colectivos')]. Podrás ver qué $concept_pops$ trabajan aquí desde la pestaña #v Mano de obra#!."
+ lesson_expand_building_why_6_continue:0 "Haga clic en la pestaña Mano de obra del panel de [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName|l]"
+ 
+ lesson_expand_building_why_7:0 "$lesson_expand_building_why_1$"
+ lesson_expand_building_why_7_desc:0 "Una forma de obtener ingresos a partir de esto es gravar a los [Concept('concept_pop', 'colectivos')] con empleo. Tú decidirás la cantidad que gravar y podrás modificarla en el panel Presupuesto."
+
+ lesson_expand_building_why_8:0 "$lesson_expand_building_why_1$"
+ lesson_expand_building_why_8_desc:0 "Ampliar un [concept_building|l] como tu [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName|l] aumenta el número de [Concept('concept_pop', 'colectivos')] que pueden trabajar en él y permite enriquecer al resto de $concept_pops$ [concept_country_possessive] con acceso a [GetTutorialJournalEntry.GetBuildingTarget.GetDefaultOutputGoods.GetName|l] [GetTutorialJournalEntry.GetBuildingTarget.GetDefaultOutputGoods.GetTextIcon] a un coste menor que antes."
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_8k_desc`
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_8k_desc_Building`
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_8k_desc_Workforce`
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_8k_desc_Grain`
+ # [LocEditor:UntranslatedKey] `lesson_expand_building_why_8k_desc_Country_Pops`
+
+ lesson_expand_building_why_9:0 "$lesson_expand_building_why_1$"
+ lesson_expand_building_why_9_desc:0 "Antes de que te pongas a ampliar todos tus [Concept('concept_building', 'edificios')], no olvides que hacerlo conlleva un #v coste#! y que no todos los [Concept('concept_building', 'edificios')] se pueden ampliar. No obstante, eso es algo que veremos en otros tutoriales. Por el momento, ampliar [Concept('concept_building', 'edificios')] agrícolas como tu [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName|l] suele ser una apuesta segura."
+
+ lesson_expand_basic_building_started_1:0 "Expansión de [concept_building|l] en curso"
+ lesson_expand_basic_building_started_1_desc:0 "¡Has iniciado con éxito la ampliación de tu [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName|l] en [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName]!\n\nSe tarda un tiempo en ampliar un [Concept('concept_building', 'edificio')]. Tu [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName|l] está en la [concept_construction_queue|l] de [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] y la [concept_workforce|l] de [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetBuilding('building_construction_camp').GetName] [concept_state_possessive] lo terminará con el tiempo.\n\nSigue jugando mientras esperas a que el proceso finalice. Aparecerán más [Concept('concept_journal_entry', 'entradas del diario')] con las que descubrirás las diferentes mecánicas de juego de Victoria 3." # [LocEditor:AwaitingBatchUpdate]
+ 
+ lesson_expand_basic_building_complete_1:0 "[concept_building] ampliado"
+ lesson_expand_basic_building_complete_1_desc:0 "¡Ya ha terminado la ampliación de tu [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName|l] de [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] que solicitaste hace un tiempo! El [concept_building|l] podrá acoger una [concept_workforce|l] mayor y producir más [Concept('concept_good', 'bienes')]. Además, ya no tendrás que pagar los costes semanales de la ampliación.\n\nPodrás subir o bajar la velocidad a la que los [Concept('concept_building', 'edificios')] se amplían modificando el [concept_production_method|l] utilizado en el [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetBuilding('building_construction_camp').GetName] de $concept_state$. Cuanto más rápido construyas, mayor será el número de [Concept('concept_pop', 'colectivos')] a los que tengas que pagar y más caros serán los materiales de construcción utilizados." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_expand_productive_building_how_1:0 "Cómo ampliar un [Concept('concept_building', 'edificio')] [Concept('concept_productivity', 'productivo')]"
+ lesson_expand_productive_building_how_1_desc:0 "A estas alturas ya sabrás que puedes ampliar [Concept('concept_building', 'edificios')] desde el panel de [concept_state|l], seleccionando el $concept_building$ y pulsando el botón «+», o bien utilizando la lente de #v producción#!. Si lo deseas, puedes completar esta [concept_journal_entry|l] del mismo modo.\n\nPero dado nuestro propósito actual, es mejor acceder al panel de resumen de $concept_buildings$ para buscar y ampliar un $concept_building$ especialmente [Concept('concept_productivity', 'productivo')]."
+ lesson_expand_productive_building_how_1_continue:0 "Abre el panel de $concept_buildings$"
+
+ lesson_expand_productive_building_how_2:0 "$lesson_expand_building_how_1$"
+ lesson_expand_productive_building_how_2_desc:0 "Aquí se muestran todos los [Concept('concept_building', 'edificios')] de [GetPlayer.GetName] mediante una práctica vista en forma de lista. Desde la lista podrás acceder a los $concept_buildings$ directamente y realizar operaciones comunes como ampliar, [Concept('concept_subsidies', 'subvencionar')] o cambiar los [Concept('concept_production_method', 'métodos de producción')]. Y más importante aún, desde aquí podrás llevar a cabo estas operaciones a la vez en todos los $concept_buildings$ de un tipo concreto de tu país.\n\nEl edificio de [GetTutorialJournalEntry.GetTarget.GetBuilding.GetBuildingType.GetName|l] que queremos construir se encuentra en la pestaña #v [GetTutorialJournalEntry.GetTarget.GetBuilding.GetBuildingType.GetTabName]#!. Localiza el $concept_building$ desplegando el menú de #v [GetTutorialJournalEntry.GetTarget.GetBuilding.GetBuildingType.GetName|l]#!." # [LocEditor:AwaitingBatchUpdate]
+ lesson_expand_productive_building_how_2_continue:0 "Amplía el menú desplegable del edificio de [GetTutorialJournalEntry.GetTarget.GetBuilding.GetBuildingType.GetName|l] en la pestaña [GetTutorialJournalEntry.GetTarget.GetBuilding.GetBuildingType.GetTabName] para encontrar tu [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName|l] en [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName]"
+ 
+ lesson_expand_productive_building_how_3:0 "$lesson_expand_building_how_1$"
+ lesson_expand_productive_building_how_3_desc:0 "Uno de los aspectos fundamentales de un [concept_building|l] es la [concept_productivity|l] relativa. La elevada $concept_productivity$ de tu [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] es lo que ha hecho que sea ideal para su ampliación. La $concept_productivity$ es un baremo superior a los beneficios a la hora de determinar lo valioso que es un $concept_building$, puesto que mide el valor que añade a tu economía sin tener en cuenta aspectos como los [Concept('concept_building_wage', 'salarios')], [concept_taxes|l], [concept_subsidies|l] e [concept_budget_dividends_taxes|l], que pueden variar en gran medida de un edificio a otro."
+
+ lesson_expand_productive_building_how_4:0 "$lesson_expand_building_how_1$"
+ lesson_expand_productive_building_how_4_desc:0 "Vamos a comenzar a ampliar este edificio. Haz clic en el botón «+» como antes, o haz clic con el botón derecho del ratón y selecciona la opción adecuada."
+ lesson_expand_productive_building_how_4_continue:0 "Inicia la ampliación de tu [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName|l]"
+
+ lesson_expand_productive_building_how_5:0 "$lesson_expand_building_how_1$"
+ lesson_expand_productive_building_how_5_desc:0 "¡Bien hecho! Continúa explorando el juego mientras esperas a que acabe la ampliación. Tienes la opción de conocer en profundidad #v por qué#! deberías ampliar los [Concept('concept_building', 'edificios')] [Concept('concept_productivity', 'productivos')] retrocediendo hasta el botón #v Dime por qué#! en la [concept_journal_entry|l]."
+
+ lesson_expand_productive_building_why_1:0 "Por qué ampliar un [Concept('concept_building', 'edificio')] [Concept('concept_productivity', 'productivo')]"
+ lesson_expand_productive_building_why_1_desc:0 "Al centrar los esfuerzos de ampliación en [Concept('concept_building', 'edificios')] muy [Concept('concept_productivity', 'productivos')], maximizas la cantidad de valor que tu [concept_workforce|l] añade a la economía. Al producir [Concept('concept_good', 'bienes')] de bajo valor como el #v grano#!, mientras gastas solo una pequeña cantidad de [concept_money|l] en $concept_goods$ de insumo, como las #v herramientas#!, podrás alimentar a la vez a los [Concept('concept_pop', 'colectivos')] que ganen un [Concept('concept_building_wage', 'salario')] escaso. Pero, si en vez de eso, eres capaz de redirigir esa $concept_workforce$ a la producción de $concept_goods$ de alto valor como el #v vino#! o los #v clíperes#!, siempre que exista demanda, dichos $concept_pops$ acabarán produciendo más $concept_money$ para alguien, aunque sus $concept_building_wages$ no suban."
+ lesson_expand_productive_building_why_1_continue:0 "Abre el panel de detalles del $concept_building$ [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName|l] en [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName]"
+
+ lesson_expand_productive_building_why_2:0 "$lesson_expand_building_why_1$"
+ lesson_expand_productive_building_why_2_desc:0 "Como indica el icono del engranaje, la [concept_productivity|l] de tu [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName|l] es muy elevada. Pasa el ratón por encima para obtener más detalles."
+
+ lesson_expand_productive_building_why_3:0 "$lesson_expand_building_why_1$"
+ lesson_expand_productive_building_why_3_desc:0 "La [concept_productivity|l] se basa únicamente en la diferencia entre el coste de los [Concept('concept_good', 'bienes')] de insumo y los ingresos obtenidos mediante la venta de los $concept_goods$ de producción, dividida entre la [concept_workforce|l] total del [concept_building|l]. Piensa en ello como en la cantidad de valor que cada empleado añade a la economía de su $concept_building$ cada año."
+
+ lesson_expand_productive_building_why_4:0 "$lesson_expand_building_why_1$"
+ lesson_expand_productive_building_why_4_desc:0 "Incluso si el valor de [concept_productivity|l] es mucho mayor que el [Concept('concept_building_wage', 'salario')] medio, la diferencia no se pierde. Se divide entre las [concept_cash_reserves|l] del $concept_building$ y los [concept_budget_dividends_taxes|l] pagados a los [Concept('concept_pop', 'colectivos')] con [Concept('concept_ownership_share', 'participaciones de propiedad')]. Por el contrario, si la $concept_productivity$ es insuficiente para pagar los $concept_building_wages$ del $concept_building$, la diferencia se resta de las $concept_cash_reserves$ a corto plazo antes de reducir los $concept_building_wages$ y posiblemente el [concept_throughput|l] a largo plazo." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_expand_productive_building_why_5:0 "$lesson_expand_building_why_1$"
+ lesson_expand_productive_building_why_5_desc:0 "Añadir valor a tu economía ampliando únicamente [Concept('concept_building', 'edificios')] muy [Concept('concept_productivity', 'productivos')] puede que no sea lo más sensato en todas las situaciones. Si un [concept_market|l] se satura, el [concept_market_price|l] de los [Concept('concept_good', 'bienes')] producidos se reducirá, lo que ejercerá una gran presión por la demanda sobre los $concept_goods$ consumidos y provocará con el tiempo un descenso de la $concept_productivity$.\n\nY más importante aún, puede que construir #v clíperes#! para exportación haga que los [Concept('concept_pop', 'colectivos')] con [Concept('concept_ownership_share', 'participaciones de propiedad')] en los #v astilleros#! sean [Concept('concept_wealth', 'riquísimos')], pero ¡es posible que no ayude en absoluto a la situación de los [concept_lower_strata]!" # [LocEditor:AwaitingBatchUpdate]
+
+ # [LocEditor:UntranslatedKey] `lesson_export_goods_how_1_continue`
+ # [LocEditor:UntranslatedKey] `lesson_export_goods_why_1_continue`
+ 
+
+ ###The Journal
+ lesson_journal_1:0 "El diario"
+ lesson_journal_1_desc_short:0 "¡Acabas de acceder al primer reto del tutorial! Hemos #v pausado la partida#! para que te dé tiempo a leer. No olvides #v reanudar la partida#! mediante los controles de velocidad o la #v barra espaciadora#! cuando quieras volver a la acción.\n\n#v Abre el diario#! haciendo clic en el botón resaltado de la izquierda para empezar."
+ lesson_journal_1_desc:0 "¡Acabas de acceder al primer reto del tutorial! Todos los retos del tutorial se presentarán en forma de entradas del diario. Puedes completarlos a tu propio ritmo solicitando toda la ayuda que necesites.\n\nHemos #v pausado la partida#! de nuevo para que te dé tiempo a leer y volveremos a hacerlo cuando comience una nueva lección. No olvides #v reanudar la partida#! mediante los controles de velocidad o la #v barra espaciadora#! cuando quieras volver a la acción.\n\n#v Abre el diario#! haciendo clic en el botón resaltado de la izquierda para empezar."
+ lesson_journal_1_continue:0 "Abre el panel Diario haciendo clic en el botón resaltado"
+ 
+ lesson_journal_2:0 "$lesson_journal_1$"
+ lesson_journal_2_desc:0 "Este es el diario. Aquí encontrarás todos los retos del tutorial a los que accedas. Aquí también aparecerán de vez en cuando otros eventos importantes de tu país.\n\nDeberías echarle un vistazo al reto del tutorial al que has accedido. Abre la [concept_journal_entry|l] #v $je_tutorial_expand_basic_building$#! para continuar."
+ lesson_journal_2_back:0 "El panel Diario debe estar cerrado para retroceder"
+ lesson_journal_2_continue:0 "Selecciona #v $je_tutorial_expand_basic_building$#! para continuar"
+ 
+ lesson_journal_3:0 "$lesson_journal_1$"
+ lesson_journal_3_desc_short:0 "Se te ha encargado que amplíes un [concept_building|l] agrícola básico en uno de los [Concept('concept_state', 'estados')]. A medida que juegues, aparecerán en el #v diario#! más retos del tutorial parecidos a este.\n\nPuedes tratar de completar el reto por tu cuenta sin ninguna ayuda o hacer clic en el botón #v Dime cómo#! para acceder a una explicación paso a paso.\n\n¡Buena suerte!" # [LocEditor:AwaitingBatchUpdate]
+ lesson_journal_3_desc:0 "Se te ha encargado que amplíes un [concept_building|l] agrícola básico en uno de los [Concept('concept_state', 'estados')].\n\nAl completar los retos del tutorial, aprenderás #b cómo#! dar forma a tu nación en la dirección que desees y #b por qué#! deberías hacerlo. Puedes tratar de completar las tareas utilizando solo la información proporcionada en la [concept_journal_entry|l] o puedes hacer clic en el botón «Guíame» de la $concept_journal_entry$ para acceder a unas instrucciones detalladas.\n\nA medida que avances, accederás a más retos del tutorial. Revisa el diario de vez en cuando para conocer los siguientes pasos." # [LocEditor:AwaitingBatchUpdate]
+ lesson_journal_3_back:0 "El panel de [concept_journal_entry|l] debe estar cerrado para retroceder"
+ 
+
+ ###Budget Deficit
+ lesson_budget_balance_1:0 "Equilibrar el presupuesto"
+ lesson_budget_balance_1_desc:0 "En estos momentos, tus gastos fijos son superiores al dinero que ganas, lo que supone un déficit presupuestario que agotará tus [concept_gold_reserves|l] en caso de tenerlas, y aumentará la [concept_national_debt|l] en caso de no tenerlas. Para empezar a resolver el problema, primero abre el panel Presupuesto."
+ lesson_budget_balance_1_continue:0 "Abre el panel Presupuesto"
+ 
+ lesson_budget_balance_2:0 "$lesson_budget_balance_1$"
+ lesson_budget_balance_2_desc:0 "Aquí puedes ver desglosados todos los gastos y fuentes de ingresos, y ajustar los niveles de impuestos y salarios de la administración pública. La forma más sencilla de solventar un déficit presupuestario suele ser subir los impuestos a los [Concept('concept_pop', 'colectivos')] o introducir nuevos [Concept('concept_consumption_tax', 'impuestos al consumo')], pero ten en cuenta que esto presenta inconvenientes, como una reducción de la [concept_wealth|l] y posibles focos de [concept_turmoil|l]. También puedes probar a disminuir los gastos reduciendo el nivel de los [Concept('concept_government_building', 'edificios gubernamentales')] como cuarteles y bases navales, o recortando los salarios de la administración.\n\nUna forma menos fiable de incrementar los ingresos, pero que suele ser mejor, es hacer crecer el producto interior bruto desarrollando la eficiencia de los [Concept('concept_building', 'edificios')] o aumentando el déficit para ampliar los [Concept('concept_building', 'edificios')] rentables, aunque esta opción no es muy recomendable para alguien que juegue por primera vez." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_budget_balance_how_1:0 "Cómo equilibrar el presupuesto"
+ lesson_budget_balance_how_1_desc:0 "Para reducir el déficit y pagar los préstamos, puedes aumentar los ingresos, reducir los gastos o hacer ambas cosas."
+ lesson_budget_balance_how_1_continue:0 "Abre el panel Presupuesto"
+
+ lesson_budget_balance_how_2:0 "$lesson_budget_balance_how_1$"
+ lesson_budget_balance_how_2_desc:0 "Los ingresos proceden de la [concept_budget_minting|l] y los [concept_taxes|l]. La nueva moneda se acuñará de forma automática para mantener el ritmo de crecimiento de la economía, pero los [concept_taxes|l] son necesarios para mantener gobiernos poderosos.\n\nEntre estos se incluyen:\n - [concept_budget_income_taxes]\n - [concept_budget_poll_taxes]\n - [Concept('concept_consumption_tax', 'Impuestos al consumo')]\n - [concept_budget_dividends_taxes]\ny muchos otros.\n\nAñadir nuevos [concept_taxes|l] o subir los existentes supondrá un aumento inmediato de los ingresos." # [LocEditor:AwaitingBatchUpdate]
+ lesson_budget_balance_how_2_continue:0 "Aumenta el nivel de cualquier impuesto o añade un nuevo [concept_consumption_tax|l] para continuar"
+
+ lesson_budget_balance_how_3:0 "$lesson_budget_balance_how_1$"
+ lesson_budget_balance_how_3_desc:0 "Los gastos de construcción no se consideran parte de los gastos fijos, puesto que terminan cuando acaba la construcción. No obstante, mientras esta dure seguirán siendo una carga para tu [concept_treasury|l]. Vamos a ponerlos en pausa y podrás reiniciarlos cuando hayas resuelto el problema."
+ lesson_budget_balance_how_3_continue:0 "Pon en pausa todo tipo de construcción para detener los gastos de construcción en los diferentes [Concept('concept_state', 'estados')]" # [LocEditor:AwaitingBatchUpdate]
+ 
+ lesson_budget_balance_how_4:0 "$lesson_budget_balance_how_1$"
+ lesson_budget_balance_how_4_desc:0 "Los [Concept('concept_government_building', 'edificios gubernamentales')] incurren en gastos fijos, como los derivados de [Concept('concept_government_administration', 'administraciones gubernamentales')] y [Concept('concept_barrack', 'cuarteles')], y estos incluyen los [Concept('concept_good', 'bienes')] utilizados y los [concept_budget_wages|l] pagados por ellos. Puedes controlar los gastos modificando los $concept_budget_wages$ que se pagan en todo el [concept_country|l].\n\nSi lo deseas, puedes reducir los [concept_budget_government_wages|l] o los [concept_budget_military_wages|l]. Los cambios salariales siempre se pueden revertir, pero ¡presta atención a las consecuencias en la ayuda emergente!" # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_budget_balance_how_5:0 "$lesson_budget_balance_how_1$"
+ lesson_budget_balance_how_5_desc:0 "Otra forma de controlar los gastos es reducir el tamaño de los [Concept('concept_government_building', 'edificios gubernamentales')] en [Concept('concept_state', 'estados')] concretos. Esto reduce permanentemente el coste de los [concept_budget_wages|l] pagados y los [Concept('concept_good', 'bienes')] consumidos, pero elimina el beneficio que proporciona el nivel del [concept_building|l]." # [LocEditor:AwaitingBatchUpdate]
+ lesson_budget_balance_how_5_continue:0 "Haz clic en la pestaña [Concept('concept_state', 'Estados')] para continuar" # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_budget_balance_how_6:0 "$lesson_budget_balance_how_1$"
+ lesson_budget_balance_how_6_desc:0 "En la pestaña [Concept('concept_state', 'Estados')] se agrupan todos los ingresos y gastos del [concept_treasury|l] por [concept_state|l] para facilitar la búsqueda de candidatos óptimos para una reducción de tamaño. Al ordenar por gastos y pasar el cursor del ratón por encima, podrás descubrir rápidamente los [Concept('concept_building', 'edificios')] que cuestan más.\n\nSi quieres, puedes recortar gastos reduciendo el tamaño de los [Concept('concept_government_building', 'edificios gubernamentales')]. Esta acción solo se puede revertir ampliando el edificio de nuevo, lo que requiere tiempo y [concept_money|l]." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_budget_balance_how_7:0 "$lesson_budget_balance_how_1$"
+ lesson_budget_balance_how_7_desc:0 "Un elemento potencialmente importante para los gastos fijos es el [concept_budget_interest_rate|l] que pagas por los [Concept('concept_domestic_loans', 'préstamos')]."
+ lesson_budget_balance_how_7_continue:0 "Haz clic en la pestaña Activos para continuar"
+
+ lesson_budget_balance_how_8:0 "$lesson_budget_balance_how_1$"
+ lesson_budget_balance_how_8_desc:0 "Solo podrás reducir los pagos del [concept_budget_interest_rate|l] mediante el abono del [concept_principal|l]. Siempre que el balance de [concept_treasury|l] sea negativo, el $concept_principal$ aumentará, lo que hará también que el pago del $concept_budget_interest_rate$ crezca. Si tu balance del $concept_treasury$ es positivo, reducirás los pagos del $concept_principal$ y el $concept_budget_interest_rate$ automáticamente.\n\nAl reducir el [concept_budget_interest_rate|l], podrás asumir [Concept('concept_domestic_loans', 'préstamos')] mucho mayores antes de caer en una espiral sin salida, pero las oportunidades de hacerlo no suelen presentarse." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_budget_balance_how_9:0 "$lesson_budget_balance_how_1$"
+ lesson_budget_balance_how_9_desc:0 "Si el balance sigue siendo negativo, continúa recaudando o añadiendo más [concept_taxes|l], o bien reduce el tamaño de los [Concept('concept_government_building', 'edificios gubernamentales')] hasta que sea positivo." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_budget_balance_why_1:0 "Por qué equilibrar el presupuesto"
+ lesson_budget_balance_why_1_desc:0 "Existen muchas fuentes de ingresos y gastos diferentes. En el panel Presupuesto verás un desglose completo."
+ lesson_budget_balance_why_1_continue:0 "Abre la pestaña Resumen del panel Presupuesto"
+
+ lesson_budget_balance_why_2:0 "$lesson_budget_balance_why_1$"
+ lesson_budget_balance_why_2_desc:0 "Si los gastos superan a los ingresos, tus [concept_gold_reserves|l] menguarán cada semana mostrando un #v balance semanal#! negativo. Cuando estas se hayan agotado, la [concept_national_debt|l] aumentará cada semana. El hecho de considerar esto un problema o no depende de adónde esté yendo el dinero."
+
+ lesson_budget_balance_why_3:0 "$lesson_budget_balance_why_1$"
+ lesson_budget_balance_why_3_desc:0 "La mayoría de los gastos son #v fijos#!. La cuantía exacta de un gasto fijo puede variar a lo largo del tiempo en función de las condiciones económicas, pero se mantendrá presente semana tras semana hasta que tomes medidas para reducirlo.\n\nLos costes de construcción y algún otro gasto #v temporal#! estarán en vigor durante un período de tiempo concreto y luego #v acabarán#!. Si el balance es negativo solo a causa de gastos temporales, normalmente no hay que preocuparse, ya que estás haciendo que la economía crezca y los gastos de construcción pueden ponerse en pausa en cualquier momento."
+
+ lesson_budget_balance_why_4:0 "$lesson_budget_balance_why_1$"
+ lesson_budget_balance_why_4_desc:0 "Pero si tu [concept_treasury|l] tiene gastos #v fijos#! que superen las fuentes de ingresos, la situación financiera será insostenible. Aunque poseas [concept_gold_reserves|l], con el tiempo tendrás que solicitar [concept_domestic_loans|l] a las industrias del país para poder seguir en marcha."
+ lesson_budget_balance_why_4_continue:0 "Abre la pestaña de Activos"
+
+ lesson_budget_balance_why_5:0 "$lesson_budget_balance_why_1$"
+ lesson_budget_balance_why_5_desc:0 "No deberías tener miedo alguno a pedir [Concept('concept_domestic_loans', 'préstamos')] para progresar, sobre todo porque la mayoría del @money! que gastes revertirá al bolsillo de algún [concept_pop|l]. No olvides que cada [concept_good|l] adquirido y cada @money! de los [concept_budget_wages|l] termina por enriquecer a los productores, los consumidores o a ambos. Gastar dinero del [concept_treasury|l] siempre eleva el nivel medio de [concept_wealth|l], lo cual aumenta la demanda de las [concept_pop_needs|l], que es lo que hace que funcione la economía."
+ # [LocEditor:UntranslatedKey] `lesson_budget_balance_why_5_continue`
+ # [LocEditor:UntranslatedKey] `lesson_budget_balance_why_5_k_desc`
+ # [LocEditor:UntranslatedKey] `lesson_budget_balance_why_5_k2_desc`
+ # [LocEditor:UntranslatedKey] `lesson_budget_balance_why_5_k_Pop_Wealth`
+ # [LocEditor:UntranslatedKey] `lesson_budget_balance_why_5_k_Taxes`
+ # [LocEditor:UntranslatedKey] `lesson_budget_balance_why_5_k_Interest`
+ # [LocEditor:UntranslatedKey] `lesson_budget_balance_why_5_k_Treasury`
+ # [LocEditor:UntranslatedKey] `lesson_budget_balance_why_5_k_Expand_industry`
+ # [LocEditor:UntranslatedKey] `lesson_budget_balance_why_5_k_Take_Loans`
+ # [LocEditor:UntranslatedKey] `lesson_budget_balance_why_5_k_Demand_Increase`
+
+ lesson_budget_balance_why_6:0 "$lesson_budget_balance_why_1$"
+ lesson_budget_balance_why_6_desc:0 "El [concept_credit_limit|l] es la suma de las [concept_cash_reserves|l] de todos los edificios. Cuanto más grandes y exitosas sean tus industrias, más dinero podrás pedir prestado. A continuación, puedes ver tu [concept_credit|l] restante, que es:\n\n#variable [GetPlayer.GetMaxCredit|2*]#! ([concept_credit_limit|l]) - #variable [GetPlayer.GetPrincipal|K]#! ([concept_principal|l]) = #variable [GetPlayer.GetRemainingCredit|2*]#! [concept_credit|l] restante\n\nPasa el ratón por encima del valor $concept_credit_limit$ para ver un desglose de las $concept_cash_reserves$ de tus industrias."
+ lesson_budget_balance_why_6_encyclopedia_desc:0 "El [concept_credit_limit|l] es la suma de las [concept_cash_reserves|l] de todos los edificios. Cuanto más grandes y exitosas sean tus industrias, más dinero podrás pedir prestado. A continuación, puedes ver tu [concept_credit|l] restante, que es:\n\n ([concept_credit_limit|l]) - ([concept_principal|l]) = [concept_credit|l] restante\n\nPasa el ratón por encima del valor $concept_credit_limit$ para ver un desglose de las $concept_cash_reserves$ de tus industrias."
+
+ lesson_budget_balance_why_7:0 "$lesson_budget_balance_why_1$"
+ lesson_budget_balance_why_7_desc:0 "Si el [concept_principal|l] llega al nivel del [concept_credit_limit|l], se considerará que tu país está en [concept_default|l], ya que no podrá asumir sus deudas. Esto paralizará cualquier construcción y hará que los [Concept('concept_pop', 'colectivos')] del país con [Concept('concept_ownership_share', 'participaciones de propiedad')] se [Concept('concept_radicalization', 'radicalicen')], lo que puede suponer un desastre para la estabilidad política." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_budget_balance_why_8:0 "$lesson_budget_balance_why_1$"
+ lesson_budget_balance_why_8_desc:0 "Cualquier cambio que realices en la economía tendrá amplios efectos indirectos, tanto positivos como negativos."
+ lesson_budget_balance_why_8_continue:0 "Abre de nuevo la pestaña Resumen"
+
+
+ lesson_budget_balance_why_9:0 "$lesson_budget_balance_why_1$"
+ lesson_budget_balance_why_9_desc:0 "Todos los [concept_taxes|l] se recaudan directamente de los [Concept('concept_pop', 'colectivos')], aunque las distintas [Concept('concept_law', 'leyes')] fiscales afectarán a las finanzas personales de estos de distinto modo. Asimismo, todos los gastos afectarán a tu economía y a las personas que viven de ella. Con el simple hecho de subir los impuestos o de ajustar los [concept_budget_government_wages|l] para cubrir gastos, estarás redistribuyendo la [concept_wealth|l] entre los $concept_pops$. Toda acción tiene consecuencias en atributos como el [concept_pop_growth|l] y la [concept_turmoil|l]."
+
+
+###Trade Routes
+ lesson_trade_routes_1:0 "Rutas comerciales"
+ lesson_trade_routes_1_desc:0 "Una [concept_trade_route|l] es una conexión entre dos [Concept('concept_market', 'mercados')] que trasladan bienes entre sí, lo que crea [concept_buy_orders|l] (que provocan la subida del precio del [concept_good|l]) en el mercado exportador y [concept_sell_orders|l] (que provocan la bajada del precio del [concept_good|l]) en el mercado importador.\n\nNormalmente, una [concept_trade_route|l] sirve para aumentar la rentabilidad de los [Concept('concept_building', 'edificios')] o reducir el coste de los [Concept('concept_government_good', 'bienes gubernamentales')]. Por ejemplo, si algún [concept_building|l] de $building_furniture_manufacturies$ se encuentra en un aprieto debido al bajo precio de los $furniture$, podrías establecer una ruta de exportación del mobiliario para aumentar su precio y, en consecuencia, los ingresos obtenidos por dichas $building_furniture_manufacturies$." # [LocEditor:AwaitingBatchUpdate]
+ lesson_trade_routes_1_continue:0 "Abre la lente de comercio"
+ 
+ lesson_trade_routes_2:0 "$lesson_trade_routes_1$"
+ lesson_trade_routes_2_desc:0 "La forma más sencilla de crear una [concept_trade_route|l] es mediante la lente de comercio. Tan solo tienes que hacer clic en las opciones «Establecer ruta comercial de importación» o «Establecer ruta comercial de exportación», elige el [concept_good|l] que quieres importar o exportar y, a continuación, los mercados con los que deseas establecer la [concept_trade_route|l].\n\nLas rutas comerciales tienen niveles, y las de mayor nivel trasladan mayor volumen de bienes desde el [concept_market|l] exportador al importador. Podrás aumentar el nivel de una [concept_trade_route|l] que hayas creado si sigues haciendo clic en el mercado de destino, hasta alcanzar la capacidad máxima de ruta comercial en el mercado de origen."
+ 
+ lesson_trade_routes_3:0 "$lesson_trade_routes_1$"
+ lesson_trade_routes_3_desc:0 "Si no tienes capacidad para establecer nuevas [Concept('concept_trade_route', 'rutas comerciales')] para tu [concept_market|l], podrás liberar capacidad eliminando las rutas comerciales existentes a través del panel del [concept_market|l], ampliando los edificios de [GetBuildingType('building_trade_center').GetName] o utilizando [Concept('concept_production_method', 'métodos de producción')] más avanzados en los centros de comercio."
+
+ lesson_import_goods_how_1:0 "Cómo importar bienes"
+ lesson_import_goods_how_1_desc:0 "El elevado precio actual del producto [GetTutorialJournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName] en [GetTutorialJournalEntry.GetTarget.GetMarketGoods.GetMarket.GetName] se podría reducir estableciendo una ruta comercial de importación de [GetTutorialJournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName] desde otro [concept_market|l].\n\nLas [Concept('concept_trade_route', 'rutas comerciales')] se pueden establecer desde la $trade_lens$ o desde el panel [Concept('concept_market', 'Mercados')]." # [LocEditor:AwaitingBatchUpdate]
+ lesson_import_goods_how_1_continue:0 "Haz clic en el botón #v $NEW_IMPORT_ROUTE$#! del panel Mercados y selecciona [GetTutorialJournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName]\n\n#v O bien#!\n\nAbre la $trade_lens$, haz clic en #v $trade_route_import_lens_option$#! y selecciona [GetTutorialJournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName]."
+
+ lesson_import_goods_how_2:0 "$lesson_import_goods_how_1$"
+ lesson_import_goods_how_2_desc:0 "Podrás establecer diferentes [Concept('concept_trade_route', 'rutas comerciales')] mediante la $trade_lens$, o puede que los [Concept('concept_market', 'mercados')] consigan suministrarte distintas cantidades de productos importados en función de la [concept_trade_route|l] utilizada. La cantidad dependerá de diversos factores. Podrás ver un desglose de estos pasando por encima de la cantidad indicada en el panel Lista de mapas de $mm_market_interaction$." # [LocEditor:AwaitingBatchUpdate]
+ lesson_import_goods_how_2_continue:0 "Selecciona un mercado desde el que importar"
+
+ lesson_import_goods_how_3:0 "$lesson_import_goods_how_1$"
+ lesson_import_goods_how_3_desc:0 "¡Estás importando [GetTutorialJournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName|l]! La cantidad importada aumentará con el tiempo hasta alcanzar su límite. Tu objetivo es importar más de [GetTutorialJournalEntry.CalcCurrentGoalValue] [concept_sell_orders|l] de [GetTutorialJournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName|l] hasta el mercado. Si es necesario, crea más [Concept('concept_trade_route', 'rutas comerciales')] para alcanzar el objetivo."
+
+ lesson_import_goods_why_1:0 "Por qué importar bienes"
+ lesson_import_goods_why_1_desc:0 "Muy pocos [Concept('concept_country', 'países')] poseen la capacidad para ser totalmente autosuficientes. Con frecuencia, producir los [Concept('concept_good', 'bienes')] fundamentales de tu país por tu cuenta es una decisión inteligente, pero en ocasiones carecerás de [concept_potentials|l] para hacerlo. Puede que también desees dar prioridad a la industria solo en productos específicos para así utilizar la [concept_workforce|l] de manera más eficaz o sacarle partido a la [concept_economy_of_scale|l]. Además, es posible que tengas una necesidad más urgente y no tengas tiempo de crear tu propia producción industrial. Las [Concept('concept_trade_route', 'rutas comerciales')] de importación resultan útiles en cualquiera de estos casos." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_import_goods_why_2:0 "$lesson_import_goods_why_1$"
+ lesson_import_goods_why_2_desc:0 "La cantidad de bienes que puedes trasladar por [concept_trade_route|l] se basa en la demanda de tu propio [concept_market|l] y la cantidad total disponible en los lejanos $concept_market$ desde los que importas. Esta cantidad depende de la cantidad de bienes que importen de estos mercados otros [Concept('concept_country', 'países')] y tu [concept_trade_route_competitiveness] relativa. Tu [GetPlayer.GetActiveLawFromGroup('lawgroup_economic_system').GetGroup.GetName] (actualmente [GetPlayer.GetActiveLawFromGroup('lawgroup_economic_system').GetName]) también puede afectar a la situación." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_import_goods_why_3:0 "$lesson_import_goods_why_1$"
+ lesson_import_goods_why_3_desc:0 "Importar desde [Concept('concept_market', 'mercados')] extranjeros podría suponer una carga para tu [concept_supply_network|l], lo que exigirá que mejores o construyas más [Concept('concept_port', 'puertos')] para llegar hasta ellos de manera eficaz." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_import_goods_why_4:0 "$lesson_import_goods_why_1$"
+ lesson_import_goods_why_4_desc:0 "Importar desde el [concept_market|l] que permita sacar el máximo rendimiento a tu [concept_trade_route|l] es una gran idea, pero no olvides que cada unidad comercializada afectará al [concept_market_price|l] del [concept_good|l] en #v ambos#! mercados. Importar desde un [concept_country|l] rival resolverá tu situación de escasez, pero enriquecerá sus industrias productoras."
+ 
+ lesson_select_target_building_to_continue:0 "Haz clic en el icono [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName]"
+ lesson_select_state_and_building_tab_to_continue:0 "En el mapa, haz clic en el [concept_state|l] de [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName] y, a continuación, en la pestaña de [Concept('concept_building', 'edificios')]"
+
+### Production Methods
+ lesson_production_methods_how_1:0 "Cómo cambiar los [Concept('concept_production_method', 'métodos de producción')]"
+ lesson_production_methods_how_1_desc:0 "Los [Concept('concept_production_method', 'métodos de producción')] se pueden modificar desde el panel de detalles de un [concept_building|l]. Vamos a seguir utilizando de ejemplo el edificio [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName|l] de [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName]."
+ lesson_production_methods_how_1_continue:0 "Abre el panel de tu [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName|l] de [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName]"
+
+ lesson_production_methods_how_2:0 "$lesson_production_methods_how_1$"
+ lesson_production_methods_how_2_desc:0 "Estos son los [Concept('concept_production_method', 'métodos de producción')] que actualmente están activos en este [concept_building|l]. Puedes hacer clic en cualquiera de ellos para ver una lista de opciones alternativas. El número #g verde#! indica las alternativas de las que dispones en este momento."
+ lesson_production_methods_how_2_continue:0 "Selecciona cualquier [concept_production_method|l]"
+
+ lesson_production_methods_how_3:0 "$lesson_production_methods_how_1$"
+ lesson_production_methods_how_3_desc:0 "Pasa el ratón por cualquiera de las opciones para acceder a un desglose explicativo de cómo cambiará el [concept_building|l] si se selecciona otro [concept_production_method|l]."
+ lesson_production_methods_how_3_continue:0 "Cambia cualquier [concept_production_method|l]"
+
+ lesson_production_methods_how_4:0 "$lesson_production_methods_how_1$"
+ lesson_production_methods_how_4_desc:0 "¡Buen trabajo! Ahora mantén este [concept_production_method|l] activo durante al menos [GetTutorialJournalEntry.GetTotalGoalValue|0] semanas para apreciar los cambios."
+ 
+ lesson_production_methods_why_1:0 "Por qué cambiar los [Concept('concept_production_method', 'métodos de producción')]"
+ lesson_production_methods_why_1_desc:0 "Los [Concept('concept_production_method', 'métodos de producción')] establecen y cambian las funciones de los [Concept('concept_building','edificios')]. Para mostrarte un ejemplo, le echaremos un vistazo a tu [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName|l] de [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName]."
+ lesson_production_methods_why_1_continue:0 "Abre el panel de tu [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName|l] de [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName]"
+
+ lesson_production_methods_why_2:0 "Por qué cambiar los [Concept('concept_production_method', 'métodos de producción')]"
+ lesson_production_methods_why_2_desc:0 "Si pasas el ratón por encima de cualquiera de los [Concept('concept_production_method', 'métodos de producción')] activos, podrás ver en la ayuda emergente cuántos [Concept('concept_good', 'bienes')] consume y produce ese $concept_production_method$. También podrás ver cuántas personas de determinada [concept_profession|l] debe tener la [concept_workforce|l] para que tu [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName] funcione."
+
+ lesson_production_methods_why_3:0 "$lesson_production_methods_why_1$"
+ lesson_production_methods_why_3_desc:0 "Los [Concept('concept_production_method', 'métodos de producción')] se organizan por colores según los diferentes tipos:\n\nLos $concept_production_methods$ #b básicos#! hacen uso de una [concept_workforce|l] productiva compuesta por [Concept('concept_pop','colectivos')] de diferentes [Concept('concept_profession', 'profesiones')] para crear un producto o lograr un efecto. A menudo, consumen uno o varios [Concept('concept_good', 'bienes')] en el proceso. Siempre existe al menos un tipo básico.\n\n#b La optimización de los#! $concept_production_methods$ reduce la cantidad de $concept_goods$ básicos producidos en favor de crear otros más avanzados o lujosos, para lo que se suelen añadir $concept_goods$ de insumo adicionales al proceso.\n\nLos $concept_production_methods$ con #b automatización#! consumen $concept_goods$ industriales, pero evitan que sea necesario contratar una cantidad elevada de $concept_workforce$ no cualificada en un $concept_building$.\n\nLos $concept_production_methods$ de #b propiedad#! determinan quién posee el $concept_building$ y quién recauda los [concept_dividends|l]. Los tipos disponibles suelen venir estipulados por las [Concept('concept_law', 'leyes')]."
+ 
+ lesson_production_methods_why_4:0 "$lesson_production_methods_why_1$"
+ lesson_production_methods_why_4_desc:0 "Si haces clic en cualquiera de los [Concept('concept_production_method', 'métodos de producción')] activos, verás que cada tipo incluye distintos métodos, pero solo uno puede estar activo a la vez. Algunos podrían considerarse versiones mejoradas de los tipos previos. Para desbloquearlos, se suelen necesitar [Concept('concept_technology', 'nuevas tecnologías')]. Otros son tan solo alternativas, no son intrínsecamente mejores ni peores. Tendrás que decidir qué es lo que más le conviene a tu [concept_country|l] en función de los [Concept('concept_good', 'bienes')] y las [Concept('concept_profession', 'profesiones')] que tengas y desees."
+
+ lesson_production_methods_why_5:0 "$lesson_production_methods_why_1$"
+ lesson_production_methods_why_5_desc:0 "En ocasiones, mejorar a un [concept_production_method|l] más moderno no es la mejor opción, en especial si el [concept_market_price|l] de los [Concept('concept_good', 'bienes')] de insumo es muy elevado o hay una situación de [concept_input_goods_shortage|l]. Otro motivo para no modernizar un $concept_production_method$ inmediatamente es que este exija [Concept('concept_profession', 'profesiones')] para las que tus [Concept('concept_pop', 'colectivos')] posean escasas [concept_pop_qualifications|l]. Puede incluso que quieras posponer las mejoras porque las nuevas $concept_professions$ puedan ser propensas a afiliaciones políticas que no sean de tu agrado."
+
+
+
+
+
+ ### Unprofitable Building
+ lesson_fix_unprofitable_building_1:0 "Mejorar las ganancias de los edificios"
+ lesson_fix_unprofitable_building_1_desc:0 "Existen diversas formas de mejorar las ganancias de un [concept_building|l] que esté pasando escasez. Comienza por abrir el panel de detalles de [concept_building|l] de tu [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName|l] en [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName]."
+
+ lesson_fix_unprofitable_building_2:0 "$lesson_fix_unprofitable_building_1$"
+ lesson_fix_unprofitable_building_2_desc:0 "La primera posibilidad para mejorar las ganancias de un [concept_building|l] es revisar los [Concept('concept_production_method', 'métodos de producción')] para ver si se están consumiendo o produciendo [Concept('concept_good', 'bienes')] de forma poco eficaz (p. ej., consumiendo $concept_goods$ caros o creando productos baratos). Si este fuera el caso, prueba a cambiar los métodos por otros que se adapten mejor a las condiciones de [concept_market|l] actuales."
+
+ lesson_fix_unprofitable_building_3:0 "$lesson_fix_unprofitable_building_1$"
+ lesson_fix_unprofitable_building_3_desc:0 "Otra forma de mejorar la rentabilidad de un [concept_building|l] es establecer [Concept('concept_trade_route', 'rutas comerciales')] para importar los [Concept('concept_good', 'bienes')] que este consume o exportar los que produce, reduciendo así los costes de los materiales o aumentando los ingresos por ventas. Esto se puede hacer a través de la lente de comercio, y también se puede combinar con un cambio en los [Concept('concept_production_method', 'métodos de producción')] para lograr un efecto potencialmente superior."
+ 
+ lesson_fix_unprofitable_building_4:0 "$lesson_fix_unprofitable_building_1$"
+ lesson_fix_unprofitable_building_4_desc:0 "Por último, si no consigues mejorar las ganancias de un [concept_building|l] cambiando los [Concept('concept_production_method', 'métodos de producción')] ni creando [Concept('concept_trade_route', 'rutas comerciales')], puedes optar por [Concept('concept_subsidies', 'subvencionarlo')]. No es la opción más eficaz, pero se puede utilizar para garantizar que los [Concept('concept_building', 'edificios')] fundamentales para tu economía sigan funcionando en condiciones de mercado adversas." # [LocEditor:AwaitingBatchUpdate]
+
+ ### Promote an IG
+ lesson_promote_ig_how_0:0 "Todavía no puedes [concept_promote|l] [Concept('concept_interest_group', 'grupos de interés')]"
+ lesson_promote_ig_how_0_desc:0 "Tu país no tiene $modifier_country_promotion_ig_attraction_mult$ ([GetPlayer.GetModifier.GetDescFor('country_promotion_ig_attraction_mult')]) y, por tanto, no puedes [concept_promote|l] [Concept('concept_interest_group', 'grupos de interés')]. Primero deberás aprobar una [concept_law|l] que lo garantice."
+ lesson_promote_ig_how_0_continue:0 "Abre el panel Política, haz clic en la pestaña Leyes y luego en la [concept_law] de [GetPlayer.GetActiveLawFromGroup('lawgroup_free_speech').GetName] para ver las opciones posibles. ¡Reinicia esta lección tras promulgar la nueva $concept_law$!"
+
+ lesson_promote_ig_how_1:0 "Cómo [concept_promote|l] a [Concept('concept_interest_group', 'grupos de interés')]"
+ lesson_promote_ig_how_1_desc:0 "Para [concept_promote|l] a un [concept_interest_group|l], en primer lugar deberás tener una [concept_law|l] que lo permita. Esta vendrá definida principalmente por tu postura en relación con la [GetPlayer.GetActiveLawFromGroup('lawgroup_free_speech').GetGroup.GetName] (actualmente [GetPlayer.GetActiveLawFromGroup('lawgroup_free_speech').GetName]). Al promulgar distintas [Concept('concept_law', 'leyes')], podrás concederte más o menos poder para influir en ese tema."
+
+ lesson_promote_ig_how_2:0 "$lesson_promote_ig_how_1$"
+ lesson_promote_ig_how_2_desc:0 "Encontrarás una lista de los [Concept('concept_interest_group', 'grupos de interés')] activos en este momento en el panel $politics$."
+ lesson_promote_ig_how_2_continue:0 "Abre el panel $politics$ en la pestaña $overview$"
+
+ lesson_promote_ig_how_3:0 "$lesson_promote_ig_how_1$"
+ lesson_promote_ig_how_3_desc:0 "Los [Concept('concept_interest_group', 'grupos de interés')], tanto los que estén dentro como fuera del [concept_government|l], se pueden [Concept('concept_promote', 'ascender')]."
+ lesson_promote_ig_how_3_continue:0 "Haz clic en un [concept_interest_group|l] que te resulte interesante"
+ lesson_promote_ig_how_3_continue_close:0 "Cierra el panel del [concept_interest_group|l]"
+ # [LocEditor:UntranslatedKey] `lesson_promote_ig_why_3_continue_close`
+
+ lesson_promote_ig_how_4:0 "$lesson_promote_ig_how_1$"
+ lesson_promote_ig_how_4_desc:0 "[Concept('concept_promote', 'Ascender')] a un [concept_interest_group|l] cuesta [concept_authority] y, por el momento, no es que te sobre. Revisa los gastos de $concept_authority$ y cancela una cantidad suficiente como para disponer de [GetDefine('NPolitics','IG_PROMOTION_COST')|0v] $concept_authority$ @aut! como mínimo."
+ lesson_promote_ig_how_4_continue:0 "Acumula al menos [GetDefine('NPolitics','IG_PROMOTION_COST')|0v] [concept_authority|l] @aut!"
+
+ lesson_promote_ig_how_5:0 "$lesson_promote_ig_how_1$"
+ lesson_promote_ig_how_5_desc:0 "Puedes [concept_promote|l] a cualquier [concept_interest_group|l], pero no olvides que te costará [concept_authority]. Para [concept_promote|l] a un $concept_interest_group$, utiliza el botón $concept_promote$ situado en la parte superior del panel de cualquier $concept_interest_group$."
+ lesson_promote_ig_how_5_continue:0 "[concept_promote] a un [concept_interest_group|l]"
+
+ lesson_promote_ig_how_6:0 "$lesson_promote_ig_how_1$"
+ lesson_promote_ig_how_6_desc:0 "Si [Concept('concept_promote', 'promueves')] a un [concept_interest_group|l], este no cambiará drásticamente al momento. Solo cambiará la [concept_interest_group_attraction|l], lo que hará que un número mayor de [Concept('concept_pop', 'colectivos')] elegibles lo respalden con el tiempo. Espera un rato y enseguida verás el impacto del [concept_clout|l] y la afiliación del $concept_interest_group$."
+ 
+ lesson_promote_ig_why_1:0 "Por qué [concept_promote|l] a [Concept('concept_interest_group', 'grupos de interés')]"
+ lesson_promote_ig_why_1_desc:0 "Los [Concept('concept_interest_group', 'grupos de interés')] son fundamentales a la hora de determinar y conformar la política de tu [concept_country|l]. Si aún no has leído la lección del tutorial sobre $concept_interest_groups$, deberías hacerlo antes de comenzar esta lección.\n\nPuedes iniciarla pasando el ratón por encima del [concept_concept|l] [Concept('concept_interest_group', 'Grupos de interés')] y pulsando el botón #v $GUIDE_ME$#!."
+ lesson_promote_ig_why_1_continue:0 "Abre el panel de cualquier $concept_interest_group$ para continuar"
+ lesson_promote_ig_why_1_continue_close:0 "Cierra el panel del $concept_interest_group$"
+
+ lesson_promote_ig_why_2:0 "$lesson_promote_ig_why_1$"
+ lesson_promote_ig_why_2_desc:0 "La [concept_political_strength|l] de los [Concept('concept_interest_group', 'grupos de interés')] aumentará o disminuirá con el tiempo, (véase [concept_clout|l]). Esto ocurrirá en base a las condiciones que afecten a los [Concept('concept_pop', 'colectivos')] de tu [concept_country|l]. Este cambiante panorama político podría pillarte por sorpresa y hacer que tus planes fracasen.\n\nSi asumes un papel más activo a la hora de decidir qué $concept_interest_groups$ respaldar, podrás influir y predecir más fácilmente la dirección hacia la que se dirige el país."
+
+ lesson_promote_ig_why_3:0 "$lesson_promote_ig_why_1$"
+ lesson_promote_ig_why_3_desc:0 "Un [concept_interest_group|l] [Concept('concept_promote', 'ascendido')] aumentará la afiliación y la [concept_political_strength|l] de su [concept_pop|l] con el tiempo. La [concept_ig_approval|l] del grupo también aumentará al gozar de un estatus con respaldo oficial.\n\nAl promover a los $concept_interest_groups$ que apoyen las [Concept('concept_law', 'leyes')] que deseas promulgar, o que tienen [Concept('concept_interest_group_trait', 'rasgos')] a los que te interesa sacar partido, te encontrarás con menos resistencia a la hora de transformar o mantener las $concept_laws$ de tu $concept_country$." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_promote_ig_why_4:0 "$lesson_promote_ig_why_1$"
+ lesson_promote_ig_why_4_desc:0 "Además de [Concept('concept_promote', 'ascender')] a los [Concept('concept_interest_group', 'grupos de interés')] que te interesen, también puedes [concept_suppress|l] a aquellos que se opongan a ti. Todas estas acciones tienen un coste en [concept_authority|l] @aut!."
+ lesson_promote_ig_why_4_continue:0 "Desplázate hasta la pestaña de [Concept('concept_law', 'leyes')] en el panel $politics$."
+
+ lesson_promote_ig_why_5:0 "$lesson_promote_ig_why_1$"
+ lesson_promote_ig_why_5_desc:0 "La capacidad para [concept_promote|l] y [concept_suppress|l] [Concept('concept_interest_group', 'grupos de interés')] depende de dos aspectos:\n\n* La capacidad de [concept_authority] @aut! que poseas\n* Tus valores en $modifier_country_promotion_ig_attraction_mult$ (actualmente [GetTutorialJournalEntry.GetCountry.GetModifier.GetValueWithBreakdownFor('country_promotion_ig_attraction_mult')]) y $modifier_country_suppression_ig_attraction_mult$ (actualmente [GetTutorialJournalEntry.GetCountry.GetModifier.GetValueWithBreakdownFor('country_suppression_ig_attraction_mult')])\n\nUna fuente destacada para ambos elementos es la [concept_law|l] actual en el [concept_law_group|l] de [GetPlayer.GetActiveLawFromGroup('lawgroup_free_speech').GetName]."
+
+
+ ### Interest Group Concept Lesson
+ lesson_interest_group_1:0 "¿Qué son los [Concept('concept_interest_group', 'grupos de interés')]?"
+ lesson_interest_group_1_desc:0 "Puedes visualizar los grupos de interés en el panel $politics$ de la pestaña $overview$."
+ lesson_interest_group_1_continue:0 "Abre el panel $politics$ en la pestaña $overview$"
+
+ lesson_interest_group_2:0 "$lesson_interest_group_1$"
+ lesson_interest_group_2_desc:0 "Un [concept_interest_group|l] es una facción en el seno de tu país cuyos partidarios de [concept_pop|l] comparten un interés político. Los $concept_interest_groups$ pueden tener uno de estos tres estatus diferentes en el país.\n\n[concept_in_government]: forman parte de la clase dirigente, ya sea por elecciones libres, derecho divino, fuerza violenta u otros medios\n\n[concept_in_opposition]: hacen valer su influencia fuera de los salones del poder\n\n[concept_marginalized]: no son lo bastante fuertes como para ser relevantes, permanecen inactivos a todos los efectos\n\nTodos los países tienen los mismos tipos de $concept_interest_groups$, pero muchos poseen variaciones únicas en función de las condiciones históricas, culturales o religiosas."
+
+ lesson_interest_group_3:0 "$lesson_interest_group_1$"
+ lesson_interest_group_3_desc:0 "#b Tú#! decides libremente qué $concept_interest_groups$ incluir [concept_in_government|l], teniendo presente que las [Concept('concept_law', 'leyes')] actuales determinarán el nivel de [Concept('concept_legitimacy', 'legitimidad')] que estos poseen. Un gobierno con una $concept_legitimacy$ elevada es más eficaz a la hora de promulgar nuevas $concept_laws$, mientras que uno con una $concept_legitimacy$ baja tarda más en hacer las cosas y es más propenso a caer ante las [Concept('concept_revolution', 'revoluciones')]." # [LocEditor:AwaitingBatchUpdate]
+ lesson_interest_group_3_continue:0 "Selecciona cualquier $concept_interest_group$"
+
+ lesson_interest_group_4:0 "$lesson_interest_group_1$"
+ lesson_interest_group_4_desc:0 "El aspecto más importante de un [Concept('concept_interest_group', 'grupo de interés')] es su [Concept('concept_ideology', 'ideología')]. Esta especifica no solo qué opinión tiene el $concept_interest_group$ sobre las [Concept('concept_law', 'leyes')], sino también cuáles son las que favorecen.\n\nPasa el ratón sobre una $concept_ideology$ para ver las $concept_laws$ que el grupo de interés favorece y qué opinión tienen sobre ellas."
+
+ lesson_interest_group_5:0 "$lesson_interest_group_1$"
+ lesson_interest_group_5_desc:0 "La [concept_ideology|l] al principio de la lista de $concept_ideologies$ procede de su [concept_leader|l]. Los $concept_leaders$ irán cambiando a lo largo de la partida y con ellos su $concept_ideology$, pero, en algunos casos, los $concept_leaders$ pueden llegar a cambiar de forma drástica y permanente lo que representa un $concept_interest_group$.\n\nLos $concept_leaders$ pueden ejercer otro efecto sobre los $concept_interest_group$, debido a sus [Concept('concept_character_trait', 'rasgos')] o [concept_popularity|l] actual." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_interest_group_6:0 "$lesson_interest_group_1$"
+ lesson_interest_group_6_desc:0 "Los [Concept('concept_interest_group', 'grupos de interés')] tienen sus propios [Concept('concept_interest_group_trait', 'rasgos')] que ejercen un efecto directo sobre todo el país. Los $concept_interest_group_traits$ se activan y desactivan en función de los diferentes niveles de [concept_ig_approval|l] y aumentan en influencia si el $concept_interest_group$ es [concept_powerful|l].\n\nTen contentos a los $concept_interest_group$ y la gente disfrutará de ventajas. Pero si haces que monten en cólera, te atacarán hasta que cambies de comportamiento." # [LocEditor:AwaitingBatchUpdate]
+
+ lesson_interest_group_7:0 "$lesson_interest_group_1$"
+ lesson_interest_group_7_desc:0 "El poder de un [concept_interest_group|l] se mide por su [concept_clout|l], que es igual a la proporción de [concept_political_strength|l] total en el país. En última instancia, la $concept_political_strength$ procede de los [Concept('concept_pop', 'colectivos')], que respaldarán a aquellos $concept_interest_groups$ que mejor representen sus intereses a la hora de moldear el país de la manera más beneficiosa para ellos."
+
+ lesson_interest_group_8:0 "$lesson_interest_group_1$"
+ lesson_interest_group_8_desc:0 "En el panel correspondiente podrás visualizar todos los [Concept('concept_pop', 'colectivos')] que respaldan a un [concept_interest_group|l]. Ten en cuenta que cada integrante de un $concept_pop$ puede decidir por su cuenta a qué [concept_interest_group|l] respaldar, por lo que el apoyo de un $concept_pop$ se suele dividir en distintas proporciones que abarcan de dos a cuatro $concept_interest_groups$."
+
+ lesson_interest_group_9:0 "$lesson_interest_group_1$"
+ lesson_interest_group_9_desc:0 "Las [Concept('concept_law', 'leyes')] que el [concept_interest_group|l] apoya también están disponibles en forma de lista, ordenadas de más a menos atractivas. Si pasas el ratón por encima del botón $enact$, verás los efectos de la [concept_ig_approval|l] de la $concept_law$ en este y otros $concept_interest_groups$ del país."
+
+
+
+
+ ### Journal Entries
+ JOURNAL_ENTRY_IN_PROGRESS:0 "@green_checkmark! #bold Finalización en curso#!"
+ 
+ je_tutorial_expand_basic_building:0 "Amplía un [concept_building|l] básico"
+ je_tutorial_expand_basic_building_status:0 "Amplía tu [JournalEntry.GetTarget.GetBuilding.GetName|l] de [JournalEntry.GetTarget.GetBuilding.GetState.GetName]"
+ je_tutorial_expand_basic_building_reason:0 "Una forma de hacer que tu economía crezca es construir o ampliar [Concept('concept_building', 'edificios')]. Es difícil saber si un [concept_building|l] será rentable o no, pero ampliar un [concept_building|l] agrícola básico como tu [JournalEntry.GetTarget.GetBuilding.GetBuildingType.GetName|l] es una inversión relativamente segura."
+ je_tutorial_expand_basic_building_header:0 ""
+ je_tutorial_expand_basic_building_reason_long:0 "El crecimiento de la economía mediante la construcción de [Concept('concept_building', 'edificios')] es fundamental para que [Country.GetName] sea un país próspero. Ampliar un [concept_building|l] agrícola como tu [JournalEntry.GetTarget.GetBuilding.GetBuildingType.GetName|l] es una inversión relativamente segura. El coste de los materiales es bajo y produce alimentos básicos, que suelen tener una gran demanda, ya que todos los habitantes del país los consumen. Por eso, este edificio suele reportar un pequeño beneficio con un riesgo mínimo.\n\n@information! Tu [JournalEntry.GetTarget.GetBuilding.GetBuildingType.GetName|l] no es un [Concept('concept_government_building', 'edificio gubernamental')] y no aporta sus beneficios directamente a tus ingresos. Los beneficios se pagan como [Concept('concept_building_wage', 'salarios')] a los [Concept('concept_pop', 'colectivos')] que trabajen en el edificio, y estos a su vez contribuirán al estado con parte de ese [concept_money|l] en forma de [concept_budget_income_taxes|l]." # [LocEditor:AwaitingBatchUpdate]
+ je_tutorial_expand_basic_building_complete_tooltip:0 "Tu [JournalEntry.GetTarget.GetBuilding.GetName|l] de [JournalEntry.GetTarget.GetBuilding.GetState.GetName] se ha ampliado correctamente"
+ je_tutorial_expand_basic_building_invalid_tooltip:0 "Tu [JournalEntry.GetTarget.GetBuilding.GetName|l] de [JournalEntry.GetTarget.GetBuilding.GetState.GetName] ya no es propiedad de [GetPlayer.GetName]"
+  
+ je_tutorial_expand_basic_building_goal:0 "Alcanza el nivel [JournalEntry.GetTotalGoalValue|v0] en tu [JournalEntry.GetTarget.GetBuilding.GetName|l] de [JournalEntry.GetTarget.GetBuilding.GetState.GetName] (nivel actual [JournalEntry.CalcCurrentGoalValue|v0])"
+ 
+ je_tutorial_fix_budget_deficit:0 "Resuelve el déficit presupuestario"
+ je_tutorial_fix_budget_deficit_status:0 "Ten ingresos fijos que superen los gastos fijos"
+ je_tutorial_fix_budget_deficit_reason:0 "Nuestra economía se encuentra en un estado lamentable, ya que los gastos fijos superan a los ingresos, lo que provoca un déficit semanal. Hay varias formas de abordar la situación, como subir los impuestos, recortar los salarios del gobierno o los militares, o reducir el nivel de los edificios financiados por el gobierno."
+ 
+ je_tutorial_increase_trade_capacity:0 "Aumentar la capacidad comercial"
+ je_tutorial_increase_trade_capacity_status:0 "Aumenta el número de [Concept('concept_trade_route', 'rutas comerciales')] de [JournalEntry.GetCountry.GetCapital.GetMarket.GetName]"
+ je_tutorial_increase_trade_capacity_reason:0 "No dispones de [Concept('concept_trade_route', 'rutas comerciales')] en [Country.GetCapital.GetMarket.GetName]. Aumenta el número de rutas disponibles construyendo o ampliando un [GetBuildingType('building_trade_center').GetName|l] o cambiando los [Concept('concept_production_method', 'métodos de producción')]."
+  
+ je_tutorial_export_goods:0 "Exporta bienes"
+ je_tutorial_export_goods_status:0 "Exporta [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName|l] desde [JournalEntry.GetTarget.GetMarketGoods.GetMarket.GetName]"
+ je_tutorial_export_goods_reason:0 "El precio del bien [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName] es bajo en [JournalEntry.GetTarget.GetMarketGoods.GetMarket.GetName] debido a que las [concept_sell_orders|l] superan en número a las [concept_buy_orders|l] en el [concept_market|l]. Aunque esto puede ser beneficioso para los [Concept('concept_building', 'edificios')] y [Concept('concept_pop', 'colectivos')] que consumen [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName|l], un precio bajo reducirá las ganancias de los [Concept('concept_building', 'edificios')] que producen [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName|l].\n\nUna forma de aumentar el número de [concept_buy_orders|l] (y así aumentar el precio del bien [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName]) en el [concept_market|l] es establecer una [concept_trade_route|l] para exportar ese [concept_good|l] a [JournalEntry.GetTarget.GetMarketGoods.GetMarket.GetName] desde otro [concept_market|l]."
+  
+ je_tutorial_import_goods:0 "Importa bienes"
+ je_tutorial_import_goods_status:0 "Importa [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName|l] a [JournalEntry.GetTarget.GetMarketGoods.GetMarket.GetName]"
+ je_tutorial_import_goods_reason:0 "El precio del bien [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName] es elevado en [JournalEntry.GetTarget.GetMarketGoods.GetMarket.GetName] debido a que las [concept_buy_orders|l] superan en número a las [concept_sell_orders|l] en el [concept_market|l]. Aunque esto puede ser beneficioso para los [Concept('concept_building', 'edificios')] que producen [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName|l], un precio elevado puede suponer un gran obstáculo para los [Concept('concept_building', 'edificios')] que lo consumen, y empobrecer a los [Concept('concept_pop', 'colectivos')] si este bien forma parte de sus [concept_pop_needs|l].\n\nUna forma de aumentar el número de [concept_sell_orders|l] (y así reducir el precio del bien [JournalEntry.GetTarget.GetMarketGoods.GetGoods.GetName]) en el [concept_market|l] es establecer una [concept_trade_route|l] para importar ese [concept_good|l] a [JournalEntry.GetTarget.GetMarketGoods.GetMarket.GetName] desde otro [concept_market|l]."
+  
+ je_tutorial_change_production_method:0 "Cambia el [concept_production_method|l]"
+ je_tutorial_change_production_method_status:0 "Cambia cualquier [concept_production_method|l] de tu [JournalEntry.GetTarget.GetBuilding.GetName|l] de [JournalEntry.GetTarget.GetBuilding.GetState.GetName]"
+ je_tutorial_change_production_method_reason:0 "Las ganancias de tu [concept_building|l] [JournalEntry.GetTarget.GetBuilding.GetName|l] de [JournalEntry.GetTarget.GetBuilding.GetState.GetName] se podrían mejorar cambiando el [concept_production_method|l].\n\nPara seguir esta lección, es recomendable que cambies a un [concept_production_method|l] relativamente seguro, como activar la producción de fruta o licor en un cultivo o el uso de herramientas en un rancho."
+ je_tutorial_change_production_method_invalid_tooltip:0 "Tu [JournalEntry.GetTarget.GetBuilding.GetName|l] de [JournalEntry.GetTarget.GetBuilding.GetState.GetName] ya no es propiedad de [GetPlayer.GetName]"
+ je_tutorial_change_production_method_goal:0 "El nuevo [concept_production_method|l] de tu [JournalEntry.GetTarget.GetBuilding.GetName|l] de [JournalEntry.GetTarget.GetBuilding.GetState.GetName] ha estado activo durante #variable [JournalEntry.GetGoalProgressValue|0]/[JournalEntry.GetTotalGoalValue|0]#! semanas."
+    
+ je_tutorial_expand_productive_building:0 "Ampliar un [concept_building|l] [Concept('concept_productivity', 'productivo')]"
+ je_tutorial_expand_productive_building_status:0 "Amplía tu [JournalEntry.GetTarget.GetBuilding.GetName|l] de [JournalEntry.GetTarget.GetBuilding.GetState.GetName]"
+ je_tutorial_expand_productive_building_reason:0 "Tu [JournalEntry.GetTarget.GetBuilding.GetName|l] de [JournalEntry.GetTarget.GetBuilding.GetState.GetName] es un [concept_building|l] muy productivo que aporta una gran cantidad de ingresos si se compara con los gastos que tiene, por lo que es un candidato ideal para realizar una ampliación. Amplíalo para que crezca el [concept_gdp] y la base fiscal."
+ je_tutorial_expand_productive_building_complete_tooltip:0 "Tu [JournalEntry.GetTarget.GetBuilding.GetName|l] de [JournalEntry.GetTarget.GetBuilding.GetState.GetName] se ha ampliado correctamente"
+ je_tutorial_expand_productive_building_invalid_tooltip:0 "Tu [JournalEntry.GetTarget.GetBuilding.GetName|l] de [JournalEntry.GetTarget.GetBuilding.GetState.GetName] ya no es propiedad de [GetPlayer.GetName]"
+ je_tutorial_expand_productive_building_goal:0 "Alcanza el nivel [JournalEntry.GetTotalGoalValue|v0] en tu [JournalEntry.GetTarget.GetBuilding.GetName|l] de [JournalEntry.GetTarget.GetBuilding.GetState.GetName] (nivel actual [JournalEntry.CalcCurrentGoalValue|v0])"
+  
+ je_tutorial_fix_unprofitable_building:0 "Arregla un [concept_building|l] poco rentable"
+ je_tutorial_fix_unprofitable_building_status:0 "Mejora las ganancias de tu [JournalEntry.GetTarget.GetBuilding.GetName|l] de [JournalEntry.GetTarget.GetBuilding.GetState.GetName]"
+ je_tutorial_fix_unprofitable_building_reason:0 "Si se compara con los gastos que tiene, tu [JournalEntry.GetTarget.GetBuilding.GetName|l] de [JournalEntry.GetTarget.GetBuilding.GetState.GetName] no aporta suficientes ingresos como para considerarse un edificio competitivo.\n\nDeberías hacer uso de lo que has aprendido sobre rutas comerciales y métodos de producción para intentar solventar el problema."
+ je_tutorial_fix_unprofitable_building_invalid_tooltip:0 "Tu [JournalEntry.GetTarget.GetBuilding.GetName|l] de [JournalEntry.GetTarget.GetBuilding.GetState.GetName] ya no es propiedad de [GetPlayer.GetName]"
+   
+ je_tutorial_promote_ig:0 "[concept_promote] a un [concept_interest_group|l]"
+ je_tutorial_promote_ig_goal:0 "[Concept('concept_promote', 'Promueve')] a un [concept_interest_group|l] durante [JournalEntry.GetTotalGoalValue|v0] semanas"
+ je_tutorial_promote_ig_reason:0 "Ha llegado el momento de elegir una visión política para tu país. Revisa los [Concept('concept_interest_group', 'grupos de interés')] activos y selecciona una o varias políticas para [Concept('concept_promote', 'promocionarlas')] a lo largo del tortuoso camino que te espera."
+ je_tutorial_promote_ig_progress:0 "Has ascendido a un [concept_interest_group] durante [JournalEntry.CalcCurrentGoalValue] / [JournalEntry.GetTotalGoalValue] semanas"
+
+ je_tutorial_grow_gdp:0 "Haz crecer el PIB"
+ je_tutorial_grow_gdp_goal:0 "Haz crecer el [concept_gdp] (#variable @money![JournalEntry.GetGoalProgressValue|K] / @money![JournalEntry.GetGoalAddValue|K]#!)"
+ je_tutorial_grow_gdp_reason:0 "Se trata de una tarea abierta con la que podrás hacer uso de todo lo que has aprendido sobre [Concept('concept_building', 'edificios')], [Concept('concept_market', 'mercados')] y [Concept('concept_trade_route', 'rutas comerciales')] con el objetivo de lograr que crezca el [concept_gdp] de tu país.\n\nConstruir [Concept('concept_building', 'edificios')], aumentar la [concept_population|l], cambiar los [Concept('concept_production_method', 'métodos de producción')] y manipular los precios del [concept_market|l] son posibles soluciones para conseguir que el [concept_gdp] crezca." # [LocEditor:AwaitingBatchUpdate]
+
+ je_tutorial_increase_market_access_by_decree:0 "Aumenta el [concept_market_access|l] mediante un [concept_decree|l]"
+ je_tutorial_increase_market_access_by_decree_goal:0 "Un [concept_state|l] ha tenido en vigor un [concept_decree|l] para la conservación de carreteras durante 12 semanas"
+ je_tutorial_increase_market_access_by_decree_reason:0 "El [concept_market_access|l] en [JournalEntry.GetTarget.GetState.GetName] ha bajado del 100 %, lo que ha provocado unas condiciones adversas para los precios. Mejora la situación promulgando un [concept_decree|l] para la conservación de carreteras en [JournalEntry.GetTarget.GetState.GetName]."
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ lesson_expand_building_why_1_desc:0 "Ampliar un [concept_building|l] es una de las mejores maneras de hacer que la economía crezca. Por lo general, implica el enriquecimiento de los [Concept('concept_pop', 'colectivos')] a los que se les cobran impuestos y de los que se obtienen ingresos. Unos $concept_pops$ más pudientes disponen de más riqueza sobre la que cobrar impuestos.\n\nVamos a utilizar de ejemplo tu [GetTutorialJournalEntry.GetTarget.GetBuilding.GetName|l] de [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName]. Si pasas el ratón por encima del nombre de [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetName], el [concept_state|l] debería resaltarse en algún lugar del mapa de [GetTutorialJournalEntry.GetTarget.GetBuilding.GetState.GetCountry.GetName]"

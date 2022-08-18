@@ -1,0 +1,275 @@
+﻿CHARACTERS = {
+	c:RUS = {
+		create_character = {
+			# Tsar Nicholas I of Russia
+			#role = politician # Remove this line
+			first_name = Nikolai
+			last_name = Romanov
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			ruler = yes
+			age = 40
+			traits = {
+				arrogant
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+		
+		create_character = {
+			# Alexander II of Russia
+			#role = politician # Remove this line
+			first_name = Aleksandr
+			last_name = Romanov
+			heir = yes
+			age = 18
+			interest_group = ig_intelligentsia
+			ideology = ideology_moderate
+			traits = {
+				meticulous
+			}
+		}
+
+		create_character = {
+			# Alexander von Benckendorff, head of the Third Section, one of the earlier Tsarist secret police institutions.
+			#role = politician # Remove this line
+			first_name = Aleksandr
+			last_name = von_Benckendorff
+			age = 52
+			ig_leader = yes
+			interest_group = ig_armed_forces
+			traits = {
+				imperious
+			}
+		}
+
+		#create_character = {
+		#	# Count Ivan Paskevich, later "Serene Prince of Warsaw", which should give you some idea of his character.
+		#	#role = politician # Remove this line
+		#	first_name = Ivan
+		#	last_name = Paskevich
+		#	age = 54
+		#	ig_leader = yes
+		#	interest_group = ig_armed_forces
+		#	traits = {
+		#		wrathful
+		#	}
+		#}
+
+		create_character = {
+			# Mikhail Speransky
+			#role = politician # Remove this line
+			first_name = Mikhail
+			last_name = Speransky
+			age = 64
+			ig_leader = yes
+			interest_group = ig_intelligentsia
+			traits = {
+				cautious
+			}
+		}
+		# also worth considering Pyotr Chaadayev, leading Westernizer intellectual in the 1830s.
+		# also worth considering Vasily Zhukovsky
+
+		create_character = {
+			# Sergey Uvarov, the creator of the Tsarist doctrine of Orthodoxy, Autocracy, and Nationality
+			#role = politician # Remove this line
+			first_name = Sergei
+			last_name = Uvarov
+			age = 50
+			ig_leader = yes
+			interest_group = ig_landowners
+			# TODO: Ideology: traditionalist
+			traits = {
+				meticulous
+			}
+		}
+
+		create_character = {
+			# St. Philaret, Metropolitan of Moscow, born as Vasily Drozdov
+			#role = politician # Remove this line
+			first_name = Filaret
+			last_name = Drozdov
+			age = 54
+			ig_leader = yes
+			interest_group = ig_devout
+			traits = {
+				charismatic
+			}
+		}
+
+		create_character = {
+			# Alexander Herzen, Russian intellectual. Could as work as a Rural Folk IG leader in the 1830s, maybe.
+			#role = politician # Remove this line
+			first_name = Aleksandr
+			last_name = Herzen
+			age = 24
+			ig_leader = yes
+			interest_group = ig_trade_unions
+			traits = {
+			}
+		}
+
+		create_character = {
+			# Yevhen Hrebinka (Yevgeny Grebyonka), a Ukrainian artist and nationalist
+			#role = politician # Remove this line
+			first_name = Yevhen
+			last_name = Hrebinka
+			culture=cu:ukrainian
+			age = 24
+			ig_leader = yes
+			interest_group = ig_rural_folk
+			traits = {
+				romantic
+			}
+		}
+
+		create_character = {
+			# Count Aleksey Alekseyevich Bobrinsky, patron of the first Russian railway and sugar beet innovator.
+			#role = politician # Remove this line
+			first_name = Alexei
+			last_name = Bobrinsky
+			age = 36
+			ig_leader = yes
+			interest_group = ig_industrialists
+			traits = {
+				persistent
+			}
+		}
+		
+		create_character = { # General
+			is_general = yes
+			first_name = Mikhail
+			last_name = Vorontsov
+			age = 54
+			traits = {
+				forest_commander
+			}
+
+		}
+		
+		create_character = { # General
+			is_general = yes
+			first_name = Alexander
+			last_name = Chernyshyov
+			age = 50
+			traits = {
+				brave
+			}
+		
+		}
+		
+		# create_character = { # Sea
+			# name = "Prince Menshikov"
+			# age = 49
+			# traits = {
+			# 	lackluster
+			# 	clueless
+			# }
+		# }
+		
+	#	create_character = {
+	#		is_general = yes
+	#		first_name = Ivan
+	#		last_name = Paskevich
+	#		age = 54
+	#		traits = {
+	#			brave
+	#		}
+
+	#	}
+		
+	#	create_character = {
+	#		is_general = yes
+	#		first_name = Matvey
+	#		last_name = Khrapovitsky
+	#		age = 52
+	#		traits = {
+	#			mountain_commander
+	#		}
+	#	}
+		
+		create_character = { # Admiral
+			is_admiral = yes
+			first_name = Mikhail 
+			last_name = Lazarev
+			age = 48
+			traits = {
+			 	explorer
+			 	experienced_naval_commander
+			 }
+		 }
+		
+	#	create_character = {
+	#		is_general = yes
+	#		first_name = Nikolay
+	#		last_name = Muravyov_Karsky
+	#		age = 49
+	#		traits = {
+	#	#		defiant
+	#	#		military_theoretician
+	#		}
+	#
+	#	}
+	#	
+	#	create_character = {
+	#		is_general = yes
+	#		first_name = Pyotr
+	#		last_name = Volkonsky
+	#		age = 60
+	#		traits = {
+	#	#		intelligent
+	#	#		elderly
+	#		}
+	#
+	#	}
+	#	
+	#	create_character = {
+	#		is_general = yes
+	#		first_name = Pavel
+	#		last_name = Grabbe
+	#		age = 47
+	#		traits = {
+	#	#		keen
+	#	#		school_of_firepower
+	#
+	#		}
+	#	}
+	#	
+	#	create_character = {
+	#		is_general = yes
+	#		first_name = Vasily
+	#		last_name = Bebutov
+	#		age = 45
+	#		traits = {
+	#	#		stout
+	#	#		generals_aide
+	#		}
+	#
+	#	}
+	#	
+	#	create_character = {
+	#		is_general = yes
+	#		first_name = Friedrich
+	#		last_name = von_Berg
+	#		age = 42
+	#		traits = {
+	#	#		sharp
+	#	#		cartographer
+	#		}
+	#
+	#	}
+		
+		# create_character = { # Sea
+			# name = "Ferdinand Wrangel"
+			# portrait = "gfx/portraits/Default_Portrait.dds"
+			# age = 39
+			# traits = {
+			# 	active_trait
+			# 	cartographer
+			# }
+			# # prestige = 0.0
+		# }
+	}
+}

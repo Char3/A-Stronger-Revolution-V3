@@ -1,0 +1,1171 @@
+﻿l_spanish:
+ # [LocEditor:UntranslatedKey] `ANY_TRIGGER_FILTER_TEXT`
+ TRIGGER_PASSED:0 "@green_checkmark! $TEXT$"
+ TRIGGER_FAILED:0 "@red_cross! $TEXT$"
+ TRIGGER_RESULT_UNDEFINED:0 "  •  $TEXT$"
+ TRIGGER_NAND:0 "Alguna de estas opciones:"
+ TRIGGER_OR_NOT:0 "Ninguna de estas opciones:"
+ TRIGGER_ALWAYS:0 "Siempre"
+ TRIGGER_HAS_STATE_TRAIT:0 "Tiene el rasgo [STATE_TRAIT.GetName]"
+ TRIGGER_HAS_STATE_TRAIT_NOT:0 "NO tiene el rasgo [STATE_TRAIT.GetName]"
+ TRIGGER_IS_HOMELAND:0 "[STATE_REGION.GetName] es una tierra natal [TARGET_CULTURE.GetName]"
+ TRIGGER_IS_HOMELAND_NOT:0 "[STATE_REGION.GetName] NO es una tierra natal [TARGET_CULTURE.GetName]"
+ TRIGGER_HAS_HOMELAND:0 "La cultura [CULTURE.GetName] considera que [TARGET_STATE_REGION.GetName] es una tierra natal"
+ TRIGGER_HAS_HOMELAND_NOT:0 "La cultura [CULTURE.GetName] NO considera que [TARGET_STATE_REGION.GetName] sea una tierra natal"
+ TRIGGER_IS_PLAYER:0 "Está controlado por un jugador"
+ TRIGGER_IS_PLAYER_NOT:0 "NO está controlado por un jugador"
+ TRIGGER_IS_LOCAL_PLAYER:0 "Está controlado por el jugador local"
+ TRIGGER_IS_LOCAL_PLAYER_NOT:0 "NO está controlado por el jugador local"
+ TRIGGER_IS_AI:0 "Está controlado por una IA"
+ TRIGGER_IS_AI_NOT:0 "NO está controlado por una IA"
+ TRIGGER_IS_INTEREST_GROUP_TYPE:0 "Es de tipo #variable $TARGET_TYPE$#!"
+ TRIGGER_IS_INTEREST_GROUP_TYPE_NOT:0 "NO es de tipo #variable $TARGET_TYPE$#!"
+ TRIGGER_IS_SAME_INTEREST_GROUP_TYPE:0 "Es del mismo tipo que [TARGET_INTEREST_GROUP.GetName]"
+ TRIGGER_IS_SAME_INTEREST_GROUP_TYPE_NOT:0 "NO es del mismo tipo que [TARGET_INTEREST_GROUP.GetName]"
+ TRIGGER_IS_STATE_RELIGION:0 "Es la [concept_state_religion|l] de [TARGET_COUNTRY.GetName]"
+ TRIGGER_IS_STATE_RELIGION_NOT:0 "NO es la [concept_state_religion|l] de [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_COAST:0 "Tiene costa"
+ TRIGGER_HAS_COAST_NOT:0 "NO tiene costa"
+ TRIGGER_IS_STATE_REGION_LAND:0 "[STATE_REGION.GetName] es tierra"
+ TRIGGER_IS_STATE_REGION_LAND_NOT:0 "[STATE_REGION.GetName] NO es tierra"
+ TRIGGER_IS_PROVINCE_LAND:0 "La provincia de [PROVINCE.GetState.GetName] es tierra"
+ TRIGGER_IS_PROVINCE_LAND_NOT:0 "La provincia de [PROVINCE.GetState.GetName] NO es tierra"
+ TRIGGER_HAS_BUILDING:0 "Tiene [BuildingType.GetName]"
+ TRIGGER_HAS_BUILDING_NOT:0 "NO tiene [BuildingType.GetName]"
+ TRIGGER_HAS_ACTIVE_BUILDING:0 "Tiene un edificio [BuildingType.GetName] activo"
+ TRIGGER_HAS_ACTIVE_BUILDING_NOT:0 "NO tiene un edificio [BuildingType.GetName] activo"
+ EVENT_TARGET_NO_CUSTOM_NAME:0 "$SPECIFIC|v$"
+ EVENT_TARGET_CUSTOM_NAME:0 "$GENERAL|v$ ($SPECIFIC|V$)"
+ EVENT_TARGET_NOT_COMPARISON_TRIGGER:0 "$LEFT|v$ NO es $RIGHT|v$"
+ EVENT_TARGET_COMPARISON_TRIGGER:0 "$LEFT|v$ es $RIGHT|v$"
+ TRIGGER_HAS_DECREE:0 "Tiene el [concept_decree|l] de [DECREE_TYPE.GetName]"
+ TRIGGER_HAS_DECREE_NOT:0 "NO tiene el [concept_decree|l] de [DECREE_TYPE.GetName]"
+ TRIGGER_HAS_INTEREST_MARKER_IN_REGION:0 "Tiene un [concept_interest|l] en [TARGET_STRATEGIC_REGION.GetName]"
+ TRIGGER_HAS_INTEREST_MARKER_IN_REGION_NOT:0 "NO tiene ningún [concept_interest|l] en [TARGET_STRATEGIC_REGION.GetName]"
+ TRIGGER_HAS_TECHNOLOGY_RESEARCHED:0 "Ha investigado la tecnología de [TECHNOLOGY.GetName]"
+ TRIGGER_HAS_TECHNOLOGY_RESEARCHED_NOT:0 "NO ha investigado la tecnología de [TECHNOLOGY.GetName]"
+ TRIGGER_CAN_RESEARCH:0 "Puede investigar la tecnología de [TECHNOLOGY.GetName]"
+ TRIGGER_CAN_RESEARCH_NOT:0 "NO puede investigar la tecnología de [TECHNOLOGY.GetName]"
+ TRIGGER_IS_WAR_PARTICIPANT:0 "Cuenta con la participación de [TARGET_COUNTRY.GetName]"
+ TRIGGER_IS_WAR_PARTICIPANT_NOT:0 "NO cuenta con la participación de [TARGET_COUNTRY.GetName]"
+ TRIGGER_CAN_FORM_NATION:0 "Puede formar la nación de [COUNTRY_FORMATION.GetName]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_CAN_FORM_NATION_NOT:0 "NO puede formar la nación de [COUNTRY_FORMATION.GetName]" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_UNIFICATION_CANDIDATE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_UNIFICATION_CANDIDATE_NOT`
+ TRIGGER_HAS_JOURNAL_ENTRY:0 "Tiene una [concept_journal_entry|l] de [JOURNAL_ENTRY_TYPE.GetName] activa"
+ TRIGGER_HAS_JOURNAL_ENTRY_NOT:0 "NO tiene una [concept_journal_entry|l] de [JOURNAL_ENTRY_TYPE.GetName] activa"
+ TRIGGER_HAS_VARIABLE:0 "#variable The Country#! has #variable the variable in question#! #todo (remember to make a custom desc for this)#!"
+ TRIGGER_HAS_VARIABLE_NOT:0 "#variable The Country#! does NOT have #variable the variable in question#! #todo (remember to make a custom desc for this)#!"
+ TRIGGER_TAKING_LOANS:0 "Ha pedido préstamos"
+ TRIGGER_TAKING_LOANS_NOT:0 "NO ha pedido préstamos"
+ TRIGGER_COUNTRY_THIS_EQUAL:0 "El país es [OBJECT_SCOPE.GetCountry.GetName]"
+ TRIGGER_COUNTRY_THIS_EQUAL_NOT:0 "El país NO es [OBJECT_SCOPE.GetCountry.GetName]"
+ TRIGGER_INITIATOR_IS:0 "[TARGET_COUNTRY.GetName] es el iniciador"
+ TRIGGER_INITIATOR_IS_NOT:0 "[TARGET_COUNTRY.GetName] NO es el iniciador"
+ TRIGGER_TARGET_IS:0 "[TARGET_COUNTRY.GetName] es el objetivo"
+ TRIGGER_TARGET_IS_NOT:0 "[TARGET_COUNTRY.GetName] NO es el objetivo"
+ TRIGGER_IS_DIPLOMATIC_PLAY_COMMITTED_PARTICIPANT:0 "Es un participante comprometido en cualquier [concept_diplomatic_play|l]"
+ TRIGGER_IS_DIPLOMATIC_PLAY_COMMITTED_PARTICIPANT_NOT:0 "NO es un participante comprometido en cualquier [concept_diplomatic_play|l]"
+ TRIGGER_IS_DIPLOMATIC_PLAY_UNDECIDED_PARTICIPANT:0 "Es un participante indeciso en cualquier [concept_diplomatic_play|l]"
+ TRIGGER_IS_DIPLOMATIC_PLAY_UNDECIDED_PARTICIPANT_NOT:0 "NO es un participante indeciso en cualquier [concept_diplomatic_play|l]"
+ TRIGGER_IS_DIPLOMATIC_PLAY_TARGET:0 "Es un objetivo en cualquier jugada diplomática"
+ TRIGGER_IS_DIPLOMATIC_PLAY_TARGET_NOT:0 "NO es un objetivo en cualquier jugada diplomática"
+ TRIGGER_IS_DIPLOMATIC_PLAY_TYPE:0 "La jugada diplomática es [DIPLOMATIC_PLAY_TYPE.GetName]"
+ TRIGGER_IS_DIPLOMATIC_PLAY_TYPE_NOT:0 "La jugada diplomática NO es [DIPLOMATIC_PLAY_TYPE.GetName]"
+ TRIGGER_HAS_PLAY_GOAL:0 "Tiene un objetivo de guerra de [WAR_GOAL_TYPE.GetName]"
+ TRIGGER_HAS_PLAY_GOAL_NOT:0 "NO tiene un objetivo de guerra de [WAR_GOAL_TYPE.GetName]"
+ TRIGGER_HAS_WAR_GOAL:0 "Tiene un objetivo de guerra de [WAR_GOAL_TYPE.GetName]"
+ TRIGGER_HAS_WAR_GOAL_NOT:0 "NO tiene un objetivo de guerra de [WAR_GOAL_TYPE.GetName]"
+ TRIGGER_IS_SUBJECT:0 "Es súbdito de otra nación"
+ TRIGGER_IS_SUBJECT_NOT:0 "NO es súbdito de otra nación"
+ TRIGGER_AGGRESSIVE_DIPLOMATIC_PLAYS_PERMITTED:0 "El acuerdo de súbdito permite que el país inicie sus propias jugadas diplomáticas (o el país no es súbdito)"
+ TRIGGER_AGGRESSIVE_DIPLOMATIC_PLAYS_PERMITTED_NOT:0 "El acuerdo de súbdito NO permite que el país inicie sus propias jugadas diplomáticas"
+ TRIGGER_AVERAGE_COUNTRY_INFRASTRUCTURE:0 "La media de [concept_infrastructure|l] de todos los estados propiedad del país es $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_AVERAGE_COUNTRY_INFRASTRUCTURE_NOT:0 "La media de [concept_infrastructure|l] de todos los estados propiedad del país NO es $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_AVERAGE_INCORPORATED_COUNTRY_INFRASTRUCTURE:0 "La media de [concept_infrastructure|l] de los [Concept('concept_incorporated_state', 'estados incorporados')] propiedad del país es $COMPARATOR$ #variable $NUM$#!" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_AVERAGE_INCORPORATED_COUNTRY_INFRASTRUCTURE_NOT:0 "La media de [concept_infrastructure|l] de los [Concept('concept_incorporated_state', 'estados incorporados')] propiedad del país NO es $COMPARATOR$ #variable $NUM$#!" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_WAR:0 "Se ha convertido en una guerra"
+ TRIGGER_IS_WAR_NOT:0 "NO se ha convertido en una guerra"
+ TRIGGER_IS_COUNTRY_TYPE:0 "Es #variable $COUNTRY_TYPE$#!"
+ TRIGGER_IS_COUNTRY_TYPE_NOT:0 "NO es #variable $COUNTRY_TYPE$#!"
+ TRIGGER_IS_SUBJECT_TYPE:0 "Es [concept_subject|l] de tipo $SUBJECT_TYPE|v$"
+ TRIGGER_IS_SUBJECT_TYPE_NOT:0 "NO es [concept_subject|l] de tipo $SUBJECT_TYPE|v$"
+ TRIGGER_CONTEXT_MARKET:0 "$NAME|v$"
+ TRIGGER_CONTEXT_STATE:0 "$NAME|v$"
+ TRIGGER_CONTEXT_COUNTRY:0 "$NAME|v$"
+ TRIGGER_CONTEXT_DEFAULT:0 "$NAME|v$"
+ TRIGGER_HAS_CULTURE:0 "La cultura es [CULTURE.GetName]"
+ TRIGGER_HAS_CULTURE_NOT:0 "La cultura NO es [CULTURE.GetName]"
+ TRIGGER_HAS_RELIGION:0 "Practica la religión [TARGET_RELIGION.GetName]"
+ TRIGGER_HAS_RELIGION_NOT:0 "NO practica la religión [TARGET_RELIGION.GetName]"
+ TRIGGER_IS_EMPLOYED:0 "Tiene empleo"
+ TRIGGER_IS_EMPLOYED_NOT:0 "NO tiene empleo"
+ TRIGGER_IS_POP_TYPE:0 "Este colectivo son [POP_TYPE.GetName]"
+ TRIGGER_IS_POP_TYPE_NOT:0 "Este colectivo NO son [POP_TYPE.GetName]"
+ TRIGGER_HAS_TRAIT:0 "Posee el rasgo [CHARACTER_TRAIT.GetName]"
+ TRIGGER_HAS_TRAIT_NOT:0 "NO posee el rasgo [CHARACTER_TRAIT.GetName]"
+ TRIGGER_IS_FEMALE:0 "Es una mujer"
+ TRIGGER_IS_FEMALE_NOT:0 "NO es una mujer"
+ TRIGGER_IS_CHARACTER_ALIVE:0 "[CHARACTER.GetFullName] vive"
+ TRIGGER_IS_CHARACTER_ALIVE_NOT:0 "[CHARACTER.GetFullName] ha muerto"
+ TRIGGER_IS_BUSY:0 "Tiene tareas"
+ TRIGGER_IS_BUSY_NOT:0 "NO tiene tareas"
+ TRIGGER_IS_IN_VOID:0 "Ha desaparecido"
+ TRIGGER_IS_IN_VOID_NOT:0 "NO ha desaparecido"
+ TRIGGER_IS_BUILDING_TYPE:0 "El edificio es [BUILDING_TYPE.GetName]"
+ TRIGGER_IS_BUILDING_TYPE_NOT:0 "El edificio NO es [BUILDING_TYPE.GetName]"
+ TRIGGER_EXPECTED_QUALITY_OF_LIFE:0 "Nivel de vida esperado: $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_EXPECTED_QUALITY_OF_LIFE_NOT:0 "Nivel de vida esperado: NO $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_HAS_MODIFIER:0 "Tiene un modificador #variable $MODIFIER$#!"
+ TRIGGER_HAS_MODIFIER_NOT:0 "NO tiene un modificador #variable $MODIFIER$#!"
+ TRIGGER_HAS_EMPLOYEE_SLOTS_FILLED:0 "Ha cubierto sus puestos de trabajo"
+ TRIGGER_HAS_EMPLOYEE_SLOTS_FILLED_NOT:0 "NO ha cubierto sus puestos de trabajo"
+ TRIGGER_IS_DIPLOMATIC_PLAY_INITIATOR:0 "Es el iniciador de alguna jugada diplomática"
+ TRIGGER_IS_DIPLOMATIC_PLAY_INITIATOR_NOT:0 "NO es el iniciador de ninguna jugada diplomática"
+ TRIGGER_IN_DEFAULT:0 "Es moroso"
+ TRIGGER_IN_DEFAULT_NOT:0 "NO es moroso"
+ TRIGGER_IN_ELECTION_CAMPAIGN:0 "Está en periodo de campaña electoral"
+ TRIGGER_IN_ELECTION_CAMPAIGN_NOT:0 "NO está en periodo de campaña electoral"
+ TRIGGER_HAS_WAR_WITH:0 "Está en guerra con [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_WAR_WITH_NOT:0 "NO está en guerra con [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_DIPLOMATS_EXPELLED:0 "Ha expulsado hace poco a los diplomáticos de [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_DIPLOMATS_EXPELLED_NOT:0 "NO ha expulsado hace poco a los diplomáticos de [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_STRATEGIC_ADJACENCY:0 "Tiene proximidad estratégica con $TARGET$"
+ TRIGGER_HAS_STRATEGIC_ADJACENCY_NOT:0 "NO tiene proximidad estratégica con $TARGET$"
+ TRIGGER_HAS_OVERLAPPING_INTERESTS:0 "Tiene un [concept_interest|l] que se solapa con el dec [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_OVERLAPPING_INTERESTS_NOT:0 "NO tiene un [concept_interest|l] que se solape con el de [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_DIPLOMATIC_RELEVANCE:0 "Tiene relevancia diplomática para [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_DIPLOMATIC_RELEVANCE_NOT:0 "NO tiene relevancia diplomática para [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_CLAIM:0 "Tiene una [concept_claim|l] sobre [TARGET_STATE_REGION.GetName]"
+ TRIGGER_HAS_CLAIM_NOT:0 "NO tiene una [concept_claim|l] sobre [TARGET_STATE_REGION.GetName]"
+ TRIGGER_HAS_CLAIM_BY:0 "Ha sido [Concept('concept_claim', 'reivindicado')] por [Country.GetName]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_CLAIM_BY_NOT:0 "NO ha sido [Concept('concept_claim', 'reivindicado')] por [Country.GetName]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_IN_WAR_TOGETHER:0 "Es aliado bélico de [TARGET_COUNTRY.GetName]"
+ TRIGGER_IS_IN_WAR_TOGETHER_NOT:0 "NO es aliado bélico de [TARGET_COUNTRY.GetName]"
+ TRIGGER_IS_WARLEADER:0 "[TARGET_COUNTRY.GetName|v] lidera la guerra"
+ TRIGGER_IS_WARLEADER_NOT:0 "[TARGET_COUNTRY.GetName|v] NO lidera la guerra"
+ TRIGGER_IS_UNDER_CONSTRUCTION:0 "Está en construcción"
+ TRIGGER_IS_UNDER_CONSTRUCTION_NOT:0 "NO está en construcción"
+ # [LocEditor:UntranslatedKey] `TRIGGER_OWES_OBLIGATION_TO`
+ # [LocEditor:UntranslatedKey] `TRIGGER_OWES_OBLIGATION_TO_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_OWED_OBLIGATION_BY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_OWED_OBLIGATION_BY_NOT`
+ TRIGGER_HAS_SUBJECT_RELATION_WITH:0 "Tiene una relación de súbdito con [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_SUBJECT_RELATION_WITH_NOT:0 "NO tiene una relación de súbdito con [TARGET_COUNTRY.GetName]"
+ TRIGGER_IS_SUBJECT_OF:0 "Es súbdito de [TARGET_COUNTRY.GetName]"
+ TRIGGER_IS_SUBJECT_OF_NOT:0 "NO es súbdito de [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_DIPLOMATIC_PACT:0 "Tiene una situación de [DIPLOMATIC_ACTION_TYPE.GetName] con [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_DIPLOMATIC_PACT_NOT:0 "NO tiene una situación de [DIPLOMATIC_ACTION_TYPE.GetName] con [TARGET_COUNTRY.GetName]"
+ TRIGGER_CAN_HAVE_AS_SUBJECT:0 "[COUNTRY.GetName] puede tener a [TARGET_COUNTRY.GetName] como [concept_subject|l] de tipo $SUBJECT_TYPE|v$"
+ TRIGGER_CAN_HAVE_AS_SUBJECT_NOT:0 "[COUNTRY.GetName] NO puede tener a [TARGET_COUNTRY.GetName] como [concept_subject|l] de tipo $SUBJECT_TYPE|v$"
+ TRIGGER_HAS_STRATEGY:0 "Tiene una estrategia de #variable [AIStrategy.GetName]#!"
+ TRIGGER_HAS_STRATEGY_NOT:0 "NO tiene una estrategia de #variable [AIStrategy.GetName]#!"
+ TRIGGER_HAS_ATTITUDE:0 "Tiene una actitud #variable $ATTITUDE$#! hacia [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_ATTITUDE_NOT:0 "NO tiene una actitud #variable $ATTITUDE$#! hacia [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_SECRET_GOAL:0 "Tiene un objetivo secreto de #variable $SECRET_GOAL$#! respecto a [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_SECRET_GOAL_NOT:0 "NO tiene un objetivo secreto de #variable $SECRET_GOAL$#! respecto a [TARGET_COUNTRY.GetName]"
+ TRIGGER_MODIFIER_EQUAL:0 "El valor del modificador #variable $MODIFIER_NAME$#! es igual a #variable $VALUE$#!"
+ TRIGGER_CAN_TAKE_ON_SCALED_DEBT:0 "Puede asumir la deuda de [TARGET_COUNTRY.GetNameNoFlag|v] de #variable $VALUE|K0$ @money!#!" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_CAN_TAKE_ON_SCALED_DEBT_NOT:0 "NO puede asumir la deuda de [TARGET_COUNTRY.GetNameNoFlag|v] de #variable $VALUE|K0$ @money!#!" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_CAN_HAVE_SUBJECTS:0 "[COUNTRY.GetName] puede tener súbditos"
+ TRIGGER_CAN_HAVE_SUBJECTS_NOT:0 "[COUNTRY.GetName] NO puede tener súbditos"
+ TRIGGER_IS_IN_CUSTOMS_UNION:0 "[Country.GetName] forma parte de una unión aduanera"
+ TRIGGER_IS_IN_CUSTOMS_UNION_NOT:0 "[Country.GetName] NO forma parte de una unión aduanera"
+ TRIGGER_LEADS_CUSTOMS_UNION:0 "[Country.GetName] lidera una unión aduanera"
+ TRIGGER_LEADS_CUSTOMS_UNION_NOT:0 "[Country.GetName] NO lidera una unión aduanera"
+ TRIGGER_LITERACY_RATE:0 "$SUBJECT$ tiene una tasa de alfabetización de $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_LITERACY_RATE_NOT:0 "$SUBJECT$ NO tiene una tasa de alfabetización de $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_HAS_SCALED_DEBT:0 "Tiene una deuda de $COMPARATOR$ #variable $VALUE|K0$ @money!#!"
+ TRIGGER_HAS_SCALED_DEBT_NOT:0 "NO tiene una deuda de $COMPARATOR$ #variable $VALUE|K0$ @money!#!"
+ TRIGGER_RELATIONS:0 "Las relaciones del régimen #variable $COUNTRY_ADJ$#! con #variable $TARGET_COUNTRY$#! son de grado $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_RELATIONS_NOT:0 "Las relaciones del régimen #variable $COUNTRY_ADJ$#! con #variable $TARGET_COUNTRY$#! NO son de grado $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_ARABLE_LAND:0 "Tierra cultivable $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_ARABLE_LAND_NOT:0 "Tierra cultivable NO $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_FREE_ARABLE_LAND:0 "Tierra cultivable disponible $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_FREE_ARABLE_LAND_NOT:0 "Tierra cultivable disponible NO $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_TREASURY:0 "Tesoro $COMPARATOR$ #variable $NUM$ @money!#!"
+ TRIGGER_TREASURY_NOT:0 "Tesoro NO $COMPARATOR$ #variable $NUM$ #!"
+ TRIGGER_INTEREST_GROUP_POPULATION:0 "Población $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_INTEREST_GROUP_POPULATION_NOT:0 "Población NO $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_WEEKLY_PROFIT:0 "Beneficio semanal $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_WEEKLY_PROFIT_NOT:0 "Beneficio semanal NO $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_OCCUPANCY:0 "La ocupación de la mano de obra de [BUILDING.GetName] es $COMPARATOR$ #variable $NUM|%0v$#!"
+ TRIGGER_OCCUPANCY_NOT:0 "La ocupación de la mano de obra de [BUILDING.GetName] NO es $COMPARATOR$ #variable $NUM|%0v$#!"
+ TRIGGER_INTEREST_GROUP_POPULATION_PERCENTAGE:0 "Porcentaje de población del país $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_INTEREST_GROUP_POPULATION_PERCENTAGE_NOT:0 "Porcentaje de población del país NO $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_HAS_TECHNOLOGY_PROGRESS:0 "El progreso tecnológico para [TECHNOLOGY.GetName] es $COMPARATOR$ #variable $NUM|%$#!"
+ TRIGGER_HAS_TECHNOLOGY_PROGRESS_NOT:0 "El progreso tecnológico para [TECHNOLOGY.GetName] NO es $COMPARATOR$ #variable $NUM|%$#!"
+ TRIGGER_ESCALATION:0 "Escalada $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_ESCALATION_NOT:0 "Escalada NO $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_STRATA:0 "El estrato es $COMPARATOR$ $STRATA$"
+ TRIGGER_STRATA_NOT:0 "El estrato NO es $COMPARATOR$ $STRATA$"
+ TRIGGER_AGE:0 "La edad es $COMPARATOR$ $NUM|v$"
+ TRIGGER_AGE_NOT:0 "La edad NO es $COMPARATOR$ $NUM|v$"
+ TRIGGER_COMMANDER_RANK:0 "El rango de comandante es $COMPARATOR$ $NUM|v$"
+ TRIGGER_COMMANDER_RANK_NOT:0 "El rango de comandante NO es $COMPARATOR$ $NUM|v$"
+ TRIGGER_ARMY_RESERVES:0 "La reserva del ejército de tierra es $COMPARATOR$ $NUM|v$"
+ TRIGGER_ARMY_RESERVES_NOT:0 "La reserva del ejército de tierra NO es $COMPARATOR$ $NUM|v$"
+ TRIGGER_NAVY_RESERVES:0 "La reserva de la armada es $COMPARATOR$ $NUM|v$"
+ TRIGGER_NAVY_RESERVES_NOT:0 "La reserva de la armada NO es $COMPARATOR$ $NUM|v$"
+ TRIGGER_QUALITY_OF_LIFE:0 "Nivel de vida $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_QUALITY_OF_LIFE_NOT:0 "Nivel de vida NO $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_STANDARD_OF_LIVING:0 "Nivel de vida $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_STANDARD_OF_LIVING_NOT:0 "Nivel de vida NO $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_FULLFILLMENT:0 "Realización $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_FULLFILLMENT_NOT:0 "Realización NO $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_TURMOIL:0 "La agitación es $COMPARATOR$ #variable $NUM|%$#!"
+ TRIGGER_TURMOIL_NOT:0 "La agitación NO es $COMPARATOR$ #variable $NUM|%$#!"
+ TRIGGER_LOYALTY:0 "El número de lealistas es $COMPARATOR$ #variable $NUM|%$#!"
+ TRIGGER_LOYALTY_NOT:0 "El número de lealistas NO es $COMPARATOR$ #variable $NUM|%$#!"
+ TRIGGER_POLLUTION_GENERATION:0 "La generación de contaminación total es $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_POLLUTION_GENERATION_NOT:0 "La generación de contaminación total NO es $COMPARATOR$ #variable $NUM$#!"
+ # [LocEditor:UntranslatedKey] `TRIGGER_INCORPORATION_PROGRESS`
+ # [LocEditor:UntranslatedKey] `TRIGGER_INCORPORATION_PROGRESS_NOT`
+ TRIGGER_IS_IN_REVOLT:0 "Lealistas $COMPARATOR$ #variable $NUM|%$#!"
+ TRIGGER_IS_IN_REVOLT_NOT:0 "Lealistas NO $COMPARATOR$ #variable $NUM|%$#!"
+ TRIGGER_INFRASTRUCTURE:0 "Infraestructuras $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_INFRASTRUCTURE_NOT:0 "Infraestructuras NO $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_INFRASTRUCTURE_USAGE:0 "Uso de infraestructuras $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_INFRASTRUCTURE_USAGE_NOT:0 "Uso de infraestructuras NO $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_DEVASTATION:0 "Devastación $COMPARATOR$ #variable $NUM|%$#!"
+ TRIGGER_DEVASTATION_NOT:0 "Devastación NO $COMPARATOR$ #variable $NUM|%$#!"
+ TRIGGER_TOTAL_URBANIZATION:0 "Urbanización total $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_TOTAL_URBANIZATION_NOT:0 "Urbanización total NO $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_TOTAL_POPULATION:0 "Población total $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_TOTAL_POPULATION_NOT:0 "Población total NO $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_INVESTMENT_POOL:0 "Fondo de inversión $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_INVESTMENT_POOL_NOT:0 "Fondo de inversión NO $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_HIGHEST_SECESSION_PROGRESS:0 "Progreso máximo del movimiento de secesión $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_HIGHEST_SECESSION_PROGRESS_NOT:0 "Progreso máximo del movimiento de secesión NO $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_REVOLUTION_PROGRESS:0 "Progreso de la revolución $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_REVOLUTION_PROGRESS_NOT:0 "Progreso de la revolución NO $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_IS_INTEREST_ACTIVE:0 "El [concept_interest|l] es un [concept_active_interest|l]"
+ TRIGGER_IS_INTEREST_ACTIVE_NOT:0 "El [concept_interest|l] NO es un [concept_active_interest|l]"
+ CHECK_AREA_TRIGGER_ADJACENT:0 "Está junto a $TARGET$"
+ CHECK_AREA_TRIGGER_ADJACENT_NOT:0 "NO está junto a $TARGET$"
+ CHECK_AREA_TRIGGER_INTERSECTING:0 "Se cruza con $TARGET$"
+ CHECK_AREA_TRIGGER_INTERSECTING_NOT:0 "NO se cruza con $TARGET$"
+ CHECK_AREA_TRIGGER_ADJACENT_INTERSECTING:0 "Está junto a $TARGET$ o se cruza"
+ CHECK_AREA_TRIGGER_ADJACENT_INTERSECTING_NOT:0 "NO está junto a $TARGET$ ni se cruza"
+ TRIGGER_DIP_POWER:0 "#variable Poder diplomático#! (@inf!) $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_DIP_POWER_NOT:0 "#variable Poder diplomático#! (@inf!) NO $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_COUNTRY_RANK:0 "El rango de poder #variable $NAME_ADJ$#! es $COMPARATOR$ $RANK|v$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_COUNTRY_RANK_NOT:0 "El rango de poder #variable $NAME_ADJ$#! NO es $COMPARATOR$ $RANK|v$" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_RANK_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_RANK_THIRD_NOT`
+ TRIGGER_GLOBAL_COUNTRY_RANKING:0 "El rango #variable $NAME_ADJ$#! es $COMPARATOR$ $NUM|v$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_GLOBAL_COUNTRY_RANKING_NOT:0 "El rango de poder #variable $NAME_ADJ$#! NO es $COMPARATOR$ $NUM|v$" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_GLOBAL_COUNTRY_RANKING_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_GLOBAL_COUNTRY_RANKING_THIRD_NOT`
+ TRIGGER_GOVERNMENT_LEGITIMACY:0 "La [concept_legitimacy|l] del régimen #variable $NAME_ADJ$#! es $COMPARATOR$ #variable $NUM$#!" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_GOVERNMENT_LEGITIMACY_NOT:0 "La [concept_legitimacy|l] del régimen #variable $NAME_ADJ$#! NO es $COMPARATOR$ #variable $NUM$#!" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_GOVERNMENT_LEGITIMACY_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_GOVERNMENT_LEGITIMACY_THIRD_NOT`
+ TRIGGER_COUNTRY_TIER:0 "#variable La [concept_country_tier|l] de [COUNTRY.GetName] es $TIER|v$"
+ TRIGGER_COUNTRY_TIER_NOT:0 "#variable La [concept_country_tier|l] de [COUNTRY.GetName] NO es $TIER|v$"
+ CONTEXT_TRIGGER_SCOPE_NAME:0 "$NAME|V$:"
+ CONTEXT_SWITCH_CHARACTER:0 "$NAME|v$"
+ CONTEXT_SWITCH_DIPLOMATIC_PLAY:0 "$NAME|v$"
+ TRIGGER_HAS_DIPLOMATIC_PLAY:0 "Se está produciendo una jugada diplomática en [STRATEGIC_REGION.GetName]"
+ TRIGGER_HAS_DIPLOMATIC_PLAY_NOT:0 "NO se está produciendo ninguna jugada diplomática en [STRATEGIC_REGION.GetName]"
+ ANY_KEY:0 "cualquiera"
+ COLONY_KEY:0 "colonia"
+ TRIGGER_IS_BUILDING_CATEGORY:0 "Es $CATEGORY$"
+ TRIGGER_IS_BUILDING_CATEGORY_NOT:0 "NO es $CATEGORY$"
+ TRIGGER_IS_MARGINAL:0 "El grupo de interés está [concept_marginalized|l]"
+ TRIGGER_IS_MARGINAL_NOT:0 "El grupo de interés NO está [concept_marginalized|l]"
+ TRIGGER_IS_POWERFUL:0 "El grupo de interés es [concept_powerful|l]"
+ TRIGGER_IS_POWERFUL_NOT:0 "El grupo de interés NO es [concept_powerful|l]"
+ TRIGGER_POP_EMPLOYMENT_BUILDING_GROUP:0 "Está trabajando en un edificio de #variable $BUILDING_GROUP$#!"
+ TRIGGER_POP_EMPLOYMENT_BUILDING_GROUP_NOT:0 "NO está trabajando en un edificio de #variable $BUILDING_GROUP$#!"
+ TRIGGER_POP_EMPLOYMENT_BUILDING:0 "Está trabajando en [BUILDING.GetName]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_POP_EMPLOYMENT_BUILDING_NOT:0 "NO está trabajando en [BUILDING.GetName]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_POP_CULTURE:0 "Tiene cultura de origen [CULTURE.GetName]"
+ TRIGGER_HAS_POP_CULTURE_NOT:0 "NO tiene cultura de origen [CULTURE.GetName]"
+ TRIGGER_HAS_POP_RELIGION:0 "Tiene religión [RELIGION.GetName]"
+ TRIGGER_HAS_POP_RELIGION_NOT:0 "NO tiene religión [RELIGION.GetName]"
+ TRIGGER_STATE_RELIGION:0 "La [concept_state_religion|l] es la [RELIGION.GetName]"
+ TRIGGER_STATE_RELIGION_NOT:0 "La [concept_state_religion|l] NO es la [RELIGION.GetName]"
+ TRIGGER_POP_IS_DISCRIMINATED:0 "Sufre discriminación en su país de origen"
+ TRIGGER_POP_IS_DISCRIMINATED_NOT:0 "NO sufre discriminación en su país de origen"
+ TRIGGER_POP_HAS_PRIMARY_CULTURE:0 "Pertenece a una cultura principal en su país de origen"
+ TRIGGER_POP_HAS_PRIMARY_CULTURE_NOT:0 "NO pertenece a una cultura principal en su país de origen"
+ TRIGGER_CULTURE_ACCEPTED:0 "Pertenece a una cultura que se considera aceptada en su país de origen"
+ TRIGGER_CULTURE_ACCEPTED_NOT:0 "NO pertenece a una cultura que se considere aceptada en su país de origen"
+ TRIGGER_RELIGION_ACCEPTED:0 "Pertenece a una religión que se considera aceptada en su país de origen"
+ TRIGGER_RELIGION_ACCEPTED_NOT:0 "NO pertenece a una religión que se considere aceptada en su país de origen"
+ TRIGGER_WEALTH:0 "Posee una riqueza $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_WEALTH_NOT:0 "NO posee una riqueza $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_IS_PRIMARY_CULTURE_OF:0 "Su cultura principal es [Culture.GetName]"
+ TRIGGER_IS_PRIMARY_CULTURE_OF_NOT:0 "Su cultura principal NO es [Culture.GetName]"
+ TRIGGER_SHARES_TRAIT_WITH_ANY_PRIMARY_CULTURE:0 "La [CULTURE.GetName] comparte un rasgo con alguna cultura principal de [TARGET_COUNTRY.GetName]"
+ TRIGGER_SHARES_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOT:0 "La [CULTURE.GetName] NO comparte ningún rasgo con ninguna cultura principal de [TARGET_COUNTRY.GetName]"
+ TRIGGER_SHARES_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE:0 "La [CULTURE.GetName] comparte un rasgo de herencia con alguna cultura principal de [TARGET_COUNTRY.GetName]"
+ TRIGGER_SHARES_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOT:0 "La [CULTURE.GetName] NO comparte ningún rasgo de herencia con ninguna cultura principal de [TARGET_COUNTRY.GetName]"
+ TRIGGER_SHARES_NON_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE:0 "La [CULTURE.GetName] comparte un rasgo que no sea de herencia con alguna cultura principal de [TARGET_COUNTRY.GetName]"
+ TRIGGER_SHARES_NON_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOT:0 "La [CULTURE.GetName] NO comparte ningún rasgo que no sea de herencia con ninguna cultura principal de [TARGET_COUNTRY.GetName]"
+ # [LocEditor:UntranslatedKey] `TRIGGER_SHARES_HERITAGE_AND_OTHER_TRAIT_WITH_ANY_PRIMARY_CULTURE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_SHARES_HERITAGE_AND_OTHER_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOT`
+ TRIGGER_SHARES_TRAIT_WITH_STATE_RELIGION:0 "La [RELIGION.GetName] comparte un rasgo con la [concept_state_religion|l] de [TARGET_COUNTRY.GetName]"
+ TRIGGER_SHARES_TRAIT_WITH_STATE_RELIGION_NOT:0 "La [RELIGION.GetName] NO comparte ningún rasgo con la [concept_state_religion|l] de [TARGET_COUNTRY.GetName]"
+ TRIGGER_SHARES_HERITAGE_TRAIT_WITH_STATE_RELIGION:0 "La [RELIGION.GetName] comparte un rasgo con la [concept_state_religion|l] de [TARGET_COUNTRY.GetName]"
+ TRIGGER_SHARES_HERITAGE_TRAIT_WITH_STATE_RELIGION_NOT:0 "La [RELIGION.GetName] NO comparte ningún rasgo con la [concept_state_religion|l] de [TARGET_COUNTRY.GetName]"
+ TRIGGER_MOST_POWERFUL_STRATA:0 "#variable $TYPE$#! poseen la mayoría del poder político"
+ TRIGGER_MOST_POWERFUL_STRATA_NOT:0 "#variable $TYPE$#! NO poseen la mayoría del poder político"
+ TRIGGER_IS_INCORPORATED:0 "Se ha incorporado"
+ TRIGGER_IS_INCORPORATED_NOT:0 "NO se ha incorporado"
+ TRIGGER_IS_MASS_MIGRATION_TARGET:0 "El [concept_state|l] de [STATE.GetName] es [concept_mass_migration_target|l]"
+ TRIGGER_IS_MASS_MIGRATION_TARGET_NOT:0 "El [concept_state|l] de [STATE.GetName] NO es [concept_mass_migration_target|l]"
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_SPLIT_STATE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_SPLIT_STATE_NOT`
+ TRIGGER_IS_LARGEST_STATE_IN_REGION:0 "Es el mayor [concept_state|l] de la [concept_state_region|l]"
+ TRIGGER_IS_LARGEST_STATE_IN_REGION_NOT:0 "NO es el mayor [concept_state|l] de la [concept_state_region|l]"
+ TRIGGER_IS_COASTAL:0 "Tiene costa"
+ TRIGGER_IS_COASTAL_NOT:0 "NO tiene costa"
+ TRIGGER_HAS_PORT:0 "Tiene un puerto activo"
+ TRIGGER_HAS_PORT_NOT:0 "NO tiene un puerto activo"
+ TRIGGER_IS_AT_WAR:0 "Está en guerra" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_AT_WAR_NOT:0 "NO está en guerra" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_AT_WAR_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_AT_WAR_THIRD_NOT`
+ TRIGGER_IS_RESEARCHING_TECHNOLOGY:0 "Está investigando la tecnología de $TECHNOLOGY|v$"
+ TRIGGER_IS_RESEARCHING_TECHNOLOGY_NOT:0 "NO está investigando la tecnología de $TECHNOLOGY|v$"
+ TRIGGER_IS_RESEARCHING_TECHNOLOGY_CATEGORY:0 "Está investigando la categoría tecnológica de $TECHNOLOGY_CAT|v$"
+ TRIGGER_IS_RESEARCHING_TECHNOLOGY_CATEGORY_NOT:0 "NO está investigando la categoría tecnológica de $TECHNOLOGY_CAT|v$"
+ TRIGGER_HAS_RESEARCHABLE_TECHNOLOGY:0 "Tiene alguna tecnología pendiente de investigar"
+ TRIGGER_HAS_RESEARCHABLE_TECHNOLOGY_NOT:0 "NO tiene ninguna tecnología pendiente de investigar"
+ TRIGGER_SHOULD_SET_WARGOAL:0 "Carece de objetivo de guerra principal en una jugada diplomática"
+ TRIGGER_SHOULD_SET_WARGOAL_NOT:0 "NO carece de objetivo de guerra principal en una jugada diplomática"
+ TRIGGER_IS_LOSING_POWER_RANK:0 "Está perdiendo su rango de poder actual"
+ TRIGGER_IS_LOSING_POWER_RANK_NOT:0 "NO está perdiendo su rango de poder actual"
+ TRIGGER_HAS_DECREASING_INTERESTS:0 "Tiene intereses que disminuyan"
+ TRIGGER_HAS_DECREASING_INTERESTS_NOT:0 "NO tiene intereses que disminuyan"
+ TRIGGER_IS_IN_GOVERNMENT:0 "Forma parte del gobierno"
+ TRIGGER_IS_IN_GOVERNMENT_NOT:0 "NO forma parte del gobierno"
+ TRIGGER_IG_APPROVAL:0 "La aprobación es $COMPARATOR$ #variable $NUM|0+=$#!"
+ TRIGGER_IG_APPROVAL_NOT:0 "La aprobación NO es $COMPARATOR$ #variable $NUM|0+=$#!"
+ TRIGGER_IG_CLOUT:0 "El peso es $COMPARATOR$ #variable $NUM|0%$#!"
+ TRIGGER_IG_CLOUT_NOT:0 "El peso NO es $COMPARATOR$ #variable $NUM|0%$#!"
+ TRIGGER_IG_GOVERNMENT_POWER_SHARE:0 "La fuerza política en [INTEREST_GROUP.GetCountry.GetName] es $COMPARATOR$ #variable $NUM|0%$#! respecto a la del gobierno"
+ TRIGGER_IG_GOVERNMENT_POWER_SHARE_NOT:0 "La fuerza política en [INTEREST_GROUP.GetCountry.GetName] NO es $COMPARATOR$ #variable $NUM|0%$#! respecto a la del gobierno"
+ TRIGGER_IG_STATE_POL_STRENGTH_SHARE:0 "La fuerza política de [TARGET_INTEREST_GROUP.GetName] es $COMPARATOR$ $NUM|%$"
+ TRIGGER_IG_STATE_POL_STRENGTH_SHARE_NOT:0 "La fuerza política de [TARGET_INTEREST_GROUP.GetName] NO es $COMPARATOR$ $NUM|%$"
+ TRIGGER_HAS_LAW:0 "Ha instaurado [TARGET_LAW_TYPE.GetName]"
+ TRIGGER_HAS_LAW_NOT:0 "NO ha instaurado [TARGET_LAW_TYPE.GetName]"
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_LAW_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_LAW_THIRD_NOT`
+ TRIGGER_HAS_GOVERNMENT_CLOUT:0 "El gobierno tiene un peso $COMPARATOR$ #variable $NUM|0%$#!"
+ TRIGGER_HAS_GOVERNMENT_CLOUT_NOT:0 "El gobierno NO tiene un peso $COMPARATOR$ #variable $NUM|0%$#!"
+ TRIGGER_HAS_RULING_INTEREST_GROUP:0 "El gobierno incluye a #variable $INTEREST_GROUP_TYPE$#!"
+ TRIGGER_HAS_RULING_INTEREST_GROUP_NOT:0 "El gobierno NO incluye a #variable $INTEREST_GROUP_TYPE$#!"
+ TRIGGER_HAS_RULING_INTEREST_GROUP_COUNT:0 "El gobierno tiene $COMPARATOR$ #variable $NUM|0$#! grupos de interés"
+ TRIGGER_HAS_RULING_INTEREST_GROUP_COUNT_NOT:0 "El gobierno NO tiene $COMPARATOR$ #variable $NUM|0$#! grupos de interés"
+ TRIGGER_HAS_IDEOLOGY:0 "Tiene [concept_ideology|l] [IDEOLOGY.GetName]"
+ TRIGGER_HAS_IDEOLOGY_NOT:0 "NO tiene [concept_ideology|l] [IDEOLOGY.GetName]"
+ TRIGGER_LAW_STANCE:0 "Postura sobre [TARGET_LAW_TYPE.GetName] $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_LAW_STANCE_NOT:0 "Postura sobre [TARGET_LAW_TYPE.GetName] NO $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_IS_GOAL_COMPLETE:0 "[JOURNAL_ENTRY.GetGoalDesc]"
+ TRIGGER_IS_GOAL_COMPLETE_NOT:0 "[JOURNAL_ENTRY.GetGoalDesc]"
+ TRIGGER_COUNTRY_HAS_PRIMARY_CULTURE:0 "La cultura [TARGET_CULTURE.GetName] es principal en el país"
+ TRIGGER_COUNTRY_HAS_PRIMARY_CULTURE_NOT:0 "La cultura [TARGET_CULTURE.GetName] NO es principal en el país"
+ TRIGGER_COUNTRY_HAS_STATE_RELIGION:0 "La [TARGET_RELIGION.GetName] es la [concept_state_religion|l]"
+ TRIGGER_COUNTRY_HAS_STATE_RELIGION_NOT:0 "La [TARGET_RELIGION.GetName] NO es la [concept_state_religion|l]"
+ TRIGGER_HAS_ROLE:0 "Tiene la función de #variable $ROLE$#!"
+ TRIGGER_HAS_ROLE_NOT:0 "NO tiene la función de #variable $ROLE$#!"
+ TRIGGER_IS_MONARCH:0 "Ejerce de monarca"
+ TRIGGER_IS_MONARCH_NOT:0 "NO ejerce de monarca"
+ TRIGGER_IS_RULER:0 "Es gobernante"
+ TRIGGER_IS_RULER_NOT:0 "NO es gobernante"
+ TRIGGER_IS_MOBILIZED:0 "Está [Concept('concept_mobilize_general', 'movilizado')]"
+ TRIGGER_IS_MOBILIZED_NOT:0 "NO está [Concept('concept_mobilize_general', 'movilizado')]"
+ TRIGGER_HAS_GOVERNMENT_TYPE:0 "Tiene un tipo de gobierno [GOVERNMENT_TYPE.GetName]"
+ TRIGGER_HAS_GOVERNMENT_TYPE_NOT:0 "NO tiene un tipo de gobierno [GOVERNMENT_TYPE.GetName]"
+ TRIGGER_HAS_RADICALIZED_INTEREST_GROUPS:0 "Tiene grupos de interés radicalizados"
+ TRIGGER_HAS_RADICALIZED_INTEREST_GROUPS_NOT:0 "NO tiene grupos de interés radicalizados"
+ TRIGGER_HAS_INSURRECTIONARY_INTEREST_GROUPS:0 "Tiene grupos de interés insurrectos"
+ TRIGGER_HAS_INSURRECTIONARY_INTEREST_GROUPS_NOT:0 "NO tiene grupos de interés insurrectos"
+ TRIGGER_HAS_RADICALIZING_INTEREST_GROUPS:0 "Tiene grupos de interés que se están radicalizando"
+ TRIGGER_HAS_RADICALIZING_INTEREST_GROUPS_NOT:0 "NO tiene grupos de interés que se estén radicalizando"
+ TRIGGER_HAS_HEALTHY_ECONOMY:0 "Posee una economía saneada"
+ TRIGGER_HAS_HEALTHY_ECONOMY_NOT:0 "NO posee una economía saneada"
+ TRIGGER_UNUSED_TRADE_ROUTES:0 "Tiene un número de [Concept('concept_trade_route', 'rutas comerciales')] sin usar $COMPARATOR$ #variable $NUM|0$#!"
+ TRIGGER_UNUSED_TRADE_ROUTES_NOT:0 "NO tiene un número de [Concept('concept_trade_route', 'rutas comerciales')] sin usar $COMPARATOR$ #variable $NUM|0$#!"
+ TRIGGER_UNUSED_TRADE_ROUTES_IN_MARKET:0 "[Concept('concept_trade_route', 'Rutas comerciales')] sin usar en [MARKET.GetName] $COMPARATOR$ $NUM|0$"
+ TRIGGER_UNUSED_TRADE_ROUTES_IN_MARKET_NOT:0 "[Concept('concept_trade_route', 'Rutas comerciales')] sin usar en [MARKET.GetName] NO $COMPARATOR$ $NUM|0$"
+ TRIGGER_ISOLATED_STATES:0 "Tiene un número de [Concept('concept_isolated_state', 'estados aislados')] $COMPARATOR$ #variable $NUM|0$#!" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ISOLATED_STATES_NOT:0 "NO tiene un número de [Concept('concept_isolated_state', 'estados aislados')] $COMPARATOR$ #variable $NUM|0$#!" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_ISOLATED_FROM_MARKET:0 "[STATE.GetName] es un [concept_isolated_state|l]"
+ TRIGGER_IS_ISOLATED_FROM_MARKET_NOT:0 "[STATE.GetName] NO es un [concept_isolated_state|l]"
+ TRIGGER_HAS_REVOLUTION:0 "Vive una revolución"
+ TRIGGER_HAS_REVOLUTION_NOT:0 "NO vive una revolución"
+ TRIGGER_IS_REVOLUTIONARY:0 "Tiene actitud revolucionaria"
+ TRIGGER_IS_REVOLUTIONARY_NOT:0 "NO tiene actitud revolucionaria"
+ # [LocEditor:UntranslatedKey] `TRIGGER_CIVIL_WAR_PROGRESS_GAIN`
+ # [LocEditor:UntranslatedKey] `TRIGGER_CIVIL_WAR_PROGRESS_GAIN_NOT`
+ TRIGGER_HAS_ANY_SECESSIONISTS_POSSIBLE:0 "Tiene posibles movimientos secesionistas"
+ TRIGGER_HAS_ANY_SECESSIONISTS_POSSIBLE_NOT:0 "NO tiene posibles movimientos secesionistas"
+ TRIGGER_HAS_ANY_SECESSIONISTS_GROWING:0 "Tiene movimientos secesionistas en expansión"
+ TRIGGER_HAS_ANY_SECESSIONISTS_GROWING_NOT:0 "NO tiene movimientos secesionistas en expansión"
+ TRIGGER_HAS_ANY_SECESSIONISTS_BROKEN_OUT:0 "Tiene países secesionistas que se han separado"
+ TRIGGER_HAS_ANY_SECESSIONISTS_BROKEN_OUT_NOT:0 "NO tiene países secesionistas que se hayan separado"
+ TRIGGER_ACTIVE_LENS:0 "La $LENS$ está activa"
+ TRIGGER_ACTIVE_LENS_NOT:0 "La $LENS$ NO está activa"
+ TRIGGER_IS_PANEL_OPEN:0 "El $PANEL$ $TAB_NAME$ está abierto"
+ TRIGGER_IS_PANEL_OPEN_NOT:0 "El $PANEL$ $TAB_NAME$ NO está abierto"
+ TRIGGER_IS_PRODUCTION_METHOD_ACTIVE:0 "Tiene un edificio [BUILDING_TYPE.GetName] que usa el método de producción [PRODUCTION_METHOD.GetName]"
+ TRIGGER_IS_PRODUCTION_METHOD_ACTIVE_NOT:0 "NO tiene ningún edificio [BUILDING_TYPE.GetName] que use el método de producción [PRODUCTION_METHOD.GetName]"
+ TRIGGER_CAN_ACTIVATE_PRODUCTION_METHOD:0 "Tiene un edificio [BUILDING_TYPE.GetName] capaz de activar el método de producción [PRODUCTION_METHOD.GetName]"
+ TRIGGER_CAN_ACTIVATE_PRODUCTION_METHOD_NOT:0 "NO tiene ningún edificio [BUILDING_TYPE.GetName] capaz de activar el método de producción [PRODUCTION_METHOD.GetName]"
+ TRIGGER_EXPERIENCE_LEVEL:0 "El nivel de experiencia es $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_EXPERIENCE_LEVEL_NOT:0 "El nivel de experiencia NO es $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_OWNS_TREATY_PORT_IN:0 "Posee el puerto abierto de [STATE_REGION.GetName]"
+ TRIGGER_OWNS_TREATY_PORT_IN_NOT:0 "NO posee el puerto abierto de [STATE_REGION.GetName]"
+ TRIGGER_COUNTRY_DEFINITION_HAS_CULTURE:0 "Tiene cultura [TARGET_CULTURE.GetName]"
+ TRIGGER_COUNTRY_DEFINITION_HAS_CULTURE_NOT:0 "NO tiene cultura [TARGET_CULTURE.GetName]"
+ TRIGGER_IS_HOME_COUNTRY_FOR:0 "Es el país de origen para [TARGET_COUNTRY.GetName]"
+ TRIGGER_IS_HOME_COUNTRY_FOR_NOT:0 "NO es el país de origen para [TARGET_COUNTRY.GetName]"
+ TRIGGER_ANY_SCOPE_STATE_PERCENT_GREATER_THAN:0 "Se cumple el porcentaje especificado de requisitos"
+ TRIGGER_IS_LAND_THEATER:0 "Es un teatro terrestre"
+ TRIGGER_IS_LAND_THEATER_NOT:0 "NO es un teatro terrestre"
+ violate_sovereignty_trigger_not:0 "Debe tener un teatro terrestre adyacente a ambos líderes de la guerra"
+ TRIGGER_IS_SLAVE_STATE:0 "[STATE.GetName] es un estado esclavista."
+ TRIGGER_IS_SLAVE_STATE_NOT:0 "[STATE.GetName] NO es un estado esclavista."
+ TRIGGER_HAS_DLC:0 "Tiene DLC #variable $DLC$#!"
+ TRIGGER_HAS_DLC_NOT:0 "NO tiene DLC #variable $DLC$#!"
+ TRIGGER_OWNS_ENTIRE_STATE_REGION:0 "Posee la totalidad de [StateRegion.GetName]"
+ TRIGGER_OWNS_ENTIRE_STATE_REGION_NOT:0 "NO posee la totalidad de [StateRegion.GetName]"
+ TRIGGER_COUNTRY_OR_SUBJECT_OWNS_ENTIRE_STATE_REGION:0 "[StateRegion.GetName] es propiedad del país o de sus súbditos"
+ TRIGGER_COUNTRY_OR_SUBJECT_OWNS_ENTIRE_STATE_REGION_NOT:0 "[StateRegion.GetName] NO es propiedad del país o de sus súbditos"
+ TRIGGER_HAS_STATE_IN_STATE_REGION:0 "Tiene un estado en [STATE_REGION.GetName]"
+ TRIGGER_HAS_STATE_IN_STATE_REGION_NOT:0 "No tiene ningún estado en [STATE_REGION.GetName]"
+ TRIGGER_HAS_ASSIMILATING_POPS:0 "[STATE.GetName] está [Concept('concept_assimilation', 'asimilando')] [Concept('concept_pop', 'colectivos')]." # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_ASSIMILATING_POPS_NOT:0 "[STATE.GetName] NO está [Concept('concept_assimilation', 'asimilando')] [Concept('concept_pop', 'colectivos')]." # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_CONVERTING_POPS:0 "[STATE.GetName] ha [Concept('concept_conversion', 'convertido')] [Concept('concept_pop', 'colectivos')]." # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_CONVERTING_POPS_NOT:0 "[STATE.GetName] NO ha [Concept('concept_conversion', 'convertido')] [Concept('concept_pop', 'colectivos')]." # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_APPROACHING_BUREAUCRACY_SHORTAGE:0 "El país está a punto de sufrir un déficit de $BUREAUCRACY$"
+ TRIGGER_APPROACHING_BUREAUCRACY_SHORTAGE_NOT:0 "El país NO está a punto de sufrir un déficit de $BUREAUCRACY$"
+ TRIGGER_IS_CONSTRUCTION_PAUSED:0 "La construcción está en pausa"
+ TRIGGER_IS_CONSTRUCTION_PAUSED_NOT:0 "La construcción NO está en pausa"
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_WASTED_CONSTRUCTION`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_WASTED_CONSTRUCTION_NOT`
+ TRIGGER_HAS_DISCRIMINATION_TRAIT:0 "$SUBJECT$ posee el rasgo $TRAIT|v$"
+ TRIGGER_HAS_DISCRIMINATION_TRAIT_NOT:0 "$SUBJECT$ NO posee el rasgo $TRAIT|v$"
+ TRIGGER_IS_INSURRECTIONARY:0 "[INTEREST_GROUP.GetName] tiene una actitud insurrecta" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_INSURRECTIONARY_NOT:0 "[INTEREST_GROUP.GetName] NO tiene una actitud insurrecta" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_INSURRECTIONARY_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_INSURRECTIONARY_THIRD_NOT`
+ TRIGGER_IS_BEING_SUPPRESSED:0 "Se está reprimiendo a [INTEREST_GROUP.GetName]"
+ TRIGGER_IS_BEING_SUPPRESSED_NOT:0 "NO se está reprimiendo a [INTEREST_GROUP.GetName]"
+ TRIGGER_IS_BEING_PROMOTED:0 "Se está ascendiendo a [INTEREST_GROUP.GetName]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_BEING_PROMOTED_NOT:0 "NO se está ascendiendo a [INTEREST_GROUP.GetName]" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_BEING_PROMOTED_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_BEING_PROMOTED_THIRD_NOT`
+ TRIGGER_SHARES_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOCONTEXT:0 "Comparte [concept_cultural_trait|l] con alguna de las [concept_primary_cultures|l] ([GetPlayer.GetPrimaryCulturesDesc] en [GetPlayer.GetName])" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_SHARES_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOCONTEXT_NOT`
+ TRIGGER_SHARES_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOCONTEXT:0 "Comparte [concept_cultural_heritage_trait|l] con alguna de las [concept_primary_cultures|l] ([GetPlayer.GetPrimaryCulturesDesc] en [GetPlayer.GetName])"
+ # [LocEditor:UntranslatedKey] `TRIGGER_SHARES_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOCONTEXT_NOT`
+ TRIGGER_SHARES_NON_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOCONTEXT:0 "Comparte un [concept_cultural_trait|l] que no es un [concept_cultural_heritage_trait|l] con alguna de las [concept_primary_cultures|l] ([GetPlayer.GetPrimaryCulturesDesc] en [GetPlayer.GetName])"
+ # [LocEditor:UntranslatedKey] `TRIGGER_SHARES_NON_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_NOCONTEXT_NOT`
+ TRIGGER_SCOPE_COUNTRY_NOCONTEXT:0 "País"
+ TRIGGER_SHARES_HERITAGE_TRAIT_WITH_STATE_RELIGION_NOCONTEXT:0 "Comparte un rasgo con la [concept_state_religion|l] ([GetPlayer.GetStateReligion.GetName] en [GetPlayer.GetName])"
+ # [LocEditor:UntranslatedKey] `TRIGGER_SHARES_HERITAGE_TRAIT_WITH_STATE_RELIGION_NOCONTEXT_NOT`
+ TRIGGER_IS_STATE_RELIGION_NOCONTEXT:0 "Es la [concept_state_religion|l]" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_STATE_RELIGION_NOCONTEXT_NOT`
+ TRIGGER_IS_PRIMARY_CULTURE_OF_NOCONTEXT:0 "Es una de las [concept_primary_cultures|l]" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PRIMARY_CULTURE_OF_NOCONTEXT_NOT`
+ TRIGGER_IS_COUNTRY_TYPE_NOCONTEXT_NOT:0 "NO es #variable $COUNTRY_TYPE$#!"
+ TRIGGER_ALWAYS_NOCONTEXT:0 "Siempre"
+ TRIGGER_POLLUTION_AMOUNT:0 "La contaminación en [STATE_REGION.GetName] es $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_POLLUTION_AMOUNT_NOT:0 "La contaminación en [STATE_REGION.GetName] NO es $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_IS_CAPITAL:0 "[STATE.GetName] es la capital de [STATE.GetOwner.GetName]"
+ TRIGGER_IS_CAPITAL_NOT:0 "[STATE.GetName] NO es la capital de [STATE.GetOwner.GetName]"
+ TRIGGER_CONTAINS_CAPITAL_OF:0 "[STATE_REGION.GetName] incluye la capital de [TARGET_COUNTRY.GetName]"
+ TRIGGER_CONTAINS_CAPITAL_OF_NOT:0 "[STATE_REGION.GetName] NO incluye la capital de [TARGET_COUNTRY.GetName]"
+ TRIGGER_REMAINING_UNDEPLETED:0 "[STATE_REGION.GetName] tiene un número de recursos restantes $COMPARATOR$ #variable $NUM$#! en #variable $BUILDING_GROUP$#!"
+ TRIGGER_REMAINING_UNDEPLETED_NOT:0 "[STATE_REGION.GetName] NO tiene un número de recursos restantes $COMPARATOR$ #variable $NUM$#! en #variable $BUILDING_GROUP$#!"
+ TRIGGER_IS_MARKET_GOODS_EXPENSIVE:0 "[GOODS.GetName] resulta caro en [MARKET.GetName]"
+ TRIGGER_IS_MARKET_GOODS_EXPENSIVE_NOT:0 "[GOODS.GetName] NO resulta caro en [MARKET.GetName]"
+ TRIGGER_IS_MARKET_GOODS_CHEAP:0 "[GOODS.GetName] resulta barato en [MARKET.GetName]"
+ TRIGGER_IS_MARKET_GOODS_CHEAP_NOT:0 "[GOODS.GetName] NO resulta barato en [MARKET.GetName]"
+ TRIGGER_IS_CONSUMED_BY_GOVERNMENT_BUILDINGS:0 "[GOODS.GetName] es un [Concept('concept_government_good', 'bien del gobierno')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_CONSUMED_BY_GOVERNMENT_BUILDINGS_NOT:0 "[GOODS.GetName] NO es un [Concept('concept_government_good', 'bien del gobierno')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_CONSUMED_BY_MILITARY_BUILDINGS:0 "[GOODS.GetName] es un [Concept('concept_military_good', 'bien militar')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_CONSUMED_BY_MILITARY_BUILDINGS_NOT:0 "[GOODS.GetName] NO es un [Concept('concept_military_good', 'bien militar')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_MARKET_ACCESS_AMOUNT:0 "El [concept_market_access|l] es $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_ACCESS_AMOUNT_NOT:0 "El [concept_market_access|l] NO es $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_BUY_ORDERS:0 "Cantidad de órdenes de compra de [GOODS.GetName] en [MARKET.GetName] $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_BUY_ORDERS_NOT:0 "Cantidad de órdenes de compra de [GOODS.GetName] en [MARKET.GetName] NO $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_SELL_ORDERS:0 "Cantidad de órdenes de venta de [GOODS.GetName] en [MARKET.GetName] $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_SELL_ORDERS_NOT:0 "Cantidad de órdenes de venta de [GOODS.GetName] en [MARKET.GetName] NO $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_CONSUMPTION:0 "Consumo de [GOODS.GetName] en [MARKET.GetName] $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_CONSUMPTION_NOT:0 "Consumo de [GOODS.GetName] en [MARKET.GetName] NO $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_PRODUCTION:0 "Producción de [GOODS.GetName] en [MARKET.GetName] $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_PRODUCTION_NOT:0 "Producción de [GOODS.GetName] en [MARKET.GetName] NO $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_LEADING_PRODUCER_OF:0 "[COUNTRY.GetName] es el principal productor de [TARGET_GOODS.GetName]"
+ TRIGGER_LEADING_PRODUCER_OF_NOT:0 "[COUNTRY.GetName] NO es el principal productor de [TARGET_GOODS.GetName]"
+ TRIGGER_MARKET_GOODS_IMPORTS:0 "Cantidad de importaciones de [GOODS.GetName] en [MARKET.GetName] $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_IMPORTS_NOT:0 "Cantidad de importaciones de [GOODS.GetName] en [MARKET.GetName] NO $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_EXPORTS:0 "Cantidad de exportaciones de [GOODS.GetName] en [MARKET.GetName] $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_EXPORTS_NOT:0 "Cantidad de exportaciones de [GOODS.GetName] en [MARKET.GetName] NO $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_DELTA:0 "Delta de [GOODS.GetName] en [MARKET.GetName] $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_MARKET_GOODS_DELTA_NOT:0 "Delta de [GOODS.GetName] en [MARKET.GetName] NO $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_WEEKLY_NET_FIXED_INCOME:0 "La cantidad de ingresos semanales fijos para [COUNTRY.GetName] es $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_WEEKLY_NET_FIXED_INCOME_NOT:0 "La cantidad de ingresos semanales fijos para [COUNTRY.GetName] NO es $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_IS_EMBARGOING_GOODS:0 "[COUNTRY.GetName] está embargando [TARGET_GOODS.GetName]"
+ TRIGGER_IS_EMBARGOING_GOODS_NOT:0 "[COUNTRY.GetName] NO está embargando [TARGET_GOODS.GetName]"
+ TRIGGER_IS_PROMOTING_GOODS:0 "[COUNTRY.GetName] está promoviendo [GOODS.GetName]"
+ TRIGGER_IS_PROMOTING_GOODS_NOT:0 "[COUNTRY.GetName] NO está promoviendo [GOODS.GetName]"
+ TRIGGER_IS_SUPPRESSING_GOODS:0 "[COUNTRY.GetName] está restringiendo [GOODS.GetName]"
+ TRIGGER_IS_SUPPRESSING_GOODS_NOT:0 "[COUNTRY.GetName] NO está restringiendo [GOODS.GetName]"
+ TRIGGER_IS_TAXING_GOODS:0 "[COUNTRY.GetName] cobra impuestos por [GOODS.GetName]"
+ TRIGGER_IS_TAXING_GOODS_NOT:0 "[COUNTRY.GetName] NO cobra impuestos por [GOODS.GetName]"
+ TRIGGER_INSTITUTION_INVESTMENT_LEVEL:0 "Nivel de inversión en [INSTITUTION_TYPE.GetName] $COMPARATOR$ $NUM$"
+ TRIGGER_INSTITUTION_INVESTMENT_LEVEL_NOT:0 "Nivel de inversión en [INSTITUTION_TYPE.GetName] NO $COMPARATOR$ $NUM$"
+ # [LocEditor:UntranslatedKey] `TRIGGER_INSTITUTION_INVESTMENT_LEVEL_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_INSTITUTION_INVESTMENT_LEVEL_THIRD_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_TAX_LEVEL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_TAX_LEVEL_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_TAX_LEVEL_VALUE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_TAX_LEVEL_VALUE_NOT`
+ TRIGGER_NUM_TAXED_GOODS:0 "Número de bienes gravados $COMPARATOR$ $NUM$"
+ TRIGGER_NUM_TAXED_GOODS_NOT:0 "Número de bienes gravados NO $COMPARATOR$ $NUM$"
+ TRIGGER_IS_GOVERNMENT_FUNDED:0 "Es un [concept_government_building|l]"
+ TRIGGER_IS_GOVERNMENT_FUNDED_NOT:0 "NO es un [concept_government_building|l]"
+ TRIGGER_BUILDING_HAS_GOODS_SHORTAGE:0 "Tiene [Concept('concept_input_goods_shortage', 'escasez de bienes de insumo')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_BUILDING_HAS_GOODS_SHORTAGE_NOT:0 "NO tiene [Concept('concept_input_goods_shortage', 'escasez de bienes de insumo')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_MARKET_HAS_GOODS_SHORTAGE:0 "Tiene [Concept('concept_input_goods_shortage', 'escasez de bienes de insumo')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_MARKET_HAS_GOODS_SHORTAGE_NOT:0 "NO tiene [Concept('concept_input_goods_shortage', 'escasez de bienes de insumo')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_MARKET_GOODS_HAS_GOODS_SHORTAGE:0 "Tiene [Concept('concept_input_goods_shortage', 'escasez de bienes de insumo')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_MARKET_GOODS_HAS_GOODS_SHORTAGE_NOT:0 "NO tiene [Concept('concept_input_goods_shortage', 'escasez de bienes de insumo')]" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_CONSUMPTION_TAX`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_CONSUMPTION_TAX_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_DESIRED_LAW_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_DESIRED_LAW_EQUAL_NOT`
+ TRIGGER_STATE_REGION_HAS_GOODS_SHORTAGE:0 "Tiene [Concept('concept_input_goods_shortage', 'escasez de bienes de insumo')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_STATE_REGION_HAS_GOODS_SHORTAGE_NOT:0 "NO tiene [Concept('concept_input_goods_shortage', 'escasez de bienes de insumo')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_SUBSISTENCE_BUILDING:0 "Es un [concept_subsistence_building|l]"
+ TRIGGER_IS_SUBSISTENCE_BUILDING_NOT:0 "NO es un [concept_subsistence_building|l]"
+ TRIGGER_EARNINGS:0 "Ganancia de [BUILDING.GetName] $COMPARATOR$ $NUM$"
+ TRIGGER_EARNINGS_NOT:0 "Ganancia de [BUILDING.GetName] NO $COMPARATOR$ $NUM$"
+ TRIGGER_IS_PROGRESSING:0 "Hay progresos en [JournalEntry.GetName]"
+ TRIGGER_IS_PROGRESSING_NOT:0 "NO hay progresos en [JournalEntry.GetName]"
+ TRIGGER_HAS_OBJECTIVE:0 "[Country.GetName] tiene como objetivo [Objective.GetName]"
+ TRIGGER_HAS_OBJECTIVE_NOT:0 "[Country.GetName] NO tiene como objetivo [Objective.GetName]"
+ TRIGGER_HAS_COMPLETED_SUBGOAL:0 "[Country.GetName] ha completado el objetivo secundario $SUBGOAL$"
+ TRIGGER_HAS_COMPLETED_SUBGOAL_NOT:0 "[Country.GetName] NO ha completado el objetivo secundario $SUBGOAL$"
+ TRIGGER_IT_IS_WINTER:0 "Es invierno"
+ TRIGGER_IT_IS_WINTER_NOT:0 "NO es invierno"
+ TRIGGER_IT_IS_SPRING:0 "Es primavera"
+ TRIGGER_IT_IS_SPRING_NOT:0 "NO es primavera"
+ TRIGGER_IT_IS_SUMMER:0 "Es verano"
+ TRIGGER_IT_IS_SUMMER_NOT:0 "NO es verano"
+ TRIGGER_IT_IS_AUTUMN:0 "Es otoño"
+ TRIGGER_IT_IS_AUTUMN_NOT:0 "NO es otoño"
+ TRIGGER_HAS_CULTURAL_OBSESSION:0 "La cultura [CULTURE.GetName] tiene obsesión por [GOODS.GetName]"
+ TRIGGER_HAS_CULTURAL_OBSESSION_NOT:0 "La cultura [CULTURE.GetName] NO tiene obsesión por [GOODS.GetName]"
+ TRIGGER_HAS_RELIGIOUS_TABOO:0 "La religión [RELIGION.GetName] tiene un tabú en contra de [GOODS.GetName]"
+ TRIGGER_HAS_RELIGIOUS_TABOO_NOT:0 "La religión [RELIGION.GetName] NO tiene un tabú en contra de [GOODS.GetName]"
+ TRIGGER_RADICAL_FRACTION:0 "La cantidad de [Concept('concept_radical', 'radicales')] en todos los$FILTER$ [Concept('concept_pop', 'colectivos')] es $COMPARATOR$ $NUM$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_RADICAL_FRACTION_NOT:0 "La cantidad de [Concept('concept_radical', 'radicales')] en todos los$FILTER$ [Concept('concept_pop', 'colectivos')] NO es $COMPARATOR$ $NUM$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_LOYALIST_FRACTION:0 "La cantidad de [Concept('concept_loyalist', 'lealistas')] en todos los $FILTER$ [Concept('concept_pop', 'colectivos')] es $COMPARATOR$ $NUM$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_LOYALIST_FRACTION_NOT:0 "La cantidad de [Concept('concept_loyalist', 'lealistas')] en todos los $FILTER$ [Concept('concept_pop', 'colectivos')] NO es $COMPARATOR$ $NUM$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_COMMANDER_ORDER:0 "La orden del comandante es [COMMANDER_ORDER_TYPE.GetName]"
+ TRIGGER_HAS_COMMANDER_ORDER_NOT:0 "La orden del comandante NO es [COMMANDER_ORDER_TYPE.GetName]"
+ TRIGGER_GAME_DATE:0 "La fecha actual de la partida es $COMPARATOR$ $DATE$"
+ TRIGGER_GAME_DATE_NOT:0 "La fecha actual de la partida NO es $COMPARATOR$ $DATE$"
+ TRIGGER_ENACTING_ANY_LAW:0 "Está promulgando una ley"
+ TRIGGER_ENACTING_ANY_LAW_NOT:0 "NO está promulgando una ley"
+ TRIGGER_IS_ENACTING_LAW:0 "Está promulgando [TARGET_LAW_TYPE.GetName]"
+ TRIGGER_IS_ENACTING_LAW_NOT:0 "NO está promulgando [TARGET_LAW_TYPE.GetName]"
+ TRIGGER_IS_EXPANDING_INSTITUTION:0 "Está ampliando una institución"
+ TRIGGER_IS_EXPANDING_INSTITUTION_NOT:0 "NO está ampliando una institución"
+ TRIGGER_EXPANDING_INSTITUTION:0 "Está ampliando [InstitutionType.GetName]"
+ TRIGGER_EXPANDING_INSTITUTION_NOT:0 "NO está ampliando [InstitutionType.GetName]"
+ TRIGGER_CULTURE_IS_DISCRIMINATED_IN:0 "Sufre discriminación en [Country.GetName]"
+ TRIGGER_CULTURE_IS_DISCRIMINATED_IN_NOT:0 "No sufre discriminación en [Country.GetName]"
+ TRIGGER_CULTURE_SECESSION_PROGRESS:0 "Cultura [CULTURE.GetName] en [TARGET_COUNTRY.GetName]: el progreso de la [concept_secession|l] ($CURRENT_VALUE$) es $COMPARATOR$ $NUM|v$"
+ TRIGGER_CULTURE_SECESSION_PROGRESS_NOT:0 "Cultura [CULTURE.GetName] en [TARGET_COUNTRY.GetName]: el progreso de la [concept_secession|l] ($CURRENT_VALUE$) NO es $COMPARATOR$ $NUM|v$"
+ TRIGGER_HAS_ONGOING_CONVERSION:0 "[Pop.GetName] están realizando una conversión religiosa"
+ TRIGGER_HAS_ONGOING_CONVERSION_NOT:0 "[Pop.GetName] NO están realizando una conversión religiosa"
+ TRIGGER_HAS_ONGOING_ASSIMILATION:0 "[Pop.GetName] están realizando una asimilación cultural"
+ TRIGGER_HAS_ONGOING_ASSIMILATION_NOT:0 "[Pop.GetName] NO están realizando una asimilación cultural"
+ TRIGGER_LAW_APPROVED_BY:0 "El grupo de [InterestGroup.GetName] ha aprobado [Law.GetName]"
+ TRIGGER_LAW_APPROVED_BY_NOT:0 "El grupo de [InterestGroup.GetName] NO ha aprobado [Law.GetName]"
+ TRIGGER_HAS_WAR_SUPPORT:0 "El [concept_war_support|l] de [Country.GetNameNoFlag] ($CURRENT_VALUE$) es $COMPARATOR$ $NUM|v$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_WAR_SUPPORT_NOT:0 "El [concept_war_support|l] de [Country.GetNameNoFlag] NO es $COMPARATOR$ $NUM|v$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_WAR_EXHAUSTION:0 "La [concept_war_exhaustion|l] de [Country.GetNameNoFlag] es $COMPARATOR$ $NUM|v$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_WAR_EXHAUSTION_NOT:0 "La [concept_war_exhaustion|l] de [Country.GetNameNoFlag] NO es $COMPARATOR$ $NUM|v$" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_HAS_TRUCE_WITH:0 "[COUNTRY.GetName] tiene una tregua con [TARGET_COUNTRY.GetName]"
+ TRIGGER_HAS_TRUCE_WITH_NOT:0 "[COUNTRY.GetName] NO tiene una tregua con [TARGET_COUNTRY.GetName]"
+ TRIGGER_IS_BEING_CONVOY_RAIDED:0 "[Country.GetName] sufre ataques contra sus convoyes"
+ TRIGGER_IS_BEING_CONVOY_RAIDED_NOT:0 "[Country.GetName] NO sufre ataques contra sus convoyes"
+ TRIGGER_IS_VIOLATING_SOVEREIGNTY_OF:0 "[COUNTRY.GetName] está violando la [concept_sovereignty|l] de [TARGET_COUNTRY.GetNameNoFlag]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_VIOLATING_SOVEREIGNTY_OF_NOT:0 "[COUNTRY.GetName] NO está violando la [concept_sovereignty|l] de [TARGET_COUNTRY.GetNameNoFlag]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_SUBSIDIZED:0 "[Building.GetName] tiene una [Concept('concept_subsidies', 'subvención')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_SUBSIDIZED_NOT:0 "[Building.GetName] NO tiene ninguna [Concept('concept_subsidies', 'subvención')]" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_IS_REPAIRING:0 "[Character.GetFullName] está ahora realizando reparaciones después de perder una batalla naval"
+ TRIGGER_IS_REPAIRING_NOT:0 "[Character.GetFullName] NO ha perdido hace poco una batalla naval"
+ TRIGGER_IS_ADVANCING_ON_FRONT:0 "[CHARACTER.GetFullName] está avanzando hacia [TARGET_FRONT.GetName]"
+ TRIGGER_IS_ADVANCING_ON_FRONT_NOT:0 "[CHARACTER.GetFullName] NO está avanzando hacia [TARGET_FRONT.GetName]"
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_HIGH_ATTRITION`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_HIGH_ATTRITION_NOT`
+ TRIGGER_HAS_ACTIVE_PRODUCTION_METHOD:0 "[BUILDING.GetName] ha activado [PRODUCTION_METHOD.GetName]"
+ TRIGGER_HAS_ACTIVE_PRODUCTION_METHOD_NOT:0 "[BUILDING.GetName] NO ha activado [PRODUCTION_METHOD.GetName]"
+ TRIGGER_CASH_RESERVES_AVAILABLE:0 "La cantidad de [concept_cash_reserves|l] de [BUILDING.GetName] es $COMPARATOR$ $NUM|vD$ @money!"
+ TRIGGER_CASH_RESERVES_AVAILABLE_NOT:0 "La cantidad de [concept_cash_reserves|l] de [BUILDING.GetName] NO es $COMPARATOR$ $NUM|vD$ @money!"
+ TRIGGER_CASH_RESERVES_RATIO:0 "La cantidad de [concept_cash_reserves|l] de [BUILDING.GetName] es $COMPARATOR$ $NUM|%0v$"
+ TRIGGER_CASH_RESERVES_RATIO_NOT:0 "La cantidad de [concept_cash_reserves|l] de [BUILDING.GetName] NO es $COMPARATOR$ $NUM|%0v$"
+ TRIGGER_IS_TRADE_ROUTE_ACTIVE:0 "La [concept_trade_route|l] está activa"
+ TRIGGER_IS_TRADE_ROUTE_ACTIVE_NOT:0 "La [concept_trade_route|l] no está activa"
+ TRIGGER_IS_CONSTRUCTION_EXPENSIVE:0 "La construcción de [BuildingType.GetName] en [State.GetName] resulta cara"
+ TRIGGER_IS_CONSTRUCTION_EXPENSIVE_NOT:0 "La construcción de [BuildingType.GetName] en [State.GetName] NO resulta cara"
+ TRIGGER_IS_BUILDABLE:0 "[BuildingType.GetName] se puede construir a mano"
+ TRIGGER_IS_BUILDABLE_NOT:0 "[BuildingType.GetName] NO se puede construir a mano"
+ TRIGGER_NUM_CASUALTIES:0 "El número total de víctimas en [War.GetName] es $COMPARATOR$ #variable $NUM|0+=$#!"
+ TRIGGER_NUM_CASUALTIES_NOT:0 "El número total de víctimas en [War.GetName] NO es $COMPARATOR$ #variable $NUM|0+=$#!"
+ TRIGGER_NUM_WOUNDED:0 "El número total de heridos en [War.GetName] es $COMPARATOR$ #variable $NUM|0+=$#!"
+ TRIGGER_NUM_WOUNDED_NOT:0 "El número total de heridos en [War.GetName] NO es $COMPARATOR$ #variable $NUM|0+=$#!"
+ TRIGGER_NUM_DEAD:0 "El número total de muertos en [War.GetName] es $COMPARATOR$ #variable $NUM|0+=$#!"
+ TRIGGER_NUM_DEAD_NOT:0 "El número total de muertos en [War.GetName] NO es $COMPARATOR$ #variable $NUM|0+=$#!"
+ TRIGGER_NUM_COUNTRY_CASUALTIES:0 "El número total de bajas de #v [Country.GetNameNoFlag]#! en [War.GetName] es $COMPARATOR$ #variable $NUM|0+=$#!" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_NUM_COUNTRY_CASUALTIES_NOT:0 "El número total de bajas de #v [Country.GetNameNoFlag]#! en [War.GetName] NO es $COMPARATOR$ #variable $NUM|0+=$#!" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_NUM_COUNTRY_WOUNDED:0 "El número total de heridos de #v [Country.GetNameNoFlag]#! #!en [War.GetName] es $COMPARATOR$ #variable $NUM|0+=$#!" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_NUM_COUNTRY_WOUNDED_NOT:0 "El número total de heridos de #v [Country.GetNameNoFlag]#! #!en [War.GetName] NO es $COMPARATOR$ #variable $NUM|0+=$#!" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_NUM_COUNTRY_DEAD:0 "El número total de muertos de #v [Country.GetNameNoFlag]#! #!en [War.GetName] es $COMPARATOR$ #variable $NUM|0+=$#!" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_NUM_COUNTRY_DEAD_NOT:0 "El número total de muertos de #v [Country.GetNameNoFlag]#! #!en [War.GetName] NO es $COMPARATOR$ #variable $NUM|0+=$#!" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_POLITICAL_MOVEMENT_SUPPORT:0 "El apoyo es $COMPARATOR$ #variable $NUM|0+=$#!"
+ TRIGGER_POLITICAL_MOVEMENT_SUPPORT_NOT:0 "El apoyo NO es $COMPARATOR$ #variable $NUM|%0$#!"
+ TRIGGER_POLITICAL_MOVEMENT_RADICALISM:0 "El radicalismo es $COMPARATOR$ #variable $NUM|0+=$#!"
+ TRIGGER_POLITICAL_MOVEMENT_RADICALISM_NOT:0 "El radicalismo NO es $COMPARATOR$ #variable $NUM|%0$#!"
+ TRIGGER_IS_POLITICAL_MOVEMENT_TYPE:0 "El tipo es $MOVEMENT_TYPE|v$"
+ TRIGGER_IS_POLITICAL_MOVEMENT_TYPE_NOT:0 "El tipo NO es $MOVEMENT_TYPE|v$"
+ TRIGGER_IS_COUNTRY_ALIVE:0 "[Country.GetName] vive"
+ TRIGGER_IS_COUNTRY_ALIVE_NOT:0 "[Country.GetName] ha muerto"
+ TRIGGER_CIVIL_WAR_PROGRESS:0 "El progreso de la [concept_civil_war|l] es $COMPARATOR$ #variable $NUM|0$#!"
+ TRIGGER_CIVIL_WAR_PROGRESS_NOT:0 "El progreso de la [concept_civil_war|l] NO es $COMPARATOR$ #variable $NUM|0$#!"
+ TRIGGER_IS_CIVIL_WAR_TYPE:0 "La [concept_civil_war|l] es #v $CIVIL_WAR_TYPE$#!"
+ TRIGGER_IS_CIVIL_WAR_TYPE_NOT:0 "La [concept_civil_war|l] NO es #v $CIVIL_WAR_TYPE$#!"
+ TRIGGER_IS_TREATY_PORT:0 "[State.GetName] es un [concept_treaty_port|l]"
+ TRIGGER_IS_TREATY_PORT_NOT:0 "[State.GetName] NO es un [concept_treaty_port|l]"
+ TRIGGER_STATE_UNEMPLOYMENT_RATE:0 "El desempleo en [State.GetName] es $COMPARATOR$ #v $NUM|0%$#!"
+ TRIGGER_STATE_UNEMPLOYMENT_RATE_NOT:0 "El desempleo en [State.GetName] NO es $COMPARATOR$ #v $NUM|0%$#!"
+ TRIGGER_STATE_POPULATION:0 "La población total en [State.GetName] es $COMPARATOR$ #v $NUM|K$#!"
+ TRIGGER_STATE_POPULATION_NOT:0 "La población total en [State.GetName] NO es $COMPARATOR$ #v $NUM|K$#!"
+ TRIGGER_IS_HEIR:0 "Es [concept_heir|l]"
+ TRIGGER_IS_HEIR_NOT:0 "NO es [concept_heir|l]"
+ TRIGGER_HAS_POTENTIAL_RESOURCE:0 "Puede construir #v $BUILDING_GROUP$#! en [STATE.GetName]"
+ TRIGGER_HAS_POTENTIAL_RESOURCE_NOT:0 "NO puede construir #v $BUILDING_GROUP$#! en [STATE.GetName]"
+ TRIGGER_IS_ENCOURAGING_CONSUMPTION:0 "[COUNTRY.GetName] está alentando el consumo de [TARGET_GOODS.GetName]"
+ TRIGGER_IS_ENCOURAGING_CONSUMPTION_NOT:0 "[COUNTRY.GetName] NO está alentando el consumo de [TARGET_GOODS.GetName]"
+ TRIGGER_IS_DISCOURAGING_CONSUMPTION:0 "[COUNTRY.GetName] está desalentando el consumo de [TARGET_GOODS.GetName]"
+ TRIGGER_IS_DISCOURAGING_CONSUMPTION_NOT:0 "[COUNTRY.GetName] NO está desalentando el consumo de [TARGET_GOODS.GetName]"
+ TRIGGER_AUTHORITY:0 "La [concept_authority|l] @aut! es $COMPARATOR$ #variable $NUM|0$#!"
+ TRIGGER_AUTHORITY_NOT:0 "La [concept_authority|l] @aut! NO es $COMPARATOR$ #variable $NUM|0$#!"
+ TRIGGER_BUREAUCRACY:0 "La [concept_bureaucracy|l] @bur! es $COMPARATOR$ #variable $NUM|0$#!"
+ TRIGGER_BUREAUCRACY_NOT:0 "La [concept_bureaucracy|l] @bur! NO es $COMPARATOR$ #variable $NUM|0$#!"
+ TRIGGER_INFLUENCE:0 "La [concept_influence|l] @inf! es $COMPARATOR$ #variable $NUM|0$#!"
+ TRIGGER_INFLUENCE_NOT:0 "La [concept_influence|l] @inf! NO es $COMPARATOR$ #variable $NUM|0$#!"
+ TRIGGER_ELECTION_MOMENTUM:0 "El [concept_momentum|l] es $COMPARATOR$ $NUM|%v$ ($CURRENT_VALUE$)"
+ TRIGGER_ELECTION_MOMENTUM_NOT:0 "El [concept_momentum|l] NO es $COMPARATOR$ $NUM|%v$ ($CURRENT_VALUE$)"
+ TRIGGER_IS_HOMELAND_OF_COUNTRY_CULTURES:0 "[TARGET_COUNTRY.GetName] considera [STATE.GetName] su tierra natal"
+ TRIGGER_IS_HOMELAND_OF_COUNTRY_CULTURES_NOT:0 "[TARGET_COUNTRY.GetName] no considera [STATE.GetName] su tierra natal"
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_PARTY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_PARTY_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_MEMBER_OF_PARTY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_MEMBER_OF_PARTY_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PARTY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PARTY_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PARTY_TYPE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PARTY_TYPE_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PARTY_TYPE_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_PARTY_TYPE_THIRD_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_SAME_PARTY_TYPE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_SAME_PARTY_TYPE_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_SAME_PARTY_TYPE_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_IS_SAME_PARTY_TYPE_THIRD_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_PARTY_MEMBER`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_PARTY_MEMBER_NOT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_PARTY_MEMBER_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_PARTY_MEMBER_THIRD_NOT`
+ 
+  #For each script list, we need TRIGGER_<key>, TRIGGER_<key>_ALL, TRIGGER_<key>_PERCENT and TRIGGER_<key>_COUNT
+ TRIGGER_ANY_MARKET:0 "Cualquier [concept_market|l]:"
+ TRIGGER_ANY_MARKET_ALL:0 "Todos los [Concept('concept_market', 'mercados')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_MARKET_PERCENT:0 "$PARAMETERS$ de los [Concept('concept_market', 'mercados')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_MARKET_COUNT:0 "$PARAMETERS$ [Concept('concept_market', 'mercados')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_THEATER:0 "Cualquier [concept_theater|l]:"
+ TRIGGER_ANY_SCOPE_THEATER_ALL:0 "Todos los [Concept('concept_theater', 'teatros')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_THEATER_PERCENT:0 "$PARAMETERS$ de los [Concept('concept_theater', 'teatros')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_THEATER_COUNT:0 "$PARAMETERS$ [Concept('concept_theater', 'teatros')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_POP:0 "Cualquier [concept_pop|l]:"
+ TRIGGER_ANY_SCOPE_POP_ALL:0 "Todos los [Concept('concept_pop', 'colectivos')]:"
+ TRIGGER_ANY_SCOPE_POP_PERCENT:0 "$PARAMETERS$ de los [Concept('concept_pop', 'colectivos')]:"
+ TRIGGER_ANY_SCOPE_POP_COUNT:0 "$PARAMETERS$ [Concept('concept_pop', 'colectivos')]:"
+ TRIGGER_ANY_SCOPE_BUILDING:0 "Cualquier [concept_building|l]:"
+ TRIGGER_ANY_SCOPE_BUILDING_ALL:0 "Todos los [Concept('concept_building', 'edificios')]:"
+ TRIGGER_ANY_SCOPE_BUILDING_PERCENT:0 "$PARAMETERS$ de los [Concept('concept_building', 'edificios')]:"
+ TRIGGER_ANY_SCOPE_BUILDING_COUNT:0 "$PARAMETERS$ [Concept('concept_building', 'edificios')]:"
+ TRIGGER_ANY_SCOPE_INTEREST_MARKER:0 "Cualquier marcador de interés:"
+ TRIGGER_ANY_SCOPE_INTEREST_MARKER_ALL:0 "Todos los marcadores de interés:"
+ TRIGGER_ANY_SCOPE_INTEREST_MARKER_PERCENT:0 "$PARAMETERS$ de los marcadores de interés:"
+ TRIGGER_ANY_SCOPE_INTEREST_MARKER_COUNT:0 "$PARAMETERS$ marcadores de interés:"
+ 
+ TRIGGER_ANY_INTEREST_GROUP:0 "Cualquier [concept_interest_group|l]:"
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_INTEREST_GROUP_FIRST`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_INTEREST_GROUP_THIRD`
+ TRIGGER_ANY_INTEREST_GROUP_ALL:0 "Todos los [Concept('concept_interest_group', 'grupos de interés')]:"
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_INTEREST_GROUP_ALL_THIRD`
+ TRIGGER_ANY_INTEREST_GROUP_PERCENT:0 "$PARAMETERS$ de los [Concept('concept_interest_group', 'grupos de interés')]:"
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_INTEREST_GROUP_PERCENT_THIRD`
+ TRIGGER_ANY_INTEREST_GROUP_COUNT:0 "$PARAMETERS$ [Concept('concept_interest_group', 'grupos de interés')]:"
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_INTEREST_GROUP_COUNT_THIRD`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_ALL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_ALL_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_PERCENT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_PERCENT_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_COUNT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_MEMBER_COUNT_THIRD`
+ 
+ TRIGGER_ANY_SUPPORTING_INTEREST_GROUP:0 "Cualquier [concept_interest_group|l] que muestre respaldo:"
+ TRIGGER_ANY_SUPPORTING_INTEREST_GROUP_ALL:0 "Todos los [Concept('concept_interest_group', 'grupos de interés')] que muestren respaldo:"
+ TRIGGER_ANY_SUPPORTING_INTEREST_GROUP_PERCENT:0 "$PARAMETERS$ de los [Concept('concept_interest_group', 'grupos de interés')] que muestren respaldo:"
+ TRIGGER_ANY_SUPPORTING_INTEREST_GROUP_COUNT:0 "$PARAMETERS$ [Concept('concept_interest_group', 'grupos de interés')] que muestren respaldo:"
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_ALL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_ALL_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_PERCENT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_PERCENT_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_COUNT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_ACTIVE_PARTY_COUNT_THIRD`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_ALL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_ALL_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_PERCENT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_PERCENT_THIRD`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_COUNT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_POTENTIAL_PARTY_COUNT_THIRD`
+ 
+ TRIGGER_ANY_POLITICAL_MOVEMENT:0 "Cualquier [concept_political_movement|l]:"
+ TRIGGER_ANY_POLITICAL_MOVEMENT_ALL:0 "Todos los [Concept('concept_political_movement', 'movimientos políticos')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_POLITICAL_MOVEMENT_PERCENT:0 "$PARAMETERS$ de los [Concept('concept_political_movement', 'movimientos políticos')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_POLITICAL_MOVEMENT_COUNT:0 "$PARAMETERS$ [Concept('concept_political_movement', 'movimientos políticos')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_DIPLOMATIC_PLAY:0 "Cualquier [concept_diplomatic_play|l]:"
+ TRIGGER_ANY_DIPLOMATIC_PLAY_ALL:0 "Todas las [Concept('concept_diplomatic_play', 'jugadas diplomáticas')]:"
+ TRIGGER_ANY_DIPLOMATIC_PLAY_PERCENT:0 "$PARAMETERS$ de las [Concept('concept_diplomatic_play', 'jugadas diplomáticas')]:"
+ TRIGGER_ANY_DIPLOMATIC_PLAY_COUNT:0 "$PARAMETERS$ [Concept('concept_diplomatic_play', 'jugadas diplomáticas')]:"
+ TRIGGER_ANY_SCOPE_PLAY_PARTICIPANT:0 "Cualquier participante en una [concept_diplomatic_play|l]:"
+ TRIGGER_ANY_SCOPE_PLAY_PARTICIPANT_ALL:0 "Todos los participantes en una [concept_diplomatic_play|l]:"
+ TRIGGER_ANY_SCOPE_PLAY_PARTICIPANT_PERCENT:0 "$PARAMETERS$ de los participantes en una [concept_diplomatic_play|l]:"
+ TRIGGER_ANY_SCOPE_PLAY_PARTICIPANT_COUNT:0 "$PARAMETERS$ participantes en una [concept_diplomatic_play|l]:"
+ TRIGGER_ANY_STATE_REGION:0 "Cualquier [concept_state_region|l]:"
+ TRIGGER_ANY_STATE_REGION_ALL:0 "Todas las [Concept('concept_state_region', 'regiones estatales')]:"
+ TRIGGER_ANY_STATE_REGION_PERCENT:0 "$PARAMETERS$ de las [Concept('concept_state_region', 'regiones estatales')]:"
+ TRIGGER_ANY_STATE_REGION_COUNT:0 "$PARAMETERS$ [Concept('concept_state_region', 'regiones estatales')]:"
+ TRIGGER_ANY_TRADE_ROUTE:0 "Cualquier [concept_trade_route|l]:"
+ TRIGGER_ANY_TRADE_ROUTE_ALL:0 "Todas las [Concept('concept_trade_route', 'rutas comerciales')]:"
+ TRIGGER_ANY_TRADE_ROUTE_PERCENT:0 "$PARAMETERS$ de las [Concept('concept_trade_route', 'rutas comerciales')]:"
+ TRIGGER_ANY_TRADE_ROUTE_COUNT:0 "$PARAMETERS$ [Concept('concept_trade_route', 'rutas comerciales')]:"
+ TRIGGER_ANY_LAW:0 "Cualquier ley:"
+ TRIGGER_ANY_LAW_ALL:0 "Todas las leyes:"
+ TRIGGER_ANY_LAW_PERCENT:0 "$PARAMETERS$ de las leyes:"
+ TRIGGER_ANY_LAW_COUNT:0 "$PARAMETERS$ leyes:"
+ TRIGGER_ANY_SCOPE_CHARACTER:0 "Cualquier [concept_character|l]:"
+ TRIGGER_ANY_SCOPE_CHARACTER_ALL:0 "Todos los [Concept('concept_character', 'personajes')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_CHARACTER_PERCENT:0 "$PARAMETERS$ de los [Concept('concept_character', 'personajes')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_CHARACTER_COUNT:0 "$PARAMETERS$ [Concept('concept_character', 'personajes')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CHARACTER:0 "Cualquier [concept_character|l] del mundo:"
+ TRIGGER_ANY_CHARACTER_ALL:0 "Todos los [Concept('concept_character', 'personajes')] del mundo:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CHARACTER_PERCENT:0 "$PARAMETERS$ de los [Concept('concept_character', 'personajes')] del mundo:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CHARACTER_COUNT:0 "$PARAMETERS$ [Concept('concept_character', 'personajes')] del mundo:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CHARACTER_IN_VOID:0 "Cualquier [concept_character|l] en el Vacío:"
+ TRIGGER_ANY_CHARACTER_IN_VOID_ALL:0 "Todos los [Concept('concept_character', 'personajes')] en el Vacío:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CHARACTER_IN_VOID_PERCENT:0 "$PARAMETERS$ de los [Concept('concept_character', 'personajes')] en el Vacío:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CHARACTER_IN_VOID_COUNT:0 "$PARAMETERS$ [Concept('concept_character', 'personajes')] en el Vacío:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_COUNTRY:0 "Cualquier [concept_country|l]:"
+ TRIGGER_ANY_COUNTRY_ALL:0 "Todos los [Concept('concept_country', 'países')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_COUNTRY_PERCENT:0 "$PARAMETERS$ de los [Concept('concept_country', 'países')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_COUNTRY_COUNT:0 "$PARAMETERS$ [Concept('concept_country', 'países')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_ALLY:0 "Cualquier aliado:"
+ TRIGGER_ANY_SCOPE_ALLY_ALL:0 "Todos los aliados:"
+ TRIGGER_ANY_SCOPE_ALLY_PERCENT:0 "$PARAMETERS$ de los aliados:"
+ TRIGGER_ANY_SCOPE_ALLY_COUNT:0 "$PARAMETERS$ aliados:"
+ TRIGGER_ANY_SCOPE_INITIATOR_ALLY:0 "Cualquier aliado del iniciador:"
+ TRIGGER_ANY_SCOPE_INITIATOR_ALLY_ALL:0 "Todos los aliados del iniciador:"
+ TRIGGER_ANY_SCOPE_INITIATOR_ALLY_PERCENT:0 "$PARAMETERS$ de los aliados del iniciador:"
+ TRIGGER_ANY_SCOPE_INITIATOR_ALLY_COUNT:0 "$PARAMETERS$ aliados del iniciador:"
+ TRIGGER_ANY_SCOPE_TARGET_ALLY:0 "Cualquier aliado del objetivo:"
+ TRIGGER_ANY_SCOPE_TARGET_ALLY_ALL:0 "Todos los aliados del objetivo:"
+ TRIGGER_ANY_SCOPE_TARGET_ALLY_PERCENT:0 "$PARAMETERS$ de los aliados del objetivo:"
+ TRIGGER_ANY_SCOPE_TARGET_ALLY_COUNT:0 "$PARAMETERS$ aliados del objetivo:"
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_INTERESTED_PARTIES:0 "Cualquier país que esté interesado si se viola la soberanía:" #hmmm
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_INTERESTED_PARTIES_ALL:0 "Todos los países que estén interesados si se viola la soberanía:"
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_INTERESTED_PARTIES_PERCENT:0 "$PARAMETERS$ de los países que estén interesados si se viola la soberanía:"
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_INTERESTED_PARTIES_COUNT:0 "$PARAMETERS$ países que estén interesados si se viola la soberanía:"
+ TRIGGER_ANY_OVERLORD_OR_ABOVE:0 "Cualquier soberano o entidad superior:"
+ TRIGGER_ANY_OVERLORD_OR_ABOVE_ALL:0 "Todos los soberanos o entidades superiores:"
+ TRIGGER_ANY_OVERLORD_OR_ABOVE_PERCENT:0 "$PARAMETERS$ de los soberanos o entidades superiores:"
+ TRIGGER_ANY_OVERLORD_OR_ABOVE_COUNT:0 "$PARAMETERS$ soberanos o entidades superiores:"
+ TRIGGER_ANY_SUBJECT_OR_BELOW:0 "Cualquier súbdito o entidad inferior:"
+ TRIGGER_ANY_SUBJECT_OR_BELOW_ALL:0 "Todos los súbditos o entidades inferiores:"
+ TRIGGER_ANY_SUBJECT_OR_BELOW_PERCENT:0 "$PARAMETERS$ de los súbditos o entidades inferiores:"
+ TRIGGER_ANY_SUBJECT_OR_BELOW_COUNT:0 "$PARAMETERS$ súbditos o entidades inferiores:"
+ TRIGGER_ANY_IN_HIERARCHY:0 "Cualquier [concept_country|l] de la jerarquía de soberanía:"
+ TRIGGER_ANY_IN_HIERARCHY_ALL:0 "Todos los [Concept('concept_country', 'países')] de la jerarquía de soberanía:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_IN_HIERARCHY_PERCENT:0 "$PARAMETERS$ de los [Concept('concept_country', 'países')] de la jerarquía de soberanía:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_IN_HIERARCHY_COUNT:0 "$PARAMETERS$ [Concept('concept_country', 'países')] de la jerarquía de soberanía:" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_RIVAL_COUNTRY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_RIVAL_COUNTRY_ALL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_RIVAL_COUNTRY_PERCENT`
+ # [LocEditor:UntranslatedKey] `TRIGGER_ANY_RIVAL_COUNTRY_COUNT`
+ TRIGGER_ANY_SCOPE_CULTURE:0 "Cualquier [concept_culture|l]:"
+ TRIGGER_ANY_SCOPE_CULTURE_ALL:0 "Todas las [Concept('concept_culture', 'culturas')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_CULTURE_PERCENT:0 "$PARAMETERS$ de las [Concept('concept_culture', 'culturas')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_CULTURE_COUNT:0 "$PARAMETERS$ [Concept('concept_culture', 'culturas')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_PRIMARY_CULTURE:0 "Cualquiera de las [concept_primary_cultures|l]:"
+ TRIGGER_ANY_PRIMARY_CULTURE_ALL:0 "Todas las [Concept('concept_primary_cultures', 'culturas principales')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_PRIMARY_CULTURE_PERCENT:0 "$PARAMETERS$ de las [Concept('concept_primary_cultures', 'culturas principales')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_PRIMARY_CULTURE_COUNT:0 "$PARAMETERS$ [Concept('concept_primary_cultures', 'culturas principales')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_STATE:0 "Cualquier [concept_state|l] del mundo:"
+ TRIGGER_ANY_STATE_ALL:0 "Todos los [Concept('concept_state', 'estados')] del mundo:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_STATE_PERCENT:0 "$PARAMETERS$ de los [Concept('concept_state', 'estados')] del mundo:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_STATE_COUNT:0 "$PARAMETERS$ [Concept('concept_state', 'estados')] del mundo:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_STATE:0 "Cualquier [concept_state|l]:"
+ TRIGGER_ANY_SCOPE_STATE_ALL:0 "Todos los [Concept('concept_state', 'estados')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_STATE_PERCENT:0 "$PARAMETERS$ de los [Concept('concept_state', 'estados')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_STATE_COUNT:0 "$PARAMETERS$ [Concept('concept_state', 'estados')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_NEIGHBOURING_STATE:0 "Cualquier [concept_state|l] vecino:"
+ TRIGGER_ANY_NEIGHBOURING_STATE_ALL:0 "Todos los [Concept('concept_state', 'estados')] vecinos:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_NEIGHBOURING_STATE_PERCENT:0 "$PARAMETERS$ de los [Concept('concept_state', 'estados')] vecinos:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_NEIGHBOURING_STATE_COUNT:0 "$PARAMETERS$ [Concept('concept_state', 'estados')] vecinos:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_WAR:0 "Cualquier [concept_war|l]:"
+ TRIGGER_ANY_SCOPE_WAR_ALL:0 "Todas las [Concept('concept_war', 'guerras')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_WAR_PERCENT:0 "$PARAMETERS$ de las [Concept('concept_war', 'guerras')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_WAR_COUNT:0 "$PARAMETERS$ [Concept('concept_war', 'guerras')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_WARS:0 "Cualquier guerra si se viola la soberanía:" #hmmm
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_WARS_ALL:0 "Todas las guerras si se viola la soberanía:"
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_WARS_PERCENT:0 "$PARAMETERS$ de las guerras si se viola la soberanía:"
+ TRIGGER_ANY_SCOPE_VIOLATE_SOVEREIGNTY_WARS_COUNT:0 "$PARAMETERS$ guerras si se viola la soberanía:"
+ TRIGGER_ANY_CIVIL_WAR:0 "Cualquier [concept_civil_war|l]:"
+ TRIGGER_ANY_CIVIL_WAR_ALL:0 "Todas las [Concept('concept_civil_war', 'guerras civiles')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CIVIL_WAR_PERCENT:0 "$PARAMETERS$ de las [Concept('concept_civil_war', 'guerras civiles')]:" # [LocEditor:AwaitingBatchUpdate]
+ TRIGGER_ANY_CIVIL_WAR_COUNT:0 "$PARAMETERS$ [Concept('concept_civil_war', 'guerras civiles')]:" # [LocEditor:AwaitingBatchUpdate]
+
+ TRIGGER_BUILDING_LEVEL_GREATER_THAN:0 "El nivel de [BUILDING.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_BUILDING_LEVEL_GREATER_OR_EQUAL:0 "El nivel de [BUILDING.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_BUILDING_LEVEL_LESS_THAN:0 "El nivel de [BUILDING.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_BUILDING_LEVEL_LESS_OR_EQUAL:0 "El nivel de [BUILDING.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_BUILDING_LEVEL_EQUAL:0 "El nivel de [BUILDING.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_BUILDING_LEVEL_NOT_EQUAL:0 "El nivel de [BUILDING.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_TRADE_ROUTE_LEVEL_GREATER_THAN:0 "El nivel de [TRADE_ROUTE.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_TRADE_ROUTE_LEVEL_GREATER_OR_EQUAL:0 "El nivel de [TRADE_ROUTE.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_TRADE_ROUTE_LEVEL_LESS_THAN:0 "El nivel de [TRADE_ROUTE.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_TRADE_ROUTE_LEVEL_LESS_OR_EQUAL:0 "El nivel de [TRADE_ROUTE.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_TRADE_ROUTE_LEVEL_EQUAL:0 "El nivel de [TRADE_ROUTE.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_TRADE_ROUTE_LEVEL_NOT_EQUAL:0 "El nivel de [TRADE_ROUTE.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_ALLIANCES_TO_RIVALS_GREATER_THAN:0 "El número de alianzas que [TARGET_COUNTRY.GetName] tiene con los rivales de [COUNTRY.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_TO_RIVALS_GREATER_OR_EQUAL:0 "El número de alianzas que [TARGET_COUNTRY.GetName] tiene con los rivales de [COUNTRY.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_TO_RIVALS_LESS_THAN:0 "El número de alianzas que [TARGET_COUNTRY.GetName] tiene con los rivales de [COUNTRY.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_TO_RIVALS_LESS_OR_EQUAL:0 "El número de alianzas que [TARGET_COUNTRY.GetName] tiene con los rivales de [COUNTRY.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_TO_RIVALS_EQUAL:0 "El número de alianzas que [TARGET_COUNTRY.GetName] tiene con los rivales de [COUNTRY.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_TO_RIVALS_NOT_EQUAL:0 "El número de alianzas que [TARGET_COUNTRY.GetName] tiene con los rivales de [COUNTRY.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_ALLIANCES_TO_ALLIES_GREATER_THAN:0 "El número de alianzas que [TARGET_COUNTRY.GetName] tiene con los aliados de [COUNTRY.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_TO_ALLIES_GREATER_OR_EQUAL:0 "El número de alianzas que [TARGET_COUNTRY.GetName] tiene con los aliados de [COUNTRY.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_TO_ALLIES_LESS_THAN:0 "El número de alianzas que [TARGET_COUNTRY.GetName] tiene con los aliados de [COUNTRY.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_TO_ALLIES_LESS_OR_EQUAL:0 "El número de alianzas que [TARGET_COUNTRY.GetName] tiene con los aliados de [COUNTRY.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_TO_ALLIES_EQUAL:0 "El número de alianzas que [TARGET_COUNTRY.GetName] tiene con los aliados de [COUNTRY.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_TO_ALLIES_NOT_EQUAL:0 "El número de alianzas que [TARGET_COUNTRY.GetName] tiene con los aliados de [COUNTRY.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_RELATIONS_GREATER_THAN:0 "Las relaciones entre [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] son superiores a $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_GREATER_OR_EQUAL:0 "Las relaciones entre [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] son superiores o iguales a $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_LESS_THAN:0 "Las relaciones entre [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] son inferiores a $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_LESS_OR_EQUAL:0 "Las relaciones entre [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] son inferiores o iguales a $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_EQUAL:0 "Las relaciones entre [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] son $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_NOT_EQUAL:0 "Las relaciones entre [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] NO son $TARGET_VALUE|0v$"
+
+ TRIGGER_RELATIONS_THRESHOLD_GREATER_THAN:0 "Las relaciones entre [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] son superiores a $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_THRESHOLD_GREATER_OR_EQUAL:0 "Las relaciones entre [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] son superiores o iguales a $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_THRESHOLD_LESS_THAN:0 "Las relaciones entre [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] son inferiores a $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_THRESHOLD_LESS_OR_EQUAL:0 "Las relaciones entre [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] son inferiores o iguales a $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_THRESHOLD_EQUAL:0 "Las relaciones entre [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] son $TARGET_VALUE|0v$"
+ TRIGGER_RELATIONS_THRESHOLD_NOT_EQUAL:0 "Las relaciones entre [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] NO son $TARGET_VALUE|0v$"
+
+ TRIGGER_INFAMY_THRESHOLD_GREATER_THAN:0 "La infamia de [COUNTRY.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_INFAMY_THRESHOLD_GREATER_OR_EQUAL:0 "La infamia de [COUNTRY.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_INFAMY_THRESHOLD_LESS_THAN:0 "La infamia de [COUNTRY.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_INFAMY_THRESHOLD_LESS_OR_EQUAL:0 "La infamia de [COUNTRY.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_INFAMY_THRESHOLD_EQUAL:0 "La infamia de [COUNTRY.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_INFAMY_THRESHOLD_NOT_EQUAL:0 "La infamia de [COUNTRY.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_TENSION_GREATER_THAN:0 "La tensión entre [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_TENSION_GREATER_OR_EQUAL:0 "La tensión entre [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_TENSION_LESS_THAN:0 "La tensión entre [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_TENSION_LESS_OR_EQUAL:0 "La tensión entre [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_TENSION_EQUAL:0 "La tensión entre [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_TENSION_NOT_EQUAL:0 "La tensión entre [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_TENSION_THRESHOLD_GREATER_THAN:0 "La tensión entre [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_TENSION_THRESHOLD_GREATER_OR_EQUAL:0 "La tensión entre [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_TENSION_THRESHOLD_LESS_THAN:0 "La tensión entre [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_TENSION_THRESHOLD_LESS_OR_EQUAL:0 "La tensión entre [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_TENSION_THRESHOLD_EQUAL:0 "La tensión entre [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_TENSION_THRESHOLD_NOT_EQUAL:0 "La tensión entre [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_ENEMY_UNITS_GREATER_THAN:0 "El número de unidades enemigas en el [FRONT.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ENEMY_UNITS_GREATER_OR_EQUAL:0 "El número de unidades enemigas en el [FRONT.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ENEMY_UNITS_LESS_THAN:0 "El número de unidades enemigas en el [FRONT.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ENEMY_UNITS_LESS_OR_EQUAL:0 "El número de unidades enemigas en el [FRONT.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ENEMY_UNITS_EQUAL:0 "El número de unidades enemigas en el [FRONT.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ENEMY_UNITS_NOT_EQUAL:0 "El número de unidades enemigas en el [FRONT.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_ALLIANCES_GREATER_THAN:0 "El número de alianzas de [COUNTRY.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_GREATER_OR_EQUAL:0 "El número de alianzas de [COUNTRY.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_LESS_THAN:0 "El número de alianzas de [COUNTRY.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_LESS_OR_EQUAL:0 "El número de alianzas de [COUNTRY.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_EQUAL:0 "El número de alianzas de [COUNTRY.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ALLIANCES_NOT_EQUAL:0 "El número de alianzas de [COUNTRY.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_INFAMY_GREATER_THAN:0 "La infamia de [COUNTRY.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_INFAMY_GREATER_OR_EQUAL:0 "La infamia de [COUNTRY.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_INFAMY_LESS_THAN:0 "La infamia de [COUNTRY.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_INFAMY_LESS_OR_EQUAL:0 "La infamia de [COUNTRY.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_INFAMY_EQUAL:0 "La infamia de [COUNTRY.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_INFAMY_NOT_EQUAL:0 "La infamia de [COUNTRY.GetName] NO es $TARGET_VALUE|0v$"
+
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_AVERAGE_SOL_GREATER_THAN`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_AVERAGE_SOL_GREATER_OR_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_AVERAGE_SOL_LESS_THAN`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_AVERAGE_SOL_LESS_OR_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_AVERAGE_SOL_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_AVERAGE_SOL_NOT_EQUAL`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_STATE_AVERAGE_SOL_GREATER_THAN`
+ # [LocEditor:UntranslatedKey] `TRIGGER_STATE_AVERAGE_SOL_GREATER_OR_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_STATE_AVERAGE_SOL_LESS_THAN`
+ # [LocEditor:UntranslatedKey] `TRIGGER_STATE_AVERAGE_SOL_LESS_OR_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_STATE_AVERAGE_SOL_EQUAL`
+ # [LocEditor:UntranslatedKey] `TRIGGER_STATE_AVERAGE_SOL_NOT_EQUAL`
+
+ TRIGGER_INCOME_GREATER_THAN:0 "Los ingresos de [COUNTRY.GetName] son superiores a $TARGET_VALUE|0v$"
+ TRIGGER_INCOME_GREATER_OR_EQUAL:0 "Los ingresos de [COUNTRY.GetName] son superiores o iguales a $TARGET_VALUE|0v$"
+ TRIGGER_INCOME_LESS_THAN:0 "Los ingresos de [COUNTRY.GetName] son inferiores a $TARGET_VALUE|0v$"
+ TRIGGER_INCOME_LESS_OR_EQUAL:0 "Los ingresos de [COUNTRY.GetName] son inferiores o iguales a $TARGET_VALUE|0v$"
+ TRIGGER_INCOME_EQUAL:0 "Los ingresos de [COUNTRY.GetName] son $TARGET_VALUE|0v$"
+ TRIGGER_INCOME_NOT_EQUAL:0 "Los ingresos de [COUNTRY.GetName] NO son $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_TRADE_ROUTES_GREATER_THAN:0 "El número de rutas comerciales de [COUNTRY.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_TRADE_ROUTES_GREATER_OR_EQUAL:0 "El número de rutas comerciales de [COUNTRY.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_TRADE_ROUTES_LESS_THAN:0 "El número de rutas comerciales de [COUNTRY.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_TRADE_ROUTES_LESS_OR_EQUAL:0 "El número de rutas comerciales de [COUNTRY.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_TRADE_ROUTES_EQUAL:0 "El número de rutas comerciales de [COUNTRY.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_NUM_TRADE_ROUTES_NOT_EQUAL:0 "El número de rutas comerciales de [COUNTRY.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_RULING_IGS_GREATER_THAN:0 "El número de grupos de interés en el gobierno de [COUNTRY.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_RULING_IGS_GREATER_OR_EQUAL:0 "El número de grupos de interés en el gobierno de [COUNTRY.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_RULING_IGS_LESS_THAN:0 "El número de grupos de interés en el gobierno de [COUNTRY.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_RULING_IGS_LESS_OR_EQUAL:0 "El número de grupos de interés en el gobierno de [COUNTRY.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_RULING_IGS_EQUAL:0 "El número de grupos de interés en el gobierno de [COUNTRY.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_NUM_RULING_IGS_NOT_EQUAL:0 "El número de grupos de interés en el gobierno de [COUNTRY.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_POSITIVE_RELATIONS_GREATER_THAN:0 "El número de relaciones positivas de [COUNTRY.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_POSITIVE_RELATIONS_GREATER_OR_EQUAL:0 "El número de relaciones positivas de [COUNTRY.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_POSITIVE_RELATIONS_LESS_THAN:0 "El número de relaciones positivas de [COUNTRY.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_POSITIVE_RELATIONS_LESS_OR_EQUAL:0 "El número de relaciones positivas de [COUNTRY.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_POSITIVE_RELATIONS_EQUAL:0 "El número de relaciones positivas de [COUNTRY.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_NUM_POSITIVE_RELATIONS_NOT_EQUAL:0 "El número de relaciones positivas de [COUNTRY.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_ARMY_SIZE_GREATER_THAN:0 "El número de batallones de [COUNTRY.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_ARMY_SIZE_GREATER_OR_EQUAL:0 "El número de batallones de [COUNTRY.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_ARMY_SIZE_LESS_THAN:0 "El número de batallones de [COUNTRY.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_ARMY_SIZE_LESS_OR_EQUAL:0 "El número de batallones de [COUNTRY.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_ARMY_SIZE_EQUAL:0 "El número de batallones de [COUNTRY.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_ARMY_SIZE_NOT_EQUAL:0 "El número de batallones de [COUNTRY.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_NAVY_SIZE_GREATER_THAN:0 "El número de navíos de guerra de [COUNTRY.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_NAVY_SIZE_GREATER_OR_EQUAL:0 "El número de navíos de guerra de [COUNTRY.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NAVY_SIZE_LESS_THAN:0 "El número de navíos de guerra de [COUNTRY.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_NAVY_SIZE_LESS_OR_EQUAL:0 "El número de navíos de guerra de [COUNTRY.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NAVY_SIZE_EQUAL:0 "El número de navíos de guerra de [COUNTRY.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_NAVY_SIZE_NOT_EQUAL:0 "El número de navíos de guerra de [COUNTRY.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_COMMANDERS_GREATER_THAN:0 "El número de comandantes de [COUNTRY.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_COMMANDERS_GREATER_OR_EQUAL:0 "El número de comandantes de [COUNTRY.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_COMMANDERS_LESS_THAN:0 "El número de comandantes de [COUNTRY.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_COMMANDERS_LESS_OR_EQUAL:0 "El número de comandantes de [COUNTRY.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_COMMANDERS_EQUAL:0 "El número de comandantes de [COUNTRY.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_NUM_COMMANDERS_NOT_EQUAL:0 "El número de comandantes de [COUNTRY.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_ACTIVE_PLAYS_GREATER_THAN:0 "El número de jugadas diplomáticas de [COUNTRY.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ACTIVE_PLAYS_GREATER_OR_EQUAL:0 "El número de jugadas diplomáticas de [COUNTRY.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ACTIVE_PLAYS_LESS_THAN:0 "El número de jugadas diplomáticas de [COUNTRY.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ACTIVE_PLAYS_LESS_OR_EQUAL:0 "El número de jugadas diplomáticas de [COUNTRY.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ACTIVE_PLAYS_EQUAL:0 "El número de jugadas diplomáticas de [COUNTRY.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_NUM_ACTIVE_PLAYS_NOT_EQUAL:0 "El número de jugadas diplomáticas de [COUNTRY.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_COLONY_PROJECTS_GREATER_THAN:0 "El número de proyectos coloniales de [COUNTRY.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_COLONY_PROJECTS_GREATER_OR_EQUAL:0 "El número de proyectos coloniales de [COUNTRY.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_COLONY_PROJECTS_LESS_THAN:0 "El número de proyectos coloniales de [COUNTRY.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_COLONY_PROJECTS_LESS_OR_EQUAL:0 "El número de proyectos coloniales de [COUNTRY.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_COLONY_PROJECTS_EQUAL:0 "El número de proyectos coloniales de [COUNTRY.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_NUM_COLONY_PROJECTS_NOT_EQUAL:0 "El número de proyectos coloniales de [COUNTRY.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_UNINCORPORATED_STATES_GREATER_THAN:0 "El número de estados no incorporados de [COUNTRY.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_UNINCORPORATED_STATES_GREATER_OR_EQUAL:0 "El número de estados no incorporados de [COUNTRY.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_UNINCORPORATED_STATES_LESS_THAN:0 "El número de estados no incorporados de [COUNTRY.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_UNINCORPORATED_STATES_LESS_OR_EQUAL:0 "El número de estados no incorporados de [COUNTRY.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_UNINCORPORATED_STATES_EQUAL:0 "El número de estados no incorporados de [COUNTRY.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_NUM_UNINCORPORATED_STATES_NOT_EQUAL:0 "El número de estados no incorporados de [COUNTRY.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_POPULARITY_GREATER_THAN:0 "La popularidad de [CHARACTER.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_POPULARITY_GREATER_OR_EQUAL:0 "La popularidad de [CHARACTER.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_POPULARITY_LESS_THAN:0 "La popularidad de [CHARACTER.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_POPULARITY_LESS_OR_EQUAL:0 "La popularidad de [CHARACTER.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_POPULARITY_EQUAL:0 "La popularidad de [CHARACTER.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_POPULARITY_NOT_EQUAL:0 "La popularidad de [CHARACTER.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_COUNTRY_GDP_GREATER_THAN:0 "El $GDP_SHORT$ de [COUNTRY.GetName] es superior a $TARGET_VALUE|Dv$ @money!"
+ TRIGGER_COUNTRY_GDP_GREATER_OR_EQUAL:0 "El $GDP_SHORT$ de [COUNTRY.GetName] es superior o igual a $TARGET_VALUE|Dv$ @money!"
+ TRIGGER_COUNTRY_GDP_LESS_THAN:0 "El $GDP_SHORT$ de [COUNTRY.GetName] es inferior a $TARGET_VALUE|Dv$ @money!"
+ TRIGGER_COUNTRY_GDP_LESS_OR_EQUAL:0 "El $GDP_SHORT$ de [COUNTRY.GetName] es inferior o igual a $TARGET_VALUE|Dv$ @money!"
+ TRIGGER_COUNTRY_GDP_EQUAL:0 "El $GDP_SHORT$ de [COUNTRY.GetName] es $TARGET_VALUE|Dv$ @money!"
+ TRIGGER_COUNTRY_GDP_NOT_EQUAL:0 "El $GDP_SHORT$ de [COUNTRY.GetName] NO es $TARGET_VALUE|Dv$ @money!"
+
+ TRIGGER_PRESTIGE_GREATER_THAN:0 "El prestigio de [COUNTRY.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_PRESTIGE_GREATER_OR_EQUAL:0 "El prestigio de [COUNTRY.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_PRESTIGE_LESS_THAN:0 "El prestigio de [COUNTRY.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_PRESTIGE_LESS_OR_EQUAL:0 "El prestigio de [COUNTRY.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_PRESTIGE_EQUAL:0 "El prestigio de [COUNTRY.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_PRESTIGE_NOT_EQUAL:0 "El prestigio de [COUNTRY.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_CREDIT_GREATER_THAN:0 "El crédito de [COUNTRY.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_CREDIT_GREATER_OR_EQUAL:0 "El crédito de [COUNTRY.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_CREDIT_LESS_THAN:0 "El crédito de [COUNTRY.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_CREDIT_LESS_OR_EQUAL:0 "El crédito de [COUNTRY.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_CREDIT_EQUAL:0 "El crédito de [COUNTRY.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_CREDIT_NOT_EQUAL:0 "El crédito de [COUNTRY.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_LEGITIMACY_GREATER_THAN:0 "La legitimidad del gobierno de [COUNTRY.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_LEGITIMACY_GREATER_OR_EQUAL:0 "La legitimidad del gobierno de [COUNTRY.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_LEGITIMACY_LESS_THAN:0 "La legitimidad del gobierno de [COUNTRY.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_LEGITIMACY_LESS_OR_EQUAL:0 "La legitimidad del gobierno de [COUNTRY.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_LEGITIMACY_EQUAL:0 "La legitimidad del gobierno de [COUNTRY.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_LEGITIMACY_NOT_EQUAL:0 "La legitimidad del gobierno de [COUNTRY.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_TECHS_RESEARCHED_GREATER_THAN:0 "El número de tecnologías investigadas en [COUNTRY.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_TECHS_RESEARCHED_GREATER_OR_EQUAL:0 "El número de tecnologías investigadas en [COUNTRY.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_TECHS_RESEARCHED_LESS_THAN:0 "El número de tecnologías investigadas en [COUNTRY.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_TECHS_RESEARCHED_LESS_OR_EQUAL:0 "El número de tecnologías investigadas en [COUNTRY.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_TECHS_RESEARCHED_EQUAL:0 "El número de tecnologías investigadas en [COUNTRY.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_TECHS_RESEARCHED_NOT_EQUAL:0 "El número de tecnologías investigadas en [COUNTRY.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_FRONT_LENGTH_GREATER_THAN:0 "La longitud del [FRONT.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_FRONT_LENGTH_GREATER_OR_EQUAL:0 "La longitud del [FRONT.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_FRONT_LENGTH_LESS_THAN:0 "La longitud del [FRONT.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_FRONT_LENGTH_LESS_OR_EQUAL:0 "La longitud del [FRONT.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_FRONT_LENGTH_EQUAL:0 "La longitud del [FRONT.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_FRONT_LENGTH_NOT_EQUAL:0 "La longitud del [FRONT.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_MOBILIZED_BATTALIONS_GREATER_THAN:0 "El número de batallones movilizados de [CHARACTER.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_MOBILIZED_BATTALIONS_GREATER_OR_EQUAL:0 "El número de batallones movilizados de [CHARACTER.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_MOBILIZED_BATTALIONS_LESS_THAN:0 "El número de batallones movilizados de [CHARACTER.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_MOBILIZED_BATTALIONS_LESS_OR_EQUAL:0 "El número de batallones movilizados de [CHARACTER.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_MOBILIZED_BATTALIONS_EQUAL:0 "El número de batallones movilizados de [CHARACTER.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_NUM_MOBILIZED_BATTALIONS_NOT_EQUAL:0 "El número de batallones movilizados de [CHARACTER.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_AVERAGE_DEFENSE_GREATER_THAN:0 "La defensa media del [FRONT.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_DEFENSE_GREATER_OR_EQUAL:0 "La defensa media del [FRONT.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_DEFENSE_LESS_THAN:0 "La defensa media del [FRONT.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_DEFENSE_LESS_OR_EQUAL:0 "La defensa media del [FRONT.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_DEFENSE_EQUAL:0 "La defensa media del [FRONT.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_DEFENSE_NOT_EQUAL:0 "La defensa media del [FRONT.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_AVERAGE_OFFENSE_GREATER_THAN:0 "El ataque medio del [FRONT.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_OFFENSE_GREATER_OR_EQUAL:0 "El ataque medio del [FRONT.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_OFFENSE_LESS_THAN:0 "El ataque medio del [FRONT.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_OFFENSE_LESS_OR_EQUAL:0 "El ataque medio del [FRONT.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_OFFENSE_EQUAL:0 "El ataque medio del [FRONT.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_OFFENSE_NOT_EQUAL:0 "El ataque medio del [FRONT.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_TOTAL_BATTALIONS_GREATER_THAN:0 "El número de batallones del [FRONT.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_TOTAL_BATTALIONS_GREATER_OR_EQUAL:0 "El número de batallones del [FRONT.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_TOTAL_BATTALIONS_LESS_THAN:0 "El número de batallones del [FRONT.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_TOTAL_BATTALIONS_LESS_OR_EQUAL:0 "El número de batallones del [FRONT.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_TOTAL_BATTALIONS_EQUAL:0 "El número de batallones del [FRONT.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_NUM_TOTAL_BATTALIONS_NOT_EQUAL:0 "El número de batallones del [FRONT.GetName] NO es $TARGET_VALUE|0v$"
+
+ TRIGGER_NUM_DEFENDING_BATTALIONS_GREATER_THAN:0 "El número de batallones de defensa en el [FRONT.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_DEFENDING_BATTALIONS_GREATER_OR_EQUAL:0 "El número de batallones de defensa en el [FRONT.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_DEFENDING_BATTALIONS_LESS_THAN:0 "El número de batallones de defensa en el [FRONT.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_DEFENDING_BATTALIONS_LESS_OR_EQUAL:0 "El número de batallones de defensa en el [FRONT.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_NUM_DEFENDING_BATTALIONS_EQUAL:0 "El número de batallones de defensa en el [FRONT.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_NUM_DEFENDING_BATTALIONS_NOT_EQUAL:0 "El número de batallones de defensa en el [FRONT.GetName] NO es $TARGET_VALUE|0v$"
+
+ # [LocEditor:UntranslatedKey] `TRIGGER_COMMANDER_PM_USAGE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COMMANDER_PM_USAGE_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_DIPLOMATIC_PLAY_PM_USAGE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_DIPLOMATIC_PLAY_PM_USAGE_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_FRONT_SIDE_PM_USAGE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_FRONT_SIDE_PM_USAGE_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_PM_USAGE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_COUNTRY_PM_USAGE_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_BATTLE_SIDE_PM_USAGE`
+ # [LocEditor:UntranslatedKey] `TRIGGER_BATTLE_SIDE_PM_USAGE_NOT`
+
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_MAJORITY_COMBAT_UNIT_ETHNICITY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_HAS_MAJORITY_COMBAT_UNIT_ETHNICITY_NOT`
+ 
+ # [LocEditor:UntranslatedKey] `TRIGGER_POP_TYPE_PERCENT_COUNTRY`
+ # [LocEditor:UntranslatedKey] `TRIGGER_POP_TYPE_PERCENT_COUNTRY_NOT`
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ TRIGGER_AND:0 "Todas estas opciones:"
+ TRIGGER_AND_NOCONTEXT:0 "$TRIGGER_AND$"
+ TRIGGER_OR:0 "Al menos una de estas opciones:"
+ TRIGGER_OWES_FAVOR_TO:0 "Le debe un favor a [TARGET_COUNTRY.GetName]"
+ TRIGGER_OWES_FAVOR_TO_NOT:0 "NO le debe un favor a [TARGET_COUNTRY.GetName]"
+ TRIGGER_IS_OWED_FAVOR_BY:0 "[TARGET_COUNTRY.GetName] le debe un favor a [COUNTRY.GetName]"
+ TRIGGER_IS_OWED_FAVOR_BY_NOT:0 "[TARGET_COUNTRY.GetName] NO le debe un favor a [COUNTRY.GetName]"
+ TRIGGER_PRESTIGE:0 "El prestigio #variable $NAME_ADJ$#! es $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_PRESTIGE_NOT:0 "El prestigio #variable $NAME_ADJ$#! NO es $COMPARATOR$ #variable $NUM$#!"
+ TRIGGER_OR_NOCONTEXT:0 "O"
+ TRIGGER_IS_AT_WAR_NOCONTEXT:0 "Está en guerra"
+ TRIGGER_IS_AT_WAR_NOCONTEXT_NOT:0 "NO está en guerra"
+ TRIGGER_IS_PRIMARY_CULTURE_NOCONTEXT:0 "Es una de las [concept_primary_cultures|l]"
+ TRIGGER_INCOME_TAX_LEVEL:0 "Nivel de impuesto sobre la renta $COMPARATOR$ $LEVEL$"
+ TRIGGER_INCOME_TAX_LEVEL_NOT:0 "Nivel de impuesto sobre la renta NO $COMPARATOR$ $LEVEL$"
+ TRIGGER_POLL_TAX_LEVEL:0 "Nivel de impuesto de capitación $COMPARATOR$ $LEVEL$"
+ TRIGGER_POLL_TAX_LEVEL_NOT:0 "Nivel de impuesto de capitación NO $COMPARATOR$ $LEVEL$"
+ TRIGGER_CONSUMPTION_TAX_LEVEL:0 "Nivel de impuesto al consumo $COMPARATOR$ $LEVEL$"
+ TRIGGER_CONSUMPTION_TAX_LEVEL_NOT:0 "Nivel de impuesto al consumo NO $COMPARATOR$ $LEVEL$"
+ TRIGGER_INCOME_TAX_LEVEL_VALUE:0 "Nivel de impuesto sobre la renta $COMPARATOR$ $NUM$"
+ TRIGGER_INCOME_TAX_LEVEL_VALUE_NOT:0 "Nivel de impuesto sobre la renta NO $COMPARATOR$ $NUM$"
+ TRIGGER_POLL_TAX_LEVEL_VALUE:0 "Nivel de impuesto de capitación $COMPARATOR$ $NUM$"
+ TRIGGER_POLL_TAX_LEVEL_VALUE_NOT:0 "Nivel de impuesto de capitación NO $COMPARATOR$ $NUM$"
+ TRIGGER_CONSUMPTION_TAX_LEVEL_VALUE:0 "Nivel de impuesto al consumo $COMPARATOR$ $NUM$"
+ TRIGGER_CONSUMPTION_TAX_LEVEL_VALUE_NOT:0 "Nivel de impuesto al consumo NO $COMPARATOR$ $NUM$"
+ TRIGGER_HAS_HIGH_ATTRITION_RISK:0 "[Character.GetFullName] corre un alto riesgo de [concept_attrition|l]"
+ TRIGGER_HAS_HIGH_ATTRITION_RISK_NOT:0 "[Character.GetFullName] NO corre un alto riesgo de [concept_attrition|l]"
+ TRIGGER_AVERAGE_SOL_GREATER_THAN:0 "El nivel de vida medio de [COUNTRY.GetName] es superior a $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_SOL_GREATER_OR_EQUAL:0 "El nivel de vida medio de [COUNTRY.GetName] es superior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_SOL_LESS_THAN:0 "El nivel de vida medio de [COUNTRY.GetName] es inferior a $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_SOL_LESS_OR_EQUAL:0 "El nivel de vida medio de [COUNTRY.GetName] es inferior o igual a $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_SOL_EQUAL:0 "El nivel de vida medio de [COUNTRY.GetName] es $TARGET_VALUE|0v$"
+ TRIGGER_AVERAGE_SOL_NOT_EQUAL:0 "El nivel de vida medio de [COUNTRY.GetName] NO es $TARGET_VALUE|0v$"
+ TRIGGER_IS_ADVANCING:0 "[CHARACTER.GetName] está avanzando"
+ TRIGGER_IS_ADVANCING_NOT:0 "[CHARACTER.GetName] NO está avanzando"

@@ -1,0 +1,45 @@
+﻿l_spanish:
+ mm_default:0 "Países"
+ mm_ongoing_diplo_play:0 "Con algún conflicto"
+ mm_strategic_region:0 "Regiones estratégicas"
+ mm_state:0 "Estados"
+ mm_theater:0 "Teatros"
+ mm_military:0 "Ejército"
+
+ mm_interest_group:0 "Grupos de interés"
+ mm_population:0 "Población"
+ mm_culture:0 "Cultura"
+ mm_religion:0 "Religión"
+ mm_culture_nationally:0 "Culturas de [GetPlayer.GetName]"
+ mm_culture_overview:0 "Resumen de culturas"
+ mm_religion_nationally:0 "Religiones de [GetPlayer.GetName]"
+ mm_goods_production:0 "Producción de bienes"
+ mm_goods_consumption:0 "Consumo de bienes"
+ mm_goods_potentials:0 "Bienes potenciales"
+ mm_country_attitude:0 "Actitud del país"
+ mm_country_relations:0 "Relaciones del país"
+ mm_country_infamy:0 "Infamia del país"
+ mm_technology:0 "Tecnología"
+ mm_trade:0 "Mercados"
+ mm_province_template_terrain:0 "Terreno de las provincias"
+ mm_standard_of_living:0 "Nivel de vida"
+ mm_migration:0 "Migración"
+ # [LocEditor:UntranslatedKey] `mm_gdp`
+ # [LocEditor:UntranslatedKey] `mm_gdp_nationally`
+
+ mm_theater_interaction:0 "Interacción con teatro"
+ mm_state_interaction:0 "Interacción con estado"
+ mm_country_interaction:0 "Interacción con país"
+ mm_market_interaction:0 "Interacción con mercado"
+ mm_strategic_region_interaction:0 "Interacción con región estratégica"
+ mm_command_interaction:0 "Interacción con mando"
+ mm_hq_interaction:0 "Interacción con cuartel general"
+ mm_front_interaction:0 "Interacción con el frente"
+ mm_recruit_generals_interaction:0 "Interacción para reclutar generales"
+ # [LocEditor:UntranslatedKey] `mm_recruit_admirals_interaction`
+ # [LocEditor:UntranslatedKey] `mm_construction_interaction`
+
+ mm_budget:0 "Presupuesto"
+ mm_political:0 "Político"
+ mm_diplomatic:0 "Diplomático"
+ mm_production:0 "Producción en los estados"

@@ -270,6 +270,8 @@
  ideology_hindu_moralist_desc:0 "#lore Hindu Priests believe that bureaucrats should adhere to the caste system..#!"
  ideology_coptic_patriarch:0 "Coptic Patriarchy"
  ideology_coptic_patriarch_desc:0 "#lore The Coptic Patriarchy believe that children's education should be a priority for the nation.#!"
+ ideology_evangelical:0 "Evangelical"
+ ideology_evangelical_desc:0 "#lore The Evangelical churches have long been advocates for equality amongst men within the United States, and not only view slavery as evil but many also advocate for better treatment of African Americans and other groups.#!"
 
 #Remove below later
  effect_qa_test_events.1.t:0 "Testing Effects?"

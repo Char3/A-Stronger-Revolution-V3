@@ -1624,6 +1624,12 @@
 	s:STATE_DALMATIA={
 		region_state:AUS={
 			create_building={
+				building="building_aristocrat_estate"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_aristocratic_estate" }
+			}
+			create_building={
 				building="building_fishing_wharf"
 				level=3
 				reserves=1
@@ -1651,6 +1657,12 @@
 	}
 	s:STATE_CROATIA={
 		region_state:AUS={
+			create_building={
+				building="building_aristocrat_estate"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_aristocratic_estate" }
+			}
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -1727,7 +1739,7 @@
 		region_state:AUS={
 			create_building={
 				building="building_tooling_workshops"
-				level=2
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
 			}
@@ -1870,6 +1882,18 @@
 				activate_production_methods={ "pm_basic_shipbuilding" "pm_no_military_shipbuilding" "pm_merchant_guilds_building_shipyards" }
 			}
 			create_building={
+				building="building_tooling_workshops"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
+			}
+			create_building={
+				building="building_construction_sector"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_iron_frame_buildings" }
+			}	
+			create_building={
 				building="building_wheat_farm"
 				level=1
 				reserves=1
@@ -1882,6 +1906,12 @@
 				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
 			}
 			create_building={
+				building="building_coal_mine"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_coal_mine" }
+			}
+			create_building={
 				building="building_tobacco_plantation"
 				level=1
 				reserves=1
@@ -1889,7 +1919,7 @@
 			}
 			create_building={
 				building="building_logging_camp"
-				level=2
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
 			}
@@ -1901,7 +1931,7 @@
 			}
 			create_building={
 				building="building_port"
-				level=1
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
@@ -2102,6 +2132,12 @@
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_citrus_orchards" }
+			}
+			create_building={
+				building="building_iron_mine"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_merchant_guilds_building_iron_mine" }
 			}
 			create_building={
 				building="building_fishing_wharf"

@@ -110,6 +110,19 @@
 				meticulous
 			}
 		}
+		
+		create_character = {
+			#role = politician # Remove this line
+			first_name = Samuel 
+			last_name = Eccleston
+			age = 34
+			ig_leader = yes
+			interest_group = ig_catholic_church
+			ideology = ideology_migrationist
+			traits = {
+				tactful imperious
+			}
+		}
 
 		create_character = {
 			is_general = yes
@@ -176,13 +189,13 @@
 			# }
 		# }
 		
-		# create_character = { # Sea
-			# name = "Matthew C. Perry"
-			# age = 42
-			# traits = {
-			# 	openminded
-			# 	war_college
-			# }
-		# }
+		create_character = { # Sea
+			name = "Matthew C. Perry"
+			age = 42
+			traits = {
+				openminded
+				war_college
+			}
+		}
 	}
 }

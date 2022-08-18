@@ -179,6 +179,91 @@ pm_patent_stills = {
 	}
 }
 
+pm_no_oil_production = {
+	texture = "gfx/interface/icons/production_method_icons/no_distillery.dds"
+}
+
+pm_biofuel_production = {
+	texture = "gfx/interface/icons/production_method_icons/base2.dds"
+	
+	unlocking_technologies = {
+		biofuel_production
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_input_fruit_add = 15
+			building_input_glass_add = 10
+			building_input_grain_add = 10
+			
+			# output goods
+			building_output_oil_add = 25
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 400
+			building_employment_machinists_add = 500
+			building_employment_engineers_add = 600
+		}
+	}
+}
+
+pm_mass_oil_production = {
+	texture = "gfx/interface/icons/production_method_icons/base3.dds"
+	
+	unlocking_technologies = {
+		biofuel_production
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_input_fruit_add = 30
+			building_input_wood_add = 25
+			building_input_glass_add = 20
+			building_input_grain_add = 20
+			
+			# output goods
+			building_output_oil_add = 65
+		}
+
+		level_scaled = {
+			building_employment_machinists_add = 900
+			building_employment_engineers_add = 600
+		}
+	}
+}
+
+pm_no_chemical_oil_production = {
+	texture = "gfx/interface/icons/production_method_icons/no_distillery.dds"
+}
+
+pm_synthetic_oil = {
+	texture = "gfx/interface/icons/production_method_icons/base3.dds"
+	
+	unlocking_technologies = {
+		synthetic_oil
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			building_input_coal_add = 15
+			building_input_iron_add = 15
+			building_input_sulfur_add = 15
+			
+			# output goods
+			building_output_oil_add = 50
+		}
+
+		level_scaled = {
+			building_employment_machinists_add = 500
+			building_employment_engineers_add = 500
+		}
+	}
+}
+
 pm_manual_dough_processing = {
 	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
 }
@@ -482,6 +567,8 @@ pm_mechanized_looms = {
 		workforce_scaled = {
 			# input goods
 			building_input_tools_add = 10
+			
+			building_output_clothes_add = 20
 		}
 
 		level_scaled = {
@@ -1338,7 +1425,6 @@ pm_watertube_boiler_building_tooling_workshops = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			building_input_tools_add = 5
 			building_input_coal_add = 15
 			
 			# output goods
@@ -1365,7 +1451,6 @@ pm_rotary_valve_engine_building_tooling_workshops = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			building_input_tools_add = 20
 			building_input_coal_add = 35
 			
 			# output goods
@@ -1609,10 +1694,10 @@ pm_watertube_boiler_building_paper_mills = {
 		workforce_scaled = {
 			# input goods
 			building_input_tools_add = 10
-			building_input_coal_add = 15
+			building_input_coal_add = 10
 			
 			# output goods
-			building_output_paper_add = 20
+			building_output_paper_add = 25
 		}
 
 		level_scaled = {
@@ -2309,20 +2394,20 @@ pm_automobile_production = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			building_output_engines_add = -25
-			building_input_rubber_add = 10
-			building_input_oil_add = 50
+			building_output_engines_add = -20
+			building_input_rubber_add = 14
+			building_input_oil_add = 70
 
 			# output goods
-			building_output_automobiles_add = 40
+			building_output_automobiles_add = 75
 		}
 
 		level_scaled = {
 			# employment
 			building_employment_laborers_add = -100
-			building_employment_machinists_add = 600
-			building_employment_engineers_add = 300
-			building_employment_capitalists_add = 100
+			building_employment_machinists_add = 700
+			building_employment_engineers_add = 500
+			building_employment_capitalists_add = 400
 			# TODO Reconcile with ownership PMs
 		}
 	}
@@ -2341,10 +2426,10 @@ pm_watertube_boiler_building_motor_industry = {
 		workforce_scaled = {
 			# input goods
 			building_input_tools_add = 10
-			building_input_coal_add = 25
+			building_input_coal_add = 20
 			
 			# output goods
-			building_output_engines_add = 15
+			building_output_engines_add = 20
 		}
 
 		level_scaled = {

@@ -1,0 +1,758 @@
+﻿l_french:
+  
+  # Common
+ pm_base:0 "Base"
+ pmg_base_building_food_industry:0 "Base"
+ pmg_base_building_textile_mills:0 "Base"
+ pmg_base_building_furniture_manufacturies:0 "Base"
+ pmg_base_building_glassworks:0 "Base"
+ pmg_base_building_tooling_workshops:0 "Base"
+ pmg_base_building_paper_mills:0 "Base"
+ pmg_base_building_motor_industry:0 "Base"
+ pmg_base_building_shipyards:0 "Base"
+ pmg_base_building_munition_plants:0 "Base"
+ pmg_base_building_power_plant:0 "Base"
+ pmg_base_building_rye_farm:0 "Base"
+ pmg_base_building_wheat_farm:0 "Base"
+ pmg_base_building_rice_farm:0 "Base"
+ pmg_base_building_maize_farm:0 "Base"
+ pmg_base_building_millet_farm:0 "Base"
+ pmg_base_building_livestock_ranch:0 "Base"
+ pmg_base_building_gold_fields:0 "Base"
+ pmg_base_building_coffee_plantation:0 "Base"
+ pmg_base_building_cotton_plantation:0 "Base"
+ pmg_base_building_dye_plantation:0 "Base"
+ pmg_base_building_opium_plantation:0 "Base"
+ pmg_base_building_tea_plantation:0 "Base"
+ pmg_base_building_tobacco_plantation:0 "Base"
+ pmg_base_building_sugar_plantation:0 "Base"
+ pmg_base_building_banana_plantation:0 "Base"
+ pmg_base_building_silk_plantation:0 "Base"
+ pmg_base_building_rubber_plantation:0 "Base"
+ # [LocEditor:UntranslatedKey] `pmg_base_building_construction_sector`
+ pmg_base_building_port:0 "Base"
+ pmg_base_building_trade_center:0 "Base"
+ pmg_base_building_government_administration:0 "Base"
+ pmg_base_building_arts_academy:0 "Base"
+ pmg_base_building_university:0 "Base"
+ pmg_base_building_eiffel_tower:0 "Base"
+ pmg_base_building_logging_camp:0 "Base"
+ pmg_base_building_fishing_wharf:0 "Base"
+ pmg_base_building_whaling_station:0 "Base"
+ pmg_base_building_oil_rig:0 "Base"
+ pmg_base_building_suez_canal:0 "Base"
+ pmg_base_building_panama_canal:0 "Base"
+ pmg_base_building_railway:0 "Base"
+ pmg_base_building_subsistence_farms:0 "Base"
+ pmg_base_building_subsistence_orchards:0 "Base"
+ pmg_base_building_subsistence_pastures:0 "Base"
+
+ pm_default_building_eiffel_tower:0 "Production par défaut"
+ pmg_luxury_building_textile_mills:0 "Production de luxe"
+ pmg_luxury_building_furniture_manufacturies:0 "Production de luxe"
+ pmg_luxury_building_glassworks:0 "Production de luxe"
+
+ pm_disabled:0 "Désactivé"
+ pm_paused:0 "Construction en pause"
+  
+ pm_pharmacies:0 "Pharmacies"
+ pm_no_pharmacies:0 "Pas de production de médicaments"
+ pm_apothecaries:0 "Apothicaires"
+ pm_no_amenities:0 "Pas de structure"
+ pm_market_stalls:0 "Étals de marché"
+ pm_market_squares:0 "Places de marché"
+ pm_covered_markets:0 "Marchés couverts"
+ pm_arcades:0 "Galerie marchande"
+ pm_no_maintenance:0 "Maintenance minimale"
+ pm_no_street_lighting:0 "Rues non éclairées"
+ pm_maintained_sewers:0 "Égouts entretenus"
+ pm_gas_streetlights:0 "Lampadaires à gaz"
+ pm_electric_streetlights:0 "Lampadaires électriques"
+ pm_public_parks:0 "Parcs publics"
+ pm_no_public_transport:0 "Transport personnel uniquement"
+ pm_public_trams:0 "Tramways publics"
+ pm_public_motor_carriages:0 "Calèches motorisées publiques"
+ # [LocEditor:UntranslatedKey] `pmg_urban_clergy`
+ # [LocEditor:UntranslatedKey] `pm_state_urban_clergy`
+ # [LocEditor:UntranslatedKey] `pm_free_urban_clergy`
+  
+ pm_steam_power:0 "Alimentation à vapeur"
+ pm_disabled_steam_power:0 "Sans alimentation à vapeur"
+ pm_watertube_boiler_building_furniture_manufacturies:0 "Chaudière à tubes d’eau"
+ pm_watertube_boiler_building_tooling_workshops:0 "Chaudière à tubes d’eau"
+ pm_watertube_boiler_building_paper_mills:0 "Chaudière à tubes d’eau"
+ pm_watertube_boiler_building_steel_mills:0 "Chaudière à tubes d’eau"
+ pm_watertube_boiler_building_motor_industry:0 "Chaudière à tubes d’eau"
+ pm_rotary_valve_engine_building_furniture_manufacturies:0 "Moteur à valve rotative"
+ pm_rotary_valve_engine_building_tooling_workshops:0 "Moteur à valve rotative"
+ pm_rotary_valve_engine_building_paper_mills:0 "Moteur à valve rotative"
+ pm_rotary_valve_engine_building_steel_mills:0 "Moteur à valve rotative"
+ pm_rotary_valve_engine_building_motor_industry:0 "Moteur à valve rotative"
+
+  # Trains
+ pm_no_passenger_trains:0 "Priorisation du fret"
+ pm_wooden_passenger_carriages:0 "Wagon de passagers en bois"
+ pm_steel_passenger_carriages:0 "Wagon de passagers en acier"
+ pm_steam_trains:0 "Trains à vapeur"
+ pm_electric_trains:0 "Trains électriques"
+ pm_diesel_trains:0 "Trains diesel"
+ pm_non_standardized_gauges:0 "Rails non normalisés"
+ pm_broad_gauges:0 "Rails larges"
+ pm_narrow_gauges:0 "Rails étroits"
+ pm_no_military_trains:0 "Trains civils"
+ pmg_armored_trains:0 "Trains blindés"
+ pm_armored_trains:0 "Trains blindés"
+ pm_railway_guns:0 "Canons ferroviaires"
+  
+  # Food Industry
+ pmg_canning:0 "Mise en conserve"
+ pm_disabled_canning:0 "Bocaux"
+ pm_cannery:0 "Conserveries"
+ pm_disabled_cannery:0 "Pas de conserveries"
+ pm_vacuum_canning:0 "Conservation sous vide"
+  
+ pmg_distillery:0 "Distilleries"
+ pm_disabled_distillery:0 "Prioriser la production alimentaire"
+ pm_pot_stills:0 "Alambics"
+ pm_patent_stills:0 "Alambics à colonne"
+ pm_bakery:0 "Boulangeries"
+ pm_sweeteners:0 "Édulcorants"
+  
+  # Textile Mills
+ pm_cotton_gin:0 "Égreneuses à coton"
+ pm_disabled_gin:0 "Pas d’égreneuse mécanique"
+ pm_system_gin:0 "Égreneuses automatiques"
+  
+ pm_elastics:0 "Tissu élastique"
+ pm_disabled_elastics:0 "Pas de tissu élastique"
+ pm_masticators:0 "Masticateurs"
+ pm_rubber_bands:0 "Bandes élastiques"
+  
+ pm_no_luxury_clothes:0 "Prioriser les vêtements ordinaires"
+ pm_luxury_clothes:0 "Production de vêtements de luxe"
+  
+  # Furniture Manufacturies
+ pm_textile_looms:0 "Métiers à tisser"
+ pm_handcrafted_furniture:0 "Meuble artisanal"
+ pm_machine_tools:0 "Machines-outils"
+ pm_disabled_machine_tools:0 "Pas de machines-outils"
+ pm_lathe:0 "Tours"
+ pm_mechanized_workshops:0 "Ateliers mécanisés"
+ pm_assembly_lines_building_furniture_manufacturies:0 "Chaînes de montage"
+ pm_assembly_lines_building_tooling_workshops:0 "Chaînes de montage"
+ pm_assembly_lines_building_motor_industry:0 "Chaînes de montage"
+ pm_no_luxuries:0 "Prioriser les meubles ordinaires"
+ pm_luxury_furniture:0 "Production de meubles de luxe"
+  
+  # Glassworks
+ pm_forest_glass:0 "Verre de forêt"
+ pmg_glassblowing:0 "Soufflage du verre"
+ pm_disabled_glassblowing:0 "Pas de soufflage du verre"
+ pm_crystal_glass:0 "Verre en cristal"
+ pm_automatic_bottle_blowers:0 "Souffleuses de bouteilles automatiques"
+  
+ pm_ceramics:0 "Céramique"
+ pm_disabled_ceramics:0 "Prioriser la production de verre"
+ pm_bone_china:0 "Porcelaine à la cendre d’os"
+  
+  # Tooling Workshops
+ pm_crude_tools:0 "Outils primitifs"
+ pm_pig_iron:0 "Outils en fonte"
+ pm_steel:0 "Outils en acier"
+ pm_muskets:0 "Mousquets"
+ pm_rifles:0 "Fusils"
+ pm_repeaters:0 "Fusils à répétition"
+ pm_bolt_action_rifles:0 "Fusils à verrou"
+  
+  # Paper Mills
+ pm_pulp_pressing:0 "Pressage de la pulpe"
+ pm_crude_paper:0 "Papier primitif"
+ pm_sulfite_pulping:0 "Procédé par sulfite"
+ pm_bleached_paper:0 "Blanchiment du papier"
+ pm_no_publishing:0 "Pas d’industrie de publication"
+ pm_newspapers:0 "Journaux"
+ pm_printing_presses:0 "Presses typographiques"
+  
+  # Steel Mills
+ pmg_steelmaking_process:0 "Processus de production de l’acier"
+ pm_blister_steel_process:0 "Procédé de l’acier de cémentation"
+ pm_bessemer_process:0 "Procédé Bessemer"
+ pm_open_hearth_process:0 "Procédé Martin-Siemens"
+ pm_electric_arc_process:0 "Procédé à arc électrique"
+  
+ pm_munitions_plants:0 "Usine de munitions"
+ pm_disabled_munitions_plants:0 "Pas d’usine de munitions"
+ pm_cartridge_crafting:0 "Fabrication de cartouches"
+ pm_percussion_caps:0 "Amorce à percussion"
+ pm_explosive_shells:0 "Obus explosifs"
+  
+  # Motor Industry
+ pm_steam_engines:0 "Moteurs à vapeur"
+ pm_electric_engines:0 "Moteurs électriques"
+ pm_diesel_engines:0 "Moteurs diesel"
+
+  # War Machine Industry
+ pmg_aeroplanes:0 "Avions"
+ pm_no_aeroplane_production:0 "Pas de production d’avions"
+ pm_aeroplane_production:0 "Production d’avions"
+ pmg_tanks:0 "Tanks"
+ pm_no_tank_production:0 "Prioriser la production d’avions"
+ pm_tank_production:0 "Production de tanks"
+  
+  # Foundries
+ pm_civilian:0 "Civil"
+ pm_wartime:0 "Temps de guerre"
+
+  # Arts Academy
+ pmg_schools_of_art:0 "Écoles d’art"
+ pm_traditional_art:0 "Art traditionnel"
+ pm_realist_art:0 "Art réaliste"
+ pm_photographic_art:0 "Photographie d’art"
+ pm_film_art:0 "Cinéma d’art"
+ # [LocEditor:UntranslatedKey] `pmg_ownership_building_arts_academy`
+ # [LocEditor:UntranslatedKey] `pm_traditional_patronage`
+ # [LocEditor:UntranslatedKey] `pm_bourgeoisie_patronage`
+ # [LocEditor:UntranslatedKey] `pm_independent_artists`
+
+  # University
+ pm_analytical_philosophy_department:0 "Département de philosophie analytique"
+ pm_philosophy_department:0 "Département de philosophie"
+ # [LocEditor:UntranslatedKey] `pm_scholastic_education`
+ 
+ # [LocEditor:UntranslatedKey] `pmg_university_academia`
+ # [LocEditor:UntranslatedKey] `pm_secular_academia`
+ # [LocEditor:UntranslatedKey] `pm_religious_academia`
+  
+  # Fishing Wharf
+ pm_fish_oil:0 "Huile de poisson"
+ pm_disabled_fish_oil:0 "Prioriser la production de poissons"
+ pm_oil_extraction:0 "Extraction d'huile de poisson"
+ pm_cod_liver_oil:0 "Huile de foie de morue"
+ pm_simple_fishing:0 "Pêche simple"
+ pm_fishing_trawlers:0 "Chalutiers de pêche"
+ pm_steam_trawlers:0 "Chalutiers à vapeur"
+ pmg_refrigeration_building_livestock_ranch:0 "Réfrigération"
+ pmg_refrigeration_building_fishing_wharf:0 "Réfrigération"
+ pmg_refrigeration_building_whaling_station:0 "Réfrigération"
+ pm_unrefrigerated:0 "Non réfrigéré"
+ pm_refrigerated_storage_building_fishing_wharf:0 "Stockage réfrigéré"
+ pm_refrigerated_storage_building_whaling_station:0 "Stockage réfrigéré"
+ pm_refrigerated_storage_building_livestock_ranch:0 "Stockage réfrigéré"
+ pm_refrigerated_rail_cars_building_fishing_wharf:0 "Wagons réfrigérés"
+ pm_refrigerated_rail_cars_building_whaling_station:0 "Wagons réfrigérés"
+ pm_refrigerated_rail_cars_building_livestock_ranch:0 "Wagons réfrigérés"
+ pm_flash_freezing_building_fishing_wharf:0 "Surgélation"
+ pm_flash_freezing_building_whaling_station:0 "Surgélation"
+ pm_wooden_whaling_ships:0 "Flotte de chasse à la baleine"
+ pm_steam_whaling_ships:0 "Baleiniers à vapeur"
+ 
+  # Grain Farms
+ pm_simple_farming:0 "Agriculture simple"
+ pm_simple_farming_building_rice_farm:0 "Agriculture simple"
+ pm_intensive_farming:0 "Agriculture intensive"
+ pm_soil_enriching_farming:0 "Agriculture avec amendements"
+ pm_soil_enriching_farming_building_rice_farm:0 "Agriculture avec amendements"
+ pm_fertilization:0 "Engrais"
+ pm_fertilization_building_rice_farm:0 "Engrais"
+ pm_chemical_fertilizer:0 "Engrais chimiques"
+ pm_chemical_fertilizer_building_rice_farm:0 "Engrais chimiques"
+ pm_chemical_fertilizer_building_maize_farm:0 "Engrais chimiques"
+ pm_tools_disabled:0 "Charrues à bœuf"
+ pm_hand_tools:0 "Utilisation d’outils manuels"
+ pm_ox_ploughs:0 "Charrues à bœuf"
+ pm_tools:0 "Outils de récolte"
+ pm_steam_threshers_building_wheat_farm:0 "Batteuse à vapeur"
+ pm_steam_threshers:0 "Batteuse à vapeur"
+ pm_tractors_building_rye_farm:0 "Tracteurs"
+ pm_tractors_building_wheat_farm:0 "Tracteurs"
+ pm_tractors_building_maize_farm:0 "Tracteurs"
+ pm_compression_ignition_tractors_building_rye_farm:0 "Tracteurs à allumage par compression"
+ pm_compression_ignition_tractors_building_wheat_farm:0 "Tracteurs à allumage par compression"
+ pm_compression_ignition_tractors_building_maize_farm:0 "Tracteurs à allumage par compression"
+
+  # Ranches
+ pm_simple_ranch:0 "Ranch simple"
+ pm_intensive_grazing_ranch:0 "Ranch de pâturage intensif"
+ pm_butchering_tools:0 "Outils de boucherie"
+ pm_open_air_stockyards:0 "Parcs à bétail à ciel ouvert"
+ pm_slaughterhouses:0 "Abattoirs"
+ pm_mechanized_slaughtering:0 "Abattoirs mécanisés"
+ pm_standard_fences:0 "Enclos standards"
+ pm_barbed_wire_fences:0 "Enclos barbelés"
+ pm_electric_fencing:0 "Enclos électriques"
+ pm_orchards:0 "Vergers"
+ pm_orchards_no:0 "Pas de vergers"
+  
+  # Mines
+ pmg_mining_equipment_building_coal_mine:0 "Équipement minier"
+ pmg_mining_equipment_building_iron_mine:0 "Équipement minier"
+ pmg_mining_equipment_building_lead_mine:0 "Équipement minier"
+ pmg_mining_equipment_building_sulfur_mine:0 "Équipement minier"
+ # [LocEditor:UntranslatedKey] `pmg_mining_equipment_building_gold_mine`
+
+ pm_no_mining_equipment:0 "Pas d’équipement"
+
+ pm_picks_and_shovels_building_coal_mine:0 "Pelles et pioches"
+ pm_picks_and_shovels_building_iron_mine:0 "Pelles et pioches"
+ pm_picks_and_shovels_building_lead_mine:0 "Pelles et pioches"
+ pm_picks_and_shovels_building_sulfur_mine:0 "Pelles et pioches"
+ # [LocEditor:UntranslatedKey] `pm_picks_and_shovels_building_gold_mine`
+
+ pm_atmospheric_engine_pump_building_coal_mine:0 "Pompe à feu"
+ pm_atmospheric_engine_pump_building_iron_mine:0 "Pompe à feu"
+ pm_atmospheric_engine_pump_building_lead_mine:0 "Pompe à feu"
+ pm_atmospheric_engine_pump_building_sulfur_mine:0 "Pompe à feu"
+ # [LocEditor:UntranslatedKey] `pm_atmospheric_engine_pump_building_gold_mine`
+
+ pm_steam_donkey_mine:0 "Treuil de débardage à vapeur"
+ pm_steam_donkey_building_logging_camp:0 "Treuil de débardage à vapeur"
+ pm_steam_donkey_building_coal_mine:0 "Treuil de débardage à vapeur"
+ pmg_explosives_building_chemical_plants:0 "Explosifs"
+
+ pmg_explosives_building_coal_mine:0 "Explosifs"
+ pmg_explosives_building_iron_mine:0 "Explosifs"
+ pmg_explosives_building_lead_mine:0 "Explosifs"
+ pmg_explosives_building_sulfur_mine:0 "Explosifs"
+ # [LocEditor:UntranslatedKey] `pmg_explosives_building_gold_mine`
+
+ pm_no_explosives:0 "Forage manuel"
+
+ pm_nitroglycerin_building_coal_mine:0 "Nitroglycérine"
+ pm_nitroglycerin_building_iron_mine:0 "Nitroglycérine"
+ pm_nitroglycerin_building_lead_mine:0 "Nitroglycérine"
+ pm_nitroglycerin_building_sulfur_mine:0 "Nitroglycérine"
+ # [LocEditor:UntranslatedKey] `pm_nitroglycerin_building_gold_mine`
+
+ pm_dynamite_building_coal_mine:0 "Dynamite"
+ pm_dynamite_building_iron_mine:0 "Dynamite"
+ pm_dynamite_building_lead_mine:0 "Dynamite"
+ pm_dynamite_building_sulfur_mine:0 "Dynamite"
+ # [LocEditor:UntranslatedKey] `pm_dynamite_building_gold_mine`
+
+ pm_no_steam_automation:0 "Grue manuelle"
+ pm_steam_rail_transport:0 "Transport ferroviaire"
+
+ pm_condensing_engine_pump_building_coal_mine:0 "Motopompe à condensation"
+ pm_condensing_engine_pump_building_iron_mine:0 "Motopompe à condensation"
+ pm_condensing_engine_pump_building_lead_mine:0 "Motopompe à condensation"
+ pm_condensing_engine_pump_building_sulfur_mine:0 "Motopompe à condensation"
+ # [LocEditor:UntranslatedKey] `pm_condensing_engine_pump_building_gold_mine`
+
+ pm_diesel_pump_building_coal_mine:0 "Pompe diesel"
+ pm_diesel_pump_building_iron_mine:0 "Pompe diesel"
+ pm_diesel_pump_building_lead_mine:0 "Pompe diesel"
+ pm_diesel_pump_building_sulfur_mine:0 "Pompe diesel"
+ # [LocEditor:UntranslatedKey] `pm_diesel_pump_building_gold_mine`
+
+  # Government Administration
+ # [LocEditor:UntranslatedKey] `pm_simple_organization`
+ pm_horizontal_drawer_cabinets:0 "Classeur à tiroirs horizontaux"
+ pm_vertical_filing_cabinets:0 "Classeur à tiroirs verticaux"
+ pm_switch_boards:0 "Standards téléphoniques"
+ pm_census:0 "Recensement régulier"
+ pm_identification_documents:0 "Documents d’identification obligatoires"
+ pm_personal_files:0 "Dossiers du personnel individuels"
+ 
+ # [LocEditor:UntranslatedKey] `pmg_government_administration_bureaucrat_professionalism`
+ # [LocEditor:UntranslatedKey] `pm_hereditary_bureaucrats`
+ # [LocEditor:UntranslatedKey] `pm_professional_bureaucrats`
+ 
+ # [LocEditor:UntranslatedKey] `pmg_government_administration_religious_administration`
+ # [LocEditor:UntranslatedKey] `pm_secular_bureaucrats`
+ # [LocEditor:UntranslatedKey] `pm_religious_bureaucrats`
+  
+  # Barracks
+  
+ pmg_organization:0 "Organisation"
+ pm_irregular_infantry:0 "Infanterie irrégulière"
+ pm_line_infantry:0 "Infanterie de ligne"
+ pm_skirmish_infantry:0 "Infanterie d’escarmouche"
+ pm_trench_infantry:0 "Infanterie de tranchées"
+ pm_squad_infantry:0 "Infanterie d’escouade"
+
+ pmg_artillery:0 "Soutien de l’artillerie"
+ pm_no_artillery:0 "Concentration de l’infanterie"
+ pm_cannon_artillery:0 "Artillerie de canons"
+ pm_mobile_artillery:0 "Artillerie mobile"
+ pm_shrapnel_artillery:0 "Artillerie de shrapnels"
+ pm_siege_artillery:0 "Artillerie de siège"
+
+ # [LocEditor:UntranslatedKey] `pmg_reconaissance`
+ # [LocEditor:UntranslatedKey] `pm_cavalry_scouts`
+ pm_bicycle_messengers:0 "Messagers à bicyclette"
+ pm_aerial_recon:0 "Reconnaissance aérienne"
+
+ pmg_specialist_companies:0 "Compagnies spécialisées"
+ pm_no_specialists:0 "Infanterie standardisée"
+ pm_machine_gunners:0 "Mitrailleurs"
+ pm_infiltrators:0 "Infiltrés"
+ pm_flamethrower_company:0 "Compagnies de lance-flammes"
+ pm_chemical_weapons_specialists:0 "Spécialistes en armes chimiques"
+  
+ pmg_medical_aid:0 "Assistance médicale"
+ pm_wound_dressing:0 "Pansement des plaies"
+ pm_first_aid:0 "Premiers soins"
+ pm_field_hospitals:0 "Hôpitaux de campagne"
+
+  # Electrics
+ pm_no_radios:0 "Prioriser la production de téléphones"
+ pm_radios:0 "Production de radios"
+ pm_telephones:0 "Production de téléphones"
+
+  #Textile Mills
+ pm_dye_workshops:0 "Ateliers de teinture"
+ pm_handsewn_clothes:0 "Vêtements cousus main"
+  
+  # Logging
+ pm_no_equipment:0 "Traction par chevaux"
+ pm_simple_forestry:0 "Exploitation forestière simple"
+ pm_saw_mills:0 "Scieries"
+ pm_chainsaws:0 "Tronçonneuses"
+ pm_no_hardwood:0 "Prioriser la production de conifères"
+ pmg_hardwood:0 "Production de feuillus"
+ pm_hardwood:0 "Production de feuillus"
+
+  #Shipbuilding
+
+ pm_basic_shipbuilding:0 "Navires en bois"
+ pm_complex_shipbuilding:0 "Navires en bois renforcé"
+ pm_metal_shipbuilding:0 "Navires à vapeur"
+ pm_arc_welding_shipbuilding:0 "Navires à vapeur soudés à l’arc"
+ pm_no_military_shipbuilding:0 "Fabrication de navires civils"
+ pm_military_shipbuilding_wooden:0 "Fabrication de navires militaires"
+ pm_military_shipbuilding_wooden_2:0 "Fabrication de navires militaires étendue"
+ pm_military_shipbuilding_steam:0 "Fabrication de navires militaires"
+ pm_military_shipbuilding_steam_2:0 "Fabrication de navires militaires étendue"
+
+  #Port
+ pm_anchorage:0 "Ancrage"
+ pm_basic_port:0 "Port de fret"
+ pm_basic_port_canal:0 "Port de fret"
+ pm_industrial_port:0 "Port industriel"
+ pm_industrial_port_canal:0 "Port industriel"
+ pm_modern_port:0 "Port moderne"
+ pm_modern_port_canal:0 "Port moderne"
+
+ pm_trade_center:0 "Centre de commerce"
+ pm_stock_exchange:0 "Bourse"
+ pm_financial_district:0 "Quartier des affaires"
+
+  #Naval Base
+ pm_man_o_wars:0 "Man’o’wars" # [LocEditor:AwaitingBatchUpdate]
+ pm_ironclads:0 "Cuirassés" # [LocEditor:AwaitingBatchUpdate]
+ pm_monitors:0 "Monitors" # [LocEditor:AwaitingBatchUpdate]
+ pm_dreadnoughts:0 "Frégates" # [LocEditor:AwaitingBatchUpdate]
+ pm_battleships:0 "Navires de guerre" # [LocEditor:AwaitingBatchUpdate]
+ pm_no_secondary_vessels:0 "Navires non spécialisés"
+ pm_submarine:0 "Sous-marins"
+ pm_carriers:0 "Porte-avions"
+ pm_no_naval_theory:0 "Traditions navales"
+ pm_power_of_the_purse:0 "Pouvoir du portefeuille"
+ pm_jeune_ecole:0 "Jeune École"
+ pm_sea_lane_strategies:0 "Stratégies de couloirs de navigation"
+ pm_battlefleet_tactics:0 "Tactiques de la flotte de combat"
+
+  # Unsorted
+ pmg_amenities:0 "Commodités"
+ pm_publishing:0 "Industrie de publication"
+ pm_maintenance:0 "Maintenance"
+ pmg_street_lighting:0 "Éclairage public"
+ pmg_public_transport:0 "Transport public"
+ pm_organisation:0 "Organisation"
+ pm_citizen_information:0 "Information des citoyens"
+ pm_railway_gauges:0 "Voies ferrées"
+ pmg_passenger_trains:0 "Trains de voyageurs"
+ pmg_secondary_vessels:0 "Vaisseaux secondaires"
+ pmg_ship_class:0 "Classe de navire"
+ pmg_naval_theory:0 "Théorie navale"
+ pmg_military_base:0 "Base militaire"
+ pmg_lightbulbs_category:0 "Ampoules"
+ pm_best_lightbulbs:0 "Les meilleures ampoules"
+ pmg_telephones_category:0 "Téléphones"
+ pmg_radios_category:0 "Radios"
+ pmg_harvesting_process_building_rye_farm:0 "Processus de récolte"
+ pmg_harvesting_process_building_wheat_farm:0 "Processus de récolte"
+ pmg_harvesting_process_building_rice_farm:0 "Processus de récolte"
+ pmg_harvesting_process_building_maize_farm:0 "Processus de récolte"
+ pmg_harvesting_process_building_millet_farm:0 "Processus de récolte"
+ pmg_slaughtering:0 "Abattage"
+ pmg_fencing:0 "Clôture"
+
+ pmg_steam_automation_building_coal_mine:0 "Automatisation de la vapeur"
+ pmg_steam_automation_building_iron_mine:0 "Automatisation de la vapeur"
+ pmg_steam_automation_building_lead_mine:0 "Automatisation de la vapeur"
+ pmg_steam_automation_building_sulfur_mine:0 "Automatisation de la vapeur"
+ # [LocEditor:UntranslatedKey] `pmg_steam_automation_building_gold_mine`
+
+ pmg_train_automation_building_coal_mine:0 "Automatisation ferroviaire"
+ pmg_train_automation_building_iron_mine:0 "Automatisation ferroviaire"
+ pmg_train_automation_building_lead_mine:0 "Automatisation ferroviaire"
+ pmg_train_automation_building_sulfur_mine:0 "Automatisation ferroviaire"
+ # [LocEditor:UntranslatedKey] `pmg_train_automation_building_gold_mine`
+ pmg_train_automation_building_coffee_plantation:0 "Automatisation ferroviaire"
+ pmg_train_automation_building_cotton_plantation:0 "Automatisation ferroviaire"
+ pmg_train_automation_building_dye_plantation:0 "Automatisation ferroviaire"
+ pmg_train_automation_building_opium_plantation:0 "Automatisation ferroviaire"
+ pmg_train_automation_building_tea_plantation:0 "Automatisation ferroviaire"
+ pmg_train_automation_building_tobacco_plantation:0 "Automatisation ferroviaire"
+ pmg_train_automation_building_sugar_plantation:0 "Automatisation ferroviaire"
+ pmg_train_automation_building_banana_plantation:0 "Automatisation ferroviaire"
+ pmg_train_automation_building_silk_plantation:0 "Automatisation ferroviaire"
+ pmg_train_automation_building_rubber_plantation:0 "Automatisation ferroviaire"
+
+ pm_electric_saw_mills:0 "Scieries électriques"
+ pmg_equipment:0 "Équipement spécial"
+ pmg_transportation_building_logging_camp:0 "Transport"
+ pmg_transportation_building_oil_rig:0 "Transport"
+ pm_road_carts:0 "Charrettes"
+ pm_rail_transport_mine:0 "Transport ferroviaire"
+ pm_rail_transport_building_logging_camp:0 "Transport ferroviaire"
+ pm_rail_transport_building_oil_rig:0 "Transport ferroviaire"
+ pm_rail_transport_building_lead_mine:0 "Transport ferroviaire"
+ pm_rail_transport_building_coal_mine:0 "Transport ferroviaire"
+ pm_log_carts:0 "Wagons de transport du bois"
+ pm_fish_press:0 "Presse à poisson"
+ pm_steam_derricks:0 "Tour de forage à vapeur"
+ pm_combustion_derricks:0 "Tour de forage à moteur à combustion"
+ pm_tanker_cars:0 "Wagons-citernes"
+ pm_dye_production:0 "#todo Synthetic Dye#!"
+ pmg_synthetic_silk:0 "#todo Synthetic Silk#!"
+ pm_cannons:0 "Canons"
+ pm_smoothbores:0 "Canons lisses"
+ pm_breech_loaders:0 "Armes à chargement par la culasse"
+ pm_automation_disabled:0 "Assemblage à la main"
+ pm_automobiles_disabled:0 "Prioriser la production de moteurs"
+ pm_hydroelectric_plant:0 "Centrale hydroélectrique"
+ pm_coal-fired_plant:0 "Centrale à charbon"
+ pm_oil-fired_plant:0 "Centrale au fioul"
+ pm_houseware_plastics:0 "Plastiques ménagers"
+ pm_baking_powder:0 "Levure chimique"
+ pm_manual_dough_processing:0 "Traitement de la pâte manuel"
+ pm_automated_bakery:0 "Boulangerie automatisée"
+ pm_precision_tools:0 "Outils de précision"
+ 
+ pm_munition_plants:0 "Usines de munitions"
+ pm_no_munitions:0 "Pas de production de munitions"
+ pm_synthetics:0 "Produits synthétiques"
+ pm_no_synthetics:0 "Pas de production de produits synthétiques"
+ pmg_firearms_manufacturing:0 "Fabrication d’armes à feu"
+ pmg_foundries:0 "Fonderies"
+  
+  # Home Workshops
+ pmg_home_workshops_building_subsistence_farms:0 "Ateliers de particuliers"
+ pmg_home_workshops_building_subsistence_orchards:0 "Ateliers de particuliers"
+ pmg_home_workshops_building_subsistence_pastures:0 "Ateliers de particuliers"
+
+ pm_home_workshops_building_subsistence_farms:0 "Ateliers de particuliers"
+ pm_home_workshops_building_subsistence_orchards:0 "Ateliers de particuliers"
+ pm_home_workshops_building_subsistence_pastures:0 "Ateliers de particuliers"
+
+ pm_home_workshops_no_building_subsistence_farms:0 "Pas d’ateliers de particuliers"
+ pm_home_workshops_no_building_subsistence_orchards:0 "Pas d’ateliers de particuliers"
+ pm_home_workshops_no_building_subsistence_pastures:0 "Pas d’ateliers de particuliers"
+
+  # Serfdom
+ pm_serfdom:0 "Servitude"
+ pmg_serfdom_building_subsistence_farms:0 "Servitude"
+ pmg_serfdom_building_subsistence_orchards:0 "Servitude"
+ pmg_serfdom_building_subsistence_pastures:0 "Servitude"
+ pm_serfdom_building_subsistence_pastures:0 "Servitude"
+ pm_serfdom_pastures:0 "Servitude"
+ pm_serfdom_no:0 "Paysans libres"
+ pm_slavery:0 "Esclavage"
+ default:0 "$pm_default$"
+ default_building_gold_fields:0 "$pm_default$"
+ default_building_coffee_plantation:0 "$pm_default$"
+ default_building_cotton_plantation:0 "$pm_default$"
+ default_building_dye_plantation:0 "$pm_default$"
+ default_building_opium_plantation:0 "$pm_default$"
+ default_building_tea_plantation:0 "$pm_default$"
+ default_building_tobacco_plantation:0 "$pm_default$"
+ default_building_sugar_plantation:0 "$pm_default$"
+ default_building_banana_plantation:0 "$pm_default$"
+ default_building_silk_plantation:0 "$pm_default$"
+ default_building_rubber_plantation:0 "$pm_default$"
+ default_building_subsistence_farms:0 "$pm_default$"
+ default_building_subsistence_orchards:0 "$pm_default$"
+ default_building_subsistence_pastures:0 "$pm_default$"
+
+  # Construction Camp
+ # [LocEditor:UntranslatedKey] `pm_wooden_buildings`
+ # [LocEditor:UntranslatedKey] `pm_iron_frame_buildings`
+ # [LocEditor:UntranslatedKey] `pm_steel_frame_buildings`
+ # [LocEditor:UntranslatedKey] `pm_arc_welded_buildings`
+
+ pm_basic_canal:0 "Canal basique"
+ pm_industrial_canal:0 "Canal industriel"
+ pm_modern_canal:0 "Canal moderne"
+
+  # Ownership
+ pm_ownership_capital:0 "Propriété"
+ pmg_ownership_capital_building_food_industry:0 "Propriété"
+ pmg_ownership_capital_building_textile_mills:0 "Propriété"
+ pmg_ownership_capital_building_furniture_manufacturies:0 "Propriété"
+ pmg_ownership_capital_building_glassworks:0 "Propriété"
+ pmg_ownership_capital_building_tooling_workshops:0 "Propriété"
+ pmg_ownership_capital_building_paper_mills:0 "Propriété"
+ pmg_ownership_capital_building_chemical_plants:0 "Propriété"
+ pmg_ownership_capital_building_synthetics_plants:0 "Propriété"
+ pmg_ownership_capital_building_motor_industry:0 "Propriété"
+ pmg_ownership_capital_building_steel_mills:0 "Propriété"
+ pmg_ownership_capital_building_shipyards:0 "Propriété"
+ pmg_ownership_capital_building_war_machine_industry:0 "Propriété"
+ pmg_ownership_capital_building_electrics_industry:0 "Propriété"
+ pmg_ownership_capital_building_arms_industry:0 "Propriété"
+ pmg_ownership_capital_building_munition_plants:0 "Propriété"
+ pmg_ownership_capital_building_power_plant:0 "Propriété"
+ pmg_ownership_capital_building_coal_mine:0 "Propriété"
+ pmg_ownership_capital_building_iron_mine:0 "Propriété"
+ pmg_ownership_capital_building_lead_mine:0 "Propriété"
+ pmg_ownership_capital_building_sulfur_mine:0 "Propriété"
+ # [LocEditor:UntranslatedKey] `pmg_ownership_capital_building_gold_mine`
+ pmg_ownership_capital_building_logging_camp:0 "Propriété"
+ pmg_ownership_capital_building_fishing_wharf:0 "Propriété"
+ pmg_ownership_capital_building_whaling_station:0 "Propriété"
+ pmg_ownership_capital_building_oil_rig:0 "Propriété"
+
+ pmg_ownership_land_building_rye_farm:0 "Propriété"
+ pmg_ownership_land_building_rubber_plantation:0 "Propriété"
+ pmg_ownership_land_building_coffee_plantation:0 "Propriété"
+ pmg_ownership_land_building_cotton_plantation:0 "Propriété"
+ pmg_ownership_land_building_tobacco_plantation:0 "Propriété"
+ pmg_ownership_land_building_wheat_farm:0 "Propriété"
+ pmg_ownership_land_building_sugar_plantation:0 "Propriété"
+ pmg_ownership_land_building_livestock_ranch:0 "Propriété"
+ pmg_ownership_land_building_opium_plantation:0 "Propriété"
+ pmg_ownership_land_building_tea_plantation:0 "Propriété"
+ pmg_ownership_land_building_banana_plantation:0 "Propriété"
+ pmg_ownership_land_building_rice_farm:0 "Propriété"
+ pmg_ownership_land_building_maize_farm:0 "Propriété"
+ pmg_ownership_land_building_millet_farm:0 "Propriété"
+ pmg_ownership_land_building_dye_plantation:0 "Propriété"
+ pmg_ownership_land_building_silk_plantation:0 "Propriété"
+
+ pm_merchant_guilds_building_food_industry:0 "Guilde des marchands"
+ pm_merchant_guilds_building_textile_mills:0 "Guilde des marchands"
+ pm_merchant_guilds_building_furniture_manufacturies:0 "Guilde des marchands"
+ pm_merchant_guilds_building_glassworks:0 "Guilde des marchands"
+ pm_merchant_guilds_building_tooling_workshops:0 "Guilde des marchands"
+ pm_merchant_guilds_building_paper_mills:0 "Guilde des marchands"
+ pm_merchant_guilds_building_shipyards:0 "Guilde des marchands"
+ pm_merchant_guilds_building_arms_industry:0 "Guilde des marchands"
+ pm_merchant_guilds_building_logging_camp:0 "Guilde des marchands"
+ pm_merchant_guilds_building_fishing_wharf:0 "Guilde des marchands"
+ pm_merchant_guilds_building_whaling_station:0 "Guilde des marchands"
+ pm_merchant_guilds_building_coal_mine:0 "Guilde des marchands"
+ pm_merchant_guilds_building_iron_mine:0 "Guilde des marchands"
+ pm_merchant_guilds_building_lead_mine:0 "Guilde des marchands"
+ pm_merchant_guilds_building_sulfur_mine:0 "Guilde des marchands"
+ # [LocEditor:UntranslatedKey] `pm_merchant_guilds_building_gold_mine`
+
+ pm_privately_owned_building_coal_mine:0 "Propriété privée"
+ pm_privately_owned_building_iron_mine:0 "Propriété privée"
+ pm_privately_owned_building_lead_mine:0 "Propriété privée"
+ pm_privately_owned_building_sulfur_mine:0 "Propriété privée"
+ # [LocEditor:UntranslatedKey] `pm_privately_owned_building_gold_mine`
+ pm_privately_owned_building_food_industry:0 "Propriété privée"
+ pm_privately_owned_building_textile_mills:0 "Propriété privée"
+ pm_privately_owned_building_furniture_manufacturies:0 "Propriété privée"
+ pm_privately_owned_building_glassworks:0 "Propriété privée"
+ pm_privately_owned_building_tooling_workshops:0 "Propriété privée"
+ pm_privately_owned_building_paper_mills:0 "Propriété privée"
+ pm_privately_owned_building_shipyards:0 "Propriété privée"
+ pm_privately_owned_building_arms_industry:0 "Propriété privée"
+ pm_privately_owned:0 "Propriété privée"
+ pm_privately_owned_industry:0 "Propriété privée"
+ pm_privately_owned_building_fishing_wharf:0 "Propriété privée"
+ pm_privately_owned_building_logging_camp:0 "Propriété privée"
+ pm_privately_owned_building_rice_farm:0 "Propriété privée"
+ pm_privately_owned_building_whaling_station:0 "Propriété privée"
+
+ pm_publicly_traded_building_textile_mills:0 "Coté en bourse"
+ pm_publicly_traded_building_furniture_manufacturies:0 "Coté en bourse"
+ pm_publicly_traded_building_glassworks:0 "Coté en bourse"
+ pm_publicly_traded_building_tooling_workshops:0 "Coté en bourse"
+ pm_publicly_traded_building_paper_mills:0 "Coté en bourse"
+ pm_publicly_traded_building_shipyards:0 "Coté en bourse"
+ pm_publicly_traded_building_arms_industry:0 "Coté en bourse"
+ pm_publicly_traded:0 "Coté en bourse"
+ pm_publicly_traded_building_logging_camp:0 "Coté en bourse"
+ pm_publicly_traded_building_rice_farm:0 "Coté en bourse"
+ pm_publicly_traded_building_fishing_wharf:0 "Coté en bourse"
+ pm_publicly_traded_building_whaling_station:0 "Coté en bourse"
+ pm_publicly_traded_building_oil_rig:0 "Coté en bourse"
+ pm_publicly_traded_industry:0 "Coté en bourse"
+ pm_publicly_traded_building_coal_mine:0 "Coté en bourse"
+ pm_publicly_traded_building_iron_mine:0 "Coté en bourse"
+ pm_publicly_traded_building_lead_mine:0 "Coté en bourse"
+ pm_publicly_traded_building_sulfur_mine:0 "Coté en bourse"
+ # [LocEditor:UntranslatedKey] `pm_publicly_traded_building_gold_mine`
+
+ pm_government_run_building_food_industry:0 "Dirigé par le gouvernement"
+ pm_government_run_building_textile_mills:0 "Dirigé par le gouvernement"
+ pm_government_run_building_furniture_manufacturies:0 "Dirigé par le gouvernement"
+ pm_government_run_building_glassworks:0 "Dirigé par le gouvernement"
+ pm_government_run_building_tooling_workshops:0 "Dirigé par le gouvernement"
+ pm_government_run_building_paper_mills:0 "Dirigé par le gouvernement"
+ pm_government_run_building_shipyards:0 "Dirigé par le gouvernement"
+ pm_government_run_building_arms_industry:0 "Dirigé par le gouvernement"
+ pm_government_run_building_logging_camp:0 "Dirigé par le gouvernement"
+ pm_government_run_building_fishing_wharf:0 "Dirigé par le gouvernement"
+ pm_government_run_building_whaling_station:0 "Dirigé par le gouvernement"
+ pm_government_run:0 "Dirigé par le gouvernement"
+ pm_government_run_building_rice_farm:0 "Dirigé par le gouvernement"
+ pm_government_run_industry:0 "Dirigé par le gouvernement"
+ pm_government_run_building_coal_mine:0 "Dirigé par le gouvernement"
+ pm_government_run_building_iron_mine:0 "Dirigé par le gouvernement"
+ pm_government_run_building_lead_mine:0 "Dirigé par le gouvernement"
+ pm_government_run_building_sulfur_mine:0 "Dirigé par le gouvernement"
+ # [LocEditor:UntranslatedKey] `pm_government_run_building_gold_mine`
+
+ pm_worker_cooperative_building_food_industry:0 "Coopérative de travail"
+ pm_worker_cooperative_building_textile_mills:0 "Coopérative de travail"
+ pm_worker_cooperative_building_furniture_manufacturies:0 "Coopérative de travail"
+ pm_worker_cooperative_building_glassworks:0 "Coopérative de travail"
+ pm_worker_cooperative_building_tooling_workshops:0 "Coopérative de travail"
+ pm_worker_cooperative_building_paper_mills:0 "Coopérative de travail"
+ pm_worker_cooperative_building_shipyards:0 "Coopérative de travail"
+ pm_worker_cooperative_building_arms_industry:0 "Coopérative de travail"
+ pm_worker_cooperative_farm:0 "Coopérative de travail"
+ pm_worker_cooperative_building_rice_farm:0 "Coopérative de travail"
+ pm_worker_cooperative_building_logging_camp:0 "Coopérative de travail"
+ pm_worker_cooperative_building_fishing_wharf:0 "Coopérative de travail"
+ pm_worker_cooperative_building_whaling_station:0 "Coopérative de travail"
+ pm_worker_cooperative_plantation:0 "Coopérative de travail"
+ pm_worker_cooperative_industry:0 "Coopérative de travail"
+
+ pm_worker_cooperative_building_coal_mine:0 "Coopérative de travail"
+ pm_worker_cooperative_building_iron_mine:0 "Coopérative de travail"
+ pm_worker_cooperative_building_lead_mine:0 "Coopérative de travail"
+ pm_worker_cooperative_building_sulfur_mine:0 "Coopérative de travail"
+ # [LocEditor:UntranslatedKey] `pm_worker_cooperative_building_gold_mine`
+
+ # [LocEditor:UntranslatedKey] `pmg_base_building_skyscraper`
+ # [LocEditor:UntranslatedKey] `pm_skyscraper_bureaucratic_nexus`
+ # [LocEditor:UntranslatedKey] `pmg_airship_mooring_post`
+ # [LocEditor:UntranslatedKey] `pm_no_airships`
+ # [LocEditor:UntranslatedKey] `pm_airship_mooring_post`
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ pm_art_school:0 "École d’art"
+ pm_propaganda_center:0 "Affiches de propagande"
+ pm_improved_propaganda_center:0 "Photos de propagande"
+ pm_film_propaganda_center:0 "Films de propagande"
+ pmg_philosophy_department:0 "Département de philosophie"
+ pm_philosophy_department_disabled:0 "Éducation scolaire"
+ pm_university:0 "Université"
+ pm_engineering_university:0 "Université d’ingénierie"
+ pm_social_science_university:0 "Université des sciences sociales"
+ pm_military_academy:0 "Académie militaire"
+ pm_hierarchical_rule:0 "Règle hiérarchique"
+ pmg_mobility:0 "Mobilité"
+ pm_cavalry:0 "Cavalerie"
+ pm_armored_division:0 "Division blindée"
+ pmg_base_building_construction_camp:0 "Base"
+ pm_slow:0 "Bâtiments en bois"
+ pm_normal:0 "Bâtiments avec structure en fer"
+ pm_fast:0 "Bâtiments avec structure en acier"
+ pm_very_fast:0 "Bâtiments soudés à l’arc"

@@ -1,0 +1,18 @@
+﻿CHARACTERS = {
+	c:UCA = {
+		create_character = {
+			# Francisco Morazan
+			#role = politician # Remove this line
+			first_name = "Francisco"
+			last_name = "Morazan"
+			ruler = yes
+			ig_leader = yes
+			age = 44
+			interest_group = ig_intelligentsia
+			ideology = ideology_moderate
+			traits = {
+				meticulous
+			}
+		}
+	}
+}

@@ -1,0 +1,39 @@
+﻿ig_trait_fervor = {
+	icon = "gfx/interface/icons/ig_trait_icons/solidarity.dds"
+
+	# type is for display order
+	type = in_government
+
+	min_approval = loyal
+	
+	modifier = {
+		building_group_bg_manufacturing_throughput_mult = 0.15
+		country_voting_power_base_add = 5
+	}
+}
+
+ig_trait_beligerent_indifference = {
+	icon = "gfx/interface/icons/ig_trait_icons/work_to_rule.dds"
+
+	# type is for display order
+	type = happy
+
+	min_approval = happy
+	
+	modifier = {
+		building_group_bg_manufacturing_throughput_mult = -0.05
+	}
+}
+
+ig_revolutionary_belligerence = {
+	icon = "gfx/interface/icons/ig_trait_icons/work_to_rule.dds"
+
+	# type is for display order
+	type = unhappy
+
+	max_approval = unhappy
+	
+	modifier = {
+		interest_group_approval_add = -5
+	}
+}

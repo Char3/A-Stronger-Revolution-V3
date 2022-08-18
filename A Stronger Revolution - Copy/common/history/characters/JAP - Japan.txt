@@ -1,0 +1,120 @@
+﻿CHARACTERS = {
+	c:JAP = {
+		#create_character = {
+			# Emperor Ninko
+			##role = politician # Remove this line
+			#first_name = Ninko
+			#last_name = "Yamato"
+			#ruler = yes
+			#age = 36
+			#interest_group = ig_landowners # beholden to the Shogun
+			#ideology = ideology_traditionalist
+			#traits = {
+				#reserved # not very active in affairs of state
+			#}
+		#}
+
+		#create_character = {
+			##role = politician # Remove this line
+			#first_name = Osahito # TODO: Event to rename Osahito to Komei if he succeeds to the throne
+			#last_name = Yamato
+			#heir = yes
+			#age = 5
+			#interest_group = ig_armed_forces
+			#traits = {
+				#reserved # ditto
+			#}
+		#}
+
+		create_character = {
+			#role = politician # Remove this line
+			ruler = yes
+			first_name = Ienari
+			last_name = Tokugawa
+			age = 63
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				arrogant
+				expensive_tastes # bit of corruption
+			}
+		}
+
+		create_character = {
+			#role = politician # Remove this line
+			heir = yes
+			first_name = Ieyoshi
+			last_name = Tokugawa
+			age = 43
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				meticulous
+				pious
+			}
+		}
+
+		create_character = {
+			#role = politician # Remove this line
+			first_name = Heihachiro
+			last_name = Oshio
+			age = 43
+			ig_leader = yes
+			interest_group = ig_devout
+			traits = {
+				charismatic
+			}
+		}
+
+		create_character = {
+			#role = politician # Remove this line
+			first_name = Koan
+			last_name = Ogata
+			age = 26
+			ig_leader = yes
+			interest_group = ig_industrialists
+			traits = {
+				meticulous
+			}
+		}
+
+		#create_character = {
+		#	# Mori Takachika, daimyo of the Choshu Domain from mid-1836 until 1869. Dude was pretty politically active even from a young age.
+		#	#role = politician # Remove this line
+		#	first_name = Takachika
+		#	last_name = Mori
+		#	age = 16
+		#	ig_leader = yes
+		#	interest_group = ig_landowners
+		#	traits = {
+		#		meticulous
+		#	}
+		#}
+
+		create_character = {
+			#role = politician # Remove this line
+			first_name = Tadakuni
+			last_name = Mizuno
+			age = 42
+			ig_leader = yes
+			interest_group = ig_armed_forces
+			ideology = ideology_traditionalist
+			traits = {
+				arrogant
+			}
+		}
+
+		create_character = {
+			is_general = yes
+			first_name = Nariaki
+			last_name = Tokugawa
+			age = 36
+			ig_leader = yes
+			interest_group = ig_petty_bourgeoisie
+			ideology = ideology_jingoist_leader
+			traits = {
+				imperious
+			}
+		}
+	}
+}

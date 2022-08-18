@@ -198,8 +198,16 @@
 			triggered_desc = {
 				desc = party_kke
 				trigger = {
-					exists = c:GRE
-					THIS = c:GRE
+					OR = {
+						AND = {
+							exists = c:GRE
+							THIS = c:GRE
+						}
+						AND = {
+							exists = c:BYZ
+							THIS = c:BYZ
+						}
+					}
 					any_interest_group = {
 						is_powerful = yes
 						leader = {
@@ -286,6 +294,7 @@
 		owner = {
 			country_has_voting_franchise = yes
 			any_interest_group = {
+				has_ideology = ideology_socialist
 				leader = {
 					OR = {
 						has_ideology = ideology_communist
@@ -356,6 +365,12 @@
 				}
 			}
 			add = 2
+		}
+		if = { # social democrats will consider collaboration with communists
+			limit = {
+				has_ideology = ideology_socialist
+			}
+			add = 5
 		}
 		if = { # weak social democrats and radicals may side with strong communists
 			limit = {

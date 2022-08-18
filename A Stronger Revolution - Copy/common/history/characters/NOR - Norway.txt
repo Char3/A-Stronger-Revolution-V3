@@ -1,0 +1,22 @@
+﻿CHARACTERS = {
+	c:NOR = {
+		create_character = { # General
+			is_general = yes
+			first_name = Ferdinand
+			last_name = Wedel_Jarlsberg
+			age = 55
+			traits = {
+			}
+		}
+		
+		create_character = { # Admiral
+			is_admiral = yes
+			 first_name = Thomas 
+			 last_name = Konow
+			 age = 40
+			 traits = {
+			 	meticulous
+			}
+		 }
+	}
+}

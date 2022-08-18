@@ -1,0 +1,1263 @@
+﻿l_german:
+  
+ concept_concept:0 "Konzept"
+ concept_concepts:0 "Konzepte"
+ concept_concept_desc:0 "Dies ist ein tooltipfähiges Spielkonzept mit anderen [Concept('concept_concept', 'Konzepten')] darin."
+
+ concept_sol:0 "Lebensstandard"
+ concept_sol_desc:0 "Der Lebensstandard ist der gesammelte materielle [concept_wealth] einer [Concept('concept_pop_possessive', 'Pop')], verbunden mit anderen flüchtigen Verbesserungen ihrer Lebensumstände. Er bestimmt über die Geburtenrate und die Sterblichkeit, und etwaige Änderungen können dazu führen, dass [Concept('concept_pop', 'Pops')] [Concept('concept_radical', 'Radikale')] oder [Concept('concept_loyalist', 'Loyalisten')] werden. Der Lebensstandard ändert sich mit der Kaufkraft und der Dienstleistungsversorgung der Pop."
+
+ concept_pop_growth:0 "Pop-Wachstum"
+ concept_pop_growth_desc:0 "Die Nettozahl an Personen, die eine [concept_pop] jedes Jahr dazubekommt oder verliert, je nach ihrer Geburtenrate und ihrer Sterblichkeit, Diese werden durch den [concept_sol] bestimmt und durch andere Einflüsse wie Krankheiten, gefährliche Arbeitsbedingungen, nutzbringende [Concept('concept_institution', 'Institutionen')] sowie verfügbaren Wohnraum modifiziert.\n\n@information! Äußere Veränderungen in der Größe einer Pop, die zum Beispiel durch [concept_migration] oder Kriegstote verursacht werden, werden dabei nicht eingerechnet." # [LocEditor:AwaitingBatchUpdate]
+ 
+ # [LocEditor:UntranslatedKey] `concept_individual`
+ # [LocEditor:UntranslatedKey] `concept_individuals`
+ # [LocEditor:UntranslatedKey] `concept_individual_desc`
+
+ concept_building:0 "Gebäude"
+ concept_buildings:0 "Gebäude"
+ concept_building_possessive:0 "der Gebäude"
+ concept_building_desc:0 "[Concept('concept_pop', 'Pops')|U] arbeiten in Gebäuden. Sie beuten entweder Vorkommen im [concept_state] aus oder nutzen andere [Concept('concept_good', '$concept_goods$')] als Zufuhr, um andere [Concept('concept_good', '$concept_goods$')] und/oder Effekte als Ausstoß herzustellen (wie zum Beispiel [concept_infrastructure]). Was ein Gebäude produziert und wer in einem Gebäude arbeitet, lässt sich anpassen, indem man die [Concept('concept_production_method', '$concept_production_methods$')] des Gebäudes ändert."
+  
+ concept_opinion:0 "Meinung"
+ concept_opinion_desc:0 "Die Meinung der Bevölkerung über ein anderes Land und was andere [Concept('concept_country', '$concept_countries$')] von ihrem Land halten, sind wichtige Faktoren bei diplomatischen Beziehungen." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_colonize:0 "Kolonisieren"
+ concept_colonizes:0 "Kolonisieren" # [LocEditor:AwaitingBatchUpdate]
+ concept_colonize_desc:0 "Als Groß- oder Mittelmacht kann man einen [concept_state] besiedeln, der im Besitz einer [concept_decentralized_nation] ist, wenn man ein [concept_interest] in dieser [concept_strategic_region] hat."
+
+ concept_potentials:0 "Vorkommen"
+ concept_potentials_desc:0 "Die Menge an Vorkommen gibt an, wie viel von diesen Waren in diesem Gebiet hergestellt werden können."
+
+ concept_diplomatic_play:0 "Diplomatiespiel"
+ # [LocEditor:UntranslatedKey] `concept_diplomatic_play_short`
+ concept_diplomatic_plays:0 "Diplomatiespiele"
+ concept_diplomatic_play_desc:0 "Hat man ein [concept_interest] in einer [concept_strategic_region], kann man ein Diplomatiespiel beginnen, um etwas in dieser Region zu fordern. Dieses Diplomatiespiel kann friedlich gelöst werden oder zu einem Krieg eskalieren. Alle anderen Länder mit einem [concept_interest] in der [concept_strategic_region] entscheiden dann, auf welche Seite sie sich schlagen oder ob sie sich heraushalten und nicht eingreifen wollen."
+  
+ concept_maneuver:0 "Schachzug"
+ concept_maneuvers:0 "Schachzüge" # [LocEditor:AwaitingBatchUpdate]
+ concept_maneuver_desc:0 "Schachzüge bei [Concept('concept_diplomatic_play', 'Diplomatiespielen')] können eingesetzt werden, um entweder ein weiteres [concept_war_goal] hinzuzufügen oder [Concept('concept_country', '$concept_countries$')] per [concept_sway] auf die eigene Seite zu ziehen. Nur der Initiator und das Ziel eines Diplomatiespiels können sie nutzen." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_modifier:0 "Modifikator"
+ concept_modifiers:0 "Modifikatoren" # [LocEditor:AwaitingBatchUpdate]
+ concept_modifier_desc:0 "#todo What exactly is a Modifier and should we really explain it to the Player as a Game Concept like this?#!"
+
+ concept_ruler:0 "Herrscher"
+ concept_rulers:0 "Herrscher"
+ concept_ruler_possessive:0 "des Herrschers"
+ concept_ruler_desc:0 "Ein Herrscher ist ein [concept_character], der [Concept('concept_character_trait', '$concept_character_traits$')] haben kann, welche dem eigenen [concept_country] bestimmte Boni oder Mali geben." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_heir:0 "Erbe"
+ concept_heir_desc:0 "Der Erbe eines [Concept('concept_country', 'Landes')] ist ein [concept_character]. Er ist der zukünftige [concept_ruler] des [Concept('concept_country', 'Landes')], der die Macht übernehmen wird, sobald der derzeitige [concept_ruler] stirbt."
+
+ concept_homeland:0 "Heimatland"
+ concept_homelands:0 "Heimatländer" # [LocEditor:AwaitingBatchUpdate]
+ concept_homeland_desc:0 "Das Heimatland einer [concept_culture] ist eine [concept_state_region], in der sich die [Concept('concept_pop', '$concept_pops$')] dieser Kultur heimisch fühlen. Pops neigen dazu, in ihre Heimatländer zu ziehen, und die Rückeroberung verlorener Heimatländer wird von der internationalen Gemeinschaft als legitimer erachtet als andere aggressive Landnahmen."
+
+ concept_mobilize_general:0 "General mobilisieren"
+ concept_mobilize_general_mobilize:0 "Mobilisieren"
+ concept_mobilize_general_mobilizing:0 "Mobilisiere"
+ concept_mobilize_general_mobilized:0 "Mobilisiert"
+ concept_mobilize_general_mobilization:0 "Mobilisierung"
+ concept_mobilize_general_desc:0 "#todo Mobilizing a [concept_general] begins mobilizing the [Concept('concept_battalion', $concept_battalions$)] assigned to them. Note that a $concept_mobilize_general_mobilized$ $concept_general$ cannot be demobilized manually and will only demobilize once the country is at peace.#!" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_mobilize_battalion:0 "Bataillon mobilisieren"
+ concept_mobilize_battalion_demobilized:0 "Demobilisiert"
+ concept_mobilize_battalion_mobilizing:0 "Mobilisierung"
+ concept_mobilize_battalion_mobilized:0 "Mobilisiert"
+ # [LocEditor:UntranslatedKey] `concept_mobilize_battalions_mobilized`
+ concept_mobilize_battalion_desc:0 "#todo [Concept('concept_battalion', $concept_battalions$)] assigned to a [Concept('concept_mobilize_general', '$concept_mobilize_general_mobilized$')] [concept_general] immediately begin mobilizing based on [concept_infrastructure] in their [concept_state]. Once mobilized, [Concept('concept_battalion', $concept_battalions$)] consume more resources but are ready to fight!#!" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_conscription_center:0 "Einberufungszentrum"
+ concept_conscription_centers:0 "Einberufungszentren"
+ concept_conscription_center_conscription:0 "Einberufung"
+ # [LocEditor:UntranslatedKey] `concept_conscripted`
+ # [LocEditor:UntranslatedKey] `concept_conscription`
+ concept_conscription_center_desc:0 "#todo A Conscription Center is an auto placed building that can be activated to draft citizens to military service based on the conscription laws of the [concept_country].#!"
+
+ concept_conscript_battalion:0 "Bataillon einberufen"
+ concept_conscript_battalions:0 "Bataillone einberufen"
+ # [LocEditor:UntranslatedKey] `concept_conscript_battalion_drafting`
+ concept_conscript_battalion_desc:0 "#todo A Conscript Battalion is a temporary [concept_battalion] trained in a [concept_conscription_center].#!" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_front:0 "Front"
+ concept_fronts:0 "Fronten" # [LocEditor:AwaitingBatchUpdate]
+ concept_front_desc:0 "Eine Front ist eine Ansammlung von [Concept('concept_province', '$concept_provinces$')] an der Grenze zwischen zwei [Concept('concept_country', 'Ländern')], die im [concept_war] miteinander liegen. [Concept('concept_commander', '$concept_commanders$')|U], die den [Concept('concept_strategic_region', '$concept_strategic_regions$')] zugewiesen wurden, in denen die Front liegt, werden der Front dann Truppen zuweisen. Mehrere [Concept('concept_commander', '$concept_commanders$')] können Teil derselben Front sein, und der jeweils dienstälteste [concept_commander] leitet die Front. Wird diesem [concept_commander] eine Invasion befohlen und hat er genug Truppen, beginnt er einen [concept_battle_plan] zu erstellen, der schließlich zu einer [concept_battle] führt." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_garrison:0 "Garnison"
+ concept_garrison_desc:0 "#TODO Garrison is ..."
+
+ concept_advancement_progress:0 "Vormarschzuwachs"
+ concept_advancement_progress_desc:0 "#TODO In order for a [concept_front] to launch a new [concept_battle] it first needs to accumulate enough Advancement Progress.#!"
+ concept_advancement_speed:0 "Vormarschtempo"
+ concept_advancement_speed_desc:0 "#TODO A Commanders Advancement Speed is his [concept_advancement_progress] contribution to the [concept_front].\nA commander with no available troops has zero Advancement Speed.#!"
+
+ concept_province:0 "Provinz"
+ concept_provinces:0 "Provinzen" # [LocEditor:AwaitingBatchUpdate]
+ concept_province_desc:0 "Provinzen sind Teile von [Concept('concept_state', '$concept_states$')] mit eigenem [concept_terrain]. Man kann durch Provinzen marschieren und sie mit [Concept('concept_general', 'Generälen')] in [Concept('concept_battle', 'Schlachten')] erobern." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_commander:0 "Befehlshaber"
+ concept_commanders:0 "Befehlshaber" # [LocEditor:AwaitingBatchUpdate]
+ concept_commander_desc:0 "Ein Befehlshaber ist ein [concept_character], der Truppen anführt."
+
+ concept_battle:0 "Schlacht"
+ concept_battle_desc:0 "Eine Schlacht ist, wenn die zwei Seiten eines [Concept('concept_war', 'Krieges')] an einer [concept_front] aufeinanderprallen und sich gegenseitig Verluste zufügen. Eine Schlacht findet immer in einer [concept_province] statt, deren [concept_terrain] sich auf die Schlacht auswirken wird. Endet die Schlacht, übernimmt der Sieger die Kontrolle über die [concept_province]."
+
+ concept_terrain:0 "Gelände"
+ concept_terrain_desc:0 "The terrain of a [concept_province] controls... #todo something#!, if a [concept_battle] would break out in the [concept_province]" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_strategic_region:0 "Strategieregion"
+ concept_strategic_regions:0 "Strategieregionen" # [LocEditor:AwaitingBatchUpdate]
+ concept_strategic_region_desc:0 "Eine Strategieregion ist eine Ansammlung von [Concept('concept_state_region', '$concept_state_regions$')], die durch [Concept('concept_diplomatic_play', '$concept_diplomatic_plays$')] erschüttert werden können. Ein [concept_country] kann nur an einem [concept_diplomatic_play] teilnehmen, wenn sein Militär ein [concept_interest] in die Strategieregion projiziert."
+
+ concept_sway:0 "Beeinflussen"
+ concept_sway_desc:0 "Ein [concept_country], das entweder der Initiator oder das Ziel eines [Concept('concept_diplomatic_play', 'Diplomatiespiels')] wurde, kann versuchen, ein beliebiges [concept_country] mit einem [concept_interest] in der [concept_strategic_region] zu beeinflussen und auf seine Seite zu ziehen, solange dieses noch nicht Partei ergriffen hat."
+  
+ concept_diplomatic_action:0 "Diplomatenaktion"
+ concept_diplomatic_actions:0 "Diplomatenaktionen"
+ concept_diplomatic_action_desc:0 "Eine Diplomatenaktion kann von einem [concept_country] unternommen werden. Sie hat immer ein anderes [concept_country] zum Ziel, das dadurch angehalten werden soll, [Concept('concept_alliance', '$concept_alliances$')] einzugehen, [Concept('concept_rivalry', '$concept_rivalries$')] auszurufen oder Ähnliches zu tun." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_bureaucracy:0 "Bürokratie"
+ concept_bureaucracy_desc:0 "Bürokratie (@bur!) wird genutzt, um den Zusammenhalt des eigenen Landes zu bewahren. Die Kosten dafür erhöhen sich durch die Bevölkerung in [Concept('concept_incorporated_state', 'Inkorporierten Staaten')] und durch eingeführte [Concept('concept_institution', 'Institutionsinvestitionen')]. Man erhält @bur! durch [Concept('concept_pop', '$concept_pops$')], die in [Concept('concept_government_building', 'Regierungsgebäuden')] arbeiten." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_government_building:0 "Regierungsgebäude"
+ concept_government_buildings:0 "Regierungsgebäude" # [LocEditor:AwaitingBatchUpdate]
+ concept_government_building_desc:0 "Ein Regierungsgebäude ist ein Gebäude, bei dem das [concept_country] sowohl für die Gehälter der [Concept('concept_pop', '$concept_pops$')], die darin arbeiten, als auch für die [Concept('concept_good', '$concept_goods$')] bezahlt, die für die Produktionskette des Gebäudes benötigt werden."
+
+ concept_military_building:0 "Militärgebäude"
+ concept_military_buildings:0 "Militärgebäude" # [LocEditor:AwaitingBatchUpdate]
+ concept_military_building_desc:0 "#todo A Military Building is... #!" # [LocEditor:AwaitingBatchUpdate]
+
+ # [LocEditor:UntranslatedKey] `concept_incorporate`
+ # [LocEditor:UntranslatedKey] `concept_incorporated`
+ # [LocEditor:UntranslatedKey] `concept_incorporating`
+ concept_incorporated_state:0 "Inkorporierter Staat"
+ concept_incorporated_states:0 "Inkorporierte Staaten" # [LocEditor:AwaitingBatchUpdate]
+ concept_incorporated_state_desc:0 "[Concept('concept_pop', '$concept_pops$')|U] in Inkorporierten Staaten erhalten Zugang zu den Vorzügen von [Concept('concept_institution', '$concept_institutions$')], zahlen Steuern und nehmen in Gänze am politischen Leben des Landes teil." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_influence:0 "Einfluss"
+ concept_influence_desc:0 "Einfluss (@inf!) wird für [Concept('concept_diplomatic_action', '$concept_diplomatic_actions$')] genutzt, die auf ein anderes [concept_country] abzielen. Man erzeugt @inf! durch den eigenen [concept_rank] und dadurch, dass man [Concept('concept_rivalry', '$concept_rivals$')] hat." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_authority:0 "Autorität"
+ concept_authority_desc:0 "Autorität (@aut!) wird genutzt, um interne Veränderungen am eigenen Land vorzunehmen, beispielsweise das Festlegen von [Concept('concept_decree', 'Erlassen')] oder die Verwaltung von [Concept('concept_interest_group', '$concept_interest_groups$')]. Man erzeugt @aut! durch [Concept('concept_law', '$concept_laws$')]." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_institution:0 "Institution"
+ concept_institutions:0 "Institutionen" # [LocEditor:AwaitingBatchUpdate]
+ concept_institution_desc:0 "Eine Institution bietet [Concept('concept_incorporated_state', 'Inkorporierten Staaten')] im eigenen [concept_country] Vorteile. Sie brauchen für den Unterhalt [concept_bureaucracy] proportional zur Zahl der [Concept('concept_pop', '$concept_pops$')], die in den eigenen [Concept('concept_incorporated_state', 'Inkorporierten Staaten')] leben, sowie zur Größe der Institution." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_law:0 "Gesetz"
+ concept_laws:0 "Gesetze"
+ concept_law_desc:0 "Gesetze bestimmen darüber, wie das eigene Land regiert wird und wie es funktioniert. Einige Gesetze erlauben [Concept('concept_institution', '$concept_institutions$')]. Damit ein Gesetz erlassen werden kann, braucht man die Unterstützung mindestens einer [concept_interest_group] [concept_in_government|l]." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_law_group:0 "Verfassungsrechtsgruppe"
+ concept_law_group_desc:0 "#todo [Concept('concept_law', '$concept_laws$')] come in groups..#!" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_money:0 "@money! Geld"
+ concept_money_desc:0 "Geld regiert die Welt. Damit bezahlt man Regierungsgehälter, Baumaterialien, Subventionen und Militärausrüstung. Man erhält $concept_money$ durch [concept_taxation] der eigenen [Concept('concept_pop', '$concept_pops$')] und [Concept('concept_building', '$concept_buildings$')]. Überzähliges $concept_money$ wird verwendet, um für [concept_national_debt] zu bezahlen oder Gold in den eigenen [concept_gold_reserves] einzulagern. Fehlendes $concept_money$ erhöht die [concept_national_debt] bis zur [concept_credit_limit], die ein Vielfaches des eigenen [concept_gdp] ist."
+
+ concept_taxation:0 "Besteuerung"
+ concept_taxation_desc:0 "Die Besteuerung kann [concept_money] sein, das vom Gehalt einer [concept_pop] abgezogen wird, oder durch Verbrauchssteuern entstehen, die auf den Preis von [Concept('concept_good', '$concept_goods$')] aufgeschlagen werden."
+
+ concept_workforce:0 "Beschäftigte"
+ concept_workforce_desc:0 "Die Beschäftigten eines [concept_building] [Concept('concept_building', 'Gebäudes')] setzen sich aus [Concept('concept_pop', '$concept_pops$')] unterschiedlicher [Concept('concept_profession', '$concept_professions$')] zusammen. Die $concept_pops$ können befördert oder degradiert werden, um die $concept_professions$ zu besetzen, die die derzeitigen [Concept('concept_production_method', '$concept_production_methods$')] erfordern."
+
+ concept_national_debt:0 "Landesschulden"
+ concept_national_debt_desc:0 "Die Landesschulden sind [concept_money], das ein Staat … jemandem schuldet. Man zahlt einen [concept_budget_interest_rate] auf den [concept_money]-Betrag der Landesschulden. Wird der eigene Saldo negativ, sammelt man Landesschulden an."
+
+ concept_gold_reserves:0 "Goldreserven"
+ concept_gold_reserves_desc:0 "Goldreserven geben an, wie viel [concept_money] ein [concept_country] in seinen Reserven eingelagert hat. Ist der eigene Saldo positiv, sammelt man Goldreserven an."
+
+ concept_cash_reserves:0 "Rücklagen"
+ concept_cash_reserves_desc:0 "In den Rücklagen eines [Concept('concept_building', 'Gebäudes')] deponiert der Besitzer Geld. Hat ein Gebäude einen positiven Wochensaldo, wird ein Teil des Geldes in die Rücklagen gesteckt, während der Rest an die Besitzer-Pops des Gebäudes geht (die es verwenden werden, um ihren [concept_sol] zu steigern und Geld in [concept_investment_pool] zu stecken)."
+
+ concept_credit_limit:0 "Kreditschwelle"
+ concept_credit_limit_desc:0 "Die Kreditschwelle ist ein Vielfaches des eigenen [concept_gdp] und begrenzt, wie viel [concept_national_debt] man ansammeln kann."
+  
+ concept_obsession:0 "Versessenheit"
+ concept_obsession_desc:0 "Eine [concept_culture] kann auf eine bestimmte [concept_good] versessen sein. Die [Concept('concept_pop', '$concept_pops$')] dieser Kultur verbrauchen deutlich mehr an Waren, auf die sie versessen sind, als an anderen Waren in derselben [concept_pop_needs]-Kategorie."
+  
+ concept_taboo:0 "Tabu"
+ concept_taboo_desc:0 "Eine [concept_religion] kann ein Tabu gegen eine bestimmte [concept_good] haben. Die [Concept('concept_pop', '$concept_pops$')] dieser Religion verbrauchen deutlich weniger an Waren, gegen die sie ein Tabu haben, als an anderen Waren in derselben [concept_pop_needs]-Kategorie."
+  
+ concept_goods_substitution:0 "Warenersatz"
+ concept_goods_substitution_desc:0 "Waren, die Teil derselben [concept_pop_needs]-Kategorie sind, können beim Pop-Verbrauch je nach Verfügbarkeit miteinander ausgetauscht werden. Die Grundnahrungsgruppe enthält beispielsweise Getreide und Fleisch, wobei Pops mehr Getreide und weniger Fleisch verbrauchen. Wird Fleisch jedoch leichter verfügbar, erhöht sich ihr Fleischverbrauch (und ihr Getreideverbrauch sinkt). In einigen Fällen kann eine Ware sogar ganz ersetzt werden, sofern es keine [concept_sell_orders] für die Ware am [concept_market] gibt. Wie viel von einer Ware Pops im Vergleich zu anderen Waren in derselben Kategorie kaufen, ändert sich beträchtlich, wenn die Ware in ihrer Kultur einem [concept_taboo] oder einer [concept_obsession] unterliegt. Waren, die einen höheren Wert haben, tragen mehr zur Erfüllung der Bedarfe von Pops in einer bestimmten Pop-Bedarfe-Kategorie bei: Eine Einheit Lebensmittel entspricht beispielsweise mehreren Einheiten Getreide."
+
+ concept_sell_orders:0 "Verkaufsaufträge"
+ concept_sell_orders_desc:0 "Aufträge für den Verkauf einer Ware auf dem Zentral-[concept_market] bestimmen ihren [concept_market_price]. Verkaufsaufträge werden durch Verbrauch und Produktion eines Staates erzeugt, bei größeren Mengen auch durch die Höhe des [Concept('concept_market_access', 'Marktzugriffs')], den der [concept_state] auf den [concept_market] hat."
+
+ concept_buy_orders:0 "Kaufaufträge"
+ concept_buy_orders_desc:0 "Aufträge für den Ankauf einer Ware auf dem Zentral-[concept_market] bestimmen ihren [concept_market_price]. Kaufaufträge werden durch Verbrauch und Produktion eines Staates erzeugt, bei größeren Mengen auch durch die Höhe des [Concept('concept_market_access', 'Marktzugriffs')], den der [concept_state] auf den [concept_market] hat."
+
+ concept_market_price:0 "Marktpreis"
+ concept_market_price_desc:0 "Der Preis einer [concept_good] am [concept_market]. Er beruht auf [Concept('concept_buy_orders', 'Kauf-')] und [Concept('concept_sell_orders', 'Verkaufsaufträgen')]. Er wird sich je nach [concept_market_access] [concept_state_possessive] auch auf den [concept_local_price] auswirken."
+
+ concept_local_price:0 "Ortspreis"
+ concept_local_price_desc:0 "Der Preis einer [concept_good] in einem [concept_state]. Er beruht auf örtlichem Verbrauch und Produktion sowie dem [concept_market_price], der durch den [concept_market_access] [concept_state_possessive] beeinflusst wird. Er generiert [concept_buy_orders] und [concept_sell_orders]."
+
+ concept_subsistence_building:0 "Subsistenzgebäude"
+ concept_subsistence_buildings:0 "Subsistenzgebäude" # [LocEditor:AwaitingBatchUpdate]
+ concept_subsistence_building_desc:0 "Ein Subsistenzgebäude ist eine Kategorie von [Concept('concept_building', '$concept_buildings$')], die deutlich weniger effektiv als herkömmliche Gebäude sind. Sie entstehen (und verschwinden) automatisch als Nebeneffekt, wenn man einen Überschuss an [concept_urbanization] oder [concept_arable_land] hat."
+
+ concept_non_government_building:0 "Produktionsgebäude"
+ concept_non_government_building_desc:0 "Ein Produktionsgebäude produziert etwas und wird nicht von der Regierung bezahlt."
+  
+ concept_trade_route:0 "Handelsroute"
+ concept_trade_routes:0 "Handelsrouten"
+ concept_trade_route_desc:0 "Handelsrouten bewegen [Concept('concept_good', '$concept_goods$')] zwischen [Concept('concept_market', 'Märkten')], wodurch der Preis für den Exporteur steigt, während er für den Importeur sinkt. Die Menge an $concept_goods$, die jede Handelsroute bewegen kann, hängt von der Qualität der [concept_infrastructure] ab, die zwei [Concept('concept_market', '$concept_markets$')] verbindet." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_trade_agreement:0 "Handelsvertrag"
+ concept_trade_agreement_desc:0 "Ein Handelsvertrag ist eine diplomatische Übereinkunft zwischen zwei [Concept('concept_country', 'Ländern')], die die Effektivität aller [Concept('concept_trade_route', '$concept_trade_routes$')] zwischen den [Concept('concept_market', 'Märkten')] verbessert, die sie kontrollieren." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_trade_route_competitiveness:0 "Handelsrouten-Wettbewerbsfähigkeit"
+ concept_trade_route_competitiveness_desc:0 "#todo Trade Route Competitiveness is ...#!"
+
+ concept_economy_of_scale:0 "Skaleneffekt"
+ concept_economy_of_scale_desc:0 "#todo Economy of Scale is ...#!"
+  
+ concept_interest_group:0 "Interessengruppe"
+ concept_interest_groups:0 "Interessengruppen"
+ concept_interest_group_possessive:0 "der Interessengruppe"
+ concept_interest_group_desc:0 "Eine Interessengruppe ist eine politische Fraktion innerhalb eines [Concept('concept_country', 'Landes')], die ein gemeinsames Interesse hat. Sie wird unterschiedlich stark von [Concept('concept_pop', '$concept_pops$')] unterstützt, je nachdem, inwieweit sie deren jeweiliger persönlicher Situation entgegenkommt. Sie hat eine Reihe von [Concept('concept_ideology', '$concept_ideologies$')], die ihre Haltung zu verschiedenen [Concept('concept_law', 'Gesetzen')] bestimmen. Sie hat zudem eine Reihe von [Concept('concept_interest_group_trait', '$concept_interest_group_traits$')], die je nach ihrer [concept_ig_approval] aktiviert werden. Sie hat zudem einen [concept_politician] als Anführer, dessen persönliche [concept_ideology] sich auch auf die Interessengruppe überträgt."
+
+ concept_interest_group_attraction:0 "Interessengruppen-Anziehung"
+ concept_interest_group_attractions:0 "Interessengruppen-Anziehungen" # [LocEditor:AwaitingBatchUpdate]
+ concept_attracted:0 "Angezogen"
+ concept_interest_group_attraction_desc:0 "#todo Interest Group Attraction is ...#!" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_politician:0 "Politiker"
+ concept_politicians:0 "Politiker" # [LocEditor:AwaitingBatchUpdate]
+ concept_politician_desc:0 "Ein Politiker ist ein [concept_character], der [Concept('concept_character_trait', '$concept_character_traits$')] haben kann." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_leader:0 "Anführer"
+ concept_leaders:0 "Anführer"
+ concept_leader_desc:0 "Der Anführer einer [concept_interest_group] ist ein [concept_character]. Der Anführer kann [Concept('concept_character_trait', '$concept_character_traits$')] und eine [concept_ideology] haben, die zu den [Concept('concept_ideology', '$concept_ideologies$')] [concept_interest_group_possessive] hinzugefügt wird." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_character:0 "Charakter"
+ concept_characters:0 "Charaktere" # [LocEditor:AwaitingBatchUpdate]
+ concept_character_desc:0 "Ein Charakter ist eine Figur im Spiel. Je nach Zusammenhang kann es sich bei ihnen um [Concept('concept_politician', '$concept_politicians$')], [Concept('concept_commander', '$concept_commanders$')] und andere Personen handeln." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_interest_group_trait:0 "Interessengruppen-Eigenschaft"
+ concept_interest_group_traits:0 "Interessengruppen-Eigenschaften" # [LocEditor:AwaitingBatchUpdate]
+ concept_interest_group_trait_desc:0 "Ist sie aktiv, gewährt die Interessengruppen-Eigenschaft einem [concept_country] Boni oder Mali. Diese Eigenschaften werden durch unterschiedliche Stufen der [concept_ig_approval] aktiviert oder deaktiviert."
+
+ concept_character_trait:0 "Charaktereigenschaft"
+ concept_character_traits:0 "Charaktereigenschaften" # [LocEditor:AwaitingBatchUpdate]
+ concept_character_trait_desc:0 "Charaktereigenschaften sind Boni oder Mali, die aktiviert werden. "
+
+ concept_military:0 "Militär"
+ concept_military_desc:0 "Das Militär ist …" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_construction_queue:0 "Baureihe"
+ concept_construction_queue_desc:0 "Jeder [concept_state] kann mit jeweils einem [concept_building] erweitert werden. Alle anderen warten hier, bis sie an der Reihe sind."
+
+ # [LocEditor:UntranslatedKey] `concept_under_construction`
+ # [LocEditor:UntranslatedKey] `concept_under_construction_desc`
+
+ concept_political_strength:0 "Politische Stärke"
+ concept_political_strength_desc:0 "#todo Political Strength is the total amount of Political Strength a group of [Concept('concept_pop', '$concept_pops$')] get from their [concept_status], their [concept_wealth] and the amount of [concept_votes] they cast.#!" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_urban_center:0 "Stadtzentrum"
+ concept_urban_centers:0 "Stadtzentren" # [LocEditor:AwaitingBatchUpdate]
+ concept_urban_center_desc:0 "Ein Stadtzentrum ist eine besondere Art von [concept_building], die durch [concept_urbanization] entsteht."
+
+ concept_urbanization:0 "Urbanisierung"
+ concept_urbanization_desc:0 "Urbanisierung wird durch die meisten [Concept('concept_building', '$concept_buildings$')] in einem [concept_state] erzeugt. Für je [GetDefine('NEconomy','URBANIZATION_PER_BUILDING')|v] Urbanisierung in einem [concept_state] wird eine [Concept('concept_urban_center', 'Stadtzentrums')]-Stufe erzeugt."
+  
+ concept_ideology:0 "Ideologie"
+ concept_ideologies:0 "Ideologien"
+ concept_ideology_desc:0 "Die Ideologie bestimmt, welchen [Concept('concept_law', 'Gesetzen')] eine [concept_interest_group] zustimmt und welche sie ablehnt. Um ein [concept_law] zu erlassen, muss mindestens eine der [Concept('concept_interest_group', '$concept_interest_groups$')] in der Regierung ihm zustimmen."
+
+ concept_subsistence_output:0 "Subsistenzausstoß"
+ concept_subsistence_output_desc:0 "Dies ist eine weitere Form des Einkommens, das [concept_peasants] durch Subsistenzwirtschaft generieren können: Sie stellen dabei einfach Waren her, um sich selbst zu versorgen.\n\nIm Gegensatz zu Gehältern wird [concept_subsistence_output] nicht mit den Einnahmen [Concept('concept_building', '$concept_building_possessive$')] ausbezahlt und unterliegt daher keinen [concept_budget_income_taxes]."
+  
+ concept_good_production:0 "Produktion"
+ concept_good_production_desc:0 "Die durch [Concept('concept_building', '$concept_buildings$')] oder [Concept('concept_pop', '$concept_pops$')] produzierte Menge an Waren."
+  
+ concept_good_consumption:0 "Verbrauch"
+ concept_good_consumption_desc:0 "Die durch [Concept('concept_building', '$concept_buildings$')] oder [Concept('concept_pop', '$concept_pops$')] verbrauchte Menge an Waren."
+  
+  
+ concept_split_state:0 "Teilstaat"
+ # [LocEditor:UntranslatedKey] `concept_split_state_short`
+ concept_split_state_desc:0 "Ein Teilstaat ist eine [concept_state_region], die in mehrere kleinere [Concept('concept_state', '$concept_states$')] unterteilt wurde. Übernimmt ein [concept_country] die Kontrolle über mehrere Teilstaaten, werden sie zu einem einzelnen Staat vereint." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_unincorporated_state:0 "Nicht-inkorporierter Staat"
+ concept_unincorporated_states:0 "Nicht-inkorporierte Staaten"
+ concept_unincorporated_state_desc:0 "Ein Nicht-inkorporierter Staat wird zwar von einem [concept_country] kontrolliert, wird aber als territorialer Besitz oder „Grenzgebiet“ betrachtet, das nicht wirklich zum eigentlichen Land gehört. [Concept('concept_pop', '$concept_pops$')|U], die hier leben, sind entrechtet und tragen nichts zur [Concept('concept_political_strength', 'Politischen Stärke')] ihrer [Concept('concept_interest_group', '$concept_interest_groups$')] bei. Ein Nicht-inkorporierter Staat kann zu einem [Concept('concept_incorporated_state', 'Inkorporierten Staat')] werden, wenn man ihn der direkten Verwaltung der Zentralautorität [concept_country_possessive] unterstellt."
+  
+ concept_colonial_state:0 "Kolonialstaat"
+ concept_colonial_states:0 "Kolonialstaaten" # [LocEditor:AwaitingBatchUpdate]
+ concept_colonial_state_desc:0 "Ein Kolonialstaat ist eine besondere Form des [Concept('concept_unincorporated_state', 'Nicht-inkorporierten Staats')], die meist durch den Aufbau einer [concept_colony] in einer [concept_decentralized_nation] oder durch eine Eroberung von Gebieten von [Concept('concept_unrecognized_power', 'Nebenmächten')] entsteht. Ein Kolonialstaat, der irgendwo an einen Nicht-Kolonialstaat grenzt, welcher zum selben [concept_country] gehört, verliert seinen Kolonialstatus und wird ein gewöhnlicher [concept_unincorporated_state].\n\nKolonialstaaten haben einen Bonus beim Anziehen von Migration und werden durch bestimmte Modifikatoren der Kolonial-[Concept('concept_law', '$concept_laws$')] und -[Concept('concept_institution', '$concept_institutions$')] beeinflusst." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_decentralized_nation:0 "Dezentral-Nation"
+ concept_decentralized_nations:0 "Dezentral-Nationen" # [LocEditor:AwaitingBatchUpdate]
+ concept_decentralized_nation_desc:0 "Das Land einer Dezentral-Nation kann von Kolonisatoren besiedelt werden."
+  
+ concept_arable_land:0 "Ackerland"
+ concept_arable_land_desc:0 "Ackerland ist eine Ressource, die für eine ganze Reihe von Ressourcenindustrien nutzbar ist, um eine breite Palette an [Concept('concept_good', '$concept_goods$')] herzustellen. Ist es nicht anderweitig belegt, wird es vom [concept_subsistence_building] „Subsistenzhof“ genutzt."
+  
+ concept_state_resource:0 "Staatsressource"
+ concept_state_resource_desc:0 "Diese Ressource kann durch Ressourcenindustrien ausgebeutet werden und sorgt für [Concept('concept_good', '$concept_goods$')], die dann von Fertigungswerken oder Handel verwendet werden können."
+
+ concept_state_region:0 "Staatsregion"
+ concept_state_regions:0 "Staatsregionen"
+ concept_state_region_desc:0 "Eine Staatsregion entspricht oft einem einzelnen [concept_state], aber kann im Fall von [Concept('concept_split_state', 'Teilstaaten')] mehrere [Concept('concept_state', '$concept_states$')] umfassen." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_occupancy:0 "Belegung"
+ concept_occupancy_desc:0 "Das Vorhandensein benötigter Arbeitskräfte und die Ausstoßrate des Gebäudes. Gebäude werben an und befördern, um die Nachfrage zu decken."
+  
+ concept_votes:0 "Stimmen"
+ concept_votes_desc:0 "Die [Concept('concept_law', '$concept_laws$')] eines Landes entscheiden darüber, wie viele Stimmen unterschiedliche Arten von [Concept('concept_pop', '$concept_pops$')] abgeben dürfen. Stimmen werden vor allem an die [concept_interest_group] vergeben, die die Pop unterstützt. Durch das [concept_momentum] der Gruppe bei der laufenden [concept_election] kann dies jedoch abweichen. Nach dem Wahltag steht die Zahl der Stimmen bis zur nächsten Wahl fest."
+  
+ concept_ig_population:0 "Interessengruppen-Population"
+ concept_ig_population_desc:0 "Die Zahl der [Concept('concept_pop', '$concept_pops$')], die Teil dieser Interessengruppe sind."
+  
+ concept_ig_approval:0 "Zustimmung"
+ concept_ig_approves:0 "Stimmt zu"
+ concept_ig_approve:0 "Zustimmen"
+ concept_ig_approving:0 "Zustimmend"
+ concept_ig_disapproval:0 "Ablehnung"
+ concept_ig_disapproves:0 "Lehnt ab"
+ concept_ig_disapprove:0 "Ablehnen"
+ concept_ig_disapproving:0 "Ablehnend"
+ concept_ig_indifferent:0 "Gleichgültig"
+ concept_ig_approval_desc:0 "Die Zustimmung oder Ablehnung einer $concept_interest_group$ bestimmt darüber, wie gut oder schlecht die [Concept('concept_law', '$concept_laws$')] ihres [Concept('concept_country', 'Landes')] zu ihren [Concept('concept_ideology', '$concept_ideologies$')] passen und wie loyal die [Concept('concept_pop', '$concept_pops$')] in der [concept_interest_group] sind. Sie bestimmt auch darüber, welche [Concept('concept_interest_group_trait', '$concept_interest_group_traits$')] aktiviert werden. Gibt es weder Zustimmung noch Ablehnung, ist die $concept_interest_group$ gleichgültig." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_pol_str:0 "Politische Stärke"
+ concept_pol_str_desc:0 "Das Maß an Macht einer [concept_pop] (und daher auch ihrer [concept_interest_group]) in Bezug auf die Politik des eigenen Landes. Die Politische Stärke bestimmt darüber, wie viel [Concept('concept_clout', 'Politischen Druck')] die Gruppe ausüben kann, und leitet sich aus dem [Concept('concept_status', 'Unterstützungsstatus')] und dem [concept_wealth] der [Concept('concept_pop', '$concept_pops$')] her sowie aus den [concept_votes], die die [concept_interest_group] bei der letzten [concept_election] erhalten hat."
+
+ concept_clout:0 "Politischer Druck"
+ concept_clout_desc:0 "Politischer Druck ist das Maß an [Concept('concept_pol_str', 'Politischer Stärke')], die eine [concept_interest_group] durch ihre [Concept('concept_pop', '$concept_pops$')] als Anteil vom Gesamtwert des Landes erhält. Ein hoher Politischer Druck wirkt sich positiv auf die [concept_legitimacy] aus, wenn die [concept_interest_group] [concept_in_government|l] ist. Eine Gruppe mit niedrigem [Concept('concept_clout', 'Politischem Druck')] gilt als [concept_marginalized|l]."
+
+ concept_powerful:0 "Mächtig"
+ concept_powerful_desc:0 "Das Maß an [Concept('concept_clout', 'Politischem Druck')], den eine [concept_interest_group] hat, bestimmt darüber, ob sie mächtig oder einflussreich ist. Hat man über #variable [GetDefine('NPolitics', 'POWERFUL_IG_THRESHOLD')|%0]#! [concept_clout], gilt die Interessengruppe als mächtig. Mächtig zu sein, heißt, dass die Auswirkungen der [concept_interest_group_trait] [concept_interest_group_possessive] eine um #variable [GetDefine('NPolitics', 'POWERFUL_IG_TRAIT_BONUS')|=%0]#! stärkere Wirkung haben."
+
+ concept_influential:0 "Einflussreich"
+ concept_influential_desc:0 "Das Maß an [Concept('concept_clout', 'Politischem Druck')], den eine [concept_interest_group] hat, bestimmt darüber, ob sie mächtig oder einflussreich ist. Einflussreich zu sein, heißt, dass die Auswirkungen der [concept_interest_group_trait] [concept_interest_group_possessive] schwächer sind als bei [concept_powerful]."
+
+ concept_status:0 "Status"
+ concept_status_desc:0 "Status zeigt an, wie angesehen eine [concept_pop] im eigenen [concept_country] ist. Die eigenen [Concept('concept_law', '$concept_laws$')] bestimmen darüber, welchen Status [Concept('concept_pop', '$concept_pops$')] unterschiedlicher [Concept('concept_profession', 'Berufe')] haben."
+  
+ concept_marginalized:0 "Randständig"
+ concept_marginalized_desc:0 "Randständige [Concept('concept_interest_group', '$concept_interest_groups$')] haben zu wenig Unterstützung, um politisch bemerkenswert zu sein. Sie können nicht Teil der Regierung sein und auch keinen wirklichen Ärger machen."
+  
+ concept_politically_inactive:0 "Politisch inaktiv"
+ concept_politically_inactive_desc:0 "Politisch inaktive Pops sind Pops, die nicht Teil einer [concept_interest_group] sind. Das kann an einem niedrigen [concept_sol] oder niedriger [concept_literacy] liegen. Sie nehmen nicht am politischen Leben im eigenen Land teil, sodass sie auch keinen Beitrag zum [Concept('concept_clout', 'Politischen Druck')] [concept_interest_group_possessive] leisten."
+
+ concept_investment_level:0 "Investitionsstufe"
+ concept_investment_levels:0 "Investitionsstufen" # [LocEditor:AwaitingBatchUpdate]
+ concept_investment_level_desc:0 "Die Investitionsstufe ist …" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_trade_lens:0 "Handelslinse"
+ concept_trade_lens_desc:0 "In der Handelslinse kann man sich die Handelsaspekte des eigenen Landes ansehen und anpassen."
+  
+ concept_production_lens:0 "Produktionslinse"
+ concept_production_lens_desc:0 "In der Produktionslinse kann man sich die Produktionsaspekte des eigenen Landes ansehen und anpassen."
+  
+ concept_political_lens:0 "Politiklinse"
+ concept_political_lens_desc:0 "In der Politiklinse kann man sich die politischen Aspekte des eigenen Landes ansehen und anpassen."
+  
+ concept_diplomatic_lens:0 "Diplomatielinse"
+ concept_diplomatic_lens_desc:0 "In der Diplomatielinse kann man sich die diplomatischen Aspekte des eigenen Landes ansehen und anpassen."
+  
+ concept_military_lens:0 "Militärlinse"
+ concept_military_lens_desc:0 "In der Militärlinse kann man sich die militärischen Aspekte des eigenen Landes ansehen und anpassen."
+  
+ concept_country:0 "Land"
+ concept_countries:0 "Länder" # [LocEditor:AwaitingBatchUpdate]
+ concept_country_possessive:0 "des Landes"
+ concept_country_desc:0 "Ein Land ist …\n\nDer Spieler übernimmt die Rolle einer unsichtbaren lenkenden Hand, die das Land durch die Viktorianische Ära führt und es dabei formt." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_decree:0 "Erlass"
+ # [LocEditor:UntranslatedKey] `concept_decrees`
+ concept_decree_desc:0 "Ein Erlass ist …" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_population:0 "Bevölkerung"
+ concept_population_desc:0 "Die Bevölkerung des eigenen Landes sind all die Menschen, die in der Industrie, in der Regierung und im Militär arbeiten. Die [concept_taxation] dieser Menschen ist die Haupteinnahmequelle eines Landes. Ihre Loyalität und ihre Forderungen werden entweder dienlich oder hinderlich sein."
+  
+ concept_pop_needs:0 "Bedarfe"
+ concept_pop_needs_desc:0 "[Concept('concept_pop', '$concept_pops$')|U] geben ihr Einkommen für [Concept('concept_good', '$concept_goods$')] aus, um ihre Bedarfe zu erfüllen. Je höher der [concept_wealth] einer Pop, desto mehr $concept_goods$ wird sie kaufen. Pops entwickeln aber auch vielfältigere und luxuriösere Bedarfe, wenn ihr Wohlstand steigt. Ein bestimmter Bedarf kann über die [concept_goods_substitution] oft durch eine breitere Vielfalt an Waren befriedigt werden. Hat die Pop noch Geld übrig, sobald sie ihre Bedarfe erfüllt hat, erhöht sich ihr Wohlstand (oder umgekehrt!)."
+  
+ concept_army_budget:0 "Heeres-Etat"
+ concept_army_budget_desc:0 "Der Heeres-/Marine-Etat wird wöchentlich aufgewendet, um [Concept('concept_good', '$concept_goods$')] in den Kasernen zu kaufen, die dann von den im Feld befindlichen [Concept('concept_battalion', 'Bataillonen')] verbraucht werden."
+
+ concept_battalion:0 "Bataillon"
+ concept_battalions:0 "Bataillone" # [LocEditor:AwaitingBatchUpdate]
+ concept_battalion_desc:0 "Bataillone sind ein Maß für das Menschenmaterial des Heeres. Es entspricht einer Bevölkerung von 1.000, deren Mitglieder in [Concept('concept_barrack', '$concept_barracks$')] arbeiten." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_warship:0 "Kriegsschiff"
+ concept_warships:0 "Kriegsschiffe" # [LocEditor:AwaitingBatchUpdate]
+ concept_warship_desc:0 "Kriegsschiffe sind ein Maß für das Menschenmaterial der Marine. Es entspricht einer Bevölkerung von 1.000, deren Mitglieder in [Concept('concept_naval_base', '$concept_naval_bases$')] arbeiten." # [LocEditor:AwaitingBatchUpdate]
+  
+ # [LocEditor:UntranslatedKey] `concept_construction_sector`
+ # [LocEditor:UntranslatedKey] `concept_construction_sector_desc`
+
+ concept_barrack:0 "Kaserne"
+ concept_barracks:0 "Kasernen" # [LocEditor:AwaitingBatchUpdate]
+ concept_barrack_desc:0 "Kasernen erzeugen [Concept('concept_battalion', '$concept_battalions$')]." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_naval_base:0 "Marinebasis"
+ concept_naval_bases:0 "Marinebasen" # [LocEditor:AwaitingBatchUpdate]
+ concept_naval_base_desc:0 "Marinebasen erzeugen [Concept('concept_warship', '$concept_warships$')]." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_in_government:0 "In der Regierung"
+ concept_in_government_desc:0 "Eine [concept_interest_group] in der Regierung trägt ihren [Concept('concept_clout', 'Politischen Druck')] zur [concept_legitimacy] bei, was wiederum darüber bestimmt, wie schnell [Concept('concept_law', '$concept_laws$')] erlassen werden können. Um ein [concept_law] zu erlassen, muss mindestens eine der $concept_interest_groups$ in der Regierung ihm zustimmen."
+
+ concept_in_opposition:0 "In der Opposition"
+ concept_in_opposition_desc:0 "Ist eine [concept_interest_group] in der Opposition, ist sie nicht Teil der Regierung und erhält einen Zustimmungsmalus."
+  
+ concept_legitimacy:0 "Regierungslegitimität"
+ concept_legitimate:0 "Legitim"
+ concept_legitimacy_desc:0 "Die Regierungslegitimität gibt an, wie gut die Zusammensetzung der [Concept('concept_interest_group', '$concept_interest_groups$')] [concept_in_government|l] zu den [Concept('concept_law', '$concept_laws$')] des Landes passt. Sie wirkt sich darauf aus, wie schnell [concept_laws] erlassen werden."
+  
+ concept_market_capital:0 "Marktsitz"
+ concept_market_capital_desc:0 "Der Marktsitz ist der Mittelpunkt eines [Concept('concept_market', 'Markts')], mit dem alle [Concept('concept_trade_route', '$concept_trade_routes$')] verbunden sind. Das Maß an [concept_market_access] der jeweiligen [concept_state_region] auf den [concept_market] hängt von der jeweiligen [concept_infrastructure]-Verbindung mit dem [concept_market_capital] ab.\n\nDer Marktsitz liegt meist in der [concept_state_region] des [Concept('concept_capital_state', 'Haupstaats')] [concept_market_controller_possessive]."
+  
+ concept_market_controller:0 "Marktlenker"
+ concept_market_controller_possessive:0 "des Marktlenkers"
+ concept_market_controller_desc:0 "Der Marktlenker ist der Besitzer eines Markts …"
+
+ concept_ownership_share:0 "Besitzanteil"
+ concept_ownership_shares:0 "Besitzanteile" # [LocEditor:AwaitingBatchUpdate]
+ concept_ownership_share_desc:0 "Eine [concept_pop], die einen Anteil an einem [concept_building] besitzt, erhält einen Teil seiner Gewinne als Einkommen. Die Menge hängt davon ab, wie groß ihr Anteil an den Gesamtanteilen des Gebäudes ist. Sie besitzt nominell auch einen Anteil an den [concept_cash_reserves] des Gebäudes. Nur Pops, die in dem Gebäude arbeiten, können auch Anteile an ihm halten. Besitzanteile bestimmen sich vor allem durch die [Concept('concept_production_method', '$concept_production_methods$')] des Gebäudes, können aber auch aus anderen Quellen stammen – wie beispielsweise aus [Concept('concept_law', 'Gesetzen')] und [Concept('concept_technology', '$concept_technologies$')]."
+  
+ concept_market_share:0 "Marktanteil"
+ concept_market_share_desc:0 "Der Marktanteil eines [Concept('concept_country', 'Landes')] an einem [concept_market] wird durch die Zahl seiner [concept_buy_orders] und [concept_sell_orders] bestimmt, die es für den [concept_market] generiert, und weiter erhöht, wenn es der [concept_market_controller] ist. Je höher der Marktanteil [concept_country_possessive], desto mehr [Concept('concept_consumption_tax', '$concept_consumption_taxes$')] erhält es durch den [concept_market]." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_default:0 "Bankrott"
+ concept_default_desc:0 "Bankrott zu sein, heißt …" # [LocEditor:AwaitingBatchUpdate]
+ 
+ # [LocEditor:UntranslatedKey] `concept_bankruptcy`
+ # [LocEditor:UntranslatedKey] `concept_bankruptcy_desc`
+
+ concept_embargo:0 "Embargo"
+ concept_embargoed:0 "Unter Embargo" # [LocEditor:AwaitingBatchUpdate]
+ concept_embargos:0 "Embargos" # [LocEditor:AwaitingBatchUpdate]
+ concept_embargoing:0 "Unter Embargo" # [LocEditor:AwaitingBatchUpdate]
+ concept_embargo_desc:0 "Der [concept_market_controller] kann sich entscheiden, eine [concept_good] mit einem [Concept('concept_embargo', 'Embargo')] zu belegen. Das heißt, dass … ähm. Irgendwas." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_encourage_consumption:0 "Verbrauch fördern"
+ concept_encouraging_consumption:0 "Verbrauche fördern" # [LocEditor:AwaitingBatchUpdate]
+ concept_encourage_consumption_desc:0 "Verbrauch fördern heißt …" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_discourage_consumption:0 "Verbrauch vermeiden"
+ concept_discouraging_consumption:0 "Verbrauche vermeiden" # [LocEditor:AwaitingBatchUpdate]
+ concept_discourage_consumption_desc:0 "Verbrauch vermeiden heißt …" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_consumption_tax:0 "Verbrauchssteuer"
+ concept_consumption_taxes:0 "Verbrauchssteuern" # [LocEditor:AwaitingBatchUpdate]
+ concept_consumption_tax_desc:0 "Verbrauchssteuern sind …" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_loyalist:0 "Loyalist"
+ concept_loyalists:0 "Loyalisten" # [LocEditor:AwaitingBatchUpdate]
+ concept_loyalist_desc:0 "Eine Pop, die ihrem Land gegenüber loyal und treu ergeben ist …"
+  
+ concept_radical:0 "Radikaler"
+ concept_radicals:0 "Radikale" # [LocEditor:AwaitingBatchUpdate]
+ concept_radical_desc:0 "Eine Pop, die ihrem Land nicht mehr treu ist …"
+  
+ concept_radicalized:0 "Radikalisiert"
+ concept_radicalized_desc:0 "Wenn sie stärker werden, könnten Revolutionäre aus ihnen werden; wenn man ihren Forderungen nachgibt, verlieren sie eventuell ihre Radikalität."
+  
+ concept_de_radicalize:0 "Entradikalisiert"
+ concept_de_radicalize_desc:0 "Könnten entradikalisiert werden, wenn man einem Teil ihrer Anliegen nachkommt."
+  
+ concept_rivalry:0 "Rivalität"
+ concept_rivals:0 "Rivalen" # [LocEditor:AwaitingBatchUpdate]
+ concept_rival:0 "Rivale" # [LocEditor:AwaitingBatchUpdate]
+ concept_rivalries:0 "Rivalitäten" # [LocEditor:AwaitingBatchUpdate]
+ concept_rivalry_desc:0 "Eine Rivalität einzugehen, erlaubt einem Land, in Diplomatiespiele einzugreifen, die das andere Land beginnt, und gewährt auch Einfluss für jedes [concept_interest], das die [Concept('concept_country', '$concept_countries$')] gemeinsam haben." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_colony:0 "Kolonie"
+ concept_colonys:0 "Kolonien" # [LocEditor:AwaitingBatchUpdate]
+ concept_colonies:0 "Kolonien" # [LocEditor:AwaitingBatchUpdate]
+ concept_colony_desc:0 "Kolonien sind groß angelegte Besiedlungsbemühungen, die von Groß- und Mittelmächten auf dem Land einer [concept_decentralized_nation] durchgeführt werden. Sie beginnen als kleines Stück Land, wachsen aber im Lauf der Zeit entsprechend des Koloniezuwachses des Landes.\n\nNach der Erschaffung beginnt eine Kolonie als [concept_colonial_state], sofern sie nicht an einen Nicht-Kolonialstaat grenzt, der demselben [concept_country] gehört."
+  
+ # [LocEditor:UntranslatedKey] `concept_innovation`
+ # [LocEditor:UntranslatedKey] `concept_innovation_desc`
+  
+ concept_technology_spread:0 "Technikverbreitung"
+ concept_technology_spread_desc:0 "Technikverbreitung"
+  
+ concept_technology_era:0 "Technikära"
+ concept_technology_era_desc:0 "Jede Ära im Spiel enthält eine gewisse Zahl an Techniken, und jede Ära schränkt ein, wie man sie erlangen kann."
+  
+ concept_escalation:0 "Eskalation"
+ concept_escalation_desc:0 "Die Eskalation eines [Concept('concept_diplomatic_play', 'Diplomatiespiels')] schreitet beständig voran und unterteilt sich in drei unterschiedliche Phasen: #b Eröffnung#!, #b Schachzüge#! und #b Kriegsvorlauf#!. Die jeweilige Phase des [Concept('concept_diplomatic_play', 'Diplomatiespiels')] bestimmt darüber, welche Aktionen den Beteiligten zur Verfügung stehen. Erreicht die Eskalation 100, bricht ein Krieg aus."
+
+ concept_combat_width:0 "Schlachtbreite"
+ concept_combat_width_desc:0 "Die Schlachtbreite eines Geländes bestimmt darüber, inwieweit die größere Seite eine mögliche nummerische Übermacht im Kampf gegen die kleinere Seite nutzen kann."
+
+ concept_infamy:0 "Verrufenheit"
+ concept_infamy_desc:0 "Verrufenheit ist …"
+  
+ concept_diplomatic_incident:0 "Diplomatenzwischenfall"
+ concept_diplomatic_incidents:0 "Diplomatenzwischenfälle"
+ concept_diplomatic_incident_desc:0 "Ein Diplomatenzwischenfall ist …"
+  
+ concept_tension:0 "Spannung"
+ concept_tensions:0 "Spannungen" # [LocEditor:AwaitingBatchUpdate]
+ concept_tension_desc:0 "Spannungen sind ein Maß dafür, wie belastet die Beziehungen zwischen einem kolonisierenden [concept_country] und einer [concept_decentralized_nation] sind. Spannungen mit [Concept('concept_decentralized_nation', '$concept_decentralized_nations$')] in der Nähe wachsen jedes Mal, wenn ein [concept_country] eine [concept_province] [Concept('concept_colonize', 'kolonisiert')|l], und sinken im Lauf der Zeit von allein.\n\nSteigt die Spannungsstufe auf #b $TENSION_VOLATILE$#!, kann eine weitere Kolonisierung zu einem [concept_native_uprising] führen." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_relation:0 "Beziehung"
+ concept_relations:0 "Beziehungen" # [LocEditor:AwaitingBatchUpdate]
+ concept_relation_desc:0 "Eine Beziehung steht für die offiziellen Verbindungen zwischen zwei [Concept('concept_country', 'Ländern')]." # [LocEditor:AwaitingBatchUpdate]
+  
+ # [LocEditor:UntranslatedKey] `concept_ai_strategy`
+ # [LocEditor:UntranslatedKey] `concept_ai_strategies`
+ # [LocEditor:UntranslatedKey] `concept_ai_strategy_desc`
+  
+ concept_strategic_desire:0 "Strategisches Interesse"
+ concept_strategic_desire_desc:0 "KI-gesteuerte [Concept('concept_country', '$concept_countries$')] können ein Strategisches Interesse an anderen [Concept('concept_country', 'Ländern')] haben, die sie für bedeutsam für ihre [Concept('concept_objective', '$concept_objectives$')] halten. Das Strategische Interesse, das sie an einem [concept_country] haben, bestimmt über ihre [concept_attitude] sowie andere Faktoren wie [Concept('concept_relation', '$concept_relations$')] und [concept_infamy]." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_attitude:0 "Haltung"
+ concept_attitude_desc:0 "Die Haltung sind die Pläne eines KI-Landes für das Land des Spielers (wird beeinflusst durch andere Werte)."
+
+ concept_instant_diplomatic_action:0 "Diplomaten-Sofortaktion"
+ concept_instant_diplomatic_action_desc:0 "Eine Diplomaten-Sofortaktion ist …" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_ongoing_diplomatic_action:0 "Laufende Diplomaten-Sofortaktion"
+ concept_ongoing_diplomatic_action_desc:0 "Eine laufende Diplomaten-Sofortaktion ist …" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_diplomatic_pact:0 "Diplomatiepakt"
+ concept_diplomatic_pact_desc:0 "Ein Diplomatiepakt ist …" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_oppose:0 "Dagegen"
+ concept_oppose_desc:0 "Wer gegen ein [concept_diplomatic_play] ist, das zu einem Krieg eskaliert, wird sich der gegnerischen Seite des Spiels anschließen."
+  
+ concept_support:0 "Unterstützt"
+ concept_support_desc:0 "Wer ein [concept_diplomatic_play] unterstützt, das zu einem Krieg eskaliert, wird sich der unterstützenden Seite des Spiels anschließen."
+
+ concept_war_reparations:0 "Kriegsreparationen"
+ concept_war_reparations_desc:0 "Kriegsreparationen sind …" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_open_market:0 "Markteröffnung"
+ concept_open_market_desc:0 "Die Markteröffnung ist …"
+  
+ concept_humiliation:0 "Demütigung"
+ concept_humiliated:0 "Gedemütigt" # [LocEditor:AwaitingBatchUpdate]
+ concept_humiliate:0 "Demütigen" # [LocEditor:AwaitingBatchUpdate]
+ concept_humiliation_desc:0 "Eine Demütigung ist …"
+
+ concept_customs_union:0 "Zollunion"
+ concept_customs_union_desc:0 "Eine Zollunion ist …"
+
+ concept_senior_partner:0 "Seniorpartner"
+ concept_senior_partner_desc:0 "#todo The Senior Partner in a [concept_customs_union] gains control of the [concept_junior_partner]'s [concept_market].#!"
+
+ concept_junior_partner:0 "Juniorpartner"
+ concept_junior_partner_desc:0 "#todo The Junior Partner in a [concept_customs_union] yields control of their [concept_market] to the [concept_senior_partner].#!"
+
+ concept_alliance:0 "Bündnis"
+ concept_alliances:0 "Bündnisse" # [LocEditor:AwaitingBatchUpdate]
+ concept_alliance_desc:0 "Ein Bündnis ist …"
+
+ concept_protectorate:0 "Protektorat"
+ concept_protectorate_desc:0 "Ein Protektorat ist …" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_puppet:0 "Marionette"
+ concept_puppet_desc:0 "Eine Marionette ist …" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_personal_union:0 "Personalunion"
+ concept_personal_union_desc:0 "Eine Personalunion ist …" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_dominion:0 "Dominion"
+ concept_dominion_desc:0 "Ein Dominion ist …"
+  
+ concept_tributary:0 "Tributgeber" #remove
+ concept_tributary_desc:0 "Ein Tributgeber ist …" #remove
+  
+ concept_vassal:0 "Vasall"
+ concept_vassal_desc:0 "Ein Vasall ist …"
+  
+ concept_yield:0 "Ertrag"
+ concept_yield_desc:0 "TODO concept_yield_desc"
+  
+ concept_abstain:0 "Enthalten"
+ concept_abstain_desc:0 "Wer weder für noch gegen ein [concept_diplomatic_play] ist, das zu einem Krieg eskaliert, wird sich dem Konflikt nicht anschließen und das [concept_interest] wird deaktiviert."
+  
+ concept_command_prio:0 "Kommando-Prio"
+ concept_command_prio_desc:0 "Kommandos werden vor allem durch die Kasernen in ihrer jeweiligen Strategieregion verstärkt und geben den Rest der Truppen dann an Kommandos weiter, die in der Prio-Reihenfolge niedriger stehen."
+  
+ concept_supply:0 "Versorgung"
+ concept_supply_desc:0 "Die derzeitige Versorgung des Befehlshabers. Sie nähert sich im Lauf der Zeit der durchschnittlichen Versorgung aller Befehlshaber-Einheiten an.\nDie Versorgung von Befehlshabern dient dazu, die Moral seiner sämtlichen Truppen wiederaufzubauen."
+  
+ concept_organization_tooltip:0 "Organisation"
+ concept_organization_tooltip_desc:0 "Die Organisation ist ein Wert, der anzeigt, wie organisiert und strukturiert dieses Kommando ist. Sie bestimmt über die [concept_combat_effectiveness] in Schlachten, und bei einer niedrigen Organisation wird der Charakter keine Schlachten einleiten. Organisation baut sich mit der Zeit auf, solange das Kommando gut versorgt ist."
+  
+ concept_battle_summary_warsupport:0 "Schlachtzusammenfassung (Kriegswille)"
+ concept_battle_summary_warsupport_desc:0 "Kriegswille erhält man durch den Sieg in Schlachten und Verluste des Gegners."
+  
+ concept_defend:0 "Verteidigen"
+ concept_defend_desc:0 "Dem Charakter den Befehl geben, seine Streitkräfte zu sammeln."
+  
+ concept_patrol:0 "Patrouillieren"
+ concept_patrol_desc:0 "Eine Route nach Feindschiffen patrouillieren."
+  
+ concept_defend_state:0 "Staat verteidigen"
+ concept_defend_state_desc:0 "Dem Charakter den Befehl geben, sich auf die Verteidigung eines bestimmten Staats zu konzentrieren."
+  
+ concept_conquer_state:0 "Staat erobern"
+ concept_conquer_state_desc:0 "Dem Charakter den Befehl geben, sich auf die Invasion eines bestimmten Staats zu konzentrieren."
+  
+ concept_set_objective:0 "Ziel festlegen"
+ concept_set_objective_desc:0 "Man erteilt dem Charakter einen Auftrag und sagt ihm damit, was man von ihm will. Er entscheidet dann jedoch darüber, wie er versuchen wird, dieses Ziel zu erreichen."
+  
+ concept_manage_character:0 "Charakter verwalten"
+ concept_manage_character_desc:0 "Wie man die Charaktere auf die Regionen verteilt, kann im Krieg das ganze Blatt wenden – oder die falschen Leute gegen einen aufbringen."
+  
+ concept_manpower:0 "Mannstärke"
+ concept_manpower_desc:0 "Die Zahl der Soldaten in diesem Kommando. Die Mannstärke, die [concept_morale] und das, womit die Einheit durch ihre Kasernen versorgt wird, bestimmen darüber, wie sich diese Soldaten in der Schlacht schlagen werden."
+
+ concept_morale:0 "Moral"
+ concept_morale_desc:0 "Die Moral ist …"
+  
+ concept_rank:0 "Rang"
+ concept_rank_desc:0 "Der Machtrang des eigenen Landes ergibt sich aus einem [concept_prestige]-Vergleich mit anderen [Concept('concept_country', 'Ländern')] in der ganzen Welt. Er bestimmt darüber, welche internationalen Aktivitäten dem Land erlaubt sind, was seine Bevölkerung erwartet und wo man in der weltweiten Hackordnung steht." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_migration:0 "Migration"
+ concept_migrating:0 "Migriert" # [LocEditor:AwaitingBatchUpdate]
+ concept_immigration:0 "Einwanderung" # [LocEditor:AwaitingBatchUpdate]
+ concept_immigrating:0 "Immigriere" # [LocEditor:AwaitingBatchUpdate]
+ concept_emigration:0 "Auswanderung" # [LocEditor:AwaitingBatchUpdate]
+ concept_emigrating:0 "Emigriere" # [LocEditor:AwaitingBatchUpdate]
+ concept_migration_desc:0 "Migration ist … (hier beide Arten von Migration erklären, sowohl innerhalb eines Markts als auch zwischen Staaten durch Migrationsziele)"
+
+ concept_migration_target:0 "Migrationsziel"
+ concept_migration_target_desc:0 "Ein Migrationsziel ist …"
+
+ concept_mass_migration_target:0 "Massenmigrationsziel"
+ concept_mass_migration_target_desc:0 "#todo A Mass Migration Target is...#!"
+
+ concept_base_price:0 "Grundpreis"
+ concept_base_price_desc:0 "Der Grundpreis ist …"
+
+ concept_capital_state:0 "Hauptstaat"
+ concept_capital_state_desc:0 "Im Hauptstaat befindet sich die Zentralregierung einer Nation. Ihn im Krieg zu kontrollieren, ist von großer Bedeutung, und die dort lebenden Pops haben mehr Einfluss auf die Politik."
+
+ concept_treaty_port:0 "Vertragshafen"
+ concept_treaty_port_desc:0 "Ein Vertragshafen ist …"
+
+ concept_prestige:0 "Prestige"
+ concept_prestige_desc:0 "Prestige wird durch eigene [Concept('concept_building', '$concept_buildings$')], das [concept_gdp] und die Zahl an [Concept('concept_interest', '$concept_interests$')] erzeugt, die man in der Welt hat." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_power_projection:0 "Machtprojektion"
+ concept_power_projection_desc:0 "Wenn man Macht projiziert, erzeugt man ein [concept_interest] in einer [concept_strategic_region], sodass man dort [Concept('concept_diplomatic_play', '$concept_diplomatic_plays$')] beginnen kann. Ein höherstufiges [concept_interest] eröffnet dem Land andere Möglichkeiten, zum Beispiel die Gründung von [Concept('concept_colony', '$concept_colonies$')]." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_dividends:0 "Dividenden"
+ concept_dividends_desc:0 "Solange [Concept('concept_building', '$concept_buildings$')] einen positiven Saldo haben, werden einige dieser Gewinne an [Concept('concept_pop', '$concept_pops$')] mit [Concept('concept_ownership_share', 'Besitzanteilen')] als $concept_dividends$ ausgezahlt."
+  
+ concept_credit:0 "Kredit"
+ concept_credit_desc:0 "Der Landeskredit ist die Menge an Geld, die eine Regierung sich aus inländischen Quellen leihen kann. Sie entspricht der Summe aller inländischen [concept_cash_reserves]."
+  
+ concept_principal:0 "Schulden"
+ concept_principal_desc:0 "Die Menge an Geldern (ohne Zinsen), die man sich derzeit inländisch geliehen hat."
+  
+ concept_domestic_loans:0 "Inlandsanleihen"
+ concept_loans:0 "Anleihen"
+ concept_domestic_loans_desc:0 "Inlandsanleihen sind Gelder, die sich ein [concept_country] von inländischen Quellen geliehen hat."
+  
+ concept_interest:0 "Interesse"
+ concept_interests:0 "Interessen"
+ concept_interest_desc:0 "Ein Interesse an einer [concept_strategic_region] zeigt der Welt, dass man an allen [Concept('concept_diplomatic_play', 'Diplomatiespielen')] in dieser Region teilnehmen will."
+
+ concept_command:0 "Kommando"
+ concept_commands:0 "Kommandos" # [LocEditor:AwaitingBatchUpdate]
+ concept_command_desc:0 "Ein Kommando ist ein [concept_commander] an einem [concept_theater]. Es hat eine Reihe von [Concept('concept_battalion', '$concept_battalions$')] oder Marine-Bataillonen, die von [Concept('concept_barrack', '$concept_barracks$')] oder [Concept('concept_naval_base', '$concept_naval_bases$')] versorgt werden. Die maximale Zahl von Bataillonen, die ein Kommando haben kann, hängt vom Rang des Befehlshabers ab." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_war_support:0 "Kriegswille"
+ concept_war_support_desc:0 "Eine Zahl von +100 bis -100, die beschreibt, wie gewillt die Bevölkerung eines [Concept('concept_country','Landes')] ist, einen Krieg fortzusetzen."
+
+ concept_war_exhaustion:0 "Kriegsmüdigkeit"
+ concept_war_exhaustion_desc:0 "#todo War exhaustion is...#!"
+
+ concept_theater:0 "Schauplatz"
+ concept_theaters:0 "Schauplätze"
+ concept_theater_desc:0 "Ein Schauplatz sind alle auf dem Landweg miteinander verbundenen Provinzen unter der Kontrolle eines [Concept('concept_country', 'Landes')] und seiner Verbündeten."
+  
+ concept_literacy:0 "Alphabetisierung"
+ concept_literacy_desc:0 "Die Zahl der [Concept('concept_pop', '$concept_pops$')], die lesen und schreiben können. Bestimmte [Concept('concept_profession', '$concept_professions$')] erfordern eine höhere Alphabetisierung als andere, sodass die [concept_pop_qualifications] für $concept_pops$ anderer Arten für die Beförderung zu dieser Art eingeschränkt sind. Investitionen in das eigene Bildungssystem führen im Lauf der Zeit zu einer höheren Alphabetisierung."
+  
+ concept_discrimination:0 "Diskriminierung"
+ concept_discriminated:0 "Diskriminiert" # [LocEditor:AwaitingBatchUpdate]
+ concept_discrimination_desc:0 "[Concept('concept_pop', '$concept_pops$')|U] können diskriminiert werden, wenn ihre [concept_culture] und/oder [concept_religion] in ihrem [concept_country] nicht akzeptiert wird. Diskriminierten $concept_pops$ bleiben bestimmte Berufe verwehrt, ihnen wird weniger bezahlt als ihren Kollegen, sie haben weniger [concept_political_strength] und sie emigrieren mit größerer Wahrscheinlichkeit. Gewisse [Concept('concept_law', '$concept_laws$')] können die Landesakzeptanz von [Concept('concept_culture', '$concept_cultures$')] und [Concept('concept_religion', '$concept_religions$')] steigern." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_turmoil:0 "Aufruhr"
+ concept_turmoil_desc:0 "[Concept('concept_state', '$concept_states$')|U] und [Concept('concept_culture', '$concept_cultures$')] in Aufruhr weisen [Concept('concept_radical', '$concept_radicals$')] auf, die mit ihren derzeitigen Lebensumständen unzufrieden sind. Das Ausmaß an Aufruhr entspricht dem Bruchteil der [Concept('concept_workforce', 'Beschäftigten')] [concept_state_possessive] oder [concept_culture_possessive], die [concept_radical] sind." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_unemployed:0 "Arbeitslos"
+ concept_unemployed_desc:0 "Arbeitslos ist …"
+  
+ concept_peasants:0 "@peasants! Bauern"
+ concept_peasant:0 "Bauer" # [LocEditor:AwaitingBatchUpdate]
+ concept_peasants_desc:0 "Bauern sind eine besondere Art von [concept_pop], die man nur in [Concept('concept_subsistence_building', 'Subsistenzgebäuden')] findet. Sie sind vor allem Selbstversorger, die sich durch ihren [concept_subsistence_output] selbst unterhalten, und nur ein Bruchteil ihrer [concept_pop_needs] zählen zu den [Concept('concept_buy_orders', 'Kaufaufträgen')] auf ihrem örtlichen [concept_market]." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_cultural_turmoil:0 "Kulturaufruhr"
+ concept_cultural_turmoil_desc:0 "[Concept('concept_culture', '$concept_cultures$')|U] mit hoher Aufruhr in der ganzen Welt werden sich irgendwann eine neue Heimat suchen, wohingegen [Concept('concept_culture', '$concept_cultures$')] mit hoher Aufruhr in einem bestimmten [concept_country] vielleicht versuchen könnten, es an sich zu reißen, um es zu ihrer Heimat zu machen. Übersteigt die Aufruhr der [Concept('concept_pop', 'Pops')] [concept_culture_possessive] #variable [GetDefine( 'NPolitics', 'SECESSION_TURMOIL_CUTOFF')]#!, können sie revoltieren. Für je #variable [GetDefine('NPops','MIGRATION_CULTURE_TARGET_TURMOIL')]#! Aufruhr können sie ein Ziel für Massenemigration erzeugen." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_taxes:0 "Steuern"
+ concept_taxes_desc:0 "[Concept('concept_country', '$concept_countries$')|U] können auf unterschiedliche Arten auf ihre Marktwirtschaft zugreifen. Die verbreitetsten Wege sind die Besteuerung der Bevölkerung über ihr Einkommen im Privatsektor und das Erheben von Steuern beim Kauf, Verkauf oder sonstigen Handel mit [Concept('concept_good', '$concept_goods$')]." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_general:0 "General"
+ concept_generals:0 "Generäle" # [LocEditor:AwaitingBatchUpdate]
+ concept_general_desc:0 "Solche Charaktere führen Armeen an Land."
+  
+ concept_admiral:0 "Admiral"
+ concept_admirals:0 "Admiräle" # [LocEditor:AwaitingBatchUpdate]
+ concept_admiral_desc:0 "Solche Charaktere führen Flotten zur See."
+  
+ concept_working_adults:0 "Erwachsene Arbeiterschaft"
+ concept_working_adult:0 "Erwachsene Arbeiterschaft" # [LocEditor:AwaitingBatchUpdate]
+ concept_working_adults_desc:0 "Die Erwachsene Arbeiterschaft ist Teil der [concept_population], die in [Concept('concept_building', 'Gebäuden')] arbeitet, und die Hauptquelle für Einnahmen und die [concept_political_strength] der Pop."
+  
+ concept_dependents:0 "Angehörige"
+ concept_dependents_desc:0 "Angehörige sind der nicht-arbeitende Teil der [concept_population]. Sie stehen für die Familien der [Concept('concept_working_adults', 'Erwachsenen Arbeiterschaft')]. Das Erlassen von gewissen [Concept('concept_law', 'Gesetzen')] oder der Unterhalt von [Concept('concept_institution', '$concept_institutions$')] kann Angehörige zu [Concept('concept_working_adults', 'Erwachsenen Arbeitern')] machen oder dabei helfen, dass sie einen Beitrag zum Einkommen oder zur [Concept('concept_political_strength', 'Politischen Stärke')] leisten können." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_disenfranchised:0 "Entrechtet"
+ concept_disenfranchised_desc:0 "Entrechtet zu sein, heißt …"
+
+ concept_input_mult:0 "Verbrauchsfaktor" # [LocEditor:AwaitingBatchUpdate]
+ concept_input_mult_desc:0 "Der Verbrauchsfaktor ist …" # [LocEditor:AwaitingBatchUpdate]
+
+ concept_throughput:0 "Durchsatz"
+ concept_throughput_desc:0 "Der Durchsatz ist …"
+
+ concept_combat_effectiveness:0 "Offensive und Defensive"
+ concept_combat_effectiveness_desc:0 "Die offensiven und defensiven Fähigkeiten Eurer Einheiten."
+ 
+ concept_offensive_combat_effectiveness:0 "Offensive"
+ concept_offensive_combat_effectiveness_desc:0 "Offensive ist …"
+
+ concept_defensive_combat_effectiveness:0 "Defensive"
+ concept_defensive_combat_effectiveness_desc:0 "Defensive ist …"
+
+ concept_slavery:0 "Sklaverei"
+ concept_enslaved:0 "Versklavt" # [LocEditor:AwaitingBatchUpdate]
+ concept_slavery_desc:0 "Sklaverei ist …"
+  
+ concept_native_uprising:0 "Einheimischenaufstand"
+ concept_native_uprising_desc:0 "Ein Einheimischenaufstand ist eine Art von [concept_diplomatic_play], das beginnen kann, wenn die [concept_tension] zwischen einem Kolonisator und einer [concept_decentralized_nation] auf #b $TENSION_VOLATILE$#! steigt. Bei diesem Spiel wird die [concept_decentralized_nation] ihre Krieger mobilisieren und versuchen, angrenzende [Concept('concept_state', '$concept_states$')] des Kolonisators zu erobern." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_radicalization:0 "Radikalisierung"
+ concept_radicalize:0 "Radikalisieren" # [LocEditor:AwaitingBatchUpdate]
+ concept_radicalization_desc:0 "TODO concept_radicalization_desc"
+  
+ concept_revolution:0 "Revolution"
+ concept_revolutions:0 "Revolutionen" # [LocEditor:AwaitingBatchUpdate]
+ concept_revolution_desc:0 "TODO concept_revolution_desc"
+
+ concept_civil_war:0 "Bürgerkrieg"
+ concept_civil_wars:0 "Bürgerkriege"
+ concept_civil_war_desc:0 "Ein Bürgerkrieg ist …"
+
+ concept_war:0 "Krieg"
+ concept_wars:0 "Kriege" # [LocEditor:AwaitingBatchUpdate]
+ concept_war_desc:0 "Krieg ist …"
+
+ concept_war_goal:0 "Kriegsziel"
+ concept_war_goals:0 "Kriegsziele" # [LocEditor:AwaitingBatchUpdate]
+ concept_war_goal_desc:0 "Ein Kriegsziel ist …"
+
+ concept_resource_potential:0 "Ressourcenvorkommen"
+ concept_resource_potentials:0 "Ressourcenvorkommen" # [LocEditor:AwaitingBatchUpdate]
+ concept_resource_potential_desc:0 "Ein Ressourcenvorkommen ist …"
+
+ concept_government_administration:0 "Regierungsverwaltung"
+ concept_government_administrations:0 "Regierungsverwaltungen" # [LocEditor:AwaitingBatchUpdate]
+ concept_government_administration_desc:0 "Regierungsverwaltung ist …"
+
+ concept_government:0 "Regierung"
+ concept_government_desc:0 "Regierung ist …"
+
+ concept_subject:0 "Klientelland"
+ concept_subjects:0 "Klientelländer" # [LocEditor:AwaitingBatchUpdate]
+ concept_subject_desc:0 "Ein Klientelland ist …"
+  
+ concept_inactive_interest:0 "Inaktives Interesse"
+ concept_inactive_interest_desc:0 "Ein Inaktives [concept_interest] ist …"
+
+ concept_active_interest:0 "Aktives Interesse"
+ concept_active_interest_desc:0 "Ein Aktives [concept_interest] ist …"
+  
+ concept_declared_interest:0 "Erklärtes Interesse"
+ concept_declared_interest_desc:0 "Ein Erklärtes [concept_interest] ist ein [concept_active_interest], das vom [concept_country] aufrechterhalten wird, indem es weiter ein Interesse an der [concept_strategic_region] erklärt, obwohl es dort keine Gebiete kontrolliert."
+
+ concept_great_power:0 "Großmacht"
+ concept_great_powers:0 "Großmächte" # [LocEditor:AwaitingBatchUpdate]
+ concept_great_power_desc:0 "Great Powers are those few [Concept('concept_country', $concept_countries$)] that run the world through global empires or total local dominance. They are in a constant standoff with other Great Powers for an edge and always wary of plucky Major Powers trying to ascend to greatness at their expense.\n#todo TODO rewrite this#!\n#todo Add list of current Great Powers if in-game#!" # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_major_power:0 "Mittelmacht"
+ concept_major_power_desc:0 "Major Powers have established themselves as notable through their regional presence. While they are not yet strong enough to establish a truly global empire they can be a major local force to be reckoned with, and the best among them may aspire to ascend to Great Power status.\n#todo TODO rewrite this#!"
+  
+ concept_minor_power:0 "Kleinmacht"
+ concept_minor_power_desc:0 "Minor Powers are pawns in the imperialist games of higher ranked powers, who often use them as buffer [Concept('concept_country', $concept_countries$)], puppets, or captive markets.\n#todo TODO rewrite this#!" # [LocEditor:AwaitingBatchUpdate]
+ 
+ concept_insignificant_power:0 "Winzmacht"
+ concept_insignificant_power_desc:0 "Insignicant Powers are even weaker than Minor Powers#todo TODO rewrite this#!"
+  
+ concept_subject_power:0 "Klientelmacht"
+ concept_subject_power_desc:0 "Subject Powers are subservient to other, more powerful polities and are largely unable to conduct independent diplomacy.\n#todo TODO rewrite this#!"
+  
+ concept_unrecognized_power:0 "Nebenmacht"
+ concept_unrecognized_power_desc:0 "Unrecognized Powers are polities that are perceived as inferior and uncivilized by the reigning Great Powers, who regard them as little more than potential future conquests. To advance to a higher rank, they must receive recognition from a Great Power through diplomacy or war.\n#todo TODO rewrite this#!"
+
+ # [LocEditor:UntranslatedKey] `concept_obligation`
+ # [LocEditor:UntranslatedKey] `concept_obligations`
+ # [LocEditor:UntranslatedKey] `concept_obligation_desc`
+  
+ concept_secession:0 "Sezession"
+ concept_secessions:0 "Sezessionen"
+ concept_secession_desc:0 "#todo concept_secession_desc #!"
+  
+ concept_profitability:0 "Profitabilität"
+ concept_profitability_desc:0 "Profitabilität ist der Ertrag pro Angestelltem im Vergleich zu allen anderen Gebäuden der Welt."
+  
+ concept_expeditionary_force:0 "Expeditionsstreitmacht"
+ concept_expeditionary_force_desc:0 "#todo concept_expeditionary_force_desc #!"
+
+ concept_commander_of_front:0 "Frontvorherrschaft"
+ concept_commander_of_front_desc:0 "#todo concept_commander_of_front_desc #!"
+
+ # [LocEditor:UntranslatedKey] `concept_construction`
+ # [LocEditor:UntranslatedKey] `concept_construction_desc`
+ 
+ concept_gdp:0 "Bruttoinlandsprodukt"
+ concept_gdp_short:0 "BIP" # [LocEditor:AwaitingBatchUpdate]
+ concept_gdp_desc:0 "Das Bruttoinlandsprodukt ist die Summe der [concept_market]-Preise aller hergestellten [Concept('concept_good', '$concept_goods$')] im eigenen [concept_country]."
+
+ concept_education_access:0 "Bildungszugang"
+ concept_education_access_desc:0 "Dies ist ein Maß dafür, wie leicht die Menschen einer [concept_pop] Zugang zu Bildung für ihre Kinder haben. Wenn neue Generationen geboren werden und aufwachsen, kann sich die [concept_literacy] verändern, wobei sie sich in Richtung des Bildungszugangs bewegt."
+
+ concept_isolated_state:0 "Exklavenstaatsregion"
+ concept_isolated_states:0 "Exklavenstaatsregionen" # [LocEditor:AwaitingBatchUpdate]
+ concept_isolated_state_adj:0 "Exklaven-" # [LocEditor:AwaitingBatchUpdate]
+ concept_isolated_state_desc:0 "Diese [concept_state_region] ist abgeschnitten von ihrem [concept_market], sodass sie nur ein sehr begrenztes Handelspotenzial hat und in Bezug auf den Handel mit keiner anderen [Concept('concept_state_region', '$concept_state_regions$')] verbunden ist. Dies führt zu sehr hohen Preisen für [Concept('concept_good', '$concept_goods$')], die nicht in dieser [concept_state_region] produziert werden. Um sie mit ihrem [concept_market] zu verbinden, muss man eine [concept_infrastructure_connection] zwischen der [concept_state_region] und ihrem [concept_market_capital] schaffen."
+
+ concept_input_goods_shortage:0 "Warenzufuhr-Knappheit"
+ concept_input_goods_shortages:0 "Warenzufuhr-Knappheiten" # [LocEditor:AwaitingBatchUpdate]
+ concept_input_goods_shortage_desc:0 "[Concept('concept_building', '$concept_buildings$')|U], die [Concept('concept_good', '$concept_goods$')] verbrauchen, erleiden einen Abzug auf den Ausstoß, wenn sie weniger als [GetDefine('NEconomy', 'GOODS_SHORTAGE_PENALTY_THRESHOLD')|v%0] ihrer [concept_buy_orders] für diese $concept_goods$ erfüllen können. Dies wird meist durch eine mangelnde Verfügbarkeit der [concept_good] auf dem [concept_market] [Concept('concept_building', '$concept_building_possessive$')] verursacht, kann aber auch durch einen zu geringen [concept_market_access] in der [concept_state_region] des Gebäudes verursacht werden."
+
+ concept_market:0 "Markt"
+ concept_markets:0 "Märkte" # [LocEditor:AwaitingBatchUpdate]
+ concept_market_possessive:0 "des Markts"
+ concept_market_desc:0 "Alle [Concept('concept_state', '$concept_states$')] im selben Markt handeln untereinander mit ihren [Concept('concept_good', '$concept_goods$')]. Wie gut diese Staaten in Bezug auf den Handel miteinander vernetzt sind, wird durch den [concept_market_access] des jeweiligen Staats bestimmt." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_market_access:0 "Marktzugriff"
+ concept_market_access_desc:0 "Der Marktzugriff ergibt sich aus der [concept_infrastructure_usage] verglichen mit der [concept_infrastructure] in der [concept_state_region]."
+
+ concept_infrastructure:0 "Infrastruktur"
+ concept_infrastructure_desc:0 "Infrastruktur entsteht durch Gebäude wie Eisenbahnen und Häfen. Sie bestimmt darüber, wie gut ein [concept_state] mit seinem [concept_market] verbunden ist."
+
+ concept_infrastructure_usage:0 "Infrastrukturnutzung"
+ concept_infrastructure_usage_desc:0 "Infrastrukturnutzung ist …"
+  
+ concept_infrastructure_connection:0 "Infrastrukturverbindung"
+ concept_infrastructure_connection_desc:0 "Eine Infrastrukturverbindung steht für das Maß an [concept_infrastructure], das sich zwischen zwei [Concept('concept_state_region', '$concept_state_regions$')] nachverfolgen lässt. Beim Ermitteln der Beschaffenheit der [concept_infrastructure] zwischen zwei $concept_state_regions$ ergeben Häfen eine niedrige [concept_infrastructure] für die $concept_state_regions$."
+
+ concept_good:0 "Ware"
+ concept_goods:0 "Waren"
+ concept_good_desc:0 "Waren werden durch Pops in Gebäuden produziert. Der Preis der Ware wird durch ihren Preis auf dem [concept_market] [concept_state_possessive] und durch dessen [concept_market_access] bestimmt."
+
+ concept_government_good:0 "Regierungsware"
+ concept_government_goods:0 "Regierungswaren" # [LocEditor:AwaitingBatchUpdate]
+ concept_government_good_desc:0 "Regierungs-[Concept('concept_good', '$concept_goods$')] sind $concept_goods$, die von Gebäuden verbraucht werden, welche gänzlich von der [concept_government] finanziert werden und nötig sind, um deren Betrieb aufrechtzuerhalten."
+
+ concept_military_good:0 "Militärware"
+ concept_military_goods:0 "Militärwaren" # [LocEditor:AwaitingBatchUpdate]
+ concept_military_good_desc:0 "Militär-[Concept('concept_good', '$concept_goods$')] sind $concept_goods$, die von Gebäuden verbraucht werden, welche dazu dienen, das Militär zu versorgen – sei es zu Lande oder zur See."
+
+ concept_state:0 "Staat"
+ concept_states:0 "Staaten"
+ # [LocEditor:UntranslatedKey] `concept_state_or_states`
+ concept_state_possessive:0 "des Staats"
+ concept_state_desc:0 "Ein Staat ist eine geografische Region, die von einem [concept_country] beherrscht wird. [Concept('concept_pop', '$concept_pops$')|U] leben und arbeiten in den [Concept('concept_building', 'Gebäuden')] im Staat. In den meisten Fällen gibt es nur einen Staat in der [concept_state_region], doch ein [concept_split_state] wird mehr als einen enthalten, die dann von unterschiedlichen [Concept('concept_country', 'Ländern')] kontrolliert werden. Ist der Staat eine [Concept('concept_isolated_state', 'Exklave')], wird er entsprechend seines [Concept('concept_market_access', 'Marktzugriffs')] mit anderen Staaten auf demselben [concept_market] Handel treiben." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_pop:0 "Pop"
+ concept_pops:0 "Pops"
+ concept_pop_possessive:0 "der Pop"
+ concept_pop_desc:0 "Eine Pop ist eine Gruppe von Menschen eines [Concept('concept_state', 'Staats')], die eine gemeinsame [concept_culture] und [concept_religion] haben sowie im selben [concept_building] und im selben [concept_profession] arbeiten. Sie nutzen das [concept_money], das sie verdienen, um [Concept('concept_good', '$concept_goods$')] zu kaufen, was wiederum über ihren [concept_wealth] bestimmt, der seinerseits dann ihren [concept_sol] festlegt. Sie können [Concept('concept_interest_group', '$concept_interest_groups$')] unterstützen oder [concept_politically_inactive|l] sein. Eine Pop hat eine gewisse Zahl von [Concept('concept_working_adults', 'Erwachsenen Arbeitern')] sowie eine gewisse Zahl von [concept_dependents]."
+
+ concept_profession:0 "Beruf"
+ concept_professions:0 "Berufe"
+ concept_profession_desc:0 "Ein Beruf ist …"
+
+ concept_production_method:0 "Produktionsmethode"
+ concept_production_methods:0 "Produktionsmethoden"
+ concept_production_method_desc:0 "Produktionsmethoden können an- oder abgeschaltet werden, um die Zufuhr und/oder den Ausstoß von [Concept('concept_good', '$concept_goods$')] zu modifizieren und um die Effekte zu verändern, die ein [concept_building] bewirkt. Sie können auch verändern, welche Art von [Concept('concept_pop', '$concept_pops$')] im [concept_building] arbeiten. Produktionsmethoden werden durch [concept_technology] freigeschaltet."
+
+ concept_culture:0 "Kultur"
+ concept_cultures:0 "Kulturen" # [LocEditor:AwaitingBatchUpdate]
+ concept_culture_possessive:0 "der Kultur"
+ concept_culture_desc:0 "Die Kultur ist eines der Unterscheidungsmerkmale von [Concept('concept_pop', '$concept_pops$')]. Eine Kultur kann in einem Land entweder akzeptiert oder diskriminiert werden."
+
+ concept_accepted_culture:0 "Akzeptierte Kultur"
+ concept_accepted_culture_desc:0 "Die Akzeptierten Kulturen sind die [concept_primary_cultures] sowie etwaige weitere Kulturen, die durch die [concept_laws] des Landes akzeptiert werden."
+
+ concept_primary_cultures:0 "Hauptkulturen"
+ concept_primary_culture:0 "Hauptkultur"
+ concept_primary_cultures_desc:0 "Die Hauptkulturen sind die zentralen [Concept('concept_culture', '$concept_cultures$')] eines Landes (dies können mehrere sein).[AddLocalizationIf(HasGameState, 'concept_primary_cultures_ingame_added')]" # [LocEditor:AwaitingBatchUpdate]
+ concept_primary_cultures_ingame_added:0 "\n\nDie Hauptkulturen in [GetPlayer.GetName] sind [GetPlayer.GetPrimaryCulturesDesc]."
+
+ concept_cultural_trait:0 "Kultureigenschaft"
+ concept_cultural_traits:0 "Kultureigenschaften" # [LocEditor:AwaitingBatchUpdate]
+ concept_cultural_trait_desc:0 "Kultureigenschaften sind …"
+
+ concept_cultural_heritage_trait:0 "Kulturursprungseigenschaft"
+ concept_cultural_heritage_trait_desc:0 "Kulturursprungseigenschaften sind …"
+
+ concept_religion:0 "Religion"
+ concept_religions:0 "Religionen" # [LocEditor:AwaitingBatchUpdate]
+ concept_religion_desc:0 "Die Religion ist eines der Unterscheidungsmerkmale von [Concept('concept_pop', '$concept_pops$')]. Eine Religion kann in einem Land entweder akzeptiert oder diskriminiert werden."
+
+ concept_accepted_religion:0 "Akzeptierte Religion"
+ concept_accepted_religion_desc:0 "Die Akzeptierte Religion ist die [concept_state_religion] sowie etwaige weitere Religionen, die durch die [concept_laws] des Landes anerkannt werden."
+
+ concept_state_religion:0 "Staatsreligion"
+ concept_state_religion_desc:0 "Die Staatsreligion ist die wichtigste, vorherrschende und bekannteste Religion, der der Großteil der Pops in einem Land angehören."
+
+ concept_religious_trait:0 "Religionseigenschaft"
+ concept_religious_traits:0 "Religionseigenschaften" # [LocEditor:AwaitingBatchUpdate]
+ concept_religious_trait_desc:0 "Religionseigenschaften sind …"
+
+ concept_discrimination_trait:0 "Diskriminierungseigenschaft"
+ concept_discrimination_traits:0 "Diskriminierungseigenschaften" # [LocEditor:AwaitingBatchUpdate]
+ concept_discrimination_trait_desc:0 "Diskriminierungseigenschaften sind …"
+
+ concept_investment_pool:0 "Investitionsfonds"
+ concept_investment_pool_desc:0 "Investitionsfonds sind Geld, dass $aristocrats$ und $capitalists$ eines Landes zurücklegen, wenn sie mehr Geld haben, als sie ausgeben können. Die [Concept('concept_law', '$concept_laws$')] des Landes bestimmen darüber, welche Gebäude mit diesem Geld gebaut werden können."
+
+ concept_wealth:0 "Wohlstand"
+ concept_wealthy:0 "Reich"
+ concept_wealth_desc:0 "Wohlstand ist die Menge an [Concept('concept_good', '$concept_goods$')], die eine [concept_pop] mit dem Geld kaufen kann, das sie sich durch die Arbeit in [Concept('concept_building', 'Gebäuden')] verdient hat. Wohlstand ist der Hauptfaktor, wenn es um die Bestimmung des [Concept('concept_sol', 'Lebensstandards')] von $concept_pops$ geht."
+
+ concept_technology:0 "Technik"
+ concept_technologies:0 "Techniken"
+ concept_technology_desc:0 "Technik ist …"
+
+ concept_navy:0 "Marine"
+ concept_navy_desc:0 "Die Marine ist …"
+
+ concept_sea_lane:0 "Seeweg"
+ concept_sea_lanes:0 "Seewege" # [LocEditor:AwaitingBatchUpdate]
+ concept_sea_lane_desc:0 "Seewege sind …"
+
+ concept_port:0 "Hafen"
+ concept_ports:0 "Häfen" # [LocEditor:AwaitingBatchUpdate]
+ concept_port_desc:0 "Häfen sind …"
+
+ concept_canal:0 "Kanal"
+ concept_canals:0 "Kanäle" # [LocEditor:AwaitingBatchUpdate]
+ concept_canal_desc:0 "Kanäle sind …"
+
+ concept_monument:0 "Monument"
+ concept_monuments:0 "Monumente" # [LocEditor:AwaitingBatchUpdate]
+ concept_monument_desc:0 "Monumente sind …"
+
+ concept_productivity:0 "Jährliche Produktivität pro Angestelltem"
+ concept_productivity_short:0 "Produktivität"
+ concept_productive:0 "Produktiv"
+ concept_unproductive:0 "Unproduktiv"
+ concept_productivity_desc:0 "Das Maß an jährlichem Wert, den jeder Angestellte schafft. Ermittelt über die Formel: (Einnahmen durch verkaufte Waren - Materialkosten)/Gesamtzahl der Angestellten."
+
+ concept_election:0 "Wahl"
+ concept_election_desc:0 "Wahlen werden gefälscht …"
+
+ concept_trade_power:0 "Handelsstärke"
+ concept_trade_power_desc:0 "Die Handelsstärke einer [concept_trade_route] ist die [concept_import_power] des Importmarkts oder die [concept_export_power] des Exportmarkts, je nachdem, was niedriger ist."
+
+ concept_import_power:0 "Importstärke"
+ concept_import_power_desc:0 "Die Importstärke einer gewissen [concept_good] auf dem [concept_market] beruht auf den [Concept('concept_buy_orders', 'Kaufaufträgen')] für sie (bis zu einer Minimalmenge pro Stufe)."
+
+ concept_export_power:0 "Exportstärke"
+ concept_export_power_desc:0 "Die Exportstärke einer gewissen [concept_good] auf dem [concept_market] beruht auf den [Concept('concept_sell_orders', 'Verkaufsaufträgen')] für sie (bis zu einer Maximalmenge pro Stufe)."
+  
+ concept_budget_minting:0 "Gelddruck"
+ concept_budget_minting_desc:0 "Der Gelddruck ist eine Form des Einkommens, durch die alle [Concept('concept_country', '$concept_countries$')] durch Drucken und Prägen neues [concept_money] generieren können. Die Höhe des Einkommens durch den Gelddruck beträgt mindestens #v @money!1.000#! und erhöht sich um jeweils #v @money!500#! für je #v @money!1 Million#! [concept_gdp] [concept_country_possessive]." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_budget_poll_taxes:0 "Kopfsteuern"
+ concept_budget_poll_tax:0 "Kopfsteuer" # [LocEditor:AwaitingBatchUpdate]
+ concept_budget_poll_taxes_desc:0 "Kopfsteuern werden wöchentlich als feste [concept_money]-Summe pro [Concept('concept_working_adults', 'Erwachsenem Arbeiter')] gezahlt und kassiert. Wer genau sie zu entrichten hat, hängt von der Art der Kopfsteuer ab." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_budget_land_taxes:0 "Bauernsteuern"
+ concept_budget_land_taxes_desc:0 "Die Bauernsteuern sind eine Art von [Concept('concept_budget_poll_taxes', '$concept_budget_poll_tax$')], die nur von [concept_peasants] erhoben wird." # [LocEditor:AwaitingBatchUpdate]
+  
+ # [LocEditor:UntranslatedKey] `concept_budget_heathen_taxes`
+ # [LocEditor:UntranslatedKey] `concept_budget_heathen_taxes_desc`
+ 
+ concept_budget_per_capita_taxes:0 "Reine Kopfsteuern"
+ concept_budget_per_capita_taxes_desc:0 "Die Reinen Kopfsteuern sind eine Art von [Concept('concept_budget_poll_taxes', '$concept_budget_poll_tax$')], die von allen [Concept('concept_pop', '$concept_pops$')] erhoben wird." # [LocEditor:AwaitingBatchUpdate]
+  
+ concept_budget_income_taxes:0 "Einkommenssteuern"
+ concept_budget_income_taxes_desc:0 "income_taxes_desc"
+  
+ concept_budget_investment_income:0 "Geld aus Investitionsfonds"
+ concept_budget_investment_income_desc:0 "investment_income_desc"
+
+ concept_budget_consumption_taxes:0 "Verbrauchssteuern"
+ concept_budget_consumption_taxes_desc:0 "consumption_taxes_desc"
+
+ concept_budget_dividends_taxes:0 "Dividendensteuern"
+ concept_budget_dividends_taxes_desc:0 "dividends_taxes_desc"
+
+ concept_budget_additional_income:0 "Zusätzliches Einkommen"
+ concept_budget_additional_income_desc:0 "Zusätzliches Einkommen ist …"
+  
+ concept_budget_additional_expenses:0 "Zusätzliche Ausgaben"
+ concept_budget_additional_expenses_desc:0 "Zusätzliche Ausgaben sind …"
+
+ concept_budget_diplomatic_pacts:0 "Diplomatiepakte"
+ concept_budget_diplomatic_pacts_desc:0 "diplomatic_pacts_desc"
+
+ # [LocEditor:UntranslatedKey] `concept_budget_construction_goods`
+ # [LocEditor:UntranslatedKey] `concept_budget_construction_goods_desc`
+ 
+ # [LocEditor:UntranslatedKey] `concept_budget_construction_wages`
+ # [LocEditor:UntranslatedKey] `concept_budget_construction_wages_desc`
+ 
+ # [LocEditor:UntranslatedKey] `concept_budget_construction_slaves`
+ # [LocEditor:UntranslatedKey] `concept_budget_construction_slaves_desc`
+  
+ concept_budget_government_wages:0 "Regierungsgehälter"
+ concept_budget_government_wages_desc:0 "government_wages_desc"
+
+ concept_budget_wages:0 "Gehälter"
+ concept_budget_wage:0 "Gehalt"
+ concept_budget_wages_desc:0 "Gehälter werden von [Concept('concept_building', 'Gebäuden')] an die [Concept('concept_pop', '$concept_pops$')] ihrer [concept_workforce] gezahlt. Doch wie die Gebäude genau bezahlen, unterscheidet sich je nach Art des Gebäudes. Daher gibt es drei unterschiedliche Arten von Gehalt: [concept_budget_government_wages] stammen von Gebäuden, für die die Regierung bezahlt; [concept_budget_military_wages] stammen ebenfalls von Gebäuden, für die die Regierung bezahlt; schlussendlich gibt es noch alle „normalen“ Gebäude, die [Concept('concept_building_wage', '$concept_building_wages$')] bezahlen."
+
+ concept_budget_goods_for_government_buildings:0 "Waren für Regierungsgebäude"
+ concept_budget_goods_for_government_buildings_desc:0 "goods_for_government_buildings_desc"
+
+ concept_budget_government_slaves:0 "Regierungssklaven"
+ concept_budget_government_slaves_desc:0 "government_slaves_desc"
+
+ concept_budget_military_wages:0 "Militärgehälter"
+ concept_budget_military_wages_desc:0 "military_wages_desc"
+
+ concept_budget_goods_for_military_buildings:0 "Waren für Militärgebäude"
+ concept_budget_goods_for_military_buildings_desc:0 "goods_for_military_buildings_desc"
+
+ concept_budget_military_slaves:0 "Militärsklaven"
+ concept_budget_military_slaves_desc:0 "military_slaves_desc"
+
+ concept_subsidies:0 "Subventionen"
+ concept_subsidize:0 "Subventionieren" # [LocEditor:AwaitingBatchUpdate]
+ concept_subsidized:0 "Subventioniert" # [LocEditor:AwaitingBatchUpdate]
+ concept_subsidizing:0 "Subventioniere" # [LocEditor:AwaitingBatchUpdate]
+ concept_subsidies_desc:0 "Die Regierung kann dafür sorgen, dass ein subventioniertes Gebäude eine volle Belegschaft hat, indem alle Angestellten zumindest ein Regierungsgehalt bekommen. Zahlt das Gebäude nicht zumindest ein Regierungsgehalt, übernimmt die Regierung die Differenz."
+
+ concept_budget_interest_rate:0 "Zinssatz"
+ # [LocEditor:UntranslatedKey] `concept_budget_interest`
+ concept_budget_interest_rates:0 "Zinssätze" # [LocEditor:AwaitingBatchUpdate]
+ concept_budget_interest_rate_desc:0 "interest_desc"
+  
+ concept_country_tier:0 "Landesrang"
+ concept_country_tier_desc:0 "Der Landesrang ist der inhärente Status und das [concept_prestige], die einem [concept_country] durch seine Geschichte und seine Bedeutung zugeschrieben werden. Je höher der Rang [concept_country_possessive] ist, desto mehr [concept_prestige] erhält es. Ein [concept_country] kann nur eine Nation bilden, deren Landesrang höher als der ist, den er bereits hat."
+  
+ concept_claim:0 "Anspruch"
+ concept_claims:0 "Ansprüche" # [LocEditor:AwaitingBatchUpdate]
+ concept_claimed:0 "Beansprucht" # [LocEditor:AwaitingBatchUpdate]
+ concept_claim_desc:0 "Ein territorialer Anspruch, den ein [concept_country] auf eine [concept_state_region] hat, in der Regel deshalb, weil die Region einst ihm gehörte. Einen Anspruch auf eine [concept_state_region] zu haben, erlaubt es dem [concept_country], das [concept_war_goal] #v $war_goal_return_state_type_name$#! zu nutzen, das weniger [concept_infamy] erzeugt als das übliche [concept_war_goal] #v $war_goal_conquer_state_type_name$#!.\n\nErobert man einen [Concept('concept_incorporated_state', 'Inkorporierten Staat')] von einem anderen [concept_country], erhält man automatisch einen Anspruch auf diese [concept_state_region]."
+  
+ concept_devastation:0 "Verwüstung"
+ concept_devastation_desc:0 "Verwüstung stellt Schäden in einer [concept_state_region] dar, die diese durch Kriege und Konflikte erlitten hat. Sie erhöht sich durch feindliche Besetzungen und im Nachgang von Schlachten, die in der [concept_state_region] stattfinden, und sie verringert sich im Lauf der Zeit wieder. Verwüstung verringert die [concept_infrastructure] der [concept_state_region] und erhöht die Sterblichkeit der [Concept('concept_pop', '$concept_pops$')]."
+
+ concept_command_limit:0 "Kommando-Schwelle"
+ concept_command_limit_desc:0 "Die Kommando-Schwelle gibt an, wie viele [Concept('concept_battalion', '$concept_battalions$')] oder [Concept('concept_warship', '$concept_warships$')] ein Befehlshaber befehligen kann. Die Kommando-Schwelle eines Befehlshabers lässt sich erhöhen, indem man ihn befördert." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_pop_qualifications:0 "Qualifikationen"
+ concept_qualifying:0 "Qualifiziere" # [LocEditor:AwaitingBatchUpdate]
+ concept_pop_qualifications_desc:0 "Pops entwickeln im Lauf der Zeit die nötigen Qualifikationen für andere [Concept('concept_profession', '$concept_professions$')]. Passen ihre derzeitigen Attribute zur neuen Pop-Variante oder arbeiten sie in einem verwandten Feld, entwickeln sie die Qualifikationen schneller. [concept_literacy|U], [concept_wealth] und [concept_discrimination] wirken sich ebenfalls oft darauf aus."
+
+ concept_hq:0 "Hauptquartier"
+ concept_hq_desc:0 "#TODO A Commander has a Home HQ and a Location HQ. If the Home HQ is destroyed the character is removed.#!"
+  
+ concept_tax_waste:0 "Steuerverschwendung"
+ concept_tax_waste_desc:0 "Die Menge an kassierten Steuern, die verschwendet werden, bevor sie im Staatssäckel landen können, weil es Ineffizienzen oder Korruption gibt."
+  
+ concept_assimilation:0 "Assimilierung"
+ concept_assimilating:0 "Assimiliere" # [LocEditor:AwaitingBatchUpdate]
+ concept_assimilation_desc:0 "Fremde Pops, die im eigenen Land kulturell akzeptiert werden, können assimiliert werden, um Teil der [concept_primary_cultures] des Landes zu werden."
+  
+ concept_conversion:0 "Bekehrung"
+ concept_converting:0 "Bekehre" # [LocEditor:AwaitingBatchUpdate]
+ concept_conversion_desc:0 "Pops, deren Religion in ihrem Land diskriminiert wird, können zu einer [Concept('concept_accepted_religion', 'Akzeptierten Religion')] konvertieren."
+  
+ concept_life_experience:0 "Lebenserfahrung"
+ concept_life_experience_desc:0 "[Concept('concept_character', '$concept_characters$')|U] erhalten im Lauf der Zeit und durch bestimmte Situationen Lebenserfahrung. Dies wiederum beeinflusst die Wahrscheinlichkeit, dass sie neue [Concept('concept_character_trait', '$concept_character_traits$')] entwickeln." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_supply_network:0 "Versorgungsnetzwerk"
+ concept_supply_network_desc:0 "Ein Versorgungsnetzwerk ist nötig, um [Concept('concept_trade_route', '$concept_trade_routes$')] und die Versorgung von [Concept('concept_commander', 'Befehlshabern')] in Übersee aufrechtzuerhalten. Um zu funktionieren, braucht es [concept_convoys]." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_convoys:0 "Konvois"
+ # [LocEditor:UntranslatedKey] `concept_convoy`
+ concept_convoys_desc:0 "Man braucht Konvois, um Truppen in Übersee zu versorgen und das [concept_supply_network] zu erhalten."
+
+ # [LocEditor:UntranslatedKey] `concept_shipping_lane`
+ # [LocEditor:UntranslatedKey] `concept_shipping_lanes`
+ # [LocEditor:UntranslatedKey] `concept_shipping_lane_desc`
+
+ # [LocEditor:UntranslatedKey] `concept_shipping_lane_effectiveness`
+ # [LocEditor:UntranslatedKey] `concept_shipping_lane_effectiveness_desc`
+
+ # [LocEditor:UntranslatedKey] `concept_port_connection`
+ # [LocEditor:UntranslatedKey] `concept_port_connections`
+ # [LocEditor:UntranslatedKey] `concept_port_connection_desc`
+
+ # [LocEditor:UntranslatedKey] `concept_supply_route`
+ # [LocEditor:UntranslatedKey] `concept_supply_routes`
+ # [LocEditor:UntranslatedKey] `concept_supply_route_desc`
+
+ concept_popularity:0 "Beliebtheit"
+ concept_popularity_desc:0 "Die Bereitschaft von [Concept('concept_pop', '$concept_pops$')], einem Charakter zu folgen, hängt von dessen Beliebtheit ab."
+  
+ concept_momentum:0 "Momentum"
+ concept_momentum_desc:0 "Das Momentum erhöht die Chance, dass eine [concept_interest_group] [concept_votes] bei einer [concept_election] erhält. Es wird nach den Wahlen zurückgesetzt."
+  
+ concept_government_expenses:0 "Regierungsausgaben"
+ concept_government_expenses_short:0 "Ausgaben" # [LocEditor:AwaitingBatchUpdate]
+ concept_government_expenses_desc:0 "Regierungsausgaben sind …"
+
+ concept_sovereignty:0 "Souveränität"
+ concept_sovereignty_desc:0 "#todo Sovereignty is...#!"
+
+ concept_normal_wage:0 "Normalgehalt"
+ concept_normal_wage_desc:0 "Das $concept_normal_wage$ eines Landes beruht auf dem durchschnittlichen Gehalt, das in den Nicht-Regierungsgebäuden der [Concept('concept_incorporated_state', 'Inkorporierten Staaten')] gezahlt wird." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_in_reserve:0 "In Reserve"
+ concept_in_reserve_desc:0 "In Reserve zu sein, heißt, dass diese Truppen noch keinen [concept_commander] haben. Truppen ohne [concept_commander] können keine Befehle erhalten, nehmen aber an defensiven Einsätzen teil."
+  
+ concept_dead:0 "Tote"
+ concept_dead_desc:0 "Gibt die Zahl an Personen an, die in der Schlacht oder durch [concept_attrition] gefallen sind."
+
+ concept_wounded:0 "Verwundete"
+ concept_wounded_desc:0 "Gibt die Zahl an Personen an, die in der Schlacht oder durch [concept_attrition] verwundet wurden. Verwundete Personen geben ihren Posten auf."
+
+ concept_attrition:0 "Zermürbung"
+ concept_attrition_desc:0 "#todo Attrition is...#!"
+
+ concept_character_role:0 "Rolle"
+ concept_character_role_desc:0 "Die Rolle bestimmt, was der Charakter tun wird."
+  
+ concept_building_wage:0 "Gehalt"
+ concept_building_wages:0 "Gehälter"
+ concept_building_wage_desc:0 "Die Gehälter in einem Gebäude beruhen auf dessen wirtschaftlicher Situation. Um mehr [Concept('concept_pop', '$concept_pops$')] für die Belegschaft anzuziehen, kann man den Wochen-[concept_building_balance] verbessern. Man beeinflusst ihn, indem man entweder die vom Gebäude verwendeten [Concept('concept_good', '$concept_goods$')] günstiger oder die produzierten Waren teurer macht. Hierbei muss man also die entsprechenden Preise am [concept_market] durch Angebot und Nachfrage anpassen. Man kann auch garantieren, dass die Belegschaft ein konkurrenzfähiges Gehalt bekommt, indem man das Gebäude [Concept('concept_subsidies', 'subventioniert')|l]. So bleibt das Gebäude im Geschäft, indem der Staat notfalls [concept_money] zuschießt." # [LocEditor:AwaitingBatchUpdate]
+
+ concept_building_balance:0 "Saldo"
+ concept_building_balance_desc:0 "Der Saldo eines Gebäude ist die Menge an Geld, die es vom Einkommen übrig hat, nachdem es alle Ausgaben bezahlt hat."
+
+ concept_treasury:0 "Landeskasse"
+ concept_treasury_desc:0 "Die Landeskasse ist das Geld eines Landes."
+
+ concept_head_of_state:0 "Landesoberhaupt"
+ concept_head_of_state_desc:0 "Der Herrscher oder höchste Volksvertreter eines Landes. Wer Landesoberhaupt in einem Land ist, bestimmt sich durch dessen [Concept('concept_law', '$concept_laws$')]."
+
+ concept_lower_strata:0 "Unterschicht"
+ concept_lower_strata_desc:0 "The Lower Strata is the group of [Concept('concept_pop', '$concept_pops$')] who have nothing to sell but their labour.\n\n#todo PRCAL-13648 rewrite and make the description of this Strata concept better#![AddLocalizationIf(HasGameState, 'concept_lower_strata_ingame_added')]"
+ concept_lower_strata_ingame_added:0 "\n\nBesteht aus den folgenden [Concept('concept_profession', 'Berufen')]:\n[GetPopTypesInLowerStrataDesc]"
+
+ concept_middle_strata:0 "Mittelschicht"
+ concept_middle_strata_desc:0 "The Middle Strata is the group of [Concept('concept_pop', '$concept_pops$')] who have good jobs and are neither poor or rich.\n\n#todo PRCAL-13648 rewrite and make the description of this Strata concept better#![AddLocalizationIf(HasGameState, 'concept_middle_strata_ingame_added')]"
+ concept_middle_strata_ingame_added:0 "\n\nBesteht aus den folgenden [Concept('concept_profession', 'Berufen')]:\n[GetPopTypesInMiddleStrataDesc]"
+
+ concept_upper_strata:0 "Oberschicht"
+ concept_upper_strata_desc:0 "The Upper Strata is the group of [Concept('concept_pop', '$concept_pops$')] who occupy the highest place and status in society. Individuals who make up the Upper Strata have higher levels of disposable income and exert more control over the use of natural resources. This Strata makes up a small percentage of the overall population but controls a disproportionately large amount of the overall wealth.\n\n#todo PRCAL-13648 rewrite and make the description of this Strata concept better#![AddLocalizationIf(HasGameState, 'concept_upper_strata_ingame_added')]"
+ concept_upper_strata_ingame_added:0 "\n\nBesteht aus den folgenden [Concept('concept_profession', 'Berufen')]:\n[GetPopTypesInUpperStrataDesc]"
+
+ concept_migration_pull:0 "Migrationsanziehung"
+ concept_migration_pull_desc:0 "Migrationsanziehung ist die Fähigkeit eines [Concept('concept_state', 'Staats')], Migranten anzuziehen."
+
+ concept_enactment_success:0 "Erfolg"
+ concept_enactment_success_desc:0 "Erfolg ist …"
+
+ concept_enactment_advance:0 "Fortschritt"
+ concept_enactment_advance_desc:0 "Fortschritt ist …"
+
+ concept_enactment_debate:0 "Debatte"
+ concept_enactment_debate_desc:0 "Debatte ist …"
+
+ concept_enactment_stall:0 "Hinhalten"
+ concept_enactment_stall_desc:0 "Hinhalten ist …"
+
+ concept_political_movement:0 "Protestbewegung"
+ # [LocEditor:UntranslatedKey] `concept_political_movement_short`
+ concept_political_movements:0 "Protestbewegungen" # [LocEditor:AwaitingBatchUpdate]
+ concept_political_movement_desc:0 "Eine Protestbewegung ist …"
+  
+ concept_political_movement_support:0 "Protestbewegungsunterstützung"
+ concept_political_movement_support_short:0 "Unterstützung" # [LocEditor:AwaitingBatchUpdate]
+ concept_political_movement_support_desc:0 "Protestbewegungsunterstützung ist …"
+  
+ concept_political_movement_radicalism:0 "Protestbewegungsradikalität"
+ concept_political_movement_radicalism_short:0 "Radikalität" # [LocEditor:AwaitingBatchUpdate]
+ concept_political_movement_radicalism_desc:0 "Protestbewegungsradikalität ist …"
+  
+ concept_political_movement_placated:0 "Beschwichtigt"
+ concept_political_movement_placated_desc:0 "Eine Protestbewegung zu beschwichtigen, heißt …"
+
+ concept_journal_entry:0 "Journaleintrag"
+ concept_journal_entries:0 "Journaleinträge" # [LocEditor:AwaitingBatchUpdate]
+ concept_journal_entry_desc:0 "Journaleinträge verzeichnen laufende Ereignisse im eigenen Land. Sie können für aktuelle Gelegenheiten oder Herausforderungen stehen, an gemachte Versprechen erinnern oder vor möglichen Krisen warnen, die eintreten könnten.\n\nJournaleinträge werden meist irgendwann abgewickelt und aus dem Journal entfernt. Nicht alle Journaleinträge lassen sich aktiv abschließen: Manche können nur scheitern, ablaufen oder durch andere Bedingungen entfernt werden."
+
+ concept_promote:0 "Fördern"
+ concept_promoted:0 "Fördert"
+ concept_promotes:0 "Fördert"
+ concept_promoting:0 "Fördere"
+ concept_promotion:0 "Förderung"
+ concept_promote_desc:0 "#todo Promote ...#!"
+
+ concept_suppress:0 "Unterdrücken"
+ concept_suppressed:0 "Unterdrückt"
+ concept_suppressing:0 "Unterdrücke"
+ concept_suppression:0 "Unterdrückung"
+ concept_suppress_desc:0 "#todo Suppress is...#!"
+
+ concept_party:0 "Partei"
+ # [LocEditor:UntranslatedKey] `concept_parties`
+ concept_party_desc:0 "TODO: HURR DURR PARTY BEFORE COUNTRY"
+
+ # [LocEditor:UntranslatedKey] `concept_order`
+ # [LocEditor:UntranslatedKey] `concept_orders`
+ # [LocEditor:UntranslatedKey] `concept_order_desc`
+ 
+ # [LocEditor:UntranslatedKey] `concept_unification_candidate`
+ # [LocEditor:UntranslatedKey] `concept_unification_candidate_short`
+ # [LocEditor:UntranslatedKey] `concept_unification_candidates`
+ # [LocEditor:UntranslatedKey] `concept_unification_candidate_desc`
+ 
+ # [LocEditor:UntranslatedKey] `concept_unification_supporter`
+ # [LocEditor:UntranslatedKey] `concept_unification_support`
+ # [LocEditor:UntranslatedKey] `concept_unification_supporting`
+ # [LocEditor:UntranslatedKey] `concept_unification_supporter_desc`
+
+ # [LocEditor:UntranslatedKey] `concept_recognized_power`
+ # [LocEditor:UntranslatedKey] `concept_recognized_power_desc`
+
+ # [LocEditor:UntranslatedKey] `concept_observer_mode`
+ # [LocEditor:UntranslatedKey] `concept_observer`
+ # [LocEditor:UntranslatedKey] `concept_observer_mode_desc`
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ concept_objective:0 "Ziel"
+ concept_objectives:0 "Ziele"
+ concept_objective_desc:0 "AI-controlled countries have a set of Objectives that governs their strategy\n#todo TODO MORE INFO#!"
+ concept_favor:0 "Gefallen"
+ concept_favors:0 "Gefallen"
+ concept_favor_desc:0 "#todo A Favor is... #!"
+ concept_reinforcements:0 "Verstärkungen"
+ concept_reinforcements_desc:0 "Verstärkungen sind [Concept('concept_battalion', '$concept_battalions$')] oder [Concept('concept_warship', '$concept_warships$')], die derzeit auf der Reise an einen Ort sind."
+ concept_travel_queue:0 "Reisereihe"
+ concept_travel_queue_desc:0 "Wird [Concept('concept_battalion', 'Bataillonen')] oder [Concept('concept_warship', 'Kriegsschiffen')] der Befehl erteilt, an einen anderen Ort zu verlegen, kommen sie in die Reisereihe. Sie können zwischen verschiedenen [Concept('concept_barrack', '$concept_barracks$')], [Concept('concept_commander', 'Befehlshabern')] und [Concept('concept_front', '$concept_fronts$')] verlegt werden."
+ concept_battle_plan:0 "Schlachtplan"
+ concept_battle_plan_desc:0 "Ein Schlachtplan wird von einem [concept_commander] einer [concept_front] über den Befehl zur Invasion entworfen. Werden dem Plan genug Truppen zugewiesen, bricht eine [concept_battle] aus."
+ concept_good_net:0 "Warennetto"
+ concept_good_net_desc:0 "Die Menge an Waren, die nach dem Handeln am [concept_market] ist."
+ concept_decreees:0 "Erlasse"
+ concept_construction_camp:0 "Bauzentrum"
+ concept_construction_camps:0 "Bauzentren"
+ concept_construction_camp_desc:0 "Ein Bauzentrum ist …"
+ concept_innovation_points:0 "Innovationspunkte"
+ concept_innovation_points_desc:0 "Innovationspunkte erhält man durch Universitäten. Sie werden eingesetzt, um Erfindungen zu erforschen."
+ concept_construction_points:0 "Baupunkte"
+ concept_construction_points_desc:0 "@construction! Baupunkte werden von [Concept('concept_construction_camp', 'Baulagern')] produziert und dienen dazu, [Concept('concept_building', '$concept_buildings$')] zu errichten."
+ concept_budget_new_construction:0 "Bauvorhaben"
+ concept_budget_new_construction_desc:0 "new_construction_desc"

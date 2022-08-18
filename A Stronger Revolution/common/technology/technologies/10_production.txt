@@ -500,14 +500,25 @@ art_silk = {
 	}
 }
 
-automatic_bottle_blowers = {
-	# Unlocks the Automatic Bottle Blowers PM in Glassworks
+biofuel_production = {
+	# Unlocks the Biofuel Production PM and Mass Oil Production PM in Food Industries
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/automatic_bottle_blowers.dds"
+	texture = "gfx/interface/icons/invention_icons/nitrogen_fixation.dds"
 	category = production
 	
 	unlocking_technologies = {	
-		vulcanization
+		rotary_valve_engine
+	}
+}
+
+synthetic_oil = {
+	# Unlocks the Synthetic Oil PM in Chemical Plants
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/nitrogen_fixation.dds"
+	category = production
+	
+	unlocking_technologies = {	
+		biofuel_production
 	}
 }
 

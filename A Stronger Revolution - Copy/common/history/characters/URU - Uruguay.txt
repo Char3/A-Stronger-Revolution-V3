@@ -1,0 +1,18 @@
+﻿CHARACTERS = {
+	c:URU = {
+		create_character = {
+			# Manuel Oribe
+			#role = politician # Remove this line
+			first_name = "Manuel"
+			last_name = "de_Rosas"
+			ruler = yes
+			ig_leader = yes
+			age = 44
+			interest_group = ig_landowners
+			ideology = ideology_moderate # TODO: authoritarian?
+			traits = {
+				imperious
+			}
+		}
+	}
+}

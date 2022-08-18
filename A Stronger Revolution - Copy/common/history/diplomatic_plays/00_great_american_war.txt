@@ -1,0 +1,19 @@
+DIPLOMATIC_PLAYS = {
+	c:MEX = {
+		create_diplomatic_play = {
+			name = great_american_war
+		
+			target_state = s:STATE_TEXAS.region_state:TEX
+			
+			war = yes
+			
+			type = dp_return_state
+			
+			add_war_goal = {
+				holder = c:QUE
+				type = return_state
+				target_state = s:STATE_NEWFOUNDLAND
+			}			
+		}	
+	}
+}

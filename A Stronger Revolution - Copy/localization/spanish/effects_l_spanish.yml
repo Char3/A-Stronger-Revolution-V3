@@ -1,0 +1,255 @@
+﻿l_spanish:
+ OCCUPY_STATE_EFFECT_SUSTAINABLE:0 "un nivel sostenible"
+ OCCUPY_STATE_EFFECT_STAGE:0 "un nivel de fase $NUMBER$"
+ OCCUPY_STATE_EFFECT_DESC:0 "$COUNTRY_NAME$ ocupa $STATE_NAME$ a $STAGE_DESC$"
+ SPAWN_ISSUE_EFFECT_DESC:0 "Genera la cuestión de #variable $ISSUE_NAME$#! en $STATE_NAME$"
+ SET_CHARACTER_EFFECT:0 "#V $CHARACTER|v$#! se convierte en el personaje del mando #V $COMMAND$#!"
+ SET_CHARACTER_NONE_EFFECT:0 "Se ha desasignado el personaje de #V $COMMAND$"
+
+ ADD_TREASURY_EFFECT_POSITIVE:0 "[COUNTRY.GetName] obtiene $VALUE|+=$ @money!"
+ ADD_TREASURY_EFFECT_NEGATIVE:0 "[COUNTRY.GetName] pierde $VALUE|+=$@money!"
+ SET_COUNTRY_ARMY_SP_TARGET:0 "El objetivo de puntos de fuerza del ejército de #variable [Country.GetNameNoFlag]#! (@army_SP!) se ha fijado en #variable $VALUE$#!" # [LocEditor:AwaitingBatchUpdate]
+ SET_COUNTRY_NAVY_SP_TARGET:0 "El objetivo de puntos de fuerza de la armada de #variable [Country.GetNameNoFlag]#! (@navy_SP!) se ha fijado en #variable $VALUE$#!" # [LocEditor:AwaitingBatchUpdate]
+ SET_INFAMY:0 "[concept_infamy] fijada en $VALUE|v$"
+ SET_RELATIONS:0 "Relaciones de #variable [Country.GetNameNoFlag]#! respecto a #variable [TARGET_COUNTRY.GetName]#! fijadas en #variable $VALUE|0$#!" # [LocEditor:AwaitingBatchUpdate]
+ SET_TENSION:0 "[Concept('concept_tension', 'Tensiones')] entre [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] fijadas en #variable $VALUE|0$#!" # [LocEditor:AwaitingBatchUpdate]
+ SET_STRATEGY:0 "[COUNTRY.GetName] adopta la estrategia #variable [AIStrategy.GetName]#!"
+ SET_DIPLOMATS_EXPELLED:0 "[COUNTRY.GetName] ha expulsado a los diplomáticos de [TARGET_COUNTRY.GetName], lo que impide que su relación mejore durante #b 5 años#!"
+ SET_SECRET_GOAL:0 "[COUNTRY.GetName] tiene el objetivo secreto de #variable $SECRET_GOAL$#! respecto a [TARGET_COUNTRY.GetName]"
+ SET_MUTUAL_SECRET_GOAL:0 "[COUNTRY.GetName] y [TARGET_COUNTRY.GetName] tienen el objetivo secreto de #variable $SECRET_GOAL$#! entre sí"
+ # [LocEditor:UntranslatedKey] `SET_TAX_LEVEL`
+ SET_GOVERNMENT_WAGE_LEVEL:0 "El nivel de [concept_government_wage|l] de [COUNTRY.GetName] se ha fijado en #v $WAGE_LEVEL$#!"
+ SET_MILITARY_WAGE_LEVEL:0 "El nivel de [concept_military_wage|l] de [COUNTRY.GetName] se ha fijado en #v $WAGE_LEVEL$#!"
+ ADD_CHANGE_RELATIONS_PROGRESS:0 "#variable [Country.GetNameNoFlag]#! ha conseguido un cambio en el avance de las relaciones con [TARGET_COUNTRY.GetName] de #variable $VALUE$#!" # [LocEditor:AwaitingBatchUpdate]
+ ADD_TECHNOLOGY_PROGRESS:0 "[COUNTRY.GetName] obtiene $VALUE|+D$ de progreso en la tecnología [TECHNOLOGY.GetName]"
+ ADD_TECHNOLOGY_PROGRESS_NEG:0 "[COUNTRY.GetName] pierde $VALUE|+$ de progreso en la tecnología [TECHNOLOGY.GetName]"
+ SET_ARMY_STOCKPILE:0 "Los pertrechos del ejército de tierra de #variable [Country.GetNameNoFlag]#! se han fijado en $VALUE|+$ paquetes" # [LocEditor:AwaitingBatchUpdate]
+ SET_NAVY_STOCKPILE:0 "Los pertrechos de la armada de #variable [Country.GetNameNoFlag]#! se han fijado en $VALUE|+$ paquetes" # [LocEditor:AwaitingBatchUpdate]
+ SET_STOCKPILE:0 "$SET_ARMY_STOCKPILE$"
+ ACTIVATE_LAW:0 "[COUNTRY.GetName] habilita la ley de [Law.GetFullNameWithStatus]"
+ SET_INSTITUTION_INVESTMENT_LEVEL:0 "[COUNTRY.GetName] cambia el nivel de inversión en la institución [INSTITUTION.GetName] a $LEVEL|v$"
+ CHANGE_INSTITUTION_INVESTMENT_LEVEL:0 "[Country.GetName] cambia el nivel de inversión en la institución [Institution.GetName] en $INVESTMENT|v$"
+ ACTIVATE_LAW_WITH_INVESTMENT_LEVEL:0 "[COUNTRY.GetName] habilita la ley de [Law.GetFullNameWithStatus] con un nivel de inversión de $LEVEL|v$"
+ DEACTIVATE_LAW:0 "[COUNTRY.GetName] deja sin validez la ley [Law.GetFullNameWithStatus]"
+ CALL_ELECTION:0 "[COUNTRY.GetName] tendrá #variable elecciones en $MONTHS$ meses#!"
+ SET_INTEREST_GROUP_NAME:0 "[IG.GetName] pasa a llamarse #variable $IG_NAME$#!"
+ SET_AS_INTEREST_GROUP_LEADER:0 "[Character.GetFullName|v] se convierte en el líder de [Character.GetInterestGroup.GetName|v]"
+ # [LocEditor:UntranslatedKey] `REMOVE_AS_INTEREST_GROUP_LEADER`
+ DO_REVOLUTION_CLEANUP:0 "La guerra civil llega a su fin"
+ ADD_IDEOLOGY:0 "[InterestGroup.GetName] gana la ideología [Ideology.GetName]"
+ REMOVE_IDEOLOGY:0 "[InterestGroup.GetName] pierde la ideología [Ideology.GetName]"
+ SET_IDEOLOGY:0 "[Character.GetFullName|v] cambiará a la ideología [Ideology.GetName]"
+ CHANGE_RELATIONS:0 "Las [Concept('concept_relation', 'relaciones')] de #variable [Country.GetNameNoFlag]#! respecto a #variable [TARGET_COUNTRY.GetName]#! mejoran en $VALUE|0+$" # [LocEditor:AwaitingBatchUpdate]
+ CHANGE_RELATIONS_NEG:0 "Las [Concept('concept_relation', 'relaciones')] de #variable [Country.GetNameNoFlag]#! respecto a #variable [TARGET_COUNTRY.GetName]#! empeoran en $VALUE|0-$" # [LocEditor:AwaitingBatchUpdate]
+ CHANGE_TENSION:0 "Las [Concept('concept_tension', 'tensiones')] entre [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] han aumentado en #N $VALUE|0$#!" # [LocEditor:AwaitingBatchUpdate]
+ CHANGE_TENSION_NEG:0 "Las [Concept('concept_tension', 'tensiones')] entre [COUNTRY.GetName] y [TARGET_COUNTRY.GetName] se han reducido en #P $VALUE|0$#!" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `SET_OWES_OBLIGATION_TO`
+ # [LocEditor:UntranslatedKey] `SET_OWES_OBLIGATION_TO_NEG`
+ RECALCULATE_LAWS:0 "[COUNTRY.GetName] se replanteará sus [Concept('concept_law', 'leyes')]"
+ RECALCULATE_LAWS_NEG:0 "[COUNTRY.GetName] NO se replanteará sus [Concept('concept_law', 'leyes')]"
+ VALIDATE_SUBSIDIES:0 "[COUNTRY.GetName] se asegurará de que sus subvenciones industriales sean válidas"
+ VALIDATE_SUBSIDIES_NEG:0 "[COUNTRY.GetName] NO se asegurará de que sus subvenciones industriales sean válidas"
+ RECALCULATE_POP_IG_SUPPORT:0 "Los [Concept('concept_pop', 'colectivos')] de [COUNTRY.GetName] van a replantearse el apoyo a su [concept_interest_group]"
+ RECALCULATE_POP_IG_SUPPORT_NEG:0 "Los [Concept('concept_pop', 'colectivos')] de [COUNTRY.GetName] NO van a replantearse el apoyo a su [concept_interest_group|l]"
+ SET_COUNTRY_TYPE:0 "[COUNTRY.GetName] pasa a ser #variable $COUNTRY_TYPE$#!"
+ SET_CAPITAL:0 "El [concept_capital_state|l] de #variable [COUNTRY.GetNameNoFlag]#! se traslada a #variable $STATE_REGION_NAME$#!" # [LocEditor:AwaitingBatchUpdate]
+ SET_MARKET_CAPITAL:0 "La [concept_market_capital|l] de #variable [COUNTRY.GetNameNoFlag]#! se traslada a #variable $STATE_REGION_NAME$#!" # [LocEditor:AwaitingBatchUpdate]
+ CLEAR_DEBT:0 "#variable [COUNTRY.GetNameNoFlag]#! ha saldado sus deudas financieras" # [LocEditor:AwaitingBatchUpdate]
+ CLEAR_DEBT_NEG:0 "#variable [COUNTRY.GetNameNoFlag]#! NO ha saldado sus deudas financieras" # [LocEditor:AwaitingBatchUpdate]
+ CLEAR_SCALED_DEBT:0 "Un factor de #variable $VALUE$#! del PIB salda las deudas financieras de #variable [COUNTRY.GetNameNoFlag]#!" # [LocEditor:AwaitingBatchUpdate]
+ TAKE_ON_SCALED_DEBT:0 "[COUNTRY.GetName] asume la deuda de #variable $VALUE|D$#! @money! de [TARGET_COUNTRY.GetName]"
+ CREATE_TRADE_ROUTE:0 "[COUNTRY.GetName] establece una ruta de $TRADE_DIR$ de nivel $LEVEL|v0$ de [GOODS.GetName] [GOODS.GetTextIcon] en [TARGET_MARKET.GetName]"
+ LOCK_TRADE_ROUTE:0 "[TradeRoute.GetName] se bloquea durante $DURATION$"
+ ADD_PRIMARY_CULTURE:0 "La [TARGET_CULTURE.GetName] se convierte en una de las [concept_primary_cultures|l] de [COUNTRY.GetName]"
+ REMOVE_PRIMARY_CULTURE:0 "La [TARGET_CULTURE.GetName] ya no es una de las [concept_primary_cultures|l] de [COUNTRY.GetName]"
+ # [LocEditor:UntranslatedKey] `SET_STATE_RELIGION`
+ ADD_CULTURAL_OBSESSION:0 "La cultura [CULTURE.GetName] se obsesiona con [GOODS.GetName]"
+ REMOVE_CULTURAL_OBSESSION:0 "La cultura [CULTURE.GetName] deja de obsesionarse con [GOODS.GetName]"
+ CREATE_RANDOM_CHARACTER_NAME:0 "Un personaje"
+ CREATE_CHARACTER:0 "$CHARACTER_NAME$ aparece en [Country.GetName]"
+ # [LocEditor:UntranslatedKey] `ADD_INNOVATION`
+ # [LocEditor:UntranslatedKey] `ADD_INNOVATION_NEG`
+ ADD_INVESTMENT_POOL:0 "El [concept_investment_pool|l] de #variable [COUNTRY.GetAdjective]#! ha aumentado en @money!$VALUE|D+$" # [LocEditor:AwaitingBatchUpdate]
+ ADD_TECHNOLOGY_RESEARCHED:0 "#variable [COUNTRY.GetName]#! ha conseguido la tecnología #variable [TECHNOLOGY.GetName]#!"
+ ADD_ERA_RESEARCHED:0 "#variable [COUNTRY.GetName]#! ha conseguido toda la tecnología de #variable [ERA.GetName]#!"
+ CREATE_DIPLOMATIC_PACT:0 "#variable [COUNTRY.GetName]#! está en situación de [DIPLOMATIC_ACTION_TYPE.GetName] con #variable [TARGET_COUNTRY.GetName]#!"
+ CHANGE_INFAMY:0 "La [concept_infamy|l] ha aumentado en #variable $VALUE$#!"
+ CHANGE_INFAMY_NEG:0 "La [concept_infamy|l] se ha reducido en #variable $VALUE$#!"
+ CREATE_INCIDENT:0 "$DESC$"
+ PLAY_AS:0 "Cambia el país bajo el control del jugador de [COUNTRY.GetName] a [TARGET_COUNTRY.GetName]"
+
+ REMOVE_INITIATOR_BACKERS:0 "[COUNTRY.GetName] se retira de la jugada diplomática de [TARGET_DIPLOMATIC_PLAY.GetName]"
+ REMOVE_TARGET_BACKERS:0 "[COUNTRY.GetName] se retira de la jugada diplomática de [TARGET_DIPLOMATIC_PLAY.GetName]"
+ ADD_INITIATOR_BACKERS:0 "[COUNTRY.GetName] se suma a la jugada diplomática de [TARGET_DIPLOMATIC_PLAY.GetName] en el bando del iniciador"
+ ADD_TARGET_BACKERS:0 "[COUNTRY.GetName] se suma a la jugada diplomática de [TARGET_DIPLOMATIC_PLAY.GetName] en el bando del objetivo"
+ ADD_ESCALATION:0 "La escalada de [DIPLOMATIC_PLAY.GetName] ha aumentado en $VALUE|-$"
+ ADD_ESCALATION_NEG:0 "La escalada de [DIPLOMATIC_PLAY.GetName] se ha reducido en $VALUE|-$"
+ END_PLAY:0 "Termina la jugada diplomática de [DIPLOMATIC_PLAY.GetName]"
+ END_PLAY_NEG:0 "Continúa la jugada diplomática de [DIPLOMATIC_PLAY.GetName]"
+ SET_KEY:0 "[DIPLOMATIC_PLAY.GetName] ahora se llama #variable $KEY$#!"
+ ADD_DIPLOMATIC_PLAY_WAR_SUPPORT:0 "El [concept_war_support|l] de [Country.GetNameNoFlag] a la jugada diplomática de [TARGET_DIPLOMATIC_PLAY.GetName] aumenta en $VALUE|+$" # [LocEditor:AwaitingBatchUpdate]
+ ADD_DIPLOMATIC_PLAY_WAR_SUPPORT_NEG:0 "El [concept_war_support|l] de [Country.GetNameNoFlag] a la jugada diplomática de [TARGET_DIPLOMATIC_PLAY.GetName] se reduce en $VALUE|+$" # [LocEditor:AwaitingBatchUpdate]
+ ADD_WAR_WAR_SUPPORT:0 "El [concept_war_support|l] de [Country.GetNameNoFlag] a la guerra de [War.GetName] aumenta en $VALUE|+$" # [LocEditor:AwaitingBatchUpdate]
+ ADD_WAR_WAR_SUPPORT_NEG:0 "El [concept_war_support|l] de [Country.GetNameNoFlag] a la guerra de [War.GetName] se reduce en $VALUE|+$" # [LocEditor:AwaitingBatchUpdate]
+ ADD_WAR_EXHAUSTION:0 "La ganancia de [concept_war_exhaustion|l] de [Country.GetNameNoFlag] en [TARGET_WAR.GetName] aumenta en $VALUE|+$" # [LocEditor:AwaitingBatchUpdate]
+ ADD_WAR_EXHAUSTION_NEG:0 "La ganancia de [concept_war_exhaustion|l] de [Country.GetNameNoFlag] en [TARGET_WAR.GetName] se reduce en $VALUE|+$" # [LocEditor:AwaitingBatchUpdate]
+ ADD_WAR_GOAL:0 "[COUNTRY.GetName] ha añadido el objetivo de guerra [WAR_GOAL.GetName] a la jugada diplomática de [DIPLOMATIC_PLAY.GetName] en [TARGET_COUNTRY.GetName]"
+ REMOVE_WAR_GOAL:0 "[COUNTRY.GetName] ha eliminado el objetivo de guerra [WAR_GOAL.GetName] a la jugada diplomática de [DIPLOMATIC_PLAY.GetName] en [TARGET_COUNTRY.GetName]" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `REMOVE_WAR_GOAL_NONE`
+ CREATE_DIPLOMATIC_PLAY:0 "[COUNTRY.GetName] crea una [concept_diplomatic_play|l] de #variable [DIPLOMATIC_PLAY_TYPE.GetName]#! contra [TARGET_COUNTRY.GetName]"
+ SET_WAR:0 "¡La jugada diplomática de [DIPLOMATIC_PLAY.GetName] ha desatado una guerra!"
+ SET_WAR_NEG:0 "¡La jugada diplomática de [DIPLOMATIC_PLAY.GetName] NO ha desatado una guerra!"
+ CREATE_TRUCE:0 "[COUNTRY.GetName] y [TARGET_COUNTRY.GetName] han firmado una #variable tregua de $MONTHS$ months#!"
+ VIOLATE_SOVEREIGNTY_JOIN:0 "[COUNTRY.GetName] acude en ayuda de [TARGET_COUNTRY.GetName]"
+
+ SET_INTEREST_MARKER_EFFECT:0 "[COUNTRY.GetName] fija el #variable nivel de [concept_interest|l] en $LEVEL$#! en #variable [STRATEGIC_REGION.GetName]#!"
+
+ KILL_CHARACTER:0 "[CHARACTER.GetFullName] muere"
+ KILL_CHARACTER_NEG:0 "[CHARACTER.GetFullName] vive"
+ PLACE_CHARACTER_IN_VOID:0 "[CHARACTER.GetFullName] desaparece sin dejar rastro"
+ FREE_CHARACTER_FROM_VOID:0 "Se ha encontrado con vida a [CHARACTER.GetFullName]"
+ FREE_CHARACTER_FROM_VOID_NEG:0 "No se ha vuelto a ver a [CHARACTER.GetFullName]"
+ ADD_TRAIT:0 "[CHARACTER.GetFullName] obtiene el rasgo [CHARACTER_TRAIT.GetName]"
+ REMOVE_TRAIT:0 "[CHARACTER.GetFullName] pierde el rasgo [CHARACTER_TRAIT.GetName]"
+ TRANSFER_CHARACTER:0 "[CHARACTER.GetFullName] ahora trabaja para [TARGET_COUNTRY.GetName]"
+ SET_CHARACTER_BUSY:0 "[CHARACTER.GetFullName] abandona todos sus cometidos y pasa a tener otras tareas"
+ SET_CHARACTER_BUSY_NEG:0 "[CHARACTER.GetFullName] ya no tiene tareas"
+
+ ADD_ORGANIZATION:0 "La organización de [COUNTRY.GetName] en #variable [AO.GetName]#! aumenta en $VALUE|+$"
+ ADD_ORGANIZATION_NEG:0 "La organización de [COUNTRY.GetName] en #variable [AO.GetName]#! se reduce en $VALUE|+$"
+ ADD_SPIRIT:0 "La moral de [COUNTRY.GetName] en #variable [AO.GetName]#! aumenta en $VALUE|+$"
+ ADD_SPIRIT_NEG:0 "La moral de [COUNTRY.GetName] en #variable [AO.GetName]#! se reduce en $VALUE|+$"
+ SET_ORGANIZATION:0 "La organización de [COUNTRY.GetName] en #variable [AO.GetName]#! es de $VALUE|+$"
+ SET_SPIRIT:0 "La moral de [COUNTRY.GetName] en #variable [AO.GetName]#! es de $VALUE|+$"
+
+ SET_OWNER_OF_PROVINCES:0 "[COUNTRY.GetName] recibe $NUM_PROVINCES|v$ provincias en [TARGET_STATE_REGION.GetName]"
+ CREATE_STATE:0 "[COUNTRY.GetName] obtiene un estado en [TARGET_STATE_REGION.GetName]"
+ SET_STATE_TYPE:0 "[STATE.GetName] se convierte en $STATE_TYPE|v$"
+ SET_STATE_OWNER:0 "[TARGET_COUNTRY.GetName] se convierte en propietario de [STATE.GetName]"
+ CREATE_BUILDING:0 "Crea 1 [BuildingType.GetName] de tamaño $LEVEL|v$ en [State.GetName]"
+ ADD_BUILDING_LEVEL:0 "Cambia en $LEVEL|v$ el nivel de [BuildingType.GetName] en [State.GetName]"
+ START_BUILDING_CONSTRUCTION:0 "Comienza la construcción de [BuildingType.GetName] en [State.GetName]"
+ CREATE_POP:0 "[STATE.GetName] obtiene #variable [POP_TYPE.GetName]#!: $SIZE|+$"
+ ADD_HOMELAND:0 "[STATE_REGION.GetName] se convierte en una [concept_homeland|l] #variable [CULTURE.GetName]#!"
+ REMOVE_HOMELAND:0 "[STATE_REGION.GetName] ya no es una [concept_homeland|l] #variable [CULTURE.GetName]#!"
+ ADD_CLAIM:0 "[TARGET_COUNTRY.GetName] gana una [concept_claim|l] en [STATE_REGION.GetName]"
+ REMOVE_CLAIM:0 "[TARGET_COUNTRY.GetName] pierde su [concept_claim|l] en [STATE_REGION.GetName]"
+ ACTIVATE_BUILDING:0 "Se ha activado [BUILDING_TYPE.GetName] en [STATE.GetName]"
+ DEACTIVATE_BUILDING:0 "Se ha desactivado [BUILDING_TYPE.GetName] en [STATE.GetName]"
+ REMOVE_BUILDING:0 "Se ha destruido [BUILDING_TYPE.GetName] en [STATE.GetName]"
+ CREATE_MARKET_EFFECT:0 "Se ha creado un nuevo mercado en [STATE.GetName]"
+ ADD_ARABLE_LAND_POSITIVE_EFFECT:0 "[STATE_REGION.GetName] obtiene $VALUE|+0$ de [Concept('concept_arable_land', 'tierra cultivable')]"
+ ADD_ARABLE_LAND_NEGATIVE_EFFECT:0 "[STATE_REGION.GetName] pierde $VALUE|-0$ de [Concept('concept_arable_land', 'tierra cultivable')]"
+ ADD_DEVASTATION_POSITIVE_EFFECT:0 "[STATE_REGION.GetName] obtiene un $VALUE|-0$ % de [concept_devastation|l]"
+ ADD_DEVASTATION_NEGATIVE_EFFECT:0 "[STATE_REGION.GetName] pierde un $VALUE|+0$ % de [concept_devastation|l]"
+ SET_DEVASTATION_POSITIVE_EFFECT:0 "[concept_devastation] de [STATE_REGION.GetName]: #variable $VALUE|0$ %#!"
+ SET_DEVASTATION_NEGATIVE_EFFECT:0 "[concept_devastation] de [STATE_REGION.GetName]: #variable $VALUE|0$ %#!"
+ ADD_POLLUTION_EFFECT:0 "Aumenta en $VALUE|-0$ el nivel de contaminación en [StateRegion.GetName]"
+ REMOVE_POLLUTION_EFFECT:0 "Reduce en $VALUE|+0$ el nivel de contaminación en [StateRegion.GetName]"
+  
+ ADD_POP_WEALTH:0 "Los [Pop.GetName] en [POP.GetState.GetName] obtienen $VALUE|+$ de riqueza"
+ ADD_POP_WEALTH_NEG:0 "Los [Pop.GetName] en [POP.GetState.GetName] pierden $VALUE|+$ de riqueza"
+ SET_POP_WEALTH:0 "Los [Pop.GetName] en [POP.GetState.GetName] tienen la riqueza fijada en $VALUE|+$"
+ SET_POP_LITERACY:0 "Los [Pop.GetName] en [POP.GetState.GetName] tienen la alfabetización fijada en $VALUE|+0%$"
+ SET_POP_QUALIFICATIONS:0 "Los [POP_TYPE.GetName] de los [Pop.GetName] en [POP.GetState.GetName] tienen las [concept_pop_qualifications|l] fijadas en $VALUE|+0%$"
+ SET_POP_HAPPINESS:0 "Los [Pop.GetName] en [POP.GetState.GetName] tienen la felicidad fijada en $VALUE|+$"
+ CHANGE_POPTYPE:0 "Los [Pop.GetName] en [Pop.GetState.GetName] se convierten en #variable [POP_TYPE.GetName]#!"
+ CHANGE_POP_RELIGION:0 "Un $VALUE|0v%$ de los [Pop.GetName] en [Pop.GetState.GetName] seguirán la religión [Religion.GetName]"
+ # [LocEditor:UntranslatedKey] `CONVERT_POPULATION`
+ CHANGE_POP_CULTURE:0 "Un $VALUE|0v%$ de los [Pop.GetName] en [Pop.GetState.GetName] asimilarán la cultura [Culture.GetName]"
+ MOVE_POP:0 "Los [Pop.GetName] en [Pop.GetState.GetName] se trasladarán a [TARGET_STATE.GetName]"
+
+ EFFECT_CREATE_ASSIGNMENT:0 "Asigna a [CHARACTER.GetFullName] a [STRATEGIC_REGION.GetName]"
+ EFFECT_PROJECT_POWER:0 "[CHARACTER.GetFullName] proyectará poder a [STRATEGIC_REGION.GetName]"
+  
+ TRIGGER_EVENT:0 "Activa el evento #variable $EVENT_NAME$#!"
+
+ ANNEX_EFFECT:0 "[COUNTRY.GetName] se anexionará [TARGET_COUNTRY.GetName]"
+  
+ ADD_JOURNAL_ENTRY:0 "Se añade #variable $JOURNAL_ENTRY_NAME$#! al diario de [COUNTRY.GetName|v]"
+ START_TUTORIAL_LESSON:0 "Comienza el tutorial de #variable $TUTORIAL_NAME$#!"
+  
+ ADD_RULING_INTEREST_GROUP:0 "El grupo de interés [INTEREST_GROUP.GetName] forma parte del gobierno"
+ REMOVE_RULING_INTEREST_GROUP:0 "El grupo de interés [INTEREST_GROUP.GetName] se ha retirado del gobierno"
+ SET_RULING_INTEREST_GROUPS:0 "Se añade un conjunto concreto de grupos de interés al gobierno y se eliminan a los demás"
+ ADD_MODIFIER:0 "$SUBJECT_NAME$ obtiene #tooltippable #tooltip:[GetRawTextTooltipTag('$ADD_MODIFIER_BREAKDOWN$')] $MODIFIER_NAME$#!#! $DURATION$\n$TAB$#indent_newline:3 $MODIFIER_DESC$#!"
+ ADD_MODIFIER_BREAKDOWN:0 "#header $MODIFIER_NAME$#!\n$MODIFIER_DESC$"
+ ADD_ENACTMENT_MODIFIER:0 "$ADD_MODIFIER$"
+ REMOVE_MODIFIER:0 "$SUBJECT_NAME$ pierde #tooltippable #tooltip:[GetRawTextTooltipTag('$REMOVE_MODIFIER_BREAKDOWN$')] #variable $MODIFIER_NAME$#!#!#!\n$TAB$#indent_newline:3 $MODIFIER_DESC$#!"
+ REMOVE_MODIFIER_BREAKDOWN:0 "#header $MODIFIER_NAME$#!\n$MODIFIER_DESC$"
+ REMOVE_ENACTMENT_MODIFIER:0 "$REMOVE_MODIFIER$"
+
+ ACTIVATE_PRODUCTION_METHOD:0 "Activa [PRODUCTION_METHOD.GetName] para los edificios [BUILDING_TYPE.GetName] en $TARGET|v$"
+ ADD_COMMANDER_RANK:0 "[CHARACTER.GetFullName] $DESC_STR$ #variable [COMMANDER_RANK.GetName]#!" # [LocEditor:AwaitingBatchUpdate]
+ SET_COMMANDER_RANK:0 "[CHARACTER.GetFullName] $DESC_STR$ #variable [COMMANDER_RANK.GetName]#!" # [LocEditor:AwaitingBatchUpdate]
+ # [LocEditor:UntranslatedKey] `ADD_CHARACTER_ROLE`
+ ADD_EXPERIENCE:0 "[CHARACTER.GetFullName] gana [concept_life_experience|l]"
+
+ CREATE_COUNTRY:0 "Se ha creado un nuevo país"
+ ADD_CULTURE_WELFARE_MODIFIER:0 "[STATE.GetName] obtiene el modificador $MODIFIER_NAME|v$ $DURATION$\n   #header $MODIFIER_NAME$#!\n   $MODIFIER_DESC$"
+ # [LocEditor:UntranslatedKey] `ADD_RELIGION_WELFARE_MODIFIER`
+ FORCE_RESOURCE_DISCOVERY:0 "Descubre recursos en #variable $BUILDING_GROUP$#! de [State.GetName]"
+ FORCE_RESOURCE_DEPLETION:0 "Agota recursos en #variable $BUILDING_GROUP$#! de [State.GetName]"
+
+ SET_NEXT_ELECTION_DATE:0 "La fecha de las elecciones de [COUNTRY.GetNameNoFlag|v] es $DATE|v$" # [LocEditor:AwaitingBatchUpdate]
+
+ JOIN_REVOLUTION:0 "[INTEREST_GROUP.GetName] se vuelve insurrecto"
+ ABANDON_REVOLUTION:0 "[INTEREST_GROUP.GetName] deja de ser insurrecto"
+
+ START_PROMOTE_IG:0 "Comenzar a promover a [INTEREST_GROUP.GetName]"
+ STOP_PROMOTE_IG:0 "Dejar de promover a [INTEREST_GROUP.GetName]"
+ START_SUPPRESS_IG:0 "Comenzar a reprimir a [INTEREST_GROUP.GetName]"
+ STOP_SUPPRESS_IG:0 "Dejar de reprimir a [INTEREST_GROUP.GetName]"
+  
+ ADD_EMBARGOED_GOODS:0 "[COUNTRY.GetName] comienza a [Concept('concept_embargo', 'embargar')] [TARGET_GOODS.GetName]" # [LocEditor:AwaitingBatchUpdate]
+ REMOVE_EMBARGOED_GOODS:0 "[COUNTRY.GetName] deja de [Concept('concept_embargo', 'embargar')] [TARGET_GOODS.GetName]" # [LocEditor:AwaitingBatchUpdate]
+ ADD_ENCOURAGED_GOODS:0 "[COUNTRY.GetName] comienza a [Concept('concept_encourage_consumption', 'fomentar el consumo')] de [TARGET_GOODS.GetName]." # [LocEditor:AwaitingBatchUpdate]
+ REMOVE_ENCOURAGED_GOODS:0 "[COUNTRY.GetName] deja de [Concept('concept_encourage_consumption', 'fomentar el consumo')] de [TARGET_GOODS.GetName]" # [LocEditor:AwaitingBatchUpdate]
+ ADD_DISCOURAGED_GOODS:0 "[COUNTRY.GetName] comienza a [Concept('concept_discourage_consumption', 'desalentar el consumo')] de [TARGET_GOODS.GetName]." # [LocEditor:AwaitingBatchUpdate]
+ REMOVE_DISCOURAGED_GOODS:0 "[COUNTRY.GetName] deja de [Concept('concept_discourage_consumption', 'desalentar el consumo')] de [TARGET_GOODS.GetName]." # [LocEditor:AwaitingBatchUpdate]
+ ADD_TAXED_GOODS:0 "[COUNTRY.GetName] comienza a recaudar [Concept('concept_consumption_tax', '$concept_consumption_taxes$')|l] de [TARGET_GOODS.GetName]." # [LocEditor:AwaitingBatchUpdate]
+ REMOVE_TAXED_GOODS:0 "[COUNTRY.GetName] deja de recaudar [Concept('concept_consumption_tax', '$concept_consumption_taxes$')|l] de [TARGET_GOODS.GetName]." # [LocEditor:AwaitingBatchUpdate]
+  
+ ADD_RADICALS:0 "Un $NUM|%$ de los [Concept('concept_pop', 'colectivos')] $FILTER$ se vuelve más [concept_radical|l]."
+ ADD_LOYALISTS:0 "Un $NUM|%$ de los [Concept('concept_pop', 'colectivos')] $FILTER$ se vuelve más [concept_loyalist|l]."
+
+ ADD_CIVIL_WAR_PROGRESS:0 "Modifica un $VALUE|%$ el avance de la guerra civil"
+ ADD_LAW_PROGRESS:0 "Modifica en $VALUE|0%$ el avance de la ley [Law.GetName]"
+
+ MAKE_INDEPENDENT:0 "[COUNTRY.GetName] se independiza de [TARGET_COUNTRY.GetName]"
+ MAKE_INDEPENDENT_NEG:0 "[COUNTRY.GetName] NO se independiza de [TARGET_COUNTRY.GetName]"
+  
+ OBJECTIVE_SUBGOAL_EFFECT:0 "Efecto del objetivo secundario"
+  
+ REMOVE_DIPLOMATIC_PACT:0 "[COUNTRY.GetName] ha retirado la jugada diplomática [DIPLOMATIC_ACTION_TYPE.GetName] de [TARGET_COUNTRY.GetName]"
+  
+ SET_SUBSIDIZED:0 "Empezar a [Concept('concept_subsidies', 'subvencionar')] [Building.GetName]" # [LocEditor:AwaitingBatchUpdate]
+ SET_SUBSIDIZED_NEGATIVE:0 "Dejar de [Concept('concept_subsidies', 'subvencionar')] [Building.GetName]" # [LocEditor:AwaitingBatchUpdate]
+  
+ ADD_MOMENTUM:0 "Se va a añadir #v $MOMENTUM|%+=0$#! de [concept_momentum|l] a [Party.GetName]"
+ RESOLVE_PLAY_FOR:0 "[Country.GetName] impone sus objetivos de guerra y abandona la jugada diplomática de [TARGET_DIPLOMATIC_PLAY.GetName]"
+
+ CHANGE_CHARACTER_RELIGION:0 "[Character.GetFullName] se convierte a la religión [TARGET_RELIGION.GetName]"
+ CHANGE_TAG:0 "[COUNTRY.GetName] pasa a ser $NEW_TAG|v$"
+ SET_INTEREST_MARKER_IN_REGION:0 "Coloca un marcador de interés en $REGION_NAME|v$"
+ CHANGE_SUBJECT_TYPE:0 "[Country.GetName] pasa a ser $SUBJECT_TYPE$ de [Country.GetOverlord.GetName]"
+
+ PARTIES_EMERGENCE:0 "Esto provocará la creación de partidos."
+ PARTIES_DISAPPEARENCE:0 "Esto provocará la desaparición de partidos."
+ UPDATE_PARTY_SUPPORT_EFFECT:0 "Los grupos de interés reevaluarán el apoyo a su partido."
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ SET_INCOME_TAX_LEVEL:0 "El nivel de [concept_budget_income_taxes|l] de [COUNTRY.GetName] es #variable $TAX_LEVEL$#!"
+ SET_POLL_TAX_LEVEL:0 "El nivel de [concept_budget_poll_taxes|l] de [COUNTRY.GetName] se ha fijado en #variable $TAX_LEVEL$#!"
+ SET_CONSUMPTION_TAX_LEVEL:0 "El nivel de [concept_budget_consumption_taxes|l] de [COUNTRY.GetName] se ha fijado en #variable $TAX_LEVEL$#!"
+ SET_OWES_FAVOR_TO:0 "[COUNTRY.GetName] le debe un [concept_favor|l] a [TARGET_COUNTRY.GetName]"
+ SET_OWES_FAVOR_TO_NEG:0 "[COUNTRY.GetName] ya no le debe un [concept_favor|l] a [TARGET_COUNTRY.GetName]"
+ SET_ARMY_BUDGET:0 "El presupuesto del ejército de tierra de #variable [COUNTRY.GetNameNoFlag]#! es de #variable $VALUE$#!"
+ SET_NAVY_BUDGET:0 "El presupuesto de la armada de #variable [COUNTRY.GetNameNoFlag]#! es de #variable $VALUE$#!"
+ SET_STOCKPILE_BUDGET:0 "El presupuesto para pertrechos de #variable [COUNTRY.GetNameNoFlag]#! es de #variable $VALUE$#!"
+ ADD_STOCKPILE:0 "Los pertrechos de #variable [COUNTRY.GetNameNoFlag]#! han aumentado en $VALUE|+$"
+ ADD_STOCKPILE_NEG:0 "Los pertrechos de #variable [COUNTRY.GetNameNoFlag]#! se han reducido en $VALUE|+$"
+ ADD_INNOVATION_POINTS:0 "Los puntos de innovación de #variable [COUNTRY.GetNameNoFlag]#! han aumentado en $VALUE|+$"
+ ADD_INNOVATION_POINTS_NEG:0 "Los puntos de innovación de #variable [COUNTRY.GetNameNoFlag]#! se han reducido en $VALUE|+$"
+ MULT_DIPLOMATIC_PLAY_WAR_SUPPORT:0 "El [concept_war_support|l] de [Country.GetNameNoFlag] a la jugada diplomática de [TARGET_DIPLOMATIC_PLAY.GetName] se reduce en $VALUE|+$"
+ MULT_WAR_WAR_SUPPORT:0 "El respaldo de [Country.GetNameNoFlag] a la guerra de [War.GetName] se reduce en $VALUE|+$"

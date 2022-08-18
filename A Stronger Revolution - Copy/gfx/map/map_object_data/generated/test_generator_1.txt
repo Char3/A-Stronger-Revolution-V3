@@ -1,0 +1,9 @@
+﻿object={
+	name="test_generator_1_0"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="temp_layer"
+	pdxmesh="generic_rural_mining_oilrig_01_mesh"
+	count=0
+}

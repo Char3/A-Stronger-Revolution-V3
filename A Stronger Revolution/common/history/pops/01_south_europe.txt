@@ -32,8 +32,12 @@
 	s:STATE_SARDINIA = {
 		region_state:SAR = {
 			create_pop = {
+				culture = corsican
+				size = 50000
+			}
+			create_pop = {
 				culture = south_italian
-				size = 524084
+				size = 25084
 			}
 		}
 	}
@@ -400,15 +404,15 @@
 		region_state:TUR = {
 			create_pop = {
 				culture = turkish
-				size = 832996
+				size = 808996
 			}
 			create_pop = {
 				culture = greek
-				size = 281992
+				size = 301992
 			}
 			create_pop = {
 				culture = north_italian
-				size = 7996
+				size = 9996
 			}
 			create_pop = {
 				culture = bulgarian
@@ -416,7 +420,7 @@
 			}
 			create_pop = {
 				culture = armenian
-				size = 67996
+				size = 69996
 			}
 			create_pop = {
 				culture = sephardic
@@ -557,6 +561,11 @@
 				culture = north_italian
 				size = 20004
 			}
+			create_pop = {
+				culture = hungarian
+				religion = protestant
+				size = 2000
+			}
 		}
 	}
 	s:STATE_CROATIA = {
@@ -596,7 +605,12 @@
 			}
 			create_pop = {
 				culture = hungarian
-				size = 16000
+				religion = protestant
+				size = 12000
+			}
+			create_pop = {
+				culture = hungarian
+				size = 4000
 			}
 			create_pop = {
 				culture = south_german
@@ -734,6 +748,14 @@
 				culture = greek
 				size = 637592
 			}
+			create_pop = {
+				culture = sephardic
+				size = 13000
+			}
+			create_pop = {
+				culture = turkish
+				size = 4500
+			}
 		}
 	}
 	s:STATE_THESSALIA = {
@@ -805,7 +827,7 @@
 		region_state:TUR = {
 			create_pop = {
 				culture = turkish
-				size = 274808
+				size = 244808
 			}
 			create_pop = {
 				culture = sephardic
@@ -813,7 +835,7 @@
 			}
 			create_pop = {
 				culture = greek
-				size = 376000
+				size = 406000
 			}
 			create_pop = {
 				culture = bulgarian
@@ -842,6 +864,20 @@
 			create_pop = {
 				culture = greek
 				size = 221996
+			}
+			create_pop = {
+				culture = turkish
+				size = 1000
+			}
+			create_pop = {
+				culture = south_german
+				pop_type = officers
+				size = 100
+			}
+			create_pop = {
+				culture = south_german
+				pop_type = soldiers
+				size = 1000
 			}
 		}
 	}

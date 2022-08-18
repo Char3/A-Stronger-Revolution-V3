@@ -1,0 +1,1310 @@
+﻿TRADE_ROUTES = {
+	# Kokkand
+	c:KOK = {
+		create_trade_route = {
+			goods = opium
+			level = 1
+			direction = import
+			origin = c:KOK.market
+			target = c:AFG.market
+		}		
+	}
+	
+	# Bukhara
+	c:BUK = {
+		create_trade_route = {
+			goods = opium
+			level = 1
+			direction = import
+			origin = c:BUK.market
+			target = c:AFG.market
+		}	
+	}	
+	
+	# Khiva
+	c:KHI = {
+		create_trade_route = {
+			goods = tea
+			level = 1
+			direction = import
+			origin = c:KHI.market
+			target = c:BUK.market
+		}		
+	}
+
+	# USA
+	c:USA = {
+		create_trade_route = {
+			goods = sulfur
+			level = 1
+			direction = import
+			origin = c:USA.market
+			target = c:GBR.market
+		}
+		create_trade_route = {
+			goods = sulfur
+			level = 1
+			direction = import
+			origin = c:USA.market
+			target = c:SIC.market
+		}			
+		create_trade_route = {
+			goods = dye
+			level = 1
+			direction = import
+			origin = c:USA.market
+			target = c:BOL.market
+		}
+		create_trade_route = {
+			goods = dye
+			level = 1
+			direction = import
+			origin = c:USA.market
+			target = c:PEU.market
+		}
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 4
+			direction = import
+			origin = c:USA.market
+			target = c:FRA.market
+		}			
+		create_trade_route = {
+			goods = luxury_clothes
+			level = 4
+			direction = import
+			origin = c:USA.market
+			target = c:FRA.market
+		}		
+		create_trade_route = {
+			goods = wine
+			level = 2
+			direction = import
+			origin = c:USA.market
+			target = c:FRA.market
+		}		
+		create_trade_route = {
+			goods = coffee
+			level = 4
+			direction = import
+			origin = c:USA.market
+			target = c:BRZ.market
+		}	
+		create_trade_route = {
+			goods = sugar
+			level = 1
+			direction = import
+			origin = c:USA.market
+			target = c:HAW.market
+		}	
+	}
+
+	# Colombia
+	c:CLM = {
+		create_trade_route = {
+			goods = sugar
+			level = 1
+			direction = export
+			origin = c:CLM.market
+			target = c:USA.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			origin = c:CLM.market
+			target = c:USA.market
+		}
+		create_trade_route = {
+			goods = artillery
+			level = 1
+			direction = import
+			origin = c:CLM.market
+			target = c:USA.market
+		}			
+	}
+	
+	# Chile
+	c:CHL = {
+		create_trade_route = {
+			goods = furniture
+			level = 1
+			direction = import
+			origin = c:CHL.market
+			target = c:ARG.market
+		}	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			origin = c:CHL.market
+			target = c:BRZ.market
+		}
+		create_trade_route = {
+			goods = artillery
+			level = 1
+			direction = import
+			origin = c:CHL.market
+			target = c:BRZ.market
+		}		
+	}
+
+	# Peru
+	c:PEU = {
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			origin = c:PEU.market
+			target = c:CHL.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			origin = c:PEU.market
+			target = c:BRZ.market
+		}
+		create_trade_route = {
+			goods = artillery
+			level = 1
+			direction = import
+			origin = c:PEU.market
+			target = c:BRZ.market
+		}			
+	}	
+	
+	# Argentina
+	c:ARG = {
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			origin = c:ARG.market
+			target = c:CHL.market
+		}		
+	}		
+
+	# Uruguay
+	c:URU = {
+		create_trade_route = {
+			goods = furniture
+			level = 1
+			direction = import
+			origin = c:URU.market
+			target = c:ARG.market
+		}	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			origin = c:URU.market
+			target = c:ARG.market
+		}
+		create_trade_route = {
+			goods = artillery
+			level = 1
+			direction = import
+			origin = c:URU.market
+			target = c:ARG.market
+		}			
+	}
+
+	# Bolivia
+	c:BOL = {
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			origin = c:BOL.market
+			target = c:BRZ.market
+		}
+		create_trade_route = {
+			goods = artillery
+			level = 1
+			direction = import
+			origin = c:BOL.market
+			target = c:BRZ.market
+		}	
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			origin = c:BOL.market
+			target = c:CHL.market
+		}		
+	}
+
+	# Ecuador
+	c:ECU = {
+		create_trade_route = {
+			goods = clothes
+			level = 1
+			direction = import
+			origin = c:ECU.market
+			target = c:PEU.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			origin = c:BOL.market
+			target = c:ARG.market
+		}
+		create_trade_route = {
+			goods = artillery
+			level = 1
+			direction = import
+			origin = c:BOL.market
+			target = c:ARG.market
+		}		
+	}
+	
+	# Venezuela
+	c:VNZ = {
+		create_trade_route = {
+			goods = sugar
+			level = 1
+			direction = export
+			origin = c:VNZ.market
+			target = c:USA.market
+		}	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			origin = c:VNZ.market
+			target = c:USA.market
+		}
+		create_trade_route = {
+			goods = artillery
+			level = 1
+			direction = import
+			origin = c:VNZ.market
+			target = c:USA.market
+		}		
+	}
+	
+	# Persia
+	c:PER = {
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			origin = c:PER.market
+			target = c:TUR.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			origin = c:PER.market
+			target = c:TUR.market
+		}		
+	}
+
+	# Central America
+	c:UCA = {
+		create_trade_route = {
+			goods = sugar
+			level = 1
+			direction = export
+			origin = c:UCA.market
+			target = c:USA.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			origin = c:UCA.market
+			target = c:USA.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			origin = c:UCA.market
+			target = c:USA.market
+		}		
+	}
+	
+	# Mexico
+	c:MEX = {
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			origin = c:MEX.market
+			target = c:USA.market
+		}
+		create_trade_route = {
+			goods = artillery
+			level = 1
+			direction = import
+			origin = c:MEX.market
+			target = c:USA.market
+		}			
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			origin = c:MEX.market
+			target = c:USA.market
+		}		
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			origin = c:MEX.market
+			target = c:USA.market
+		}	
+		create_trade_route = {
+			goods = paper
+			level = 1
+			direction = import
+			origin = c:MEX.market
+			target = c:USA.market
+		}		
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 1
+			direction = import
+			origin = c:MEX.market
+			target = c:USA.market
+		}				
+	}	
+
+	# Denmark
+	c:DEN = {
+		create_trade_route = {
+			goods = paper
+			level = 1
+			direction = import
+			origin = c:DEN.market
+			target = c:SWE.market
+		}
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 1
+			direction = import
+			origin = c:DEN.market
+			target = c:GBR.market
+		}
+		create_trade_route = {
+			goods = luxury_clothes
+			level = 1
+			direction = import
+			origin = c:DEN.market
+			target = c:GBR.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			origin = c:DEN.market
+			target = c:GBR.market
+		}
+		create_trade_route = {
+			goods = artillery
+			level = 1
+			direction = import
+			origin = c:DEN.market
+			target = c:GBR.market
+		}		
+	}
+
+	# Morocco
+	c:MOR = {
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			origin = c:MOR.market
+			target = c:FRA.market
+		}	
+		create_trade_route = {
+			goods = artillery
+			level = 1
+			direction = import
+			origin = c:MOR.market
+			target = c:FRA.market
+		}			
+		create_trade_route = {
+			goods = iron
+			level = 1
+			direction = export
+			origin = c:MOR.market
+			target = c:FRA.market
+		}	
+		create_trade_route = {
+			goods = wood
+			level = 1
+			direction = import
+			origin = c:MOR.market
+			target = c:TUR.market
+		}		
+	}
+
+	# Tuscany
+	c:TUS = {
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = import
+			origin = c:TUS.market
+			target = c:SAR.market
+		}
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			origin = c:TUS.market
+			target = c:SIC.market
+		}
+		create_trade_route = {
+			goods = artillery
+			level = 1
+			direction = import
+			origin = c:TUS.market
+			target = c:SIC.market
+		}			
+	}
+	
+	# Papal States
+	c:PAP = {
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			origin = c:PAP.market
+			target = c:SIC.market
+		}
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 1
+			direction = import
+			origin = c:PAP.market
+			target = c:FRA.market
+		}	
+		create_trade_route = {
+			goods = luxury_clothes
+			level = 1
+			direction = import
+			origin = c:PAP.market
+			target = c:TUS.market
+		}		
+	}
+
+	# Egypt
+	c:EGY = {	
+		create_trade_route = {
+			goods = fabric
+			level = 1
+			direction = export
+			origin = c:EGY.market
+			target = c:GBR.market
+		}
+		create_trade_route = {
+			goods = fabric
+			level = 1
+			direction = export
+			origin = c:EGY.market
+			target = c:FRA.market
+		}			
+		create_trade_route = {
+			goods = iron
+			level = 1
+			direction = import
+			origin = c:EGY.market
+			target = c:GBR.market
+		}		
+		create_trade_route = {
+			goods = furniture
+			level = 1
+			direction = import
+			origin = c:EGY.market
+			target = c:FRA.market
+		}	
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 1
+			direction = import
+			origin = c:EGY.market
+			target = c:FRA.market
+		}
+		create_trade_route = {
+			goods = luxury_clothes
+			level = 1
+			direction = import
+			origin = c:EGY.market
+			target = c:FRA.market
+		}
+		create_trade_route = {
+			goods = wood
+			level = 4
+			direction = import
+			origin = c:EGY.market
+			target = c:RUS.market
+		}			
+	}
+	
+	# Ottomans
+	c:TUR = {
+		create_trade_route = {
+			goods = luxury_clothes
+			level = 4
+			direction = import
+			origin = c:TUR.market
+			target = c:GBR.market
+		}
+		create_trade_route = {
+			goods = dye
+			level = 1
+			direction = import
+			origin = c:TUR.market
+			target = c:GBR.market
+		}		
+		create_trade_route = {
+			goods = furniture
+			level = 3
+			direction = import
+			origin = c:TUR.market
+			target = c:FRA.market
+		}
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 4
+			direction = import
+			origin = c:TUR.market
+			target = c:FRA.market
+		}	
+		create_trade_route = {
+			goods = coffee
+			level = 1
+			direction = import
+			origin = c:TUR.market
+			target = c:YEM.market
+		}		
+	}	
+	
+	c:YEM = {
+		create_trade_route = {
+			goods = coffee
+			level = 1
+			direction = export
+			origin = c:YEM.market
+			target = c:EGY.market
+		}			
+	}
+	
+	# Two Sicilies
+	c:SIC = {		
+		create_trade_route = {
+			goods = iron
+			level = 1
+			direction = import
+			origin = c:SIC.market
+			target = c:TUS.market
+		}	
+		create_trade_route = {
+			goods = luxury_clothes
+			level = 1
+			direction = import
+			origin = c:SIC.market
+			target = c:TUS.market
+		}
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 1
+			direction = import
+			origin = c:SIC.market
+			target = c:FRA.market
+		}		
+		create_trade_route = {
+			goods = paper
+			level = 1
+			direction = import
+			origin = c:SIC.market
+			target = c:PAP.market
+		}	
+		create_trade_route = {
+			goods = manowars
+			level = 1
+			direction = import
+			origin = c:SIC.market
+			target = c:FRA.market
+		}	
+		create_trade_route = {
+			goods = paper
+			level = 1
+			direction = import
+			origin = c:SIC.market
+			target = c:PAP.market
+		}			
+	}
+
+	# Sweden 	
+	c:SWE = {
+		create_trade_route = {
+			goods = tools
+			level = 3
+			direction = import
+			origin = c:SWE.market
+			target = c:GBR.market
+		}
+		create_trade_route = {
+			goods = fabric
+			level = 3
+			direction = import
+			origin = c:SWE.market
+			target = c:GBR.market
+		}		
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 1
+			direction = import
+			origin = c:SWE.market
+			target = c:GBR.market
+		}
+		create_trade_route = {
+			goods = luxury_clothes
+			level = 1
+			direction = import
+			origin = c:SWE.market
+			target = c:GBR.market
+		}
+		create_trade_route = {
+			goods = coffee
+			level = 1
+			direction = import
+			origin = c:SWE.market
+			target = c:NET.market
+		}		
+	}
+
+	# Russia
+	c:RUS = {
+		create_trade_route = {
+			goods = dye
+			level = 1
+			direction = import
+			origin = c:RUS.market
+			target = c:GBR.market
+		}		
+		create_trade_route = {
+			goods = tea
+			level = 1
+			direction = import
+			origin = c:RUS.market
+			target = c:CHI.market
+		}		
+		create_trade_route = {
+			goods = porcelain
+			level = 1
+			direction = import
+			origin = c:RUS.market
+			target = c:CHI.market
+		}		
+		create_trade_route = {
+			goods = luxury_clothes
+			level = 4
+			direction = import
+			origin = c:RUS.market
+			target = c:GBR.market
+		}	
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 4
+			direction = import
+			origin = c:RUS.market
+			target = c:FRA.market
+		}
+		create_trade_route = {
+			goods = sugar
+			level = 3
+			direction = import
+			origin = c:RUS.market
+			target = c:SPA.market
+		}		
+		create_trade_route = {
+			goods = sugar
+			level = 4
+			direction = import
+			origin = c:RUS.market
+			target = c:NET.market
+		}
+		create_trade_route = {
+			goods = tools
+			level = 3
+			direction = import
+			origin = c:RUS.market
+			target = c:GBR.market
+		}		
+	}
+	
+	# British India Company
+	c:BIC = {
+		create_trade_route = {
+			goods = opium
+			level = 12
+			direction = export
+			origin = c:BIC.market
+			target = c:CHI.market
+		}	
+	}
+
+	# Britain
+	c:GBR = {
+		create_trade_route = {
+			goods = sulfur
+			level = 1
+			direction = import
+			origin = c:GBR.market
+			target = c:SIC.market
+		}
+		create_trade_route = {
+			goods = fabric
+			level = 20
+			direction = import
+			origin = c:GBR.market
+			target = c:USA.market
+		}	
+		create_trade_route = {
+			goods = silk
+			level = 12
+			direction = import
+			origin = c:GBR.market
+			target = c:CHI.market
+		}			
+		create_trade_route = {
+			goods = tea
+			level = 10
+			direction = import
+			origin = c:GBR.market
+			target = c:CHI.market
+		}
+		create_trade_route = {
+			goods = hardwood
+			level = 4
+			direction = import
+			origin = c:GBR.market
+			target = c:SWE.market
+		}	
+		create_trade_route = {
+			goods = hardwood
+			level = 4
+			direction = import
+			origin = c:GBR.market
+			target = c:RUS.market
+		}	
+		create_trade_route = {
+			goods = iron
+			level = 1
+			direction = import
+			origin = c:GBR.market
+			target = c:SWE.market
+		}	
+		create_trade_route = {
+			goods = fruit
+			level = 1
+			direction = import
+			origin = c:GBR.market
+			target = c:HAW.market
+		}	
+	}
+
+	# Portugal
+	c:POR = {	
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			origin = c:POR.market
+			target = c:GBR.market
+		}
+		create_trade_route = {
+			goods = artillery
+			level = 1
+			direction = import
+			origin = c:POR.market
+			target = c:GBR.market
+		}	
+		create_trade_route = {
+			goods = luxury_clothes
+			level = 1
+			direction = import
+			origin = c:POR.market
+			target = c:GBR.market
+		}	
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 1
+			direction = import
+			origin = c:POR.market
+			target = c:FRA.market
+		}
+		create_trade_route = {
+			goods = porcelain
+			level = 1
+			direction = import
+			origin = c:POR.market
+			target = c:CHI.market
+		}	
+		create_trade_route = {
+			goods = liquor
+			level = 1
+			direction = import
+			origin = c:POR.market
+			target = c:GBR.market
+		}		
+	}
+
+	# Spain
+	c:SPA = {	
+		create_trade_route = {
+			goods = paper
+			level = 1
+			direction = import
+			origin = c:SPA.market
+			target = c:RUS.market
+		}		
+		create_trade_route = {
+			goods = porcelain
+			level = 1
+			direction = import
+			origin = c:SPA.market
+			target = c:CHI.market
+		}		
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 1
+			direction = import
+			origin = c:SPA.market
+			target = c:FRA.market
+		}	
+		create_trade_route = {
+			goods = furniture
+			level = 1
+			direction = import
+			origin = c:SPA.market
+			target = c:FRA.market
+		}
+	}
+
+	# Austria
+	c:AUS = {
+		create_trade_route = {
+			goods = coffee
+			level = 1
+			direction = import
+			origin = c:AUS.market
+			target = c:POR.market
+		}
+		create_trade_route = {
+			goods = dye
+			level = 1
+			direction = import
+			origin = c:AUS.market
+			target = c:POR.market
+		}		
+		create_trade_route = {
+			goods = wine
+			level = 4
+			direction = import
+			origin = c:AUS.market
+			target = c:FRA.market
+		}			
+		create_trade_route = {
+			goods = sugar
+			level = 4
+			direction = import
+			origin = c:AUS.market
+			target = c:EGY.market
+		}		
+		create_trade_route = {
+			goods = furniture
+			level = 4
+			direction = import
+			origin = c:AUS.market
+			target = c:FRA.market
+		}	
+		create_trade_route = {
+			goods = clothes
+			level = 4
+			direction = import
+			origin = c:AUS.market
+			target = c:FRA.market
+		}
+		create_trade_route = {
+			goods = luxury_clothes
+			level = 1
+			direction = import
+			origin = c:AUS.market
+			target = c:TUS.market
+		}			
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			origin = c:AUS.market
+			target = c:FRA.market
+		}	
+		create_trade_route = {
+			goods = manowars
+			level = 1
+			direction = import
+			origin = c:AUS.market
+			target = c:FRA.market
+		}				
+	}
+	
+	# Sardinia
+	c:SAR = {
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			origin = c:SAR.market
+			target = c:FRA.market
+		}
+		create_trade_route = {
+			goods = artillery
+			level = 1
+			direction = import
+			origin = c:SAR.market
+			target = c:FRA.market
+		}	
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 1
+			direction = import
+			origin = c:SAR.market
+			target = c:FRA.market
+		}
+		create_trade_route = {
+			goods = luxury_clothes
+			level = 1
+			direction = import
+			origin = c:SAR.market
+			target = c:FRA.market
+		}
+		create_trade_route = {
+			goods = manowars
+			level = 1
+			direction = import
+			origin = c:SAR.market
+			target = c:FRA.market
+		}		
+		create_trade_route = {
+			goods = liquor
+			level = 1
+			direction = import
+			origin = c:SAR.market
+			target = c:AUS.market
+		}			
+	}
+	
+	# Switzerland
+	c:SWI = {
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			origin = c:SWI.market
+			target = c:PRU.market
+		}
+		create_trade_route = {
+			goods = paper
+			level = 1
+			direction = import
+			origin = c:SWI.market
+			target = c:PRU.market
+		}		
+		create_trade_route = {
+			goods = grain
+			level = 1
+			direction = import
+			origin = c:SWI.market
+			target = c:FRA.market
+		}	
+		create_trade_route = {
+			goods = luxury_clothes
+			level = 1
+			direction = import
+			origin = c:SWI.market
+			target = c:FRA.market
+		}
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 1
+			direction = import
+			origin = c:SWI.market
+			target = c:FRA.market
+		}	
+		create_trade_route = {
+			goods = wine
+			level = 1
+			direction = import
+			origin = c:SWI.market
+			target = c:FRA.market
+		}			
+	}	
+
+	# Lübeck
+	c:LUB = {
+		create_trade_route = {
+			goods = iron
+			level = 1
+			direction = import
+			origin = c:LUB.market
+			target = c:PRU.market
+		}	
+		create_trade_route = {
+			goods = tools
+			level = 1
+			direction = export
+			origin = c:LUB.market
+			target = c:PRU.market
+		}
+	}
+	
+	# Prussia
+	c:PRU = {
+		create_trade_route = {
+			goods = fabric
+			level = 3
+			direction = import
+			origin = c:PRU.market
+			target = c:RUS.market
+		}	
+		create_trade_route = {
+			goods = manowars
+			level = 1
+			direction = import
+			origin = c:PRU.market
+			target = c:NET.market
+		}	
+		create_trade_route = {
+			goods = coffee
+			level = 1
+			direction = import
+			origin = c:PRU.market
+			target = c:NET.market
+		}	
+		create_trade_route = {
+			goods = wine
+			level = 1
+			direction = import
+			origin = c:PRU.market
+			target = c:FRA.market
+		}
+		create_trade_route = {
+			goods = dye
+			level = 4
+			direction = import
+			origin = c:PRU.market
+			target = c:GBR.market
+		}			
+		create_trade_route = {
+			goods = luxury_clothes
+			level = 4
+			direction = import
+			origin = c:PRU.market
+			target = c:GBR.market
+		}			
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			origin = c:PRU.market
+			target = c:GBR.market
+		}	
+		create_trade_route = {
+			goods = sugar
+			level = 3
+			direction = import
+			origin = c:PRU.market
+			target = c:NET.market
+		}		
+		create_trade_route = {
+			goods = iron
+			level = 1
+			direction = import
+			origin = c:PRU.market
+			target = c:SWE.market
+		}			
+	}	
+	
+	# Belgium
+	c:BEL = {
+		create_trade_route = {
+			goods = fertilizer
+			level = 1
+			direction = export
+			origin = c:BEL.market
+			target = c:FRA.market
+		}	
+		create_trade_route = {
+			goods = dye
+			level = 1
+			direction = import
+			origin = c:BEL.market
+			target = c:GBR.market
+		}
+		create_trade_route = {
+			goods = luxury_clothes
+			level = 1
+			direction = import
+			origin = c:BEL.market
+			target = c:FRA.market
+		}
+		create_trade_route = {
+			goods = sulfur
+			level = 1
+			direction = import
+			origin = c:BEL.market
+			target = c:PRU.market
+		}
+		create_trade_route = {
+			goods = sugar
+			level = 1
+			direction = import
+			origin = c:BEL.market
+			target = c:SPA.market
+		}	
+		create_trade_route = {
+			goods = coffee
+			level = 1
+			direction = import
+			origin = c:BEL.market
+			target = c:POR.market
+		}	
+		create_trade_route = {
+			goods = engines
+			level = 1
+			direction = import
+			origin = c:BEL.market
+			target = c:GBR.market
+		}
+		create_trade_route = {
+			goods = clippers
+			level = 1
+			direction = import
+			origin = c:BEL.market
+			target = c:GBR.market
+		}		
+	}
+	
+	# France
+	c:FRA = {
+		create_trade_route = {
+			goods = wood
+			level = 10
+			direction = import
+			origin = c:FRA.market
+			target = c:RUS.market
+		}	
+		create_trade_route = {
+			goods = fabric
+			level = 10
+			direction = import
+			origin = c:FRA.market
+			target = c:USA.market
+		}	
+		create_trade_route = {
+			goods = silk
+			level = 3
+			direction = import
+			origin = c:FRA.market
+			target = c:CHI.market
+		}		
+		create_trade_route = {
+			goods = sugar
+			level = 3
+			direction = import
+			origin = c:FRA.market
+			target = c:SPA.market
+		}
+		create_trade_route = {
+			goods = dye
+			level = 4
+			direction = import
+			origin = c:FRA.market
+			target = c:NET.market
+		}	
+		create_trade_route = {
+			goods = dye
+			level = 4
+			direction = import
+			origin = c:FRA.market
+			target = c:POR.market
+		}	
+		create_trade_route = {
+			goods = dye
+			level = 1
+			direction = import
+			origin = c:USA.market
+			target = c:MEX.market
+		}		
+		create_trade_route = {
+			goods = sulfur
+			level = 1
+			direction = import
+			origin = c:FRA.market
+			target = c:SIC.market
+		}
+		create_trade_route = {
+			goods = engines
+			level = 1
+			direction = import
+			origin = c:FRA.market
+			target = c:GBR.market
+		}		
+		create_trade_route = {
+			goods = steel
+			level = 4
+			direction = import
+			origin = c:FRA.market
+			target = c:BEL.market
+		}			
+	}
+
+	# Netherlands
+	c:NET = {
+		create_trade_route = {
+			goods = wood
+			level = 4
+			direction = import
+			origin = c:NET.market
+			target = c:SWE.market
+		}
+		create_trade_route = {
+			goods = porcelain
+			level = 1
+			direction = import
+			origin = c:NET.market
+			target = c:CHI.market
+		}
+		create_trade_route = {
+			goods = silk
+			level = 1
+			direction = import
+			origin = c:NET.market
+			target = c:CHI.market
+		}			
+		create_trade_route = {
+			goods = small_arms
+			level = 1
+			direction = import
+			origin = c:NET.market
+			target = c:GBR.market
+		}
+		create_trade_route = {
+			goods = artillery
+			level = 1
+			direction = import
+			origin = c:NET.market
+			target = c:GBR.market
+		}			
+	}	
+}
