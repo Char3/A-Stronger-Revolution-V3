@@ -36,7 +36,7 @@ ig_catholic_church = {
 					is_pop_type = clergymen
 					religion = rel:catholic
 				}
-				value = 200
+				value = 300
 			}
 		}	
 		

@@ -1,0 +1,16 @@
+state_trait_armenian_plateau = {
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+
+	modifier = {
+		state_construction_mult = -0.15
+		state_infrastructure_mult = -0.15
+	}
+}
+
+state_trait_south_atlantic_plain = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+	
+	modifier = {
+		building_group_bg_agriculture_throughput_mult = 0.2
+	}
+}

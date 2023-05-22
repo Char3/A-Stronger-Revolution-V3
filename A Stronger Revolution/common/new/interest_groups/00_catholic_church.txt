@@ -1,15 +1,16 @@
-﻿ig_devout = {
-	color = hsv{ 0.50 0.30 0.67 }
+ig_catholic_church = {
+	color = { 170 140 70 }
 	texture = "gfx/interface/icons/ig_icons/devout.dds"
 	
 	ideologies = {
 		ideology_pious
-		ideology_moralist
+		ideology_minority_interests
 		ideology_patriarchal
 	}
 	
 	enable = {
-		always = yes
+		exists = c:USA
+		THIS = c:USA
 	}
 	
 	traits = {
@@ -20,75 +21,67 @@
 	
 	on_enable = {}
 	on_disable = {}
-	on_character_ig_membership = {
-		change_character_religion = scope:interest_group.owner.religion
-	}
-		
 	
 	pop_potential = {
-		has_state_religion = yes
+		religion = rel:catholic
 	}
 	
 	pop_weight = {
-		value = 0	
+		value = 0.1
 
 		add = {
-			desc = "POP_CLERGYMEN"
+			desc = "POP_CLERGY_CATHOLIC"
 			if = {
 				limit = { 
 					is_pop_type = clergymen
+					religion = rel:catholic
 				}
 				value = 200
 			}
 		}	
 		
 		add = {
-			desc = "POP_ARISTOCRATS"
+			desc = "POP_ARISTOCRATS_CATHOLIC"
 			if = {
 				limit = { 
 					is_pop_type = aristocrats
+					religion = rel:catholic
 				}
 				value = 50
 			}
 		}	
 
 		add = {
-			desc = "POP_PEASANTS"
+			desc = "POP_PEASANTS_CATHOLIC"
 			if = {
 				limit = { 
 					is_pop_type = peasants
+					religion = rel:catholic
 				}
 				value = 50
 			}
 		}					
 		
 		add = {
-			desc = "LITERACY_50_60"
+			desc = "POP_owner.religion"	
 			
 			if = {
 				limit = { 
-					NOT = { 
-						is_pop_type = clergymen
-					}
-					literacy_rate >= 0.50
-					literacy_rate < 0.60
+					religion = rel:catholic
 				}
-				add = -2
+				add = 50
 			}
-		}		
+		}					
 
 		add = {
 			desc = "LITERACY_60_70"
 			
 			if = {
 				limit = { 
-					NOT = { 
-						is_pop_type = clergymen
-					}
 					literacy_rate >= 0.60
 					literacy_rate < 0.70
 				}
-				add = -4
+				add = -2
 			}
 		}
 
@@ -97,13 +90,10 @@
 			
 			if = {
 				limit = { 
-					NOT = { 
-						is_pop_type = clergymen
-					}
 					literacy_rate >= 0.70
 					literacy_rate < 0.80
 				}
-				add = -6
+				add = -4
 			}
 		}		
 	
@@ -112,13 +102,10 @@
 			
 			if = {
 				limit = { 
-					NOT = { 
-						is_pop_type = clergymen
-					}
 					literacy_rate >= 0.80
 					literacy_rate < 0.90
 				}
-				add = -8
+				add = -6
 			}
 		}		
 
@@ -127,25 +114,9 @@
 			
 			if = {
 				limit = { 
-					NOT = { 
-						is_pop_type = clergymen
-					}
 					literacy_rate >= 0.90
 				}
-				add = -10
-			}
-		}					
-		
-		multiply = {
-			desc = "LEADER_POPULARITY"
-			scope:interest_group = {
-				leader = {
-					value = popularity
-					multiply = 0.0025
-					add = 1
-					max = 1.25
-					min = 0.75
-				}
+				add = -8
 			}
 		}					
 	}
@@ -202,22 +173,6 @@
 			}
 			add = {
 				value = 0.05
-			}
-		}
-	}
-	
-	# The chance that a commander belonging to this IG takes over leadership when it changes
-	# scope:character is the most popular commander in the IG
-	commander_leader_chance = {
-		value = 0.25
-		if = {
-			limit = {
-				exists = scope:character
-			}
-			multiply = {
-				value = 1
-				add = scope:character.popularity
-				min = 0
 			}
 		}
 	}

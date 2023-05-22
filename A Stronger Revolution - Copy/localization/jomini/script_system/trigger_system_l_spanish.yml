@@ -1,9 +1,0 @@
-﻿l_spanish:
- # [LocEditor:UntranslatedKey] `TRIGGER_LINE_ACTIVE_PASSED`
- # [LocEditor:UntranslatedKey] `TRIGGER_LINE_ACTIVE_FAILED`
- # [LocEditor:UntranslatedKey] `TRIGGER_LINE_ACTIVE_UNDEFINED`
- # [LocEditor:UntranslatedKey] `TRIGGER_LINE_INACTIVE_PASSED`
- # [LocEditor:UntranslatedKey] `TRIGGER_LINE_INACTIVE_FAILED`
- # [LocEditor:UntranslatedKey] `TRIGGER_LINE_INACTIVE_UNDEFINED`
- # [LocEditor:UntranslatedKey] `TRIGGER_LINE_BLOCKER`
- # [LocEditor:UntranslatedKey] `TRIGGER_LINE_UNEVALUATED`

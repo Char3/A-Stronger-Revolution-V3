@@ -1,0 +1,11 @@
+﻿l_english:
+ ig_northern_gentry:0 "Northern Gentry"
+ ig_northern_gentry_desc:0 "The Northern Gentry are the landowners and the northern counterparts of the southern planters, these are more bureaucratically inclined than their southern counterparts, valuing elected political power and positions over the more aristocratic tendancies of the south."
+ ig_small_business:0 "Small Business Owners"
+ ig_small_business_desc:0 "Unlike the rest of the world, Small business owners are the heart of American society and the producer of the majority of the goods any one man in America consumes. The Small Business Owners encourage fraternity within the American nation and are vital to the economy."
+ ig_austrian_autonomists:0 "Austrian Autonomists"
+ ig_austrian_autonomists_desc:0 "A coalition of minorities within the Austrian empire have come together to encourage the creation of a multicultural Austrian empire that accepts their religions and traditions."
+ ig_austrian_autonomists_only_icon:0 "@austrian_autonomists!"
+ ig_catholic_church_only_icon:0 "@catholic_church!"
+ ig_small_business_only_icon:0 "@petty_bourgeoisie!"
+ ig_proletarians_only_icon:0 "@proletarians!"

@@ -2,11 +2,13 @@
 	c:USA = {
 		set_next_election_date = 1836.12.7
 
-		set_tax_level = medium
+		set_tax_level = low
 		
 		effect_starting_technology_tier_1_tech = yes
 		
 		set_market_capital = STATE_NEW_YORK
+		
+		set_variable = monroe_doctrine
 		
 		effect_starting_politics_liberal = yes
 		activate_law = law_type:law_public_schools
@@ -17,14 +19,10 @@
 		activate_law = law_type:law_colonial_resettlement
 		activate_law = law_type:law_right_of_assembly
 		activate_law = law_type:law_serfdom_banned
-		activate_law = law_type:law_consumption_based_taxation
+		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_national_militia
-		activate_law = law_type:law_encourage_migration
+		activate_law = law_type:law_local_police
 		
-		add_taxed_goods = g:liquor
-		add_taxed_goods = g:grain
-		add_taxed_goods = g:tobacco
-
 		set_institution_investment_level = {
 			institution = institution_colonial_affairs
 			level = 2
@@ -35,37 +33,37 @@
 			level = 2
 		}
 
+		set_institution_investment_level = {
+			institution = institution_police
+			level = 2
+		}
+
 		ig:ig_rural_folk = { # Andrew Jackson, Jacksonian Democracy & Populism
 			add_ruling_interest_group = yes
-		}
-		
-		ig:ig_industrialists = { 
-			remove_ideology = ideology_plutocratic
-			add_ideology = ideology_american_industrialism
-		}
-		
-		ig:ig_devout = { 
-			remove_ideology = ideology_moralist
-			add_ideology = ideology_evangelical
-		}
-		
-		ig:ig_armed_forces = { 
-			remove_ideology = ideology_patriotic
-			add_ideology = ideology_american_patriotic
+			remove_ideology = ideology_isolationist
+			add_ideology = ideology_isolationist_expansionism
 		}
 		
 		ig:ig_landowners = { 
 			set_interest_group_name = ig_southern_planters
 			remove_ideology = ideology_paternalistic
 			add_ideology = ideology_republican_paternalistic
+			add_ruling_interest_group = yes
 		}
 
 		ig:ig_devout = {
-			set_interest_group_name = ig_evangelical_church
+			set_interest_group_name = ig_evangelicals
+			remove_ideology = ideology_moralist
+			add_ideology = ideology_evangelical
 		}
 
 		add_journal_entry = { type = je_texas_usa }
-		add_journal_entry = { type = je_quebec_usa }
 		add_journal_entry = { type = je_acw_countdown }
+
+		add_modifier = {
+			name = missouri_compromise
+			years = 50
+			is_decaying = yes
+		}
 	}
 }

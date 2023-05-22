@@ -3,42 +3,20 @@
 	
 	show_in_list = no
 	
-	character_ideology = yes
+	leader_ideology = yes
 	
 	possible = {
 		always = yes
 		
 		scope:interest_group = {
-			NOR = {
-				has_variable = communist_ig_var
-				has_variable = chose_vanguardism
-				has_variable = chose_fascism
-				has_variable = chose_conservatism
-				has_variable = chose_ethno_nationalism
-			}
+			NOT = { has_variable = chose_fascism } #fascism_events.1
+			NOT = { has_variable = chose_ethno_nationalism } #fascism_events.6
+			NOT = { has_variable = chose_conservatism } #fascism_events.4
 		}
 	}
 	
 	leader_weight = {
-		value = 300	
-		# angry IG's more likely to have opinions
-		if = {
-			limit = {
-				scope:interest_group = {
-					ig_approval < -5
-				}
-			}
-			add = -200
-		}
-		# what makes a man turn neutral? lust for gold? power? or were you just born with a heart full of neutrality?
-		if = {
-			limit = {
-				scope:interest_group = {
-					ig_approval = 0
-				}
-			}
-			add = 1
-		}
+		value = 100		
 	}
 }
 
@@ -46,7 +24,7 @@
 ideology_traditionalist = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_traditionalist.dds"
 	
-	character_ideology = yes
+	leader_ideology = yes
 	
 	lawgroup_rights_of_women = {
 		law_no_womens_rights = approve
@@ -84,34 +62,13 @@ ideology_traditionalist = {
 	
 	leader_weight = {
 		value = 100
-		# less likely for unions
-		if = {
-			limit = {
-				scope:interest_group = {
-					is_interest_group_type = ig_trade_unions
-				}
-			}
-			add = -75
-		}
-		# more likely for landowners and devout
-		if = {
-			limit = {
-				scope:interest_group = {
-					OR = {
-						is_interest_group_type = ig_landowners
-						is_interest_group_type = ig_devout
-					}
-				}
-			}
-			add = 50
-		}
 	}
 }
 
 ideology_atheist = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_atheist.dds"
 	
-	character_ideology = yes
+	leader_ideology = yes
 	
 	lawgroup_governance_principles = {
 		law_theocracy = strongly_disapprove
@@ -128,9 +85,6 @@ ideology_atheist = {
 	}
 	
 	possible = {
-		owner = {
-			has_technology_researched = egalitarianism
-		}
 		scope:interest_group = {
 			OR = {
 				is_interest_group_type = ig_trade_unions
@@ -152,37 +106,13 @@ ideology_atheist = {
 	
 	leader_weight = {
 		value = 100
-		# this is not very relevant if you're a republic with religious freedom
-		if = { 
-			limit = {
-				owner = {
-					NOR = {
-						has_law = law_type:law_state_religion
-						has_law = law_type:law_theocracy
-						has_law = law_type:law_monarchy
-					}
-				}
-			}
-			add = -75
-		}
-		# will emerge to counter a powerful Devout IG
-		if = {
-			limit = {
-				owner = {
-					ig:ig_devout = {
-						is_powerful = yes
-					}
-				}
-			}
-			add = 75
-		}
 		if = {
 			limit = { 
 				scope:interest_group = { 
 					has_variable = nihilism_var 
 				}
 			}
-			add = 150
+			add = 100
 		}
 		if = {
 			limit = { 
@@ -195,15 +125,16 @@ ideology_atheist = {
 	}
 }
 
+# TODO rename either this or IG Republican ideology
 ideology_republican_leader = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_republican.dds"
 	
-	character_ideology = yes
+	leader_ideology = yes
 	
 	lawgroup_governance_principles = {
 		law_presidential_republic = approve
 		law_parliamentary_republic = approve
-		law_council_republic = neutral
+		law_council_republic = disapprove
 		law_monarchy = disapprove
 		law_theocracy = disapprove
 	}
@@ -212,6 +143,13 @@ ideology_republican_leader = {
 		law_elected_bureaucrats = approve
 		law_appointed_bureaucrats = neutral
 		law_hereditary_bureaucrats = disapprove
+	}
+	
+	lawgroup_free_speech = {
+		law_protected_speech = approve
+		law_right_of_assembly = approve
+		law_censorship = neutral
+		law_outlawed_dissent = strongly_disapprove
 	}
 	
 	possible = {
@@ -236,45 +174,19 @@ ideology_republican_leader = {
 	
 	leader_weight = {
 		value = 100
-		# not very relevant if issues are already addressed
-		if = {
-			limit = {
-				owner = {
-					NOR = { 
-						has_law = law_type:law_monarchy
-						has_law = law_type:law_theocracy
-						has_law = law_type:law_hereditary_bureaucrats
-					}
-				}
-			}
-			add = -75
-		}
-		# more likely if the IG is unhappy with the monarchy
-		if = {
-			limit = {
-				owner = {
-					has_law = law_type:law_monarchy
-				}
-				scope:interest_group = {
-					ig_approval < 0
-				}
-			}
-			add = 75
-		}
 	}
 }
 
 ideology_radical = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_radical.dds"
 	
-	character_ideology = yes
+	leader_ideology = yes
 	
 	lawgroup_distribution_of_power = {
 		law_universal_suffrage = strongly_approve
 		law_census_voting = approve
 		law_wealth_voting = neutral
 		law_landed_voting = disapprove
-		law_anarchy = strongly_disapprove
 		law_oligarchy = strongly_disapprove
 		law_autocracy = strongly_disapprove
 	}
@@ -318,79 +230,19 @@ ideology_radical = {
 	leader_weight = {
 		value = {
 			value = 100
-			# more likely if issues are relevant and people are angry
-			if = {
-				limit = {
-					owner = {
-						OR = {
-							has_law = law_type:law_national_guard
-							has_law = law_type:law_secret_police
-							has_law = law_type:law_outlawed_dissent
-							has_law = law_type:law_autocracy
-							has_law = law_type:law_oligarchy
-						}
-						any_scope_state = {
-							is_incorporated = yes
-							turmoil >= 0.25
-						}
-					}
-				}
-				add = 100
-			}
-			if = {
-				limit = {
-					owner = {
-						OR = {
-							has_law = law_type:law_censorship
-							has_law = law_type:law_landed_voting
-						}
-						any_scope_state = {
-							is_incorporated = yes
-							turmoil >= 0.5
-						}
-					}
-				}
-				add = 50
-			}
-			# less likely if issues are not relevant
-			if = {
-				limit = {
-					owner = {
-						NOR = {
-							has_law = law_type:law_national_guard
-							has_law = law_type:law_secret_police
-							has_law = law_type:law_outlawed_dissent
-							has_law = law_type:law_autocracy
-							has_law = law_type:law_oligarchy
-						}
-					}
-				}
-				add = -75
-			}
-			# very unlikely for trade unions after socialism is researched
-			if = {
-				limit = {
-					scope:interest_group = {
-						is_interest_group_type = ig_trade_unions
-					}
-					owner = {
-						has_technology_researched = socialism
-					}
-				}
-				add = -200
-			}
 			if = {
 				limit = {
 					owner = {
 						has_global_variable = peoples_springtime_happening
 						OR = {
 							capital.region = sr:region_north_germany
+							capital.region = sr:region_north_germany
 							capital.region = sr:region_south_germany
 							capital.region = sr:region_england
 							capital.region = sr:region_iberia
-							capital.region = sr:region_france
-							capital.region = sr:region_occitania
-							capital.region = sr:region_rhine
+							capital.region = sr:region_north_france
+							capital.region = sr:region_south_france 
+							capital.region = sr:region_rhine_basin
 							capital.region = sr:region_italy	
 							capital.region = sr:region_poland
 							capital.region = sr:region_danubia
@@ -422,7 +274,7 @@ ideology_radical = {
 ideology_reformer = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_reformer.dds"
 	
-	character_ideology = yes
+	leader_ideology = yes
 	
 	lawgroup_citizenship = {
 		law_ethnostate = strongly_disapprove
@@ -445,6 +297,13 @@ ideology_reformer = {
 		law_compulsory_primary_school = approve
 	}
 	
+	lawgroup_free_speech = {
+		law_protected_speech = approve
+		law_right_of_assembly = strongly_approve
+		law_censorship = disapprove
+		law_outlawed_dissent = strongly_disapprove
+	}
+	
 	possible = {
 		owner = {
 			has_technology_researched = egalitarianism
@@ -464,59 +323,13 @@ ideology_reformer = {
 	
 	leader_weight = {
 		value = 100
-		# less likely when issues are not relevant
-		if = {
-			limit = {
-				owner = {
-					NOR = {
-						has_law = law_type:law_ethnostate
-						has_law = law_type:law_national_supremacy
-						has_law = law_type:law_racial_segregation
-						has_law = law_type:law_no_womens_rights
-						has_law = law_type:law_child_labor_allowed
-					}
-				}
-			}
-			add = -100
-		}
-		# less likely among more progressive IG's if they're angry and socialism is researched
-		if = {
-			limit = {
-				owner = {
-					has_technology_researched = socialism
-				}
-				scope:interest_group = {
-					OR = {
-						is_interest_group_type = ig_intelligentsia
-						is_interest_group_type = ig_trade_unions
-					}
-					ig_approval < 0
-				}
-			}
-			add = -75
-		}
-		# more likely when issues are relevant
-		if = {
-			limit = {
-				owner = {
-					OR = {
-						has_law = law_type:law_ethnostate
-						has_law = law_type:law_national_supremacy
-						has_law = law_type:law_racial_segregation
-						has_law = law_type:law_no_womens_rights
-						has_law = law_type:law_child_labor_allowed
-					}
-				}
-			}
-			add = 50
-		}
 	}
 }
 
 ideology_feminist = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_womens_liberation.dds"
 	
-	character_ideology = yes
+	leader_ideology = yes
 	
 	lawgroup_rights_of_women = {
 		law_womens_suffrage = strongly_approve
@@ -550,25 +363,6 @@ ideology_feminist = {
 	leader_weight = {
 		value = {
 			value = 100
-			 # less likely if issues are not relevant
-			if = {
-				limit = {
-					owner = {
-						OR = {
-							has_law = law_type:law_womens_suffrage
-							AND = {
-								has_law = law_type:law_women_in_the_workplace
-								OR = {
-									has_law = law_type:law_oligarchy
-									has_law = law_type:law_autocracy
-								}
-							}
-						}
-					}
-				}
-				add = -100
-			}
-			# more likely if character is a woman after mass propaganda
 			if = {
 				limit = {
 					owner = { has_technology_researched = mass_propaganda }
@@ -578,7 +372,6 @@ ideology_feminist = {
 					value = 2
 				}
 			}
-			# more likely with limited women's rights
 			if = {
 				limit = {
 					owner = { 
@@ -596,10 +389,33 @@ ideology_feminist = {
 	}
 }
 
+# Superceded by Traditionalist for now
+#ideology_anti_suffragist = {
+#	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_patriarchal.dds"
+#	
+#	leader_ideology = yes
+#	
+#	lawgroup_rights_of_women = {
+#		law_no_womens_rights = strongly_approve
+#		law_women_own_property = neutral
+#		law_women_in_the_workplace = disapprove
+#		law_womens_suffrage = strongly_disapprove
+#	}
+#	
+#	possible = {
+#		owner = { has_technology_researched = political_agitation }
+#		# Any Interest Group
+#	}
+#	
+#	leader_weight = {
+#		value = 100
+#	}
+#}
+
 ideology_abolitionist = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_abolitionist.dds"
 	
-	character_ideology = yes
+	leader_ideology = yes
 	
 	lawgroup_slavery = {
 		law_slavery_banned = strongly_approve
@@ -617,13 +433,13 @@ ideology_abolitionist = {
 	
 	# Character scope
 	possible = {
-		owner = { 
-			OR = {
-				NOT = { has_law = law_type:law_slavery_banned }
-				has_law = law_type:law_serfdom
-			}
-		}
 		scope:interest_group = { 
+			owner = { 
+				OR = {
+					NOT = { has_law = law_type:law_slavery_banned }
+					has_law = law_type:law_serfdom
+				}
+			}
 			OR = {
 				is_interest_group_type = ig_trade_unions
 				is_interest_group_type = ig_intelligentsia
@@ -645,35 +461,28 @@ ideology_abolitionist = {
 	
 	leader_weight = {
 		value = 100
+		
 		if = {
 			limit = { scope:interest_group = { is_interest_group_type = ig_trade_unions } }
-			add = 150
+			add = 100
 		}	
+		
 		if = {
 			limit = { scope:interest_group = { is_interest_group_type = ig_intelligentsia } }
-			add = 150
+			add = 100
 		}		
+
 		if = {
 			limit = { has_trait = tactful }
-			add = 75
-		}
-		if = {
-			limit = {
-				exists = c:USA
-				owner = { 
-					c:USA = THIS 
-					NOT = { has_variable = csa_will_spawn_var }
-				}
-			}
-			add = 100
-		}
+			add = 50
+		}		
 	}
 }
 
 ideology_slaver = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_slaver.dds"
 	
-	character_ideology = yes
+	leader_ideology = yes
 	
 	lawgroup_slavery = {
 		law_slave_trade = strongly_approve
@@ -683,11 +492,6 @@ ideology_slaver = {
 	}
 	
 	possible = {
-		owner = { 
-			NOT = {
-				has_law = law_type:law_slavery_banned 
-			}
-		}
 		scope:interest_group = { 
 			OR = {
 				is_interest_group_type = ig_landowners
@@ -708,67 +512,47 @@ ideology_slaver = {
 	
 	leader_weight = {
 		value = 50
-		if = {
-			limit = {
-				owner = {
-					has_law = law_type:law_slavery_banned
-				}
-			}
-			add = -1000
-		}
+		
 		if = {
 			limit = {
 				exists = c:HAI
 				owner = { c:HAI = THIS }
 			}
 			add = -1000
-		}		
+		}
+		
 		if = {
 			limit = { scope:interest_group = { is_interest_group_type = ig_landowners } }
-			add = 500
-		}
+			add = 250
+		}	
+
 		if = {
 			limit = { has_trait = cruel }
-			add = 75
-		}		
+			add = 50
+		}	
+		
 		if = {
 			limit = { has_trait = bigoted }
-			add = 75
-		}
-		if = {
-			limit = {
-				exists = c:USA
-				owner = { c:USA = THIS }
-			}
-			add = 100
-		}
-		if = { # very difficult to reintroduce slavery once you ban it and its supporters have faded from the political scene
-			limit = {
-				owner = {
-					NOT = { has_law = law_type:law_slavery_banned }
-				}
-			}
-			multiply = 0.1
+			add = 50
 		}	
+		
+		if = {
+			limit = { owner = { has_law = law_type:law_slavery_banned } }
+			multiply = 0.1
+		}
 	}
 }
 
 ideology_pacifist = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_pacifist.dds"
 	
-	character_ideology = yes
+	leader_ideology = yes
 
 	lawgroup_army_model = {
 		law_national_militia = approve
 		law_professional_army = disapprove
-		law_peasant_levies = disapprove
-		law_mass_conscription = disapprove
-	}
-
-	lawgroup_colonization = {		
-		law_no_colonial_affairs = approve
-		law_colonial_resettlement = strongly_disapprove
-		law_colonial_exploitation = strongly_disapprove
+		law_peasant_levies = strongly_disapprove
+		law_mass_conscription = strongly_disapprove
 	}
 	
 	possible = {
@@ -791,66 +575,14 @@ ideology_pacifist = {
 	
 	leader_weight = {
 		value = 100
-		# emerges to counter powerful armed forces
-		if = {
-			limit = {
-				owner = {
-					ig:ig_armed_forces = {
-						is_powerful = yes
-					}
-				}
-			}
-			add = 50
-		}
-		# less likely if issues are not relevant
-		if = {
-			limit = {
-				owner = {
-					NOR = {
-						has_law = law_type:law_colonial_resettlement
-						has_law = law_type:law_colonial_exploitation
-						has_law = law_type:law_peasant_levies
-						has_law = law_type:law_mass_conscription
-					}
-				}
-			}
-			add = -75
-		}
-		# more likely if a war you started isn't going well
-		if = {
-			limit = {
-				owner = {
-					is_at_war = yes
-					any_scope_war = {
-						attacker_warleader = { this = ROOT.owner }
-						has_war_support = {
-							target = root.owner
-							value < 0
-						}
-					}
-				}
-			}
-			add = 100
-		}
-		# more likely with devastation in incorporated states
-		if = {
-			limit = {
-				owner = {
-					any_scope_state = {
-						is_incorporated = yes
-						devastation > 20
-					}
-				}
-			}
-			add = 50
-		}
 	}
 }
 
+# TODO rename either this or IG Jingoist ideology
 ideology_jingoist_leader = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_jingoist.dds"
 	
-	character_ideology = yes
+	leader_ideology = yes
 	
 	lawgroup_army_model = {
 		law_mass_conscription = strongly_approve
@@ -858,18 +590,13 @@ ideology_jingoist_leader = {
 		law_national_militia = neutral
 		law_peasant_levies = disapprove
 	}
-
-	lawgroup_colonization = {		
-		law_no_colonial_affairs = neutral
-		law_colonial_resettlement = approve
-		law_colonial_exploitation = strongly_approve
-	}
 	
 	possible = {
 		scope:interest_group = {
 			NOR = {
 				is_interest_group_type = ig_armed_forces
 				is_interest_group_type = ig_rural_folk
+				is_interest_group_type = ig_proletarians
 			}
 		}
 		scope:interest_group = {
@@ -885,50 +612,13 @@ ideology_jingoist_leader = {
 	
 	leader_weight = {
 		value = 100
-		# less likely if issues are not relevant
 		if = {
 			limit = {
-				owner = {
-					has_law = law_type:law_colonial_exploitation
-					has_law = law_type:law_mass_conscription
+				scope:interest_group = {
+					is_interest_group_type = ig_proletarians
 				}
 			}
-			add = -75
-		}
-		# more likely if there's something to colonize nearby
-		if = {
-			limit = {
-				any_country = {
-					is_country_type = decentralized
-					has_overlapping_interests = ROOT.owner
-				}
-			}
-			add = 75
-		}
-		# more likely if you border a rival
-		if = {
-			limit = {
-				owner = {
-					any_rival_country = {
-						any_neighbouring_state = {
-							owner = root.owner
-						}
-					}
-				}
-			}
-			add = 50
-		}
-		# more likely if you're the defender in a war
-		if = {
-			limit = {
-				owner = {
-					is_at_war = yes
-					any_scope_war = {
-						defender_warleader = { this = ROOT.owner }
-					}
-				}
-			}
-			add = 50
+			multiply = 0.5
 		}
 	}
 }
@@ -936,7 +626,7 @@ ideology_jingoist_leader = {
 ideology_royalist = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_royalist.dds"
 	
-	character_ideology = yes
+	leader_ideology = yes
 
 	lawgroup_governance_principles = {
 		law_monarchy = strongly_approve
@@ -947,15 +637,6 @@ ideology_royalist = {
 	}
 	
 	possible = {
-		# no monarchists in countries with strong republican tradition
-		owner = {
-			NOR = {
-				any_interest_group = {
-					has_ideology = ideology_republican_paternalistic
-				}
-				has_variable = monarchy_stamped_out_var
-			}
-		}
 		scope:interest_group = { 
 			OR = {
 				is_interest_group_type = ig_devout
@@ -977,46 +658,77 @@ ideology_royalist = {
 	
 	leader_weight = {
 		value = 100
-		# less likely in a theocracy
-		if = {
-			limit = {
-				owner = {
-					has_law = law_type:law_theocracy
-				}
-			}
-			add = -75
+	}
+}
+
+ideology_bonapartist = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_royalist.dds"
+	
+	leader_ideology = yes
+
+	lawgroup_governance_principles = {
+		law_monarchy = strongly_approve
+		law_presidential_republic = disapprove
+		law_parliamentary_republic = disapprove
+		law_theocracy = disapprove
+		law_council_republic = strongly_disapprove
+	}
+	
+	lawgroup_distribution_of_power = {
+		law_universal_suffrage = strongly_disapprove
+		law_census_voting = disapprove
+		law_wealth_voting = neutral
+		law_landed_voting = neutral
+		law_oligarchy = approve
+		law_autocracy = strongly_approve		
+	}	
+	
+	possible = {
+		exists = c:FRA
+		owner = c:FRA
+		OR = { 
+			owner = { NOT = { has_technology_researched = pan-nationalism } } # Bonapartism should start disappearing in the mid-19th century
+			owner = { ruler = { has_variable = is_louis_napoleon }	}
 		}
-		# less likely if IG is happy in a republic
-		if = {
-			limit = {
-				owner = {
-					NOT = { has_law = law_type:law_monarchy }
-				}
-				scope:interest_group = {
-					ig_approval > 0
-				}
+		scope:interest_group = { 
+			OR = {
+				is_interest_group_type = ig_armed_forces
+				is_interest_group_type = ig_landowners
+				is_interest_group_type = ig_industrialists
+				is_interest_group_type = ig_petty_bourgeoisie
 			}
-			add = -100
-		}
-		# more likely if IG is happy in a monarchy
-		if = {
-			limit = {
-				owner = {
-					has_law = law_type:law_monarchy
-				}
-				scope:interest_group = {
-					ig_approval > 5
-				}
+		}	
+		scope:interest_group = {
+			NOR = {
+				has_variable = communist_ig_var
+				has_variable = chose_vanguardism
+				has_variable = chose_fascism
+				has_variable = chose_conservatism
+				has_variable = chose_ethno_nationalism
 			}
-			add = 50
-		}
+		}		
+	}
+	
+	leader_weight = {
+		value = {
+			value = 50
+			if = {
+				limit = {
+					owner = { 
+						exists = ruler
+						ruler = { has_variable = is_louis_napoleon } 
+					}
+				}
+				multiply = 2
+			}
+		}		
 	}
 }
 
 ideology_social_democrat = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_social_democrat.dds"
 	
-	character_ideology = yes
+	leader_ideology = yes
 
 	lawgroup_labor_rights = {		
 		law_worker_protections = strongly_approve
@@ -1041,13 +753,12 @@ ideology_social_democrat = {
 		law_per_capita_based_taxation = neutral
 		law_proportional_taxation = approve
 		law_graduated_taxation = strongly_approve
-	}
-
-	lawgroup_welfare = {
-		law_poor_laws = strongly_disapprove
-		law_no_social_security = strongly_disapprove
-		law_wage_subsidies = approve
-		law_old_age_pension = strongly_approve
+	}	
+	
+	lawgroup_church_and_state = {
+		law_state_religion = neutral
+		law_freedom_of_conscience = approve
+		law_total_separation = neutral
 	}
 
 	possible = {
@@ -1074,74 +785,13 @@ ideology_social_democrat = {
 	
 	leader_weight = {
 		value = 100
-		# very angry IG's more likely to turn to more radical socialism
-		if = {
-			limit = {
-				scope:interest_group = {
-					NOT = { is_interest_group_type = ig_devout } # can't be radical socialists
-					ig_approval <= -5
-				}
-			}
-			add = -75
-		}
-		# more likely when issues are relevant
-		if = {
-			limit = {
-				owner = {
-					NAND = {
-						has_law = law_type:law_graduated_taxation
-						has_law = law_type:law_universal_suffrage
-						has_law = law_type:law_worker_protections
-					}
-				}
-			}
-			add = 50
-		}
-		# more likely for content devout in council republic
-		if = {
-			limit = {
-				scope:interest_group = {
-					is_interest_group_type = ig_devout
-					ig_approval >= 0
-				}
-				owner = {
-					has_law = law_type:law_council_republic
-				}
-			}
-			add = 75
-		}
-		# more likely for content trade unions outside of council republic
-		if = {
-			limit = {
-				scope:interest_group = {
-					is_interest_group_type = ig_devout
-					ig_approval >= 0
-				}
-				owner = {
-					NOT = { has_law = law_type:law_council_republic }
-				}
-			}
-			add = 75
-		}
-		# extremely unlikely for trade unions in council republic
-		if = {
-			limit = {
-				scope:interest_group = {
-					is_interest_group_type = ig_trade_unions
-				}
-				owner = {
-					has_law = law_type:law_council_republic
-				}
-			}
-			multiply = 0.01
-		}
 	}
 }
 
 ideology_communist = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_communist.dds"
 	
-	character_ideology = yes
+	leader_ideology = yes
 
 	lawgroup_labor_rights = {		
 		law_worker_protections = strongly_approve
@@ -1157,12 +807,6 @@ ideology_communist = {
 		law_theocracy = strongly_disapprove
 		law_council_republic = strongly_approve
 	}
-
-	lawgroup_church_and_state = {
-		law_state_religion = strongly_disapprove
-		law_freedom_of_conscience = neutral
-		law_total_separation = approve
-	}
 	
 	possible = {
 		owner = { has_technology_researched = socialism }
@@ -1172,6 +816,7 @@ ideology_communist = {
 				is_interest_group_type = ig_intelligentsia
 				is_interest_group_type = ig_trade_unions
 				is_interest_group_type = ig_armed_forces
+				is_interest_group_type = ig_proletarians
 			}
 		}
 		scope:interest_group = {
@@ -1186,42 +831,27 @@ ideology_communist = {
 	}
 	
 	leader_weight = {
-		# More likely for angry IG's outside of council republic
-		if = {
-			limit = {
-				owner = {
-					NOT = { has_law = law_type:law_council_republic }
-				}
-				scope:interest_group = {
-					NOT = { is_interest_group_type = ig_armed_forces }
-					ig_approval <= -5
-				}
-			}
-			add = 100
-		}
-		# More likely when SoL is low outside of council republic
-		if = {
-			limit = {
-				owner = {
-					NOT = { has_law = law_type:law_council_republic }
-					average_sol <= 10
-				}
-			}
-			add = 50
-		}
 		value = {
 			value = 100
 			if = {
 				limit = {
-					owner = { has_variable = communism_1_done }
+					has_variable = communism_1_done
 				}
 				multiply = 3
 			}
 			if = {
 				limit = {
-					owner = { has_variable = election_communist_support }
+					has_variable = election_communist_support
 				}
 				multiply = 2
+			}
+			if = {
+				limit = {
+					scope:interest_group = {
+						is_interest_group_type = ig_proletarians
+					}
+				}
+				multiply = 1.5
 			}
 		}
 	}
@@ -1230,7 +860,7 @@ ideology_communist = {
 ideology_vanguardist = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_vanguardist.dds"
 	
-	character_ideology = yes
+	leader_ideology = yes
 
 	lawgroup_governance_principles = {
 		law_monarchy = strongly_disapprove
@@ -1266,13 +896,14 @@ ideology_vanguardist = {
 	}				
 	
 	possible = {
-		owner = { has_technology_researched = socialism }
+		owner = { has_technology_researched = political_agitation }
 		scope:interest_group = {
 			OR = {
 				is_interest_group_type = ig_rural_folk
 				is_interest_group_type = ig_intelligentsia
 				is_interest_group_type = ig_trade_unions
 				is_interest_group_type = ig_armed_forces
+				is_interest_group_type = ig_proletarianss
 			}
 		}
 		scope:interest_group = {
@@ -1287,94 +918,28 @@ ideology_vanguardist = {
 	}
 	
 	leader_weight = {
-		value = 100
-		# More likely for angry IG's outside of council republic
-		if = {
-			limit = {
-				owner = {
-					NOT = { has_law = law_type:law_council_republic }
+		value = {
+			value = 100
+			if = {
+				limit = {
+					has_variable = communism_1_done
 				}
-				scope:interest_group = {
-					ig_approval <= -5
-					NOT = { is_interest_group_type = ig_armed_forces }
-				}
+				multiply = 3
 			}
-			add = 100
-		}
-		# More likely when SoL is low outside of council republic
-		if = {
-			limit = {
-				owner = {
-					NOT = { has_law = law_type:law_council_republic }
-					average_sol <= 10
+			if = {
+				limit = {
+					has_variable = election_vanguardist_support
 				}
+				multiply = 2
 			}
-			add = 50
-		}
-		# More likely in an autocracy
-		if = {
-			limit = {
-				owner = {
-					OR = {
-						has_law = law_type:law_autocracy
-						has_law = law_type:law_oligarchy
+			if = {
+				limit = {
+					scope:interest_group = {
+						is_interest_group_type = ig_proletarians
 					}
 				}
+				multiply = 1.5
 			}
-			add = 50
-		}
-		# Unlikely for content IG's under anarchism
-		if = {
-			limit = {
-				owner = {
-					has_law = law_type:law_anarchy
-				}
-				scope:interest_group = {
-					ig_approval >= 5
-				}
-			}
-			add = -100
-		}
-		# Extremely likely for content Armed Forces in Council Republic
-		if = {
-			limit = {
-				owner = {
-					has_law = law_type:law_council_republic
-				}
-				scope:interest_group = {
-					is_interest_group_type = ig_armed_forces
-					ig_approval >= 0
-				}
-			}
-			add = 1000
-		}
-		# Power corrupts
-		if = {
-			limit = {
-				owner = {
-					has_law = law_type:law_council_republic
-					OR = {
-						has_law = law_type:law_autocracy
-						has_law = law_type:law_oligarchy
-					}
-				}
-				scope:interest_group = {
-					is_in_government = yes
-				}
-			}
-			add = 50
-		}
-		if = {
-			limit = {
-				owner = { has_variable = communism_1_done }
-			}
-			multiply = 3
-		}
-		if = {
-			limit = {
-				owner = { has_variable = election_vanguardist_support }
-			}
-			multiply = 2
 		}
 	}
 }
@@ -1382,16 +947,15 @@ ideology_vanguardist = {
 ideology_fascist = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_fascist.dds"
 	
-	character_ideology = yes
+	leader_ideology = yes
 
 	lawgroup_distribution_of_power = {
-		law_autocracy = strongly_approve
-		law_oligarchy = neutral
-		law_anarchy = strongly_disapprove
 		law_universal_suffrage = strongly_disapprove
 		law_census_voting = strongly_disapprove
 		law_wealth_voting = strongly_disapprove
-		law_landed_voting = strongly_disapprove				
+		law_landed_voting = strongly_disapprove
+		law_oligarchy = neutral
+		law_autocracy = strongly_approve		
 	}
 
 	lawgroup_citizenship = {
@@ -1437,115 +1001,13 @@ ideology_fascist = {
 	
 	leader_weight = {
 		value = 100
-		# More likely if paying war reparations
 		if = {
-			limit = {
-				any_country = {
-					has_diplomatic_pact = {
-						who = root.owner
-						type = war_reparations
-						is_initiator = yes
+				limit = {
+					scope:interest_group = {
+						is_interest_group_type = ig_proletarians
 					}
 				}
-			}
-			add = 50
-		}
-		# More likely with a convenient scapegoat
-		if = {
-			limit = {
-				owner = {
-					any_scope_state = {
-						is_incorporated = yes
-						any_scope_pop = {
-							pop_is_discriminated = yes
-						}
-					}
-				}
-			}
-			add = 50
-		}
-		# more likely if bankrupt
-		if = {
-			limit = {
-				owner = {
-					in_default = yes
-				}
-			}
-			add = 50
-		}
-		# Less likely in council republic
-		if = {
-			limit = {
-				owner = {
-					has_law = law_type:law_council_republic
-				}
-			}
-			add = -75
-		}
-		# more likely if angry non-unions
-		if = {
-			limit = {
-				owner = {
-					NOT = { has_law = law_type:law_ethnostate }
-				}
-				scope:interest_group = {
-					ig_approval <= -5
-					NOT = { is_interest_group_type = ig_trade_unions }
-				}
-			}
-			add = 75
-		}
-		# less likely if content without ethnostate
-		if = {
-			limit = {
-				owner = {
-					NOT = {
-						has_law = law_type:law_ethnostate
-					}
-				}
-				scope:interest_group = {
-					ig_approval <= 5
-				}
-			}
-			add = -75
-		}
-		# more likely for PB and armed forces
-		if = {
-			limit = {
-				scope:interest_group = {
-					is_interest_group_type = ig_petty_bourgeoisie
-					is_interest_group_type = ig_armed_forces
-				}
-			}
-			add = 50
-		}
-		# less likely for unions and intelligentsia
-		if = {
-			limit = {
-				scope:interest_group = {
-					is_interest_group_type = ig_trade_unions
-					is_interest_group_type = ig_intelligentsia
-				}
-			}
-			add = -25
-		}
-		# more likely if in government with ethnostate
-		if = {
-			limit = {
-				owner = {
-					has_law = law_type:law_ethnostate
-					NOR = {
-						is_enacting_law = law_type:law_multicultural
-						is_enacting_law = law_type:law_national_supremacy
-						is_enacting_law = law_type:law_racial_segregation
-						is_enacting_law = law_type:law_cultural_exclusion
-					}
-				}
-				scope:interest_group = {
-					is_in_government = yes
-				}
-			}
-			add = 150
+				multiply = 1.25
 		}
 	}
 }
@@ -1553,7 +1015,7 @@ ideology_fascist = {
 ideology_anarchist = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_anarchist.dds"
 	
-	character_ideology = yes
+	leader_ideology = yes
 
 	lawgroup_distribution_of_power = {
 		law_anarchy = strongly_approve
@@ -1580,10 +1042,10 @@ ideology_anarchist = {
 	}
 
 	lawgroup_policing = {
-		law_no_police = approve
 		law_local_police = disapprove
 		law_dedicated_police = disapprove
 		law_militarized_police = strongly_disapprove
+		law_no_police = approve
 	}
 
 	lawgroup_governance_principles = {
@@ -1615,52 +1077,20 @@ ideology_anarchist = {
 	}
 	
 	leader_weight = {
-		value = 100
-		# More likely for angry IG's outside of council republic
-		if = {
-			limit = {
-				owner = {
-					NOT = { has_law = law_type:law_council_republic }
+		value = {
+			value = 100
+			if = {
+				limit = {
+					has_variable = communism_1_done
 				}
-				scope:interest_group = {
-					ig_approval <= -5
+				multiply = 3
+			}
+			if = {
+				limit = {
+					has_variable = election_anarchist_support
 				}
+				multiply = 2
 			}
-			add = 100
-		}
-		# More likely when SoL is low outside of council republic
-		if = {
-			limit = {
-				owner = {
-					NOT = { has_law = law_type:law_council_republic }
-					average_sol <= 10
-				}
-			}
-			add = 50
-		}
-		# More likely if in "government" under anarchy
-		if = {
-			limit = {
-				owner = {
-					has_law = law_type:law_anarchy
-				}
-				scope:interest_group = {
-					is_in_government = yes
-				}
-			}
-			add = 75
-		}
-		if = {
-			limit = {
-				owner = { has_variable = communism_1_done }
-			}
-			multiply = 3
-		}
-		if = {
-			limit = {
-				owner = { has_variable = election_anarchist_support }
-			}
-			multiply = 2
 		}
 	}
 }
@@ -1668,7 +1098,7 @@ ideology_anarchist = {
 ideology_ethno_nationalist = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_ethno_nationalist.dds" 
 	
-	character_ideology = yes
+	leader_ideology = yes
 
 	lawgroup_citizenship = {
 		law_ethnostate = strongly_approve
@@ -1682,11 +1112,12 @@ ideology_ethno_nationalist = {
 		law_migration_controls = strongly_approve
 		law_closed_borders = approve
 		law_no_migration_controls = disapprove	
+		law_encourage_migration = strongly_disapprove
 	}
 
 	possible = {
 		owner = {
-			has_technology_researched = political_agitation
+			has_technology_researched = nationalism 
 		}
 		scope:interest_group = {
 			NOR = {
@@ -1699,85 +1130,8 @@ ideology_ethno_nationalist = {
 	}
 	
 	leader_weight = {
-		value = 100
-		# More likely with unowned claims
-		if = {
-			limit = {
-				any_state = {
-					has_claim_by = root.owner
-				}
-			}
-			add = 75
-		}
-		# More likely with a convenient scapegoat
-		if = {
-			limit = {
-				owner = {
-					any_scope_state = {
-						is_incorporated = yes
-						any_scope_pop = {
-							pop_is_discriminated = yes
-						}
-					}
-				}
-			}
-			add = 50
-		}
-		# More likely with a convenient scapegoat and is angry without ethnostate
-		if = {
-			limit = {
-				owner = {
-					NOT = { has_law = law_type:law_ethnostate }
-					any_scope_state = {
-						is_incorporated = yes
-						any_scope_pop = {
-							pop_is_discriminated = yes
-						}
-					}
-				}
-				scope:interest_group = {
-					ig_approval <= -5
-				}
-			}
-			add = 75
-		}
-		# More likely if angry and issues are relevant
-		if = {
-			limit = {
-				owner = {
-					NOR = {
-						has_law = law_type:law_ethnostate
-						has_law = law_type:law_national_supremacy
-					}
-				}
-				scope:interest_group = {
-					ig_approval <= -5
-				}
-			}
-			add = 50
-		}
-		# Less likely in council republic
-		if = {
-			limit = {
-				owner = {
-					has_law = law_type:law_council_republic
-				}
-			}
-			add = -75
-		}
-		# less likely if content without ethnostate
-		if = {
-			limit = {
-				owner = {
-					NOT = {
-						has_law = law_type:law_ethnostate
-					}
-				}
-				scope:interest_group = {
-					ig_approval <= 5
-				}
-			}
-			add = -75
+		value = {
+			value = 100
 		}
 	}
 }
@@ -1785,7 +1139,7 @@ ideology_ethno_nationalist = {
 ideology_theocrat = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_theocrat.dds"
 	
-	character_ideology = yes
+	leader_ideology = yes
 
 	lawgroup_church_and_state = {
 		law_state_religion = approve
@@ -1802,14 +1156,6 @@ ideology_theocrat = {
 	}
 	
 	possible = {
-		OR = {
-			owner = {
-				has_law = law_type:law_theocracy
-			}
-			scope:interest_group = {
-				is_interest_group_type = ig_devout
-			}
-		}
 		scope:interest_group = {
 			OR = {
 				is_interest_group_type = ig_rural_folk
@@ -1833,59 +1179,13 @@ ideology_theocrat = {
 	
 	leader_weight = {
 		value = 100
-		# more likely if devout and angry and issues are relevant
-		if = {
-			limit = {
-				scope:interest_group = {
-					ig_approval <= -5
-					is_interest_group_type = ig_devout
-				}
-				owner = {
-					NOR = {
-						has_law = law_type:law_theocracy
-						has_law = law_type:law_monarchy
-					}
-					NOT = {
-						has_law = law_type:law_state_religion
-					}
-				}
-			}
-			add = 75
-		}
-		# More likely for devout
-		if = {
-			limit = {
-				scope:interest_group = {
-					is_interest_group_type = ig_devout
-				}
-			}
-			add = 50
-		}
-		# Unlikely for content IG's when issues aren't relevant
-		if = {
-			limit = {
-				scope:interest_group = {
-					ig_approval >= 5
-				}
-				owner = {
-					NOR = {
-						has_law = law_type:law_theocracy
-						has_law = law_type:law_monarchy
-					}
-					NOT = {
-						has_law = law_type:law_state_religion
-					}
-				}
-			}
-			add = -150
-		}
 	}
 }
 
 ideology_market_liberal = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_market_liberal.dds"
 	
-	character_ideology = yes
+	leader_ideology = yes
 
 	lawgroup_economic_system = {	
 		law_laissez_faire = strongly_approve
@@ -1895,18 +1195,18 @@ ideology_market_liberal = {
 		law_command_economy = strongly_disapprove
 	}
 	
-	lawgroup_childrens_rights = {
-		law_child_labor_allowed = approve
-		law_restricted_child_labor = disapprove
-		law_compulsory_primary_school = strongly_disapprove
-	}	
-	
-	lawgroup_trade_policy = {
-		law_free_trade = strongly_approve
-		law_mercantilism = disapprove
-		law_protectionism = disapprove		
+	lawgroup_trade_policy = {		
+		law_free_trade = strongly_approve	
+		law_mercantilism = neutral
 		law_isolationism = strongly_disapprove
 	}			
+	
+	lawgroup_migration = {
+		law_migration_controls = neutral
+		law_closed_borders = disapprove
+		law_no_migration_controls = neutral	
+		law_encourage_migration = approve
+	}
 
 	possible = {
 		owner = {
@@ -1933,83 +1233,6 @@ ideology_market_liberal = {
 
 	leader_weight = {
 		value = 100
-		# more likely for industrialists
-		if = {
-			limit = {
-				scope:interest_group = {
-					is_interest_group_type = ig_industrialists
-				}
-			}
-			add = 50
-		}
-		# more likely for intelligentsia, industrialists, and PB with traditional economic laws
-		if = {
-			limit = {
-				scope:interest_group = {
-					OR = {
-						is_interest_group_type = ig_petty_bourgeoisie
-						is_interest_group_type = ig_intelligentsia
-						is_interest_group_type = ig_industrialists
-					}
-				}
-				owner = {
-					OR = {
-						has_law = law_type:law_agrarianism
-						has_law = law_type:law_traditionalism
-						has_law = law_type:law_isolationism
-						has_law = law_type:law_mercantilism
-					}
-				}
-			}
-			add = 75
-		}
-		# more likely for weaker landowers when industrialists are powerful
-		if = {
-			limit = {
-				scope:interest_group = {
-					is_interest_group_type = ig_landowners
-					is_powerful = no
-				}
-				owner = {
-					ig:ig_industrialists = {
-						is_powerful = yes
-					}
-				}
-			}
-			add = 75
-		}
-		# less likely for powerful landowners under traditional laws
-		if = {
-			limit = {
-				scope:interest_group = {
-					is_interest_group_type = ig_landowners
-					is_powerful = yes
-				}
-				owner = {
-					OR = {
-						has_law = law_type:law_agrarianism
-						has_law = law_type:law_traditionalism
-					}
-				}
-			}
-			add = -75
-		}
-		# very unlikely in countries without a large urban center
-		if = {
-			limit = {
-				owner = {
-					NOT = {
-						any_scope_state = {
-							any_scope_building = {
-								is_building_type = building_urban_center
-								level >= 10
-							}
-						}
-					}
-				}
-			}
-			add = -150
-		}
 	}
 }
 
@@ -2049,69 +1272,7 @@ ideology_reformist_clergy = {
 	}
 	
 	leader_weight = {
-		value = 75
-		leader_weight = {
-		value = 75
-		# much less likely for more theocratic countries
-		if = {
-			limit = {
-				owner = {
-					has_law = law_type:law_state_religion
-				}
-			}
-			add = -100
-		}
-		# more likely for weaker church when intelligentsia or industrialists are powerful
-		if = {
-			limit = {
-				scope:interest_group = {
-					is_interest_group_type = ig_devout
-					is_powerful = no
-				}
-				OR = {
-					owner = {
-						ig:ig_industrialists = {
-							is_powerful = yes
-						}
-					}
-					owner = {
-						ig:ig_intelligentsia = {
-							is_powerful = yes
-						}
-					}
-				}
-			}
-			add = -75
-		}
-		# less likely for traditionalist countries
-		if = {
-			limit = {
-				owner = {
-					OR = {
-						has_law = law_type:law_agrarianism
-						has_law = law_type:law_traditionalism
-					}
-				}
-			}
-			add = -75
-		}
-		# unlikely in countries without a urban center
-		if = {
-			limit = {
-				owner = {
-					NOT = {
-						any_scope_state = {
-							any_scope_building = {
-								is_building_type = building_urban_center
-								level >= 5
-							}
-						}
-					}
-				}
-			}
-			add = -75
-		}
-	}
+		value = 100
 	}
 }
 
@@ -2147,10 +1308,4 @@ ideology_migrationist = {
 			is_interest_group_type = ig_catholic_church
 		}
 	}
-	
-	leader_weight = {
-		value = 150
-	}
-	
-	
 }

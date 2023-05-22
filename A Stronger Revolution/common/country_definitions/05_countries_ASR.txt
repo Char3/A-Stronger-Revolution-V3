@@ -1,0 +1,10 @@
+﻿USA = {
+	color = { 66  94  193 }
+	
+	country_type = colonial
+	
+	tier = empire
+	
+	cultures = { dixie yankee franco_canadian cajun pennsylvania_dutch }
+	capital = STATE_PENNSYLVANIA
+}

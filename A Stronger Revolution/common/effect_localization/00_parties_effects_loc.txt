@@ -1,3 +1,0 @@
-﻿update_party_support = {
-	global = UPDATE_PARTY_SUPPORT_EFFECT
-}

@@ -1,5 +1,5 @@
 ﻿ig_landowners = {
-	color = hsv{ 0.63 0.40 0.69 }
+	color = { 108 64 179 }
 	texture = "gfx/interface/icons/ig_icons/landowners.dds"
 	
 	ideologies = {
@@ -20,14 +20,12 @@
 	
 	on_enable = {}
 	on_disable = {}
-	on_character_ig_membership = {}
 	
 	pop_potential = {
 		OR = {
 			is_pop_type = aristocrats
 			is_pop_type = clergymen
 			is_pop_type = officers
-			is_pop_type = farmers
 		}		
 	}
 	
@@ -63,17 +61,15 @@
 				value = 50
 			}
 		}	
-
 		add = {
-			desc = "POP_FARMERS"
+			desc = "Is Pennsylvania Dutch"
 			if = {
 				limit = { 
-					is_pop_type = farmers
+					pop_culture = pennsylvania_dutch
 				}
-				value = 50
+				value = -50
 			}
-		}		
-
+		}
 		add = {
 			desc = "Is American"
 			if = {
@@ -81,15 +77,6 @@
 					pop_culture = yankee
 				}
 				value = -20
-			}
-		}
-		add = {
-			desc = "Is Acadian"
-			if = {
-				limit = { 
-					pop_culture = franco_canadian
-				}
-				value = -35
 			}
 		}
 		add = {
@@ -133,19 +120,6 @@
 				value = 0.1
 			}		
 		}
-		
-		multiply = {
-			desc = "LEADER_POPULARITY"
-			scope:interest_group = {
-				leader = {
-					value = popularity
-					multiply = 0.0025
-					add = 1
-					max = 1.25
-					min = 0.75
-				}
-			}
-		}	
 	}
 	
 	monarch_weight = {
@@ -205,18 +179,7 @@
 	}
 	
 	# The chance that a commander belonging to this IG takes over leadership when it changes
-	# scope:character is the most popular commander in the IG
 	commander_leader_chance = {
 		value = 0.5
-		if = {
-			limit = {
-				exists = scope:character
-			}
-			multiply = {
-				value = 1
-				add = scope:character.popularity
-				min = 0
-			}
-		}
-	}
+	}	
 }

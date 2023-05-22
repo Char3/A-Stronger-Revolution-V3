@@ -1,9 +1,0 @@
-﻿l_turkish:
- notification_tooltip_footer:0 "\n\nKapatmak için #instruction sağ tıkla#!"
- proposal_tooltip_footer:0 "\n\nReddetmek için #instruction sağ tıkla#!"
-
- MESSAGE_CLICK_TOOLTIP:0 "[SelectLocalization(FeedMessageItem.IsExpanded,'MESSAGE_CLICK_TO_HIDE','MESSAGE_CLICK_TO_SHOW')]\n$MESSAGE_CLICK_TO_DISMISS$"
- MESSAGE_CLICK_TO_HIDE:0 "#I Gizlemek için tıkla.#!"
- MESSAGE_CLICK_TO_SHOW:0 "#I Göstermek için tıkla.#!"
- MESSAGE_CLICK_TO_DISMISS:0 "#I Kapatmak için sağ tıkla.#!"
- MESSAGE_CLEAR_ALL_TOOLTIP:0 "#I Kapatmak için tıkla. \nHepsini kapatmak için sağ tıkla.#!"

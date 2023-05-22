@@ -179,7 +179,7 @@ ig_austrian_autonomists = {
 	}	
 	
 	commander_weight = {
-		value = 0.5
+		value = 1.0
 	}	
 	
 	noble_chance = {

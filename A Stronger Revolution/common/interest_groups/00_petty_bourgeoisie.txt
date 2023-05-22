@@ -1,5 +1,5 @@
 ﻿ig_petty_bourgeoisie = {
-	color = { 50 60 198 }
+	color = hsv{ 0.65 0.54 0.52 }
 	texture = "gfx/interface/icons/ig_icons/petty_bourgeoisie.dds"
 	
 	ideologies = {
@@ -9,7 +9,7 @@
 	}
 
 	enable = {
-		NOT = { c:USA = ROOT }
+		NOT = { THIS = C:USA }
 	}
 	
 	traits = {
@@ -20,34 +20,24 @@
 	
 	on_enable = {}
 	on_disable = {}	
+	on_character_ig_membership = {}
 	
 	pop_potential = {
 		pop_has_primary_culture = yes
 		NOR = {
 			is_pop_type = aristocrats
 			is_pop_type = capitalists
-			is_pop_type = academics
-			is_pop_type = officers
-		}			
-		NOR = {
-			pop_employment_building_group = bg_agriculture
-			pop_employment_building_group = bg_ranching
-			pop_employment_building_group = bg_plantations
-		}		
+		}
+		OR = {
+			pop_employment_building_group = bg_manufacturing
+			pop_employment_building_group = bg_service
+			pop_employment_building_group = bg_urban_facilities
+			pop_employment_building_group = bg_government
+		}
 	}
 
 	pop_weight = {
-		value = 0
-	
-		add = {
-			desc = "POP_PRIMARY_CULTURE"
-			if = {
-				limit = { 
-					pop_has_primary_culture = yes
-				}
-				value = 75
-			}
-		}
+		value = 75
 	
 		add = {
 			desc = "POP_SHOPKEEPERS"
@@ -68,6 +58,19 @@
 				value = 50
 			}
 		}			
+
+		multiply = {
+			desc = "LEADER_POPULARITY"
+			scope:interest_group = {
+				leader = {
+					value = popularity
+					multiply = 0.0025
+					add = 1
+					max = 1.25
+					min = 0.75
+				}
+			}
+		}		
 
 		multiply = {
 			desc = "decentralized_power"	
@@ -141,7 +144,18 @@
 	}
 	
 	# The chance that a commander belonging to this IG takes over leadership when it changes
+	# scope:character is the most popular commander in the IG
 	commander_leader_chance = {
 		value = 0.25
-	}	
+		if = {
+			limit = {
+				exists = scope:character
+			}
+			multiply = {
+				value = 1
+				add = scope:character.popularity
+				min = 0
+			}
+		}
+	}
 }
